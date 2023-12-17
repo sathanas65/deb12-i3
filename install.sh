@@ -140,7 +140,7 @@ sudo usermod -aG nordvpn $USER
 sh ~/Config/nordconfig.sh
 
 # import dot files
-cp -rT ~/Config/.config ~/.config
+cp -rT ~/Config/config ~/.config
 
 # signal
 wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
