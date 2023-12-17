@@ -134,11 +134,6 @@ sudo apt install -y firefox-esr chromium
 #sudo apt install -y bluez blueman
 #sudo systemctl enable bluetooth
 
-# nordvpn
-sudo sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
-sudo usermod -aG nordvpn $USER
-sh ~/deb12-i3/nordconfig.sh
-
 # import dot files
 cp -rT ~/deb12-i3/config ~/.config
 
@@ -155,6 +150,11 @@ sudo apt update && sudo apt install -y signal-desktop
 
 # kvm/qemu guest agent
 sudo apt install -y spice-vdagent 
+
+# nordvpn
+sudo sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
+sudo usermod -aG nordvpn $USER
+sh ~/deb12-i3/nordconfig.sh
 
 # hypervisor tools
 # sudo apt install -y virt-manager cockpit-machines cockpit-podman
