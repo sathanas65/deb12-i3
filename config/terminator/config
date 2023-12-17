@@ -1,0 +1,19 @@
+[global_config]
+  borderless = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_type = transparent
+    scrollbar_position = hidden
+    title_transmit_bg_color = "#613583"
+    title_receive_bg_color = "#77767b"
+    title_inactive_bg_color = "#3584e4"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
