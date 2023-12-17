@@ -56,7 +56,7 @@ sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa
 
 # enable repos
 sudo apt install -y software-properties-common apt-transport-https curl ca-certificates -y
-sudo apt-add-repository contrib non-free-firmware
+sudo apt-add-repository contrib non-free-firmware -y
 sudo apt update && sudo apt upgrade
 
 # non free codecssudo apt install -y dunst libnotify-bin
