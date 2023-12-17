@@ -152,7 +152,7 @@ sudo apt update && sudo apt install -y signal-desktop
 sudo apt install -y spice-vdagent 
 
 # nordvpn
-sudo sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
+sudo sh <\(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh\)
 sudo usermod -aG nordvpn $USER
 sh ~/deb12-i3/nordconfig.sh
 
