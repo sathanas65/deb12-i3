@@ -135,7 +135,7 @@ sudo apt install -y firefox-esr chromium
 #sudo systemctl enable bluetooth
 
 # nordvpn
-sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
+sudo sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
 sudo usermod -aG nordvpn $USER
 sh ~/deb12-i3/nordconfig.sh
 
