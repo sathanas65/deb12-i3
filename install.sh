@@ -60,7 +60,7 @@ sudo apt-add-repository contrib non-free-firmware -y
 sudo apt update && sudo apt upgrade
 
 # non free codecssudo apt install -y dunst libnotify-bin
-sudo apt install -y ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
+sudo apt install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
 
 # disk utilities
 sudo apt install -y gnome-disk-utility gsmartcontrol gparted
