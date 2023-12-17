@@ -137,10 +137,10 @@ sudo apt install -y firefox-esr chromium
 # nordvpn
 sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
 sudo usermod -aG nordvpn $USER
-sh ~/Config/nordconfig.sh
+sh ~/deb12-i3/nordconfig.sh
 
 # import dot files
-cp -rT ~/Config/config ~/.config
+cp -rT ~/deb12-i3/config ~/.config
 
 # signal
 wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
