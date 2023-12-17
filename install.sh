@@ -25,7 +25,7 @@ sudo apt install -y arandr
 sudo apt install -y terminator konsole
 
 # admin web console
-sudo apt install cockpit
+sudo apt install -y cockpit
 
 # background manager
 sudo apt install -y feh
@@ -75,7 +75,7 @@ sudo apt install -y neofetch htop cmatrix glances figlet
 sudo apt install -y maim xclip xdotool copyq
 
 # snap store
-sudo apt install snapd
+sudo apt install -y snapd
 sudo snap install core
 
 # image editors
