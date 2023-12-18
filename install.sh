@@ -141,7 +141,7 @@ sudo apt install -y spice-vdagent
 # sudo usermod -aG kvm “$(whoami)”
 
 # nordvpn
-sh <\(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh\)
+sh <(curl -sSf 'https://downloads.nordcdn.com/apps/linux/install.sh')
 sudo usermod -aG nordvpn $USER
 sh ~/deb12-i3/nordconfig.sh
 
@@ -155,7 +155,7 @@ sudo apt install -y i3
 sudo apt install -y lightdm
 sudo systemctl enable lightdm
 
-source ~/deb12-i3/copconf.sh
+source ~/deb12-i3/copyconf.sh
 
 sudo apt auto-remove -y
 
