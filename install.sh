@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # firewall
 sudo apt install -y ufw
 sudo ufw enable
@@ -156,7 +158,7 @@ sh ~/deb12-i3/nordconfig.sh
 sudo apt auto-remove -y
 
 # nordvpn
-sh <(curl -sSf 'https://downloads.nordcdn.com/apps/linux/install.sh')
+sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
 sudo usermod -aG nordvpn $USER
 
 sudo reboot now
