@@ -100,11 +100,11 @@ sudo apt install -y maim xclip xdotool copyq
 
 # snap store
 sudo apt install -y snapd
-sudo snap install -y core
+sudo snap install core
 
 # image editors
 sudo apt install -y gimp
-sudo snap install -y pinta
+sudo snap install pinta
 
 # zip utilities
 sudo apt install -y tar gzip
