@@ -156,6 +156,7 @@ sudo apt install -y lightdm
 sudo systemctl enable lightdm
 
 source ~/deb12-i3/copyconf.sh
+source ~/deb12-i3/nordconfig.sh
 
 sudo apt auto-remove -y
 
