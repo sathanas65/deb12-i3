@@ -39,7 +39,7 @@ sudo apt update && sudo apt upgrade
 #sudo apt install -y bluez blueman
 #sudo systemctl enable bluetooth
 
-# brave browser
+# brave browser ($mod + b)
 wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 sudo apt update
@@ -68,13 +68,13 @@ sudo apt install -y firefox-esr chromium
 # background / image manager
 sudo apt install -y feh
 
-# app launcher
+# app launcher ($mod + Space)
 sudo apt install -y rofi
 
 # auto numlock
 sudo apt install -y numlockx
 
-# notification daemon
+# notification daemon (Untested)
 sudo apt install -y dunst libnotify-bin
 
 # admin web console
@@ -95,14 +95,14 @@ sudo apt install -y ttf-mscorefonts-installer rar unrar libavcodec-extra gstream
 # disk utilities
 sudo apt install -y gnome-disk-utility gsmartcontrol gparted
 
-# screenshots
+# screenshots (Untested but keybinds are configured)
 sudo apt install -y maim xclip xdotool copyq
 
-# snap store
+# snap store (Supports installation of containerized apps)
 sudo apt install -y snapd
 sudo snap install core
 
-# image editors
+# image editors (gimp is like Adobe Photoshop and pinta is like MS Paint)
 sudo apt install -y gimp
 sudo snap install pinta
 
