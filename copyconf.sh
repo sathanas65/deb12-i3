@@ -17,4 +17,8 @@ cp -r config/i3/ ~/.config
 cp -r config/dunst/ ~/.config
 cp -r config/terminator/ ~/.config
 cp -r config/rofi/ ~/.config
+sudo cp display.sh /usr/share/display.sh
+sudo cp lightdm.conf /etc/lightdm/lightdm.conf
 chmod +x ~/.config/i3/autostart.sh
+sudo chmod +x /usr/share/display.sh
+sudo chmod +x /etc/lightdm/lightdm.conf
