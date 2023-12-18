@@ -69,6 +69,10 @@ bindsym $mod+e exec thunar
 
 # browsers
 bindsym $mod+b exec brave-browser
+bindsym $mod+c exec chromium
+
+# virt
+bindsym $mod+Shift+v exec virt-manager
 
 # htop
 bindsym Control+Shift+Escape exec terminator -x htop &
@@ -80,6 +84,20 @@ bindsym $mod+F11 exec sh nordresume.sh
 bindsym Control+Shift+n exec konsole --noclose -e nordvpn status
 bindsym $mod+p exec sh nordpnp.sh
 bindsym $mod+Shift+n exec sh norddouble.sh
+
+# For screenshots install :
+# apt-get install maim xclip copyq
+
+##  Screenshots in files
+bindsym Print exec --no-startup-id maim --format=png "/home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')-all>
+bindsym $mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) "/home/$USER/Pictures/sc>
+bindsym Shift+Print exec --no-startup-id maim --format=png --select "/home/$USER/Pictures/screenshot-$(date -u +'%Y%m%>
+
+## Screenshots in clipboards
+bindsym Ctrl+Print exec --no-startup-id maim --format=png | xclip -selection clipboard -t image/png
+bindsym Ctrl+$mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) | xclip -selection >
+bindsym Ctrl+Shift+Print exec --no-startup-id maim --format=png --select | xclip -selection clipboard -t image/png
+
 
 # kill focused window
 bindsym $mod+q kill
