@@ -17,8 +17,9 @@ cp -r config/i3/ ~/.config
 cp -r config/dunst/ ~/.config
 cp -r config/terminator/ ~/.config
 cp -r config/rofi/ ~/.config
-sudo cp virtual-display.sh /usr/share/virtual-display.sh
-sudo cp lightdm.conf /etc/lightdm/lightdm.conf
 chmod +x ~/.config/i3/autostart.sh
-sudo chmod +x /usr/share/virtual-display.sh
-sudo chmod +x /etc/lightdm/lightdm.conf
+## Uncomment below if you are installing on kvm/qemu guest and want lightdm and i3 to auto load in 1080p
+# sudo cp virtual-display.sh /usr/share/virtual-display.sh
+# sudo cp lightdm.conf /etc/lightdm/lightdm.conf
+# sudo chmod +x /usr/share/virtual-display.sh
+# sudo chmod +x /etc/lightdm/lightdm.conf
