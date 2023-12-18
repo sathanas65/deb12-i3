@@ -90,8 +90,9 @@ bindsym $mod+Shift+n exec sh norddouble.sh
 
 ##  Screenshots in files
 bindsym Print exec --no-startup-id maim --format=png "/home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
-bindsym $mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) "/home/$USER/Pictures/sc>
-bindsym Shift+Print exec --no-startup-id maim --format=png --select "/home/$USER/Pictures/screenshot-$(date -u +'%Y%m%>
+bindsym $mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
+bindsym Shift+Print exec --no-startup-id maim --format=png --select /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
+
 
 ## Screenshots in clipboards
 bindsym Ctrl+Print exec --no-startup-id maim --format=png | xclip -selection clipboard -t image/png
