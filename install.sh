@@ -65,7 +65,7 @@ sudo apt install -y librewolf
 # other browsers
 sudo apt install -y firefox-esr chromium
 
-# background manager
+# background / image manager
 sudo apt install -y feh
 
 # app launcher
@@ -74,7 +74,7 @@ sudo apt install -y rofi
 # auto numlock
 sudo apt install -y numlockx
 
-# Notification Daemon
+# notification daemon
 sudo apt install -y dunst libnotify-bin
 
 # admin web console
@@ -89,7 +89,7 @@ sudo apt install -y arandr
 # media player
 sudo apt install -y vlc 
 
-# non free codecssudo apt install -y dunst libnotify-bin
+# non free codecs
 sudo apt install -y ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
 
 # disk utilities
