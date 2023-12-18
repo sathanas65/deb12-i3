@@ -153,7 +153,7 @@ sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 sudo systemctl enable lightdm
 
 sh ~/deb12-i3/copyconf.sh
-sh ~/deb12-i3/nordconfig.sh
+sh ~/deb12-i3/importscripts.sh
 
 sudo apt auto-remove -y
 
