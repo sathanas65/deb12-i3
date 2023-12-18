@@ -108,6 +108,9 @@ sudo snap install core
 sudo apt install -y gimp
 sudo snap install pinta
 
+# gui text editor
+sudo apt install -y geany
+
 # zip utilities
 sudo apt install -y tar gzip
 
