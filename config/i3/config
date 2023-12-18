@@ -77,6 +77,9 @@ bindsym $mod+Shift+v exec virt-manager
 # htop
 bindsym Control+Shift+Escape exec terminator -x htop &
 
+# pinta
+bindsym $mod+Shift+p exec snap run pinta
+
 # NordVPN
 bindsym $mod+n exec nordvpn connect
 bindsym $mod+F12 exec sh nordpause.sh
@@ -96,7 +99,7 @@ bindsym Shift+Print exec --no-startup-id maim --format=png --select /home/$USER/
 
 ## Screenshots in clipboards
 bindsym Ctrl+Print exec --no-startup-id maim --format=png | xclip -selection clipboard -t image/png
-bindsym Ctrl+$mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) | xclip -selection >
+bindsym Ctrl+$mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --format=png --select | xclip -selection clipboard -t image/png
 
 
