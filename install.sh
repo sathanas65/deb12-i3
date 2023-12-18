@@ -149,7 +149,7 @@ xdg-user-dirs-update
 sudo apt install -y i3
 
 # display manager
-sudo apt install -y lightdm
+sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 sudo systemctl enable lightdm
 
 sh ~/deb12-i3/copyconf.sh
@@ -158,7 +158,8 @@ sh ~/deb12-i3/nordconfig.sh
 sudo apt auto-remove -y
 
 # nordvpn
-sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
+curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
+sh nordvpn_install.sh
 sudo usermod -aG nordvpn $USER
 
 sudo reboot now
