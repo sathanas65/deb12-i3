@@ -96,7 +96,7 @@ sudo apt install -y arandr
 sudo apt install -y vlc 
 
 # non free codecs
-sudo apt install -y ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
+sudo apt install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
 
 # disk utilities
 sudo apt install -y gnome-disk-utility gsmartcontrol gparted
