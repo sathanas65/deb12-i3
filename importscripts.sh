@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cp ~/deb12-i3/nordconnect.sh ~/nordconnect.sh
 cp ~/deb12-i3/norddouble.sh ~/norddouble.sh
 cp ~/deb12-i3/nordpause.sh ~/nordpause.sh
