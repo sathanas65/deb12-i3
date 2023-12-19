@@ -64,6 +64,14 @@ bindsym $mod+Shift+Return exec konsole
 # lock screen
 bindsym $mod+l exec i3lock --color 000000
 
+## These display scripts are custom for my personal displays. You will need to edit to support your own setup.
+# single display (1920 x 1080)
+bindsym $mod+u exec sh right.sh
+# dual display (3840 x 1080)
+bindsym $mod+y exec sh dual.sh
+# dual diaplay + 4K TV above (3840 x 2160)
+bindsym $mod+t exec sh tv.sh
+
 # file manager
 bindsym $mod+e exec thunar
 
