@@ -6,6 +6,7 @@ cp ~/deb12-i3/nordresume.sh ~/nordresume.sh
 cp ~/deb12-i3/i3config.sh ~/i3config.sh
 cp ~/deb12-i3/keymap.txt ~/keymap.txt
 cp ~/deb12-i3/help.sh ~/help.sh
+cp ~/deb12-i3/background.sh ~/background.sh
 
 ## This makes lightdm set virtual display to 1080p
 sudo cp ~/deb12-i3/virtual-display.sh /usr/share/virtual-display.sh
