@@ -61,8 +61,11 @@ bindsym $mod+space exec rofi -modi drun -show drun -line padding 4 -hide-scrollb
 bindsym $mod+Return exec terminator
 bindsym $mod+Shift+Return exec konsole
 
-# single virtual display (1080)
-bindsym $mod+u exec sh 
+# single virtual display (1920 x 1080)
+bindsym $mod+u exec sh vm-single-display.sh
+
+# dual virtual display (3840 x 1080)
+bindsym $mod+y exec sh vm-dual-display.sh
 
 # lock screen
 bindsym $mod+l exec i3lock --color 000000
