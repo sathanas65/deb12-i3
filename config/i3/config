@@ -172,6 +172,9 @@ bindsym $mod+f fullscreen toggle
 # change focus between tiling / floating windows
 #bindsym $mod+space focus mode_toggle
 
+floating_minimum_size 1400 x 700
+floating_maximum_size 1400 x 700
+
 # focus the parent container
 bindsym $mod+a focus parent
 
