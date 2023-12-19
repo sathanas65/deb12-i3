@@ -155,8 +155,13 @@ sudo apt install -y i3
 sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 sudo systemctl enable lightdm
 
-sh ~/deb12-i3/copyconf.sh
-sh ~/deb12-i3/importscripts.sh
+# import scripts and configs for physical device (comment these out if you are installing on vm)
+#sh ~/deb12-i3/copyconf.sh
+#sh ~/deb12-i3/importscripts.sh
+
+# import scripts and configs for virtual machine guest (comment these out if you are installing on physical hardware)
+sh ~/deb12-i3/vm-copyconf.sh
+sh ~/deb12-i3/vm-importscripts.sh
 
 sudo apt auto-remove -y
 
