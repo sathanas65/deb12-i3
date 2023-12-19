@@ -1,0 +1,125 @@
+
+
+Super + Shift + i - backs up the i3 config and opens it for editing (change keybinds this way)
+
+Super + Shift + c - reloads the i3 config file, used after editing the config
+
+Super + Shift + r - restarts i3 in place, preserving the session
+
+Super + Shift + h - displays this keybind map
+
+Super + Shift + q - exit i3
+
+Super + Control + q - shuts down the computer
+
+Super + l - lock the screen
+
+Super + Shift + b - toggle the i3 task bar, repeat to hide it again
+
+Control + Shift + Escape - launch htop task manager
+
+###WINDOW MANAGEMENT IN i3wm
+Mouse + Super - drag floating windows to their wanted position
+                move tiling windows via drag & drop by left-clicking into the title bar
+                or left-clicking anywhere into the window while holding the floating modifier
+                
+	# Change the focus (which window is active)
+	Super + left arrow - move the focus to the window to the left of the active window
+	Super + right arrow - move the focus to the window to the right of the active window
+	Super + up arrow - move the focus to the window above the active window
+	Super + down arrow - move the focus to the window below the active window
+	
+	# Move the active window
+	Super + Shift + left arrow - move the active window left
+	Super + Shift + right arrow - move the active window right
+	Super + Shift + up arrow - move the active window up
+	Super + Shift + down arrow - move the active window down
+
+	# Change the new window orientation
+	Super + v - the next window will populate in the lower half of the active window's current position
+	Super + h - the next window will populate in the right half of the active window's current position
+	
+	# Change container layout (stacked, tabbed, toggle split)
+	Super + Control + s - layout stacking
+	Super + w - layout tabbed
+	Super + Shift + s - layout toggle split
+
+	Super + f - toggle fullscreen for the active window
+	Super + q - kills the active window
+	Super + Shift + Space - toggle between tiling and floating windows
+	
+	# Change focus between tiling / floating windows 
+	# I don't use this so I stole the keybind for Rofi. If you want it:
+	# use Super + Shift + i to edit i3 config. Look for the line below and change the keybind to something unused.
+	#bindsym $mod+space focus mode_toggle
+	
+	# Workspaces
+	Super + [0-9] will move the display to the indicated numbered workspace
+	Super + Shift + [0-9] will move the active window to the indicated numbered workspace
+
+	# Resize Windows
+	Super + r - toggles window resize mode
+	Once toggled, these resize functions can be used on the active window:
+		j (or left arrow) - shrink width
+		k (or down arrow)- grow height
+		l (or up arrow) - shrink height
+		semicolon (or right arrow) - grow width
+	Enter or Escape or Super + r to exit resize mode
+	
+###Display Management
+Super + y - toggle dual monitor mode (if not a virtual machine, edit ~/dual.sh to match your hardware)
+Super + u - toggle single monitor mode (if not a virtual machine, edit ~/right.sh to match your hardware)
+
+###Launching apps
+Super + d - launch dmenu (a text based app launcher)
+Super + Space - display Rofi graphical app launcher
+
+	#Terminal emulators
+	Super + Enter - launch Terminator
+	Super + Shift + Enter - launch Konsole
+	
+	#File Manager
+	Super + e - launch Thunar file manager
+	
+	#Browsers
+	Super + b - launch Brave browser
+	Super + c - launch Chromium
+	
+	#Image editor
+	Super + Shift + p - launch Pinta (like MS Paint)
+	
+	#Virtual Machine Management
+	Super + Shift + v - launch virt-manager
+
+### NordVPN
+Super + n - nordvpn quick connect
+Super + F12 - pause nordvpn (disables killswitch and disconnects)
+Super + F11 - resume nordvpn (quick connects and enables killswitch)
+Control + Shift + n - displays nordvpn status
+Super + p - connects to peer to peer server (more bandwidth)
+Super + Shift + n - connects to double vpn
+
+### Screenshots
+Printscreen - saves a screenshot of the active screen to Pictures
+Super + Printscreen - saves a screenshot of the active window to Pictures
+Shift + Printscreen - generates a crosshair that allows you to select an area to screenshot to Pictures
+Control + Printscreen - saves a screenshot of the active screen to the clipboard
+Control + Super + Printscreen - saves a screenshot of the active window to the clipboard
+Control + Shift + Printscreen - generates a crosshair that allows you to select an area to screenshot to clipboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
