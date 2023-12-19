@@ -4,6 +4,7 @@ cp ~/deb12-i3/nordpause.sh ~/nordpause.sh
 cp ~/deb12-i3/nordpnp.sh ~/nordpnp.sh
 cp ~/deb12-i3/nordresume.sh ~/nordresume.sh
 cp ~/deb12-i3/i3config.sh ~/i3config.sh
+cp ~/deb12-i3/keymap.txt ~/keymap.txt
 
 ## These scripts are customized for my personal display hardware. Edit as needed.
 cp ~/deb12-i3/right.sh ~/right.sh
