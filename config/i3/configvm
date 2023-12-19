@@ -55,7 +55,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # Display keybind map
-bindsym $mod+Shift+h exec konsole --noclose -e nano keymap.txt
+bindsym $mod+Shift+h exec sh help.sh
 
 # Backup and edit the i3 config
 bindsym $mod+Shift+i exec sh i3config.sh
