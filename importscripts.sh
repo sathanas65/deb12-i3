@@ -13,3 +13,4 @@ cp ~/deb12-i3/i3config.sh ~/i3config.sh
 
 ## Uncomment below if you are installing on kvm/qemu guest and want to use mutiple screens
 #cp ~/deb12-i3/vm-dual-display.sh ~/vm-dual-display.sh
+#cp ~/deb12-i3/vm-single-display.sh ~/vm-single-display.sh
