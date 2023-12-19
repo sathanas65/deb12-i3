@@ -33,6 +33,8 @@ sudo apt install -y software-properties-common apt-transport-https curl ca-certi
 echo | sudo apt-add-repository contrib non-free-firmware
 sudo apt update && sudo apt upgrade
 
+sudo -v
+
 # printer support
 #sudo apt install -y cups
 #sudo systemctl enable cups
@@ -66,6 +68,8 @@ sudo apt install -y librewolf
 
 # other browsers
 sudo apt install -y firefox-esr chromium
+
+sudo -v
 
 # background / image manager
 sudo apt install -y feh
@@ -130,6 +134,8 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] 
   sudo tee /etc/apt/sources.list.d/signal-xenial.list
 
 sudo apt update && sudo apt install -y signal-desktop
+
+sudo -v
 
 # video editor
 # sudo apt install -y kdenlive
