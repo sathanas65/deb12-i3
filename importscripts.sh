@@ -9,6 +9,7 @@ cp ~/deb12-i3/i3config.sh ~/i3config.sh
 cp ~/deb12-i3/keymap.txt ~/keymap.txt
 cp ~/deb12-i3/help.sh ~/help.sh
 cp ~/deb12-i3/background.sh ~/background.sh
+cp ~/deb12-i3/togglebar.sh ~/togglebar.sh
 
 ## These scripts are customized for my personal display hardware. Edit as needed.
 cp ~/deb12-i3/right.sh ~/right.sh
