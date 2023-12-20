@@ -151,6 +151,11 @@ sudo apt install -y spice-vdagent
 # sudo usermod -aG libvirt “$(whoami)”
 # sudo usermod -aG kvm “$(whoami)”
 
+# nordvpn
+curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
+sh nordvpn_install.sh
+sudo usermod -aG nordvpn $USER
+
 # user directories
 xdg-user-dirs-update
 
@@ -170,10 +175,5 @@ sh ~/deb12-i3/vm-copyconf.sh
 sh ~/deb12-i3/vm-importscripts.sh
 
 sudo apt auto-remove -y
-
-# nordvpn
-curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
-sh nordvpn_install.sh
-sudo usermod -aG nordvpn $USER
 
 sudo reboot now
