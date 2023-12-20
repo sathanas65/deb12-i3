@@ -147,8 +147,10 @@ bindsym $mod+Shift+space floating toggle
 # change focus between tiling / floating windows
 #bindsym $mod+space focus mode_toggle
 
-floating_minimum_size 1400 x 700
-floating_maximum_size 1400 x 700
+for_window [title="KeymapHelp"] floating enable
+for_window [title="KeymapHelp"] resize set 1400 900
+for_window [title="KeymapHelp"] move position center
+for_window [title="i3config"] fullscreen enable
 
 # focus the parent container
 bindsym $mod+a focus parent
