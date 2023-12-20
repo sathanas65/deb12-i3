@@ -172,7 +172,7 @@ sudo systemctl enable lightdm
 
 # import scripts and configs for virtual machine guest (comment these out if you are installing on physical hardware)
 sh ~/deb12-i3/vm-copyconf.sh
-sh ~/deb12-i3/vm-importscripts.sh
+#sh ~/deb12-i3/vm-importscripts.sh
 
 sudo apt auto-remove -y
 
