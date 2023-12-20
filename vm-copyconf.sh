@@ -12,11 +12,7 @@ cp -r config/terminator/ ~/.config
 cp -r config/rofi/ ~/.config
 cp -r config/konsole/ ~/.local/share
 chmod +x ~/.config/i3/autostart.sh
-chmod +x ~/.local/share/konsole/Profile 1.profile
 cd ~/.config/i3/
-rm barhidden
 rm config
-cp barhiddenvm barhidden
 cp configvm config
-rm barhiddenvm
 rm configvm
