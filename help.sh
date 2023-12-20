@@ -1,9 +1,6 @@
 #!/bin/bash
 
-konsole --noclose -e nano ~/keymap.txt &
+konsole --noclose -e nano ~/keymap.txt --title "KeymapHelp" &
 sleep 1
-i3-msg floating toggle &
-sleep 1
-i3-msg move position center &
-sleep 1
-no_focus [window_role="pop-up"]
+i3-msg fullscreen
+i3-msg fullscreen
