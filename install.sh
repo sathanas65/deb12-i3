@@ -4,9 +4,6 @@
 sudo apt install -y ufw
 sudo ufw enable
 
-# user directories
-xdg-user-dirs-update
-
 # network manager
 sudo apt install -y network-manager-gnome
 
@@ -165,6 +162,9 @@ curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install
 sh nordvpn_install.sh
 sudo usermod -aG nordvpn $USER
 
+# user directories
+xdg-user-dirs-update
+
 # window manager
 sudo apt install -y i3
 
@@ -179,6 +179,8 @@ sudo systemctl enable lightdm
 # import scripts and configs for virtual machine guest (comment these out if you are installing on physical hardware)
 source ~/deb12-i3/vm-copyconf.sh
 source ~/deb12-i3/vm-importscripts.sh
+
+sudo apt update && sudo apt upgrade -y
 
 sudo apt auto-remove -y
 
