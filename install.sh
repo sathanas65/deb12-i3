@@ -114,12 +114,12 @@ sudo apt install -y gnome-disk-utility gsmartcontrol gparted
 sudo apt install -y maim xclip xdotool copyq
 
 # snap store (Supports installation of containerized apps)
-sudo apt install -y snapd
-sudo snap install core
+#sudo apt install -y snapd
+#sudo snap install core
 
 # image editors (gimp is like Adobe Photoshop and pinta is like MS Paint)
 sudo apt install -y gimp
-sudo snap install pinta
+#sudo snap install pinta
 
 # zip utilities
 sudo apt install -y tar gzip
@@ -134,12 +134,12 @@ sudo apt install -y kleopatra
 sudo apt install -y keepass2
 
 # signal
-wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
-cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
-echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
-  sudo tee /etc/apt/sources.list.d/signal-xenial.list
+#wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
+#cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
+#echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
+  #sudo tee /etc/apt/sources.list.d/signal-xenial.list
 
-sudo apt update && sudo apt install -y signal-desktop
+#sudo apt update && sudo apt install -y signal-desktop
 
 sudo -v
 
@@ -158,9 +158,9 @@ sudo apt install -y spice-vdagent
 # sudo usermod -aG kvm “$(whoami)”
 
 # nordvpn
-curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
-sh nordvpn_install.sh
-sudo usermod -aG nordvpn $USER
+#curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
+#sh nordvpn_install.sh
+#sudo usermod -aG nordvpn $USER
 
 # user directories
 xdg-user-dirs-update
