@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # firewall
-#sudo apt install -y ufw
-#sudo ufw enable
+sudo apt install -y ufw
+sudo ufw enable
 
 # network manager
 sudo apt install -y network-manager-gnome
@@ -20,10 +20,10 @@ sudo apt install -y thunar
 sudo apt install -y xfce4-settings xfce4-power-manager
 
 # Network File Tools/System Events
-#sudo apt install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends
+sudo apt install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends
 
-#sudo systemctl enable avahi-daemon
-#sudo systemctl enable acpid
+sudo systemctl enable avahi-daemon
+sudo systemctl enable acpid
 
 # terminal emulators
 sudo apt install -y terminator konsole
@@ -50,27 +50,27 @@ sudo -v
 #sudo systemctl enable bluetooth
 
 # brave browser ($mod + b)
-#wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
-#echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-#sudo apt update
-#sudo apt install -y brave-browser
+wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo apt update
+sudo apt install -y brave-browser
 
 # librewolf browser
-#distro=$(if echo "bookworm" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
+distro=$(if echo "bookworm" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
 
-#wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
+wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
 
-#sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
-#Types: deb
-#URIs: https://deb.librewolf.net
-#Suites: $distro
-#Components: main
-#Architectures: amd64
-#Signed-By: /usr/share/keyrings/librewolf.gpg
-#EOF
+sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
+Types: deb
+URIs: https://deb.librewolf.net
+Suites: $distro
+Components: main
+Architectures: amd64
+Signed-By: /usr/share/keyrings/librewolf.gpg
+EOF
 
-#sudo apt update
-#sudo apt install -y librewolf
+sudo apt update
+sudo apt install -y librewolf
 
 # other browsers
 sudo apt install -y firefox-esr chromium
@@ -93,19 +93,19 @@ sudo apt install -y numlockx
 sudo apt install -y geany
 
 # admin web console
-#sudo apt install -y cockpit
+sudo apt install -y cockpit
 
 # office apps
-#sudo apt install -y libreoffice
+sudo apt install -y libreoffice
 
 # display settings
-#sudo apt install -y arandr
+sudo apt install -y arandr
 
 # media player
-#sudo apt install -y vlc 
+sudo apt install -y vlc 
 
 # non free codecs
-#sudo apt install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
+sudo apt install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
 
 # disk utilities
 sudo apt install -y gnome-disk-utility gsmartcontrol gparted
@@ -114,32 +114,32 @@ sudo apt install -y gnome-disk-utility gsmartcontrol gparted
 sudo apt install -y maim xclip xdotool copyq
 
 # snap store (Supports installation of containerized apps)
-#sudo apt install -y snapd
-#sudo snap install core
+sudo apt install -y snapd
+sudo snap install core
 
 # image editors (gimp is like Adobe Photoshop and pinta is like MS Paint)
-#sudo apt install -y gimp
-#sudo snap install pinta
+sudo apt install -y gimp
+sudo snap install pinta
 
 # zip utilities
 sudo apt install -y tar gzip
 
 # backup manager
-#sudo apt install -y timeshift
+sudo apt install -y timeshift
 
 # gpg encryption manager
-#sudo apt install -y kleopatra
+sudo apt install -y kleopatra
 
 # password manager
-#sudo apt install -y keepass2
+sudo apt install -y keepass2
 
 # signal
-#wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
-#cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
-#echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
-#  sudo tee /etc/apt/sources.list.d/signal-xenial.list
+wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
+cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
+  sudo tee /etc/apt/sources.list.d/signal-xenial.list
 
-#sudo apt update && sudo apt install -y signal-desktop
+sudo apt update && sudo apt install -y signal-desktop
 
 sudo -v
 
@@ -158,9 +158,9 @@ sudo apt install -y spice-vdagent
 # sudo usermod -aG kvm “$(whoami)”
 
 # nordvpn
-#curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
-#sh nordvpn_install.sh
-#sudo usermod -aG nordvpn $USER
+curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
+sh nordvpn_install.sh
+sudo usermod -aG nordvpn $USER
 
 # user directories
 xdg-user-dirs-update
