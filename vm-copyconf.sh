@@ -1,4 +1,3 @@
-#!/bin/bash
 ####
 # This script is used to copy my config files over for use on reboot of installation.
 
