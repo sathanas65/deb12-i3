@@ -16,9 +16,6 @@ sudo apt install -y lxappearance picom
 # settings interface
 sudo apt install -y xfce4-settings xfce4-power-manager
 
-# file manager
-sudo apt install -y thunar
-
 # Network File Tools/System Events
 sudo apt install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends
 
@@ -161,6 +158,9 @@ sudo apt install -y spice-vdagent
 curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
 sh nordvpn_install.sh
 sudo usermod -aG nordvpn $USER
+
+# file manager
+sudo apt install -y thunar
 
 # user directories
 xdg-user-dirs-update
