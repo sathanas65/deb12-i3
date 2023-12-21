@@ -1,32 +1,33 @@
-#!/bin/bash
-cp ~/deb12-i3/nordconnect.sh ~/nordconnect.sh
-sudo chmod +x ~/nordconnect.sh
-cp ~/deb12-i3/norddouble.sh ~/norddouble.sh
-sudo chmod +x ~/norddouble.sh
-cp ~/deb12-i3/nordpause.sh ~/nordpause.sh
-sudo chmod +x ~/nordpause.sh
-cp ~/deb12-i3/nordpnp.sh ~/nordpnp.sh
-sudo chmod +x ~/nordpnp.sh
-cp ~/deb12-i3/nordresume.sh ~/nordresume.sh
-sudo chmod +x ~/nordresume.sh
-cp ~/deb12-i3/i3config.sh ~/i3config.sh
-sudo chmod +x ~/i3config.sh
-cp ~/deb12-i3/keymap.txt ~/keymap.txt
-cp ~/deb12-i3/help.sh ~/help.sh
-sudo chmod +x ~/help.sh
-cp ~/deb12-i3/background.sh ~/background.sh
-sudo chmod +x ~/background.sh
-cp ~/deb12-i3/togglebar.sh ~/togglebar.sh
-sudo chmod +x ~/togglebar.sh
+
+cd
+cd ~/deb12-i3
+cp nordconnect.sh ~/nordconnect.sh
+chmod +x ~/nordconnect.sh
+cp norddouble.sh ~/norddouble.sh
+chmod +x ~/norddouble.sh
+cp nordpause.sh ~/nordpause.sh
+chmod +x ~/nordpause.sh
+cp nordpnp.sh ~/nordpnp.sh
+chmod +x ~/nordpnp.sh
+cp nordresume.sh ~/nordresume.sh
+chmod +x ~/nordresume.sh
+cp i3config.sh ~/i3config.sh
+chmod +x ~/i3config.sh
+cp keymap.txt ~/keymap.txt
+cp help.sh ~/help.sh
+chmod +x ~/help.sh
+cp background.sh ~/background.sh
+chmod +x ~/background.sh
+cp togglebar.sh ~/togglebar.sh
+chmod +x ~/togglebar.sh
 
 ## This makes lightdm set virtual display to 1080p
-sudo cp ~/deb12-i3/virtual-display.sh /usr/share/virtual-display.sh
-sudo cp ~/deb12-i3/lightdm.conf /etc/lightdm/lightdm.conf
+sudo cp virtual-display.sh /usr/share/virtual-display.sh
+sudo cp lightdm.conf /etc/lightdm/lightdm.conf
 sudo chmod +x /usr/share/virtual-display.sh
-sudo chmod /etc/lightdm/lightdm.conf
 
 ## This adds scripts to toggle between single and dual 1080p virtual displays (Super+u for single, Super+y for dual)
-cp ~/deb12-i3/vm-dual-display.sh ~/vm-dual-display.sh
-sudo chmod +x ~/vm-dual-display.sh
-cp ~/deb12-i3/vm-single-display.sh ~/vm-single-display.sh
-sudo chmod +x ~/vm-single-display.sh
+cp vm-dual-display.sh ~/vm-dual-display.sh
+chmod +x ~/vm-dual-display.sh
+cp vm-single-display.sh ~/vm-single-display.sh
+chmod +x ~/vm-single-display.sh
