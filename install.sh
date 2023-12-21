@@ -37,7 +37,7 @@ sudo apt install -y neofetch htop cmatrix glances figlet
 # enable repos
 sudo apt install -y software-properties-common apt-transport-https curl ca-certificates -y
 echo | sudo apt-add-repository contrib non-free-firmware
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 
 sudo -v
 
