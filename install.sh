@@ -4,6 +4,9 @@
 sudo apt install -y ufw
 sudo ufw enable
 
+# user directories
+xdg-user-dirs-update
+
 # network manager
 sudo apt install -y network-manager-gnome
 
@@ -18,6 +21,12 @@ sudo apt install -y krusader
 
 # settings interface
 sudo apt install -y xfce4-settings xfce4-power-manager
+
+# Network File Tools/System Events
+sudo apt install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends
+
+sudo systemctl enable avahi-daemon
+sudo systemctl enable acpid
 
 # terminal emulators
 sudo apt install -y terminator konsole
@@ -83,6 +92,9 @@ sudo apt install -y numlockx
 # notification daemon (Untested)
 sudo apt install -y dunst libnotify-bin
 
+# gui text editor
+sudo apt install -y geany
+
 # admin web console
 sudo apt install -y cockpit
 
@@ -111,9 +123,6 @@ sudo snap install core
 # image editors (gimp is like Adobe Photoshop and pinta is like MS Paint)
 sudo apt install -y gimp
 sudo snap install pinta
-
-# gui text editor
-sudo apt install -y geany
 
 # zip utilities
 sudo apt install -y tar gzip
@@ -156,9 +165,6 @@ curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install
 sh nordvpn_install.sh
 sudo usermod -aG nordvpn $USER
 
-# user directories
-xdg-user-dirs-update
-
 # window manager
 sudo apt install -y i3
 
@@ -171,8 +177,8 @@ sudo systemctl enable lightdm
 #sh ~/deb12-i3/importscripts.sh
 
 # import scripts and configs for virtual machine guest (comment these out if you are installing on physical hardware)
-sh ~/deb12-i3/vm-copyconf.sh
-#sh ~/deb12-i3/vm-importscripts.sh
+source ~/deb12-i3/vm-copyconf.sh
+source ~/deb12-i3/vm-importscripts.sh
 
 sudo apt auto-remove -y
 
