@@ -163,7 +163,7 @@ sudo -v
 #sudo usermod -aG nordvpn $USER
 
 # user directories
-#xdg-user-dirs-update
+xdg-user-dirs-update
 
 # window manager
 sudo apt install -y i3
