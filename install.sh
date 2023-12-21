@@ -159,9 +159,6 @@ curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install
 sh nordvpn_install.sh
 sudo usermod -aG nordvpn $USER
 
-# file manager
-sudo apt install -y thunar
-
 # user directories
 xdg-user-dirs-update
 
@@ -171,6 +168,9 @@ sudo apt install -y i3
 # display manager
 sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 sudo systemctl enable lightdm
+
+# file manager
+sudo apt install -y thunar
 
 # import scripts and configs for physical device (comment these out if you are installing on vm)
 #sh ~/deb12-i3/copyconf.sh
