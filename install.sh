@@ -10,14 +10,14 @@ sudo apt install -y network-manager-gnome
 # appearance managers
 sudo apt install -y lxappearance picom 
 
-# file manager
-sudo apt install -y thunar
-
 # advanced file manager
 #sudo apt install -y krusader
 
 # settings interface
 sudo apt install -y xfce4-settings xfce4-power-manager
+
+# file manager
+sudo apt install -y thunar
 
 # Network File Tools/System Events
 sudo apt install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends
