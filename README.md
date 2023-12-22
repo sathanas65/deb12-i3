@@ -92,4 +92,5 @@ How to use these scripts:
 
           nano ~/scripts/keymap.txt
 
+    Other easy and useful keybinds to learn right away are Super + Enter to open a terminal and Super + Space to open Rofi app launcher.
     Good luck and have fun!!!
