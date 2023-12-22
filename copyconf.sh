@@ -5,7 +5,7 @@
 cd
 cd deb12-i3
 
-cp -r scripts/ ~/scripts
+cp -r scripts/ ~/
 cp -r config/backgrounds/ ~/.config
 cp -r config/i3/ ~/.config
 cp -r config/dunst/ ~/.config
