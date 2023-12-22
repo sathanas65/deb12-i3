@@ -10,4 +10,4 @@ volumeicon &
 copyq &
 
 #configure backgroung
-sh background.sh
+sh scripts/background.sh
