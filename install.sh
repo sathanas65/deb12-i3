@@ -99,47 +99,47 @@ sudo apt install -y cockpit
 sudo apt install -y libreoffice
 
 # display settings
-sudo apt install -y arandr
+#sudo apt install -y arandr
 
 # media player
-sudo apt install -y vlc 
+#sudo apt install -y vlc 
 
 # non free codecs
-sudo apt install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
+#sudo apt install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
 
 # disk utilities
-sudo apt install -y gnome-disk-utility gsmartcontrol gparted
+#sudo apt install -y gnome-disk-utility gsmartcontrol gparted
 
 # screenshots (Untested but keybinds are configured)
-#sudo apt install -y maim xclip xdotool copyq
+sudo apt install -y maim xclip xdotool copyq
 
 # snap store (Supports installation of containerized apps)
 #sudo apt install -y snapd
-#sudo snap install core
+sudo snap install core
 
 # image editors (gimp is like Adobe Photoshop and pinta is like MS Paint)
-#sudo apt install -y gimp
-#sudo snap install pinta
+sudo apt install -y gimp
+sudo snap install pinta
 
 # zip utilities
-#sudo apt install -y tar gzip
+sudo apt install -y tar gzip
 
 # backup manager
-#sudo apt install -y timeshift
+sudo apt install -y timeshift
 
 # gpg encryption manager
-#sudo apt install -y kleopatra
+sudo apt install -y kleopatra
 
 # password manager
-#sudo apt install -y keepass2
+sudo apt install -y keepass2
 
 # signal
-#wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
-#cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
-#echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
-#  sudo tee /etc/apt/sources.list.d/signal-xenial.list
+wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
+cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
+  sudo tee /etc/apt/sources.list.d/signal-xenial.list
 
-#sudo apt update && sudo apt install -y signal-desktop
+sudo apt update && sudo apt install -y signal-desktop
 
 sudo -v
 
@@ -147,7 +147,7 @@ sudo -v
 # sudo apt install -y kdenlive
 
 # kvm/qemu guest agent
-#sudo apt install -y spice-vdagent 
+sudo apt install -y spice-vdagent 
 
 # hypervisor tools
 # sudo apt install -y virt-manager cockpit-machines cockpit-podman
@@ -158,9 +158,9 @@ sudo -v
 # sudo usermod -aG kvm “$(whoami)”
 
 # nordvpn
-#curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
-#sh nordvpn_install.sh0
-#sudo usermod -aG nordvpn $USER
+curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
+sh nordvpn_install.sh0
+sudo usermod -aG nordvpn $USER
 
 # user directories
 xdg-user-dirs-update
@@ -182,8 +182,8 @@ sudo systemctl enable lightdm
 sh ~/deb12-i3/vm-copyconf.sh
 sh ~/deb12-i3/vm-importscripts.sh
 
-#sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 
-#sudo apt auto-remove -y
+sudo apt auto-remove -y
 
 sudo reboot now
