@@ -180,7 +180,10 @@ sudo systemctl enable lightdm
 
 # import scripts and configs for virtual machine guest (comment these out if you are installing on physical hardware)
 sh ~/deb12-i3/vm-copyconf.sh
-sh ~/deb12-i3/vm-importscripts.sh
+#This makes lightdm set virtual display to 1080p
+sudo cp virtual-display.sh /usr/share/virtual-display.sh
+sudo cp lightdm.conf /etc/lightdm/lightdm.conf
+sudo chmod +x /usr/share/virtual-display.sh
 
 # make scripts executable
 sudo chmod +x ~/scripts/*.sh
