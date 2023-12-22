@@ -7,6 +7,7 @@ picom -b &
 numlokx on &
 nm-applet &
 volumeicon &
+copyq &
 
 #configure backgroung
 sh background.sh
