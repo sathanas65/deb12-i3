@@ -95,6 +95,7 @@ Super + Space - display Rofi graphical app launcher
 	Super + Shift + v - launch virt-manager
 
 ### NordVPN
+Super + F1 - nordvpn login
 Super + n - nordvpn quick connect
 Super + F12 - pause nordvpn (disables killswitch and disconnects)
 Super + F11 - resume nordvpn (quick connects and enables killswitch)
