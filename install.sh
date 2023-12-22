@@ -90,13 +90,13 @@ sudo apt install -y numlockx
 sudo apt install -y dunst libnotify-bin
 
 # gui text editor
-#sudo apt install -y geany
+sudo apt install -y geany
 
 # admin web console
-#sudo apt install -y cockpit
+sudo apt install -y cockpit
 
 # office apps
-#sudo apt install -y libreoffice
+sudo apt install -y libreoffice
 
 # display settings
 #sudo apt install -y arandr
@@ -159,7 +159,7 @@ sudo -v
 
 # nordvpn
 #curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
-#sh nordvpn_install.sh
+#sh nordvpn_install.sh0
 #sudo usermod -aG nordvpn $USER
 
 # user directories
