@@ -99,16 +99,16 @@ sudo apt install -y cockpit
 sudo apt install -y libreoffice
 
 # display settings
-#sudo apt install -y arandr
+sudo apt install -y arandr
 
 # media player
-#sudo apt install -y vlc 
+sudo apt install -y vlc 
 
 # non free codecs
-#sudo apt install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
+# sudo apt install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
 
 # disk utilities
-#sudo apt install -y gnome-disk-utility gsmartcontrol gparted
+sudo apt install -y gnome-disk-utility gsmartcontrol gparted
 
 # screenshots (Untested but keybinds are configured)
 sudo apt install -y maim xclip xdotool copyq
