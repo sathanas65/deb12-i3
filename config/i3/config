@@ -95,6 +95,8 @@ bindsym Control+Shift+Escape exec terminator -x htop &
 bindsym $mod+Shift+p exec snap run pinta
 
 # NordVPN
+# Chromium is required for keybind $mod+F1 to open nordvpn login page. 
+# Or you can edit ~/scripts/nordlogin.sh to use another browser but nord login script fails in Brave and Librewolf, even with shields down.
 bindsym $mod+F1 exec sh scripts/nordlogin
 bindsym $mod+n exec nordvpn connect
 bindsym $mod+F12 exec sh scripts/nordpause.sh
