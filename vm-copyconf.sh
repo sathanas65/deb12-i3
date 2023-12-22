@@ -18,3 +18,5 @@ cd ~/.config/i3/
 rm config
 cp configvm config
 rm configvm
+# make scripts executable
+sudo chmod +x ~/scripts/*.sh
