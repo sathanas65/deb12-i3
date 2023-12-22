@@ -10,13 +10,15 @@ Super + Shift + h - displays this keybind map
 
 Super + Shift + q - exit i3
 
-Super + Control + q - shuts down the computer
-
 Super + l - lock the screen
 
 Super + Shift + b - toggle the i3 task bar, repeat to hide it again
 
 Control + Shift + Escape - launch htop task manager
+
+###Shutdown Restart Hibernate Suspend
+After exiting i3 with Super + Shift + q you can suspend, hibernate, restart or shutdown by 
+clicking the power icon in the top right corner of the lightdm login screen. Or use Alt + F4 to shutdown
 
 ###WINDOW MANAGEMENT IN i3wm
 Mouse + Super - drag floating windows to their wanted position
