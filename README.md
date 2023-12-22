@@ -8,6 +8,8 @@ How to use these scripts:
    your wifi adapter:
    
      a) Open a terminal with Super + Enter.
+
+   $ cd
    
      b) Type: 'cd /etc/network' and enter.
    
