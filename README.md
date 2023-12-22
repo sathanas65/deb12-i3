@@ -13,27 +13,24 @@ How to use these scripts:
    
      b) Then enter:
    
-         cp interfaces interfaces.backup
-      This is a backup in case something gets messed up.
+         sudo cp interfaces interfaces.backup
+      Enter your password when prompted. This is a backup in case something gets messed up.
    
      c) Then enter:
 
          sudo nano interfaces
-   
-     d) Enter your password when prompted.
-   
-     e) Below the row '# The primary network interface' you will see something like 'allow-hotplug w1p3s0'. Leave this line, but delete
+     d) Below the row '# The primary network interface' you will see something like 'allow-hotplug w1p3s0'. Leave this line, but delete
         or comment out everything below it, starting with 'iface'.
    
-     f) Ctrl + s to save and ctrl + x to exit.
+     e) Ctrl + s to save and ctrl + x to exit.
    
-     g) Now enter:
+     f) Now enter:
 
          sudo systemctl restart networking
    
-     h) Enter your password when prompted. Now you should be able to manage your wifi comnnections from the applet on the i3 taskbar.
+     g) Enter your password when prompted. Now you should be able to manage your wifi comnnections from the applet on the i3 taskbar.
    
-     i) If something goes wrong here are the steps to revert:
+     h) If something goes wrong here are the steps to revert:
    Enter:
    
          cd /etc/network
