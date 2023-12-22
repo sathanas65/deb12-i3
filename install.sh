@@ -160,13 +160,13 @@ sudo apt install -y spice-vdagent
 # sudo usermod -aG libvirt “$(whoami)”
 # sudo usermod -aG kvm “$(whoami)”
 
+# user directories
+xdg-user-dirs-update
+
 # nordvpn
 curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
 sh nordvpn_install.sh0
 sudo usermod -aG nordvpn $USER
-
-# user directories
-xdg-user-dirs-update
 
 # window manager
 sudo apt install -y i3
