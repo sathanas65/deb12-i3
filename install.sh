@@ -177,7 +177,6 @@ sudo systemctl enable lightdm
 
 # import scripts and configs for physical device (comment these out if you are installing on vm)
 #sh ~/deb12-i3/copyconf.sh
-#sh ~/deb12-i3/importscripts.sh
 
 # import scripts and configs for virtual machine guest (comment these out if you are installing on physical hardware)
 sh ~/deb12-i3/vm-copyconf.sh
