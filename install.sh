@@ -183,6 +183,9 @@ sudo systemctl enable lightdm
 sh ~/deb12-i3/vm-copyconf.sh
 sh ~/deb12-i3/vm-importscripts.sh
 
+# make scripts executable
+sudo chmod +x ~/scripts/*.sh
+
 sudo apt update && sudo apt upgrade -y
 
 sudo apt auto-remove -y
