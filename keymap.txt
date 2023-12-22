@@ -84,6 +84,9 @@ Super + Space - display Rofi graphical app launcher
 	#Browsers
 	Super + b - launch Brave browser
 	Super + c - launch Chromium
+
+	#Clipboard Manager
+	Super + Control + c
 	
 	#Image editor
 	Super + Shift + p - launch Pinta (like MS Paint)
