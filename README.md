@@ -22,18 +22,18 @@ How to use these scripts:
    
      d) Enter your password when prompted.
    
-     f) Below the row '# The primary network interface' you will see something like 'allow-hotplug w1p3s0'. Leave this line, but delete
+     e) Below the row '# The primary network interface' you will see something like 'allow-hotplug w1p3s0'. Leave this line, but delete
         or comment out everything below it, starting with 'iface'.
    
-     g) Ctrl + s to save and ctrl + x to exit.
+     f) Ctrl + s to save and ctrl + x to exit.
    
-     h) Now enter:
+     g) Now enter:
 
          sudo systemctl restart networking
    
-     i) Enter your password when prompted. Now you should be able to manage your wifi comnnections from the applet on the i3 taskbar.
+     h) Enter your password when prompted. Now you should be able to manage your wifi comnnections from the applet on the i3 taskbar.
    
-     j) If something goes wrong here are the steps to revert:
+     i) If something goes wrong here are the steps to revert:
    Enter:
    
          cd /etc/network
