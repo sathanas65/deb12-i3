@@ -55,10 +55,10 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # Display keybind map
-bindsym $mod+Shift+h exec sh help.sh
+bindsym $mod+Shift+h exec sh scripts/help.sh
 
 # Backup and edit the i3 config
-bindsym $mod+Shift+i exec sh i3config.sh
+bindsym $mod+Shift+i exec sh scripts/i3config.sh
 
 # rofi
 bindsym $mod+space exec rofi -modi drun -show drun -line padding 4 -hide-scrollbar -show-icons
@@ -68,10 +68,10 @@ bindsym $mod+Return exec terminator
 bindsym $mod+Shift+Return exec konsole
 
 # single virtual display (1920 x 1080)
-bindsym $mod+u exec sh vm-single-display.sh
+bindsym $mod+u exec sh scripts/vm-single-display.sh
 
 # dual virtual display (3840 x 1080)
-bindsym $mod+y exec sh vm-dual-display.sh
+bindsym $mod+y exec sh scripts/vm-dual-display.sh
 
 # lock screen
 bindsym $mod+l exec i3lock --color 000000
@@ -90,12 +90,13 @@ bindsym Control+Shift+Escape exec terminator -x htop &
 bindsym $mod+Shift+p exec snap run pinta
 
 # NordVPN
+bindsym $mod+F1 exec sh scripts/nordlogin.sh
 bindsym $mod+n exec nordvpn connect
-bindsym $mod+F12 exec sh nordpause.sh
-bindsym $mod+F11 exec sh nordresume.sh
+bindsym $mod+F12 exec sh scripts/nordpause.sh
+bindsym $mod+F11 exec sh scripts/nordresume.sh
 bindsym Control+Shift+n exec konsole --noclose -e nordvpn status
-bindsym $mod+p exec sh nordpnp.sh
-bindsym $mod+Shift+n exec sh norddouble.sh
+bindsym $mod+p exec sh scripts/nordpnp.sh
+bindsym $mod+Shift+n exec sh scripts/norddouble.sh
 
 # For screenshots install :
 # apt-get install maim xclip copyq
@@ -252,7 +253,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 # Hide/Show bar
-bindsym $mod+Shift+b exec --no-startup-id sh togglebar.sh
+bindsym $mod+Shift+b exec sh scripts/togglebar.sh
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
