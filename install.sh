@@ -110,8 +110,11 @@ sudo apt install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-liba
 # disk utilities
 sudo apt install -y gnome-disk-utility gsmartcontrol gparted
 
-# screenshots (Untested but keybinds are configured)
-sudo apt install -y maim xclip xdotool copyq
+# clipboard manager
+sudo apt install -y copyq
+
+# screenshots
+sudo apt install -y maim xclip xdotool
 
 # snap store (Supports installation of containerized apps)
 sudo apt install -y snapd
