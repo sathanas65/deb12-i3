@@ -10,11 +10,10 @@ sudo apt install -y network-manager-gnome
 # appearance managers
 sudo apt install -y lxappearance picom 
 
-# advanced file manager
-sudo apt install -y krusader
-
-# file manager
+# file managers
 sudo apt install -y thunar
+#sudo apt install -y krusader
+#sudo apt install -y nautilus
 
 # settings interface
 sudo apt install -y xfce4-settings xfce4-power-manager
