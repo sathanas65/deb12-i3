@@ -11,7 +11,7 @@ sudo apt install -y network-manager-gnome
 sudo apt install -y lxappearance picom 
 
 # advanced file manager
-#sudo apt install -y krusader
+sudo apt install -y krusader
 
 # file manager
 sudo apt install -y thunar
@@ -42,12 +42,12 @@ sudo apt update && sudo apt upgrade -y
 sudo -v
 
 # printer support
-#sudo apt install -y cups
-#sudo systemctl enable cups
+sudo apt install -y cups
+sudo systemctl enable cups
 
 # bluetooth support
-#sudo apt install -y bluez blueman
-#sudo systemctl enable bluetooth
+sudo apt install -y bluez blueman
+sudo systemctl enable bluetooth
 
 # brave browser ($mod + b)
 wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
@@ -105,7 +105,7 @@ sudo apt install -y arandr
 sudo apt install -y vlc 
 
 # non free codecs
-# sudo apt install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
+sudo apt install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly
 
 # disk utilities
 sudo apt install -y gnome-disk-utility gsmartcontrol gparted
@@ -114,7 +114,7 @@ sudo apt install -y gnome-disk-utility gsmartcontrol gparted
 sudo apt install -y maim xclip xdotool copyq
 
 # snap store (Supports installation of containerized apps)
-#sudo apt install -y snapd
+sudo apt install -y snapd
 sudo snap install core
 
 # image editors (gimp is like Adobe Photoshop and pinta is like MS Paint)
@@ -144,7 +144,7 @@ sudo apt update && sudo apt install -y signal-desktop
 sudo -v
 
 # video editor
-# sudo apt install -y kdenlive
+sudo apt install -y kdenlive
 
 # kvm/qemu guest agent
 sudo apt install -y spice-vdagent 
