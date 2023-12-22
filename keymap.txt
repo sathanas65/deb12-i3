@@ -85,7 +85,7 @@ Super + Space - display Rofi graphical app launcher
 	Super + b - launch Brave browser
 	Super + c - launch Chromium
 
-	#Clipboard Manager
+	#Clipboard Manager Toggle (same command to open and close)
 	Super + Control + c
 	
 	#Image editor
