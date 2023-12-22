@@ -52,10 +52,10 @@ How to use these scripts:
 4. Enter:
 
          sudo apt install -y git
- Enter your password when prompted. 
+   Enter your password when prompted. 
 5. Then enter:
 
-      git clone https://github.com/sathanas65/deb12-i3
+         git clone https://github.com/sathanas65/deb12-i3
 6. Then enter:
 
          cd deb12-i3
