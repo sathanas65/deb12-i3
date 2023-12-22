@@ -49,6 +49,7 @@ sudo apt install -y bluez blueman
 sudo systemctl enable bluetooth
 
 # brave browser ($mod + b)
+# Note that there is a bug where brave fails to in initialize on the 1st launch. After a reboot it will work fine thereafter.
 wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 sudo apt update
