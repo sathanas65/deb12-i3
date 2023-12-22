@@ -185,9 +185,6 @@ sudo cp virtual-display.sh /usr/share/virtual-display.sh
 sudo cp lightdm.conf /etc/lightdm/lightdm.conf
 sudo chmod +x /usr/share/virtual-display.sh
 
-# make scripts executable
-sudo chmod +x ~/scripts/*.sh
-
 sudo apt update && sudo apt upgrade -y
 
 sudo apt auto-remove -y
