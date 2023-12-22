@@ -41,6 +41,9 @@ sudo apt update && sudo apt upgrade -y
 
 sudo -v
 
+# data transfer client
+sudo apt install -y curl
+
 # printer support
 sudo apt install -y cups
 sudo systemctl enable cups
