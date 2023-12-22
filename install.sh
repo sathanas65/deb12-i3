@@ -41,9 +41,6 @@ sudo apt update && sudo apt upgrade -y
 
 sudo -v
 
-# data transfer client
-sudo apt install -y curl
-
 # printer support
 sudo apt install -y cups
 sudo systemctl enable cups
@@ -168,7 +165,7 @@ xdg-user-dirs-update
 
 # nordvpn
 curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
-sh nordvpn_install.sh0
+sh nordvpn_install.sh
 sudo usermod -aG nordvpn $USER
 
 # window manager
