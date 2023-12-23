@@ -110,16 +110,23 @@ bindsym $mod+Shift+n exec sh scripts/norddouble.sh
 # For screenshots install :
 # apt-get install maim xclip copyq
 
-##  Screenshots in files
-bindsym Print exec --no-startup-id maim --format=png /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
-bindsym $mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
-bindsym Shift+Print exec --no-startup-id maim --format=png --select /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
+mode "screenshot" {
+        ##  Screenshots in files
+        bindsym 1 exec sh scripts/screensave.sh
+        bindsym 2 exec sh scripts/windowsave.sh
+        bindsym 3 exec sh scripts/selectsave.sh
+        ## Screenshots in clipboards
+        bindsym 4 exec sh scripts/screenclip.sh
+        bindsym 5 exec sh scripts/windowclip.sh
+        bindsym 6 exec sh scripts/selectclip.sh
 
-
-## Screenshots in clipboards
-bindsym Ctrl+Print exec --no-startup-id maim --format=png | xclip -selection clipboard -t image/png
-bindsym Ctrl+$mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
-bindsym Ctrl+Shift+Print exec --no-startup-id maim --format=png --select | xclip -selection clipboard -t image/png
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+ 
+bindsym Print mode "screenshot"
 
 ## Toggle Clipboard Manager
 bindsym $mod+Control+c exec copyq toggle
