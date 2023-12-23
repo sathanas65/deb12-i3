@@ -92,27 +92,42 @@ bindsym $mod+Shift+p exec snap run pinta
 # NordVPN
 # Chromium is required for keybind $mod+F1 to open nordvpn login page. 
 # Or you can edit ~/scripts/nordlogin.sh to use another browser but nord login script fails in Brave and Librewolf, even with shields down.
-bindsym $mod+F1 exec sh scripts/nordlogin.sh
-bindsym $mod+n exec nordvpn connect
-bindsym $mod+F12 exec sh scripts/nordpause.sh
-bindsym $mod+F11 exec sh scripts/nordresume.sh
-bindsym Control+Shift+n exec konsole --profile "Profile 1" --noclose -e nordvpn status
-bindsym $mod+p exec sh scripts/nordpnp.sh
-bindsym $mod+Shift+n exec sh scripts/norddouble.sh
+mode "nordvpn" {
+        bindsym p exec sh scripts/nordpause.sh
+        bindsym l exec sh scripts/nordlogin.sh
+        bindsym c exec sh scripts/nordresume.sh
+        bindsym s exec sh scripts/nordstatus.sh
+        bindsym f exec sh scripts/nordpnp.sh
+        bindsym 2 exec sh scripts/norddouble.sh
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym $mod+n mode "nordvpn"
 
 # For screenshots install :
 # apt-get install maim xclip copyq
 
-##  Screenshots in files
-bindsym Print exec --no-startup-id maim --format=png /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
-bindsym $mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
-bindsym Shift+Print exec --no-startup-id maim --format=png --select /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
+mode "screenshot" {
+        ##  Screenshots in files
+        bindsym 1 exec sh scripts/screensave.sh
+        bindsym 2 exec sh scripts/windowsave.sh
+        bindsym 3 exec sh scripts/selectsave.sh
+        ## Screenshots in clipboards
+        bindsym 4 exec sh scripts/screenclip.sh
+        bindsym 5 exec sh scripts/windowclip.sh
+        bindsym 6 exec sh scripts/selectclip.sh
 
-
-## Screenshots in clipboards
-bindsym Ctrl+Print exec --no-startup-id maim --format=png | xclip -selection clipboard -t image/png
-bindsym Ctrl+$mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
-bindsym Ctrl+Shift+Print exec --no-startup-id maim --format=png --select | xclip -selection clipboard -t image/png
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+ 
+bindsym Print mode "screenshot"
 
 ## Toggle Clipboard Manager
 bindsym $mod+Control+c exec copyq toggle
