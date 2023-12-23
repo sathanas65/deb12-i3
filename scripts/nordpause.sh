@@ -2,7 +2,8 @@
 
 # Disable the killswitch and capture the output
 killswitch_output=$(nordvpn set killswitch disabled 2>&1)
-killswitch_exit_status=$?
+killswitch_exit_status=$? &
+i3-msg mode "default"
 
 # Connect to NordVPN and capture the output
 disconnect_output=$(nordvpn disconnect 2>&1)
