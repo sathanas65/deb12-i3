@@ -97,21 +97,25 @@ Super + Space - display Rofi graphical app launcher
 	Super + Shift + v - launch virt-manager
 
 ### NordVPN
-Super + F1 - nordvpn login
-Super + n - nordvpn quick connect
-Super + F12 - pause nordvpn (disables killswitch and disconnects)
-Super + F11 - resume nordvpn (quick connects and enables killswitch)
-Control + Shift + n - displays nordvpn status
-Super + p - connects to peer to peer server (more bandwidth)
-Super + Shift + n - connects to double vpn
+Super + n enters NordVPN mode:
+        l - nordvpn login
+        p - pause nordvpn (disables killswitch and disconnects)
+        c - resume nordvpn (quick connects and enables killswitch)
+        s - displays nordvpn status
+        f - connects to peer to peer server (more bandwidth)
+        2 - connects to double vpn
+Mode should return to default but if not you can use Escape or Return
 
 ### Screenshots
-Printscreen - saves a screenshot of the active screen to Pictures
-Super + Printscreen - saves a screenshot of the active window to Pictures
-Shift + Printscreen - generates a crosshair that allows you to select an area to screenshot to Pictures
-Control + Printscreen - saves a screenshot of the active screen to the clipboard
-Control + Super + Printscreen - saves a screenshot of the active window to the clipboard
-Control + Shift + Printscreen - generates a crosshair that allows you to select an area to screenshot to clipboard
+Printscreen enters screenshot mode.
+        1 - saves a screenshot of the active screen to Pictures
+        2 - saves a screenshot of the active window to Pictures
+        3 - generates a crosshair that allows you to select an area to screenshot to Pictures
+        4 - saves a screenshot of the active screen to the clipboard
+        5 - saves a screenshot of the active window to the clipboard
+        6 - generates a crosshair that allows you to select an area to screenshot to clipboard
+Mode should return to default but if not you can use Escape or Return
+
 
 
 
