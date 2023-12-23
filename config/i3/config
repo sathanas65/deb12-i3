@@ -55,10 +55,12 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # Display keybind map
-bindsym $mod+Shift+h exec sh scripts/help.sh
+#bindsym $mod+Shift+h exec sh scripts/help.sh
+bindsym $mod+Shift+h exec konsole --profile "Profile 1" --noclose -e nano ~/scripts/keymap.txt --title "KeymapHelp" && i3-msg fullscreen && i3-msg fullscreen
 
 # Backup and edit the i3 config
-bindsym $mod+Shift+i exec sh scripts/i3config.sh
+#bindsym $mod+Shift+i exec sh scripts/i3config.sh
+bindsym $mod+Shift+i exec cp ~/.config/i3/config ~/.config/i3/configbkps/config-$(date -u +'%Y%m%d-%H%M%SZ') && konsole --profile "Profile 1" --noclose -e nano ~/.config/i3/config --title "i3config" && i3-msg fullscreen && i3-msg fullscreen
 
 # rofi
 bindsym $mod+space exec rofi -modi drun -show drun -line padding 4 -hide-scrollbar -show-icons
@@ -97,13 +99,13 @@ bindsym $mod+Shift+p exec snap run pinta
 # NordVPN
 # Chromium is required for keybind $mod+F1 to open nordvpn login page. 
 # Or you can edit ~/scripts/nordlogin.sh to use another browser but nord login script fails in Brave and Librewolf, even with shields down.
-bindsym $mod+F1 exec sh scripts/nordlogin
+bindsym $mod+F1 exec sh scripts/nordlogin.sh
 bindsym $mod+n exec nordvpn connect
 bindsym $mod+F12 exec sh scripts/nordpause.sh
 bindsym $mod+F11 exec sh scripts/nordresume.sh
-bindsym Control+Shift+n exec konsole --profile "Profile 1" --noclose -e nordvpn status
-bindsym $mod+p exec sh /scripts/nordpnp.sh
-bindsym $mod+Shift+n exec sh /scripts/norddouble.sh
+bindsym Control+Shift+n exec konsole --profile "Profile 1" --noclose -e nordvpn status --title "NordStatus" &
+bindsym $mod+p exec sh scripts/nordpnp.sh
+bindsym $mod+Shift+n exec sh scripts/norddouble.sh
 
 # For screenshots install :
 # apt-get install maim xclip copyq
