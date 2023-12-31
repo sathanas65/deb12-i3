@@ -211,6 +211,10 @@ sudo apt install zim
 #sudo apt update
 #sudo apt install qownnotes
 
+# personal finance
+snap install denaro
+cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/applications/
+
 # email client
 sudo apt install -y geary
 #sudo apt install -y evolution
