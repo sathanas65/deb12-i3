@@ -192,6 +192,10 @@ sudo apt install -y kleopatra
 # password manager
 sudo apt install -y keepass2
 
+# 2fa app
+sudo apt install -y gnome-authenticator
+#sudo snap install authy
+
 # torrent client
 sudo apt install -y transmission
 
