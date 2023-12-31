@@ -34,7 +34,7 @@ sudo apt install -y terminator konsole tmux
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulseeffects
 
 # terminal apps
-sudo apt install -y neofetch htop cmatrix glances figlet
+sudo apt install -y neofetch htop cmatrix glances figlet calc
 
 # gui system monitor
 sudo apt install -y gnome-system-monitor
@@ -53,6 +53,12 @@ sudo systemctl enable cups
 # bluetooth support
 sudo apt install -y bluez blueman
 sudo systemctl enable bluetooth
+
+# calculator
+#sudo apt install -y gnome-calculator
+#sudo apt install -y galculator
+sudo apt install -y mate-calculator
+#sudo apt install -y kcalc
 
 # brave browser ($mod + b)
 # Note that there is a bug where brave fails to in initialize on the 1st launch. After a reboot it will work fine thereafter.
