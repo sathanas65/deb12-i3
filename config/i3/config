@@ -90,8 +90,9 @@ bindsym $mod+c exec chromium
 # virt
 bindsym $mod+Shift+v exec virt-manager
 
-# htop
-bindsym Control+Shift+Escape exec terminator -x htop &
+# htop or gui system monitor (pick one or give eahc their own keybind)
+#bindsym Control+Shift+Escape exec terminator -x htop &
+bindsym Control+Shift+Escape exec gnome-system-monitor &
 
 # pinta
 bindsym $mod+Shift+p exec snap run pinta
