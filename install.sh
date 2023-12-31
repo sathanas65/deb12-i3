@@ -205,7 +205,7 @@ sudo -v
 
 # notes manager
 # zim (easy checkbox lists)
-sudo apt install zim
+sudo apt install -y zim
 # qownnotes (markdown stored as plain text, great features)
 #SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
 #sudo mkdir -p "$(dirname "${SIGNED_BY}")"
