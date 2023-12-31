@@ -39,6 +39,9 @@ sudo apt install -y neofetch htop cmatrix glances figlet calc
 # gui system monitor
 sudo apt install -y gnome-system-monitor
 
+# apt package manager front end
+sudo apt install -y synaptic
+
 # enable repos
 sudo apt install -y software-properties-common apt-transport-https curl ca-certificates -y
 echo | sudo apt-add-repository contrib non-free-firmware
