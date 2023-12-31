@@ -15,6 +15,9 @@ sudo apt install -y thunar
 #sudo apt install -y krusader
 #sudo apt install -y nautilus
 
+# file search
+sudo apt install -y fzf
+
 # settings interface
 sudo apt install -y xfce4-settings xfce4-power-manager
 
@@ -150,6 +153,12 @@ sudo -v
 
 # video editor
 sudo apt install -y kdenlive
+
+# video converter
+sudo apt install -y ffmpeg
+
+# simplified man pages
+sudo apt install -y tldr
 
 # kvm/qemu guest agent
 sudo apt install -y spice-vdagent 
