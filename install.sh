@@ -148,8 +148,10 @@ snap set core refresh.schedule=02:00-04:00
 sudo apt install -y geany
 # notepad++ (FOSS Windows application, uses Wine to run on Linux) snap run notepad-plus-plus (command to launch)
 #sudo snap install notepad-plus-plus 
+#cp /var/lib/snapd/desktop/applications/notepad-plus-plus_notepad-plus-plus.desktop ~/.local/share/applications/
 # brackets
 sudo snap install brackets --classic
+cp /var/lib/snapd/desktop/applications/brackets_brackets.desktop ~/.local/share/applications/
 # sublime text
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
