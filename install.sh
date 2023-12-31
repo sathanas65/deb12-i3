@@ -220,7 +220,10 @@ sudo apt install -y teamviewer
 sudo apt install -y kleopatra
 
 # password manager
+# keepass2 - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
 sudo apt install -y keepass2
+# bitwarden - NOT FOSS - great feautures - syncs across devices - passwords stored in cloud
+sudo snap install bitwarden
 
 # 2fa app
 sudo apt install -y gnome-authenticator
