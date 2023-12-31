@@ -202,8 +202,14 @@ sudo apt update && sudo apt install -y signal-desktop
 
 sudo -v
 
+# screen recorder
+sudo apt install -y simplescreenrecorder
+#sudo apt install -y kazam
+
 # video editor
 sudo apt install -y kdenlive
+#sudo apt install -y shotcut
+#sudo snap install openshot-community --candidate
 
 # video converter
 sudo apt install -y ffmpeg
