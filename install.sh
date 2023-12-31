@@ -129,6 +129,10 @@ sudo apt install -y dunst libnotify-bin
 # snap store (Supports installation of containerized apps)
 sudo apt install -y snapd
 sudo snap install core
+# schedule snap updates daily between 2 and 4 am
+snap set core refresh.schedule=02:00-04:00
+# schedule snap updates weekly on Sunday between 2 and 4 am
+#snap set core refresh.schedule=sun,02:00-04:00
 
 # gui text editor
 sudo apt install -y geany
