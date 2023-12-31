@@ -63,7 +63,7 @@ sudo systemctl enable bluetooth
 sudo apt install -y mate-calculator
 #sudo apt install -y kcalc
 
-# brave browser ($mod + b)
+# brave browser ($mod + b) NOT FOSS
 # Note that there is a bug where brave fails to in initialize on the 1st launch. After a reboot it will work fine thereafter.
 wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
@@ -109,8 +109,14 @@ sudo apt install -y numlockx
 # notification daemon (Untested)
 sudo apt install -y dunst libnotify-bin
 
+# snap store (Supports installation of containerized apps)
+sudo apt install -y snapd
+sudo snap install core
+
 # gui text editor
 sudo apt install -y geany
+# notepad++ (FOSS Windows application, uses Wine to run on Linux) snap run notepad-plus-plus (command to launch)
+sudo snap install notepad-plus-plus 
 
 # system management
 # cockpit (admin web console)
@@ -158,10 +164,6 @@ sudo apt install -y geary
 
 # screenshots
 sudo apt install -y maim xclip xdotool
-
-# snap store (Supports installation of containerized apps)
-sudo apt install -y snapd
-sudo snap install core
 
 # image editors (gimp is like Adobe Photoshop and pinta is like MS Paint)
 sudo apt install -y gimp
