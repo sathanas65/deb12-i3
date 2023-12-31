@@ -194,6 +194,7 @@ sudo apt install -y keepass2
 
 # 2fa app
 sudo apt install -y gnome-authenticator
+#sudo snap install authpass
 #sudo snap install authy
 
 # torrent client
