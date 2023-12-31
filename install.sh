@@ -319,6 +319,7 @@ sudo apt update
 sudo apt install -y pycharm-community
 # postman
 snap install postman
+cp /var/lib/snapd/desktop/applications/postman_postman.desktop ~/.local/share/applications/
 # postman CLI
 # curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
 
