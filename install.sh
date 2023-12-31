@@ -33,6 +33,9 @@ sudo systemctl enable acpid
 # terminal emulators
 sudo apt install -y terminator konsole tmux
 
+# hardware info
+sudo apt install -y procinfo hwinfo hdparm
+
 # audio
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulseeffects
 
