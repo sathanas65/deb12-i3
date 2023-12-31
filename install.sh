@@ -31,7 +31,18 @@ sudo systemctl enable avahi-daemon
 sudo systemctl enable acpid
 
 # terminal emulators
-sudo apt install -y terminator konsole tmux
+# terminator (dot files included)
+sudo apt install -y terminator
+# kitty (no dot files yet)
+#sudo apt install -y kitty 
+# konsole (required for out of box use of:
+# Super + Shift + h for keymap and 
+# Super + Shift + i for backup and edit i3 config and
+# Super + n then s for nordvpn status)
+sudo apt install -y konsole
+# tmux - terminal multiplexer - runs in terminal and shell sessions run in tmux - excellent features
+sudo apt install -y tmux
+
 
 # hardware info
 sudo apt install -y procinfo hwinfo hdparm
