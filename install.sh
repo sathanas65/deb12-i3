@@ -18,6 +18,9 @@ sudo apt install -y thunar
 # file search
 sudo apt install -y fzf
 
+# list directory (on steroids)
+sudo apt install -y exa
+
 # settings interface
 sudo apt install -y xfce4-settings xfce4-power-manager
 
