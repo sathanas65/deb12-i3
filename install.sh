@@ -216,11 +216,13 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/teamview.gpg] http://linux.t
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/teamview.gpg] http://linux.teamviewer.com/deb stable main" | sudo tee /etc/apt/sources.list.d/teamviewer.list
 sudo apt install -y teamviewer
 
-# ftp utility
-sudo apt install -y vsftpd
-sudo ufw allow OpenSSH
-sudo ufw allow 20:21/tcp
-sudo ufw allow 20000:25000/tcp
+# ftp server utility (best installed on server)
+#sudo apt install -y vsftpd
+#sudo ufw allow OpenSSH
+#sudo ufw allow 20:21/tcp
+#sudo ufw allow 20000:25000/tcp
+# ftp client (midnight commander)
+sudo apt install -y mc
 
 # gpg encryption manager
 sudo apt install -y kleopatra
