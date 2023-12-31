@@ -245,11 +245,14 @@ sudo apt install -y kleopatra
 sudo apt install -y keepass2
 # bitwarden - NOT FOSS - great feautures - syncs across devices - passwords stored in cloud
 sudo snap install bitwarden
+cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
 
 # 2fa app
 sudo apt install -y gnome-authenticator
 #sudo snap install authpass
+#cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
 #sudo snap install authy
+#cp /var/lib/snapd/desktop/applications/authy_authy.desktop ~/.local/share/applications/
 
 # torrent client
 sudo apt install -y transmission
@@ -272,6 +275,7 @@ sudo apt install -y simplescreenrecorder
 sudo apt install -y kdenlive
 #sudo apt install -y shotcut
 #sudo snap install openshot-community --candidate
+#cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
 
 # video converter
 sudo apt install -y ffmpeg
