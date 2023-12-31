@@ -66,6 +66,9 @@ sudo apt update && sudo apt upgrade -y
 
 sudo -v
 
+# create ~/.local/share/applications/ to support executables in Rofi
+mkdir ~/.local/share/applications/
+
 # printer support
 sudo apt install -y cups
 sudo systemctl enable cups
@@ -113,7 +116,6 @@ wget --content-disposition https://mullvad.net/en/download/browser/linux-x86_64/
 # if you get an error that file doesn't exist, change below to match mullvad flename you can see by using ls command
 tar -xvf mullvad-browser-linux-x86_64-13.0.7.tar.xz
 cd mullvad-browser
-mkdir ~/.local/share/applications/
 cp mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
 
 # non-privacy browsers
