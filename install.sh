@@ -80,6 +80,9 @@ sudo systemctl enable cups
 sudo apt install -y bluez blueman
 sudo systemctl enable bluetooth
 
+# document viewer
+sudo apt install -y evince
+
 # calculator
 #sudo apt install -y gnome-calculator
 #sudo apt install -y galculator
