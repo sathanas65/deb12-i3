@@ -80,6 +80,7 @@ sudo systemctl enable bluetooth
 sudo apt install -y mate-calculator
 #sudo apt install -y kcalc
 
+# privacy browsers
 # brave browser ($mod + b) NOT FOSS
 # Note that there is a bug where brave fails to in initialize on the 1st launch. After a reboot it will work fine thereafter.
 wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
@@ -107,7 +108,15 @@ sudo apt install -y librewolf
 # tor browser
 sudo apt install -y torbrowser-launcher 
 
-# other browsers
+# mullvad browser
+wget --content-disposition https://mullvad.net/en/download/browser/linux-x86_64/latest -P ~
+# if you get an error that file doesn't exist, change below to match mullvad flename you can see by using ls command
+tar -xvf mullvad-browser-linux-x86_64-13.0.7.tar.xz
+cd mullvad-browser
+mkdir ~/.local/share/applications/
+cp mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
+
+# non-privacy browsers
 # Chromium is required for keybind Super + F1 to open nordvpn login page. 
 # Or you can edit ~/scripts/nordlogin.sh to use another browser but nord login script fails in Brave and Librewolf, even with shields down.
 sudo apt install -y firefox-esr chromium
@@ -313,7 +322,7 @@ curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install
 sh nordvpn_install.sh
 sudo usermod -aG nordvpn $USER
 
-# mullavad vpn (i3 keybinds, autostart and scripts are not included so requires manual setup)
+# mullvad vpn (i3 keybinds, autostart and scripts are not included so requires manual setup)
 #sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
 #echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
 #sudo apt update
