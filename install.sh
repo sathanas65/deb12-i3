@@ -43,7 +43,6 @@ sudo apt install -y konsole
 # tmux - terminal multiplexer - runs in terminal and shell sessions run in tmux - excellent features
 sudo apt install -y tmux
 
-
 # hardware info
 sudo apt install -y procinfo hwinfo hdparm psensor
 
@@ -69,7 +68,7 @@ sudo apt update && sudo apt upgrade -y
 
 sudo -v
 
-# create ~/.local/share/applications/ to support executables in Rofi
+# create ~/.local/share/applications/ to support executables and snaps in Rofi
 mkdir ~/.local/share/applications/
 
 # printer support
@@ -157,6 +156,12 @@ snap set core refresh.schedule=02:00-04:00
 sudo -v
 
 # gui text editor
+# doom emacs
+sudo apt install -y emacs-gtk ripgrep
+rm -rf /home/$USER/.emacs.d/
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+yes | .emacs.d/bin/doom install
+# geany
 sudo apt install -y geany
 # notepad++ (FOSS Windows application, uses Wine to run on Linux) snap run notepad-plus-plus (command to launch)
 #sudo snap install notepad-plus-plus 
@@ -169,6 +174,8 @@ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | 
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt update
 sudo apt-get install -y sublime-text
+
+sudo -v
 
 # system management
 # cockpit (admin web console)
