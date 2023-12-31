@@ -218,7 +218,10 @@ cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applic
 sudo apt install -y tar gzip
 
 # backup manager
+# timeshit gui front end for rsync
 sudo apt install -y timeshift
+# duplicity - great for cloud backup - supported by backblaze B2
+sudo apt install -y duplicity
 
 sudo -v
 
