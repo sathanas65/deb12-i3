@@ -156,6 +156,9 @@ sudo apt install -y kleopatra
 # password manager
 sudo apt install -y keepass2
 
+# torrent client
+sudo apt install -y transmission
+
 # signal
 wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
 cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
