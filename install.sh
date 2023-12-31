@@ -148,6 +148,11 @@ sudo apt install zim
 #sudo apt update
 #sudo apt install qownnotes
 
+# email client
+sudo apt install -y geary
+#sudo apt install -y evolution
+#sudo apt install -y thunderbird
+
 # screenshots
 sudo apt install -y maim xclip xdotool
 
