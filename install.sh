@@ -78,6 +78,9 @@ EOF
 sudo apt update
 sudo apt install -y librewolf
 
+# tor browser
+sudo apt install -y torbrowser-launcher 
+
 # other browsers
 # Chromium is required for keybind Super + F1 to open nordvpn login page. 
 # Or you can edit ~/scripts/nordlogin.sh to use another browser but nord login script fails in Brave and Librewolf, even with shields down.
