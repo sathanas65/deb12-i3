@@ -82,6 +82,10 @@ sudo systemctl enable bluetooth
 
 # document viewer
 sudo apt install -y evince
+#sudo apt install -y okular
+
+# ebook reader
+sudo apt install -y foliate
 
 # calculator
 #sudo apt install -y gnome-calculator
