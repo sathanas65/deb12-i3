@@ -176,7 +176,7 @@ sudo apt install -y tldr
 sudo apt install -y spice-vdagent 
 
 # hypervisor tools
-# sudo apt install -y virt-manager cockpit-machines cockpit-podman
+# sudo apt install -y virt-manager cockpit-machines cockpit-podman distrobox
 # You can access cockpit console from browser at https://127.0.0.1:9090/
 # sudo addgroup "$(whoami)" libvirt
 # sudo addgroup "$(whoami)" kvm
