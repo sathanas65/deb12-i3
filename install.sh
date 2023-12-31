@@ -112,8 +112,11 @@ sudo apt install -y dunst libnotify-bin
 # gui text editor
 sudo apt install -y geany
 
-# admin web console
+# system management
+# cockpit (admin web console)
 sudo apt install -y cockpit
+# stacer (useful but abandoned by devs)
+#sudo apt install -y stacer
 
 # office apps
 sudo apt install -y libreoffice
