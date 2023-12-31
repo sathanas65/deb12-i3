@@ -25,7 +25,7 @@ sudo systemctl enable avahi-daemon
 sudo systemctl enable acpid
 
 # terminal emulators
-sudo apt install -y terminator konsole
+sudo apt install -y terminator konsole tmux
 
 # audio
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa
