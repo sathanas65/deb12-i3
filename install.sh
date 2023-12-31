@@ -308,10 +308,16 @@ snap install postman
 # user directories
 xdg-user-dirs-update
 
-# nordvpn
+# nordvpn (i3 keybinds, autostart and scripts are included so no setup required)
 curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
 sh nordvpn_install.sh
 sudo usermod -aG nordvpn $USER
+
+# mullavad vpn (i3 keybinds, autostart and scripts are not included so requires manual setup)
+#sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
+#echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
+#sudo apt update
+#sudo apt install -y mullvad-vpn
 
 # window manager
 sudo apt install -y i3
