@@ -221,6 +221,7 @@ sudo apt install -y kdenlive
 
 # video converter
 sudo apt install -y ffmpeg
+sudo apt install -y handbrake
 
 # simplified man pages
 sudo apt install -y tldr
