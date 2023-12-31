@@ -108,6 +108,8 @@ EOF
 sudo apt update
 sudo apt install -y librewolf
 
+sudo -v
+
 # tor browser
 sudo apt install -y torbrowser-launcher 
 
@@ -121,8 +123,6 @@ cp ~/mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
 # Chromium is required for keybind Super + F1 to open nordvpn login page. 
 # Or you can edit ~/scripts/nordlogin.sh to use another browser but nord login script fails in Brave and Librewolf, even with shields down.
 sudo apt install -y firefox-esr chromium
-
-sudo -v
 
 # background / image manager
 sudo apt install -y feh
@@ -143,6 +143,8 @@ sudo snap install core
 snap set core refresh.schedule=02:00-04:00
 # schedule snap updates weekly on Sunday between 2 and 4 am
 #snap set core refresh.schedule=sun,02:00-04:00
+
+sudo -v
 
 # gui text editor
 sudo apt install -y geany
@@ -182,6 +184,8 @@ sudo apt install -y gnome-disk-utility gsmartcontrol gparted
 # clipboard manager
 sudo apt install -y copyq
 
+sudo -v
+
 # notes manager
 # zim (easy checkbox lists)
 sudo apt install zim
@@ -215,6 +219,8 @@ sudo apt install -y tar gzip
 
 # backup manager
 sudo apt install -y timeshift
+
+sudo -v
 
 # remote desktop client
 #anydesk
@@ -254,6 +260,8 @@ sudo apt install -y gnome-authenticator
 #sudo snap install authy
 #cp /var/lib/snapd/desktop/applications/authy_authy.desktop ~/.local/share/applications/
 
+sudo -v
+
 # torrent client
 sudo apt install -y transmission
 
@@ -265,8 +273,6 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] 
 
 sudo apt update && sudo apt install -y signal-desktop
 
-sudo -v
-
 # screen recorder
 sudo apt install -y simplescreenrecorder
 #sudo apt install -y kazam
@@ -276,6 +282,8 @@ sudo apt install -y kdenlive
 #sudo apt install -y shotcut
 #sudo snap install openshot-community --candidate
 #cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
+
+sudo -v
 
 # video converter
 sudo apt install -y ffmpeg
@@ -325,6 +333,8 @@ cp /var/lib/snapd/desktop/applications/postman_postman.desktop ~/.local/share/ap
 
 # user directories
 xdg-user-dirs-update
+
+sudo -v
 
 # nordvpn (i3 keybinds, autostart and scripts are included so no setup required)
 curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
