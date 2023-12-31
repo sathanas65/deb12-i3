@@ -28,7 +28,7 @@ sudo systemctl enable acpid
 sudo apt install -y terminator konsole tmux
 
 # audio
-sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa
+sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulseeffects
 
 # terminal apps
 sudo apt install -y neofetch htop cmatrix glances figlet
