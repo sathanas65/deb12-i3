@@ -115,8 +115,7 @@ sudo apt install -y torbrowser-launcher
 wget --content-disposition https://mullvad.net/en/download/browser/linux-x86_64/latest -P ~
 # if you get an error that file doesn't exist, change below to match mullvad flename you can see by using ls command
 tar -xvf mullvad-browser-linux-x86_64-13.0.7.tar.xz
-cd mullvad-browser
-cp mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
+cp ~/mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
 
 # non-privacy browsers
 # Chromium is required for keybind Super + F1 to open nordvpn login page. 
@@ -207,6 +206,7 @@ sudo apt install -y maim xclip xdotool
 # image editors (gimp is like Adobe Photoshop and pinta is like MS Paint)
 sudo apt install -y gimp
 sudo snap install pinta
+cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
 
 # zip utilities
 sudo apt install -y tar gzip
