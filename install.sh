@@ -50,6 +50,9 @@ sudo apt install -y procinfo hwinfo hdparm
 # audio
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulseeffects
 
+# audio editor
+sudo apt install -y audacity
+
 # terminal apps
 sudo apt install -y neofetch htop cmatrix glances figlet calc
 
