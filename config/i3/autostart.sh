@@ -13,4 +13,4 @@ copyq &
 #configure backgroung
 sh scripts/background.sh &
 sleep 1
-sh scripts/nordconnect.sh &
+bash scripts/nordconnect.sh &
