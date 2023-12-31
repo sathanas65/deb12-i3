@@ -136,7 +136,6 @@ sudo apt install -y copyq
 # notes manager
 # zim (easy checkbox lists)
 sudo apt install zim
-
 # qownnotes (markdown stored as plain text, great features)
 #SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
 #sudo mkdir -p "$(dirname "${SIGNED_BY}")"
@@ -148,8 +147,6 @@ sudo apt install zim
 #echo "deb [arch=${ARCHITECTURE} signed-by=${SIGNED_BY}] http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/ /" | sudo tee /etc/apt/sources.list.d/qownnotes.list > /dev/null
 #sudo apt update
 #sudo apt install qownnotes
-
-
 
 # screenshots
 sudo apt install -y maim xclip xdotool
@@ -213,7 +210,12 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > pa
 sudo install -D -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/packages.microsoft.gpg
 sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
 sudo apt update
-sudo apt install code
+sudo apt install -y code
+# pycharm
+curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | gpg --dearmor | sudo tee /usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg > /dev/null
+echo "deb [signed-by=/usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg] http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com any main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
+sudo apt update
+sudo apt install -y pycharm-community
 
 # user directories
 xdg-user-dirs-update
