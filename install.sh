@@ -45,7 +45,7 @@ sudo apt install -y tmux
 
 
 # hardware info
-sudo apt install -y procinfo hwinfo hdparm
+sudo apt install -y procinfo hwinfo hdparm psensor
 
 # audio
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulseeffects
