@@ -36,6 +36,9 @@ sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulseeffec
 # terminal apps
 sudo apt install -y neofetch htop cmatrix glances figlet
 
+# gui system monitor
+sudo apt install -y gnome-system-monitor
+
 # enable repos
 sudo apt install -y software-properties-common apt-transport-https curl ca-certificates -y
 echo | sudo apt-add-repository contrib non-free-firmware
