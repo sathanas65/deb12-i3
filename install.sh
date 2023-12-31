@@ -218,6 +218,8 @@ sudo apt update
 sudo apt install -y pycharm-community
 # postman
 snap install postman
+# postman CLI
+# curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
 
 # user directories
 xdg-user-dirs-update
