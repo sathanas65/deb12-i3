@@ -289,6 +289,9 @@ sudo -v
 sudo apt install -y ffmpeg
 sudo apt install -y handbrake
 
+# youtube downloader
+sudo apt install -y youtube-dl
+
 # simplified man pages
 sudo apt install -y tldr
 
