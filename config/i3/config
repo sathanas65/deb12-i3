@@ -130,6 +130,9 @@ bindsym $mod+e exec thunar
 bindsym $mod+Control+t exec timeshift-gtk
 bindsym $mod+Shift+d exec duplicity
 
+# signal
+bindsym $alt+s exec signal-desktop
+
 mode "authenticate" {
         bindsym k exec kleopatra
         bindsym p exec keepass
