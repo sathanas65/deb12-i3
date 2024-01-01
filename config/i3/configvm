@@ -73,13 +73,21 @@ bindsym $mod+space exec rofi -modi drun -show drun -line padding 4 -hide-scrollb
 
 # start a terminal
 bindsym $mod+Return exec terminator
-bindsym $mod+Shift+Return exec konsole
+bindsym $mod+Shift+Return exec tmux
 
-# single virtual display (1920 x 1080)
-bindsym $mod+u exec sh scripts/vm-single-display.sh
+mode "display" {
+        # single virtual display (1920 x 1080)
+        bindsym u exec sh scripts/vm-single-display.sh
+        # dual virtual display (3840 x 1080)
+        bindsym y exec sh scripts/vm-dual-display.sh
 
-# dual virtual display (3840 x 1080)
-bindsym $mod+y exec sh scripts/vm-dual-display.sh
+        # back to normal: Enter or Escape or $mod+d
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+d mode "default"
+}
+
+bindsym $mod+d mode "display"
 
 # lock screen
 bindsym $mod+l exec i3lock --color 000000
@@ -87,9 +95,36 @@ bindsym $mod+l exec i3lock --color 000000
 # file manager
 bindsym $mod+e exec thunar
 
-# browsers
-bindsym $mod+b exec brave-browser
-bindsym $mod+c exec chromium
+mode "text" {
+        bindsym e exec emacs
+        bindsym n exec snap run notepad-plus-plus
+        bindsym g exec geany
+        bindsym s exec sublime-text
+        bindsym b exec brackets
+
+        # back to normal: Enter or Escape or $mod+t
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+t mode "default"
+}
+
+bindsym $mod+t mode "text"
+
+mode "browser" {
+        bindsym b exec brave-browser
+        bindsym c exec chromium
+        bindsym f exec firefox-esr
+        bindsym t exec torbrowser
+        bindsym m exec .local/share/mullvad-browser/start-mullvad-browser
+        bindsym l exec librewolf
+
+        # back to normal: Enter or Escape or $mod+b
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+b mode "default"
+}
+
+bindsym $mod+b mode "browser"
 
 # htop or gui system monitor (pick one or give eahc their own keybind)
 #bindsym Control+Shift+Escape exec terminator -x htop &
@@ -145,7 +180,7 @@ bindsym $mod+Control+c exec copyq toggle
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+#bindsym {keybind} exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
