@@ -12,8 +12,8 @@ sudo apt install -y lxappearance picom
 
 # file managers
 sudo apt install -y thunar
-#sudo apt install -y krusader
-#sudo apt install -y nautilus
+sudo apt install -y krusader
+sudo apt install -y nautilus
 
 # file search
 sudo apt install -y fzf
@@ -34,7 +34,7 @@ sudo systemctl enable acpid
 # terminator (dot files included)
 sudo apt install -y terminator
 # kitty (no dot files yet)
-#sudo apt install -y kitty 
+sudo apt install -y kitty 
 # konsole (required for out of box use of:
 # Super + Shift + h for keymap and 
 # Super + Shift + i for backup and edit i3 config and
@@ -83,16 +83,16 @@ sudo systemctl enable bluetooth
 
 # document viewer
 sudo apt install -y evince
-#sudo apt install -y okular
+sudo apt install -y okular
 
 # ebook reader
 sudo apt install -y foliate
 
 # calculator
-#sudo apt install -y gnome-calculator
-#sudo apt install -y galculator
+sudo apt install -y gnome-calculator
+sudo apt install -y galculator
 sudo apt install -y mate-calc
-#sudo apt install -y kcalc
+sudo apt install -y kcalc
 
 # privacy browsers
 # brave browser ($mod + b) NOT FOSS
@@ -169,8 +169,8 @@ yes | .emacs.d/bin/doom install
 # geany
 sudo apt install -y geany
 # notepad++ (FOSS Windows application, uses Wine to run on Linux) snap run notepad-plus-plus (command to launch)
-#sudo snap install notepad-plus-plus 
-#cp /var/lib/snapd/desktop/applications/notepad-plus-plus_notepad-plus-plus.desktop ~/.local/share/applications/
+sudo snap install notepad-plus-plus 
+cp /var/lib/snapd/desktop/applications/notepad-plus-plus_notepad-plus-plus.desktop ~/.local/share/applications/
 # brackets
 sudo snap install brackets --classic
 cp /var/lib/snapd/desktop/applications/brackets_brackets.desktop ~/.local/share/applications/
@@ -212,16 +212,16 @@ sudo -v
 # zim (easy checkbox lists)
 sudo apt install -y zim
 # qownnotes (markdown stored as plain text, great features)
-#SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
-#sudo mkdir -p "$(dirname "${SIGNED_BY}")"
-#curl --silent --show-error --location http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/Release.key | gpg --dearmor | sudo tee "${SIGNED_BY}" > /dev/null
-#sudo chmod u=rw,go=r "${SIGNED_BY}"
+SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
+sudo mkdir -p "$(dirname "${SIGNED_BY}")"
+curl --silent --show-error --location http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/Release.key | gpg --dearmor | sudo tee "${SIGNED_BY}" > /dev/null
+sudo chmod u=rw,go=r "${SIGNED_BY}"
 
-#SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
-#ARCHITECTURE="$(dpkg --print-architecture)"
-#echo "deb [arch=${ARCHITECTURE} signed-by=${SIGNED_BY}] http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/ /" | sudo tee /etc/apt/sources.list.d/qownnotes.list > /dev/null
-#sudo apt update
-#sudo apt install qownnotes
+SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
+ARCHITECTURE="$(dpkg --print-architecture)"
+echo "deb [arch=${ARCHITECTURE} signed-by=${SIGNED_BY}] http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/ /" | sudo tee /etc/apt/sources.list.d/qownnotes.list > /dev/null
+sudo apt update
+sudo apt install qownnotes
 
 # personal finance
 snap install denaro
@@ -229,8 +229,8 @@ cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/appl
 
 # email client
 sudo apt install -y geary
-#sudo apt install -y evolution
-#sudo apt install -y thunderbird
+sudo apt install -y evolution
+sudo apt install -y thunderbird
 
 # screenshots
 sudo apt install -y maim xclip xdotool
@@ -284,10 +284,10 @@ cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/shar
 
 # 2fa app
 sudo apt install -y gnome-authenticator
-#sudo snap install authpass
-#cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
-#sudo snap install authy
-#cp /var/lib/snapd/desktop/applications/authy_authy.desktop ~/.local/share/applications/
+sudo snap install authpass
+cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
+sudo snap install authy
+cp /var/lib/snapd/desktop/applications/authy_authy.desktop ~/.local/share/applications/
 
 sudo -v
 
@@ -304,13 +304,13 @@ sudo apt update && sudo apt install -y signal-desktop
 
 # screen recorder
 sudo apt install -y simplescreenrecorder
-#sudo apt install -y kazam
+sudo apt install -y kazam
 
 # video editor
 sudo apt install -y kdenlive
-#sudo apt install -y shotcut
-#sudo snap install openshot-community --candidate
-#cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
+sudo apt install -y shotcut
+sudo snap install openshot-community --candidate
+cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
 
 sudo -v
 
