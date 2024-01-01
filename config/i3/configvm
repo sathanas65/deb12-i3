@@ -218,6 +218,9 @@ mode "nordvpn" {
 
 bindsym $mod+n mode "nordvpn"
 
+# torrent
+bindsym $alt+t exec transmission
+
 # For screenshots install :
 # apt-get install maim xclip copyq
 
