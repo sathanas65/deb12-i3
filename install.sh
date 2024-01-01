@@ -319,7 +319,8 @@ sudo apt install -y ffmpeg
 sudo apt install -y handbrake
 
 # youtube downloader
-sudo apt install -y youtube-dl
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
 
 # simplified man pages
 sudo apt install -y tldr
