@@ -171,7 +171,7 @@ bindsym $mod+z exec zim
 bindsym $mod+Shift+f exec foliate
 
 # personal finance
-bindsym $mod+Control+b exec snap run denaro
+bindsym $mod+Control+d exec snap run denaro
 
 # email (pick one)
 bindsym $mod+Shift+e exec thunderbird
@@ -381,7 +381,6 @@ set $ws9 "9: Dev1"
 set $ws10 "10: Dev0"
 
 # switch to workspace
-#bindsym $mod+1 workspace number $ws1
 bindsym $mod+1 exec sh scripts/ws1.sh
 bindsym $mod+2 exec sh scripts/ws2.sh
 bindsym $mod+3 exec sh scripts/ws3.sh
