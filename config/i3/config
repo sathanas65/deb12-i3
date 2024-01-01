@@ -212,6 +212,19 @@ mode "video" {
 
 bindsym $alt+v mode "video"
 
+mode "dev" {
+        bindsym 1 exec codium
+        bindsym 2 exec pycharm-community
+        bindsym 3 exec postman
+
+        # back to normal: Enter or Escape or $alt+d
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $alt+d mode "default"
+}
+
+bindsym $alt+d mode "dev"
+
 # virt
 bindsym $mod+Shift+v exec virt-manager
 
