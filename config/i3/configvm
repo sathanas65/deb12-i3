@@ -80,6 +80,8 @@ mode "display" {
         bindsym u exec sh scripts/vm-single-display.sh
         # dual virtual display (3840 x 1080)
         bindsym y exec sh scripts/vm-dual-display.sh
+        # manual set
+        bindsym a exec aradr
 
         # back to normal: Enter or Escape or $mod+d
         bindsym Return mode "default"
