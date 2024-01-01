@@ -81,6 +81,9 @@ bindsym $mod+l exec i3lock --color 000000
 # vlc
 bindsym $mod+Control+v exec vlc
 
+#disks
+bindsym $mod+g exec gnome-disks
+
 ## These display scripts are custom for my personal displays. You will need to edit to support your own setup.
 mode "display" {
         # single display (1920 x 1080)
