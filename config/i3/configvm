@@ -146,6 +146,11 @@ bindsym $mod+Shift+f exec foliate
 # personal finance
 bindsym $mod+Control+b exec snap run denaro
 
+# email (pick one)
+bindsym $mod+Shift+e exec thunderbird
+#bindsym $mod+Shift+e exec geary
+#bindsym $mod+Shift+e exec evolution
+
 mode "browser" {
         bindsym b exec brave-browser
         bindsym c exec chromium
