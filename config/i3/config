@@ -105,6 +105,23 @@ mode "display" {
 
 bindsym $mod+d mode "display"
 
+mode "terminal" {
+        byndsym n exec neofetch
+        byndsym g exec glances
+        byndsym h exec htop
+        byndsym f exec figlet
+        byndsym c exec calc
+
+        # back to normal: Enter or Escape or $mod+Shift+t
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+Shift+t mode "default"
+}
+
+bindsym $mod+Shift+t mode "terminal"
+
+bindsym $mod+s exec synaptic
+
 # file manager
 bindsym $mod+e exec thunar
 
