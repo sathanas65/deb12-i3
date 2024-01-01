@@ -90,13 +90,13 @@ bindsym $mod+g exec gnome-disks
 ## These display scripts are custom for my personal displays. You will need to edit to support your own setup.
 mode "display" {
         # single display (1920 x 1080)
-        bindsym u exec sh scripts/right.sh
+        bindsym u exec sh scripts/right.sh && sh scripts/exitmode.sh
         # dual display (3840 x 1080)
-        bindsym y exec sh scripts/dual.sh
+        bindsym y exec sh scripts/dual.sh && sh scripts/exitmode.sh
         # dual diaplay + 4K TV above (3840 x 2160)
-        bindsym t exec sh scripts/tv.sh
+        bindsym t exec sh scripts/tv.sh && sh scripts/exitmode.sh
         # manual set
-        bindsym a exec aradr
+        bindsym a exec aradr && sh scripts/exitmode.sh
 
         # back to normal: Enter or Escape or $mod+d
         bindsym Return mode "default"
@@ -107,11 +107,11 @@ mode "display" {
 bindsym $mod+d mode "display"
 
 mode "terminal" {
-        byndsym n exec neofetch
-        byndsym g exec glances
-        byndsym h exec htop
-        byndsym f exec figlet
-        byndsym c exec calc
+        byndsym n exec neofetch && sh scripts/exitmode.sh
+        byndsym g exec glances && sh scripts/exitmode.sh
+        byndsym h exec htop && sh scripts/exitmode.sh
+        byndsym f exec figlet && sh scripts/exitmode.sh
+        byndsym c exec calc && sh scripts/exitmode.sh
 
         # back to normal: Enter or Escape or $mod+Shift+t
         bindsym Return mode "default"
@@ -134,12 +134,12 @@ bindsym $mod+Shift+d exec duplicity
 bindsym $alt+s exec signal-desktop
 
 mode "authenticate" {
-        bindsym k exec kleopatra
-        bindsym p exec keepass
-        bindsym b exec snap run bitwarden
-        bindsym g exec gnome-authenticator
-        bindsym a exec snap run authpass
-        bindsym a exec snap run authy
+        bindsym k exec kleopatra && sh scripts/exitmode.sh
+        bindsym p exec keepass && sh scripts/exitmode.sh
+        bindsym b exec snap run bitwarden && sh scripts/exitmode.sh
+        bindsym g exec gnome-authenticator && sh scripts/exitmode.sh
+        bindsym a exec snap run authpass && sh scripts/exitmode.sh
+        #bindsym a exec snap run authy && sh scripts/exitmode.sh
 
         # back to normal: Enter or Escape or $mod+Shift+a
         bindsym Return mode "default"
@@ -150,11 +150,11 @@ mode "authenticate" {
 bindsym $mod+Shift+a mode "authenticate"
 
 mode "text" {
-        bindsym e exec emacs
-        bindsym n exec snap run notepad-plus-plus
-        bindsym g exec geany
-        bindsym s exec sublime-text
-        bindsym b exec brackets
+        bindsym e exec emacs && sh scripts/exitmode.sh
+        bindsym n exec snap run notepad-plus-plus && sh scripts/exitmode.sh
+        bindsym g exec geany && sh scripts/exitmode.sh
+        bindsym s exec sublime-text && sh scripts/exitmode.sh
+        bindsym b exec brackets && sh scripts/exitmode.sh
 
         # back to normal: Enter or Escape or $mod+t
         bindsym Return mode "default"
@@ -179,12 +179,12 @@ bindsym $mod+Shift+e exec thunderbird
 #bindsym $mod+Shift+e exec evolution
 
 mode "browser" {
-        bindsym b exec brave-browser
-        bindsym c exec chromium
-        bindsym f exec firefox-esr
-        bindsym t exec torbrowser
-        bindsym m exec .local/share/mullvad-browser/start-mullvad-browser
-        bindsym l exec librewolf
+        bindsym b exec brave-browser && sh scripts/exitmode.sh
+        bindsym c exec chromium && sh scripts/exitmode.sh
+        bindsym f exec firefox-esr && sh scripts/exitmode.sh
+        bindsym t exec torbrowser && sh scripts/exitmode.sh
+        bindsym m exec .local/share/mullvad-browser/start-mullvad-browser && sh scripts/exitmode.sh
+        bindsym l exec librewolf && sh scripts/exitmode.sh
 
         # back to normal: Enter or Escape or $mod+b
         bindsym Return mode "default"
@@ -195,14 +195,14 @@ mode "browser" {
 bindsym $mod+b mode "browser"
 
 mode "video" {
-        bindsym 1 exec simplescreenrecorder
-        bindsym 2 exec kazam
-        bindsym 3 exec kdenlive
-        bindsym 4 exec shotcut
-        bindsym 5 exec snap run openshot-community
-        bindsym 6 exec ffmpeg
-        bindsym 7 exec handbrake
-        bindsym 8 exec bash ytdl.sh
+        bindsym 1 exec simplescreenrecorder && sh scripts/exitmode.sh
+        bindsym 2 exec kazam && sh scripts/exitmode.sh
+        bindsym 3 exec kdenlive && sh scripts/exitmode.sh
+        bindsym 4 exec shotcut && sh scripts/exitmode.sh
+        bindsym 5 exec snap run openshot-community && sh scripts/exitmode.sh
+        bindsym 6 exec ffmpeg && sh scripts/exitmode.sh
+        bindsym 7 exec handbrake && sh scripts/exitmode.sh
+        bindsym 8 exec bash ytdl.sh && sh scripts/exitmode.sh
 
         # back to normal: Enter or Escape or $alt+v
         bindsym Return mode "default"
@@ -213,9 +213,9 @@ mode "video" {
 bindsym $alt+v mode "video"
 
 mode "dev" {
-        bindsym 1 exec codium
-        bindsym 2 exec pycharm-community
-        bindsym 3 exec postman
+        bindsym 1 exec codium && sh scripts/exitmode.sh
+        bindsym 2 exec pycharm-community && sh scripts/exitmode.sh
+        bindsym 3 exec postman && sh scripts/exitmode.sh
 
         # back to normal: Enter or Escape or $alt+d
         bindsym Return mode "default"
