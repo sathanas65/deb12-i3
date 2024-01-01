@@ -129,6 +129,22 @@ bindsym $mod+e exec thunar
 bindsym $mod+Control+t exec timeshift-gtk
 bindsym $mod+Shift+d exec duplicity
 
+mode "authenticate" {
+        bindsym k exec kleopatra
+        bindsym p exec keepass
+        bindsym b exec snap run bitwarden
+        bindsym g exec gnome-authenticator
+        bindsym a exec snap run authpass
+        bindsym a exec snap run authy
+
+        # back to normal: Enter or Escape or $mod+Shift+a
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+Shift+a mode "default"
+}
+
+bindsym $mod+Shift+a mode "authenticate"
+
 mode "text" {
         bindsym e exec emacs
         bindsym n exec snap run notepad-plus-plus
