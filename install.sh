@@ -99,6 +99,8 @@ wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-k
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 sudo apt update
 sudo apt install -y brave-browser
+brave browser & sleep 5
+sudo pkill brave-browser
 
 # librewolf browser
 distro=$(if echo "bookworm" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
