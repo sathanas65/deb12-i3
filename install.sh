@@ -53,7 +53,9 @@ sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulseeffec
 sudo apt install -y audacity
 
 # terminal apps
-sudo apt install -y neofetch htop cmatrix glances figlet calc
+sudo apt install -y neofetch htop glances figlet calc
+# cmatrix gives you a matrix falling code terminal but crashes i3 in vm - works fine on host system
+#sudo apt install -y cmatrix
 
 # gui system monitor
 sudo apt install -y gnome-system-monitor
