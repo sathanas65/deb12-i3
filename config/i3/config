@@ -140,6 +140,10 @@ mode "text" {
 
 bindsym $mod+t mode "text"
 
+# notes
+bindsym $mod+z exec zim
+
+# ebook reader
 bindsym $mod+Shift+f exec foliate
 
 mode "browser" {
