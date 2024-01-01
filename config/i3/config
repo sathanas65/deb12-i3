@@ -86,6 +86,8 @@ mode "display" {
         bindsym y exec sh scripts/dual.sh
         # dual diaplay + 4K TV above (3840 x 2160)
         bindsym t exec sh scripts/tv.sh
+        # manual set
+        bindsym a exec aradr
 
         # back to normal: Enter or Escape or $mod+d
         bindsym Return mode "default"
