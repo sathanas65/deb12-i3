@@ -174,8 +174,9 @@ bindsym Control+Shift+Escape exec gnome-system-monitor &
 # libreoffice
 bindsym $mod+Shift+l exec libreoffice
 
-# pinta
+# image editors
 bindsym $mod+Shift+p exec snap run pinta
+bindsym $mod+Shift+g exec gimp
 
 # NordVPN
 # Chromium is required for keybind $mod+F1 to open nordvpn login page. 
