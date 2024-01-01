@@ -51,7 +51,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 #bindsym XF86Calculator exec kcalc
 #bindsym XF86Calculator exec gnome-calculator
 #bindsym XF86Calculator exec galculator
-bindsym XF86Calculator exec mate-calculator
+bindsym XF86Calculator exec mate-calc
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
