@@ -180,6 +180,9 @@ bindsym Print mode "screenshot"
 ## Toggle Clipboard Manager
 bindsym $mod+Control+c exec copyq toggle
 
+## Open Cockpit
+bindsym $mod+c exec chromium 127.0.0.1:9090
+
 # kill focused window
 bindsym $mod+q kill
 
