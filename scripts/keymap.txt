@@ -81,19 +81,24 @@ Super + p - launch Pulseaudio Volume Control
 Super + Ctrl + p - launch Pulse Effects
 
 ###Launching apps
-Super + d - launch dmenu (a text based app launcher)
-Super + Space - display Rofi graphical app launcher
+Super + Space - display Rofi app launcher
 
 	#Terminal emulators
 	Super + Enter - launch Terminator
 	Super + Shift + Enter - launch Tmux
+
+	#GUI Package Manager
+	Super + s - launch Synaptic Package Manager
+
+	#Backup Tools
+	Super + Ctrl + t - launch Timeshift
+	Super + Shift + d - launch Duplicity
 	
 	#File Manager
-	Super + e - launch Thunar file manager
-	
-	#Browsers
-	Super + b - launch Brave browser
-	Super + c - launch Chromium
+	Super + e - launch Thunar File Manager
+
+	#Encrypted Message App
+	Alt + s - launch Signal Message App
 
 	#Libreoffice
 	Super + Shift + l - launch Libreoffice
@@ -102,8 +107,20 @@ Super + Space - display Rofi graphical app launcher
 	Calc - launch floating calculator
 	Super + Calc - launch tiled calculator
 
+	#Notes
+	Super + z - launch Zim
+
 	#Media Player
 	Super + Ctrl + v - launch VLC
+
+	#Ebook Reader
+	Super + Shift + f - launch Foliate
+
+	#Personal Finance
+	Super + Ctrl + d - launch Denaro
+
+	#Email Client
+	Super + Shift + e - launch Thunderbird
 
 	#Torrent Client
 	Alt + t - launch Transmission
@@ -123,6 +140,34 @@ Super + Space - display Rofi graphical app launcher
 	
 	#Virtual Machine Management
 	Super + Shift + v - launch virt-manager
+
+### Browsers
+Super + b enters browser mode:
+	b - launch Brave
+	c - launch Chromium
+	f - launch Firefox
+	t - launch Tor Browser
+	m - launch Mullvad Browser
+	l - launch Librewolf
+Enter or Escape or Super + b to exit browser mode
+
+### Text Editors
+Super + t enters text mode:
+	e - launch Doom Emacs
+	n - launch Notepad++ (in Wine)
+	g - launch Geany
+	s - launch Sublime
+	b - launch Brackets
+Enter or Escape or Super + t to exit text mode
+
+### Authentication
+Super + Shift + a enters authenticate mode:
+	k - launch Kleopatra GPG tool
+	p - launch Keepass2 Password Manager
+	b - launch Bitwarden Password Manager
+	g - launch Gnome Authenticator 2FA tool
+	a - launch AuthPass 2FA tool
+Enter or Escape or Super + Shift + a to exit authenticate mode
 
 ### NordVPN
 Super + n enters NordVPN mode:
@@ -152,6 +197,25 @@ Super + Shift + t enters terminal mode
 	f - launch figlet
 	c - launch calc
 Enter or Escape or Super + Shift + t to exit terminal mode
+
+### Video Tools
+Alt + v enters video mode
+	1 - launch Simple Screen Recorder
+	2 - launch Kazam
+	3 - launch KdenLive
+	4 - launch Shotcut
+	5 - launch Openshot
+	6 - launch ffmpeg (in terminal)
+	7 - launch Handbrake
+	8 - Download Youtube video using url in clipboard
+Enter or Escape or Alt + v to exit video mode
+
+### Dev Tools
+Alt + d enters dev mode
+	1 - launch Codium
+	2 - launch PyCharm
+	3 - launch Postman
+Enter or Escape or Alt + d to exit dev mode
 
 
 
