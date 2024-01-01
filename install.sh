@@ -221,7 +221,7 @@ SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
 ARCHITECTURE="$(dpkg --print-architecture)"
 echo "deb [arch=${ARCHITECTURE} signed-by=${SIGNED_BY}] http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/ /" | sudo tee /etc/apt/sources.list.d/qownnotes.list > /dev/null
 sudo apt update
-sudo apt install qownnotes
+sudo apt install -y qownnotes
 
 # personal finance
 snap install denaro
