@@ -138,6 +138,10 @@ mode "text" {
         bindsym $mod+t mode "default"
 }
 
+bindsym $mod+t mode "text"
+
+bindsym $mod+Shift+f exec foliate
+
 mode "browser" {
         bindsym b exec brave-browser
         bindsym c exec chromium
