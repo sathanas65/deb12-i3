@@ -94,6 +94,9 @@ bindsym $mod+d mode "display"
 # lock screen
 bindsym $mod+l exec i3lock --color 000000
 
+# vlc
+bindsym $mod+Control+v exec vlc
+
 # file manager
 bindsym $mod+e exec thunar
 
