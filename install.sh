@@ -89,7 +89,7 @@ sudo apt install -y foliate
 # calculator
 #sudo apt install -y gnome-calculator
 #sudo apt install -y galculator
-sudo apt install -y mate-calculator
+sudo apt install -y mate-calc
 #sudo apt install -y kcalc
 
 # privacy browsers
