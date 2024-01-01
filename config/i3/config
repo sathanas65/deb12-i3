@@ -194,6 +194,24 @@ mode "browser" {
 
 bindsym $mod+b mode "browser"
 
+mode "video" {
+        bindsym 1 exec simplescreenrecorder
+        bindsym 2 exec kazam
+        bindsym 3 exec kdenlive
+        bindsym 4 exec shotcut
+        bindsym 5 exec snap run openshot-community
+        bindsym 6 exec ffmpeg
+        bindsym 7 exec handbrake
+        bindsym 8 exec bash ytdl.sh
+
+        # back to normal: Enter or Escape or $alt+v
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $alt+v mode "default"
+}
+
+bindsym $alt+v mode "video"
+
 # virt
 bindsym $mod+Shift+v exec virt-manager
 
