@@ -130,6 +130,9 @@ bindsym $mod+b mode "browser"
 #bindsym Control+Shift+Escape exec terminator -x htop &
 bindsym Control+Shift+Escape exec gnome-system-monitor &
 
+# libreoffice
+bindsym $mod+Shift+l exec libreoffice
+
 # pinta
 bindsym $mod+Shift+p exec snap run pinta
 
