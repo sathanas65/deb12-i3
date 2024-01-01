@@ -110,7 +110,6 @@ bindsym $mod+Shift+t mode "terminal"
 
 bindsym $mod+s exec synaptic
 
-
 #disks
 bindsym $mod+g exec gnome-disks
 
@@ -143,6 +142,9 @@ bindsym $mod+z exec zim
 
 # ebook reader
 bindsym $mod+Shift+f exec foliate
+
+# personal finance
+bindsym $mod+Control+b exec snap run denaro
 
 mode "browser" {
         bindsym b exec brave-browser
