@@ -138,6 +138,8 @@ mode "text" {
 
 bindsym $mod+t mode "text"
 
+bindsym $mod+z exec zim
+
 bindsym $mod+Shift+f exec foliate
 
 mode "browser" {
