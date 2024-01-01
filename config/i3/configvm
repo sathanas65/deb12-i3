@@ -122,6 +122,10 @@ bindsym $mod+Control+v exec vlc
 # file manager
 bindsym $mod+e exec thunar
 
+# backup
+bindsym $mod+Control+t exec timeshift-gtk
+bindsym $mod+Shift+d exec duplicity
+
 mode "text" {
         bindsym e exec emacs
         bindsym n exec snap run notepad-plus-plus
