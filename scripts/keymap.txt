@@ -14,7 +14,7 @@ Super + l - lock the screen
 
 Super + Shift + b - toggle the i3 task bar, repeat to hide it again
 
-Control + Shift + Escape - launch htop task manager
+Control + Shift + Escape - launch Gnome System Monitor
 
 ###Shutdown Restart Hibernate Suspend
 After exiting i3 with Super + Shift + q you can suspend, hibernate, restart or shutdown by 
@@ -69,8 +69,16 @@ Mouse + Super - drag floating windows to their wanted position
 	Enter or Escape or Super + r to exit resize mode
 	
 ###Display Management
-Super + y - toggle dual monitor mode (if not a virtual machine, edit ~/dual.sh to match your hardware)
-Super + u - toggle single monitor mode (if not a virtual machine, edit ~/right.sh to match your hardware)
+Super + d - toggles display mode
+Once toggled, these display functions can be used:
+	y - toggle dual monitor mode (if not a virtual machine, edit ~/dual.sh to match your hardware)
+	u - toggle single monitor mode (if not a virtual machine, edit ~/right.sh to match your hardware)
+	t - toggle dual monitor + 4k TV mode (if not a virtual machine, edit ~/tv.sh to match your hardware)
+Enter or Escape or Super + d to exit display mode
+
+###Audio
+Super + p - launch Pulseaudio Volume Control
+Super + Ctrl + p - launch Pulse Effects
 
 ###Launching apps
 Super + d - launch dmenu (a text based app launcher)
@@ -78,7 +86,7 @@ Super + Space - display Rofi graphical app launcher
 
 	#Terminal emulators
 	Super + Enter - launch Terminator
-	Super + Shift + Enter - launch Konsole
+	Super + Shift + Enter - launch Tmux
 	
 	#File Manager
 	Super + e - launch Thunar file manager
@@ -87,11 +95,31 @@ Super + Space - display Rofi graphical app launcher
 	Super + b - launch Brave browser
 	Super + c - launch Chromium
 
+	#Libreoffice
+	Super + Shift + l - launch Libreoffice
+
+	#Calculators
+	Calc - launch floating calculator
+	Super + Calc - launch tiled calculator
+
+	#Media Player
+	Super + Ctrl + v - launch VLC
+
+	#Torrent Client
+	Alt + t - launch Transmission
+
+	#Disk Management
+	Super + g - launch Gnome Disks
+
+	#System Management
+	Super + c - launch Cockpit Web Console (in Chromium)
+
 	#Clipboard Manager Toggle (same command to open and close)
 	Super + Control + c
 	
-	#Image editor
+	#Image editors
 	Super + Shift + p - launch Pinta (like MS Paint)
+	Super + Shift + g - launch gimp (like MS Photoshop)
 	
 	#Virtual Machine Management
 	Super + Shift + v - launch virt-manager
@@ -116,6 +144,14 @@ Printscreen enters screenshot mode.
         6 - generates a crosshair that allows you to select an area to screenshot to clipboard
 Mode should return to default but if not you can use Escape or Return
 
+### Terminal Apps
+Super + Shift + t enters terminal mode
+	n - launch neofetch
+	g - launch glances
+	h - launch htop
+	f - launch figlet
+	c - launch calc
+Enter or Escape or Super + Shift + t to exit terminal mode
 
 
 
