@@ -224,6 +224,8 @@ sudo apt update
 sudo apt install -y qownnotes
 
 # personal finance
+sudo mkdir /var/lib/snapd/snap
+sudo mkdir /var/lib/snapd/snap/bin
 snap install denaro
 cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/applications/
 
