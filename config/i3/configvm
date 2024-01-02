@@ -22,6 +22,7 @@ font pango:monospace 12
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
+exec --no-startup-id i3-msg workspace $ws1
 exec --no-startup-id dex --autostart --environment i3
 
 # Set Gaps
@@ -365,17 +366,16 @@ set $ws9 "9: Dev1"
 set $ws10 "10: Dev0"
 
 # switch to workspace
-#bindsym $mod+1 workspace number $ws1
-bindsym $mod+1 exec sh scripts/ws1.sh
-bindsym $mod+2 exec sh scripts/ws2.sh
-bindsym $mod+3 exec sh scripts/ws3.sh
-bindsym $mod+4 exec sh scripts/ws4.sh
-bindsym $mod+5 exec sh scripts/ws5.sh
-bindsym $mod+6 exec sh scripts/ws6.sh
-bindsym $mod+7 exec sh scripts/ws7.sh
-bindsym $mod+8 exec sh scripts/ws8.sh
-bindsym $mod+9 exec sh scripts/ws9.sh
-bindsym $mod+0 exec sh scripts/ws10.sh
+bindsym $mod+1 exec i3-msg workspace $ws1 && notify-send "WS=Accounts"
+bindsym $mod+2 exec i3-msg workspace $ws2 && notify-send "WS=Communications"
+bindsym $mod+3 exec i3-msg workspace $ws3 && notify-send "WS=Research"
+bindsym $mod+4 exec i3-msg workspace $ws4 && notify-send "WS=Notes"
+bindsym $mod+5 exec i3-msg workspace $ws5 && notify-send "WS=Media"
+bindsym $mod+6 exec i3-msg workspace $ws6 && notify-send "WS=Terminals"
+bindsym $mod+7 exec i3-msg workspace $ws7 && notify-send "WS=Dev3"
+bindsym $mod+8 exec i3-msg workspace $ws8 && notify-send "WS=Dev2"
+bindsym $mod+9 exec i3-msg workspace $ws9 && notify-send "WS=Dev1"
+bindsym $mod+0 exec i3-msg workspace $ws10 && notify-send "WS=Dev0"
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -390,9 +390,9 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # reload the configuration file
-bindsym $mod+Shift+c reload
+bindsym $mod+Shift+c exec i3-msg reload && notify-send "Reloaded i3 config"
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+bindsym $mod+Shift+r exec i3-msg restart && notify-send "Restarted i3 in place"
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+q exec i3-msg exit
 
