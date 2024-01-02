@@ -398,6 +398,7 @@ sudo systemctl enable lightdm
 sh ~/deb12-i3/vm-copyconf.sh
 #This makes lightdm set virtual display to 1080p
 sudo cp virtual-display.sh /usr/share/virtual-display.sh
+sudo cp background.png /usr/share/background.png
 sudo cp lightdm.conf /etc/lightdm/lightdm.conf
 sudo chmod +x /usr/share/virtual-display.sh
 
