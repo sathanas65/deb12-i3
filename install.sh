@@ -385,6 +385,8 @@ sudo usermod -aG nordvpn $USER
 # window manager
 sudo apt install -y i3
 
+sudo -v
+
 # display manager
 sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 sudo systemctl enable lightdm
