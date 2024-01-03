@@ -16,6 +16,8 @@ Super + Shift + b - toggle the i3 task bar, repeat to hide it again
 
 Control + Shift + Escape - launch Gnome System Monitor
 
+Super + Shift + f - toggles the firewall on and off
+
 ###Shutdown Restart Hibernate Suspend
 After exiting i3 with Super + Shift + q you can suspend, hibernate, restart or shutdown by 
 clicking the power icon in the top right corner of the lightdm login screen. Or use Alt + F4 to shutdown
