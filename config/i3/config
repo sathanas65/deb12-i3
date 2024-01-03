@@ -171,7 +171,7 @@ bindsym $mod+t mode "text"
 bindsym $mod+z exec zim
 
 # ebook reader
-bindsym $mod+Shift+f exec foliate
+bindsym $mod+Ctrl+f exec foliate
 
 # personal finance
 bindsym $mod+Control+d exec snap run denaro
