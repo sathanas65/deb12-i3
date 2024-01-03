@@ -46,7 +46,7 @@ exec --no-startup-id sh .config/i3/autostart.sh
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status && dunstify "Volume +10%"
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status && dunstify "Volume -10%"
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status && dunstify "Mute toggled"
+bindsym XF86AudioMute exec bash scripts/mute.sh
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status && dunstify "Mic Mute toggled"
 bindsym $mod+p exec pavucontrol
 bindsym $mod+Control+p exec pulseeffects
@@ -99,11 +99,11 @@ mode "display" {
 bindsym $mod+d mode "display"
 
 mode "terminal" {
-        byndsym n exec neofetch | i3-msg mode "default"
-        byndsym g exec glances | i3-msg mode "default"
-        byndsym h exec htop | i3-msg mode "default"
-        byndsym f exec figlet | i3-msg mode "default"
-        byndsym c exec calc | i3-msg mode "default"
+        byndsym n exec konsole --profile "Profile 1" --noclose -e neofetch | i3-msg mode "default"
+        byndsym g exec konsole --profile "Profile 1" --noclose -e glances | i3-msg mode "default"
+        byndsym h exec konsole --profile "Profile 1" --noclose -e htop | i3-msg mode "default"
+        byndsym f exec konsole --profile "Profile 1" --noclose -e figlet | i3-msg mode "default"
+        byndsym c exec konsole --profile "Profile 1" --noclose -e calc | i3-msg mode "default"
 
         # back to normal: Enter or Escape or $mod+Shift+t
         bindsym Return mode "default"
