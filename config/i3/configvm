@@ -75,6 +75,9 @@ bindsym $mod+Shift+i exec cp ~/.config/i3/config ~/.config/i3/configbkps/config-
 # rofi
 bindsym $mod+space exec rofi -modi drun -show drun -line padding 4 -hide-scrollbar -show-icons
 
+# ufw firewall (toggle)
+bindsym $mod+Shift+f exec bash firewall.sh
+
 # start a terminal
 bindsym $mod+Return exec terminator
 bindsym $mod+Shift+Return exec tmux
