@@ -81,11 +81,11 @@ bindsym $mod+Shift+Return exec tmux
 
 mode "display" {
         # single virtual display (1920 x 1080)
-        bindsym u exec sh scripts/vm-single-display.sh && sh scripts/exitmode.sh
+        bindsym u exec sh scripts/vm-single-display.sh | i3-msg mode "default"
         # dual virtual display (3840 x 1080)
-        bindsym y exec sh scripts/vm-dual-display.sh && sh scripts/exitmode.sh
+        bindsym y exec sh scripts/vm-dual-display.sh | i3-msg mode "default"
         # manual set
-        bindsym a exec aradr && sh scripts/exitmode.sh
+        bindsym a exec aradr | i3-msg mode "default"
 
         # back to normal: Enter or Escape or $mod+d
         bindsym Return mode "default"
@@ -96,11 +96,11 @@ mode "display" {
 bindsym $mod+d mode "display"
 
 mode "terminal" {
-        byndsym n exec neofetch && sh scripts/exitmode.sh
-        byndsym g exec glances && sh scripts/exitmode.sh
-        byndsym h exec htop && sh scripts/exitmode.sh
-        byndsym f exec figlet && sh scripts/exitmode.sh
-        byndsym c exec calc && sh scripts/exitmode.sh
+        byndsym n exec neofetch | i3-msg mode "default"
+        byndsym g exec glances | i3-msg mode "default"
+        byndsym h exec htop | i3-msg mode "default"
+        byndsym f exec figlet | i3-msg mode "default"
+        byndsym c exec calc | i3-msg mode "default"
 
         # back to normal: Enter or Escape or $mod+Shift+t
         bindsym Return mode "default"
@@ -132,11 +132,11 @@ bindsym $mod+Shift+d exec duplicity
 bindsym $alt+s exec signal-desktop
 
 mode "authenticate" {
-        bindsym k exec kleopatra && sh scripts/exitmode.sh
-        bindsym p exec keepass && sh scripts/exitmode.sh
-        bindsym b exec snap run bitwarden && sh scripts/exitmode.sh
-        bindsym g exec gnome-authenticator && sh scripts/exitmode.sh
-        bindsym a exec snap run authpass && sh scripts/exitmode.sh
+        bindsym k exec kleopatra | i3-msg mode "default"
+        bindsym p exec keepass | i3-msg mode "default"
+        bindsym b exec snap run bitwarden | i3-msg mode "default"
+        bindsym g exec gnome-authenticator | i3-msg mode "default"
+        bindsym a exec snap run authpass | i3-msg mode "default"
 
         # back to normal: Enter or Escape or $mod+Shift+a
         bindsym Return mode "default"
@@ -147,11 +147,11 @@ mode "authenticate" {
 bindsym $mod+Shift+a mode "authenticate"
 
 mode "text" {
-        bindsym e exec emacs && sh scripts/exitmode.sh
-        bindsym n exec snap run notepad-plus-plus && sh scripts/exitmode.sh
-        bindsym g exec geany && sh scripts/exitmode.sh
-        bindsym s exec sublime-text && sh scripts/exitmode.sh
-        bindsym b exec brackets && sh scripts/exitmode.sh
+        bindsym e exec emacs | i3-msg mode "default"
+        bindsym n exec snap run notepad-plus-plus | i3-msg mode "default"
+        bindsym g exec geany | i3-msg mode "default"
+        bindsym s exec sublime-text | i3-msg mode "default"
+        bindsym b exec brackets | i3-msg mode "default"
 
         # back to normal: Enter or Escape or $mod+t
         bindsym Return mode "default"
@@ -176,11 +176,11 @@ bindsym $mod+Shift+e exec thunderbird
 #bindsym $mod+Shift+e exec evolution
 
 mode "browser" {
-        bindsym b exec brave-browser && sh scripts/exitmode.sh
-        bindsym c exec chromium && sh scripts/exitmode.sh
-        bindsym f exec firefox-esr && sh scripts/exitmode.sh
-        bindsym t exec torbrowser && sh scripts/exitmode.sh
-        bindsym m exec .local/share/mullvad-browser/start-mullvad-browser && sh scripts/exitmode.sh
+        bindsym b exec brave-browser | i3-msg mode "default"
+        bindsym c exec chromium | i3-msg mode "default"
+        bindsym f exec firefox-esr | i3-msg mode "default"
+        bindsym t exec torbrowser | i3-msg mode "default"
+        bindsym m exec .local/share/mullvad-browser/start-mullvad-browser | i3-msg mode "default"
         bindsym l exec librewolf && sh scripts/exitmode.sh
 
         # back to normal: Enter or Escape or $mod+b
@@ -192,14 +192,14 @@ mode "browser" {
 bindsym $mod+b mode "browser"
 
 mode "video" {
-        bindsym 1 exec simplescreenrecorder && sh scripts/exitmode.sh
-        bindsym 2 exec kazam && sh scripts/exitmode.sh
-        bindsym 3 exec kdenlive && sh scripts/exitmode.sh
-        bindsym 4 exec shotcut && sh scripts/exitmode.sh
-        bindsym 5 exec snap run openshot-community && sh scripts/exitmode.sh
-        bindsym 6 exec ffmpeg && sh scripts/exitmode.sh
-        bindsym 7 exec handbrake && sh scripts/exitmode.sh
-        bindsym 8 exec bash ytdl.sh && sh scripts/exitmode.sh
+        bindsym 1 exec simplescreenrecorder | i3-msg mode "default"
+        bindsym 2 exec kazam | i3-msg mode "default"
+        bindsym 3 exec kdenlive | i3-msg mode "default"
+        bindsym 4 exec shotcut | i3-msg mode "default"
+        bindsym 5 exec snap run openshot-community | i3-msg mode "default"
+        bindsym 6 exec ffmpeg | i3-msg mode "default"
+        bindsym 7 exec handbrake | i3-msg mode "default"
+        bindsym 8 exec bash ytdl.sh | i3-msg mode "default"
 
         # back to normal: Enter or Escape or $alt+v
         bindsym Return mode "default"
@@ -210,9 +210,9 @@ mode "video" {
 bindsym $alt+v mode "video"
 
 mode "dev" {
-        bindsym 1 exec codium && sh scripts/exitmode.sh
-        bindsym 2 exec pycharm-community && sh scripts/exitmode.sh
-        bindsym 3 exec postman && sh scripts/exitmode.sh
+        bindsym 1 exec codium | i3-msg mode "default"
+        bindsym 2 exec pycharm-community | i3-msg mode "default"
+        bindsym 3 exec postman | i3-msg mode "default"
 
         # back to normal: Enter or Escape or $alt+d
         bindsym Return mode "default"
