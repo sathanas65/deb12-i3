@@ -184,7 +184,7 @@ mode "browser" {
         bindsym f exec firefox-esr | i3-msg mode "default"
         bindsym t exec torbrowser | i3-msg mode "default"
         bindsym m exec .local/share/mullvad-browser/start-mullvad-browser | i3-msg mode "default"
-        bindsym l exec librewolf && sh scripts/exitmode.sh
+        bindsym l exec librewolf | i3-msg mode "default"
 
         # back to normal: Enter or Escape or $mod+b
         bindsym Return mode "default"
