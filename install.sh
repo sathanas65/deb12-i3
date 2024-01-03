@@ -102,7 +102,7 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyrin
 sudo apt update
 sudo apt install -y brave-browser
 sleep 2
-brave browser & sleep 10
+brave-browser & sleep 10
 sudo pkill brave-browser
 
 # librewolf browser
