@@ -140,7 +140,6 @@ mode "authenticate" {
         bindsym b exec snap run bitwarden && sh scripts/exitmode.sh
         bindsym g exec gnome-authenticator && sh scripts/exitmode.sh
         bindsym a exec snap run authpass && sh scripts/exitmode.sh
-        #bindsym a exec snap run authy && sh scripts/exitmode.sh
 
         # back to normal: Enter or Escape or $mod+Shift+a
         bindsym Return mode "default"
