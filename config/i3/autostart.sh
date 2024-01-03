@@ -4,7 +4,7 @@
 
 #enable picom to support transparency
 picom -b &
-dunst &
+dunst -config ~/.config/dunst/dunstrc &
 numlokx on &
 nm-applet &
 volumeicon &
