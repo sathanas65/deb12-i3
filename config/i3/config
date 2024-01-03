@@ -80,7 +80,7 @@ bindsym $mod+Shift+f exec bash firewall.sh
 
 # start a terminal
 bindsym $mod+Return exec terminator
-bindsym $mod+Shift+Return exec tmux
+bindsym $mod+Shift+Return exec konsole --profile "Profile 1" --noclose -e tmux
 
 # lock screen
 bindsym $mod+l exec i3lock --color 000000
