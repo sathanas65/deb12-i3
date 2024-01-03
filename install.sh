@@ -288,8 +288,6 @@ cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/shar
 sudo apt install -y gnome-authenticator
 sudo snap install authpass
 cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
-sudo snap install authy
-cp /var/lib/snapd/desktop/applications/authy_authy.desktop ~/.local/share/applications/
 
 sudo -v
 
