@@ -41,20 +41,20 @@ Mouse + Super - drag floating windows to their wanted position
 
 	# Enter Move Mode
 	Super + m     -then:
-		s move active window to System workspace
-		b move active window to Browser workspace
-		c move active window to Config workspace
-		r move active window to Research workspace
-		0 move active window to Dashboard workspace
-		n move active window to Notes workspace
-		2 move active window to Communications workspace
-		3 move active window to Development workspace
-		4 move active window to SSR workspace
-		v move active window to Virt workspace
-		a move active window to Accounts workspace
-		f move active window to Finance workspace
-		m move active window to Media workspace
-		t move active window to TV workspace
+		s - move active window to System workspace
+		b - move active window to Browser workspace
+		c - move active window to Config workspace
+		r - move active window to Research workspace
+		0 - move active window to Dashboard workspace
+		n - move active window to Notes workspace
+		2 - move active window to Communications workspace
+		3 - move active window to Development workspace
+		4 - move active window to SSR workspace
+		v - move active window to Virt workspace
+		a - move active window to Accounts workspace
+		f - move active window to Finance workspace
+		m - move active window to Media workspace
+		t - move active window to TV workspace
 
 	# Change the new window orientation
 	Super + v - the next window will populate in the lower half of the active window's current position
