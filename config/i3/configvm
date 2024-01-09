@@ -329,7 +329,8 @@ bindsym $mod+Control+v exec vlc
 bindsym $mod+e exec thunar
 
 # backup
-bindsym $mod+Control+t exec konsole --profile "Profile 1" --noclose -e sudo timeshift-gtk &
+#timeshift - will prompt for password - password is ported directly to sudo and not stored in a variable
+bindsym $mod+Control+t exec "tmux kill-session -t timeshift_bkp_script; sleep 1; tmux new-session -d -s timeshift_bkp_script '~/scripts/timeshift.sh'"
 bindsym $mod+Shift+d exec duplicity
 
 # signal
