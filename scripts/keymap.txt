@@ -67,13 +67,48 @@ Mouse + Super - drag floating windows to their wanted position
 
 	Super + f - toggle fullscreen for the active window
 	Super + q - kills the active window
-	Super + Shift + Space - toggle between tiling and floating windows
-	 
+	Super + Shift + Space - toggle between tiling and floating windows	 
 	Super + Ctrl + Space - Change focus between tiling / floating windows
 	
 	# Workspaces
-	Super + [0-9] will move the display to the indicated numbered workspace
-	Super + Shift + [0-9] will move the active window to the indicated numbered workspace
+	Super + w - Enter Workspace Mode, then:
+		s - go to workspace "System"
+		b - go to workspace "Browser"
+		c - go to workspace "Config"
+		r - go to workspace "Research"
+		0 - go to workspace "Dashboard"
+		n - go to workspace "Notes"
+		2 - go to workspace "Communications"
+		3 - go to workspace "Development"
+		4 - go to workspace "SSR"
+		v - go to workspace "Virt"
+		a - go to workspace "Accounts"
+		f - go to workspace "Finance"
+		m - go to workspace "Media"
+		t - go to workspace "TV"
+
+		l - add workspace on the left output, OR
+		r - add workspace on the right output, then:
+			s - go to workspace "System"
+			b - go to workspace "Browser"
+			c - go to workspace "Config"
+			r - go to workspace "Research"
+			0 - go to workspace "Dashboard"
+			n - go to workspace "Notes"
+			2 - go to workspace "Communications"
+			3 - go to workspace "Development"
+			4 - go to workspace "SSR"
+			v - go to workspace "Virt"
+			a - go to workspace "Accounts"
+			f - go to workspace "Finance"
+			m - go to workspace "Media"
+			t - go to workspace "TV"
+
+		v - Virtual machine workspace mode, then:
+			0 - go to VM 0
+			1 - go to VM 1
+			2 - go to VM 2
+			3 - go to VM 3
 
 	# Resize Windows
 	Super + r - toggles window resize mode
