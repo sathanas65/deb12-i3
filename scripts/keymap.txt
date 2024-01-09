@@ -55,6 +55,9 @@ Mouse + Super - drag floating windows to their wanted position
 		f - move active window to Finance workspace
 		m - move active window to Media workspace
 		t - move active window to TV workspace
+		h - move active window to the Scratchpad
+
+	Super + Shift + s - show the scratchpad
 
 	# Change the new window orientation
 	Super + v - the next window will populate in the lower half of the active window's current position
