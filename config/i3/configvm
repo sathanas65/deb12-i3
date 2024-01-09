@@ -43,7 +43,6 @@ set $ws11 "TV"
 set $ws12 "Finance
 set $ws13 "Research"
 
-
 # auto back and forth was breaking config workspace spawning 
 workspace_auto_back_and_forth no
 
@@ -54,37 +53,36 @@ workspace "Notes" output Virtual-2
 #exec i3-msg "workspace 'Dashboard'; append_layout /home/user/template.json
 #exec i3-msg "workspace 'Notes'; append_layout /home/user/template.json
 
-
 # workspace mode 
 mode "workspace" {
-		# Add a workspace on the left or right
-		bindsym l mode "workspace left"
-		bindsym r mode "workspace right"
-		
-		# Move the focused workspace to the display on the right or left
-		bindsym Left exec i3-msg move workspace to output left && i3-msg  mode "default"
-		bindsym Right exec i3-msg move workspace to output right && i3-msg  mode "default"
-		
-		# VM workspace mode
-		bindsym v mode "vm workspace"
-		
-		# Go to named workspace
-		bindsym s exec i3-msg workspace "System" && i3-msg mode "default"
-		bindsym b exec i3-msg workspace "Browser" && i3-msg mode "default"
-		bindsym c exec i3-msg workspace "Config" && i3-msg mode "default"
-		bindsym r exec i3-msg workspace "Research" && i3-msg mode "default"
-		bindsym 0 exec i3-msg workspace "Dashboard" && i3-msg mode "default"
-		bindsym n exec i3-msg workspace "Notes" && i3-msg mode "default"
-		bindsym 2 exec i3-msg workspace "Communications" && i3-msg mode "default"
-		bindsym 3 exec i3-msg workspace "Development" && i3-msg mode "default"
-		bindsym 4 exec i3-msg workspace "SSR" && i3-msg mode "default"
-		bindsym v exec i3-msg workspace "Virt" && i3-msg mode "default"
-		bindsym a exec i3-msg workspace "Accounts" && i3-msg mode "default"
-		bindsym f exec i3-msg workspace "Finance" && i3-msg mode "default"
-		bindsym m exec i3-msg workspace "Media" && i3-msg mode "default"
-		bindsym t exec i3-msg workspace "TV" && i3-msg mode "default"
+	# Add a workspace on the left or right
+	bindsym l mode "workspace left"
+	bindsym r mode "workspace right"
+	
+	# Move the focused workspace to the display on the right or left
+	bindsym Left exec i3-msg move workspace to output left && i3-msg  mode "default"
+	bindsym Right exec i3-msg move workspace to output right && i3-msg  mode "default"
+	
+	# VM workspace mode
+	bindsym v mode "vm workspace"
+	
+	# Go to named workspace
+	bindsym s exec i3-msg workspace "System" && i3-msg mode "default"
+	bindsym b exec i3-msg workspace "Browser" && i3-msg mode "default"
+	bindsym c exec i3-msg workspace "Config" && i3-msg mode "default"
+	bindsym r exec i3-msg workspace "Research" && i3-msg mode "default"
+	bindsym 0 exec i3-msg workspace "Dashboard" && i3-msg mode "default"
+	bindsym n exec i3-msg workspace "Notes" && i3-msg mode "default"
+	bindsym 2 exec i3-msg workspace "Communications" && i3-msg mode "default"
+	bindsym 3 exec i3-msg workspace "Development" && i3-msg mode "default"
+	bindsym 4 exec i3-msg workspace "SSR" && i3-msg mode "default"
+	bindsym v exec i3-msg workspace "Virt" && i3-msg mode "default"
+	bindsym a exec i3-msg workspace "Accounts" && i3-msg mode "default"
+	bindsym f exec i3-msg workspace "Finance" && i3-msg mode "default"
+	bindsym m exec i3-msg workspace "Media" && i3-msg mode "default"
+	bindsym t exec i3-msg workspace "TV" && i3-msg mode "default"
 
-		# back to normal: Enter or Escape or $mod+r
+	# back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+w mode "default"
@@ -94,22 +92,22 @@ bindsym $mod+w mode "workspace"
 
 # Launch a workspace on the left display ($mod+w, then l to enter this mode)
 mode "workspace left" {
-		bindsym s exec i3-msg focus output Virtual-1 && i3-msg workspace "System" && i3-msg mode "default"
-		bindsym b exec i3-msg focus output Virtual-1 && i3-msg workspace "Browser" && i3-msg mode "default"
-		bindsym c exec i3-msg focus output Virtual-1 && i3-msg workspace "Config" && i3-msg mode "default"
-		bindsym r exec i3-msg focus output Virtual-1 && i3-msg workspace "Refresh" && i3-msg mode "default"
-		bindsym 0 exec i3-msg focus output Virtual-1 && i3-msg workspace "Dashboard" && i3-msg mode "default"
-		bindsym n exec i3-msg focus output Virtual-1 && i3-msg workspace "Notes" && i3-msg mode "default"
-		bindsym 2 exec i3-msg focus output Virtual-1 && i3-msg workspace "Communications" && i3-msg mode "default"
-		bindsym 3 exec i3-msg focus output Virtual-1 && i3-msg workspace "Development" && i3-msg mode "default"
-		bindsym 4 exec i3-msg focus output Virtual-1 && i3-msg workspace "SSR" && i3-msg mode "default"
-		bindsym v exec i3-msg focus output Virtual-1 && i3-msg workspace "Virt" && i3-msg mode "default"
-		bindsym a exec i3-msg focus output Virtual-1 && i3-msg workspace "Accounts" && i3-msg mode "default"
-		bindsym f exec i3-msg focus output Virtual-1 && i3-msg workspace "Finance" && i3-msg mode "default"
-		bindsym m exec i3-msg focus output Virtual-1 && i3-msg workspace "Media" && i3-msg mode "default"
-		bindsym t exec i3-msg focus output Virtual-1 && i3-msg workspace "TV" && i3-msg mode "default"
-		
-		# back to normal: Enter or Escape or $mod+r
+	bindsym s exec i3-msg focus output Virtual-1 && i3-msg workspace "System" && i3-msg mode "default"
+	bindsym b exec i3-msg focus output Virtual-1 && i3-msg workspace "Browser" && i3-msg mode "default"
+	bindsym c exec i3-msg focus output Virtual-1 && i3-msg workspace "Config" && i3-msg mode "default"
+	bindsym r exec i3-msg focus output Virtual-1 && i3-msg workspace "Refresh" && i3-msg mode "default"
+	bindsym 0 exec i3-msg focus output Virtual-1 && i3-msg workspace "Dashboard" && i3-msg mode "default"
+	bindsym n exec i3-msg focus output Virtual-1 && i3-msg workspace "Notes" && i3-msg mode "default"
+	bindsym 2 exec i3-msg focus output Virtual-1 && i3-msg workspace "Communications" && i3-msg mode "default"
+	bindsym 3 exec i3-msg focus output Virtual-1 && i3-msg workspace "Development" && i3-msg mode "default"
+	bindsym 4 exec i3-msg focus output Virtual-1 && i3-msg workspace "SSR" && i3-msg mode "default"
+	bindsym v exec i3-msg focus output Virtual-1 && i3-msg workspace "Virt" && i3-msg mode "default"
+	bindsym a exec i3-msg focus output Virtual-1 && i3-msg workspace "Accounts" && i3-msg mode "default"
+	bindsym f exec i3-msg focus output Virtual-1 && i3-msg workspace "Finance" && i3-msg mode "default"
+	bindsym m exec i3-msg focus output Virtual-1 && i3-msg workspace "Media" && i3-msg mode "default"
+	bindsym t exec i3-msg focus output Virtual-1 && i3-msg workspace "TV" && i3-msg mode "default"
+	
+	# back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+w mode "default"
@@ -117,20 +115,20 @@ mode "workspace left" {
 
 # Launch a workspace on the right display ($mod+w, then r to enter this mode)
 mode "workspace right" {
-		bindsym s exec i3-msg focus output Virtual-2 && i3-msg workspace "System && i3-msg mode "default"
-		bindsym b exec i3-msg focus output Virtual-2 && i3-msg workspace "Browser && i3-msg mode "default"
-		bindsym c exec i3-msg focus output Virtual-2 && i3-msg workspace "Config" && i3-msg mode "default"
-		bindsym r exec i3-msg focus output Virtual-2 && i3-msg workspace "Research" && i3-msg mode "default"
-		bindsym 0 exec i3-msg focus output Virtual-2 && i3-msg workspace "Dashboard" && i3-msg mode "default"
-		bindsym n exec i3-msg focus output Virtual-2 && i3-msg workspace "Notes" && i3-msg mode "default"
-		bindsym 2 exec i3-msg focus output Virtual-2 && i3-msg workspace "Communications" && i3-msg mode "default"
-		bindsym 3 exec i3-msg focus output Virtual-2 && i3-msg workspace "Development" && i3-msg mode "default"
-		bindsym 4 exec i3-msg focus output Virtual-2 && i3-msg workspace "SSR" && i3-msg mode "default"
-		bindsym v exec i3-msg focus output Virtual-2 && i3-msg workspace "Virt" && i3-msg mode "default"
-		bindsym a exec i3-msg focus output Virtual-2 && i3-msg workspace "Accounts" && i3-msg mode "default"
-		bindsym f exec i3-msg focus output Virtual-2 && i3-msg workspace "Finance" && i3-msg mode "default"
-		bindsym m exec i3-msg focus output Virtual-2 && i3-msg workspace "Media" && i3-msg mode "default"
-		bindsym t exec i3-msg focus output Virtual-2 && i3-msg workspace "TV" && i3-msg mode "default"	
+	bindsym s exec i3-msg focus output Virtual-2 && i3-msg workspace "System && i3-msg mode "default"
+	bindsym b exec i3-msg focus output Virtual-2 && i3-msg workspace "Browser && i3-msg mode "default"
+	bindsym c exec i3-msg focus output Virtual-2 && i3-msg workspace "Config" && i3-msg mode "default"
+	bindsym r exec i3-msg focus output Virtual-2 && i3-msg workspace "Research" && i3-msg mode "default"
+	bindsym 0 exec i3-msg focus output Virtual-2 && i3-msg workspace "Dashboard" && i3-msg mode "default"
+	bindsym n exec i3-msg focus output Virtual-2 && i3-msg workspace "Notes" && i3-msg mode "default"
+	bindsym 2 exec i3-msg focus output Virtual-2 && i3-msg workspace "Communications" && i3-msg mode "default"
+	bindsym 3 exec i3-msg focus output Virtual-2 && i3-msg workspace "Development" && i3-msg mode "default"
+	bindsym 4 exec i3-msg focus output Virtual-2 && i3-msg workspace "SSR" && i3-msg mode "default"
+	bindsym v exec i3-msg focus output Virtual-2 && i3-msg workspace "Virt" && i3-msg mode "default"
+	bindsym a exec i3-msg focus output Virtual-2 && i3-msg workspace "Accounts" && i3-msg mode "default"
+	bindsym f exec i3-msg focus output Virtual-2 && i3-msg workspace "Finance" && i3-msg mode "default"
+	bindsym m exec i3-msg focus output Virtual-2 && i3-msg workspace "Media" && i3-msg mode "default"
+	bindsym t exec i3-msg focus output Virtual-2 && i3-msg workspace "TV" && i3-msg mode "default"	
         bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+w mode "default"
@@ -139,37 +137,36 @@ mode "workspace right" {
 # VM workspace mode ($mod+w then v to enter this mode)
 # this mode adds VM workspaces to both displays
 mode "vm workspace" {
-		bindsym 0 exec i3-msg focus output Virtual-1 && i3-msg workspace "VM0-L" && i3-msg focus output Virtual-2 && i3-msg workspace "VM0-R" && i3-msg mode "default"
-		bindsym 1 exec i3-msg focus output Virtual-1 && i3-msg workspace "VM1-L" && i3-msg focus output Virtual-2 && i3-msg workspace "VM1-R" && i3-msg mode "default"
-		bindsym 2 exec i3-msg focus output Virtual-1 && i3-msg workspace "VM2-L" && i3-msg focus output Virtual-2 && i3-msg workspace "VM2-R" && i3-msg mode "default"
-		bindsym 3 exec i3-msg focus output Virtual-1 && i3-msg workspace "VM3-L" && i3-msg focus output Virtual-2 && i3-msg workspace "VM3-R" && i3-msg mode "default"
-		bindsym Return mode "default"
+	bindsym 0 exec i3-msg focus output Virtual-1 && i3-msg workspace "VM0-L" && i3-msg focus output Virtual-2 && i3-msg workspace "VM0-R" && i3-msg mode "default"
+	bindsym 1 exec i3-msg focus output Virtual-1 && i3-msg workspace "VM1-L" && i3-msg focus output Virtual-2 && i3-msg workspace "VM1-R" && i3-msg mode "default"
+	bindsym 2 exec i3-msg focus output Virtual-1 && i3-msg workspace "VM2-L" && i3-msg focus output Virtual-2 && i3-msg workspace "VM2-R" && i3-msg mode "default"
+	bindsym 3 exec i3-msg focus output Virtual-1 && i3-msg workspace "VM3-L" && i3-msg focus output Virtual-2 && i3-msg workspace "VM3-R" && i3-msg mode "default"
+	bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+w mode "default"Dashboard
 }                     
 
 # move focused container to workspace
 mode "move" {
-		bindsym s exec i3-msg move container to workspace "System" && i3-msg mode "default"
-		bindsym b exec i3-msg move container to workspace "Browser && i3-msg mode "default"
-		bindsym c exec i3-msg move container to workspace "Config" && i3-msg mode "default"
-		bindsym r exec i3-msg move container to workspace "Research" && i3-msg mode "default"
-		bindsym 0 exec i3-msg move container to workspace "Dashboard" && i3-msg mode "default"
-		bindsym n exec i3-msg move container to workspace "Notes" && i3-msg mode "default"
-		bindsym 2 exec i3-msg move container to workspace "Communications" && i3-msg mode "default"
-		bindsym 3 exec i3-msg move container to workspace "Development" && i3-msg mode "default"
-		bindsym 4 exec i3-msg move container to workspace "SSR" && i3-msg mode "default"
-		bindsym v exec i3-msg move container to workspace "Virt" && i3-msg mode "default"
-		bindsym a exec i3-msg move container to workspace "Accounts" && i3-msg mode "default"
-		bindsym f exec i3-msg move container to workspace "Finance" && i3-msg mode "default"
-		bindsym m exec i3-msg move container to workspace "Media" && i3-msg mode "default"
-		bindsym t exec i3-msg move container to workspace "TV" && i3-msg mode "default"
+	bindsym s exec i3-msg move container to workspace "System" && i3-msg mode "default"
+	bindsym b exec i3-msg move container to workspace "Browser && i3-msg mode "default"
+	bindsym c exec i3-msg move container to workspace "Config" && i3-msg mode "default"
+	bindsym r exec i3-msg move container to workspace "Research" && i3-msg mode "default"
+	bindsym 0 exec i3-msg move container to workspace "Dashboard" && i3-msg mode "default"
+	bindsym n exec i3-msg move container to workspace "Notes" && i3-msg mode "default"
+	bindsym 2 exec i3-msg move container to workspace "Communications" && i3-msg mode "default"
+	bindsym 3 exec i3-msg move container to workspace "Development" && i3-msg mode "default"
+	bindsym 4 exec i3-msg move container to workspace "SSR" && i3-msg mode "default"
+	bindsym v exec i3-msg move container to workspace "Virt" && i3-msg mode "default"
+	bindsym a exec i3-msg move container to workspace "Accounts" && i3-msg mode "default"
+	bindsym f exec i3-msg move container to workspace "Finance" && i3-msg mode "default"
+	bindsym m exec i3-msg move container to workspace "Media" && i3-msg mode "default"
+	bindsym t exec i3-msg move container to workspace "TV" && i3-msg mode "default"
 
-		# Move the focused window to the scratchpad
-		bindsym h move scratchpad; mode "default"
-		
-		
-		bindsym Return mode "default"
+	# Move the focused window to the scratchpad
+	bindsym h move scratchpad; mode "default"
+	
+	bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+m mode "default"
 }
@@ -178,13 +175,13 @@ bindsym $mod+m mode "move"
 
 # Layout mode - change container layout
 mode "layout" {
-		# stacked
-		bindsym 3 exec i3-msg layout stacking && i3-msg mode "default"
-		# tabbed
-		bindsym 2 exec i3-msg layout tabbed && i3-msg mode "default"
-		# toggle split
-		bindsym 1 exec i3-msg layout toggle split && i3-msg mode "default"
-		bindsym Return mode "default"
+	# stacked
+	bindsym 3 exec i3-msg layout stacking && i3-msg mode "default"
+	# tabbed
+	bindsym 2 exec i3-msg layout tabbed && i3-msg mode "default"
+	# toggle split
+	bindsym 1 exec i3-msg layout toggle split && i3-msg mode "default"
+	bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $alt+l mode "default"
 }
@@ -243,28 +240,28 @@ bindsym $mod+Shift+h exec konsole --profile "Profile 1" --noclose -e nano ~/scri
 
 # Backup and edit configs
 mode "config" {
-		# i3 config
-		bindsym i exec bash scripts/i3config.sh
-		# Xorg config
-		#bindsym x exec bash scripts/xconfig.sh
-		# lightdm config
-		#bindsym l exec bash scripts/ldmconfig.sh
-		# lightdm greeter config
-		#bindsym g exec bash scripts/ldmgreetconfig.sh
-		# fstab config
-		#bindsym f exec bash scripts/fstabconfig.sh
-		# crypttab config
-		#bindsym c exec bash scripts/crypttabconfig.sh
-		# autostart config
-		#bindsym a exec bash scripts/autostartconfig.sh
-		# sudo config
-		#bindsym s exec bash scripts/sudoconfig.sh
-		# network config
-		#bindsym n exec bash scripts/netconfig.sh
-		# dunst config
-		#bindsym d exec bash scripts/dunstconfig.sh
+	# i3 config
+	bindsym i exec bash scripts/i3config.sh
+	# Xorg config
+	#bindsym x exec bash scripts/xconfig.sh
+	# lightdm config
+	#bindsym l exec bash scripts/ldmconfig.sh
+	# lightdm greeter config
+	#bindsym g exec bash scripts/ldmgreetconfig.sh
+	# fstab config
+	#bindsym f exec bash scripts/fstabconfig.sh
+	# crypttab config
+	#bindsym c exec bash scripts/crypttabconfig.sh
+	# autostart config
+	#bindsym a exec bash scripts/autostartconfig.sh
+	# sudo config
+	#bindsym s exec bash scripts/sudoconfig.sh
+	# network config
+	#bindsym n exec bash scripts/netconfig.sh
+	# dunst config
+	#bindsym d exec bash scripts/dunstconfig.sh
 
-		# back to normal: Enter or Escape or $mod+d
+	# back to normal: Enter or Escape or $mod+d
         bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $alt+c mode "default"
@@ -578,19 +575,13 @@ assign [class="Gnome-disks"] "System"
 assign [class="Nm-connection-editor"] "System"
 assign [class="vlc"] "Media"
 
-
 # focus the parent container
 bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
 
-
-
-
 exec "tmux new-session -d -s firewall_boot_script '~/scripts/firewall-boot-status.sh'"
-
-
 
 # reload the configuration file
 bindsym $mod+Shift+c exec i3-msg reload && notify-send "Reloaded i3 config"
