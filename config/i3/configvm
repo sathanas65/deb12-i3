@@ -535,7 +535,7 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-#bindsym $mod+space focus mode_toggle
+bindsym $mod+Ctrl+space focus mode_toggle
 
 for_window [title="KeymapHelp"] floating enable
 for_window [title="KeymapHelp"] resize set 1400 900
