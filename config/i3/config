@@ -219,7 +219,7 @@ bindsym $mod+p exec pavucontrol
 bindsym $mod+Control+p exec pulseeffects
 
 # calculator (pick one or give eahc their own keybind)
-bindsym XF86Calculator exec kcalc
+bindsym XF86Calculator exec kcalc --title "Calculator"
 #bindsym XF86Calculator exec gnome-calculator
 bindsym $mod+XF86Calculator exec galculator
 #bindsym XF86Calculator exec mate-calc
@@ -235,19 +235,68 @@ tiling_drag modifier titlebar
 #bindsym $mod+Shift+h exec sh scripts/help.sh
 bindsym $mod+Shift+h exec konsole --profile "Profile 1" --noclose -e nano ~/scripts/keymap.txt --title "KeymapHelp" && i3-msg fullscreen && i3-msg fullscreen
 
-# Backup and edit the i3 config
-#bindsym $mod+Shift+i exec sh scripts/i3config.sh
-bindsym $mod+Shift+i exec cp ~/.config/i3/config ~/.config/i3/configbkps/config-$(date -u +'%Y%m%d-%H%M%SZ') && konsole --profile "Profile 1" --noclose -e nano ~/.config/i3/config --title "i3config" && i3-msg fullscreen && i3-msg fullscreen
+# Backup and edit configs
+mode "config" {
+	# i3 config
+	bindsym i exec bash scripts/i3config.sh
+	# Xorg config
+	#bindsym x exec bash scripts/xconfig.sh
+	# lightdm config
+	#bindsym l exec bash scripts/ldmconfig.sh
+	# lightdm greeter config
+	#bindsym g exec bash scripts/ldmgreetconfig.sh
+	# fstab config
+	#bindsym f exec bash scripts/fstabconfig.sh
+	# crypttab config
+	#bindsym c exec bash scripts/crypttabconfig.sh
+	# autostart config
+	#bindsym a exec bash scripts/autostartconfig.sh
+	# sudo config
+	#bindsym s exec bash scripts/sudoconfig.sh
+	# network config
+	#bindsym n exec bash scripts/netconfig.sh
+	# dunst config
+	#bindsym d exec bash scripts/dunstconfig.sh
+
+	# back to normal: Enter or Escape or $mod+d
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $alt+c mode "default"
+}
+
+bindsym $alt+c exec i3-msg workspace "Config" && i3-msg mode "config"
+
+# console to main vm
+#bindsym $mod+Shift+k exec sudo virt-viewer <name of vm>
 
 # rofi
 bindsym $mod+space exec rofi -modi drun -show drun -line padding 4 -hide-scrollbar -show-icons
 
 # ufw firewall (toggle)
-bindsym $mod+Shift+f exec bash firewall.sh
+bindsym $mod+Shift+f exec "tmux kill-session -t firewall_script; sleep 1; tmux new-session -d -s firewall_script '~/scripts/firewall.sh'"
 
 # start a terminal
 bindsym $mod+Return exec terminator
 bindsym $mod+Shift+Return exec konsole --profile "Profile 1" --noclose -e tmux
+
+# These display scripts are written for my outputs. Edit as needed.
+mode "display" {
+        # single display (1920 x 1080)
+        bindsym 1 exec sh scripts/right.sh | i3-msg mode "default"
+        # dual display (3840 x 1080)
+        bindsym 2 exec sh scripts/dual.sh | i3-msg mode "default"
+	# dual + 4K TV above (3840x3240)
+	bindsym 3 exec sh scripts/tv.sh | i3-msg mode "default"
+        # manual set
+        bindsym a exec aradr | i3-msg mode "default"
+
+        # back to normal: Enter or Escape or $mod+d
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+d mode "default"
+}
+
+bindsym $mod+d mode "display"
 
 # lock screen
 bindsym $mod+l exec i3lock --color 000000
