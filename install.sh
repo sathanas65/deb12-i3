@@ -396,10 +396,10 @@ sudo systemctl enable lightdm
 # import scripts and configs for virtual machine guest (comment these out if you are installing on physical hardware)
 sh ~/deb12-i3/vm-copyconf.sh
 #This makes lightdm set virtual display to 1080p
-sudo cp virtual-display.sh /usr/share/virtual-display.sh
-sudo cp background.png /usr/share/background.png
-sudo cp lightdm_greeter.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
-sudo cp lightdm.conf /etc/lightdm/lightdm.conf
+sudo cp deb12-i3/virtual-display.sh /usr/share/virtual-display.sh
+sudo cp deb12-i3/background.png /usr/share/background.png
+sudo cp deb12-i3/lightdm_greeter.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
+sudo cp deb12-i3/lightdm.conf /etc/lightdm/lightdm.conf
 sudo chmod +x /usr/share/virtual-display.sh
 
 sudo apt update && sudo apt upgrade -y
