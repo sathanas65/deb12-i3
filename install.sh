@@ -400,6 +400,7 @@ sudo cp deb12-i3/virtual-display.sh /usr/share/virtual-display.sh
 sudo cp deb12-i3/background.png /usr/share/background.png
 sudo cp deb12-i3/lightdm_greeter.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
 sudo cp deb12-i3/lightdm.conf /etc/lightdm/lightdm.conf
+sudo cp deb12-i3/psensor-pref.glade /usr/share/psensor/psensor-pref.glade
 sudo chmod +x /usr/share/virtual-display.sh
 
 sudo apt update && sudo apt upgrade -y
