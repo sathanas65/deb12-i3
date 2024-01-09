@@ -412,7 +412,7 @@ mode "video" {
         bindsym $alt+v mode "default"
 }
 
-bindsym $alt+v mode "video"
+bindsym $alt+v exec i3-msg workspace "Video" && i3-msg mode "video"
 
 mode "dev" {
         bindsym 1 exec codium | i3-msg mode "default"
@@ -425,7 +425,7 @@ mode "dev" {
         bindsym $alt+d mode "default"
 }
 
-bindsym $alt+d mode "dev"
+bindsym $alt+d exec i3-msg workspace "Development" && i3-msg mode "dev"
 
 # htop or gui system monitor (pick one or give eahc their own keybind)
 #bindsym Control+Shift+Escape exec terminator -x htop &
