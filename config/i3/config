@@ -354,7 +354,6 @@ bindsym $mod+Shift+a mode "authenticate"
 
 mode "text" {
         bindsym e exec emacs | i3-msg mode "default"
-        bindsym n exec snap run notepad-plus-plus | i3-msg mode "default"
         bindsym g exec geany | i3-msg mode "default"
         bindsym s exec sublime-text | i3-msg mode "default"
         bindsym b exec brackets | i3-msg mode "default"
