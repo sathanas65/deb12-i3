@@ -1,6 +1,6 @@
 
 
-Super + Shift + i - backs up the i3 config and opens it for editing (change keybinds this way)
+(Alt+c) then i - backs up the i3 config and opens it for editing (change keybinds this way)
 
 Super + Shift + c - reloads the i3 config file, used after editing the config
 
@@ -39,23 +39,37 @@ Mouse + Super - drag floating windows to their wanted position
 	Super + Shift + up arrow - move the active window up
 	Super + Shift + down arrow - move the active window down
 
+	# Enter Move Mode
+	Super + m     -then:
+		s move active window to System workspace
+		b move active window to Browser workspace
+		c move active window to Config workspace
+		r move active window to Research workspace
+		0 move active window to Dashboard workspace
+		n move active window to Notes workspace
+		2 move active window to Communications workspace
+		3 move active window to Development workspace
+		4 move active window to SSR workspace
+		v move active window to Virt workspace
+		a move active window to Accounts workspace
+		f move active window to Finance workspace
+		m move active window to Media workspace
+		t move active window to TV workspace
+
 	# Change the new window orientation
 	Super + v - the next window will populate in the lower half of the active window's current position
 	Super + h - the next window will populate in the right half of the active window's current position
 	
 	# Change container layout (stacked, tabbed, toggle split)
-	Super + Control + s - layout stacking
-	Super + w - layout tabbed
-	Super + Shift + s - layout toggle split
+	(Alt + l) then 1 - toggle split
+	(Alt + l) then 2 - layout tabbed
+	(Alt + l) then 3 - layout stacking
 
 	Super + f - toggle fullscreen for the active window
 	Super + q - kills the active window
 	Super + Shift + Space - toggle between tiling and floating windows
-	
-	# Change focus between tiling / floating windows 
-	# I don't use this so I stole the keybind for Rofi. If you want it:
-	# use Super + Shift + i to edit i3 config. Look for the line below and change the keybind to something unused.
-	#bindsym $mod+space focus mode_toggle
+	 
+	Super + Ctrl + Space - Change focus between tiling / floating windows
 	
 	# Workspaces
 	Super + [0-9] will move the display to the indicated numbered workspace
