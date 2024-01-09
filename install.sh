@@ -169,9 +169,6 @@ git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 yes | .emacs.d/bin/doom install
 # geany
 sudo apt install -y geany
-# notepad++ (FOSS Windows application, uses Wine to run on Linux) snap run notepad-plus-plus (command to launch)
-sudo snap install notepad-plus-plus 
-cp /var/lib/snapd/desktop/applications/notepad-plus-plus_notepad-plus-plus.desktop ~/.local/share/applications/
 # brackets
 sudo snap install brackets --classic
 cp /var/lib/snapd/desktop/applications/brackets_brackets.desktop ~/.local/share/applications/
