@@ -132,7 +132,7 @@ mode "workspace right" {
 }
 
 # VM workspace mode ($mod+w then v to enter this mode)
-# this mode adds VM workspaces to both displays
+# this mode adds VM workspaces to both displays - configured for my outputs. Replace DP-0 and DVI-D-0 with yours
 mode "vm workspace" {
         bindsym 0 exec i3-msg focus output DP-0 && i3-msg workspace "VM0-L" && i3-msg focus output DVI-D-0 && i3-msg workspace "VM0-R" && i3-msg mode "default"
         bindsym 1 exec i3-msg focus output DP-0 && i3-msg workspace "VM1-L" && i3-msg focus output DVI-D-0 && i3-msg workspace "VM1-R" && i3-msg mode "default"
@@ -193,14 +193,14 @@ exec "tmux kill-session -t firewall_boot_script; sleep 1; tmux new-session -d -s
 exec --no-startup-id dex --autostart --environment i3
 
 # Set Gaps
-gaps inner 10
+gaps inner 8
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -c 000000 --nofork
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -c 000000 --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -312,57 +312,25 @@ mode "terminal" {
 
 bindsym $mod+Shift+t mode "terminal"
 
+# synaptic package manager
+bindsym $mod+s exec konsole --profile "Profile 1" --noclose -e sudo synaptic &
+
+#disks
+bindsym $mod+g exec sudo
+
 # lock screen
 bindsym $mod+l exec i3lock --color 000000
 
 # vlc
 bindsym $mod+Control+v exec vlc
 
-#disks
-bindsym $mod+g exec gnome-disks
-
-## These display scripts are custom for my personal displays. You will need to edit to support your own setup.
-mode "display" {
-        # single display (1920 x 1080)
-        bindsym u exec sh scripts/right.sh | i3-msg mode "default"
-        # dual display (3840 x 1080)
-        bindsym y exec sh scripts/dual.sh | i3-msg mode "default"
-        # dual diaplay + 4K TV above (3840 x 2160)
-        bindsym t exec sh scripts/tv.sh | i3-msg mode "default"
-        # manual set
-        bindsym a exec aradr | i3-msg mode "default"
-
-        # back to normal: Enter or Escape or $mod+d
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+d mode "default"
-}
-
-bindsym $mod+d mode "display"
-
-mode "terminal" {
-        byndsym n exec neofetch | i3-msg mode "default"
-        byndsym g exec glances | i3-msg mode "default"
-        byndsym h exec htop | i3-msg mode "default"
-        byndsym f exec figlet | i3-msg mode "default"
-        byndsym c exec calc | i3-msg mode "default"
-
-        # back to normal: Enter or Escape or $mod+Shift+t
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+Shift+t mode "default"
-}
-
-bindsym $mod+Shift+t mode "terminal"
-
-bindsym $mod+s exec synaptic
-
 # file manager
 bindsym $mod+e exec thunar
 
 # backup
-bindsym $mod+Control+t exec timeshift-gtk
-bindsym $mod+Shift+d exec duplicity
+#timeshift - will prompt for password - password is ported directly to sudo and not stored in a variable
+bindsym $mod+Control+t exec "tmux kill-session -t timeshift_bkp_script; sleep 1; tmux new-session -d -s timeshift_bkp_script '~/scripts/timeshift.sh'"
+#bindsym $mod+Shift+d exec duplicity
 
 # signal
 bindsym $alt+s exec signal-desktop
@@ -373,6 +341,8 @@ mode "authenticate" {
         bindsym b exec snap run bitwarden | i3-msg mode "default"
         bindsym g exec gnome-authenticator | i3-msg mode "default"
         bindsym a exec snap run authpass | i3-msg mode "default"
+	bindsym d exec "tmux kill-session -t gnomedisks_sudo_script; sleep 1; tmux new-session -d -s gnomedisks_sudo_script '~/scripts/sudodisks.sh'; i3-msg mode 'default'"
+        bindsym e exec "tmux kill-session -t thunar_sudo_script; sleep 1; tmux new-session -d -s thunar_sudo_script '~/scripts/sudothunar.sh'; i3-msg mode 'default'"
 
         # back to normal: Enter or Escape or $mod+Shift+a
         bindsym Return mode "default"
@@ -416,7 +386,7 @@ mode "browser" {
         bindsym c exec chromium | i3-msg mode "default"
         bindsym f exec firefox-esr | i3-msg mode "default"
         bindsym t exec torbrowser | i3-msg mode "default"
-        bindsym m exec .local/share/mullvad-browser/start-mullvad-browser | i3-msg mode "default"
+        bindsym m exec sh -c '"/home/user/mullvad-browser/Browser/start-mullvad-browser" --detach || ([ !  -x "/home/user/mullvad-browser/Browser/start-mullvad-browser" ] && "$(dirname "$*")"/Browser/start-mullvad-browser --detach)' dummy %k | i3-msg mode "default"
         bindsym l exec librewolf | i3-msg mode "default"
 
         # back to normal: Enter or Escape or $mod+b
@@ -425,7 +395,8 @@ mode "browser" {
         bindsym $mod+b mode "default"
 }
 
-bindsym $mod+b mode "browser"
+#bindsym $mod+b mode "browser"
+bindsym $mod+b exec i3-msg workspace "Browser" && i3-msg mode "browser"
 
 mode "video" {
         bindsym 1 exec simplescreenrecorder | i3-msg mode "default"
@@ -433,9 +404,8 @@ mode "video" {
         bindsym 3 exec kdenlive | i3-msg mode "default"
         bindsym 4 exec shotcut | i3-msg mode "default"
         bindsym 5 exec snap run openshot-community | i3-msg mode "default"
-        bindsym 6 exec ffmpeg | i3-msg mode "default"
-        bindsym 7 exec handbrake | i3-msg mode "default"
-        bindsym 8 exec bash ytdl.sh | i3-msg mode "default"
+        bindsym 6 exec handbrake | i3-msg mode "default"
+        bindsym 7 exec bash ytdl.sh | i3-msg mode "default"
 
         # back to normal: Enter or Escape or $alt+v
         bindsym Return mode "default"
@@ -463,7 +433,7 @@ bindsym $mod+Shift+v exec virt-manager
 
 # htop or gui system monitor (pick one or give eahc their own keybind)
 #bindsym Control+Shift+Escape exec terminator -x htop &
-bindsym Control+Shift+Escape exec gnome-system-monitor &
+bindsym Control+Shift+Escape exec gnome-system-monitor --title "Sysmonitor"
 
 # libreoffice
 bindsym $mod+Shift+l exec libreoffice
@@ -492,7 +462,7 @@ mode "nordvpn" {
 bindsym $mod+n mode "nordvpn"
 
 # torrent
-bindsym $alt+t exec transmission
+bindsym $alt+t exec transmission-gtk
 
 # For screenshots install :
 # apt-get install maim xclip copyq
@@ -565,13 +535,8 @@ bindsym $mod+v split v
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
 
-# change container layout (stacked, tabbed, toggle split)
-#bindsym $mod+Control+s layout stacking
-#bindsym $mod+w layout tabbed
-#bindsym $mod+Shift+s layout toggle split
-
 # toggle tiling / floating
-# bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
 #bindsym $mod+space focus mode_toggle
@@ -582,7 +547,39 @@ for_window [title="KeymapHelp"] move position center
 for_window [title="NordStatus"] floating enable
 for_window [title="NordStatus"] resize set 530 305
 for_window [title="NordStatus"] move position center
-for_window [title="i3config"] fullscreen enable
+for_window [title="Calculator"] floating enable
+for_window [title="Calculator"] resize set 400 500
+for_window [title="Calculator"] move position center
+for_window [class="Yad"] floating enable
+for_window [class="Yad"] focus
+for_window [class="Arandr"] floating enable
+for_window [class="Arandr"] focus
+for_window [class="Arandr"] resize set 500 300
+for_window [class="Arandr"] move position center
+for_window [class="Gnome-system-monitor"] floating enable
+for_window [class="Gnome-system-monitor"] resize set 400 500
+for_window [class="Gnome-system-monitor"] move position center
+for_window [class="Lxappearance"] floating enable
+for_window [class="Lxappearance"] resize set 400 500
+for_window [class="Lxappearance"] move position center
+for_window [class="copyq"] floating enable
+for_window [class="copyq"] resize set 400 500
+for_window [class="copyq"] move position center
+for_window [class="Bitwarden"] floating enable
+for_window [class="Bitwarden"] resize set 400 500
+for_window [class="Bitwarden"] move position center
+for_window [class="Authpass"] floating enable
+for_window [class="Authpass"] resize set 400 500
+for_window [class="Authpass"] move position center
+for_window [class="Pavucontrol"] floating enable
+for_window [class="Pavucontrol"] resize set 400 500
+for_window [class="Pavucontrol"] move position center
+assign [class="Zim"] "Notes"
+assign [class="SimpleScreenRecorder"] "SSR"
+assign [class="org.nickvision.money"] "Finance"
+assign [class="Gnome-disks"] "System"
+assign [class="Nm-connection-editor"] "System"
+assign [class="vlc"] "Media"
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -590,42 +587,8 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-# Define names for default workspaces for which we configure key bindings later on.
-# We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: Accounts"
-set $ws2 "2: Communications"
-set $ws3 "3: Research"
-set $ws4 "4: Notes"
-set $ws5 "5: Media"
-set $ws6 "6: Terminals"
-set $ws7 "7: Dev3"
-set $ws8 "8: Dev2"
-set $ws9 "9: Dev1"
-set $ws10 "10: Dev0"
-
-# switch to workspace
-bindsym $mod+1 exec i3-msg workspace $ws1 && notify-send "WS=Accounts"
-bindsym $mod+2 exec i3-msg workspace $ws2 && notify-send "WS=Communications"
-bindsym $mod+3 exec i3-msg workspace $ws3 && notify-send "WS=Research"
-bindsym $mod+4 exec i3-msg workspace $ws4 && notify-send "WS=Notes"
-bindsym $mod+5 exec i3-msg workspace $ws5 && notify-send "WS=Media"
-bindsym $mod+6 exec i3-msg workspace $ws6 && notify-send "WS=Terminals"
-bindsym $mod+7 exec i3-msg workspace $ws7 && notify-send "WS=Dev3"
-bindsym $mod+8 exec i3-msg workspace $ws8 && notify-send "WS=Dev2"
-bindsym $mod+9 exec i3-msg workspace $ws9 && notify-send "WS=Dev1"
-bindsym $mod+0 exec i3-msg workspace $ws10 && notify-send "WS=Dev0"
-
-# move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace number $ws1
-bindsym $mod+Shift+2 move container to workspace number $ws2
-bindsym $mod+Shift+3 move container to workspace number $ws3
-bindsym $mod+Shift+4 move container to workspace number $ws4
-bindsym $mod+Shift+5 move container to workspace number $ws5
-bindsym $mod+Shift+6 move container to workspace number $ws6
-bindsym $mod+Shift+7 move container to workspace number $ws7
-bindsym $mod+Shift+8 move container to workspace number $ws8
-bindsym $mod+Shift+9 move container to workspace number $ws9
-bindsym $mod+Shift+0 move container to workspace number $ws10
+# Startup script that monitors the firewall status
+exec "tmux new-session -d -s firewall_boot_script '~/scripts/firewall-boot-status.sh'"
 
 # reload the configuration file
 bindsym $mod+Shift+c exec i3-msg reload && notify-send "Reloaded i3 config"
