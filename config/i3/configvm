@@ -412,7 +412,7 @@ mode "video" {
         bindsym $alt+v mode "default"
 }
 
-bindsym $alt+v exec i3-msg workspace "Video" && i3-msg mode "video"
+bindsym $alt+v exec i3-msg workspace "Production" && i3-msg mode "video"
 
 mode "dev" {
         bindsym 1 exec codium | i3-msg mode "default"
