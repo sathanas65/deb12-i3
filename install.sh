@@ -147,8 +147,9 @@ sudo apt install -y rofi
 # auto numlock
 sudo apt install -y numlockx
 
-# notification daemon (Untested)
+# notification daemon
 sudo apt install -y dunst libnotify-bin
+sudo apt install -y yad
 
 # snap store (Supports installation of containerized apps)
 sudo apt install -y snapd
