@@ -270,7 +270,7 @@ mode "config" {
 bindsym $alt+c exec i3-msg workspace "Config" && i3-msg mode "config"
 
 # console to main vm
-bindsym $mod+Shift+k exec sudo virt-viewer <name of vm>
+bindsym $mod+Shift+k exec sudo virt-viewer <name of vm> -f
 
 # rofi
 bindsym $mod+space exec rofi -modi drun -show drun -line padding 4 -hide-scrollbar -show-icons
