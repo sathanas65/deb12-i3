@@ -313,7 +313,8 @@ mode "terminal" {
 
 bindsym $mod+Shift+t mode "terminal"
 
-bindsym $mod+s exec konsole --profile "Profile 1" --noclose -e sudo synaptic &
+# synaptic package manager
+bindsym $mod+Control+t exec "tmux kill-session -t synaptic_script; sleep 1; tmux new-session -d -s synaptic_script '~/scripts/synaptic.sh'"
 
 #disks
 bindsym $mod+g exec gnome-disks
