@@ -418,7 +418,7 @@ bindsym $alt+v mode "video"
 mode "dev" {
         bindsym 1 exec codium | i3-msg mode "default"
         bindsym 2 exec pycharm-community | i3-msg mode "default"
-        bindsym 3 exec postman | i3-msg mode "default"
+        bindsym 3 exec snap run postman | i3-msg mode "default"
 
         # back to normal: Enter or Escape or $alt+d
         bindsym Return mode "default"
