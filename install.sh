@@ -67,9 +67,9 @@ sudo apt-get install -y gnome-system-monitor
 sudo apt-get install -y synapt-getic
 
 # enable repos
-sudo apt-get install -y software-properties-common apt-get-transport-https curl ca-certificates -y
-echo | sudo apt-get-add-repository contrib non-free-firmware
-sudo apt-get update && sudo apt-get upgrade -y
+sudo apt install -y software-properties-common apt-transport-https curl ca-certificates -y
+echo | sudo apt-add-repository contrib non-free-firmware
+sudo apt update && sudo apt upgrade -y
 
 sudo -v
 
@@ -103,7 +103,7 @@ sudo apt-get install -y kcalc
 # brave browser ($mod + b) NOT FOSS
 # Note that there is a bug where brave fails to in initialize on the 1st launch. After a reboot it will work fine thereafter.
 wget -qO- https://brave-browser-apt-get-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-get-release.s3.brave.com/ stable main" | sudo tee /etc/apt-get/sources.list.d/brave-browser-release.list
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 sudo apt-get update
 sudo apt-get install -y brave-browser
 
@@ -114,7 +114,7 @@ distro=$(if echo "bookworm" | grep -q " $(lsb_release -sc) "; then echo $(lsb_re
 
 wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
 
-sudo tee /etc/apt-get/sources.list.d/librewolf.sources << EOF > /dev/null
+sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
 Types: deb
 URIs: https://deb.librewolf.net
 Suites: $distro
@@ -189,8 +189,8 @@ cp /var/lib/snapd/desktop/applications/brackets_brackets.desktop ~/.local/share/
 sudo -v
 
 # sublime text
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt-get/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
-echo "deb https://download.sublimetext.com/ apt-get/stable/" | sudo tee /etc/apt-get/sources.list.d/sublime-text.list
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt-get update
 sudo apt-get-get install -y sublime-text
 
@@ -233,14 +233,14 @@ sudo apt-get install -y zim
 sudo -v
 
 # qownnotes (markdown stored as plain text, great features)
-SIGNED_BY='/etc/apt-get/keyrings/qownnotes.gpg'
+SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
 sudo mkdir -p "$(dirname "${SIGNED_BY}")"
 curl --silent --show-error --location http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/Release.key | gpg --dearmor | sudo tee "${SIGNED_BY}" > /dev/null
 sudo chmod u=rw,go=r "${SIGNED_BY}"
 
-SIGNED_BY='/etc/apt-get/keyrings/qownnotes.gpg'
+SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
 ARCHITECTURE="$(dpkg --print-architecture)"
-echo "deb [arch=${ARCHITECTURE} signed-by=${SIGNED_BY}] http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/ /" | sudo tee /etc/apt-get/sources.list.d/qownnotes.list > /dev/null
+echo "deb [arch=${ARCHITECTURE} signed-by=${SIGNED_BY}] http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/ /" | sudo tee /etc/apt/sources.list.d/qownnotes.list > /dev/null
 sudo apt-get update
 sudo apt-get install -y qownnotes
 
@@ -293,8 +293,8 @@ sudo -v
 
 # remote desktop client
 #anydesk
-wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-get-key add -
-echo "deb http://deb.anydesk.com/ all main" > /etc/apt-get/sources.list.d/anydesk-stable.list
+wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
+echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list
 apt-get update
 apt-get install -y anydesk
 
@@ -302,8 +302,8 @@ sudo -v
 
 #teamviewer
 curl -fSsL https://download.teamviewer.com/download/linux/signature/TeamViewer2017.asc | sudo gpg --dearmor | sudo tee /usr/share/keyrings/teamview.gpg > /dev/null
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/teamview.gpg] http://linux.teamviewer.com/deb stable main" | sudo tee /etc/apt-get/sources.list.d/teamviewer.list
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/teamview.gpg] http://linux.teamviewer.com/deb stable main" | sudo tee /etc/apt-get/sources.list.d/teamviewer.list
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/teamview.gpg] http://linux.teamviewer.com/deb stable main" | sudo tee /etc/apt/sources.list.d/teamviewer.list
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/teamview.gpg] http://linux.teamviewer.com/deb stable main" | sudo tee /etc/apt/sources.list.d/teamviewer.list
 sudo apt-get install -y teamviewer
 
 sudo -v
@@ -346,10 +346,10 @@ sudo apt-get install -y transmission
 sudo -v
 
 # signal
-wget -O- https://updates.signal.org/desktop/apt-get/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
+wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
 cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
-echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt-get xenial main' |\
-  sudo tee /etc/apt-get/sources.list.d/signal-xenial.list
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
+  sudo tee /etc/apt/sources.list.d/signal-xenial.list
 
 sudo apt-get update && sudo apt-get install -y signal-desktop
 
@@ -392,7 +392,7 @@ sudo apt-get install -y tldr
 # vscode
 #wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 #sudo install -D -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/packages.microsoft.gpg
-#sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt-get/sources.list.d/vscode.list'
+#sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
 #sudo apt-get update
 #sudo apt-get install -y code
 
@@ -404,7 +404,7 @@ wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.g
     | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
     
 echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
-    | sudo tee /etc/apt-get/sources.list.d/vscodium.list
+    | sudo tee /etc/apt/sources.list.d/vscodium.list
 
 sudo apt-get update && sudo apt-get install -y codium
 
@@ -412,7 +412,7 @@ sudo -v
 
 # pycharm
 curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | gpg --dearmor | sudo tee /usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg > /dev/null
-echo "deb [signed-by=/usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg] http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com any main" | sudo tee /etc/apt-get/sources.list.d/jetbrains-ppa.list > /dev/null
+echo "deb [signed-by=/usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg] http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com any main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
 sudo apt-get update
 sudo apt-get install -y pycharm-community
 
@@ -440,7 +440,7 @@ sudo -v
 
 # mullvad vpn (i3 keybinds, autostart and scripts are not included so requires manual setup)
 #sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
-#echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt-get/sources.list.d/mullvad.list
+#echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
 #sudo apt-get update
 #sudo apt-get install -y mullvad-vpn
 
@@ -483,6 +483,6 @@ sudo chmod +x /usr/share/display.sh
 
 sudo apt-get update && sudo apt-get upgrade -y
 
-sudo apt-get auto-remove -y
+sudo apt auto-remove -y
 
 sudo reboot now
