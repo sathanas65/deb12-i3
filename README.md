@@ -49,60 +49,64 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
 4. Enter:
 
          sudo apt install -y git
+   
    Enter your password when prompted. 
-5. Then enter:
+6. Then enter:
 
          git clone https://github.com/sathanas65/deb12-i3
-6. Then enter:
+   
+8. Then enter:
 
          cd deb12-i3
    
-7. By default, the options for installing as a kvm/qemu guest virtual machine are already selected. If you will be installing on a physical computer
+9. By default, the options for installing as a kvm/qemu guest virtual machine are already selected. If you will be installing on a physical computer
     then you will need to:
 
          nano install.sh
 
-8. Comment out line - 'sudo apt install -y spice-vdagent'
-   
-9. Ctrl + s to save & Ctrl + x to exit.
-
-10. Then
+   Comment out line - 'sudo apt install -y spice-vdagent'
+   Ctrl + s to save & Ctrl + x to exit.
+   Then
 
           xrandr -q
 
-11. Note the outputs that say 'connected', then
+    Note the outputs that say 'connected', then
 
           nano display.sh
     
-12. Change 'Virtual-1' to your single or left hand display output. Valid values are HMDI-0, VGA-0, DP-0, DVD-I-0, HDMI-2, etc. If you aren't sure which is which just enter them in any order and sort it out later.
+    Change 'Virtual-1' to your single or left hand display output and 'Virtual-2' to your right hand display output.
+    Valid values are HMDI-0, VGA-0, DP-0, DVD-I-0, HDMI-2, etc. If you aren't sure which is which just enter them in any order and sort it out later.
+    Ctrl + s to save & Ctrl + x to exit.
 
-13  Ctrl + s to save & Ctrl + x to exit.       
+          nano config/i3/config
    
-14. Now you can review and edit the main install script. You can comment out lines by putting a hash(#) before them, and then they will not run.
-15. s:
+   Comment out line 'include ~/.config/i3/config.d/vmguest.conf'
+   Uncomment line '#include ~/.config/i3/config.d/baremetal.conf'
+   Ctrl + s to save & Ctrl + x to exit.
+
+         nano config/i3/config.d/baremetal.conf
+   
+   Replace the display outputs to match your hardware
+   Ctrl + s to save & Ctrl + x to exit.
+
+10. Now you can review and edit the main install script.
+
+         nano install.sh
+
+    You can comment out lines by putting a hash(#) before them, and then they will not run. Or uncomment any you want to run.
     
-    a)  on line 153
-    
-    b) 'sh ~/deb12-i3/vm-copyconf.sh' on line 182
-    
-    c) 'sudo cp virtual-display.sh /usr/share/virtual-display.sh' on line 184
-    
-    d) 'sudo cp lightdm.conf /etc/lightdm/lightdm.conf' on line 185
-    
-    e) 'sudo chmod +x /usr/share/virtual-display.sh' on line 186
-    
-    Then you will need to uncomment '#sh ~/deb12-i3/copyconf.sh' on line 179. Then Ctrl + s to save.
-    
-16. Once you are done selecting or deselecting packages to you liking, or adding some of your own, Ctrl + s to save & Ctrl + x to exit.
-17. Now enter:
+11. Once you are done selecting or deselecting packages to you liking, or adding some of your own, Ctrl + s to save & Ctrl + x to exit.
+12. Now enter:
 
          sudo -v
+    
     Enter your password if prompted.
-18. Finally, enter:
+13. Finally, enter:
 
-         sh install.sh
-19. Now just let the script run and it will reboot when finished. You should end up at the gui login screen.
-20. Now you can login to i3. The only keybind you need to remember is Super + Shift + h for help. This will open a keybind map you can reference to
+         bash install.sh
+    
+14. Now just let the script run and it will reboot when finished. You should end up at the gui login screen.
+15. Now you can login to i3. The only keybind you need to remember is Super + Shift + h for help. This will open a keybind map you can reference to
     get oriented. You can also access the keybind map with command:
 
           nano ~/scripts/keymap.txt
