@@ -60,7 +60,7 @@ sudo apt-get install -y neofetch htop glances figlet calc
 # cmatrix gives you a matrix falling code terminal but crashes i3 in vm - works fine on host system
 #sudo apt-get install -y cmatrix
 
-# gui system monitor
+# gui system monitorsudo apt-get install -y software-properties-common apt-
 sudo apt-get install -y gnome-system-monitor
 
 # apt-get package manager front end
@@ -95,7 +95,7 @@ sudo apt-get install -y foliate
 
 # calculator
 sudo apt-get install -y gnome-calculator
-sudo apt-get install -y galculator
+sudo apt-get install -y galculatorsudo apt-get install -y software-properties-common apt-
 sudo apt-get install -y mate-calc
 sudo apt-get install -y kcalc
 
@@ -473,13 +473,13 @@ sh ~/deb12-i3/copyconf.sh
 
 #This makes lightdm set display to 1080p - YOU MUST modify display.sh value "Virtual-1" if installing on bare metal or possibly anything other than kvm-qemu guest vm
 #Physical display outputs are HDMI-0, VGA-0, DP-0, DVD-D-0, HDMI-1, etc.
-sudo cp deb12-i3/display.sh /usr/share/display.sh
-sudo cp deb12-i3/background.png /usr/share/background.png
-sudo cp deb12-i3/lightdm_greeter.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
-sudo cp deb12-i3/lightdm.conf /etc/lightdm/lightdm.conf
-sudo cp deb12-i3/psensor-pref.glade /usr/share/psensor/psensor-pref.glade
-sudo chmod /usr/share/psensor/psensor-pref.glade
-sudo chmod +x /usr/share/display.sh
+#sudo cp deb12-i3/display.sh /usr/share/display.sh
+#sudo cp deb12-i3/background.png /usr/share/background.png
+#sudo cp deb12-i3/lightdm_greeter.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
+#sudo cp deb12-i3/lightdm.conf /etc/lightdm/lightdm.conf
+#sudo cp deb12-i3/psensor-pref.glade /usr/share/psensor/psensor-pref.glade
+#sudo chmod /usr/share/psensor/psensor-pref.glade
+#sudo chmod +x /usr/share/display.sh
 
 sudo apt update && sudo apt upgrade -y
 
