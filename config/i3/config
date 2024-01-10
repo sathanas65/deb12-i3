@@ -318,6 +318,9 @@ mode "sudo" {
 	bindsym t exec "tmux kill-session -t timeshift_bkp_script; sleep 1; tmux new-session -d -s timeshift_bkp_script '~/scripts/sudokeybind.sh'; i3-msg mode 'default'"
 	bindsym d exec "tmux kill-session -t gnomedisks_sudo_script; sleep 1; tmux new-session -d -s gnomedisks_sudo_script '~/scripts/sudokeybind.sh'; i3-msg mode 'default'"
         bindsym e exec "tmux kill-session -t thunar_sudo_script; sleep 1; tmux new-session -d -s thunar_sudo_script '~/scripts/sudokeybind.sh'; i3-msg mode 'default'"
+	bindsym Return mode "default"
+	bindsym Escape mode "default"
+	bindsym $mod+Control+s mode "default"
 }
 
 bindsym $mod+Control+s exec "i3-msg workspace 'System'; i3-msg mode 'sudo'"
