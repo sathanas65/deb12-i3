@@ -37,10 +37,6 @@ case "$session_name" in
         ask_for_password
         sudo gnome-disks
         ;;
-    thunar_sudo_script)
-        ask_for_password
-        sudo thunar
-        ;;
     *)
         echo "Invalid session. Please use a valid tmux session name."
         exit 1
