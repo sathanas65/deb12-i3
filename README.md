@@ -75,7 +75,7 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
           nano display.sh
     
     Change 'Virtual-1' to your single or left hand display output and 'Virtual-2' to your right hand display output.
-    Valid values are HMDI-0, VGA-0, DP-0, DVD-I-0, HDMI-2, etc. If you aren't sure which is which just enter them in any order and sort it out later.
+    Valid values are HMDI-0, VGA-0, DP-0, DVD-I-0, HDMI-1, HDMI-2, etc. If you aren't sure which is which just enter them in any order and sort it out later.
     Ctrl + s to save & Ctrl + x to exit.
 
           nano config/i3/config
