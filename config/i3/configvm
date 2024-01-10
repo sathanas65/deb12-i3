@@ -312,8 +312,15 @@ mode "terminal" {
 
 bindsym $mod+Shift+t mode "terminal"
 
-# synaptic package manager
-bindsym $mod+Control+s exec "tmux kill-session -t synaptic_script; sleep 1; tmux new-session -d -s synaptic_script '~/scripts/sudokeybind.sh'"
+# sudo mode - will prompt for password - password is ported directly to sudo and not stored in a variable
+mode "sudo" {
+	bindsym s exec "tmux kill-session -t synaptic_script; sleep 1; tmux new-session -d -s synaptic_script '~/scripts/sudokeybind.sh'; i3-msg mode 'default'"
+	bindsym t exec "tmux kill-session -t timeshift_bkp_script; sleep 1; tmux new-session -d -s timeshift_bkp_script '~/scripts/sudokeybind.sh'; i3-msg mode 'default'"
+	bindsym d exec "tmux kill-session -t gnomedisks_sudo_script; sleep 1; tmux new-session -d -s gnomedisks_sudo_script '~/scripts/sudokeybind.sh'; i3-msg mode 'default'"
+        bindsym e exec "tmux kill-session -t thunar_sudo_script; sleep 1; tmux new-session -d -s thunar_sudo_script '~/scripts/sudokeybind.sh'; i3-msg mode 'default'"
+}
+
+bindsym $mod+Control+s exec "i3-msg workspace 'System'; i3-msg mode 'sudo'"
 
 #disks
 bindsym $mod+g exec gnome-disks
@@ -328,9 +335,7 @@ bindsym $mod+Control+v exec vlc
 bindsym $mod+e exec thunar
 
 # backup
-#timeshift - will prompt for password - password is ported directly to sudo and not stored in a variable
-bindsym $mod+Control+t exec "tmux kill-session -t timeshift_bkp_script; sleep 1; tmux new-session -d -s timeshift_bkp_script '~/scripts/sudokeybind.sh'"
-bindsym $mod+Shift+d exec duplicity
+#bindsym $mod+Shift+d exec duplicity
 
 # signal
 bindsym $alt+s exec signal-desktop
@@ -341,8 +346,6 @@ mode "authenticate" {
         bindsym b exec snap run bitwarden | i3-msg mode "default"
         bindsym g exec gnome-authenticator | i3-msg mode "default"
         bindsym a exec snap run authpass | i3-msg mode "default"
-	bindsym d exec "tmux kill-session -t gnomedisks_sudo_script; sleep 1; tmux new-session -d -s gnomedisks_sudo_script '~/scripts/sudokeybind.sh'; i3-msg mode 'default'"
-        bindsym e exec "tmux kill-session -t thunar_sudo_script; sleep 1; tmux new-session -d -s thunar_sudo_script '~/scripts/sudokeybind.sh'; i3-msg mode 'default'"
 
         # back to normal: Enter or Escape or $mod+Shift+a
         bindsym Return mode "default"
