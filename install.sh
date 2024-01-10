@@ -473,13 +473,17 @@ sh ~/deb12-i3/copyconf.sh
 #This makes lightdm set display to 1080p - YOU MUST modify display.sh value "Virtual-1" if installing on bare metal or possibly anything other than kvm-qemu guest vm
 #Physical display outputs are HDMI-0, VGA-0, DP-0, DVD-D-0, HDMI-1, etc.
 sudo cp deb12-i3/display.sh /usr/share/display.sh
-sudo chown +x root:root /usr/share/display.sh
+sudo chown root:root /usr/share/display.sh
+sudo chmod 775 /usr/share/display.sh
 sudo cp deb12-i3/background.png /usr/share/background.png
 sudo chown root:root /usr/share/background.png
+sudo chmod 644 /usr/share/background.png
 sudo cp deb12-i3/01_debian.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
 sudo chown root:root /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
+sudo chmod 644 /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
 sudo cp deb12-i3/lightdm.conf /etc/lightdm/lightdm.conf
 sudo chown root:root /etc/lightdm/lightdm.conf
+sudo chmod 644 /etc/lightdm/lightdm.conf
 
 sudo systemctl enable lightdm
 
