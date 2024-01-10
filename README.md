@@ -1,4 +1,4 @@
-How to use these scripts:
+This guide is detailed to enable Linux newcomers to get up and running quickly, with a minimum of headaches. How to use these scripts:
 
 1. Install Debian 12 but do not install any desktop environment. Only 'Standard Utilities' Should be selected during installation.
 2. If you are installing on a device with wifi, it is easiest to use an ethernet connection during installation. 
@@ -56,14 +56,32 @@ How to use these scripts:
 6. Then enter:
 
          cd deb12-i3
-7. Then enter:
+   
+7. By default, the options for installing as a kvm/qemu guest virtual machine are already selected. If you will be installing on a physical computer
+    then you will need to:
 
          nano install.sh
-8. Now you can review and edit the main install script. You can comment out lines by putting a hash(#) before them, and then they will not run.
-9. By default, the options for installing as a kvm/qemu guest virtual machine are already selected. If you will be installing on a physical computer
-    then you will need to comment out the following lines:
+
+8. Comment out line - 'sudo apt install -y spice-vdagent'
+   
+9. Ctrl + s to save & Ctrl + x to exit.
+
+10. Then
+
+          xrandr -q
+
+11. Note the outputs that say 'connected', then
+
+          nano display.sh
     
-    a) 'sudo apt install -y spice-vdagent' on line 153
+12. Change 'Virtual-1' to your single or left hand display output. Valid values are HMDI-0, VGA-0, DP-0, DVD-I-0, HDMI-2, etc. If you aren't sure which is which just enter them in any order and sort it out later.
+
+13  Ctrl + s to save & Ctrl + x to exit.       
+   
+14. Now you can review and edit the main install script. You can comment out lines by putting a hash(#) before them, and then they will not run.
+15. s:
+    
+    a)  on line 153
     
     b) 'sh ~/deb12-i3/vm-copyconf.sh' on line 182
     
@@ -75,16 +93,16 @@ How to use these scripts:
     
     Then you will need to uncomment '#sh ~/deb12-i3/copyconf.sh' on line 179. Then Ctrl + s to save.
     
-10. Once you are done selecting or deselecting packages to you liking, or adding some of your own, Ctrl + s to save & Ctrl + x to exit.
-11. Now enter:
+16. Once you are done selecting or deselecting packages to you liking, or adding some of your own, Ctrl + s to save & Ctrl + x to exit.
+17. Now enter:
 
          sudo -v
     Enter your password if prompted.
-12. Finally, enter:
+18. Finally, enter:
 
          sh install.sh
-13. Now just let the script run and it will reboot when finished. You should end up at the gui login screen.
-14. Now you can login to i3. The only keybind you need to remember is Super + Shift + h for help. This will open a keybind map you can reference to
+19. Now just let the script run and it will reboot when finished. You should end up at the gui login screen.
+20. Now you can login to i3. The only keybind you need to remember is Super + Shift + h for help. This will open a keybind map you can reference to
     get oriented. You can also access the keybind map with command:
 
           nano ~/scripts/keymap.txt
