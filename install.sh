@@ -324,17 +324,6 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 # simplified man pages
 sudo apt install -y tldr
 
-# kvm/qemu guest agent
-sudo apt install -y spice-vdagent 
-
-# hypervisor tools
-# sudo apt install -y virt-manager cockpit-machines cockpit-podman distrobox
-# You can access cockpit console from browser at https://127.0.0.1:9090/
-# sudo addgroup "$(whoami)" libvirt
-# sudo addgroup "$(whoami)" kvm
-# sudo usermod -aG libvirt “$(whoami)”
-# sudo usermod -aG kvm “$(whoami)”
-
 # dev tools
 # vscode
 #wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -379,6 +368,17 @@ sudo usermod -aG nordvpn $USER
 #sudo apt update
 #sudo apt install -y mullvad-vpn
 
+# kvm/qemu guest agent  YOU WANT THIS IF installing as kvm-qemu guest vm
+sudo apt install -y spice-vdagent 
+
+# hypervisor tools
+# sudo apt install -y virt-manager cockpit-machines cockpit-podman distrobox
+# You can access cockpit console from browser at https://127.0.0.1:9090/
+# sudo addgroup "$(whoami)" libvirt
+# sudo addgroup "$(whoami)" kvm
+# sudo usermod -aG libvirt “$(whoami)”
+# sudo usermod -aG kvm “$(whoami)”
+
 # window manager
 sudo apt install -y i3
 
@@ -388,18 +388,17 @@ sudo -v
 sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 sudo systemctl enable lightdm
 
-# import scripts and configs for physical device (comment these out if you are installing on vm)
-#sh ~/deb12-i3/copyconf.sh
+# import scripts and configs
+sh ~/deb12-i3/copyconf.sh
 
-# import scripts and configs for virtual machine guest (comment these out if you are installing on physical hardware)
-sh ~/deb12-i3/vm-copyconf.sh
-#This makes lightdm set virtual display to 1080p
-sudo cp deb12-i3/virtual-display.sh /usr/share/virtual-display.sh
+#This makes lightdm set display to 1080p - YOU MUST modify display.sh value "Virtual-1" if installing on bare metal or possibly anything other than kvm-qemu guest vm
+#Physical display outputs are HDMI-0, VGA-0, DP-0, DVD-D-0, HDMI-1, etc.
+sudo cp deb12-i3/display.sh /usr/share/display.sh
 sudo cp deb12-i3/background.png /usr/share/background.png
 sudo cp deb12-i3/lightdm_greeter.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
 sudo cp deb12-i3/lightdm.conf /etc/lightdm/lightdm.conf
 sudo cp deb12-i3/psensor-pref.glade /usr/share/psensor/psensor-pref.glade
-sudo chmod +x /usr/share/virtual-display.sh
+sudo chmod +x /usr/share/display.sh
 
 sudo apt update && sudo apt upgrade -y
 
