@@ -112,8 +112,8 @@ mode "workspace left" {
 
 # Launch a workspace on the right display ($mod+w, then r to enter this mode)
 mode "workspace right" {
-        bindsym s exec i3-msg focus output DVI-D-0 && i3-msg workspace "System && i3-msg mode "default"
-        bindsym b exec i3-msg focus output DVI-D-0 && i3-msg workspace "Browser && i3-msg mode "default"
+        bindsym s exec i3-msg focus output DVI-D-0 && i3-msg workspace "System" && i3-msg mode "default"
+        bindsym b exec i3-msg focus output DVI-D-0 && i3-msg workspace "Browser" && i3-msg mode "default"
         bindsym c exec i3-msg focus output DVI-D-0 && i3-msg workspace "Config" && i3-msg mode "default"
         bindsym r exec i3-msg focus output DVI-D-0 && i3-msg workspace "Research" && i3-msg mode "default"
         bindsym 0 exec i3-msg focus output DVI-D-0 && i3-msg workspace "Dashboard" && i3-msg mode "default"
@@ -146,7 +146,7 @@ mode "vm workspace" {
 # move focused container to workspace
 mode "move" {
         bindsym s exec i3-msg move container to workspace "System" && i3-msg mode "default"
-        bindsym b exec i3-msg move container to workspace "Browser && i3-msg mode "default"
+        bindsym b exec i3-msg move container to workspace "Browser" && i3-msg mode "default"
         bindsym c exec i3-msg move container to workspace "Config" && i3-msg mode "default"
         bindsym r exec i3-msg move container to workspace "Research" && i3-msg mode "default"
         bindsym 0 exec i3-msg move container to workspace "Dashboard" && i3-msg mode "default"
