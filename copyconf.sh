@@ -14,6 +14,8 @@ cp -r config/rofi/ ~/.config
 cp -r config/volumeicon ~/.config
 cp -r config/xfce4 ~/.config
 cp -r config/konsole/ ~/.local/share
+cp -r psensor/ /usr/share
+chmod root:root 
 chmod +x ~/.config/i3/autostart.sh
 # make scripts executable
 sudo chmod +x ~/scripts/*.sh
