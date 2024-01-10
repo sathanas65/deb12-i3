@@ -15,7 +15,9 @@ cp -r config/volumeicon ~/.config
 cp -r config/xfce4 ~/.config
 cp -r config/konsole/ ~/.local/share
 cp -r psensor/ /usr/share
-chmod root:root 
+sudo chown -R root:root /usr/share/psensor/
+sudo find /usr/share/psensor/ -type d -exec chmod 755 {} \;
+sudo find /usr/share/psensor/ -type f -exec chmod 644 {} \;
 chmod +x ~/.config/i3/autostart.sh
 # make scripts executable
 sudo chmod +x ~/scripts/*.sh
