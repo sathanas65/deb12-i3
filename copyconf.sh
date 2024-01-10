@@ -15,8 +15,7 @@ cp -r config/volumeicon ~/.config
 cp -r config/xfce4 ~/.config
 cp -r config/konsole/ ~/.local/share
 chmod +x ~/.config/i3/autostart.sh
-cd ~/.config/i3/
-rm configvm
 # make scripts executable
 sudo chmod +x ~/scripts/*.sh
+
 
