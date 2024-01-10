@@ -313,7 +313,7 @@ mode "terminal" {
 bindsym $mod+Shift+t mode "terminal"
 
 # synaptic package manager
-bindsym $mod+Control+t exec "tmux kill-session -t synaptic_script; sleep 1; tmux new-session -d -s synaptic_script '~/scripts/sudokeybind.sh'"
+bindsym $mod+Control+s exec "tmux kill-session -t synaptic_script; sleep 1; tmux new-session -d -s synaptic_script '~/scripts/sudokeybind.sh'"
 
 #disks
 bindsym $mod+g exec gnome-disks
