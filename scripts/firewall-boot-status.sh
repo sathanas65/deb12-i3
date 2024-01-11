@@ -20,3 +20,4 @@ if [[ $status_output == *"Status: inactive"* ]]; then
 		new_status_output=$(sudo ufw status 2>&1)
 	done
 	tmux kill-session -t "$(tmux display-message -p '#S')"
+fi
