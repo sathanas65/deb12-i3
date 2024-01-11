@@ -16,9 +16,9 @@ After exiting i3 with Super + Shift + q you can suspend, hibernate, restart or s
 clicking the power icon in the top right corner of the lightdm login screen. Or use Alt + F4 to shutdown
 
 ###WINDOW MANAGEMENT IN i3wm
-Mouse + Super - drag floating windows to their wanted position
-                move tiling windows via drag & drop by left-clicking into the title bar
-                or left-clicking anywhere into the window while holding the floating modifier
+
+	Move tiling windows via drag & drop by left-clicking into the title bar
+        or left-clicking anywhere into the window while holding the floating modifier
                 
 	# Change the focus (which window is active)
 	Super + left arrow - move the focus to the window to the left of the active window
