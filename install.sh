@@ -82,7 +82,7 @@ sudo systemctl enable cups
 
 # bluetooth support
 sudo apt-get install -y bluez blueman
-sudo systemctl enable bluetooth
+sudo systemctl enable bluetoothsh scripts/background.sh
 
 sudo -v
 
@@ -248,7 +248,7 @@ sudo -v
 
 # personal finance
 sudo mkdir /var/lib/snapd/snap
-sudo mkdir /var/lib/snapd/snap/bin
+sudo mkdir /var/lib/snapd/snap/binsh scripts/background.sh
 snap install denaro
 cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/applications/
 
@@ -327,7 +327,7 @@ sudo -v
 # keepass2 - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
 sudo apt-get install -y keepass2
 # bitwarden - NOT FOSS - great feautures - syncs across devices - passwords stored in cloud
-sudo snap install bitwarden
+sudo snap install bitwardensh scripts/background.sh
 cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
 
 sudo -v
@@ -486,6 +486,9 @@ sudo chown root:root /etc/lightdm/lightdm.conf
 sudo chmod 644 /etc/lightdm/lightdm.conf
 
 sudo systemctl enable lightdm
+
+echo 'user ALL=(ALL) NOPASSWD: /usr/sbin/ufw status' | sudo tee /etc/sudoers.d/ufw-status
+sudo chmod 0440 /etc/sudoers.d/ufw-status
 
 sudo apt update && sudo apt upgrade -y
 
