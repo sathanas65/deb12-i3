@@ -15,27 +15,6 @@ Super + Shift + f - toggles the firewall on and off
 After exiting i3 with Super + Shift + q you can suspend, hibernate, restart or shutdown by 
 clicking the power icon in the top right corner of the lightdm login screen. Or use Alt + F4 to shutdown
 
-###Config file edit mode
-Alt + c - opens Config Workspace and sets mode to config. Escape or Enter to cancel.
-###Config files that require sudo to edit will prompt for password. Password is ported directly to sudo, no variable is used.
-	then i - sets mode to i3 config
-		then i - backs up the main i3 config and opens it for editing
-		then w - backs up the i3 workspace config and opens it for editing
-		then c - backs up the i3 container config and opens it for editing
-		then k - backs up the i3 keybinds config and opens it for editing (note- this is only for keybinds that are not part of modes)
-		then e - backs up the i3 execmode config and opens it for editing
-		then s - backs up the i3 start config and opens it for editing
-		then b - backs up the i3 baremetal config and opens it for editing
-		then v - backs up the i3 vmguest config and opens it for editing
-	then l - sets mode to lightdm config (Feature in progress)
-		then l - backs up the main lightdm config and opens it for editing
-		then g - backs up the lightdm greeter config and opens it for editing
-		then d - backs up the lightdm display script and opens it for editing
-
-Super + Shift + c - reloads the i3 config file, used after editing the config
-
-Super + Shift + r - restarts i3 in place, preserving the session
-
 ###WINDOW MANAGEMENT IN i3wm
 Mouse + Super - drag floating windows to their wanted position
                 move tiling windows via drag & drop by left-clicking into the title bar
@@ -284,7 +263,26 @@ Alt + d enters dev mode
 	3 - launch Postman
 Enter or Escape or Alt + d to exit dev mode
 
+###Config file edit mode
+Alt + c - opens Config Workspace and sets mode to config. Escape or Enter to cancel.
+###Config files that require sudo to edit will prompt for password. Password is ported directly to sudo, no variable is used.
+	then i - sets mode to i3 config
+		then i - backs up the main i3 config and opens it for editing
+		then w - backs up the i3 workspace config and opens it for editing
+		then c - backs up the i3 container config and opens it for editing
+		then k - backs up the i3 keybinds config and opens it for editing (note- this is only for keybinds that are not part of modes)
+		then e - backs up the i3 execmode config and opens it for editing
+		then s - backs up the i3 start config and opens it for editing
+		then b - backs up the i3 baremetal config and opens it for editing
+		then v - backs up the i3 vmguest config and opens it for editing
+	then l - sets mode to lightdm config (Feature in progress)
+		then l - backs up the main lightdm config and opens it for editing
+		then g - backs up the lightdm greeter config and opens it for editing
+		then d - backs up the lightdm display script and opens it for editing
 
+Super + Shift + c - reloads the i3 config file, used after editing the config
+
+Super + Shift + r - restarts i3 in place, preserving the session
 
 
 
