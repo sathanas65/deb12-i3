@@ -32,6 +32,49 @@ clicking the power icon in the top right corner of the lightdm login screen. Or 
 	Super + Shift + up arrow - move the active window up
 	Super + Shift + down arrow - move the active window down
 
+	# Workspaces
+	Super + w - Enter Workspace Mode, then:
+			s - go to workspace "System" - if not in use it will open on the active display
+			b - go to workspace "Browser" - if not in use it will open on the active display
+			c - go to workspace "Config" - if not in use it will open on the active display
+			r - go to workspace "Research" - if not in use it will open on the active display
+			0 - go to workspace "Dashboard" - if not in use it will open on the active display
+			n - go to workspace "Notes" - if not in use it will open on the active display
+			2 - go to workspace "Communications" - if not in use it will open on the active display
+			3 - go to workspace "Development" - if not in use it will open on the active display
+			4 - go to workspace "Production" - if not in use it will open on the active display
+			v - go to workspace "Virt" - if not in use it will open on the active display
+			a - go to workspace "Accounts" - if not in use it will open on the active display
+			f - go to workspace "Finance" - if not in use it will open on the active display
+			m - go to workspace "Media" - if not in use it will open on the active display
+			t - go to workspace "TV" - if not in use it will open on the active display
+
+			Right - move active workspace to the right display
+			Left - move active workspace to the left display
+	
+			l - add workspace on the left output, OR
+			r - add workspace on the right output, then:
+				s - go to workspace "System"
+				b - go to workspace "Browser"
+				c - go to workspace "Config"
+				r - go to workspace "Research"
+				0 - go to workspace "Dashboard"
+				n - go to workspace "Notes"
+				2 - go to workspace "Communications"
+				3 - go to workspace "Development"
+				4 - go to workspace "Production"
+				v - go to workspace "Virt"
+				a - go to workspace "Accounts"
+				f - go to workspace "Finance"
+				m - go to workspace "Media"
+				t - go to workspace "TV"
+	
+			v - Virtual machine workspace mode, then:
+				0 - go to VM 0
+				1 - go to VM 1
+				2 - go to VM 2
+				3 - go to VM 3
+
 	# Enter Move Mode
 	Super + m     -then:
 		s - move active window to System workspace
@@ -65,46 +108,6 @@ clicking the power icon in the top right corner of the lightdm login screen. Or 
 	Super + q - kills the active window
 	Super + Shift + Space - toggle between tiling and floating windows	 
 	Super + Ctrl + Space - Change focus between tiling / floating windows
-	
-	# Workspaces
-	Super + w - Enter Workspace Mode, then:
-		s - go to workspace "System"
-		b - go to workspace "Browser"
-		c - go to workspace "Config"
-		r - go to workspace "Research"
-		0 - go to workspace "Dashboard"
-		n - go to workspace "Notes"
-		2 - go to workspace "Communications"
-		3 - go to workspace "Development"
-		4 - go to workspace "Production"
-		v - go to workspace "Virt"
-		a - go to workspace "Accounts"
-		f - go to workspace "Finance"
-		m - go to workspace "Media"
-		t - go to workspace "TV"
-
-		l - add workspace on the left output, OR
-		r - add workspace on the right output, then:
-			s - go to workspace "System"
-			b - go to workspace "Browser"
-			c - go to workspace "Config"
-			r - go to workspace "Research"
-			0 - go to workspace "Dashboard"
-			n - go to workspace "Notes"
-			2 - go to workspace "Communications"
-			3 - go to workspace "Development"
-			4 - go to workspace "Production"
-			v - go to workspace "Virt"
-			a - go to workspace "Accounts"
-			f - go to workspace "Finance"
-			m - go to workspace "Media"
-			t - go to workspace "TV"
-
-		v - Virtual machine workspace mode, then:
-			0 - go to VM 0
-			1 - go to VM 1
-			2 - go to VM 2
-			3 - go to VM 3
 
 	# Resize Windows
 	Super + r - toggles window resize mode
