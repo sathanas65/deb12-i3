@@ -95,7 +95,8 @@ sudo apt-get install -y foliate
 
 # calculator
 sudo apt-get install -y gnome-calculator
-sudo apt-get install -y galculatorsudo apt-get install -y software-properties-common apt-
+sudo apt-get install -y galculator
+sudo apt-get install -y software-properties-common apt-
 sudo apt-get install -y mate-calc
 sudo apt-get install -y kcalc
 
