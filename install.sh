@@ -439,7 +439,7 @@ sudo -v
 
 # postman
 snap install postman
-cp /var/lib/snapd/desktop/applications/postman_postman.desktop ~/.local/share/applications/
+sudo cp /var/lib/snapd/desktop/applications/postman_postman.desktop ~/.local/share/applications/
 # postman CLI
 # curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
 
@@ -449,7 +449,7 @@ sudo -v
 #sudo mkdir /var/lib/snapd/snap
 #sudo mkdir /var/lib/snapd/snap/binsh scripts/background.sh
 snap install denaro
-cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/applications/
+sudo cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/applications/
 
 sudo -v
 
