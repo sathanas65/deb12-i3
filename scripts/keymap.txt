@@ -132,6 +132,7 @@ Once toggled, these display functions can be used:
 	1 - toggle dual monitor mode (if not a virtual machine, edit ~/dual.sh to match your hardware)
 	2 - toggle single monitor mode (if not a virtual machine, edit ~/right.sh to match your hardware)
 	3 - toggle dual monitor + 4k TV mode (if not a virtual machine, edit ~/tv.sh to match your hardware)
+	a - launch arandr to set display settings in a graphical interface
 Enter or Escape or Super + d to exit display mode
 
 ###Audio
