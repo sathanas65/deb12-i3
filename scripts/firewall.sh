@@ -38,7 +38,7 @@ if [[ $status_output == *"Status: active"* ]]; then
 			#sudo bash /home/user/scripts/check-firewall-loop.sh
 			while [[ $new_status_output != *"Status: active"* ]]; do
 				# Check UFW status
-				warning=$(echo -e "UFW WARNING:\nYOUR FIREWALL IS DISABLED!\nYOUR NETWORK PORTS\nARE ALL OPEN!")
+				warning=$(echo -e "UFW WARNING:\nYOUR FIREWALL IS DISABLED!\nYOUR NETWORK PORTS\nARE ALL OPEN!\nUSE SUPER + SHIFT + f\nTO ENABLE!")
 				notify-send --urgency=critical "$warning" -t 0
 				unset $status_output
     
