@@ -263,7 +263,7 @@ Alt + v enters video mode
 	4 - launch Shotcut
 	5 - launch Openshot
 	6 - launch Handbrake
-	7 - Download Youtube video using url in clipboard
+	7 - Download Youtube video using url in clipboard (work in progress)
 Enter or Escape or Alt + v to exit video mode
 
 ### Dev Tools
