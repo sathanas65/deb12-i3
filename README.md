@@ -7,30 +7,20 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
    will still work. If you do connect with wifi during installation, here are the post install steps to enable network manager to manage
    your wifi adapter:
    
-     a) Open a terminal with Super + Enter and enter the following command:
+     a) Use keychord ALT + c, then n, then i, and enter your password at the prompt. This will backup the network interfaces file and open it for edit.
    
-        cd /etc/network
-   
-     b) Then enter:
-   
-         sudo cp interfaces interfaces.backup
-      Enter your password when prompted. This is a backup in case something gets messed up.
-   
-     c) Then enter:
-
-         sudo nano interfaces
-     d) Below the row '# The primary network interface' you will see something like 'allow-hotplug w1p3s0'. Leave this line, but delete
+     b) Below the row '# The primary network interface' you will see something like 'allow-hotplug w1p3s0'. Leave this line, but delete
         or comment out everything below it, starting with 'iface'.
    
-     e) Ctrl + s to save and ctrl + x to exit.
+     c) Ctrl + s to save and ctrl + x to exit.
    
-     f) Now enter:
+     d) Now enter:
 
          sudo systemctl restart networking
    
-     g) Enter your password when prompted. Now you should be able to manage your wifi comnnections from the applet on the i3 taskbar.
+     e) Enter your password when prompted. Now you should be able to manage your wifi comnnections from the applet on the i3 taskbar.
    
-     h) If something goes wrong here are the steps to revert:
+     f) If something goes wrong here are the steps to revert:
    Enter:
    
          cd /etc/network
@@ -45,8 +35,8 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
    
          sudo systemctl restart networking
    
-3. Once your Debian 12 install is complete, login with your username and password.
-4. Enter:
+4. Once your Debian 12 install is complete, login with your username and password.
+5. Enter:
 
          sudo apt install -y git
    
