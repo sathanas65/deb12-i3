@@ -4,6 +4,8 @@
 sudo apt-get install -y ufw
 sudo ufw enable
 
+sudo apt-get update && sudo apt-get upgrade -y
+
 # network manager
 sudo apt-get install -y network-manager-gnome
 
@@ -69,7 +71,7 @@ sudo apt-get install -y synaptic
 # enable repos
 sudo apt-get install -y software-properties-common apt-transport-https curl ca-certificates -y
 echo | sudo apt-add-repository contrib non-free-firmware
-sudo apt update && sudo apt upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 
 sudo -v
 
@@ -104,7 +106,7 @@ sudo apt-get install -y kcalc
 # Note that there is a bug where brave fails to in initialize on the 1st launch. After a reboot it will work fine thereafter.
 wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo apt update
+sudo apt-get update
 sudo apt-get install -y brave-browser
 
 sudo -v
@@ -123,7 +125,7 @@ Architectures: amd64
 Signed-By: /usr/share/keyrings/librewolf.gpg
 EOF
 
-sudo apt update
+sudo apt-get update
 sudo apt-get install -y librewolf
 
 sudo -v
@@ -191,7 +193,7 @@ sudo -v
 # sublime text
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt update
+sudo apt-get update
 sudo apt-get install -y sublime-text
 
 sudo -v
@@ -241,7 +243,7 @@ sudo chmod u=rw,go=r "${SIGNED_BY}"
 SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
 ARCHITECTURE="$(dpkg --print-architecture)"
 echo "deb [arch=${ARCHITECTURE} signed-by=${SIGNED_BY}] http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/ /" | sudo tee /etc/apt/sources.list.d/qownnotes.list > /dev/null
-sudo apt update
+sudo apt-get update
 sudo apt-get install -y qownnotes
 
 sudo -v
@@ -287,7 +289,7 @@ sudo -v
 #anydesk
 wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
 echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list
-sudo apt update
+sudo apt-get update
 sudo apt-get install -y anydesk
 
 sudo -v
@@ -343,7 +345,7 @@ cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-key
 echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
   sudo tee /etc/apt/sources.list.d/signal-xenial.list
 
-sudo apt update && sudo apt-get install -y signal-desktop
+sudo apt-get update && sudo apt-get install -y signal-desktop
 
 sudo -v
 
@@ -385,7 +387,7 @@ sudo apt-get install -y tldr
 #wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 #sudo install -D -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/packages.microsoft.gpg
 #sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-#sudo apt update
+#sudo apt-get update
 #sudo apt-get install -y code
 
 sudo -v
@@ -398,14 +400,14 @@ wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.g
 echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
     | sudo tee /etc/apt/sources.list.d/vscodium.list
 
-sudo apt update && sudo apt-get install -y codium
+sudo apt-get update && sudo apt-get install -y codium
 
 sudo -v
 
 # pycharm
 curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | gpg --dearmor | sudo tee /usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg > /dev/null
 echo "deb [signed-by=/usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg] http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com any main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
-sudo apt update
+sudo apt-get update
 sudo apt-get install -y pycharm-community
 
 sudo -v
@@ -425,7 +427,7 @@ sudo -v
 # mullvad vpn (i3 keybinds, autostart and scripts are not included so requires manual setup)
 #sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
 #echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
-#sudo apt update
+#sudo apt-get update
 #sudo apt-get install -y mullvad-vpn
 
 sudo -v
@@ -495,8 +497,8 @@ sudo systemctl enable lightdm
 echo 'user ALL=(ALL) NOPASSWD: /usr/sbin/ufw status' | sudo tee /etc/sudoers.d/ufw-status
 sudo chmod 0440 /etc/sudoers.d/ufw-status
 
-sudo apt update && sudo apt upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 
-sudo apt auto-remove -y
+sudo apt-get auto-remove -y
 
 sudo reboot now
