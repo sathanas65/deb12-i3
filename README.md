@@ -65,7 +65,7 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
           nano display.sh
     
     Change 'Virtual-1' to your single or left hand display output and 'Virtual-2' to your right hand display output.
-    Valid values are HMDI-0, VGA-0, DP-0, DVD-I-0, HDMI-1, HDMI-2, etc. If you aren't sure which is which just enter them in any order and sort it out later.
+    Valid values are HMDI-0, VGA-0, DP-0, DVD-I-0, HDMI-1, HDMI-2, etc. If you aren't sure which is which just enter them in any position and sort it out later.
     Ctrl + s to save & Ctrl + x to exit.
 
           nano config/i3/config
@@ -91,9 +91,9 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
          sudo -v
     
     Enter your password if prompted.
-13. Finally, enter:
+13. Finally, to run the install script, outputting to a txt file for logging, enter:
 
-         bash install.sh
+         bash install.sh >> output.txt
     
 14. Now just let the script run and it will reboot when finished. You should end up at the gui login screen.
 15. Now you can login to i3. The only keybind you need to remember is Super + Shift + h for help. This will open a keybind map you can reference to
