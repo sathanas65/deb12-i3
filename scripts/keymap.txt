@@ -249,6 +249,7 @@ Mode should return to default but if not you can use Escape or Return
 ### Terminal Apps
 Super + Shift + t enters terminal mode
 	n - launch neofetch
+	m - launch midnight commander
 	g - launch glances
 	h - launch htop
 	c - launch calc
