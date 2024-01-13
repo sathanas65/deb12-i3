@@ -247,14 +247,6 @@ sudo apt-get install -y qownnotes
 
 sudo -v
 
-# personal finance
-sudo mkdir /var/lib/snapd/snap
-sudo mkdir /var/lib/snapd/snap/binsh scripts/background.sh
-snap install denaro
-cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/applications/
-
-sudo -v
-
 # email client
 sudo apt-get install -y geary
 
@@ -420,14 +412,6 @@ sudo apt-get install -y pycharm-community
 
 sudo -v
 
-# postman
-snap install postman
-cp /var/lib/snapd/desktop/applications/postman_postman.desktop ~/.local/share/applications/
-# postman CLI
-# curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
-
-sudo -v
-
 # user directories
 xdg-user-dirs-update
 
@@ -445,6 +429,22 @@ sudo -v
 #echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
 #sudo apt update
 #sudo apt-get install -y mullvad-vpn
+
+sudo -v
+
+# postman
+snap install postman
+cp /var/lib/snapd/desktop/applications/postman_postman.desktop ~/.local/share/applications/
+# postman CLI
+# curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
+
+sudo -v
+
+# personal finance
+#sudo mkdir /var/lib/snapd/snap
+#sudo mkdir /var/lib/snapd/snap/binsh scripts/background.sh
+snap install denaro
+cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/applications/
 
 sudo -v
 
