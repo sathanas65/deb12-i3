@@ -172,7 +172,7 @@ Super + Space - display Rofi app launcher
 	Super + Ctrl + v - launch VLC
 
 	#Ebook Reader
-	Super + Shift + f - launch Foliate
+	Alt + f - launch Foliate
 
 	#Personal Finance
 	Super + Ctrl + d - launch Denaro (requires install after first boot)
