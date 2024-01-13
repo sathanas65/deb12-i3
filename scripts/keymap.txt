@@ -5,15 +5,23 @@ Super + Shift + q - exit i3
 
 Super + l - lock the screen
 
-Super + Shift + b - toggle the i3 task bar, repeat to hide it again
+Super + Shift + b - toggle the i3 status bar, repeat to hide it again
 
 Control + Shift + Escape - launch Gnome System Monitor
 
 Super + Shift + f - toggles the firewall on and off
 
 ###Shutdown Restart Hibernate Suspend
-After exiting i3 with Super + Shift + q you can suspend, hibernate, restart or shutdown by 
-clicking the power icon in the top right corner of the lightdm login screen. Or use Alt + F4 to shutdown
+Super + Ctrl + s - then 
+		x to shutdown (requires password)
+		r to reboot (requires password)
+OR
+Super + Shift + q -then
+		Alt + F4 - then
+				Enter to shutdown
+
+		After exiting i3 with Super + Shift + q you can suspend, hibernate, restart or shutdown by 
+		clicking the power icon in the top right corner of the lightdm login screen
 
 ###WINDOW MANAGEMENT IN i3wm
 
@@ -142,7 +150,7 @@ Super + Space - display Rofi app launcher
 
 	#Backup Tools
 	Super + Ctrl + t - launch Timeshift
-	Super + Shift + d - launch Duplicity
+	Super + Shift + d - launch Duplicity (work in progress)
 	
 	#File Manager
 	Super + e - launch Thunar File Manager
@@ -167,7 +175,7 @@ Super + Space - display Rofi app launcher
 	Super + Shift + f - launch Foliate
 
 	#Personal Finance
-	Super + Ctrl + d - launch Denaro
+	Super + Ctrl + d - launch Denaro (requires install after first boot)
 
 	#Email Client
 	Super + Shift + e - launch Thunderbird
@@ -204,7 +212,6 @@ Enter or Escape or Super + b to exit browser mode
 ### Text Editors
 Super + t enters text mode:
 	e - launch Doom Emacs
-	n - launch Notepad++ (in Wine)
 	g - launch Geany
 	s - launch Sublime
 	b - launch Brackets
@@ -276,28 +283,22 @@ Alt + c - opens Config Workspace and sets mode to config. Escape or Enter to can
 		then k - backs up the i3 keybinds config and opens it for editing (note- this is only for keybinds that are not part of modes)
 		then e - backs up the i3 execmode config and opens it for editing
 		then s - backs up the i3 start config and opens it for editing
-		then b - backs up the i3 baremetal config and opens it for editing
+		then m - backs up the i3 baremetal config and opens it for editing
 		then v - backs up the i3 vmguest config and opens it for editing
-	then l - sets mode to lightdm config (Feature in progress)
+		#then b - backs up the i3blocks config and opens it for editing #not done
+		then a - backs up the i3 autostart script and opens it for editing
+		
+	then l - sets mode to lightdm config
 		then l - backs up the main lightdm config and opens it for editing
 		then g - backs up the lightdm greeter config and opens it for editing
 		then d - backs up the lightdm display script and opens it for editing
+	then x - backs up xorg.conf and opens it for editing
+	then g - backs up the grub bootloader config and opens it for editing
+	then f - backs up the fstab partition mounting config and opens it for editing
+	then c - backs up the crypttab luks mapping config and opens it for editing
+	then d - backs up the dunst notification daemon config and opens it for editing
 
 Super + Shift + c - reloads the i3 config file, used after editing the config
 
 Super + Shift + r - restarts i3 in place, preserving the session
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
