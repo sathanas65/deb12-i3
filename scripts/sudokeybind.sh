@@ -45,6 +45,43 @@ case "$session_name" in
         ask_for_password
         sudo gnome-disks
         ;;
+    xconfig)
+        konsole --profile "Profile 1" --noclose -e sh -c 'sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.bkp && sudo nano /etc/X11/xorg.conf'
+        ;;
+    grubconfig)
+        konsole --profile "Profile 1" --noclose -e sh -c 'sudo cp /etc/default/grub /etc/default/grub.bkp && sudo nano /etc/default/grub'
+        ;;
+    fstab)
+        konsole --profile "Profile 1" --noclose -e sh -c 'sudo cp /etc/fstab /etc/fstab.bkp && sudo nano /etc/fstab'
+
+        ;;
+    crypttab)
+        konsole --profile "Profile 1" --noclose -e sh -c 'sudo cp /etc/crypttab /etc/crypttab.bkp && sudo nano /etc/crypttab'
+        ;;
+    sudoers)
+        konsole --profile "Profile 1" --noclose -e sh -c 'sudo cp /etc/sudoers /etc/sudoers.bkp && sudo nano /etc/sudoers'
+        ;;
+    ldmconfig)
+        ask_for_password
+        sudo cp /etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf.bkp && sudo geany -i /etc/lightdm/lightdm.conf
+        ;;
+    ldmgreetconfig)
+        ask_for_password
+        sudo cp /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf.bkp && sudo geany -i /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
+        ;;
+    ldmdisplay)
+        ask_for_password
+        sudo cp /usr/share/display.sh /usr/share/display.sh.bkp && sudo geany -i /usr/share/display.sh
+        ;;
+    interfaces)
+        konsole --profile "Profile 1" --noclose -e sh -c 'sudo cp /etc/network/interfaces /etc/network/interfaces.bkp && sudo nano /etc/network/interfaces'
+        ;;
+    networks)
+        konsole --profile "Profile 1" --noclose -e sh -c 'sudo cp /etc/networks /etc/networks.bkp && sudo nano /etc/networks'
+        ;;
+    netmanage)
+        konsole --profile "Profile 1" --noclose -e sh -c 'sudo cp /etc/NetworkManager/NetworkManager.conf /etc/NetworkManager/NetworkManager.conf.bkp && sudo nano /etc/NetworkManager/NetworkManager.conf'
+        ;;
     *)
         echo "Invalid session. Please use a valid tmux session name."
         exit 1
