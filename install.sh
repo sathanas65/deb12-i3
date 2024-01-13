@@ -328,7 +328,8 @@ sudo -v
 # keepass2 - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
 sudo apt-get install -y keepass2
 # bitwarden - NOT FOSS - great feautures - syncs across devices - passwords stored in cloud
-sudo snap install bitwardensh scripts/background.sh
+sudo snap install bitwarden
+sh scripts/background.sh
 cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
 
 sudo -v
