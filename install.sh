@@ -448,8 +448,13 @@ cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/appl
 
 sudo -v
 
+apt install flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
 # kvm/qemu guest agent  YOU WANT THIS IF installing as kvm-qemu guest vm
 sudo apt-get install -y spice-vdagent 
+
+sudo -v
 
 # hypervisor tools
 # sudo apt-get install -y virt-manager cockpit-machines cockpit-podman distrobox
