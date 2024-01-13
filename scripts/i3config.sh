@@ -54,6 +54,11 @@ case "$session_name" in
         cp ~/.config/dunst/dunstrc ~/.config/i3/configbkps/dunstrc-$(date -u +'%Y%m%d-%H%M%SZ')
 		geany -i ~/.config/dunst/dunstrc
         ;;
+    keymap)
+        i3-msg workspace "Config"
+        cp ~/scripts/keymap.txt ~/scripts/keymap-$(date -u +'%Y%m%d-%H%M%SZ')
+		geany -i ~/scripts/keymap.txt
+        ;;
     *)
         echo "Invalid session. Please use a valid tmux session name."
         exit 1
@@ -61,7 +66,3 @@ case "$session_name" in
 esac
 
 exit 0
-
-
-
-
