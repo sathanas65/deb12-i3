@@ -21,6 +21,14 @@ ask_for_password() {
 session_name=$(tmux display-message -p '#S')
 
 case "$session_name" in
+	shutdown)
+        ask_for_password
+        sudo shutdown now
+        ;;
+	reboot)
+        ask_for_password
+        sudo reboot now
+        ;;
     thunar_sudo_script)
         ask_for_password
         sudo thunar
