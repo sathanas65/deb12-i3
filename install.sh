@@ -84,7 +84,7 @@ sudo systemctl enable cups
 
 # bluetooth support
 sudo apt-get install -y bluez blueman
-sudo systemctl enable bluetoothsh scripts/background.sh
+sudo systemctl enable bluetooth
 
 sudo -v
 
