@@ -60,7 +60,7 @@ sudo apt-get install -y neofetch htop glances figlet calc
 # cmatrix gives you a matrix falling code terminal but crashes i3 in vm - works fine on host system
 #sudo apt-get install -y cmatrix
 
-# gui system monitorsudo apt-get install -y software-properties-common apt-
+# gui system monitor
 sudo apt-get install -y gnome-system-monitor
 
 # apt-get package manager front end
@@ -96,7 +96,6 @@ sudo apt-get install -y foliate
 # calculator
 sudo apt-get install -y gnome-calculator
 sudo apt-get install -y galculator
-sudo apt-get install -y software-properties-common apt-
 sudo apt-get install -y mate-calc
 sudo apt-get install -y kcalc
 
@@ -296,7 +295,6 @@ sudo -v
 #teamviewer
 curl -fSsL https://download.teamviewer.com/download/linux/signature/TeamViewer2017.asc | sudo gpg --dearmor | sudo tee /usr/share/keyrings/teamview.gpg > /dev/null
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/teamview.gpg] http://linux.teamviewer.com/deb stable main" | sudo tee /etc/apt/sources.list.d/teamviewer.list
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/teamview.gpg] http://linux.teamviewer.com/deb stable main" | sudo tee /etc/apt/sources.list.d/teamviewer.list
 sudo apt-get install -y teamviewer
 
 sudo -v
@@ -448,7 +446,7 @@ cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/appl
 
 sudo -v
 
-apt install flatpak
+sudo apt-get install flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # kvm/qemu guest agent  YOU WANT THIS IF installing as kvm-qemu guest vm
