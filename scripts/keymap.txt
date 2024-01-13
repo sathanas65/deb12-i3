@@ -251,7 +251,6 @@ Super + Shift + t enters terminal mode
 	n - launch neofetch
 	g - launch glances
 	h - launch htop
-	f - launch figlet
 	c - launch calc
 Enter or Escape or Super + Shift + t to exit terminal mode
 
