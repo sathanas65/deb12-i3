@@ -5,9 +5,9 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
    If you can't do that, you will need to edit /etc/network/interfaces after install or the network manager applet will show your
    wifi interface as unmanaged and you won't be able to connect to other networks, though the network you connected to during install
    will still work. If you do connect with wifi during installation, here are the post install steps to enable network manager to manage
-   your wifi adapter. The below steps will not work until you have installed i3 with install.sh and the config files have been imported.
+   your wifi adapter. The below steps will not work until you have installed i3 with install.sh in step 13 and the config files have been imported at the end of the script.
    
-     a) Use keychord ALT + c, then n, then i, and enter your password at the prompt. This will backup the network interfaces file and open it for edit.
+     a) Use keychord ALT + c (config), then n (network), then i (interfaces), and enter your password at the prompt. This will backup the network interfaces file and open it for edit.
    
      b) Below the row '# The primary network interface' you will see something like 'allow-hotplug w1p3s0'. Leave this line, but delete
         or comment out everything below it, starting with 'iface'.
