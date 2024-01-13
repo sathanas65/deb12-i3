@@ -279,7 +279,7 @@ sudo apt-get install -y tar gzip
 # backup manager
 # timeshit gui front end for rsync
 sudo apt-get install -y timeshift
-# duplicity - great for cloud backup - supported by backblaze B2
+# duplicity - great CLI for cloud backup - supported by backblaze B2
 sudo apt-get install -y duplicity
 
 sudo -v
