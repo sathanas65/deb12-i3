@@ -44,6 +44,16 @@ case "$session_name" in
         cp ~/.config/i3/config.d/vmguest.conf ~/.config/i3/configbkps/vmguest.conf-$(date -u +'%Y%m%d-%H%M%SZ')
 		geany -i ~/.config/i3/config.d/vmguest.conf
         ;;
+    autostart)
+        i3-msg workspace "Config"
+        cp ~/.config/i3/autostart.sh ~/.config/i3/configbkps/autostart-$(date -u +'%Y%m%d-%H%M%SZ')
+		geany -i ~/.config/i3/autostart.sh
+        ;;
+    dunstconfig)
+        i3-msg workspace "Config"
+        cp ~/.config/dunst/dunstrc ~/.config/i3/configbkps/dunstrc-$(date -u +'%Y%m%d-%H%M%SZ')
+		geany -i ~/.config/dunst/dunstrc
+        ;;
     *)
         echo "Invalid session. Please use a valid tmux session name."
         exit 1
