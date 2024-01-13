@@ -186,7 +186,7 @@ sudo -v
 sudo apt-get install -y geany
 # brackets
 sudo snap install brackets --classic
-cp /var/lib/snapd/desktop/applications/brackets_brackets.desktop ~/.local/share/applications/
+sudo cp /var/lib/snapd/desktop/applications/brackets_brackets.desktop ~/.local/share/applications/
 
 sudo -v
 
@@ -270,7 +270,7 @@ sudo apt-get install -y gimp
 sudo -v
 
 sudo snap install pinta
-cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
+sudo cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
 
 sudo -v
 
@@ -326,8 +326,8 @@ sudo -v
 sudo apt-get install -y keepass2
 # bitwarden - NOT FOSS - great feautures - syncs across devices - passwords stored in cloud
 sudo snap install bitwarden
-sh scripts/background.sh
-cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
+
+sudo cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
 
 sudo -v
 
@@ -335,7 +335,7 @@ sudo -v
 #sudo apt-get install -y gnome-authenticator Needs Flatpak
 sudo apt-get install libpam-google-authenticator
 sudo snap install authpass
-cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
+sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
 
 sudo -v
 
@@ -370,7 +370,7 @@ sudo apt-get install -y shotcut
 sudo -v
 
 sudo snap install openshot-community --candidate
-cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
+sudo cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
 
 sudo -v
 
