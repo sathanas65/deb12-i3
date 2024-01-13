@@ -167,7 +167,7 @@ sudo apt-get install -y yad
 sudo apt-get install -y snapd
 sudo snap install core
 # schedule snap updates daily between 2 and 4 am
-snap set core refresh.schedule=02:00-04:00
+sudo snap set core refresh.schedule=02:00-04:00
 # schedule snap updates weekly on Sunday between 2 and 4 am
 #snap set core refresh.schedule=sun,02:00-04:00
 
