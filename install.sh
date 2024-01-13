@@ -269,7 +269,7 @@ sudo apt-get install -y thunderbird
 sudo -v
 
 # screenshots
-sudo apt-get install -y maim xclip xdotool
+sudo apt-get install -y maim xclip xdotool jq
 
 # image editors (gimp is like Adobe Photoshop and pinta is like MS Paint)
 sudo apt-get install -y gimp
