@@ -147,10 +147,10 @@ Super + Space - display Rofi app launcher
 	Super + Shift + Enter - launch Tmux
 
 	#GUI Package Manager
-	Super + s - launch Synaptic Package Manager
+	Super + Ctrl + s - then s - launch Synaptic Package Manager
 
 	#Backup Tools
-	Super + Ctrl + t - launch Timeshift
+	Super + Ctrl + s - then t - launch Timeshift
 	Super + Shift + d - launch Duplicity (work in progress)
 	
 	#File Manager
@@ -186,6 +186,7 @@ Super + Space - display Rofi app launcher
 
 	#Disk Management
 	Super + g - launch Gnome Disks
+	Super + Ctrl + s - then d - launch Gnome Disks as superuser
 
 	#System Management
 	Super + c - launch Cockpit Web Console (in Chromium)
