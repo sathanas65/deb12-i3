@@ -24,6 +24,7 @@ Environment=TERM=xterm-256color,COLORTERM=truecolor
 Icon=utilities-terminal
 LocalTabTitleFormat=%d : %n
 Name=Profile 1
+Parent=FALLBACK/
 RemoteTabTitleFormat=(%u) %H
 ShowTerminalSizeHint=true
 SilenceSeconds=10
