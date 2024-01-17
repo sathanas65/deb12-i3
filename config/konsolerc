@@ -1,0 +1,22 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+1920x1080 screen: Height=870
+1920x1080 screen: Width=1396
+1920x1080 screen: XPosition=262
+1920x1080 screen: YPosition=103
+2 screens: Height=1011
+2 screens: Width=1906
+2 screens: XPosition=1927
+2 screens: YPosition=33
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAATUA////+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAAA5QD///8AAAdyAAADuAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAMD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Virtual-1=Virtual-1
+Virtual-1 Virtual-2=Virtual-2
+
+[UiSettings]
+ColorScheme=Breeze Dark
