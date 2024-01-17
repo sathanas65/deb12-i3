@@ -13,11 +13,18 @@ cp -r config/terminator/ ~/.config
 cp -r config/rofi/ ~/.config
 cp -r config/volumeicon ~/.config
 cp -r config/xfce4 ~/.config
+cp -r config/Brackets ~/.config
+cp -r config/copyq ~/.config
+cp -r config/galculator ~/.config
+cp -r config/gtk-3.0 ~/.config
+cp -r config/xfce4 ~/.config
+cp -r config/sublime-text ~/.config
 cp -r config/konsole/ ~/.local/share
-cp -r psensor/ /usr/share
-sudo chown -R root:root /usr/share/psensor/
-sudo find /usr/share/psensor/ -type d -exec chmod 755 {} \;
-sudo find /usr/share/psensor/ -type f -exec chmod 644 {} \;
+cp config/QtProject.conf ~/.config
+cp config/kcalcrc ~/.config
+cp config/konsolerc ~/.config
+cp config/krusaderrc ~/.config
+
 chmod +x ~/.config/i3/autostart.sh
 # make scripts executable
 sudo chmod +x ~/scripts/*.sh
