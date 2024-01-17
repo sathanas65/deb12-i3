@@ -1,0 +1,134 @@
+{
+    "problems-panel": {
+        "visible": false
+    },
+    "welcomeProjects": [
+        "/snap/brackets/138/opt/brackets/samples/root/Getting Started"
+    ],
+    "projectPath": "/snap/brackets/138/opt/brackets/samples/root/Getting Started/",
+    "project": {
+        "/snap/brackets/138/opt/brackets/samples/root/Getting Started/": {
+            "encoding": {},
+            "code-folding.folds": {
+                "/snap/brackets/138/opt/brackets/samples/root/Getting Started/index.html": {}
+            },
+            "openFiles": [
+                {
+                    "file": "/snap/brackets/138/opt/brackets/samples/root/Getting Started/index.html",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 0,
+                        "ch": 0,
+                        "sticky": null
+                    }
+                }
+            ],
+            "mainView.state": {
+                "orientation": null,
+                "activePaneId": "first-pane",
+                "splitPercentage": 1,
+                "panes": {
+                    "first-pane": [
+                        {
+                            "file": "/snap/brackets/138/opt/brackets/samples/root/Getting Started/index.html",
+                            "active": true,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 0,
+                                            "ch": 0,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 0,
+                                            "ch": 0,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 15
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "afterFirstLaunch": "true",
+    "HealthData.Logs": {
+        "ProjectDetails": {
+            "prj929492837": {
+                "numFiles": 2,
+                "cacheSize": 12033
+            }
+        },
+        "fileStats": {
+            "openedFileExt": {
+                "html": 1
+            },
+            "workingSetFileExt": {},
+            "openedFileEncoding": {
+                "UTF-8": 1
+            }
+        }
+    },
+    "nextHealthDataSendTime": 1705609342306,
+    "workingSetSortMethod": "cmd.sortWorkingSetByAdded",
+    "lastNotificationURLFetchTime": 1705522943374,
+    "notificationInfo": {
+        "notifications": [
+            {
+                "sequence": 1630434600000,
+                "silent": false,
+                "filters": {
+                    "platforms": [],
+                    "version": "1.13",
+                    "locales": [],
+                    "builds": [],
+                    "lastUsed": ""
+                },
+                "html": "<div style='display: block;height: auto;font-size: 16px;'><div style='display: inline-block;float: left;padding: 7px 65px 7px 5px;font-weight: 500;'>The version of brackets installed in this system is unsupported. <a class='actionable' href='https://brackets.io' style='text-decoration: none;font-weight: 500;'>Get the latest version of Brackets(2.0.1) here!</a></div></div>",
+                "actionables": ".actionable",
+                "expiry": 1766300612000
+            },
+            {
+                "sequence": 1630434600000,
+                "silent": false,
+                "filters": {
+                    "platforms": [],
+                    "version": "1.14",
+                    "locales": [],
+                    "builds": [],
+                    "lastUsed": ""
+                },
+                "html": "<div style='display: block;height: auto;font-size: 16px;'><div style='display: inline-block;float: left;padding: 7px 65px 7px 5px;font-weight: 500;'>The version of brackets installed in this system is unsupported. <a class='actionable' href='https://brackets.io' style='text-decoration: none;font-weight: 500;'>Get the latest version of Brackets(2.0.1) here!</a></div></div>",
+                "actionables": ".actionable",
+                "expiry": 1766300612000
+            },
+            {
+                "sequence": 1630434600000,
+                "silent": false,
+                "filters": {
+                    "platforms": [],
+                    "version": "2.0.0",
+                    "locales": [],
+                    "builds": [],
+                    "lastUsed": ""
+                },
+                "html": "<div style='display: block;height: auto;font-size: 16px;'><div style='display: inline-block;float: left;padding: 7px 65px 7px 5px;font-weight: 500;'>The version of brackets installed in this system is unsupported. <a class='actionable' href='https://brackets.io' style='text-decoration: none;font-weight: 500;'>Get the latest version of Brackets(2.0.1) here!</a></div></div>",
+                "actionables": ".actionable",
+                "expiry": 1766300612000
+            }
+        ]
+    },
+    "auto-install-extensions": {},
+    "UUID": "d0eb-190c-84bd-7bcb-ecee",
+    "OlderUUID": "d0eb-190c-84bd-7bcb-ecee",
+    "healthDataNotificationShown": true
+}
