@@ -3,9 +3,12 @@
 export DISPLAY=:0
 export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u)/bus"
 
+# Extract the tmux session name to decide which command to run
+session_name=$(tmux display-message -p '#S')
+
 # Function to ask for password and run sudo -v
 ask_for_password() {
-    yad --entry --title="Authentication Required" --text="Enter your password:" \
+    yad --entry --title="Authentication Required" --text="Enter password for $session_name:" \
     --button=gtk-ok:0 --width=300 --height=100 --center \
     --undecorated --on-top --skip-taskbar --skip-pager --hide-text | sudo -S -v
 
@@ -17,9 +20,6 @@ ask_for_password() {
     fi
 }
 
-# Extract the tmux session name to decide which command to run
-session_name=$(tmux display-message -p '#S')
-
 case "$session_name" in
 	shutdown)
         ask_for_password
@@ -29,19 +29,19 @@ case "$session_name" in
         ask_for_password
         sudo reboot now
         ;;
-    thunar_sudo_script)
+    sudo_thunar)
         ask_for_password
         sudo thunar
         ;;
-    synaptic_script)
+    synaptic)
         ask_for_password
         sudo synaptic
         ;;
-    timeshift_bkp_script)
+    timeshift)
         ask_for_password
         sudo timeshift-gtk
         ;;
-    gnomedisks_sudo_script)
+    sudo_disks)
         ask_for_password
         sudo gnome-disks
         ;;
