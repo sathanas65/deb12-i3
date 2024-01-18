@@ -7,7 +7,6 @@ while true; do
     sleep 60
 done &
 
-echo 'start'
 # firewall
 sudo apt-get install -y ufw
 
