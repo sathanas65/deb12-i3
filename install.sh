@@ -26,10 +26,10 @@ check_status
 # file managers
 sudo apt-get install -y thunar
 check_status
-sudo apt-get install -y krusader
-check_status
-sudo apt-get install -y nautilus
-check_status
+#sudo apt-get install -y krusader
+#check_status
+#sudo apt-get install -y nautilus
+#check_status
 
 # file search
 sudo apt-get install -y fzf
@@ -57,8 +57,8 @@ check_status
 sudo apt-get install -y terminator
 check_status
 # kitty (no dot files yet)
-sudo apt-get install -y kitty 
-check_status
+#sudo apt-get install -y kitty 
+#check_status
 # konsole (required for out of box use of:
 # Super + Shift + h for keymap and 
 # Super + Shift + i for backup and edit i3 config and
@@ -81,8 +81,8 @@ sudo apt-get install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulsee
 check_status
 
 # audio editor
-sudo apt-get install -y audacity
-check_status
+#sudo apt-get install -y audacity
+#check_status
 
 # terminal apps
 sudo apt-get install -y neofetch htop glances figlet calc
@@ -95,8 +95,8 @@ sudo apt-get install -y gnome-system-monitor
 check_status
 
 # apt-get package manager front end
-sudo apt-get install -y synaptic
-check_status
+#sudo apt-get install -y synaptic
+#check_status
 
 # enable repos
 sudo apt-get install -y software-properties-common apt-transport-https curl ca-certificates -y
@@ -113,36 +113,36 @@ mkdir ~/.local/share/applications/
 check_status
 
 # printer support
-sudo apt-get install -y cups
-check_status
-sudo systemctl enable cups
-check_status
+#sudo apt-get install -y cups
+#check_status
+#sudo systemctl enable cups
+#check_status
 
 # bluetooth support
-sudo apt-get install -y bluez blueman
-check_status
-sudo systemctl enable bluetooth
-check_status
+#sudo apt-get install -y bluez blueman
+#check_status
+#sudo systemctl enable bluetooth
+#check_status
 
 sudo -v
 
 # document viewer
-sudo apt-get install -y evince
-check_status
-sudo apt-get install -y okular
-check_status
+#sudo apt-get install -y evince
+#check_status
+#sudo apt-get install -y okular
+#check_status
 
 # ebook reader
-sudo apt-get install -y foliate
-check_status
+#sudo apt-get install -y foliate
+#check_status
 
 # calculator
-sudo apt-get install -y gnome-calculator
-check_status
+#sudo apt-get install -y gnome-calculator
+#check_status
 sudo apt-get install -y galculator
 check_status
-sudo apt-get install -y mate-calc
-check_status
+#sudo apt-get install -y mate-calc
+#check_status
 sudo apt-get install -y kcalc
 check_status
 
@@ -243,38 +243,38 @@ sudo -v
 
 # gui text editor
 # doom emacs
-sudo apt-get install -y emacs-gtk ripgrep
-check_status
-rm -rf /home/$USER/.emacs.d/
-check_status
-git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
-yes | .emacs.d/bin/doom install
-check_status
+#sudo apt-get install -y emacs-gtk ripgrep
+#check_status
+#rm -rf /home/$USER/.emacs.d/
+#check_status
+#git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+#yes | .emacs.d/bin/doom install
+#check_status
 
-sudo -v
+#sudo -v
 
 # geany
 sudo apt-get install -y geany
 check_status
 # brackets
-sudo snap install brackets --classic
-check_status
-sudo cp /var/lib/snapd/desktop/applications/brackets_brackets.desktop ~/.local/share/applications/
-check_status
+#sudo snap install brackets --classic
+#check_status
+#sudo cp /var/lib/snapd/desktop/applications/brackets_brackets.desktop ~/.local/share/applications/
+#check_status
 
 sudo -v
 
 # sublime text
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
-check_status
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-check_status
-sudo apt-get update
-check_status
-sudo apt-get install -y sublime-text
-check_status
+#wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+#check_status
+#echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+#check_status
+#sudo apt-get update
+#check_status
+#sudo apt-get install -y sublime-text
+#check_status
 
-sudo -v
+#sudo -v
 
 # system management
 # cockpit (admin web console)
@@ -286,14 +286,14 @@ check_status
 sudo -v
 
 # office apps
-sudo apt-get install -y libreoffice
-check_status
+#sudo apt-get install -y libreoffice
+#check_status
 
-sudo -v
+#sudo -v
 
 # display settings
-sudo apt-get install -y arandr
-check_status
+#sudo apt-get install -y arandr
+#check_status
 
 # media player
 sudo apt-get install -y vlc 
@@ -304,8 +304,8 @@ sudo apt-get install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-
 check_status
 
 # disk utilities
-sudo apt-get install -y gnome-disk-utility gsmartcontrol gparted
-check_status
+#sudo apt-get install -y gnome-disk-utility gsmartcontrol gparted
+#check_status
 
 # clipboard manager
 sudo apt-get install -y copyq
@@ -321,59 +321,59 @@ check_status
 sudo -v
 
 # qownnotes (markdown stored as plain text, great features)
-SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
-check_status
-sudo mkdir -p "$(dirname "${SIGNED_BY}")"
-check_status
-curl --silent --show-error --location http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/Release.key | gpg --dearmor | sudo tee "${SIGNED_BY}" > /dev/null
-check_status
-sudo chmod u=rw,go=r "${SIGNED_BY}"
-check_status
+#SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
+#check_status
+#sudo mkdir -p "$(dirname "${SIGNED_BY}")"
+#check_status
+#curl --silent --show-error --location http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/Release.key | gpg --dearmor | sudo tee "${SIGNED_BY}" > /dev/null
+#check_status
+#sudo chmod u=rw,go=r "${SIGNED_BY}"
+#check_status
 
-SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
-ARCHITECTURE="$(dpkg --print-architecture)"
-check_status
-echo "deb [arch=${ARCHITECTURE} signed-by=${SIGNED_BY}] http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/ /" | sudo tee /etc/apt/sources.list.d/qownnotes.list > /dev/null
-check_status
-sudo apt-get update
-check_status
-sudo apt-get install -y qownnotes
-check_status
+#SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
+#ARCHITECTURE="$(dpkg --print-architecture)"
+#check_status
+#echo "deb [arch=${ARCHITECTURE} signed-by=${SIGNED_BY}] http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/ /" | sudo tee /etc/apt/sources.list.d/qownnotes.list > /dev/null
+#check_status
+#sudo apt-get update
+#check_status
+#sudo apt-get install -y qownnotes
+#check_status
 
-sudo -v
+#sudo -v
 
 # email client
-sudo apt-get install -y geary
-check_status
+#sudo apt-get install -y geary
+#check_status
 
-sudo -v
+#sudo -v
 
-sudo apt-get install -y evolution
-check_status
+#sudo apt-get install -y evolution
+#check_status
 
-sudo -v
+#sudo -v
 
-sudo apt-get install -y thunderbird
-check_status
+#sudo apt-get install -y thunderbird
+#check_status
 
-sudo -v
+#sudo -v
 
 # screenshots
 sudo apt-get install -y maim xclip xdotool jq
 check_status
 
 # image editors (gimp is like Adobe Photoshop and pinta is like MS Paint)
-sudo apt-get install -y gimp
-check_status
+#sudo apt-get install -y gimp
+#check_status
 
-sudo -v
+#sudo -v
 
-sudo snap install pinta
-check_status
-sudo cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
-check_status
+#sudo snap install pinta
+#check_status
+#sudo cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
+#check_status
 
-sudo -v
+#sudo -v
 
 # zip utilities
 sudo apt-get install -y tar gzip
@@ -381,13 +381,13 @@ check_status
 
 # backup manager
 # timeshit gui front end for rsync
-sudo apt-get install -y timeshift
-check_status
+#sudo apt-get install -y timeshift
+#check_status
 # duplicity - great CLI for cloud backup - supported by backblaze B2
-sudo apt-get install -y duplicity
-check_status
+#sudo apt-get install -y duplicity
+#check_status
 
-sudo -v
+#sudo -v
 
 # remote desktop client
 #anydesk
@@ -439,93 +439,93 @@ check_status
 sudo -v
 
 # gpg encryption manager
-sudo apt-get install -y kleopatra
-check_status
+#sudo apt-get install -y kleopatra
+#check_status
 
-sudo -v
+#sudo -v
 
 # password manager
 # keepass2 - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
-sudo apt-get install -y keepass2
-check_status
+#sudo apt-get install -y keepass2
+#check_status
 # bitwarden - NOT FOSS - great feautures - syncs across devices - passwords stored in cloud
-sudo snap install bitwarden
-check_status
+#sudo snap install bitwarden
+#check_status
 
-sudo cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
-check_status
+#sudo cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
+#check_status
 
-sudo -v
+#sudo -v
 
 # 2fa app
-sudo apt-get install libpam-google-authenticator
-check_status
-sudo snap install authpass
-check_status
-sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
-check_status
+#sudo apt-get install libpam-google-authenticator
+#check_status
+#sudo snap install authpass
+#check_status
+#sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
+#check_status
 
-sudo -v
+#sudo -v
 
 # torrent client
-sudo apt-get install -y transmission
-check_status
+#sudo apt-get install -y transmission
+#check_status
 
-sudo -v
+#sudo -v
 
 # signal
-wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
-check_status
-cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
-check_status
-echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
-  sudo tee /etc/apt/sources.list.d/signal-xenial.list
-check_status
+#wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
+#check_status
+#cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
+#check_status
+#echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
+#  sudo tee /etc/apt/sources.list.d/signal-xenial.list
+#check_status
 
-sudo apt-get update && sudo apt-get install -y signal-desktop
-check_status
+#sudo apt-get update && sudo apt-get install -y signal-desktop
+#check_status
 
-sudo -v
+#sudo -v
 
 # screen recorder
-sudo apt-get install -y simplescreenrecorder
-check_status
-sudo apt-get install -y kazam
-check_status
+#sudo apt-get install -y simplescreenrecorder
+#check_status
+#sudo apt-get install -y kazam
+#check_status
 
-sudo -v
+#sudo -v
 
 # video editor
-sudo apt-get install -y kdenlive
-check_status
+#sudo apt-get install -y kdenlive
+#check_status
 
-sudo -v
+#sudo -v
 
-sudo apt-get install -y shotcut
-check_status
+#sudo apt-get install -y shotcut
+#check_status
 
-sudo -v
+#sudo -v
 
-sudo snap install openshot-community --candidate
-check_status
-sudo cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
-check_status
+#sudo snap install openshot-community --candidate
+#check_status
+#sudo cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
+#check_status
 
-sudo -v
+#sudo -v
 
 # video converter
-sudo apt-get install -y ffmpeg
-check_status
-sudo apt-get install -y handbrake
-check_status
+#sudo apt-get install -y ffmpeg
+#check_status
+#sudo apt-get install -y handbrake
+#check_status
 
-sudo -v
+#sudo -v
 
 # youtube downloader
-sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
-check_status
-sudo chmod a+rx /usr/local/bin/youtube-dl
-check_status
+#sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+#check_status
+#sudo chmod a+rx /usr/local/bin/youtube-dl
+#check_status
 
 # simplified man pages
 sudo apt-get install -y tldr
@@ -575,24 +575,24 @@ check_status
 sudo -v
 
 # nordvpn (i3 keybinds, autostart and scripts are included so no setup required)
-curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
-check_status
-sh nordvpn_install.sh
-check_status
-sudo usermod -aG nordvpn $USER
-check_status
+#curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
+#check_status
+#sh nordvpn_install.sh
+#check_status
+#sudo usermod -aG nordvpn $USER
+#check_status
 
-sudo -v
+#sudo -v
 
 # mullvad vpn (i3 keybinds, autostart and scripts are not included so requires manual setup)
-#sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
-#check_status
-#echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
-#check_status
-#sudo apt-get update
-#check_status
-#sudo apt-get install -y mullvad-vpn
-#check_status
+sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
+check_status
+echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
+check_status
+sudo apt-get update
+check_status
+sudo apt-get install -y mullvad-vpn
+check_status
 
 sudo -v
 
@@ -614,8 +614,8 @@ check_status
 sudo cp /var/lib/snapd/desktop/applications/postman_postman.desktop ~/.local/share/applications/
 check_status
 # postman CLI
-# curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
-#check_status
+curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
+check_status
 
 sudo -v
 
@@ -643,7 +643,7 @@ sudo -v
 # sudo usermod -aG kvm “$(whoami)”
 #check_status
 
-sudo -v
+#sudo -v
 
 # window manager
 sudo apt-get install -y i3
