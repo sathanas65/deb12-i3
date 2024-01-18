@@ -187,7 +187,7 @@ sudo snap set core refresh.schedule=02:00-04:00
 echo '4'
 
 # schedule snap updates weekly on Sunday between 2 and 4 am
-sudo snap set core refresh.schedule=sun,02:00-04:00
+sudo snap set core refresh.schedule=02:00-04:00
 echo '5'
 #sudo -v
 
