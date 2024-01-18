@@ -194,7 +194,6 @@ sudo -v
 
 # mullvad browser
 wget --content-disposition https://mullvad.net/en/download/browser/linux-x86_64/latest -P ~
-check_status
 # if you get an error that file doesn't exist, change below to match mullvad flename you can see by using ls command
 tar -xvf mullvad-browser-linux-x86_64-13.0.7.tar.xz
 check_status
@@ -412,6 +411,8 @@ check_status
 sudo -v
 
 #teamviewer
+sudo apt-get install policykit-1
+check_status
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 check_status
 sudo dpkg -i teamviewer_amd64.deb || sudo apt --fix-broken install -y
