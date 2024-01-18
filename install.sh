@@ -151,16 +151,16 @@ sudo apt-get install -y torbrowser-launcher
 wget --content-disposition https://mullvad.net/en/download/browser/linux-x86_64/latest -P ~
 # if you get an error that file doesn't exist, change below to match mullvad flename you can see by using ls command
 tar -xvf mullvad-browser-linux-x86_64-13.0.7.tar.xz
-
+echo '1'
 cp ~/mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
-
+echo '2'
 #sudo -v
 
 # non-privacy browsers
 # Chromium is required for keybind Super + F1 to open nordvpn login page. 
 # Or you can edit ~/scripts/nordlogin.sh to use another browser but nord login script fails in Brave and Librewolf, even with shields down.
 sudo apt-get install -y firefox-esr chromium
-
+echo '3'
 #sudo -v
 
 # background / image manager
@@ -185,9 +185,11 @@ sudo snap install core
 # schedule snap updates daily between 2 and 4 am
 sudo snap set core refresh.schedule=02:00-04:00
 
+echo '4'
+
 # schedule snap updates weekly on Sunday between 2 and 4 am
 snap set core refresh.schedule=sun,02:00-04:00
-
+echo '5'
 #sudo -v
 
 # gui text editor
@@ -235,7 +237,7 @@ sudo apt-get install -y cockpit
 
 # media player
 sudo apt-get install -y vlc 
-
+echo '6'
 # non free codecs
 sudo apt-get install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly
 
