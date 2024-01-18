@@ -58,13 +58,32 @@ bindsym $mod+Shift+r exec i3-msg restart && notify-send "Restarted i3 in place"
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+q exec i3-msg exit
 
+# class                         border          background      text            indicator       child_border
+client.focused                  #5f049b         #5f049b        #ffffff       #5f049b       #000000
+client.focused_inactive         #333333         #000000         #9a08fb        #9a08fb       #000000
+client.unfocused                #333333         #000000         #888888         #888888       #000000
+client.urgent                   #2f343a         #900000         #ffffff         #ffffff        #900000
+client.placeholder              #000000         #000000         #ffffff         #ffffff        #0c0c0c
+
 # Hide/Show bar
 bindsym $mod+Shift+b exec sh scripts/togglebar.sh
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
+        status_command i3blocks
+        tray_output primary
+        colors {
+			background #000000
+			statusline #ffffff
+			separator #666666
+			#<colorclass> <border> <background> <text>
+			focused_workspace  #5f049b #5f049b #ffffff
+			active_workspace   #5f049b #000000 #ffffff
+			inactive_workspace #ffffff #000000 #ffffff
+			urgent_workspace   #e01e1e #e01e1e #ffffff
+			binding_mode       #e01e1e #ffffff #e01e1e
+}
 }
 # Transparency with picom compositor
 exec_always picom -f
