@@ -457,7 +457,7 @@ sudo cp /var/lib/snapd/desktop/applications/postman_postman.desktop ~/.local/sha
 
 sudo -v
 
-sudo apt-get install flatpak
+sudo apt-get install -y flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # kvm/qemu guest agent  YOU WANT THIS IF installing as kvm-qemu guest vm
