@@ -389,7 +389,7 @@ sudo apt-get install -y spice-vdagent
 # sudo usermod -aG kvm “$(whoami)”
 
 # window manager
-sudo apt-get install -y i3
+sudo apt-get install -y i3 i3blocks acpi-support
 
 # display manager
 sudo apt-get install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
