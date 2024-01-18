@@ -313,7 +313,7 @@ sudo apt-get install -y anydesk
 sudo -v
 
 #teamviewer
-sudo apt-get install policykit-1
+sudo apt-get install -y policykit-1
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 sudo dpkg -i teamviewer_amd64.deb || sudo apt --fix-broken install -y
 rm teamviewer_amd64.deb
