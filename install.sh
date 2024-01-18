@@ -4,7 +4,7 @@ set +e
 
 while true; do
     sudo -v
-    sleep <less than sudo timeout>
+    sleep 60
 done &
 
 # firewall
