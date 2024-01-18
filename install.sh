@@ -6,6 +6,8 @@ check_status() {
     fi
 }
 
+sudo -v
+
 # firewall
 sudo apt-get install -y ufw
 check_status
