@@ -8,6 +8,7 @@ cd deb12-i3
 cp -r scripts/ ~/
 cp -r config/backgrounds/ ~/.config
 cp -r config/i3/ ~/.config
+cp -r config/i3blocks/ ~/.config
 cp -r config/dunst/ ~/.config
 cp -r config/terminator/ ~/.config
 cp -r config/rofi/ ~/.config
