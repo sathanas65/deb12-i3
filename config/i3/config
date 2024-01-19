@@ -85,8 +85,9 @@ bar {
 			inactive_workspace #ffffff #000000 #ffffff
 			urgent_workspace   #e01e1e #e01e1e #ffffff
 			binding_mode       #e01e1e #ffffff #e01e1e
+		}
 }
-}
+
 # Transparency with picom compositor
 exec_always picom -f
 
