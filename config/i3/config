@@ -72,9 +72,11 @@ bindsym $mod+Shift+b exec sh scripts/togglebar.sh
 # finds out, if available)
 bar {
         status_command i3blocks
-        tray_output primary
+        tray_output primary 
+        font pango:Source Code Pro Bold 12D
+        i3bar_command i3bar --transparency
         colors {
-			background #000000
+			background #00000000
 			statusline #ffffff
 			separator #666666
 			#<colorclass> <border> <background> <text>
