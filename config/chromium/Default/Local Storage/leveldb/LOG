@@ -1,0 +1,9 @@
+2024/01/19-14:33:10.218 4 Reusing MANIFEST /home/user/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/01/19-14:33:10.223 4 Recovering log #4
+2024/01/19-14:33:10.224 4 Reusing old log /home/user/.config/chromium/Default/Local Storage/leveldb/000004.log 
+2024/01/19-14:42:23.382 6 Level-0 table #7: started
+2024/01/19-14:42:23.391 6 Level-0 table #7: 21361 bytes OK
+2024/01/19-14:42:23.399 6 Delete type=0 #4
+2024/01/19-14:46:23.382 6 Level-0 table #9: started
+2024/01/19-14:46:23.395 6 Level-0 table #9: 18699 bytes OK
+2024/01/19-14:46:23.402 6 Delete type=0 #6
