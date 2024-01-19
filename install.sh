@@ -377,7 +377,7 @@ curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
 sudo apt-get install -y flatpak
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-sudo apt install -y libgtk-4-dev
+sudo apt-get install -y libgtk-4-dev
 
 # kvm/qemu guest agent  YOU WANT THIS IF installing as kvm-qemu guest vm
 sudo apt-get install -y spice-vdagent 
