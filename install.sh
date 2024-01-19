@@ -288,7 +288,7 @@ sudo snap install bitwarden
 sudo cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
 
 # 2fa app
-sudo apt-get install libpam-google-authenticator
+sudo apt-get install -y libpam-google-authenticator
 sudo snap install authpass
 sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
 
