@@ -12,8 +12,19 @@ if [[ $connect_output == *"You are not logged in"* ]]; then
 	
 	# Disable the killswitch
 	nordvpn set killswitch disabled
-    # Run the nordlogin.sh script
-    bash scripts/nordlogin.sh
+    	# Run nordvpn login and capture the output
+	output=$(nordvpn login 2>&1)
+
+	# Extract the URL from the output
+	url=$(echo "$output" | grep -o 'https://[a-zA-Z0-9./?=_-]*')
+
+	# Check if the URL was found
+	if [ -n "$url" ]; then
+		# Open the URL in Chromium
+		chromium "$url" &> /dev/null
+	else
+		echo "Login URL not found."
+	fi
 else 
 	# Enable the killswitch and capture the output
 	killswitch_output=$(nordvpn set killswitch enabled 2>&1)
