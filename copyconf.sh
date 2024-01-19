@@ -26,7 +26,7 @@ cp config/QtProject.conf ~/.config
 cp config/kcalcrc ~/.config
 cp config/konsolerc ~/.config
 cp config/krusaderrc ~/.config
-sudo cp config/Sweet-Dark-v40 /usr/share/themes
+sudo cp -r config/Sweet-Dark-v40 /usr/share/themes
 
 chmod +x ~/.config/i3/autostart.sh
 # make scripts executable
