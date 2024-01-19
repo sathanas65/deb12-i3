@@ -3,11 +3,14 @@
 [keybindings]
 [profiles]
   [[default]]
+    icon_bell = False
     background_type = transparent
+    show_titlebar = False
     scrollbar_position = hidden
     title_transmit_bg_color = "#613583"
     title_receive_bg_color = "#77767b"
     title_inactive_bg_color = "#3584e4"
+  [[New Profile]]
 [layouts]
   [[default]]
     [[[window0]]]
