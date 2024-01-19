@@ -9,7 +9,7 @@ numlokx on &
 nm-applet &
 volumeicon &
 copyq &
-psensor &
+#psensor &
 
 #configure backgroung
 sh scripts/background.sh &
