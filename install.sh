@@ -9,7 +9,6 @@ done &
 
 # firewall
 sudo apt-get install -y ufw
-
 sudo ufw enable
 
 sudo apt-get update && sudo apt-get upgrade -y
