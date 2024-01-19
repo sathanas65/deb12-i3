@@ -42,40 +42,44 @@ Super + Shift + q -then
 
 	# Workspaces
 	Super + w - Enter Workspace Mode, then:
-			s - go to workspace "System" - if not in use it will open on the active display
+			0 - go to workspace "Dashboard" - if not in use it will open on the active display
+			1 - go to workspace "Communications" - if not in use it will open on the active display
+			a - go to workspace "Accounts" - if not in use it will open on the active display
 			b - go to workspace "Browser" - if not in use it will open on the active display
 			c - go to workspace "Config" - if not in use it will open on the active display
-			r - go to workspace "Research" - if not in use it will open on the active display
-			0 - go to workspace "Dashboard" - if not in use it will open on the active display
-			n - go to workspace "Notes" - if not in use it will open on the active display
-			2 - go to workspace "Communications" - if not in use it will open on the active display
-			3 - go to workspace "Development" - if not in use it will open on the active display
-			4 - go to workspace "Production" - if not in use it will open on the active display
-			v - go to workspace "Virt" - if not in use it will open on the active display
-			a - go to workspace "Accounts" - if not in use it will open on the active display
+			d - go to workspace "Development" - if not in use it will open on the active display
 			f - go to workspace "Finance" - if not in use it will open on the active display
 			m - go to workspace "Media" - if not in use it will open on the active display
-			t - go to workspace "TV" - if not in use it will open on the active display
+			n - go to workspace "Notes" - if not in use it will open on the active display
+			p - go to workspace "Production" - if not in use it will open on the active display
+			r - go to workspace "Research" - if not in use it will open on the active display
+			s - go to workspace "System" - if not in use it will open on the active display
+			t - go to workspace "TV" - if not in use it will open on the active display			
+			v - go to workspace "Virt" - if not in use it will open on the active display
 
 			Right - move active workspace to the right display
 			Left - move active workspace to the left display
 	
 			l - add workspace on the left output, OR
 			r - add workspace on the right output, then:
-				s - go to workspace "System"
+				0 - go to workspace "Dashboard"
+				1 - go to workspace "Communications"
+				a - go to workspace "Accounts"
 				b - go to workspace "Browser"
 				c - go to workspace "Config"
-				r - go to workspace "Research"
-				0 - go to workspace "Dashboard"
-				n - go to workspace "Notes"
-				2 - go to workspace "Communications"
-				3 - go to workspace "Development"
-				4 - go to workspace "Production"
-				v - go to workspace "Virt"
-				a - go to workspace "Accounts"
+				d - go to workspace "Development"
 				f - go to workspace "Finance"
 				m - go to workspace "Media"
+				n - go to workspace "Notes"
+				p - go to workspace "Production"
+				r - go to workspace "Research"
+				s - go to workspace "System"
 				t - go to workspace "TV"
+				v - go to workspace "Virt"
+
+
+
+
 	
 			v - Virtual machine workspace mode, then:
 				0 - go to VM 0
@@ -85,20 +89,21 @@ Super + Shift + q -then
 
 	# Enter Move Mode
 	Super + m     -then:
-		s - move active window to System workspace
+		0 - move active window to Dashboard workspace
+		1 - move active window to Communications workspace
+		a - move active window to Accounts workspace
 		b - move active window to Browser workspace
 		c - move active window to Config workspace
-		r - move active window to Research workspace
-		0 - move active window to Dashboard workspace
-		n - move active window to Notes workspace
-		2 - move active window to Communications workspace
-		3 - move active window to Development workspace
-		4 - move active window to Production workspace
-		v - move active window to Virt workspace
-		a - move active window to Accounts workspace
+		d - move active window to Development workspace
 		f - move active window to Finance workspace
 		m - move active window to Media workspace
+		n - move active window to Notes workspace
+		p - move active window to Production workspace
+		r - move active window to Research workspace
+		s - move active window to System workspace
 		t - move active window to TV workspace
+		v - move active window to Virt workspace
+
 		h - move active window to the Scratchpad
 
 	Super + Shift + s - show the scratchpad
