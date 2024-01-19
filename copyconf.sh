@@ -18,6 +18,7 @@ cp -r config/Brackets ~/.config
 cp -r config/copyq ~/.config
 cp -r config/galculator ~/.config
 cp -r config/gtk-3.0 ~/.config
+cp -r config/gtk-4.0 ~/.config
 cp -r config/xfce4 ~/.config
 cp -r config/sublime-text ~/.config
 cp -r config/konsole/ ~/.local/share
