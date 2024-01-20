@@ -369,9 +369,10 @@ xdg-user-dirs-update
 #sudo apt-get install -y flatpak
 #sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-#These are required for the theme to work and i3bar to display correctly
+#These are required for the theme and icons to work and i3bar to display correctly
 sudo apt-get install -y libgtk-4-dev
 sudo apt-get install -y fonts-noto-color-emoji 
+git clone https://github.com/EliverLara/candy-icons
 
 # kvm/qemu guest agent  YOU WANT THIS IF installing as kvm-qemu guest vm
 sudo apt-get install -y spice-vdagent 
@@ -389,9 +390,6 @@ sudo apt-get install -y i3 i3blocks acpi-support
 
 # display manager
 sudo apt-get install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
-
-# clone icons
-git clone https://github.com/EliverLara/candy-icons
 
 # import scripts and configs
 sh ~/deb12-i3/copyconf.sh
