@@ -401,7 +401,7 @@ sh ~/deb12-i3/copyconf.sh
 
 #This makes lightdm set display to 1080p - YOU MUST modify display.sh value "Virtual-1" if installing on bare metal or possibly anything other than kvm-qemu guest vm
 #Physical display outputs are HDMI-0, VGA-0, DP-0, DVD-D-0, HDMI-1, etc.
-sudo cp -r deb12-i3/.mozilla/ ~/
+
 sudo cp deb12-i3/display.sh /usr/share/display.sh
 sudo chown root:root /usr/share/display.sh
 sudo chmod 775 /usr/share/display.sh
