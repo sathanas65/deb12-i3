@@ -1,7 +1,9 @@
 #!/bin/bash
 
+# on error continue
 set +e
 
+# reset sudo clock every 60 seconds so you only have to enter password once
 while true; do
     sudo -v
     sleep 60
@@ -24,10 +26,10 @@ sudo apt-get install -y thunar
 sudo apt-get install -y krusader
 #sudo apt-get install -y nautilus
 
-# file search
+# terminal file search
 sudo apt-get install -y fzf
 
-# list directory (on steroids)
+# terminal list directory (on steroids)
 sudo apt-get install -y exa
 
 # settings interface
@@ -35,18 +37,14 @@ sudo apt-get install -y xfce4-settings xfce4-power-manager
 
 # Network File Tools/System Events
 sudo apt-get install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends
-
 sudo systemctl enable avahi-daemon
-
 sudo systemctl enable acpid
 
 # terminal emulators
 # terminator (dot files included)
 sudo apt-get install -y terminator
-
 # kitty (no dot files yet)
 #sudo apt-get install -y kitty 
-
 # konsole (required for out of box use of:
 # Super + Shift + h for keymap and 
 # Super + Shift + i for backup and edit i3 config and
@@ -77,7 +75,7 @@ sudo apt-get install -y gnome-system-monitor
 # apt-get package manager front end
 sudo apt-get install -y synaptic
 
-# enable repos
+# enable non-free repos
 sudo apt-get install -y software-properties-common apt-transport-https curl ca-certificates -y
 echo | sudo apt-add-repository contrib non-free-firmware
 sudo apt-get update && sudo apt-get upgrade -y
@@ -156,17 +154,17 @@ sudo apt-get install -y numlockx
 # notification daemon
 sudo apt-get install -y dunst libnotify-bin
 
+# user dialog
 sudo apt-get install -y yad
 
 # snap store (Supports installation of containerized apps)
 sudo apt-get install -y snapd
-
 sudo snap install core
 # schedule snap updates weekly on Sunday between 2 and 4 am
 sudo snap set core refresh.schedule=02:00-04:00
 
 # gui text editor
-# doom emacs
+# doom emacs - the geek is real but takes forever to install and is more than most people need
 #sudo apt-get install -y emacs-gtk ripgrep
 #rm -rf /home/$USER/.emacs.d/
 #git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
@@ -227,9 +225,7 @@ sudo apt-get install -y qownnotes
 
 # email client
 sudo apt-get install -y geary
-
 sudo apt-get install -y evolution
-
 sudo apt-get install -y thunderbird
 
 # screenshots
@@ -283,7 +279,6 @@ sudo apt-get install -y keepass2
 
 # bitwarden - NOT FOSS - great feautures - syncs across devices - passwords stored in cloud
 #sudo snap install bitwarden
-
 #sudo cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
 
 # 2fa app
@@ -294,12 +289,11 @@ sudo apt-get install -y keepass2
 # torrent client
 sudo apt-get install -y transmission
 
-# signal
+# signal encrypted messaging
 #wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
 #cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
 #echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
 #  sudo tee /etc/apt/sources.list.d/signal-xenial.list
-
 #sudo apt-get update && sudo apt-get install -y signal-desktop
 
 # screen recorder
@@ -308,9 +302,7 @@ sudo apt-get install -y kazam
 
 # video editor
 #sudo apt-get install -y kdenlive
-
 #sudo apt-get install -y shotcut
-
 #sudo snap install openshot-community --candidate
 #sudo cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
 
@@ -326,14 +318,14 @@ sudo apt-get install -y kazam
 sudo apt-get install -y tldr
 
 # dev tools
-# vscode
+# vscode ide
 #wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 #sudo install -D -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/packages.microsoft.gpg
 #sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
 #sudo apt-get update
 #sudo apt-get install -y code
 
-# vscodium (Free/Libre Open Source Software Binaries of VS Code)
+# vscodium (Free/Libre Open Source Software Binaries of VS Code ide)
 #wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
 #    | gpg --dearmor \
 #    | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg 
@@ -341,16 +333,16 @@ sudo apt-get install -y tldr
 #    | sudo tee /etc/apt/sources.list.d/vscodium.list
 #sudo apt-get update && sudo apt-get install -y codium
 
-# pycharm
+# pycharm ide
 #curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | gpg --dearmor | sudo tee /usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg > /dev/null
 #echo "deb [signed-by=/usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg] http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com any main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
 #sudo apt-get update
 #sudo apt-get install -y pycharm-community
 
-# user directories
+# user directories (disable this if you want many things to not work. There will be weeping and gnashing of teeth)
 xdg-user-dirs-update
 
-# nordvpn (i3 keybinds, autostart and scripts are included so no setup required)
+# nordvpn (i3 keybinds, autostart and scripts are included so no setup required. Will likely switch to mullvad soon)
 curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
 sh nordvpn_install.sh
 sudo usermod -aG nordvpn $USER
@@ -367,15 +359,17 @@ sudo usermod -aG nordvpn $USER
 #sudo snap install denaro
 #sudo cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/applications/
 
-# postman
+# postman API platform
 #sudo snap install postman
 #sudo cp /var/lib/snapd/desktop/applications/postman_postman.desktop ~/.local/share/applications/
 # postman CLI
 #curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
 
+#Flatpak containerized apps platform
 #sudo apt-get install -y flatpak
 #sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
+#These are required for the theme to work and i3bar to display correctly
 sudo apt-get install -y libgtk-4-dev
 sudo apt-get install -y fonts-noto-color-emoji 
 
@@ -401,7 +395,6 @@ sh ~/deb12-i3/copyconf.sh
 
 #This makes lightdm set display to 1080p - YOU MUST modify display.sh value "Virtual-1" if installing on bare metal or possibly anything other than kvm-qemu guest vm
 #Physical display outputs are HDMI-0, VGA-0, DP-0, DVD-D-0, HDMI-1, etc.
-
 sudo cp deb12-i3/display.sh /usr/share/display.sh
 sudo chown root:root /usr/share/display.sh
 sudo chmod 775 /usr/share/display.sh
@@ -417,6 +410,7 @@ sudo chmod 644 /etc/lightdm/lightdm.conf
 
 sudo systemctl enable lightdm
 
+#This allows checking firewall status without password - used in firewall scripts
 echo 'user ALL=(ALL) NOPASSWD: /usr/sbin/ufw status' | sudo tee /etc/sudoers.d/ufw-status
 sudo chmod 0440 /etc/sudoers.d/ufw-status
 
