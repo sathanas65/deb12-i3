@@ -390,6 +390,9 @@ sudo apt-get install -y i3 i3blocks acpi-support
 # display manager
 sudo apt-get install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 
+# clone icons
+git clone https://github.com/EliverLara/candy-icons
+
 # import scripts and configs
 sh ~/deb12-i3/copyconf.sh
 
