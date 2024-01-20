@@ -245,7 +245,8 @@ Mode should return to default but if not you can use Escape or Return
 
 ### Screenshots
 Printscreen enters screenshot mode.
-        1 - saves a screenshot of the active screen to Pictures
+	0 - saves a screenshot of the active screen to Pictures after a 3 second delay
+        1 - saves a screenshot of the active screen to Pictures with no delay
         2 - saves a screenshot of the active window to Pictures
         3 - generates a crosshair that allows you to select an area to screenshot to Pictures
         4 - saves a screenshot of the active screen to the clipboard
