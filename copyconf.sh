@@ -15,13 +15,13 @@ cp -r config/terminator/ ~/.config
 cp -r config/rofi/ ~/.config
 cp -r config/volumeicon ~/.config
 cp -r config/xfce4 ~/.config
-cp -r config/Brackets ~/.config
+#cp -r config/Brackets ~/.config
 cp -r config/copyq ~/.config
 cp -r config/galculator ~/.config
 cp -r config/gtk-3.0 ~/.config
 cp -r config/gtk-4.0 ~/.config
 cp -r config/xfce4 ~/.config
-cp -r config/sublime-text ~/.config
+#cp -r config/sublime-text ~/.config
 cp -r .mozilla ~
 cp -r config/konsole/ ~/.local/share
 cp config/QtProject.conf ~/.config
