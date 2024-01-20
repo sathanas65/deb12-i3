@@ -377,6 +377,7 @@ sudo usermod -aG nordvpn $USER
 #sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 sudo apt-get install -y libgtk-4-dev
+sudo apt-get install -y fonts-noto-color-emoji 
 
 # kvm/qemu guest agent  YOU WANT THIS IF installing as kvm-qemu guest vm
 sudo apt-get install -y spice-vdagent 
