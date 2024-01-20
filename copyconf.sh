@@ -2,6 +2,7 @@
 ####
 # This script is used to copy my config files over for use on reboot of installation.
 
+sudo cp -r candy-icons /usr/share/icons
 cd
 cd deb12-i3
 
@@ -30,7 +31,6 @@ cp config/kcalcrc ~/.config
 cp config/konsolerc ~/.config
 cp config/krusaderrc ~/.config
 sudo cp -r config/Sweet-Dark-v40 /usr/share/themes
-sudo cp -r candy-icons /usr/share/icons
 
 chmod +x ~/.config/i3/autostart.sh
 chmod +x ~/.config/i3blocks/cpu/cpu_info.sh
