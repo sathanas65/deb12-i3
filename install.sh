@@ -57,7 +57,7 @@ sudo apt-get install -y konsole
 sudo apt-get install -y tmux
 
 # hardware info
-sudo apt-get install -y procinfo hwinfo hdparm psensor
+sudo apt-get install -y procinfo hwinfo hdparm lm-sensors psensor
 
 # audio
 sudo apt-get install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulseeffects
