@@ -10,6 +10,18 @@ session_name=$(tmux display-message -p '#S')
 #echo "Running case '${session_name}'" >> ~/scripts/screenshot.log
 
 case "$session_name" in
+	delaysave)
+		# Get the output name of the currently focused workspace
+		output=$(i3-msg -t get_workspaces | jq -r '.[] | select(.focused==true).output')
+		# Get the geometry of the focused monitor
+		geometry=$(xrandr | grep "$output" | grep -oP '\d+x\d+\+\d+\+\d+')
+		# Delay screen capture
+		sleep 3
+		# Capture the screen of the focused monitor
+		maim --geometry="$geometry" --format=png /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
+		#echo "Running case screensave" >> ~/scripts/screenshot.log
+		notify-send "Screen saved"
+        ;;
     screenclip)
 		# Get the output name of the currently focused workspace
 		output=$(i3-msg -t get_workspaces | jq -r '.[] | select(.focused==true).output')
