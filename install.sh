@@ -23,8 +23,8 @@ sudo apt-get install -y lxappearance picom
 
 # file managers
 sudo apt-get install -y thunar
-sudo apt-get install -y krusader
-sudo apt-get install -y nautilus
+#sudo apt-get install -y krusader
+#sudo apt-get install -y nautilus
 
 # terminal file search
 sudo apt-get install -y fzf
@@ -67,7 +67,7 @@ sudo apt-get install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulsee
 sudo apt-get install -y neofetch htop glances figlet calc
 
 # cmatrix gives you a matrix falling code terminal but crashes i3 in vm - works fine on host system
-#sudo apt-get install -y cmatrix
+sudo apt-get install -y cmatrix
 
 # gui system monitor
 sudo apt-get install -y gnome-system-monitor
@@ -88,8 +88,8 @@ mkdir ~/.local/share/applications/
 #sudo systemctl enable cups
 
 # bluetooth support
-#sudo apt-get install -y bluez blueman
-#sudo systemctl enable bluetooth
+sudo apt-get install -y bluez blueman
+sudo systemctl enable bluetooth
 
 # document viewer
 #sudo apt-get install -y evince
@@ -108,10 +108,10 @@ sudo apt-get install -y kcalc
 # privacy browsers
 # brave browser ($mod + b) NOT FOSS
 # Note that there is a bug where brave fails to in initialize on the 1st launch. After a reboot it will work fine thereafter.
-#wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
-#echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-#sudo apt-get update
-#sudo apt-get install -y brave-browser
+wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo apt-get update
+sudo apt-get install -y brave-browser
 
 # librewolf browser
 #distro=$(if echo "bookworm" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
@@ -158,10 +158,10 @@ sudo apt-get install -y dunst libnotify-bin
 sudo apt-get install -y yad
 
 # snap store (Supports installation of containerized apps)
-#sudo apt-get install -y snapd
-#sudo snap install core
+sudo apt-get install -y snapd
+sudo snap install core
 # schedule snap updates weekly on Sunday between 2 and 4 am
-#sudo snap set core refresh.schedule=02:00-04:00
+sudo snap set core refresh.schedule=02:00-04:00
 
 # gui text editor
 # doom emacs - the geek is real but takes forever to install and is more than most people need
@@ -185,7 +185,7 @@ sudo apt-get install -y geany
 
 # system management
 # cockpit (admin web console)
-#sudo apt-get install -y cockpit
+sudo apt-get install -y cockpit
 
 # stacer (useful but abandoned by devs)
 #sudo apt-get install -y stacer
@@ -197,13 +197,13 @@ sudo apt-get install -y geany
 #sudo apt-get install -y arandr
 
 # media player
-#sudo apt-get install -y vlc 
+sudo apt-get install -y vlc 
 
 # non free codecs
-#sudo apt-get install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly
+sudo apt-get install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly
 
 # disk utilities
-#sudo apt-get install -y gnome-disk-utility gsmartcontrol gparted
+sudo apt-get install -y gnome-disk-utility gsmartcontrol gparted
 
 # clipboard manager
 sudo apt-get install -y copyq
@@ -235,26 +235,26 @@ sudo apt-get install -y maim xclip xdotool jq
 #sudo apt-get install -y gimp
 
 sudo snap install pinta
-#sudo cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
+sudo cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
 
 # zip utilities
 sudo apt-get install -y tar gzip
 
 # backup manager
 # timeshit gui front end for rsync
-#sudo apt-get install -y timeshift
+sudo apt-get install -y timeshift
 # duplicity - great CLI for cloud backup - supported by backblaze B2
 #sudo apt-get install -y duplicity
 
 # remote desktop client
 #anydesk
-#sudo apt-get install software-properties-common apt-transport-https dirmngr ca-certificates curl -y
-#curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo gpg --dearmor | sudo tee /usr/share/keyrings/anydesk.gpg > /dev/null
-#echo 'deb [signed-by=/usr/share/keyrings/anydesk.gpg] http://deb.anydesk.com/ all main' | sudo tee /etc/apt/sources.list.d/anydesk.list
-#wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
-#echo "deb http://deb.anydesk.com/ all main" sudo tee /etc/apt/sources.list.d/anydesk-stable.list
-#sudo apt-get update
-#sudo apt-get install -y anydesk
+sudo apt-get install software-properties-common apt-transport-https dirmngr ca-certificates curl -y
+curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo gpg --dearmor | sudo tee /usr/share/keyrings/anydesk.gpg > /dev/null
+echo 'deb [signed-by=/usr/share/keyrings/anydesk.gpg] http://deb.anydesk.com/ all main' | sudo tee /etc/apt/sources.list.d/anydesk.list
+wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
+echo "deb http://deb.anydesk.com/ all main" sudo tee /etc/apt/sources.list.d/anydesk-stable.list
+sudo apt-get update
+sudo apt-get install -y anydesk
 
 #teamviewer
 #sudo apt-get install -y policykit-1
@@ -268,14 +268,14 @@ sudo apt-get install -y tar gzip
 #sudo ufw allow 20:21/tcp
 #sudo ufw allow 20000:25000/tcp
 # ftp client (midnight commander)
-#sudo apt-get install -y mc
+sudo apt-get install -y mc
 
 # gpg encryption manager
-#sudo apt-get install -y kleopatra
+sudo apt-get install -y kleopatra
 
 # password manager
 # keepass2 - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
-#sudo apt-get install -y keepass2
+sudo apt-get install -y keepass2
 
 # bitwarden - NOT FOSS - great feautures - syncs across devices - passwords stored in cloud
 #sudo snap install bitwarden
@@ -287,17 +287,17 @@ sudo apt-get install -y tar gzip
 #sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
 
 # torrent client
-#sudo apt-get install -y transmission
+sudo apt-get install -y transmission
 
 # signal encrypted messaging
-#wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
-#cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
-#echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
-#  sudo tee /etc/apt/sources.list.d/signal-xenial.list
-#sudo apt-get update && sudo apt-get install -y signal-desktop
+wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
+cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
+  sudo tee /etc/apt/sources.list.d/signal-xenial.list
+sudo apt-get update && sudo apt-get install -y signal-desktop
 
 # screen recorder
-#sudo apt-get install -y simplescreenrecorder
+sudo apt-get install -y simplescreenrecorder
 #sudo apt-get install -y kazam
 
 # video editor
@@ -343,9 +343,9 @@ sudo apt-get install -y tldr
 xdg-user-dirs-update
 
 # nordvpn (i3 keybinds, autostart and scripts are included so no setup required. Will likely switch to mullvad soon)
-#curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
-#sh nordvpn_install.sh
-#sudo usermod -aG nordvpn $USER
+curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
+sh nordvpn_install.sh
+sudo usermod -aG nordvpn $USER
 
 # mullvad vpn (i3 keybinds, autostart and scripts are not included so requires manual setup)
 #sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
