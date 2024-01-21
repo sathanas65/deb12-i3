@@ -6,6 +6,10 @@ I want a minimal UI that provides exactly what is required, without installing a
 
 Some non-FOSS packages are included. My goal is to use FOSS wherever practical. I welcome suggestions for FOSS alternatives. 
 
+Documentation
+-------------
+* [Install Guide](https://github.com/sathanas65/deb12-i3/blob/main/Docs/Installation.md)
+
 ![GitHub Image](/screenshots/screenshot-20240121-200604Z.png)      ![GitHub Image](/screenshots/screenshot-20240121-201526Z.png)
 
 ![GitHub Image](/screenshots/screenshot-20240121-203010Z.png)      ![GitHub Image](/screenshots/screenshot-20240121-204317Z.png)
