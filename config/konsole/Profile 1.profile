@@ -1,7 +1,7 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=true
-ColorScheme=GreenOnBlack
+ColorScheme=BlueOnBlack
 DimmValue=128
 Font=Noto Mono,14,-1,5,50,0,0,0,0,0
 LineSpacing=0
