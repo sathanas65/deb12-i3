@@ -6,16 +6,15 @@ color=#db200f
 [WEATHER]
 #command=~/.config/i3blocks/weather/weather.py
 interval=900
-color=#C9E3DB
 
 [DISK]
 command=df -h / | awk '/\//{ printf(" 💾 %4s/%s \n", $4, $2) }'
 interval=2
 color=#C9E3DB
 
-#[BATTERY]
-#command=~/.config/i3blocks/battery/battery_info.sh
-#interval=3
+[BATTERY]
+command=~/.config/i3blocks/battery/battery_info.sh
+interval=3
 
 [CPU]
 full_text= 🔥 0.00% @ +00.0°C 
@@ -27,16 +26,6 @@ color=#00B4EB
 command=free -h | awk '/Mem:/ { printf(" 🐏 %5s/%s \n", $3, $2) }'
 interval=1
 color=#FEC925
-
-#[SOUND_BURST]
-#command=~/.config/i3blocks/sound/sound_burst.sh
-#interval=once
-
-#[SOUND]
-#full_text= 🔇:  0% 
-#command=~/.config/i3blocks/sound/sound_info.sh
-#interval=0
-#signal=1
 
 [TIME_DATE]
 command=date +" %a, %d %b - %H:%M:%S"
