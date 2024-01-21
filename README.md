@@ -1,4 +1,4 @@
-Debian 12 - i3c
+Debian 12 - i3 Window Manager
 ===================
 This repo hosts a set of install scripts and config files for Debian 12, to automate installation and configuration of the i3 Window Manager and other packages. It is modular and you may enable/disable commands as desired. For best results, install on a a fresh Debian 12 with no GUI environment. 
 
