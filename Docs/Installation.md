@@ -151,10 +151,14 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
 
              nano ~/.config/i3blocks/weather/weather.py
 
+    After the line '# Replace with your latitude, longitude, and API key', replace the values with your API key and coordinates.
     
+    Now Ctrl + s to save & Ctrl + x to exit.
+    
+    Super + Shift + r to restart i3.
 
 
-14. Initial keybinds you need to remember are:
+15. Initial keybinds you need to remember are:
     
     Super + Shift + h to open a keybind map you can reference to get oriented. You can also access the keybind map with command:
      
