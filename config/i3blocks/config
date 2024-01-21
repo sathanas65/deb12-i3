@@ -1,7 +1,7 @@
 [CAPS]
 command=~/.config/i3blocks/caps/caps.sh
 interval=1
-color=#e0f542
+color=#941206
 
 [DISK]
 command=df -h / | awk '/\//{ printf(" 💾 %4s/%s \n", $4, $2) }'
