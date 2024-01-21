@@ -10,12 +10,12 @@ def get_weather(lat, lon, api_key):
     # Check if the request was successful
     if response.status_code == 200:
         data = response.json()
-        
+
         # Extract temperature and weather condition
-        temperature = data['main']['temp']
+        temperature = round(data['main']['temp'])
         condition = data['weather'][0]['description']
 
-        return f"{temperature}f {condition.title()}"
+        return f"{temperature}°f {condition.title()}"
     else:
         return "Failed to retrieve weather data"
 
