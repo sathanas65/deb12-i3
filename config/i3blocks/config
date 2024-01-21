@@ -1,3 +1,7 @@
+[CAPS]
+command=~/.config/i3blocks/caps/caps.sh
+interval=1
+
 [DISK]
 command=df -h / | awk '/\//{ printf(" 💾 %4s/%s \n", $4, $2) }'
 interval=2
