@@ -11,9 +11,4 @@ Some non-FOSS packages are included. My goal is to use FOSS wherever practical. 
 ![GitHub Image](/screenshots/screenshot-20240121-203010Z.png)      ![GitHub Image](/screenshots/screenshot-20240121-204317Z.png)
 
 ![GitHub Image](/screenshots/screenshot-20240121-204840Z.png)
-![GitHub Image](/screenshots/screenshot-20240121-205053Z.png)
-![GitHub Image](/screenshots/screenshot-20240121-205108Z.png)
-![GitHub Image](/screenshots/screenshot-20240121-205129Z.png)
-![GitHub Image](/screenshots/screenshot-20240121-205140Zc.png)
-![GitHub Image](/screenshots/screenshot-20240121-205140Z.png)
-![GitHub Image](/screenshots/screenshot-20240121-205217Z.png)
+
