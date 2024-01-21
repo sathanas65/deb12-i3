@@ -114,30 +114,35 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
 
           nano config/i3/config
    
-   If installed on VM, Uncomment line 'include ~/.config/i3/config.d/vmguest.conf' and correct 'Virtual-1', etc to match your hypervisor outputs, then
-         Comment line '#include ~/.config/i3/config.d/baremetal.conf'
+   If installed on VM, 
+   
+   Uncomment line 'include ~/.config/i3/config.d/vmguest.conf' and correct 'Virtual-1', etc to match your hypervisor outputs, then
+   Comment line '#include ~/.config/i3/config.d/baremetal.conf'
 
    If installed on hardware, 
    
    Change these lines to match your outputs:
+   
          #set $display_output_left DP-0
          #set $display_output_right DVI-D-0
          #set $display_output_top HDMI-0
+         
    If you only have a single display, set all 3 values to the same output.
    
    Now Ctrl + s to save & Ctrl + x to exit.
 
 13. Initial keybinds you need to remember are:
-        Super + Shift + h to open a keybind map you can reference to get oriented. You can also access the keybind map with command:
+    
+    Super + Shift + h to open a keybind map you can reference to get oriented. You can also access the keybind map with command:
      
              nano ~/scripts/keymap.txt
 
-        Escape or Enter to exit an execute mode.
+    Escape or Enter to exit an execute mode.
 
-        Execute modes are keybind modes that are activated with a keybind. While in an exec mode, normal keybinds will stop working and a red on white mode indicator
-        will appear in the bar. Pressing either Escape or Enter will return to default mode. 
+    Execute modes are keybind modes that are activated with a keybind. While in an exec mode, normal keybinds will stop working and a red on white mode indicator
+    will appear in the bar. Pressing either Escape or Enter will return to default mode. 
 
-        Other easy and useful keybinds to learn right away are Super + Enter to open a terminal and Super + Space to open Rofi app launcher.
+    Other easy and useful keybinds to learn right away are Super + Enter to open a terminal and Super + Space to open Rofi app launcher.
     
-        Good luck and have fun!!!
+    Good luck and have fun!!!
 
