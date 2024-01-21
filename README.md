@@ -34,9 +34,13 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
          nano /config/i3/config
 
    Comment all lines in "#for bare metal install" section.
+   
    Uncomment all lines in "#for kvm-qemu guest install" section.
+   
    If using a different hypervisor, replace "Virtual-1", etc with the default display outputs of your hypervisor.
+   
    Ctrl + s to save & Ctrl + x to exit.
+   
    If using a different hypervisor, edit /scripts/vm-dual-display.sh and /scripts/vm-single-display.sh, replacing "Virtual-1", etc with the default
       display outputs of your hypervisor. This will enable use of display mode hotkeys to switch between single and dual displays. 
 
