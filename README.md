@@ -114,24 +114,24 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
 
           nano config/i3/config
    
-   If installed on VM, 
+    If installed on VM, 
    
-   Uncomment line 'include ~/.config/i3/config.d/vmguest.conf' and correct 'Virtual-1', etc to match your hypervisor outputs, then
-   Comment line '#include ~/.config/i3/config.d/baremetal.conf'
+    Uncomment line 'include ~/.config/i3/config.d/vmguest.conf' and correct 'Virtual-1', etc to match your hypervisor outputs, then
+    Comment line '#include ~/.config/i3/config.d/baremetal.conf'
 
-   If installed on hardware, 
+    If installed on hardware, 
    
-   Change these lines to match your outputs:
+    Change these lines to match your outputs:
    
-   #set $display_output_left DP-0
+    #set $display_output_left DP-0
    
-   #set $display_output_right DVI-D-0
+    #set $display_output_right DVI-D-0
    
-   #set $display_output_top HDMI-0
+    #set $display_output_top HDMI-0
          
-   If you only have a single display, set all 3 values to the same output.
+    If you only have a single display, set all 3 values to the same output.
    
-   Now Ctrl + s to save & Ctrl + x to exit.
+    Now Ctrl + s to save & Ctrl + x to exit.
 
 13. Initial keybinds you need to remember are:
     
