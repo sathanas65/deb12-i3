@@ -3,6 +3,11 @@ command=~/.config/i3blocks/caps/caps.sh
 interval=1
 color=#db200f
 
+[WEATHER]
+#command=~/.config/i3blocks/weather/weather.py
+interval=900
+color=#C9E3DB
+
 [DISK]
 command=df -h / | awk '/\//{ printf(" 💾 %4s/%s \n", $4, $2) }'
 interval=2
