@@ -20,10 +20,15 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
          nano install.sh
 
    Uncomment line - 'sudo apt install -y spice-vdagent'. This will allow clipboard sharing between the guest and host, as well as other qemu features.
+   
    Uncomment all lines from 'sudo cp deb12-i3/display.sh /usr/share/display.sh' to 'sudo chmod 644 /etc/lightdm/lightdm.conf'. This will set the
       dislay settings for a single 1080p virtual display. Edit as needed.
-   Ctrl + s to save & Ctrl + x to exit. If you are using a different hypervisor like VMWare or VirtualBox, and you wish to set the display up now,
+   
+   Ctrl + s to save & Ctrl + x to exit.
+
+   If you are using a different hypervisor like VMWare or VirtualBox, and you wish to set the display up now,
       find out the default name for their virtual display outputs and edit ~/deb12-i3/display.sh with them. Otherwise just install as you would on hardware.
+
    Then,
 
          nano /config/i3/config
@@ -35,20 +40,20 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
    If using a different hypervisor, edit /scripts/vm-dual-display.sh and /scripts/vm-single-display.sh, replacing "Virtual-1", etc with the default
       display outputs of your hypervisor. This will enable use of display mode hotkeys to switch between single and dual displays. 
 
-7. Now you can review and edit the main install script.
+8. Now you can review and edit the main install script.
 
          nano install.sh
 
     You can comment out lines by putting a hash(#) before them, and then they will not run. Or uncomment any you want to run.
     
-8. Once you are done selecting or deselecting packages to you liking, or adding some of your own, Ctrl + s to save & Ctrl + x to exit.    
-9. Finally, to run the install script, outputting to a txt file for logging, enter:
+9. Once you are done selecting or deselecting packages to you liking, or adding some of your own, Ctrl + s to save & Ctrl + x to exit.    
+10. Finally, to run the install script, outputting to a txt file for logging, enter:
 
          bash install.sh >> output.txt
 
     Enter your password if prompted.
-10. Now just let the script run and it will reboot when finished. You should end up at the gui login screen. Now you can login to i3.
-11. To allow Gnome network manager to manage your network connections, you must  edit /etc/network/interfaces after install or the network manager applet will show your
+11. Now just let the script run and it will reboot when finished. You should end up at the gui login screen. Now you can login to i3.
+12. To allow Gnome network manager to manage your network connections, you must  edit /etc/network/interfaces after install or the network manager applet will show your
     interface as unmanaged and you won't be able to connect to other networks, though the network you connected to during install will still work. These steps could be added to the install script
     if desired.
       
@@ -65,7 +70,7 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
      e) Enter your password when prompted. Now you should be able to manage your network comnnections from the applet on the i3 taskbar. If not, try rebooting with Super + Shift + q, then
           click the power options button in the top left corner of the login screen and select 'Restart'.
       
-12. If you installed on hardware or on a non-kvm/qemu vm and did not previously configure your display settings, you should do so now.
+13. If you installed on hardware or on a non-kvm/qemu vm and did not previously configure your display settings, you should do so now.
 
           xrandr -q
 
