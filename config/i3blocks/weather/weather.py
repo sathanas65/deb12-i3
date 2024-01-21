@@ -20,9 +20,9 @@ def get_weather(lat, lon, api_key):
         return "Failed to retrieve weather data"
 
 # Replace with your latitude, longitude, and API key
-latitude = '41.363621'  # Example latitude
-longitude = '-72.102943'  # Example longitude
-api_key = '7f2067255cf7d2d25cce58ecdefea92e'
+latitude = 'LATITUDE'  # Example latitude
+longitude = 'LONGITUDE'  # Example longitude
+api_key = 'APIKEY'
 
 weather_info = get_weather(latitude, longitude, api_key)
 print(weather_info)
