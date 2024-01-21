@@ -123,9 +123,9 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
    
    Change these lines to match your outputs:
    
-         #set $display_output_left DP-0
-         #set $display_output_right DVI-D-0
-         #set $display_output_top HDMI-0
+   #set $display_output_left DP-0
+   #set $display_output_right DVI-D-0
+   #set $display_output_top HDMI-0
          
    If you only have a single display, set all 3 values to the same output.
    
