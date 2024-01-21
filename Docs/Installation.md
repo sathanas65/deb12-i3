@@ -135,7 +135,26 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
    
     Now Ctrl + s to save & Ctrl + x to exit.
 
-13. Initial keybinds you need to remember are:
+13. To use the weather API to output to the bar, follow these steps:
+    
+    Sign up for a free API key at https://home.openweathermap.org/users/sign_up
+
+    Verify your email
+
+    Login to https://home.openweathermap.org
+
+    Go to https://home.openweathermap.org/api_keys and note your API key
+
+    Go to google maps and choose a location close to you and click on it to get the GPS coordinates
+
+    Then
+
+             nano ~/.config/i3blocks/weather/weather.py
+
+    
+
+
+14. Initial keybinds you need to remember are:
     
     Super + Shift + h to open a keybind map you can reference to get oriented. You can also access the keybind map with command:
      
