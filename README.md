@@ -52,17 +52,17 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
     interface as unmanaged and you won't be able to connect to other networks, though the network you connected to during install will still work. These steps could be added to the install script
     if desired.
       
-        a) Use keychord ALT + c (config), then n (network), then i (interfaces), and enter your password at the prompt. This will backup the network interfaces file and open it for edit.
+    a) Use keychord ALT + c (config), then n (network), then i (interfaces), and enter your password at the prompt. This will backup the network interfaces file and open it for edit.
       
-        b) Below the row '# The primary network interface' you will see something like 'allow-hotplug w1p3s0'. Comment out this line and all below it by adding '#' before each line.
+    b) Below the row '# The primary network interface' you will see something like 'allow-hotplug w1p3s0'. Comment out this line and all below it by adding '#' before each line.
       
-        c) Ctrl + s to save and ctrl + x to exit.
+    c) Ctrl + s to save and ctrl + x to exit.
       
-        d) Now enter:
+    d) Now enter:
    
             sudo systemctl restart networking
       
-        e) Enter your password when prompted. Now you should be able to manage your network comnnections from the applet on the i3 taskbar. If not, try rebooting with Super + Shift + q, then
+     e) Enter your password when prompted. Now you should be able to manage your network comnnections from the applet on the i3 taskbar. If not, try rebooting with Super + Shift + q, then
           click the power options button in the top left corner of the login screen and select 'Restart'.
       
 12. If you installed on hardware or on a non-kvm/qemu vm and did not previously configure your display settings, you should do so now.
