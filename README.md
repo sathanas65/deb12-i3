@@ -16,5 +16,5 @@ Documentation
 
 ![GitHub Image](/screenshots/screenshot-20240121-203010Z.png)      ![GitHub Image](/screenshots/screenshot-20240121-204317Z.png)
 
-![GitHub Image](/screenshots/screenshot-20240121-204840Z.png)
+![GitHub Image](/screenshots/screenshot-20240121-204840Z.png)      ![GitHub Image](/screenshots/screenshot-20240121-235508Z.png)
 
