@@ -12,4 +12,4 @@ fi
 CPU_USAGE=$(mpstat 1 1 | gawk '/Average:/ {printf("%s\n", $(NF-9))}')
 
 # Output CPU usage and temperature
-echo "$CPU_USAGE $TEMP°C" | gawk '{ printf("🔥 %6s%% @ %s \n", $1, $2) }'
+echo "$CPU_USAGE $TEMP°C" | gawk '{ printf("🔥%6s%% @ %s \n", $1, $2) }'
