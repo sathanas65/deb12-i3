@@ -44,20 +44,20 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
    If using a different hypervisor, edit /scripts/vm-dual-display.sh and /scripts/vm-single-display.sh, replacing "Virtual-1", etc with the default
       display outputs of your hypervisor. This will enable use of display mode hotkeys to switch between single and dual displays. 
 
-8. Now you can review and edit the main install script.
+7. Now you can review and edit the main install script.
 
          nano install.sh
 
     You can comment out lines by putting a hash(#) before them, and then they will not run. Or uncomment any you want to run.
     
-9. Once you are done selecting or deselecting packages to you liking, or adding some of your own, Ctrl + s to save & Ctrl + x to exit.    
-10. Finally, to run the install script, outputting to a txt file for logging, enter:
+8. Once you are done selecting or deselecting packages to you liking, or adding some of your own, Ctrl + s to save & Ctrl + x to exit.    
+9. Finally, to run the install script, outputting to a txt file for logging, enter:
 
          bash install.sh >> output.txt
 
     Enter your password if prompted.
-11. Now just let the script run and it will reboot when finished. You should end up at the gui login screen. Now you can login to i3.
-12. To allow Gnome network manager to manage your network connections, you must  edit /etc/network/interfaces after install or the network manager applet will show your
+10. Now just let the script run and it will reboot when finished. You should end up at the gui login screen. Now you can login to i3.
+11. To allow Gnome network manager to manage your network connections, you must  edit /etc/network/interfaces after install or the network manager applet will show your
     interface as unmanaged and you won't be able to connect to other networks, though the network you connected to during install will still work. These steps could be added to the install script
     if desired.
       
@@ -74,7 +74,7 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
      e) Enter your password when prompted. Now you should be able to manage your network comnnections from the applet on the i3 taskbar. If not, try rebooting with Super + Shift + q, then
           click the power options button in the top left corner of the login screen and select 'Restart'.
       
-13. If you installed on hardware or on a non-kvm/qemu vm and did not previously configure your display settings, you should do so now.
+12. If you installed on hardware or on a non-kvm/qemu vm and did not previously configure your display settings, you should do so now.
 
           xrandr -q
 
