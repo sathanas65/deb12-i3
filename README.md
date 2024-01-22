@@ -6,7 +6,11 @@ I created this repo to archive and automate my own install process. My goal was 
 
 I want a minimal UI that provides exactly what is required, without installing a bloated or more limited desktop environment or a derivitive distribution with packages I do not need or want. I like a dark UI, but with some colorful accents, with emphasis on purple. Most of the packages enabled in the install script by default conform to the theme/icons, and get along well together. Alternative options were provided for your convenience. 
 
-Some non-FOSS packages are included. My goal is to use FOSS wherever practical. I welcome suggestions for FOSS alternatives. 
+Some non-FOSS packages are included. My goal is to use FOSS wherever practical. I welcome suggestions for FOSS alternatives.
+
+Still in progress: custom dashboard layout, distrobox, Scrcpy 2.0, mullvad vpn scripts, PeaZip, Vim/Neovim, Cryptomator, keepassxc
+
+Next distro of choice to customize: Nixos with either swayfx or Hyprland
 
 Documentation
 -------------
