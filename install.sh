@@ -380,10 +380,10 @@ sudo apt-get install -y spice-vdagent
 # hypervisor tools
 # sudo apt-get install -y virt-manager cockpit-machines cockpit-podman distrobox
 # You can access cockpit console from browser at https://127.0.0.1:9090/
-# sudo addgroup "$(whoami)" libvirt
-# sudo addgroup "$(whoami)" kvm
-# sudo usermod -aG libvirt “$(whoami)”
-# sudo usermod -aG kvm “$(whoami)”
+#sudo addgroup libvirt
+#sudo addgroup kvm
+#sudo usermod -aG libvirt $(whoami)
+#sudo usermod -aG kvm $(whoami)
 
 # window manager
 sudo apt-get install -y i3 i3blocks acpi-support
