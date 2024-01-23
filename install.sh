@@ -114,19 +114,19 @@ sudo apt-get update
 sudo apt-get install -y brave-browser
 
 # librewolf browser
-#distro=$(if echo "bookworm" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
-#wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
-#sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
-#Types: deb
-#URIs: https://deb.librewolf.net
-#Suites: $distro
-#Components: main
-#Architectures: amd64
-#Signed-By: /usr/share/keyrings/librewolf.gpg
-#EOF
+distro=$(if echo "bookworm" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
+wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
+sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
+Types: deb
+URIs: https://deb.librewolf.net
+Suites: $distro
+Components: main
+Architectures: amd64
+Signed-By: /usr/share/keyrings/librewolf.gpg
+EOF
 
-#sudo apt-get update
-#sudo apt-get install -y librewolf
+sudo apt-get update
+sudo apt-get install -y librewolf
 
 # tor browser
 #sudo apt-get install -y torbrowser-launcher 
@@ -226,7 +226,7 @@ sudo apt-get install -y zim
 # email client
 #sudo apt-get install -y geary
 #sudo apt-get install -y evolution
-#sudo apt-get install -y thunderbird
+sudo apt-get install -y thunderbird
 
 # screenshots
 sudo apt-get install -y maim xclip xdotool jq
@@ -282,9 +282,9 @@ sudo apt-get install -y keepass2
 #sudo cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
 
 # 2fa app
-#sudo apt-get install -y libpam-google-authenticator
-#sudo snap install authpass
-#sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
+sudo apt-get install -y libpam-google-authenticator
+sudo snap install authpass
+sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
 
 # torrent client
 sudo apt-get install -y transmission
@@ -307,7 +307,7 @@ sudo apt-get install -y simplescreenrecorder
 #sudo cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
 
 # video converter
-#sudo apt-get install -y ffmpeg
+sudo apt-get install -y ffmpeg
 #sudo apt-get install -y handbrake
 
 # youtube downloader
@@ -398,18 +398,18 @@ sh ~/deb12-i3/copyconf.sh
 # Keep these commented if installing on hardware. After first boot, you can modify display.sh value "Virtual-1" to your display output
 # Get display outputs with $  xarandr -q
 #Physical display outputs are HDMI-0, VGA-0, DP-0, DVD-D-0, HDMI-1, etc.
-sudo cp deb12-i3/display.sh /usr/share/display.sh
-sudo chown root:root /usr/share/display.sh
-sudo chmod 775 /usr/share/display.sh
-sudo cp deb12-i3/background.png /usr/share/background.png
-sudo chown root:root /usr/share/background.png
-sudo chmod 644 /usr/share/background.png
-sudo cp deb12-i3/01_debian.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
-sudo chown root:root /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
-sudo chmod 644 /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
-sudo cp deb12-i3/lightdm.conf /etc/lightdm/lightdm.conf
-sudo chown root:root /etc/lightdm/lightdm.conf
-sudo chmod 644 /etc/lightdm/lightdm.conf
+#sudo cp deb12-i3/display.sh /usr/share/display.sh
+#sudo chown root:root /usr/share/display.sh
+#sudo chmod 775 /usr/share/display.sh
+#sudo cp deb12-i3/background.png /usr/share/background.png
+#sudo chown root:root /usr/share/background.png
+#sudo chmod 644 /usr/share/background.png
+#sudo cp deb12-i3/01_debian.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
+#sudo chown root:root /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
+#sudo chmod 644 /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
+#sudo cp deb12-i3/lightdm.conf /etc/lightdm/lightdm.conf
+#sudo chown root:root /etc/lightdm/lightdm.conf
+#sudo chmod 644 /etc/lightdm/lightdm.conf
 
 sudo systemctl enable lightdm
 
