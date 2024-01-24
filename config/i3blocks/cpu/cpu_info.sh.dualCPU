@@ -1,0 +1,21 @@
+#This works for me to return temps for both my Xeon CPUs but you may need to adjust based on the values you get from sensors command
+  #!/bin/sh
+
+# Function to get the highest temperature from a specific sensor group
+get_highest_temp() {
+    sensors | awk -v sensor="$1" '
+    $0 ~ sensor { in_sensor = 1; next }
+    /^$/ { in_sensor = 0 }
+    in_sensor && /Core/ { gsub(/[+°C]/, "", $3); if ($3+0 > max_temp) max_temp = $3+0 }
+    END { if (max_temp) printf("%d°C", max_temp+0.5); else print "?°C" }
+    '
+}
+
+# Fetch the highest temperature from coretemp-isa-0000
+TEMP0=$(get_highest_temp "coretemp-isa-0000")
+
+# Fetch the highest temperature from coretemp-isa-0001
+TEMP1=$(get_highest_temp "coretemp-isa-0001")
+
+# Output the highest temperatures for each CPU
+echo "$TEMP0, $TEMP1"
