@@ -30,11 +30,11 @@ command=df -h / | awk '/\//{ printf(" 💾 %4s/%s \n", $4, $2) }'
 interval=86400
 color=#00B4EB
 
-#My config
-[DISK]
-command=~/.config/i3blocks/drives/drives.sh
-interval=86400
-color=#00B4EB
+#My config for / + /var + /home
+#[DISK]
+#command=~/.config/i3blocks/drives/drives.sh
+#interval=86400
+#color=#00B4EB
 
 [BATTERY]
 command=~/.config/i3blocks/battery/battery_info.sh
