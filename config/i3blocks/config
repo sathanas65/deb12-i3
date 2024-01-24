@@ -1,15 +1,32 @@
 [CAPS]
 command=~/.config/i3blocks/caps/caps.sh
-interval=1
+signal=11
 color=#db200f
 
 [WEATHER]
 #command=~/.config/i3blocks/weather/weather.sh
 interval=900
+color=#00b33c
+
+[CRYPTO]
+command=~/.config/i3blocks/finance/crypto.sh
+interval=900
+color=#FEC925
+
+#use below format to add space between blocks
+#[SPACE]
+#full_text="                                 "
+#color=#bf00ff
+
+#Display a stock price
+#[STOCK]
+#command=~/.config/i3blocks/finance/stock.sh
+#interval=900
+#color=#db200f
 
 [DISK]
 command=df -h / | awk '/\//{ printf(" 💾 %4s/%s \n", $4, $2) }'
-interval=2
+interval=86400
 color=#C9E3DB
 
 [BATTERY]
@@ -19,14 +36,14 @@ interval=3
 [CPU]
 full_text= 🔥 0.00% @ +00.0°C 
 command=~/.config/i3blocks/cpu/cpu_info.sh
-interval=repeat
-color=#00B4EB
+interval=5
+color=#bf00ff
 
 [MEM]
 command=free -h | awk '/Mem:/ { printf(" 🐏 %5s/%s \n", $3, $2) }'
-interval=1
+interval=5
 color=#FEC925
 
 [TIME_DATE]
 command=date +" %a, %d %b - %H:%M:%S"
-interval=1
+interval=15
