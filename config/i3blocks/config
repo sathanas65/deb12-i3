@@ -27,11 +27,17 @@ color=#FEC925
 [DISK]
 command=df -h / | awk '/\//{ printf(" 💾 %4s/%s \n", $4, $2) }'
 interval=86400
-color=#C9E3DB
+color=#00B4EB
+
+#My config
+[DISK]
+command=~/.config/i3blocks/drives/drives.sh
+interval=86400
+color=#00B4EB
 
 [BATTERY]
 command=~/.config/i3blocks/battery/battery_info.sh
-interval=3
+interval=5
 
 [CPU]
 full_text= 🔥 0.00% @ +00.0°C 
