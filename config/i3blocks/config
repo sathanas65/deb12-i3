@@ -3,6 +3,7 @@ command=~/.config/i3blocks/caps/caps.sh
 signal=11
 color=#db200f
 
+#requires an API key and GPS coordinates, see documentation
 [WEATHER]
 #command=~/.config/i3blocks/weather/weather.sh
 interval=900
