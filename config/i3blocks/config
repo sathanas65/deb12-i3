@@ -4,10 +4,10 @@ signal=11
 color=#db200f
 
 #requires an API key and GPS coordinates, see documentation
-[WEATHER]
+#[WEATHER]
 #command=~/.config/i3blocks/weather/weather.sh
-interval=900
-color=#00b33c
+#interval=900
+#color=#00b33c
 
 [CRYPTO]
 command=~/.config/i3blocks/finance/crypto.sh
