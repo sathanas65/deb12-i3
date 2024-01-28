@@ -27,7 +27,7 @@
     # Sort messages by urgency.
     sort = yes
 
-    frame_color = "#16cb1e"
+    frame_color = "#d966ff"
     
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -165,7 +165,7 @@
 
 #[frame]
     #width = 20
-    #color = "#231023"
+    #color = "#5f049b"
 
 #[shortcuts]
     # Shortcuts are specified as [modifier+][modifier+]...key
@@ -200,7 +200,7 @@
     #background = "#dcf807"
     #foreground = "#231023"
     background = "#000000"
-    foreground = "#16cb1e"
+    foreground = "#d966ff"
     timeout = 4
 
 [urgency_critical]
