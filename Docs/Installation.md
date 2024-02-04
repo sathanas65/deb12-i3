@@ -74,7 +74,7 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
             sudo systemctl restart networking
       
      e) Enter your password when prompted. Now you should be able to manage your network comnnections from the applet on the i3 taskbar. If not, try rebooting with Super + Shift + q, then
-          click the power options button in the top left corner of the login screen and select 'Restart'.
+          click the power options button in the top right corner of the login screen and select 'Restart'.
       
 12. If you installed on hardware or on a non-kvm/qemu vm and did not previously configure your display settings, you should do so now.
 
