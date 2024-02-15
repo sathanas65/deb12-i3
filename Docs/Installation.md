@@ -35,7 +35,7 @@ This guide is detailed to enable Linux newcomers to get up and running quickly, 
 
          nano /config/i3/config
 
-   Comment all lines in "#for bare metal install" section.
+   Comment all lines in "for bare metal install" section.
    
    Uncomment all lines in "#for kvm-qemu guest install" section.
    
