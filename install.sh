@@ -209,7 +209,7 @@ sudo apt-get install -y gnome-disk-utility gsmartcontrol gparted
 sudo apt-get install -y copyq
 
 # notes manager
-# zim (easy checkbox lists)
+# zim (easy checkbox lists and much more)
 sudo apt-get install -y zim
 
 # qownnotes (markdown stored as plain text, great features)
