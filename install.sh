@@ -375,7 +375,7 @@ sudo apt-get install -y fonts-noto-color-emoji
 git clone https://github.com/EliverLara/candy-icons
 
 # kvm/qemu guest agent  YOU WANT THIS IF installing as kvm-qemu guest vm
-sudo apt-get install -y spice-vdagent 
+# sudo apt-get install -y spice-vdagent 
 
 # hypervisor tools
 # sudo apt-get install -y virt-manager cockpit-machines cockpit-podman distrobox
