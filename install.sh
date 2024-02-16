@@ -397,7 +397,7 @@ sh ~/deb12-i3/copyconf.sh
 #This makes lightdm greeter login screen set display to 1080p on kvm-qemu guest vm and sets the background for the login screen - 
 # Keep these commented if installing on hardware. After first boot, you can modify display.sh value "Virtual-1" to your display output
 # Get display outputs with $  xarandr -q
-#Physical display outputs are HDMI-0, VGA-0, DP-0, DVD-D-0, HDMI-1, etc.
+#Physical display outputs are HDMI-0, VGA-0, DP-0, DVI-D-0, HDMI-1, etc.
 #sudo cp deb12-i3/display.sh /usr/share/display.sh
 #sudo chown root:root /usr/share/display.sh
 #sudo chmod 775 /usr/share/display.sh
