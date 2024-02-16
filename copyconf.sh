@@ -32,9 +32,6 @@ cp -r config/terminator/ ~/.config
 cp -r config/konsole/ ~/.local/share
 cp config/konsolerc ~/.config
 
-# import volume icon config  (necessary?)
-#cp -r config/volumeicon ~/.config
-
 # Import themes and themed configs
 cp -r config/xfce4 ~/.config
 cp -r config/gtk-3.0 ~/.config
