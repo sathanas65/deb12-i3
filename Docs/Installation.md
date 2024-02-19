@@ -2,7 +2,7 @@ Debian 12 - i3 Window Manager
 ===================
 This guide is detailed to enable Linux newcomers to get up and running quickly, with a minimum of headaches. How to use these scripts:
 
-1. Install Debian 12 but do not install any desktop environment. Only 'Standard Utilities' Should be selected during installation. 
+1. Install Debian 12 but do not install any desktop environment. Only 'Standard Utilities' and optionally 'SSH Server' should be selected during installation. 
 2. Once your Debian 12 install is complete, login with your username and password.
 3. Enter:
 
