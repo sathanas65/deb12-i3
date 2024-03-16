@@ -194,7 +194,7 @@ sudo apt-get install -y cockpit
 #sudo apt-get install -y libreoffice
 
 # display settings
-#sudo apt-get install -y arandr
+sudo apt-get install -y arandr
 
 # media player
 sudo apt-get install -y vlc 
