@@ -103,7 +103,7 @@ sudo systemctl enable bluetooth
 sudo apt-get install -y galculator
 
 #sudo apt-get install -y mate-calc
-sudo apt-get install -y kcalc
+#sudo apt-get install -y kcalc
 
 # privacy browsers
 # brave browser ($mod + b) NOT FOSS
