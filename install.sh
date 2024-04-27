@@ -173,11 +173,7 @@ sudo snap set core refresh.schedule=02:00-04:00
 # geany
 sudo apt-get install -y geany
 
-# brackets
-#sudo snap install brackets --classic
-#sudo cp /var/lib/snapd/desktop/applications/brackets_brackets.desktop ~/.local/share/applications/
-
-# sublime text
+# sublime text (NOT FOSS)
 #wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
 #echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 #sudo apt-get update
@@ -199,7 +195,7 @@ sudo apt-get install -y arandr
 # media player
 sudo apt-get install -y vlc 
 
-# non free codecs
+# non free codecs (NOT FOSS)
 sudo apt-get install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly
 
 # disk utilities
@@ -246,8 +242,8 @@ sudo apt-get install -y timeshift
 # duplicity - great CLI for cloud backup - supported by backblaze B2
 #sudo apt-get install -y duplicity
 
-# remote desktop client
-#anydesk
+# remote desktop client 
+#anydesk (NOT FOSS)
 sudo apt-get install software-properties-common apt-transport-https dirmngr ca-certificates curl -y
 curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo gpg --dearmor | sudo tee /usr/share/keyrings/anydesk.gpg > /dev/null
 echo 'deb [signed-by=/usr/share/keyrings/anydesk.gpg] http://deb.anydesk.com/ all main' | sudo tee /etc/apt/sources.list.d/anydesk.list
@@ -256,7 +252,7 @@ echo "deb http://deb.anydesk.com/ all main" sudo tee /etc/apt/sources.list.d/any
 sudo apt-get update
 sudo apt-get install -y anydesk
 
-#teamviewer
+#teamviewer (NOT FOSS)
 #sudo apt-get install -y policykit-1
 #wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 #sudo dpkg -i teamviewer_amd64.deb || sudo apt --fix-broken install -y
