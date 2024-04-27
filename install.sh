@@ -273,12 +273,14 @@ sudo apt-get install -y kleopatra
 # keepass2 - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
 sudo apt-get install -y keepass2
 
-# bitwarden - NOT FOSS - great feautures - syncs across devices - passwords stored in cloud
+# bitwarden - (NOT FOSS) - great feautures - syncs across devices - passwords stored in cloud
 #sudo snap install bitwarden
 #sudo cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
 
 # 2fa app
-sudo apt-get install -y libpam-google-authenticator
+# Google Authenticator (NOT FOSS)
+sudo apt-get install -y libpam-google-authenticator 
+# Authpass
 sudo snap install authpass
 sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
 
@@ -314,7 +316,7 @@ sudo apt-get install -y ffmpeg
 sudo apt-get install -y tldr
 
 # dev tools
-# vscode ide
+# vscode ide (NOT FOSS)
 #wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 #sudo install -D -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/packages.microsoft.gpg
 #sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
@@ -338,12 +340,14 @@ sudo apt-get install -y tldr
 # user directories (disable this if you want many things to not work. There will be weeping and gnashing of teeth)
 xdg-user-dirs-update
 
-# nordvpn (i3 keybinds, autostart and scripts are included so no setup required. Will likely switch to mullvad soon)
+# nordvpn (NOT FOSS)
+# (i3 keybinds, autostart and scripts are included so no setup required. Will likely switch to mullvad soon)
 curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
 sh nordvpn_install.sh
 sudo usermod -aG nordvpn $USER
 
-# mullvad vpn (i3 keybinds, autostart and scripts are not included so requires manual setup)
+# mullvad vpn (NOT FOSS)
+# (i3 keybinds, autostart and scripts are not included so requires manual setup)
 #sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
 #echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
 #sudo apt-get update
@@ -355,7 +359,7 @@ sudo usermod -aG nordvpn $USER
 #sudo snap install denaro
 #sudo cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/applications/
 
-# postman API platform
+# postman API platform (NOT FOSS)
 #sudo snap install postman
 #sudo cp /var/lib/snapd/desktop/applications/postman_postman.desktop ~/.local/share/applications/
 # postman CLI
