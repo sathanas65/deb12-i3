@@ -145,6 +145,9 @@ sudo apt-get install -y firefox-esr chromium
 # background / image manager
 sudo apt-get install -y feh
 
+# image viewer
+sudo apt install -y gthumb
+
 # app launcher ($mod + Space)
 sudo apt-get install -y rofi
 
