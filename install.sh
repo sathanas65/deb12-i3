@@ -146,7 +146,7 @@ sudo apt-get install -y firefox-esr chromium
 sudo apt-get install -y feh
 
 # image viewer
-sudo apt install -y gthumb
+sudo apt-get install -y gthumb
 
 # app launcher ($mod + Space)
 sudo apt-get install -y rofi
@@ -368,20 +368,23 @@ sudo usermod -aG nordvpn $USER
 # postman CLI
 #curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
 
-#Flatpak containerized apps platform
+# bleachbit file shredder
+#sudo apt-get -y install bleachbit
+
+# Flatpak containerized apps platform
 #sudo apt-get install -y flatpak
 #sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-#These are required for the theme and icons to work and i3bar to display correctly
+# These are required for the theme and icons to work and i3bar to display correctly
 sudo apt-get install -y libgtk-4-dev
 sudo apt-get install -y fonts-noto-color-emoji 
 git clone https://github.com/EliverLara/candy-icons
 
 # kvm/qemu guest agent  YOU WANT THIS IF installing as kvm-qemu guest vm
-# sudo apt-get install -y spice-vdagent 
+#sudo apt-get install -y spice-vdagent 
 
 # hypervisor tools
-# sudo apt-get install -y virt-manager cockpit-machines cockpit-podman distrobox
+#sudo apt-get install -y virt-manager cockpit-machines cockpit-podman distrobox
 # You can access cockpit console from browser at https://127.0.0.1:9090/
 #sudo addgroup libvirt
 #sudo addgroup kvm
@@ -397,10 +400,10 @@ sudo apt-get install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 # import scripts and configs
 sh ~/deb12-i3/copyconf.sh
 
-#This makes lightdm greeter login screen set display to 1080p on kvm-qemu guest vm and sets the background for the login screen - 
+# This makes lightdm greeter login screen set display to 1080p on kvm-qemu guest vm and sets the background for the login screen - 
 # Keep these commented if installing on hardware. After first boot, you can modify display.sh value "Virtual-1" to your display output
 # Get display outputs with $  xarandr -q
-#Physical display outputs are HDMI-0, VGA-0, DP-0, DVI-D-0, HDMI-1, etc.
+# Physical display outputs are HDMI-0, VGA-0, DP-0, DVI-D-0, HDMI-1, etc.
 #sudo cp deb12-i3/display.sh /usr/share/display.sh
 #sudo chown root:root /usr/share/display.sh
 #sudo chmod 775 /usr/share/display.sh
@@ -416,7 +419,7 @@ sh ~/deb12-i3/copyconf.sh
 
 sudo systemctl enable lightdm
 
-#This allows checking firewall status without password - used in firewall scripts
+# This allows checking firewall status without password - used in firewall scripts
 echo 'user ALL=(ALL) NOPASSWD: /usr/sbin/ufw status' | sudo tee /etc/sudoers.d/ufw-status
 sudo chmod 0440 /etc/sudoers.d/ufw-status
 
