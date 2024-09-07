@@ -386,7 +386,9 @@ git clone https://github.com/EliverLara/candy-icons
 # kvm/qemu guest agent  YOU WANT THIS IF installing as kvm-qemu guest vm
 #sudo apt-get install -y spice-vdagent 
 
-# hypervisor tools
+### hypervisor tools
+
+# kvm/qemu (type 1 HV)
 #sudo apt-get install -y virt-manager cockpit-machines cockpit-podman distrobox
 # You can access cockpit console from browser at https://127.0.0.1:9090/
 #sudo addgroup libvirt
@@ -394,11 +396,23 @@ git clone https://github.com/EliverLara/candy-icons
 #sudo usermod -aG libvirt $(whoami)
 #sudo usermod -aG kvm $(whoami)
 
+# virtualbox (type 2 HV)
+#wget -O- -q https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmour -o /usr/share/keyrings/oracle_vbox_2016.gpg
+#echo "deb [arch=amd64 signed-by=/usr/share/keyrings/oracle_vbox_2016.gpg] http://download.virtualbox.org/virtualbox/debian bookworm contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+#sudo apt update
+#sudo apt-get install -y virtualbox-7.0
+# virtualbox extension pack
+#wget https://download.virtualbox.org/virtualbox/7.0.10/Oracle_VM_VirtualBox_Extension_Pack-7.0.10.vbox-extpack
+#echo y | sudo vboxmanage extpack install Oracle_VM_VirtualBox_Extension_Pack-7.0.10.vbox-extpack
+
+### graphical user interface
+
 # window manager
 sudo apt-get install -y i3 i3blocks acpi-support
 
 # display manager
 sudo apt-get install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
+
 
 # import scripts and configs
 sh ~/deb12-i3/copyconf.sh
