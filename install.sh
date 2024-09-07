@@ -98,6 +98,9 @@ sudo systemctl enable bluetooth
 # ebook reader
 #sudo apt-get install -y foliate
 
+# comic reader
+#sudo apt-get install -y mcomix
+
 # calculator
 #sudo apt-get install -y gnome-calculator
 sudo apt-get install -y galculator
