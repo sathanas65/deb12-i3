@@ -9,9 +9,12 @@ numlokx on &
 nm-applet &
 volumeicon &
 copyq &
+xset s off &
+xset -dpms &
 #psensor &
 
 #configure backgroung
-sh scripts/background.sh &
+#sh scripts/background.sh &
+sh dual.sh &
 sleep 1
 bash scripts/nordconnect.sh &
