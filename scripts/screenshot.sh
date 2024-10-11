@@ -18,7 +18,7 @@ case "$session_name" in
 		# Delay screen capture
 		sleep 3
 		# Capture the screen of the focused monitor
-		maim --geometry="$geometry" --format=png /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
+		maim --geometry="$geometry" --format=png /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ.png')
 		#echo "Running case screensave" >> ~/scripts/screenshot.log
 		notify-send "Screen saved"
         ;;
@@ -38,7 +38,7 @@ case "$session_name" in
 		# Get the geometry of the focused monitor
 		geometry=$(xrandr | grep "$output" | grep -oP '\d+x\d+\+\d+\+\d+')
 		# Capture the screen of the focused monitor
-		maim --geometry="$geometry" --format=png /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
+		maim --geometry="$geometry" --format=png /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ.png')
 		#echo "Running case screensave" >> ~/scripts/screenshot.log
 		notify-send "Screen saved"
         ;;
@@ -49,7 +49,7 @@ case "$session_name" in
 		notify-send "Selection clipped"
         ;;
     selectsave)
-		maim --format=png --select /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
+		maim --format=png --select /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ.png')
 		#echo "Running case selectsave" >> ~/scripts/screenshot.log
 		notify-send "Selection saved" 
         ;;
@@ -60,7 +60,7 @@ case "$session_name" in
 		notify-send "Window clipped"
         ;;
     windowsave)
-		maim --format=png --window $(xdotool getactivewindow) /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')
+		maim --format=png --window $(xdotool getactivewindow) /home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ.png')
 		#echo "Running case windowsave" >> ~/scripts/screenshot.log
 		notify-send "Window saved"
 		;;
