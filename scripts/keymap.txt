@@ -1,3 +1,4 @@
+###KEYMAP###
 
 Super + Shift + h - displays this keybind map
 
@@ -76,10 +77,6 @@ Super + Shift + q -then
 				s - go to workspace "System"
 				t - go to workspace "TV"
 				v - go to workspace "Virt"
-
-
-
-
 	
 			v - Virtual machine workspace mode, then:
 				0 - go to VM 0
@@ -309,4 +306,3 @@ Alt + c - opens Config Workspace and sets mode to config. Escape or Enter to can
 Super + Shift + c - reloads the i3 config file, used after editing the config
 
 Super + Shift + r - restarts i3 in place, preserving the session
-
