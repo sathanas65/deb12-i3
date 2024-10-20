@@ -14,7 +14,7 @@ Next distro of choice to customize: Nixos with either swayfx or Hyprland
 
 Documentation
 -------------
-* [Install Guide](https://github.com/sathanas65/deb12-i3/blob/main/Docs/Installation.md)
+* [Install Guide](https://github.com/sathanas65/deb12-i3/blob/main/Docs/Installation.md)    * [Default Keybinds](https://github.com/sathanas65/deb12-i3/blob/main/scripts/keymap.txt)
 
 ![GitHub Image](/screenshots/screenshot-20240121-200604Z.png)      ![GitHub Image](/screenshots/screenshot-20240121-203010Z.png)
 
