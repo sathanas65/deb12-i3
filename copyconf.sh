@@ -32,6 +32,12 @@ cp -r config/terminator/ ~/.config
 cp -r config/konsole/ ~/.local/share
 cp config/konsolerc ~/.config
 
+# import dashboard configs (optional - ensures dashboard works)
+cp -r config/bpytop/ ~/.config
+cp -r config/neofetch/ ~/.config
+cp bashrc ~/.bashrc
+source ~/.bashrc
+
 # Import themes and themed configs
 cp -r config/xfce4 ~/.config
 cp -r config/gtk-3.0 ~/.config
