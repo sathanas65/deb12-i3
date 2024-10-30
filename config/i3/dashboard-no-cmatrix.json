@@ -8,7 +8,7 @@
             "nodes": [
                 {
                     "type": "con",
-                    "percent": 0.5,
+                    "percent": 0.38,
                     "layout": "splitv",
                     "swallows": [
                         {
@@ -19,7 +19,7 @@
                 },
                 {
                     "type": "con",
-                    "percent": 0.5,
+                    "percent": 0.62,
                     "layout": "splitv",
                     "swallows": [
                         {
