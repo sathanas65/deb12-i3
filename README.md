@@ -8,7 +8,7 @@ I want a minimal UI that provides exactly what is required, without installing a
 
 Some non-FOSS packages are included. My goal is to use FOSS wherever practical. I welcome suggestions for FOSS alternatives.
 
-Still in progress: custom dashboard layout, distrobox, Scrcpy 2.0, mullvad vpn scripts, PeaZip, Vim/Neovim, Cryptomator, keepassxc
+Still in progress: distrobox, Scrcpy 2.0, mullvad vpn scripts, PeaZip, Vim/Neovim, Cryptomator, keepassxc
 
 Next distro of choice to customize: Nixos with either swayfx or Hyprland
 
