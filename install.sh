@@ -63,11 +63,11 @@ sudo apt-get install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulsee
 # audio editor
 #sudo apt-get install -y audacity
 
-# terminal apps
-sudo apt-get install -y neofetch htop glances figlet calc
-
-# cmatrix gives you a matrix falling code terminal but crashes i3 in vm - works fine on host system
-sudo apt-get install -y cmatrix
+# terminal apps  
+# leave these or the dashboard won't work, can disable dashboard in i3 workspace config
+sudo apt-get install -y neofetch bpytop cmatrix
+# these can be removed if you don't want them
+sudo apt-get install -y htop glances figlet calc
 
 # gui system monitor
 sudo apt-get install -y gnome-system-monitor
