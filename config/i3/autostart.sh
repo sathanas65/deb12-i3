@@ -15,6 +15,6 @@ xset -dpms &
 
 #configure backgroung
 #sh scripts/background.sh &
-sh dual.sh &
+bash scripts/dual.sh &
 sleep 1
 bash scripts/nordconnect.sh &
