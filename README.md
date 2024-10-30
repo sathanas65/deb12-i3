@@ -16,7 +16,7 @@ Documentation
 -------------
 * [Install Guide](https://github.com/sathanas65/deb12-i3/blob/main/Docs/Installation.md)    * [Default Keybinds](https://github.com/sathanas65/deb12-i3/blob/main/scripts/keymap.txt)    * [Install Script](https://github.com/sathanas65/deb12-i3/blob/main/install.sh)
 
-![GitHub Image](/screenshots/screenshot-20240121-200604Z.png)      ![GitHub Image](/screenshots/screenshot-20240121-203010Z.png)
+![GitHub Image](/screenshots/screenshot-20241020-191700Z.png)    ![GitHub Image](/screenshots/screenshot-20240121-200604Z.png)      ![GitHub Image](/screenshots/screenshot-20240121-203010Z.png)
 
 ![GitHub Image](/screenshots/screenshot-20240121-204317Z.png)      ![GitHub Image](/screenshots/screenshot-20240121-204840Z.png)      
 
