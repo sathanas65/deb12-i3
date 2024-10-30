@@ -20,5 +20,5 @@ Documentation
 
 ![GitHub Image](/screenshots/screenshot-20240121-204317Z.png)      ![GitHub Image](/screenshots/screenshot-20240121-204840Z.png)      
 
-![GitHub Image](/screenshots/screenshot-20241011-235658Z.png)
+![GitHub Image](/screenshots/screenshot-20241020-190248Z.png)
 
