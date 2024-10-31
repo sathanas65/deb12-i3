@@ -127,7 +127,7 @@ sudo apt-get update && sudo apt-get install librewolf -y
 
 # mullvad browser
 wget --content-disposition https://mullvad.net/en/download/browser/linux-x86_64/latest -P ~
- if you get an error that file doesn't exist, change below to match mullvad flename you can see by using ls command
+ #if you get an error that file doesn't exist, change below to match mullvad flename you can see by using ls command
 tar -xvf mullvad-browser-linux-x86_64-13.0.7.tar.xz
 cp ~/mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
 
