@@ -130,7 +130,7 @@ sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mull
 echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
 sudo apt-get update
 sudo apt-get install mullvad-browser
-cp ~/mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
+#cp ~/mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
 
 # non-privacy browsers
 # Chromium is required for keybind Super + F1 to open nordvpn login page. 
