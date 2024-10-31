@@ -18,3 +18,4 @@ xset -dpms &
 bash scripts/dual.sh &
 sleep 1
 bash scripts/nordconnect.sh &
+bash scripts/deleteAnnoyance.sh &
