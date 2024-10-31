@@ -274,7 +274,7 @@ sudo apt-get install -y tar gzip
 #sudo apt-get install -y mc
 
 # gpg encryption manager
-#sudo apt-get install -y kleopatra
+sudo apt-get install -y kleopatra
 
 # password manager
 # keepass2 - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
