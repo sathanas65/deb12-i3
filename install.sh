@@ -118,28 +118,15 @@ sudo apt-get update
 sudo apt-get install -y brave-browser
 
 # librewolf browser
-distro=$(if echo "bookworm" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
-wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
-sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
-Types: deb
-URIs: https://deb.librewolf.net
-Suites: $distro
-Components: main
-Architectures: amd64
-Signed-By: /usr/share/keyrings/librewolf.gpg
-EOF
-
-sudo apt-get update
-sudo apt-get install -y librewolf
+sudo apt-get update && sudo apt-get install extrepo -y
+sudo extrepo enable librewolf
+sudo apt-get update && sudo apt-get install librewolf -y
 
 # tor browser
 #sudo apt-get install -y torbrowser-launcher 
 
 # mullvad browser
-#wget --content-disposition https://mullvad.net/en/download/browser/linux-x86_64/latest -P ~
-# if you get an error that file doesn't exist, change below to match mullvad flename you can see by using ls command
-#tar -xvf mullvad-browser-linux-x86_64-13.0.7.tar.xz
-#cp ~/mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
+
 
 # non-privacy browsers
 # Chromium is required for keybind Super + F1 to open nordvpn login page. 
@@ -355,10 +342,7 @@ sudo usermod -aG nordvpn $USER
 
 # mullvad vpn (NOT FOSS)
 # (i3 keybinds, autostart and scripts are not included so requires manual setup)
-#sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
-#echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
-#sudo apt-get update
-#sudo apt-get install -y mullvad-vpn
+
 
 # personal finance
 #sudo mkdir /var/lib/snapd/snap
@@ -423,16 +407,16 @@ sh ~/deb12-i3/copyconf.sh
 # Keep these commented if installing on hardware. After first boot, you can modify display.sh value "Virtual-1" to your display output
 # Get display outputs with $  xarandr -q
 # Physical display outputs are HDMI-0, VGA-0, DP-0, DVI-D-0, HDMI-1, etc.
-#sudo cp deb12-i3/display.sh /usr/share/display.sh
+#sudo cp ~/deb12-i3/display.sh /usr/share/display.sh
 #sudo chown root:root /usr/share/display.sh
 #sudo chmod 775 /usr/share/display.sh
-#sudo cp deb12-i3/background.png /usr/share/background.png
+#sudo cp ~/deb12-i3/background.png /usr/share/background.png
 #sudo chown root:root /usr/share/background.png
 #sudo chmod 644 /usr/share/background.png
-#sudo cp deb12-i3/01_debian.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
+#sudo cp ~/deb12-i3/01_debian.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
 #sudo chown root:root /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
 #sudo chmod 644 /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
-#sudo cp deb12-i3/lightdm.conf /etc/lightdm/lightdm.conf
+#sudo cp ~/deb12-i3/lightdm.conf /etc/lightdm/lightdm.conf
 #sudo chown root:root /etc/lightdm/lightdm.conf
 #sudo chmod 644 /etc/lightdm/lightdm.conf
 
