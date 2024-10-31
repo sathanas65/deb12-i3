@@ -47,12 +47,7 @@ cp config/kcalcrc ~/.config
 # import browser configs (optional - ensures dark theme and dark reader extension work out of the box)
 cp -r config/chromium/ ~/.config
 cp -r .mozilla ~
-brave-browser
-sleep 3
-sudo pkill brave
-sleep 1
-cp config/Brave-Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
-cp config/Brave-Background ~/.config/BraveSoftware/Brave-Browser/Default/sanitized_background_images/background.png
+cp -r config/BraveSoftware/ ~/.config
 
 # make scripts executable
 chmod +x ~/.config/i3/autostart.sh
