@@ -429,7 +429,7 @@ sudo chmod 644 /etc/lightdm/lightdm.conf
 sudo systemctl enable lightdm
 
 # This allows checking firewall status without password - used in firewall scripts
-#echo 'user ALL=(ALL) NOPASSWD: /usr/sbin/ufw status' | sudo tee /etc/sudoers.d/ufw-status > /dev/null
+# echo "user ALL=(ALL) NOPASSWD: /usr/sbin/ufw status" | sudo tee /etc/sudoers.d/ufw-status > /dev/null
 sudo tee /etc/sudoers.d/ufw-status <<EOF
 user ALL=(ALL) NOPASSWD: /usr/sbin/ufw status
 EOF
