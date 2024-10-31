@@ -22,7 +22,8 @@ sudo apt-get install -y network-manager-gnome
 sudo apt-get install -y lxappearance picom 
 
 # file managers
-sudo apt-get install -y thunar
+sudo apt-get install -y nemo
+#sudo apt-get install -y thunar
 #sudo apt-get install -y krusader
 #sudo apt-get install -y nautilus
 
@@ -149,7 +150,7 @@ sudo apt-get install -y firefox-esr chromium
 sudo apt-get install -y feh
 
 # image viewer
-sudo apt-get install -y gthumb
+sudo apt-get install -y mirage
 
 # app launcher ($mod + Space)
 sudo apt-get install -y rofi
