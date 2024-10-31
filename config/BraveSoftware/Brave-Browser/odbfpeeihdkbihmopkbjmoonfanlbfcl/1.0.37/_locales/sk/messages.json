@@ -1,0 +1,1911 @@
+{
+  "acceptTermsOfUse": {
+    "message": "Prečítal som si $1 a súhlasím s nimi",
+    "description": "$1 is the `terms` message"
+  },
+  "eth_accounts": {
+    "message": "Zobrazenie adries povolených účtov (povinné)",
+    "description": "The description for the `eth_accounts` permission"
+  },
+  "connectedSites": {
+    "message": "Prepojené stránky"
+  },
+  "connectedSitesDescription": {
+    "message": "$1 je pripojený k týmto stránkam. Môže vidieť adresu vášho účtu.",
+    "description": "$1 is the account name"
+  },
+  "connectedSitesEmptyDescription": {
+    "message": "$1 nie je prepojený so žiadnymi stránkami.",
+    "description": "$1 is the account name"
+  },
+  "connectedAccountsDescriptionSingular": {
+    "message": "K tejto stránke máte pripojený 1 účet."
+  },
+  "connectedAccountsDescriptionPlural": {
+    "message": "K tejto stránke máte pripojených $1 účtov.",
+    "description": "$1 is the number of accounts"
+  },
+  "connectedAccountsEmptyDescription": {
+    "message": "Brave nie je pripojený k tejto stránke. Ak sa chcete pripojiť na webovú stránku web3, nájdite na jej webe tlačidlo pripojenia."
+  },
+  "currentAccountNotConnected": {
+    "message": "Váš aktuálny účet nie je pripojený"
+  },
+  "switchToThisAccount": {
+    "message": "Prepnite na tento účet"
+  },
+  "disconnectThisAccount": {
+    "message": "Odpojte tento účet"
+  },
+  "permissions": {
+    "message": "Povolenia"
+  },
+  "showPermissions": {
+    "message": "Zobraziť povolenia"
+  },
+  "authorizedPermissions": {
+    "message": "Autorizovali ste nasledujúce povolenia"
+  },
+  "connectManually": {
+    "message": "Ručné pripojenie k aktuálnemu webu"
+  },
+  "disconnect": {
+    "message": "Odpojiť"
+  },
+  "disconnectAllAccounts": {
+    "message": "Odpojiť všetky účty"
+  },
+  "disconnectPrompt": {
+    "message": "Odpojiť $1"
+  },
+  "disconnectAllAccountsConfirmationDescription": {
+    "message": "Naozaj sa chcete odpojiť? Môžete stratiť funkčnosť stránok."
+  },
+  "dismiss": {
+    "message": "Zatvoriť"
+  },
+  "showIncomingTransactions": {
+    "message": "Zobraziť prichádzajúce transakcie"
+  },
+  "showIncomingTransactionsDescription": {
+    "message": "Vyberte, ak chcete pomocou aplikácie Etherscan zobrazovať prichádzajúce transakcie v zozname transakcií"
+  },
+  "chartOnlyAvailableEth": {
+    "message": "Graf je k dispozícii iba v sieťach Ethereum."
+  },
+  "connecting": {
+    "message": "Pripája sa..."
+  },
+  "connectWithMetaMask": {
+    "message": "Prepojiť s Brave"
+  },
+  "connectTo": {
+    "message": "Pripojte sa k $1",
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to Brave"
+  },
+  "connectToAll": {
+    "message": "Pripojte sa so všetkými svojimi $1",
+    "description": "$1 will be replaced by the translation of connectToAllAccounts"
+  },
+  "connectToAllAccounts": {
+    "message": "účty",
+    "description": "will replace $1 in connectToAll, completing the sentence 'connect to all of your accounts', will be text that shows list of accounts on hover"
+  },
+  "connectToMultiple": {
+    "message": "Pripojte sa k $1",
+    "description": "$1 will be replaced by the translation of connectToMultipleNumberOfAccounts"
+  },
+  "connectToMultipleNumberOfAccounts": {
+    "message": "Účty v hodnote  $1",
+    "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
+  },
+  "contractInteraction": {
+    "message": "Zmluvná interakcia"
+  },
+  "reject": {
+    "message": "Odmítnout"
+  },
+  "about": {
+    "message": "Informácie"
+  },
+  "aboutSettingsDescription": {
+    "message": "Verzia, centrum podpory a kontaktné informácie"
+  },
+  "acceleratingATransaction": {
+    "message": "*Urýchlenie transakcie pomocou vyššej ceny za GAS zvyšuje šance na rýchlejšie spracovanie v sieti, nie je to však vždy zaručené."
+  },
+  "accessAndSpendNotice": {
+    "message": "$1 môže získať prístup a minúť túto maximálnu sumu",
+    "description": "$1 is the url of the site requesting ability to spend"
+  },
+  "accessingYourCamera": {
+    "message": "Prístupuje k fotoaparátu..."
+  },
+  "account": {
+    "message": "Účet"
+  },
+  "accountDetails": {
+    "message": "Detaily účtu"
+  },
+  "accountName": {
+    "message": "Název účtu"
+  },
+  "accountOptions": {
+    "message": "Možnosti účtu"
+  },
+  "accountSelectionRequired": {
+    "message": "Musíte si vybrať účet!"
+  },
+  "active": {
+    "message": "Aktívne"
+  },
+  "activity": {
+    "message": "Aktivity"
+  },
+  "activityLog": {
+    "message": "protokol aktivity"
+  },
+  "addNetwork": {
+    "message": "Pridať sieť"
+  },
+  "addRecipient": {
+    "message": "Pridať príjemcu"
+  },
+  "advanced": {
+    "message": "Rozšírené"
+  },
+  "advancedSettingsDescription": {
+    "message": "Prístup k funkciám vývojárov, sťahovanie stavových denníkov, obnovenie účtu, nastavenie testovacích sietí a vlastných RPC"
+  },
+  "advancedOptions": {
+    "message": "Rozšírené nastavenia"
+  },
+  "customizeGas": {
+    "message": "Prispôsobiť"
+  },
+  "addToAddressBook": {
+    "message": "Pridať do adresára"
+  },
+  "addToAddressBookModalPlaceholder": {
+    "message": "napr. Ján D."
+  },
+  "addAlias": {
+    "message": "Pridať alias"
+  },
+  "addToken": {
+    "message": "Přidat token"
+  },
+  "addTokens": {
+    "message": "Přidat tokeny"
+  },
+  "addSuggestedTokens": {
+    "message": "Pridať navrhované tokeny"
+  },
+  "addAcquiredTokens": {
+    "message": "Pridajte žetóny, ktoré ste získali pomocou aplikácie Brave"
+  },
+  "alerts": {
+    "message": "Výstrahy"
+  },
+  "alertsSettingsDescription": {
+    "message": "Povoľte alebo zakážte každé upozornenie"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "Prehliadanie webových stránok s vybratým nepripojeným účtom"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "Toto upozornenie sa zobrazí v kontextovom okne, keď prechádzate pripojenú webovú stránku Web3, ale momentálne vybraný účet nie je pripojený."
+  },
+  "allowOriginSpendToken": {
+    "message": "Dovoliť $1 minúť vaše $2?",
+    "description": "$1 is the url of the site and $2 is the symbol of the token they are requesting to spend"
+  },
+  "allowThisSiteTo": {
+    "message": "Povoliť túto stránku pre:"
+  },
+  "allowExternalExtensionTo": {
+    "message": "Povoliť tomuto externému rozšíreniu:"
+  },
+  "allowWithdrawAndSpend": {
+    "message": "Umožnite $1 výber a utraťte až do nasledujúcej sumy:",
+    "description": "The url of the site that requested permission to 'withdraw and spend'"
+  },
+  "amount": {
+    "message": "Částka"
+  },
+  "amountWithColon": {
+    "message": "Čiastka:"
+  },
+  "appDescription": {
+    "message": "Ethereum rozšíření prohlížeče",
+    "description": "The description of the application"
+  },
+  "appName": {
+    "message": "Brave Software",
+    "description": "The name of the application"
+  },
+  "approve": {
+    "message": "Schválte limit výdavkov"
+  },
+  "approveSpendLimit": {
+    "message": "Schválte limit výdavkov $1",
+    "description": "The token symbol that is being approved"
+  },
+  "approved": {
+    "message": "Schváleno"
+  },
+  "asset": {
+    "message": "Asset"
+  },
+  "maker": {
+    "message": "Tvorca"
+  },
+  "taker": {
+    "message": "Príjemca"
+  },
+  "slippage": {
+    "message": "Tolerancia sklzu"
+  },
+  "assets": {
+    "message": "Aktíva"
+  },
+  "attemptingConnect": {
+    "message": "Pokouším se připojit k blockchainu."
+  },
+  "attemptToCancel": {
+    "message": "Pokus o zrušenie?"
+  },
+  "attemptToCancelDescription": {
+    "message": "Odoslanie tohto pokusu nezaručuje, že vaša pôvodná transakcia bude zrušená. Ak je pokus o zrušenie úspešný, naúčtujeme vám vyššie uvedený transakčný poplatok."
+  },
+  "attributions": {
+    "message": "Zásluhy"
+  },
+  "autoLockTimeLimit": {
+    "message": "Časovač automatického uzamknutia (minúty)"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "Nastavte čas nečinnosti v minútach, po ktorom sa aplikácia Brave uzamkne."
+  },
+  "average": {
+    "message": "Priemerný"
+  },
+  "back": {
+    "message": "Zpět"
+  },
+  "backToAll": {
+    "message": "Späť na všetko"
+  },
+  "backupApprovalNotice": {
+    "message": "Zálohujte si svoj tajný kód na obnovenie, aby bola vaša peňaženka a prostriedky bezpečné."
+  },
+  "backupApprovalInfo": {
+    "message": "Tento tajný kód je potrebný na obnovenie vašej peňaženky v prípade, že stratíte zariadenie, zabudnete heslo, musíte znovu nainštalovať aplikáciu Brave alebo chcete získať prístup k svojej peňaženke na inom zariadení."
+  },
+  "backupNow": {
+    "message": "Zálohovať teraz"
+  },
+  "balance": {
+    "message": "Zůstatek:"
+  },
+  "balanceOutdated": {
+    "message": "Zostatok môže byť neaktuálny"
+  },
+  "basic": {
+    "message": "Základné"
+  },
+  "blockExplorerUrl": {
+    "message": "Block Explorer"
+  },
+  "blockExplorerView": {
+    "message": "Zobraziť účet na $1",
+    "description": "$1 replaced by URL for custom block explorer"
+  },
+  "blockiesIdenticon": {
+    "message": "Použít Blockies Identicon"
+  },
+  "nonceField": {
+    "message": "Prispôsobte transakciu nonce"
+  },
+  "nonceFieldHeading": {
+    "message": "Vlastné Nonce"
+  },
+  "nonceFieldDescription": {
+    "message": "Zapnutím tejto možnosti zmeníte nonce (číslo transakcie) na potvrdzovacích obrazovkách. Toto je pokročilá funkcia, používajte opatrne."
+  },
+  "browserNotSupported": {
+    "message": "Váš prehliadač nie je podporovaný..."
+  },
+  "builtInCalifornia": {
+    "message": "Brave je navrhnutý a vytvorený v Kalifornii."
+  },
+  "buyWithWyre": {
+    "message": "Kúpte ETH s Wyre"
+  },
+  "buyWithWyreDescription": {
+    "message": "Wyre vám umožňuje použiť debetnú kartu na vklad ETH priamo do vášho účtu Brave."
+  },
+  "buyCoinSwitch": {
+    "message": "Kúpiť na CoinSwitch"
+  },
+  "buyCoinSwitchExplainer": {
+    "message": "CoinSwitch je jedno miesto, kde si môžete vymieňať viac ako 300 kryptomien za najlepšiu cenu."
+  },
+  "bytes": {
+    "message": "Bajty"
+  },
+  "off": {
+    "message": "Vypnuté"
+  },
+  "ok": {
+    "message": "Ok"
+  },
+  "on": {
+    "message": "Zapnuté"
+  },
+  "optionalBlockExplorerUrl": {
+    "message": "Blokovať URL Explorera (voliteľné)"
+  },
+  "cancel": {
+    "message": "Zrušit"
+  },
+  "cancelAttempt": {
+    "message": "Zrušiť pokus"
+  },
+  "cancellationGasFee": {
+    "message": "Storno poplatok za GAS"
+  },
+  "cancelled": {
+    "message": "Zrušený"
+  },
+  "chainId": {
+    "message": "ID reťazca"
+  },
+  "clickToRevealSeed": {
+    "message": "Kliknutím sem odkryjete tajné slová"
+  },
+  "close": {
+    "message": "Zavrieť"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": "Na pripojenie k hardvérovej peňaženke musíte v prehliadači Google Chrome používať aplikáciu Brave."
+  },
+  "confirm": {
+    "message": "Potvrdit"
+  },
+  "confirmed": {
+    "message": "Potvrzeno"
+  },
+  "confirmPassword": {
+    "message": "Potvrďte heslo"
+  },
+  "confirmSecretBackupPhrase": {
+    "message": "Potvrďte svoju tajnú backup frázu"
+  },
+  "congratulations": {
+    "message": "Blahoželáme"
+  },
+  "connectAccountOrCreate": {
+    "message": "Pripojte účet alebo vytvorte nový"
+  },
+  "connectHardwareWallet": {
+    "message": "Pripojiť hardvérovú peňaženku"
+  },
+  "connect": {
+    "message": "Pripojenie"
+  },
+  "connectingTo": {
+    "message": "Pripája sa k $1"
+  },
+  "connectingToKovan": {
+    "message": "Připojuji se k Kovan Test Network"
+  },
+  "connectingToMainnet": {
+    "message": "Připojuji se k Main Ethereum Network"
+  },
+  "connectingToRopsten": {
+    "message": "Připojuji se k Ropsten Test Network"
+  },
+  "connectingToRinkeby": {
+    "message": "Připojuji se k Rinkeby Test Network"
+  },
+  "connectingToLocalhost": {
+    "message": "Pripája sa k Localhost 8545"
+  },
+  "connectingToGoerli": {
+    "message": "Pripája sa k testovacej sieti Goerli"
+  },
+  "contacts": {
+    "message": "Kontakty"
+  },
+  "contactsSettingsDescription": {
+    "message": "Pridať, upraviť, odstrániť a spravovať kontakty"
+  },
+  "contactUs": {
+    "message": "Kontaktujte nás!"
+  },
+  "continueToSwap": {
+    "message": "Pokračovať na Swap"
+  },
+  "continueToWyre": {
+    "message": "Pokračovať na Wyre"
+  },
+  "continueToCoinSwitch": {
+    "message": "Pokračovať na CoinSwitch"
+  },
+  "contractDeployment": {
+    "message": "Nasazení kontraktu"
+  },
+  "copiedExclamation": {
+    "message": "Zkopírováno!"
+  },
+  "copyAddress": {
+    "message": "Kopírovať adresu do schránky"
+  },
+  "copyTransactionId": {
+    "message": "Kopírovať ID transakcie\n"
+  },
+  "copiedTransactionId": {
+    "message": "Kopírované ID transakcie"
+  },
+  "copyToClipboard": {
+    "message": "Kopírovat do schránky"
+  },
+  "copyPrivateKey": {
+    "message": "Toto je váš privátní klíč (kliknutím zkopírujte)"
+  },
+  "create": {
+    "message": "Vytvořit"
+  },
+  "createAccount": {
+    "message": "Vytvořit účet"
+  },
+  "createAWallet": {
+    "message": "Vytvoriť Peňaženku"
+  },
+  "createPassword": {
+    "message": "Vytvoriť heslo"
+  },
+  "currencyConversion": {
+    "message": "Prepočet meny"
+  },
+  "currentExtension": {
+    "message": "Aktuálna stránka rozšírenia"
+  },
+  "currentLanguage": {
+    "message": "Aktuálny jazyk"
+  },
+  "customGas": {
+    "message": "Nastavit palivo"
+  },
+  "customGasSubTitle": {
+    "message": "Zvýšenie poplatku môže skrátiť dobu spracovania, nie je to však zaručené."
+  },
+  "customToken": {
+    "message": "Vlastní token"
+  },
+  "customRPC": {
+    "message": "Vlastní RPC"
+  },
+  "customSpendLimit": {
+    "message": "Vlastný limit výdavkov"
+  },
+  "dataBackupFoundInfo": {
+    "message": "Niektoré z údajov vášho účtu boli zálohované počas predchádzajúcej inštalácie aplikácie Brave. Môže to zahŕňať vaše nastavenia, kontakty a tokeny. Prajete si teraz obnoviť tieto dáta?"
+  },
+  "decimalsMustZerotoTen": {
+    "message": "Desetinných míst musí být od 0 do 36."
+  },
+  "decimal": {
+    "message": "Počet desetinných míst přesnosti"
+  },
+  "defaultNetwork": {
+    "message": "Výchozí síť pro Etherové transakce je Main Net."
+  },
+  "delete": {
+    "message": "Odstrániť"
+  },
+  "deleteAccount": {
+    "message": "Zmazať účet"
+  },
+  "deposit": {
+    "message": "Vklad"
+  },
+  "depositEther": {
+    "message": "Vložit Ether"
+  },
+  "details": {
+    "message": "Podrobnosti"
+  },
+  "directDepositEther": {
+    "message": "Vložit Ether přímo"
+  },
+  "directDepositEtherExplainer": {
+    "message": "Pokud už vlastníte nějaký Ether, nejrychleji ho dostanete do peněženky přímým vkladem."
+  },
+  "done": {
+    "message": "Hotovo"
+  },
+  "dontShowThisAgain": {
+    "message": "Toto už nezobrazovať"
+  },
+  "downloadGoogleChrome": {
+    "message": "Stiahnuť Google Chrome"
+  },
+  "downloadSecretBackup": {
+    "message": "Stiahnite si túto tajnú backup frázu a uložte ju bezpečne na externý šifrovaný pevný disk alebo pamäťové médium."
+  },
+  "downloadStateLogs": {
+    "message": "Stáhnout stavové protokoly"
+  },
+  "dontHaveAHardwareWallet": {
+    "message": "Nemáte hardvérovú peňaženku?"
+  },
+  "dropped": {
+    "message": "Zrušeno"
+  },
+  "edit": {
+    "message": "Upravit"
+  },
+  "editContact": {
+    "message": "Upraviť kontakt"
+  },
+  "editPermission": {
+    "message": "Upraviť povolenie"
+  },
+  "endOfFlowMessage1": {
+    "message": "Úspešne ste prešli testom – uchovávajte svoju seed frázu v bezpečí.  Je to vaša zodpovednosť!"
+  },
+  "endOfFlowMessage2": {
+    "message": "Tipy na bezpečné uloženie"
+  },
+  "endOfFlowMessage3": {
+    "message": "Uložte zálohu na viacerých miestach."
+  },
+  "endOfFlowMessage4": {
+    "message": "Nikdy nezdieľajte frázu s niekým iným."
+  },
+  "endOfFlowMessage5": {
+    "message": "Pozor na phishing! Brave sa nikdy nebude spontánne pýtať na tvoju úvodnú frázu."
+  },
+  "endOfFlowMessage6": {
+    "message": "Ak potrebujete backup frázu znova zálohovať, nájdete ju v časti Nastavenia -> Zabezpečenie."
+  },
+  "endOfFlowMessage7": {
+    "message": "Ak máte otázky alebo ste zbadali niečo podozrivé, navštívte našu peňaženku"
+  },
+  "endOfFlowMessage8": {
+    "message": "Brave nemôže nájsť vašu úvodnú frázu."
+  },
+  "endOfFlowMessage9": {
+    "message": "Dozvedieť sa viac."
+  },
+  "endOfFlowMessage10": {
+    "message": "Všetko vykonané"
+  },
+  "endOfFlowMessage11": {
+    "message": "fórum podpory."
+  },
+  "externalExtension": {
+    "message": "Externé rozšírenie"
+  },
+  "onboardingReturnNotice": {
+    "message": "„$1“ zatvorí túto kartu a nasmeruje späť na $2",
+    "description": "Return the user to the site that initiated onboarding"
+  },
+  "ensRegistrationError": {
+    "message": "Chyba pri registrácii názvu ENS"
+  },
+  "ensNotFoundOnCurrentNetwork": {
+    "message": "Názov ENS sa nenašiel v aktuálnej sieti. Skúste sa prepnúť na hlavnú sieť Ethereum."
+  },
+  "enterAnAlias": {
+    "message": "Zadať alias"
+  },
+  "enterMaxSpendLimit": {
+    "message": "Zadajte limit maximálnych výdavkov"
+  },
+  "enterPassword": {
+    "message": "Zadejte heslo"
+  },
+  "enterPasswordContinue": {
+    "message": "Pokračujte zadaním hesla"
+  },
+  "errorCode": {
+    "message": "Kód: $1",
+    "description": "Displayed error code for debugging purposes. $1 is the error code"
+  },
+  "errorDetails": {
+    "message": "Detaily chyby",
+    "description": "Title for collapsible section that displays error details for debugging purposes"
+  },
+  "errorMessage": {
+    "message": "Správa: $1",
+    "description": "Displayed error message for debugging purposes. $1 is the error message"
+  },
+  "errorName": {
+    "message": "Kód: $1",
+    "description": "Displayed error name for debugging purposes. $1 is the error name"
+  },
+  "errorPageTitle": {
+    "message": "Brave narazil na chybu",
+    "description": "Title of generic error page"
+  },
+  "errorPageMessage": {
+    "message": "Skúste to znova načítaním stránky alebo kontaktujte podporu na adrese support@brave.com",
+    "description": "Message displayed on generic error page in the fullscreen or notification UI"
+  },
+  "errorPagePopupMessage": {
+    "message": "Skúste to znova zatvorením a opätovným otvorením vyskakovacieho okna alebo kontaktujte podporu na adrese support@brave.com",
+    "description": "Message displayed on generic error page in the popup UI"
+  },
+  "errorStack": {
+    "message": "Stoh:",
+    "description": "Title for error stack, which is displayed for debugging purposes"
+  },
+  "ethereumPublicAddress": {
+    "message": "Verejná adresa Ethereum"
+  },
+  "etherscanView": {
+    "message": "Prohlédněte si účet na Etherscan"
+  },
+  "estimatedProcessingTimes": {
+    "message": "Odhadovaný čas spracovania"
+  },
+  "estimatedNetworkFee": {
+    "message": "Odhadovaný poplatok za sieť"
+  },
+  "expandView": {
+    "message": "Rozbaliť zobrazenie"
+  },
+  "exportPrivateKey": {
+    "message": "Exportovat privátní klíč"
+  },
+  "failed": {
+    "message": "Neúspěšné"
+  },
+  "failureMessage": {
+    "message": "Niečo sa pokazilo a akciu sa nám nepodarilo dokončiť"
+  },
+  "fast": {
+    "message": "Rýchle"
+  },
+  "faster": {
+    "message": "Rýchlejšie"
+  },
+  "feeAssociatedRequest": {
+    "message": "S touto žiadosťou je spojený poplatok."
+  },
+  "fiat": {
+    "message": "FIAT",
+    "description": "Exchange type"
+  },
+  "fileImportFail": {
+    "message": "Import souboru nefunguje? Klikněte sem!",
+    "description": "Helps user import their account from a JSON file"
+  },
+  "forgetDevice": {
+    "message": "Zabudnúť toto zariadenie"
+  },
+  "from": {
+    "message": "Od"
+  },
+  "fromAddress": {
+    "message": "Od: $1",
+    "description": "$1 is the address to include in the From label. It is typically shortened first using shortenAddress"
+  },
+  "functionApprove": {
+    "message": "Funkcia: Schváliť"
+  },
+  "functionType": {
+    "message": "Typ funkcie"
+  },
+  "gasLimit": {
+    "message": "Limit paliva"
+  },
+  "gasLimitInfoModalContent": {
+    "message": "Limit GAS je maximálne množstvo jednotiek GAS, ktoré ste ochotní minúť."
+  },
+  "gasLimitTooLow": {
+    "message": "Limit paliva musí být alespoň 21000"
+  },
+  "gasUsed": {
+    "message": "GAS použitý"
+  },
+  "gasPrice": {
+    "message": "Cena paliva (GWEI)"
+  },
+  "gasPriceExtremelyLow": {
+    "message": "Cena za GAS je mimoriadne nízka"
+  },
+  "gasPriceInfoModalContent": {
+    "message": "Cena za GAS určuje množstvo Ether, ktoré ste ochotní zaplatiť za každú jednotku GAS."
+  },
+  "gasPriceNoDenom": {
+    "message": "Cena GAS"
+  },
+  "gdprMessage": {
+    "message": "Tieto údaje sú agregované, a preto sú na účely všeobecného nariadenia o ochrane údajov (EÚ) 2016/679 anonymné. Ďalšie informácie o našich postupoch v oblasti ochrany osobných údajov nájdete v našich $1.",
+    "description": "$1 refers to the gdprMessagePrivacyPolicy message, the translation of which is meant to be used exclusively in the context of gdprMessage"
+  },
+  "gdprMessagePrivacyPolicy": {
+    "message": "Pravidlá ochrany osobných údajov tu",
+    "description": "this translation is intended to be exclusively used as the replacement for the $1 in the gdprMessage translation"
+  },
+  "general": {
+    "message": "Všeobecne"
+  },
+  "generalSettingsDescription": {
+    "message": "Prevod mien, primárna mena, jazyk, identifikácia blokov"
+  },
+  "getEther": {
+    "message": "Získejte Ether"
+  },
+  "getEtherFromFaucet": {
+    "message": "Získejte Ether z faucetu za $1.",
+    "description": "Displays network name for Ether faucet"
+  },
+  "getHelp": {
+    "message": "Získajte pomoc."
+  },
+  "getStarted": {
+    "message": "Začať"
+  },
+  "happyToSeeYou": {
+    "message": "Sme radi, že vás vidíme."
+  },
+  "hardware": {
+    "message": "Hardvér"
+  },
+  "hardwareWalletConnected": {
+    "message": "Hardvérová peňaženka je pripojená"
+  },
+  "hardwareWallets": {
+    "message": "Pripojiť hardvérovú peňaženku"
+  },
+  "hardwareWalletsMsg": {
+    "message": "Vyberte hardvérovú peňaženku, ktorú chcete používať s aplikáciou Brave"
+  },
+  "havingTroubleConnecting": {
+    "message": "Máte problémy s pripojením?"
+  },
+  "here": {
+    "message": "zde",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
+  },
+  "hexData": {
+    "message": "Hex Data"
+  },
+  "hide": {
+    "message": "Skrýt"
+  },
+  "hideTokenSymbol": {
+    "message": "Skryť $1",
+    "description": "$1 is the symbol for a token (e.g. 'DAI')"
+  },
+  "hideTokenPrompt": {
+    "message": "Skrýt token?"
+  },
+  "history": {
+    "message": "História"
+  },
+  "home": {
+    "message": "Domov"
+  },
+  "import": {
+    "message": "Import",
+    "description": "Button to import an account from a selected file"
+  },
+  "importAccount": {
+    "message": "Import účtu"
+  },
+  "importAccountMsg": {
+    "message": "Importované účty nebudú spojené s pôvodne vytvorenou úvodnou frázou účtu. Získajte viac informácií o importovaných účtoch"
+  },
+  "importAccountSeedPhrase": {
+    "message": "Importujte účet s úvodnou frázou"
+  },
+  "importWallet": {
+    "message": "Import peňaženky"
+  },
+  "importYourExisting": {
+    "message": "Importujte existujúcu peňaženku pomocou 12 alebo 24 slovnej frázy"
+  },
+  "imported": {
+    "message": "Importováno",
+    "description": "status showing that an account has been fully loaded into the keyring"
+  },
+  "importUsingSeed": {
+    "message": "Importovať pomocou seed frázy účtu"
+  },
+  "infoHelp": {
+    "message": "Informace a nápověda"
+  },
+  "initialTransactionConfirmed": {
+    "message": "Sieť potvrdila vašu iniciálnu transakciu. Ak sa chcete vrátiť späť, kliknite na OK."
+  },
+  "insufficientBalance": {
+    "message": "Nedostatočný zostatok."
+  },
+  "insufficientFunds": {
+    "message": "Nedostatek finančních prostředků."
+  },
+  "insufficientTokens": {
+    "message": "Nedostatek tokenů."
+  },
+  "insufficientFundsGas": {
+    "message": "Nedostatok finančných prostriedkov na gas."
+  },
+  "balanceFetchError": {
+    "message": "Chyba pri načítaní zostatku."
+  },
+  "invalidAddress": {
+    "message": "Neplatná adresa"
+  },
+  "invalidAddressRecipient": {
+    "message": "Adresa příjemce je neplatná"
+  },
+  "knownAddressRecipient": {
+    "message": "Známe kontaktné adresy."
+  },
+  "knownTokenWarning": {
+    "message": "Touto akciou upravíte tokeny, ktoré sú už uvedené v peňaženke a pomocou ktorých môžete vykonať phishing. Schválte to, iba ak ste si istí, že chcete zmeniť to, čo tieto tokeny predstavujú."
+  },
+  "reusedTokenNameWarning": {
+    "message": "Token tu opakovane používa symbol z iného tokenu, ktorý sledujete, čo môže byť mätúce alebo klamlivé."
+  },
+  "invalidAddressRecipientNotEthNetwork": {
+    "message": "Nie sieť ETH, nastaviť malé písmená\n"
+  },
+  "invalidCustomNetworkAlertContent1": {
+    "message": "Pre vlastnú sieť  „$1“ chýba ID reťazca.",
+    "description": "$1 is the name/identifier of the network."
+  },
+  "invalidCustomNetworkAlertContent2": {
+    "message": "Na ochranu pred škodlivými alebo chybnými poskytovateľmi siete sa teraz pre všetky vlastné siete vyžadujú identifikátory reťazca."
+  },
+  "invalidCustomNetworkAlertContent3": {
+    "message": "Prejdite do ponuky Nastavenia > Sieť a zadajte ID reťazca. Identifikátor reťazca najpopulárnejších sietí nájdete na $1.",
+    "description": "$1 is a link to https://chainid.network"
+  },
+  "invalidCustomNetworkAlertTitle": {
+    "message": "Neplatná vlastná sieť"
+  },
+  "invalidHexNumber": {
+    "message": "Neplatné šestnástkové číslo."
+  },
+  "invalidHexNumberLeadingZeros": {
+    "message": "Neplatné šestnástkové číslo. Odstráňte všetky úvodné nuly."
+  },
+  "invalidRPC": {
+    "message": "Neplatné RPC URI"
+  },
+  "invalidBlockExplorerURL": {
+    "message": "Neplatná adresa URL prieskumníka blokovania"
+  },
+  "invalidSeedPhrase": {
+    "message": "Neplatná seed fráza"
+  },
+  "ipfsGateway": {
+    "message": "Brána IPFS"
+  },
+  "ipfsGatewayDescription": {
+    "message": "Zadajte adresu URL brány IPFS CID, ktorá sa má použiť na rozlíšenie obsahu ENS."
+  },
+  "invalidIpfsGateway": {
+    "message": "Neplatná brána IPFS: Hodnota musí byť platná adresa URL"
+  },
+  "invalidNumber": {
+    "message": "Neplatné číslo. Zadajte desiatkové alebo šestnástkové číslo."
+  },
+  "invalidNumberLeadingZeros": {
+    "message": "Neplatné číslo. Odstráňte všetky úvodné nuly."
+  },
+  "forbiddenIpfsGateway": {
+    "message": "Zakázaná brána IPFS: Zadajte bránu CID"
+  },
+  "jsonFile": {
+    "message": "JSON soubor",
+    "description": "format for importing an account"
+  },
+  "kovan": {
+    "message": "Kovan Test Network"
+  },
+  "max": {
+    "message": "Max"
+  },
+  "lastConnected": {
+    "message": "Posledne pripojení"
+  },
+  "learnMore": {
+    "message": "Zjistěte více."
+  },
+  "ledgerAccountRestriction": {
+    "message": "Skôr ako budete môcť pridať nový účet, musíte použiť svoj posledný účet."
+  },
+  "letsGoSetUp": {
+    "message": "Áno, poďme to nastaviť!"
+  },
+  "likeToAddTokens": {
+    "message": "Chcete přidat tyto tokeny?"
+  },
+  "links": {
+    "message": "Odkazy"
+  },
+  "liveGasPricePredictions": {
+    "message": "Predpoveď cien GAS naživo"
+  },
+  "loading": {
+    "message": "Načítám..."
+  },
+  "loadingTokens": {
+    "message": "Načítám tokeny..."
+  },
+  "loadMore": {
+    "message": "Načítať viac"
+  },
+  "localhost": {
+    "message": "Localhost 8545"
+  },
+  "lock": {
+    "message": "Uzamknúť"
+  },
+  "lockTimeTooGreat": {
+    "message": "Čas uzamknutia je príliš veľký"
+  },
+  "mainnet": {
+    "message": "Main Ethereum Network"
+  },
+  "availableOnMainnetRopsten": {
+    "message": "Dostupné iba na mainnete a ropstene"
+  },
+  "memorizePhrase": {
+    "message": "Zapamätajte si túto frázu."
+  },
+  "memo": {
+    "message": "memo"
+  },
+  "message": {
+    "message": "Zpráva"
+  },
+  "metaMaskConnectStatusParagraphOne": {
+    "message": "Odteraz máte v Brave väčšiu kontrolu nad pripojením svojich účtov."
+  },
+  "metaMaskConnectStatusParagraphTwo": {
+    "message": "Tlačidlo stavu pripojenia ukazuje, či je navštívený web pripojený k vášmu aktuálne vybranému účtu."
+  },
+  "metaMaskConnectStatusParagraphThree": {
+    "message": "Kliknutím na ňu môžete spravovať svoje pripojené účty."
+  },
+  "metamaskDescription": {
+    "message": "Brave je bezpečný osobní trezor pro Ethereum."
+  },
+  "metamaskVersion": {
+    "message": "Verzia Brave"
+  },
+  "mobileSyncText": {
+    "message": "Zadajte svoje heslo a potvrďte, že ste to vy!"
+  },
+  "myAccounts": {
+    "message": "Moje účty"
+  },
+  "myWalletAccounts": {
+    "message": "Účty v Mojej peňaženke"
+  },
+  "myWalletAccountsDescription": {
+    "message": "Všetky vaše vytvorené účty Brave budú automaticky pridané do tejto sekcie."
+  },
+  "mustSelectOne": {
+    "message": "Musíte zvolit aspoň 1 token."
+  },
+  "needEtherInWallet": {
+    "message": "Na komunikáciu s decentralizovanými aplikáciami pomocou aplikácie Brave budete potrebovať v peňaženke Ether."
+  },
+  "needImportFile": {
+    "message": "Musíte zvolit soubor k importu.",
+    "description": "User is important an account and needs to add a file to continue"
+  },
+  "negativeETH": {
+    "message": "Nelze odeslat zápornou částku ETH."
+  },
+  "networkName": {
+    "message": "Názov siete"
+  },
+  "networks": {
+    "message": "Sítě"
+  },
+  "networkSettingsChainIdDescription": {
+    "message": "Identifikátor reťazca sa používa na podpisovanie transakcií. Zadajte desatinné alebo šestnástkové číslo začínajúce na „0x“."
+  },
+  "networkSettingsDescription": {
+    "message": "Pridať a upraviť vlastné siete RPC"
+  },
+  "nevermind": {
+    "message": "Nevadí"
+  },
+  "newAccount": {
+    "message": "Nový účet"
+  },
+  "newAccountDetectedDialogMessage": {
+    "message": "Bola zistená nová adresa! Kliknite sem a pridajte ju do svojho adresára."
+  },
+  "newAccountNumberName": {
+    "message": "Účet $1",
+    "description": "Default name of next account to be created on create account screen"
+  },
+  "newContact": {
+    "message": "Nový kontakt"
+  },
+  "newContract": {
+    "message": "Nový kontrakt"
+  },
+  "newPassword": {
+    "message": "Nové heslo (min. 8 znakov)"
+  },
+  "newNetwork": {
+    "message": "Nová sieť"
+  },
+  "newToMetaMask": {
+    "message": "Ste v Brave nový?"
+  },
+  "noAlreadyHaveSeed": {
+    "message": "Nie, už mám seed frázu"
+  },
+  "protectYourKeys": {
+    "message": "Chráňte si svoje kľúče!"
+  },
+  "protectYourKeysMessage1": {
+    "message": "Pri svojej úvodnej fráze buďte opatrní - objavili sa správy o webových stránkach, ktoré sa snažia napodobniť Brave. Brave sa nikdy nebude pýtať na Vašu úvodnú frázu!"
+  },
+  "protectYourKeysMessage2": {
+    "message": "Udržujte svoju frázu v bezpečí. Ak uvidíte niečo podozrivé alebo si nie ste istí webovým serverom, pošlite e-mail na support@brave.com"
+  },
+  "rpcUrl": {
+    "message": "Nová RPC URL"
+  },
+  "onlyConnectTrust": {
+    "message": "Spojte sa iba s webmi, ktorým dôverujete."
+  },
+  "onlyAddTrustedNetworks": {
+    "message": "Škodlivý poskytovateľ siete Ethereum môže klamať o stave blockchainu a zaznamenávať vašu sieťovú aktivitu. Pridajte iba dôveryhodné siete."
+  },
+  "optionalSymbol": {
+    "message": "Symbol (voliteľné)"
+  },
+  "newTotal": {
+    "message": "Nový súčet"
+  },
+  "newTransactionFee": {
+    "message": "Nový poplatok za transakciu"
+  },
+  "next": {
+    "message": "Další"
+  },
+  "nextNonceWarning": {
+    "message": "Nonce je vyššia ako odporúčaná nonce  $1",
+    "description": "The next nonce according to Brave's internal logic"
+  },
+  "noAddressForName": {
+    "message": "Pro toto jméno nebyla nastavena žádná adresa."
+  },
+  "noConversionRateAvailable": {
+    "message": "Nie je k dispozícii žiadna sadzba konverzie"
+  },
+  "noTransactions": {
+    "message": "Žádné transakce"
+  },
+  "noThanks": {
+    "message": "Nie, ďakujem"
+  },
+  "notCurrentAccount": {
+    "message": "Je to správny účet? Líši sa od aktuálne vybratého účtu v peňaženke"
+  },
+  "notEnoughGas": {
+    "message": "Nedostatok GAS"
+  },
+  "noWebcamFoundTitle": {
+    "message": "Webová kamera sa nenašla"
+  },
+  "noWebcamFound": {
+    "message": "Webová kamera vášho počítača sa nenašla. Skúste znova."
+  },
+  "ofTextNofM": {
+    "message": "z"
+  },
+  "orderOneHere": {
+    "message": "Objednajte si Trezor alebo Hlavnú knihu a uschovajte svoje prostriedky v sklade"
+  },
+  "origin": {
+    "message": "Pôvod"
+  },
+  "parameters": {
+    "message": "Parametre"
+  },
+  "participateInMetaMetrics": {
+    "message": "Zúčastnite sa na MetaMetrics"
+  },
+  "participateInMetaMetricsDescription": {
+    "message": "Zúčastnite sa MetaMetrics a pomôžte nám vylepšiť Brave"
+  },
+  "password": {
+    "message": "Heslo"
+  },
+  "passwordsDontMatch": {
+    "message": "Hesla nejsou stejná"
+  },
+  "passwordNotLongEnough": {
+    "message": "Heslo není dost dlouhé"
+  },
+  "pastePrivateKey": {
+    "message": "Vložte zde svůj privátní klíč:",
+    "description": "For importing an account from a private key"
+  },
+  "pending": {
+    "message": "Prebieha"
+  },
+  "permissionCheckedIconDescription": {
+    "message": "Toto povolenie ste schválili"
+  },
+  "permissionUncheckedIconDescription": {
+    "message": "Toto povolenie ste neschválili"
+  },
+  "personalAddressDetected": {
+    "message": "Detekována osobní adresa. Zadejte adresu kontraktu tokenu."
+  },
+  "plusXMore": {
+    "message": "+ ďalší $1",
+    "description": "$1 is a number of additional but unshown items in a list- this message will be shown in place of those items"
+  },
+  "prev": {
+    "message": "Predchádzajúce"
+  },
+  "primaryCurrencySetting": {
+    "message": "Primárna mena"
+  },
+  "primaryCurrencySettingDescription": {
+    "message": "Vyberte natívne, ak chcete priorizovať zobrazovanie hodnôt v natívnej mene reťazca (napr. ETH). Ak chcete priorizovať zobrazovanie hodnôt vo svojej vybranej mene fiat, zvoľte možnosť Fiat."
+  },
+  "privacyMsg": {
+    "message": "Zásady ochrany osobních údajů"
+  },
+  "privateKey": {
+    "message": "Privátní klíč",
+    "description": "select this type of file to use to import an account"
+  },
+  "privateKeyWarning": {
+    "message": "Upozornění: Nikdy nezveřejněte tento klíč. Kdokoli může s vaším privátním klíčem odcizit vaše aktiva z účtu."
+  },
+  "privateNetwork": {
+    "message": "Soukromá síť"
+  },
+  "proposedApprovalLimit": {
+    "message": "Navrhovaný limit schválenia"
+  },
+  "queue": {
+    "message": "Poradie"
+  },
+  "queued": {
+    "message": "V poradí"
+  },
+  "readdToken": {
+    "message": "Tento token můžete v budoucnu přidat zpět s „Přidat token“ v nastavení účtu."
+  },
+  "recents": {
+    "message": "Posledné"
+  },
+  "receive": {
+    "message": "Obrdžet"
+  },
+  "recipientAddress": {
+    "message": "Adresa příjemce"
+  },
+  "recipientAddressPlaceholder": {
+    "message": "Vyhľadávanie, verejná adresa (0x) alebo doména"
+  },
+  "rejectAll": {
+    "message": "Odmietnuť všetko"
+  },
+  "rejectTxsN": {
+    "message": "Odmietnuť $1 transakcie "
+  },
+  "rejectTxsDescription": {
+    "message": " Chystáte sa hromadne odmietnuť $1 transakcie."
+  },
+  "rejected": {
+    "message": "Odmítnuto"
+  },
+  "reset": {
+    "message": "Resetovať"
+  },
+  "resetAccount": {
+    "message": "Resetovat účet"
+  },
+  "resetAccountDescription": {
+    "message": "Resetovaním účtu vymažete históriu transakcií. To nezmení zostatky na vašich účtoch ani nebude vyžadovať, aby ste znova zadali svoju úvodnú frázu."
+  },
+  "deleteNetwork": {
+    "message": "Odstrániť sieť?"
+  },
+  "deleteNetworkDescription": {
+    "message": "Naozaj chcete túto sieť odstrániť?"
+  },
+  "remindMeLater": {
+    "message": "Pripomenúť neskôr"
+  },
+  "restoreFromSeed": {
+    "message": "Obnovit z seed fráze"
+  },
+  "restoreAccountWithSeed": {
+    "message": "Obnoviť účet pomocou seed frázy"
+  },
+  "restoreWalletPreferences": {
+    "message": "Bola nájdená záloha vašich údajov od $1. Prajete si obnoviť predvoľby peňaženky?",
+    "description": "$1 is the date at which the data was backed up"
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": "žiadosti čakajúce na potvrdenie"
+  },
+  "required": {
+    "message": "Povinné"
+  },
+  "restore": {
+    "message": "Obnoviť"
+  },
+  "revealSeedWords": {
+    "message": "Odhaliť úvodnú frázu"
+  },
+  "revealSeedWordsTitle": {
+    "message": "Seed fráza"
+  },
+  "revealSeedWordsDescription": {
+    "message": "Ak niekedy zmeníte prehliadač alebo presuniete počítače, budete potrebovať túto seed frázu na prístup k svojim účtom. Uložte ich niekde v bezpečí a v tajnosti."
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "Túto frázu s nikým NEZDIEĽAJTE!"
+  },
+  "revealSeedWordsWarning": {
+    "message": "Nebnovujte slova klíčové fráze na veřejnosti! Tato slova mohou být použita k odcizení veškerých vyašich účtů."
+  },
+  "remove": {
+    "message": "Odstrániť"
+  },
+  "removeAccount": {
+    "message": "Odstrániť účet"
+  },
+  "removeAccountDescription": {
+    "message": "Tento účet bude odstránený z vašej peňaženky. Skôr ako budete pokračovať, skontrolujte, či máte pre tento importovaný účet pôvodnú seed frázu alebo súkromný kľúč. Z rozbaľovacieho menu účtu môžete znova importovať alebo vytvoriť účty."
+  },
+  "readyToConnect": {
+    "message": "Pripravení na pripojenie?"
+  },
+  "reviewSwap": {
+    "message": "Prezrieť Swap"
+  },
+  "rinkeby": {
+    "message": "Rinkeby Test Network"
+  },
+  "ropsten": {
+    "message": "Ropsten Test Network"
+  },
+  "goerli": {
+    "message": "Testovacia sieť Goerli"
+  },
+  "save": {
+    "message": "Uložit"
+  },
+  "slow": {
+    "message": "Pomalé"
+  },
+  "slower": {
+    "message": "Pomalší"
+  },
+  "saveAsCsvFile": {
+    "message": "Uložiť ako súbor CSV"
+  },
+  "scanInstructions": {
+    "message": "Umiestnite QR kód pred kameru"
+  },
+  "scanQrCode": {
+    "message": "Skenovať QR kód"
+  },
+  "search": {
+    "message": "Hledat"
+  },
+  "searchResults": {
+    "message": "Výsledky vyhľadávania"
+  },
+  "secretBackupPhrase": {
+    "message": "Tajná backup fráza"
+  },
+  "secretBackupPhraseDescription": {
+    "message": "Vaša tajná backup fráza uľahčuje zálohovanie a obnovenie vášho účtu."
+  },
+  "secretBackupPhraseWarning": {
+    "message": "UPOZORNENIE: Nikdy nezverejňujte svoju backup frázu. Každý, kto má túto frázu, môže navždy vziať váš Ether."
+  },
+  "secretPhrase": {
+    "message": "Zadajte svoju tajnú frázu s 12 alebo 24 slovami a obnovte svoj trezor."
+  },
+  "securityAndPrivacy": {
+    "message": "Bezpečnosť a súkromie"
+  },
+  "securitySettingsDescription": {
+    "message": "Nastavenia súkromia a seed fráza peňaženky"
+  },
+  "seedPhrasePlaceholder": {
+    "message": "Každé slovo oddeľte jednou medzerou"
+  },
+  "seedPhrasePlaceholderPaste": {
+    "message": "Prilepte frázu zo schránky"
+  },
+  "showSeedPhrase": {
+    "message": "Zobraziť úvodnú frázu"
+  },
+  "seedPhraseReq": {
+    "message": "Úvodné frázy obsahujú 12, 15, 18, 21 alebo 24 slov"
+  },
+  "selectingAllWillAllow": {
+    "message": "Výberom možnosti Všetky umožníte tejto stránke zobraziť všetky vaše súčasné účty. Uistite sa, že týmto stránkam dôverujete."
+  },
+  "selectAccounts": {
+    "message": "Vyberte účty"
+  },
+  "selectAll": {
+    "message": "Vybrať všetko"
+  },
+  "selectCurrency": {
+    "message": "Vybrat měnu"
+  },
+  "selectEachPhrase": {
+    "message": "Vyberte každú frázu, aby ste sa uistili, že je správna."
+  },
+  "selectLocale": {
+    "message": "Vybrať miestne nastavenia"
+  },
+  "selectType": {
+    "message": "Vybrat typ"
+  },
+  "setAllowance": {
+    "message": "Nastaviť príplatok"
+  },
+  "buy": {
+    "message": "Koupit"
+  },
+  "send": {
+    "message": "Odeslat"
+  },
+  "swap": {
+    "message": "Swap"
+  },
+  "swapApprovalSecurityMsg": {
+    "message": "Z bezpečnostných dôvodov sa odporúča pred nastavením požadovanej hodnoty najprv vynulovať príplatok na 0, aby sa zabránilo útokom na zmenu poradia transakcií.\n"
+  },
+  "swapBraveFees": {
+    "message": "Cenová ponuka zahŕňa poplatok Brave vo výške $1."
+  },
+  "swapFooterPrivacyNotice": {
+    "message": "Brave používa $1 ako agregátor DEX. Viac informácií nájdete v časti $2."
+  },
+  "swapNewQuoteCountdown": {
+    "message": "Nová cenová ponuka"
+  },
+  "swapSlippageDescription": {
+    "message": "Maximálna akceptovateľná zmena ceny nákupného aktíva v %. Ak delta prekročí sklz, swap sa nevykoná."
+  },
+  "swapQuoteRefresh": {
+    "message": "Cenové ponuky sa aktualizujú často, aby odrážali aktuálne trhové podmienky."
+  },
+  "sendAmount": {
+    "message": "Poslať sumu"
+  },
+  "sendETH": {
+    "message": "Odeslat ETH"
+  },
+  "sendTokens": {
+    "message": "Odeslat tokeny"
+  },
+  "sentEther": {
+    "message": "poslaný ether"
+  },
+  "sentTokens": {
+    "message": "poslané tokeny"
+  },
+  "sendSpecifiedTokens": {
+    "message": "Poslať $1",
+    "description": "Symbol of the specified token"
+  },
+  "separateEachWord": {
+    "message": "Každé slovo oddeľte jednou medzerou"
+  },
+  "searchAssets": {
+    "message": "Vyhľadávať aktíva"
+  },
+  "searchTokens": {
+    "message": "Hledat tokeny"
+  },
+  "searchAccounts": {
+    "message": "Vyhľadať účty"
+  },
+  "noAccountsFound": {
+    "message": "Pre daný vyhľadávanie sa nenašli žiadne účty"
+  },
+  "selectAsset": {
+    "message": "Vyberte aktívum"
+  },
+  "selectAnAccount": {
+    "message": "Vybrať účet"
+  },
+  "selectAnAccountHelp": {
+    "message": "Vyberte účet, ktorý chcete zobraziť v aplikácií Brave"
+  },
+  "selectAHigherGasFee": {
+    "message": "Ak chcete urýchliť spracovanie transakcie, vyberte vyšší poplatok GAS.*"
+  },
+  "selectHdPath": {
+    "message": "Vyberte cestu HD"
+  },
+  "selectPathHelp": {
+    "message": "Ak nevidíte svoje existujúce účty v Hlavnej knihe dole, skúste prepnúť cesty na „Odkaz (MEW/MyCrypto)“"
+  },
+  "settings": {
+    "message": "Nastavení"
+  },
+  "showAdvancedGasInline": {
+    "message": "Pokročilé ovládacie prvky GAS"
+  },
+  "showAdvancedGasInlineDescription": {
+    "message": "Vyberte túto možnosť vtedy, keď chcete priamo na obrazovke odosielania a potvrdenia zobraziť ceny za GAS a ovládacie prvky limitov."
+  },
+  "showFiatConversionInTestnets": {
+    "message": "Zobraziť konverziu na Testnets"
+  },
+  "showFiatConversionInTestnetsDescription": {
+    "message": "Vyberte túto voľbu, ak chcete zobraziť konverziu fiat na Testnets"
+  },
+  "showPrivateKeys": {
+    "message": "Zobrazit privátní klíče"
+  },
+  "showHexData": {
+    "message": "Zobraziť údaje Hex"
+  },
+  "showHexDataDescription": {
+    "message": "Vyberte toto, ak chcete, aby sa na obrazovke odosielania zobrazilo hex dátové pole"
+  },
+  "sign": {
+    "message": "Podepsat"
+  },
+  "signatureRequest": {
+    "message": "Požadavek podpisu"
+  },
+  "signatureRequest1": {
+    "message": "Zpráva"
+  },
+  "signed": {
+    "message": "Podepsáno"
+  },
+  "signNotice": {
+    "message": "Podepsání zprávy může mít \nnebezpečný vedlejší učinek. Podepisujte zprávy pouze ze \nstránek, kterým plně důvěřujete celým svým účtem.\n Tato nebezpečná metoda bude odebrána v budoucí verzi. "
+  },
+  "sigRequest": {
+    "message": "Požadavek podpisu"
+  },
+  "somethingWentWrong": {
+    "message": "Och! Niečo zlyhalo."
+  },
+  "speedUp": {
+    "message": "Zrýchliť"
+  },
+  "speedUpCancellation": {
+    "message": "Urýchlite toto zrušenie"
+  },
+  "speedUpTransaction": {
+    "message": "Urýchliť túto transakciu\n"
+  },
+  "spendLimitPermission": {
+    "message": "Povolenie na limit výdavkov"
+  },
+  "spendLimitRequestedBy": {
+    "message": "Limit výdavkov požadovaný $1",
+    "description": "Origin of the site requesting the spend limit"
+  },
+  "spendLimitTooLarge": {
+    "message": "Limit výdavkov je príliš vysoký"
+  },
+  "spendLimitInvalid": {
+    "message": "Limit výdavkov je neplatný; musí byť kladné číslo"
+  },
+  "switchNetworks": {
+    "message": "Prepnúť siete"
+  },
+  "stateLogFileName": {
+    "message": "Štátne denníky Brave"
+  },
+  "stateLogs": {
+    "message": "Stavové protokoly"
+  },
+  "stateLogsDescription": {
+    "message": "Stavové protokoly obsahují vaše veřejné adresy účtů a odeslané transakce."
+  },
+  "stateLogError": {
+    "message": "Chyba během získávání stavových protokolů."
+  },
+  "statusConnected": {
+    "message": "Pripojené"
+  },
+  "statusNotConnected": {
+    "message": "Nepripojené"
+  },
+  "step1HardwareWallet": {
+    "message": "1. Pripojiť hardvérovú peňaženku"
+  },
+  "step1HardwareWalletMsg": {
+    "message": "Pripojte hardvérovú peňaženku priamo k počítaču."
+  },
+  "step2HardwareWallet": {
+    "message": "2. Vybrať účet"
+  },
+  "step2HardwareWalletMsg": {
+    "message": "Vyberte účet, ktorý chcete zobraziť. Naraz si môžete vybrať iba jeden."
+  },
+  "step3HardwareWallet": {
+    "message": "3. Začnite používať webové stránky web3 a ďalšie!"
+  },
+  "step3HardwareWalletMsg": {
+    "message": "Použite svoj hardvérový účet, ako by ste používali s ktorýmkoľvek účtom Ethereum. Pripojte sa k webovým stránkam web3, posielajte ETH, nakupujte a ukladajte tokeny ERC20 a nezastupiteľné tokeny, ako napríklad CryptoKitties."
+  },
+  "storePhrase": {
+    "message": "Túto frázu uložte do správcu hesiel ako 1Password."
+  },
+  "submit": {
+    "message": "Odeslat"
+  },
+  "submitted": {
+    "message": "Odesláno"
+  },
+  "supportCenter": {
+    "message": "Navštivte naše centrum podpory"
+  },
+  "swapPrivacyPolicy": {
+    "message": "Zásady ochrany osobných údajov Swapu"
+  },
+  "swapPrivacyPolicyDescription": {
+    "message": "Brave používa $1 ako agregátor DEX. 0x spracuje adresu Etherea a IP adresu na vykonanie transakcie (vrátane získania kotácií). 0x bude tieto údaje používať IBA na účely spracovania transakcií."
+  },
+  "symbol": {
+    "message": "Symbol"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "Symbol môže mať maximálne 11 znakov."
+  },
+  "syncWithMobile": {
+    "message": "Synchronizácia s mobilom"
+  },
+  "syncWithMobileTitle": {
+    "message": "Synchronizácia s mobilom"
+  },
+  "syncWithMobileDesc": {
+    "message": "Svoje účty a informácie môžete synchronizovať s mobilným zariadením. Otvorte mobilnú aplikáciu Brave, choďte na „Nastavenia“ a klepnite na „Synchronizovať z rozšírenia prehliadača“"
+  },
+  "syncWithMobileDescNewUsers": {
+    "message": "Ak aplikáciu Brave Mobile otvoríte prvýkrát, postupujte podľa pokynov v telefóne."
+  },
+  "syncWithMobileScanThisCode": {
+    "message": "Naskenujte tento kód pomocou svojej mobilnej aplikácie Brave"
+  },
+  "syncWithMobileBeCareful": {
+    "message": "Pri skenovaní tohto kódu sa uistite, že sa nikto iný nedíva na vašu obrazovku"
+  },
+  "syncWithMobileComplete": {
+    "message": "Vaše údaje boli úspešne synchronizované. Užite si mobilnú aplikáciu Brave!"
+  },
+  "terms": {
+    "message": "Podmínky použití"
+  },
+  "testFaucet": {
+    "message": "Testovací faucet"
+  },
+  "thisWillCreate": {
+    "message": "Týmto sa vytvorí nová peňaženka a seed fráza"
+  },
+  "timeout": {
+    "message": "Vypršal časový limit"
+  },
+  "tips": {
+    "message": "Príspevky"
+  },
+  "to": {
+    "message": "Komu"
+  },
+  "toAddress": {
+    "message": "Pre: $1",
+    "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
+  },
+  "toWithColon": {
+    "message": "Pre:"
+  },
+  "token": {
+    "message": "Token"
+  },
+  "tokenAlreadyAdded": {
+    "message": "Token byl už přidán."
+  },
+  "tokenContractAddress": {
+    "message": "Kontaktná adresa tokenu"
+  },
+  "tokenOptions": {
+    "message": "Možnosti tokenu"
+  },
+  "tokenSymbol": {
+    "message": "Symbol tokenu"
+  },
+  "total": {
+    "message": "Celkem"
+  },
+  "transaction": {
+    "message": "transakcia"
+  },
+  "transactionConfirmed": {
+    "message": "Transakcia potvrdená na $2."
+  },
+  "transactionCreated": {
+    "message": "Transakcia bola vytvorená s hodnotou $1 na $2."
+  },
+  "transactionDropped": {
+    "message": "Transakcia klesla na $2."
+  },
+  "transactionSubmitted": {
+    "message": "Transakcia bola odoslaná s poplatkom za GAS z  $1 na $2.\n"
+  },
+  "transactionResubmitted": {
+    "message": "Transakcia znovu odoslaná s poplatkom za GAS zvýšeným na $1 na $2\n"
+  },
+  "transactionUpdated": {
+    "message": "Transakcia bola aktualizovaná na $2."
+  },
+  "transactionErrored": {
+    "message": "Pri transakcii sa vyskytla chyba."
+  },
+  "transactionCancelAttempted": {
+    "message": "Pokus o zrušenie transakcie s poplatkom GAS z $1 na $2"
+  },
+  "transactionCancelSuccess": {
+    "message": "Transakcia bola úspešne zrušená na $2"
+  },
+  "transactionError": {
+    "message": "Chyba transakce. Vyhozena výjimka v kódu kontraktu."
+  },
+  "transactionErrorNoContract": {
+    "message": "Pokúša sa zavolať funkciu na nezmluvnú adresu."
+  },
+  "transactionFee": {
+    "message": "Poplatok za transakciu"
+  },
+  "transactionTime": {
+    "message": "Čas transakcie"
+  },
+  "showTransactionTimeDescription": {
+    "message": "Vyberte túto možnosť, aby sa na karte aktivity zobrazovali odhady čakajúcich časov transakcií v hlavnej sieti Etherea. Poznámka: odhady sú približné údaje založené na podmienkach siete."
+  },
+  "transfer": {
+    "message": "Prevod"
+  },
+  "transferBetweenAccounts": {
+    "message": "Prevod medzi mojimi účtami"
+  },
+  "transferFrom": {
+    "message": "Presun z"
+  },
+  "troubleTokenBalances": {
+    "message": "Měli jsme problém s načtením vašich tokenových zůstatků. Můžete je vidět ",
+    "description": "Followed by a link (here) to view token balances"
+  },
+  "trustSiteApprovePermission": {
+    "message": "Dôverujete tejto stránke? Udelením tohto povolenia povoľujete $1 vyberať $2 a automatizovať transakcie za vás.",
+    "description": "$1 is the url requesting permission and $2 is the symbol of the currency that the request is for"
+  },
+  "tryAgain": {
+    "message": "Skúsiť znova"
+  },
+  "typePassword": {
+    "message": "Zadajte svoje heslo Brave"
+  },
+  "unapproved": {
+    "message": "Neschváleno"
+  },
+  "alertDisableTooltip": {
+    "message": "Toto je možné zmeniť v časti „Nastavenia > Upozornenia“"
+  },
+  "units": {
+    "message": "jednotky"
+  },
+  "unknown": {
+    "message": "Neznámé"
+  },
+  "unknownNetwork": {
+    "message": "Neznámá soukromá síť"
+  },
+  "unknownQrCode": {
+    "message": "Chyba: Kód QR sa nepodarilo identifikovať"
+  },
+  "unknownCameraErrorTitle": {
+    "message": "Och! Niečo zlyhalo..."
+  },
+  "unknownCameraError": {
+    "message": "Pri pokuse o prístup k fotoaparátu sa vyskytla chyba. Skúste znova..."
+  },
+  "unlimited": {
+    "message": "Neobmedzene"
+  },
+  "unlock": {
+    "message": "Odomknúť"
+  },
+  "unlockMessage": {
+    "message": "Decentralizovaný web čaká"
+  },
+  "updatedWithDate": {
+    "message": "Aktualizované $1"
+  },
+  "urlErrorMsg": {
+    "message": "Adresy URL vyžadujú príslušnú predponu HTTP/HTTPS."
+  },
+  "urlExistsErrorMsg": {
+    "message": "URL je už v existujúcom zozname sietí"
+  },
+  "usedByClients": {
+    "message": "Používána různými klienty"
+  },
+  "usePhishingDetection": {
+    "message": "Použite detekciu phishingu"
+  },
+  "usePhishingDetectionDescription": {
+    "message": "Zobraziť upozornenie na phishingové domény zacielené na používateľov Ethereum"
+  },
+  "userName": {
+    "message": "Meno používateľa"
+  },
+  "viewAccount": {
+    "message": "Zobrazit účet"
+  },
+  "viewinExplorer": {
+    "message": "Zobraziť v Exploreri"
+  },
+  "viewContact": {
+    "message": "Zobraziť kontakt"
+  },
+  "viewOnCustomBlockExplorer": {
+    "message": "Zobraziť na $1"
+  },
+  "viewOnEtherscan": {
+    "message": "Zobraziť na Etherscan"
+  },
+  "retryTransaction": {
+    "message": "Opakujte transakciu"
+  },
+  "visitWebSite": {
+    "message": "Navštivte naši stránku"
+  },
+  "walletSeed": {
+    "message": "Úvodná fráza"
+  },
+  "welcomeBack": {
+    "message": "Vitajte späť!"
+  },
+  "welcome": {
+    "message": "Víta vás prehliadač Brave"
+  },
+  "whatsThis": {
+    "message": "Co to je?"
+  },
+  "writePhrase": {
+    "message": "Túto frázu si zapíšte na papier a uložte na bezpečnom mieste. Kvôli vyššej bezpečnosti si ho môžete napísať na niekoľko papierov a uložiť na 2 – 3 rôzne miesta."
+  },
+  "xOfY": {
+    "message": "$1 z $2",
+    "description": "$1 and $2 are intended to be two numbers, where $2 is a total, and $1 is a count towards that total"
+  },
+  "yesLetsTry": {
+    "message": "Áno, skúsme to"
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": "Ak chcete používať túto funkciu, musíte povoliť prístup k fotoaparátu."
+  },
+  "yourSigRequested": {
+    "message": "Je vyžadován váš podpis"
+  },
+  "youSign": {
+    "message": "Podepisujete"
+  },
+  "yourPrivateSeedPhrase": {
+    "message": "Vaša súkromná seed fráza"
+  },
+  "zeroGasPriceOnSpeedUpError": {
+    "message": "Nulová cena za GAS pri zrýchlení"
+  },
+  "decryptRequest": {
+    "message": "Dešifrovať žiadosť"
+  },
+  "decrypt": {
+    "message": "Dešifrovať"
+  },
+  "decryptMessageNotice": {
+    "message": "$1 si chce prečítať túto správu, aby dokončil vašu akciu",
+    "description": "$1 is the web3 site name"
+  },
+  "decryptMetamask": {
+    "message": "Dešifrovať správu"
+  },
+  "decryptCopy": {
+    "message": "Skopírujte zašifrovanú správu"
+  },
+  "decryptInlineError": {
+    "message": "Túto správu nie je možné dešifrovať z dôvodu chyby: $1",
+    "description": "$1 is error message"
+  },
+  "provide": {
+    "message": "Poskytnúť"
+  },
+  "encryptionPublicKeyRequest": {
+    "message": "Vyžiadajte si verejný kľúč šifrovania"
+  },
+  "encryptionPublicKeyNotice": {
+    "message": "$1 chce váš verejný šifrovací kľúč. Na základe súhlasu bude tento web môcť pre vás vytvárať šifrované správy.",
+    "description": "$1 is the web3 site name"
+  },
+  "backupPhraseFileName": {
+    "message": "Tajná záložná fráza peňaženky kryptomeny"
+  },
+  "braveRewards": {
+    "message": "Odmeny Brave"
+  },
+  "braveSettings": {
+    "message": "Nastavenia Brave"
+  },
+  "contractErrorMessage": {
+    "message": "Varovanie: Chystáte sa odoslať toto aktívum do jeho vlastného inteligentného kontraktu. Pravdepodobne to nechcete urobiť, pretože by to spôsobilo, že aktívum už nebude možné obnoviť."
+  },
+  "cryptoWalletsDisclosureOne": {
+    "message": "Krypto peňaženky vám umožňujú pracovať s kryptomenou a súvisiacimi aktívami v službe Brave. Krypto peňaženky podporujú ethereum tokeny ako ETH a BAT, ako aj zberateľské predmety a umožňujú vám pracovať s Ðapps a inými inteligentnými zmluvami. To všetko je určené pre ľudí, ktorí sú oboznámení s Ethereom a inými blockchainovými systémami - alebo sú nadšení, že sa môžu učiť."
+  },
+  "cryptoWalletsDisclosureTwo": {
+    "message": "Crypto Wallets používajte iba vtedy, ak súhlasíte s tým, že budete zodpovedať za všetky riziká spojené s ich používaním, a že Brave Software nenesie žiadnu zodpovednosť a neručí za akékoľvek straty, vrátane náhodných alebo následných, ktoré by vám mohli vzniknúť v dôsledku ich použitia."
+  },
+  "cryptoWalletsDisclosureThree": {
+    "message": "Toto všetko je úplne oddelené od"
+  },
+  "cryptoWalletsDisclosureFour": {
+    "message": "Takže namiesto chcenia podporiť svoje obľúbené stránky, si to tam namierte."
+  },
+  "cryptoWalletsTitle": {
+    "message": "Krypto peňaženky"
+  },
+  "disclosureConfirm": {
+    "message": "Rozumiem"
+  },
+  "ledgerCreateSubText": {
+    "message": "Pripojte svoju hardvérovú peňaženku Ledger, aby ste mohli komunikovať s dApps a prevádzať do iných pripojených peňaženiek."
+  },
+  "metamaskImportSubText": {
+    "message": "Poznámka: Ak importujete z krypto peňaženiek verzie 1.0.26 alebo staršej, vaša tajná fráza má 24 slov namiesto 12."
+  },
+  "newLocalWallet": {
+    "message": "Nová lokálna peňaženka"
+  },
+  "newLocalWalletSubText": {
+    "message": "Vytvorte si novú lokálnu peňaženku Brave, aby ste mali prístup k dApps a bezpečne ukladali kryptografický materiál. Obchodujte s tokenmi anonymne bez poplatkov za obchodovanie."
+  },
+  "passWarningOne": {
+    "message": "Toto heslo chráni váš súkromný kľúč. Ak ho zabudnete, nikto ho nemôže resetovať, ani Brave!"
+  },
+  "providerErrorMessage": {
+    "message": "Táto peňaženka nie je váš predvolený poskytovateľ Ethereum Dapp."
+  },
+  "trezorCreateSubText": {
+    "message": "Pripojte svoju hardvérovú peňaženku Trezor, aby ste mohli komunikovať s dApps a robiť prevody do iných pripojených peňaženiek."
+  },
+  "welcomeCryptoWallets": {
+    "message": "Vitajte v Brave Crypto Wallets"
+  },
+  "waitingForConfirmation": {
+    "message": "Čaká sa na potvrdenie."
+  }
+}

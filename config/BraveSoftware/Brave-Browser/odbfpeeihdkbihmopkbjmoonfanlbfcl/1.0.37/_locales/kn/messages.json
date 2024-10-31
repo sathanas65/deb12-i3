@@ -1,0 +1,1911 @@
+{
+  "acceptTermsOfUse": {
+    "message": "ನಾನು $1 ಅನ್ನು ಓದಿದ್ದೇನೆ ಮತ್ತು ಒಪ್ಪುತ್ತೇನೆ",
+    "description": "$1 is the `terms` message"
+  },
+  "eth_accounts": {
+    "message": "ನಿಮ್ಮ ಅನುಮತಿಸಲಾದ ಖಾತೆಗಳ ವಿಳಾಸಗಳನ್ನು ವೀಕ್ಷಿಸಿ (ಅಗತ್ಯವಿದೆ)",
+    "description": "The description for the `eth_accounts` permission"
+  },
+  "connectedSites": {
+    "message": "ಸಂಪರ್ಕಿತ ಸೈಟ್‌ಗಳು"
+  },
+  "connectedSitesDescription": {
+    "message": "$1 ಅನ್ನು ಈ ಸೈಟ್‌ಗಳಿಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ. ಅವರು ನಿಮ್ಮ ಖಾತೆ ವಿಳಾಸವನ್ನು ವೀಕ್ಷಿಸಬಹುದು.",
+    "description": "$1 is the account name"
+  },
+  "connectedSitesEmptyDescription": {
+    "message": "$1 ಯಾವುದೇ ಸೈಟ್‌ಗಳಿಗೆ ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ.",
+    "description": "$1 is the account name"
+  },
+  "connectedAccountsDescriptionSingular": {
+    "message": "ಈ ಸೈಟ್‌ಗೆ ನೀವು 1 ಖಾತೆಯನ್ನು ಸಂಪರ್ಕಿಸಿದ್ದೀರಿ."
+  },
+  "connectedAccountsDescriptionPlural": {
+    "message": "ನೀವು ಈ ಸೈಟ್‌ಗೆ $1 ಖಾತೆಗಳನ್ನು ಸಂಪರ್ಕಿಸಿದ್ದೀರಿ.",
+    "description": "$1 is the number of accounts"
+  },
+  "connectedAccountsEmptyDescription": {
+    "message": "Brave ಅನ್ನು ಈ ಸೈಟ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿಲ್ಲ. ವೆಬ್ 3 ಸೈಟ್‌ಗೆ ಸಂಪರ್ಕಿಸಲು, ಅವರ ಸೈಟ್‌ನಲ್ಲಿ ಸಂಪರ್ಕ ಬಟನ್ ಹುಡುಕಿ."
+  },
+  "currentAccountNotConnected": {
+    "message": "ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಖಾತೆ ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ"
+  },
+  "switchToThisAccount": {
+    "message": "ಈ ಖಾತೆಗೆ ಬದಲಿಸಿ"
+  },
+  "disconnectThisAccount": {
+    "message": "ಈ ಖಾತೆಯ ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ"
+  },
+  "permissions": {
+    "message": "ಅನುಮತಿಗಳು"
+  },
+  "showPermissions": {
+    "message": "ಅನುಮತಿಗಳನ್ನು ತೋರಿಸಿ"
+  },
+  "authorizedPermissions": {
+    "message": "ನೀವು ಈ ಕೆಳಗಿನ ಅನುಮತಿಗಳನ್ನು ಅಧಿಕೃತಗೊಳಿಸಿದ್ದೀರಿ"
+  },
+  "connectManually": {
+    "message": "ಪ್ರಸ್ತುತ ಸೈಟ್‌ಗೆ ಹಸ್ತಚಾಲಿತವಾಗಿ ಸಂಪರ್ಕಿಸಿ"
+  },
+  "disconnect": {
+    "message": "ಡಿಸ್‌ಕನೆಕ್ಟ್ ಮಾಡಿ"
+  },
+  "disconnectAllAccounts": {
+    "message": "ಎಲ್ಲಾ ಖಾತೆಗಳ ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ"
+  },
+  "disconnectPrompt": {
+    "message": "$1 ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ"
+  },
+  "disconnectAllAccountsConfirmationDescription": {
+    "message": "ನೀವು ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ? ನೀವು ಸೈಟ್ ಕಾರ್ಯವನ್ನು ಕಳೆದುಕೊಳ್ಳಬಹುದು."
+  },
+  "dismiss": {
+    "message": "ವಜಾಗೊಳಿಸಿ"
+  },
+  "showIncomingTransactions": {
+    "message": "ಒಳಬರುವ ವಹಿವಾಟುಗಳನ್ನು ತೋರಿಸಿ"
+  },
+  "showIncomingTransactionsDescription": {
+    "message": "ವಹಿವಾಟುಗಳ ಪಟ್ಟಿಯಲ್ಲಿ ಒಳಬರುವ ವಹಿವಾಟುಗಳನ್ನು ತೋರಿಸಲು ಎಥೆರ್‌ಸ್ಕ್ಯಾನ್ ಬಳಸಲು ಇದನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "chartOnlyAvailableEth": {
+    "message": "ಎಥೆರಿಯಮ್ ನೆಟ್‌ವರ್ಕ್‌ಗಳಲ್ಲಿ ಮಾತ್ರವೇ ಚಾರ್ಟ್‌ಗಳು ಲಭ್ಯವಿರುತ್ತವೆ."
+  },
+  "connecting": {
+    "message": "ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "connectWithMetaMask": {
+    "message": "Brave ನೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಿ"
+  },
+  "connectTo": {
+    "message": "$1 ಗೆ ಸಂಪರ್ಕಪಡಿಸಿ",
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to Brave"
+  },
+  "connectToAll": {
+    "message": "ನಿಮ್ಮ ಎಲ್ಲಾ $1 ಗೆ ಸಂಪರ್ಕಪಡಿಸಿ",
+    "description": "$1 will be replaced by the translation of connectToAllAccounts"
+  },
+  "connectToAllAccounts": {
+    "message": "ಖಾತೆಗಳು",
+    "description": "will replace $1 in connectToAll, completing the sentence 'connect to all of your accounts', will be text that shows list of accounts on hover"
+  },
+  "connectToMultiple": {
+    "message": "$1 ಗೆ ಸಂಪರ್ಕಪಡಿಸಿ",
+    "description": "$1 will be replaced by the translation of connectToMultipleNumberOfAccounts"
+  },
+  "connectToMultipleNumberOfAccounts": {
+    "message": "$1 ಖಾತೆಗಳು",
+    "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
+  },
+  "contractInteraction": {
+    "message": "ಒಪ್ಪಂದದ ಸಂವಹನ"
+  },
+  "reject": {
+    "message": "ತಿರಸ್ಕರಿಸಿ"
+  },
+  "about": {
+    "message": "ಕುರಿತು"
+  },
+  "aboutSettingsDescription": {
+    "message": "ಆವೃತ್ತಿ, ಬೆಂಬಲ ಕೇಂದ್ರ ಮತ್ತು ಸಂಪರ್ಕ ಮಾಹಿತಿ"
+  },
+  "acceleratingATransaction": {
+    "message": "* ಹೆಚ್ಚಿನ ಗ್ಯಾಸ್ ಬೆಲೆಯನ್ನು ಬಳಸಿಕೊಂಡು ವಹಿವಾಟನ್ನು ವೇಗಗೊಳಿಸುವುದರಿಂದ ನೆಟ್‌ವರ್ಕ್ ವೇಗವಾಗಿ ಪ್ರಕ್ರಿಯೆಗೊಳ್ಳುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಅದು ಹೆಚ್ಚಿಸುತ್ತದೆ, ಆದರೆ ಇದು ಯಾವಾಗಲೂ ಖಚಿತವಾಗಿರುವುದಿಲ್ಲ."
+  },
+  "accessAndSpendNotice": {
+    "message": "$1 ಅನ್ನು ಪ್ರವೇಶಿಸಬಹುದು ಮತ್ತು ಈ ಗರಿಷ್ಠ ಮೊತ್ತವನ್ನು ಖರ್ಚು ಮಾಡಬಹುದು",
+    "description": "$1 is the url of the site requesting ability to spend"
+  },
+  "accessingYourCamera": {
+    "message": "ನಿಮ್ಮ ಕ್ಯಾಮರಾವನ್ನು ಪ್ರವೇಶಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "account": {
+    "message": "ಖಾತೆ"
+  },
+  "accountDetails": {
+    "message": "ಖಾತೆ ವಿವರಗಳು"
+  },
+  "accountName": {
+    "message": "ಖಾತೆಯ ಹೆಸರು"
+  },
+  "accountOptions": {
+    "message": "ಖಾತೆಯ ಆಯ್ಕೆಗಳು"
+  },
+  "accountSelectionRequired": {
+    "message": "ನೀವು ಖಾತೆಯನ್ನು ಆಯ್ಕೆಮಾಡುವ ಅಗತ್ಯವಿದೆ!"
+  },
+  "active": {
+    "message": "ಸಕ್ರಿಯ"
+  },
+  "activity": {
+    "message": "ಚಟುವಟಿಕೆ"
+  },
+  "activityLog": {
+    "message": "ಚಟುವಟಿಕೆ ಲಾಗ್"
+  },
+  "addNetwork": {
+    "message": "ನೆಟ್‌ವರ್ಕ್ ಸೇರಿಸಿ"
+  },
+  "addRecipient": {
+    "message": "ಸ್ವೀಕೃತಿದಾರರನ್ನು ಸೇರಿಸಿ"
+  },
+  "advanced": {
+    "message": "ಸುಧಾರಿತ"
+  },
+  "advancedSettingsDescription": {
+    "message": "ಡೆವಲಪರ್ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಪ್ರವೇಶಿಸಿ, ರಾಜ್ಯ ಲಾಗ್‌ಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ಖಾತೆಯನ್ನು ಮರುಹೊಂದಿಸಿ, ಟೆಸ್ಟ್‌ನೆಟ್‌ಗಳನ್ನು ಹೊಂದಿಸಿ ಮತ್ತು ಕಸ್ಟಮ್ ಆರ್‌ಪಿಸಿ"
+  },
+  "advancedOptions": {
+    "message": "ಸುಧಾರಿತ ಆಯ್ಕೆಗಳು"
+  },
+  "customizeGas": {
+    "message": "ಕಸ್ಟಮೈಸ್ ಮಾಡಿ"
+  },
+  "addToAddressBook": {
+    "message": "ವಿಳಾಸ ಪುಸ್ತಕಕ್ಕೆ ಸೇರಿಸಿ"
+  },
+  "addToAddressBookModalPlaceholder": {
+    "message": "ಉದಾ. ಜಾನ್ ಡಿ."
+  },
+  "addAlias": {
+    "message": "ಅಲಿಯಾಸ್ ಸೇರಿಸಿ"
+  },
+  "addToken": {
+    "message": "ಟೋಕನ್ ಸೇರಿಸಿ"
+  },
+  "addTokens": {
+    "message": "ಟೋಕನ್‌ಗಳನ್ನು ಸೇರಿಸಿ"
+  },
+  "addSuggestedTokens": {
+    "message": "ಸೂಚಿಸಲಾದ ಟೋಕನ್‌ಗಳನ್ನು ಸೇರಿಸಿ"
+  },
+  "addAcquiredTokens": {
+    "message": "ನೀವು Brave ಬಳಸಿ ಸಂಪಾದಿಸಿದ ಟೋಕನ್‌ಗಳನ್ನು ಸೇರಿಸಿ"
+  },
+  "alerts": {
+    "message": "ಎಚ್ಚರಿಕೆಗಳು"
+  },
+  "alertsSettingsDescription": {
+    "message": "ಪ್ರತಿ ಎಚ್ಚರಿಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "ಆಯ್ಕೆಮಾಡಿದ ಸಂಪರ್ಕವಿಲ್ಲದ ಖಾತೆಯೊಂದಿಗೆ ವೆಬ್‌ಸೈಟ್ ಬ್ರೌಸಿಂಗ್ ಮಾಡಲಾಗಿದೆ"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "ನೀವು ಸಂಪರ್ಕಿತ ವೆಬ್ 3 ಸೈಟ್ ಅನ್ನು ಬ್ರೌಸ್ ಮಾಡುವಾಗ ಪಾಪ್ಅಪ್‌ನಲ್ಲಿ ಈ ಎಚ್ಚರಿಕೆಯನ್ನು ತೋರಿಸಲಾಗುತ್ತದೆ ಆದರೆ ಪ್ರಸ್ತುತ ಆಯ್ಕೆಮಾಡಿದ ಖಾತೆ ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ."
+  },
+  "allowOriginSpendToken": {
+    "message": "ನಿಮ್ಮ $2 ಖರ್ಚು ಮಾಡಲು $1 ಅನ್ನು ಅನುಮತಿಸುವುದೇ?",
+    "description": "$1 is the url of the site and $2 is the symbol of the token they are requesting to spend"
+  },
+  "allowThisSiteTo": {
+    "message": "ಈ ಸೈಟ್ ಅನ್ನು ಇದಕ್ಕೆ ಅನುಮತಿಸಿ:"
+  },
+  "allowExternalExtensionTo": {
+    "message": "ಈ ಬಾಹ್ಯ ವಿಸ್ತರಣೆಯನ್ನು ಇದಕ್ಕೆ ಅನುಮತಿಸಿ:"
+  },
+  "allowWithdrawAndSpend": {
+    "message": "ಕೆಳಗಿನ ಮೊತ್ತವನ್ನು ಹಿಂಪಡೆಯಲು ಮತ್ತು ಖರ್ಚು ಮಾಡಲು $1 ಅನ್ನು ಅನುಮತಿಸಿ:",
+    "description": "The url of the site that requested permission to 'withdraw and spend'"
+  },
+  "amount": {
+    "message": "ಮೊತ್ತ"
+  },
+  "amountWithColon": {
+    "message": "ಮೊತ್ತ:"
+  },
+  "appDescription": {
+    "message": "ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿರುವ ಎಥೆರಿಯಮ್ ವ್ಯಾಲೆಟ್",
+    "description": "The description of the application"
+  },
+  "appName": {
+    "message": "Brave Software",
+    "description": "The name of the application"
+  },
+  "approve": {
+    "message": "ಖರ್ಚು ಮಿತಿಯನ್ನು ಅನುಮೋದಿಸಿ"
+  },
+  "approveSpendLimit": {
+    "message": "ಖರ್ಚಿನ $1 ಮಿತಿಯನ್ನು ಅನುಮೋದಿಸಿ",
+    "description": "The token symbol that is being approved"
+  },
+  "approved": {
+    "message": "ಅನುಮೋದಿಸಲಾಗಿದೆ"
+  },
+  "asset": {
+    "message": "ಆಸ್ತಿ"
+  },
+  "maker": {
+    "message": "ಮೇಕರ್"
+  },
+  "taker": {
+    "message": "ಟೇಕರ್"
+  },
+  "slippage": {
+    "message": "ಸ್ಲಿಪ್ಪೇಜ್ ಸಹಿಸಿಕೊಳ್ಳುವಿಕೆ"
+  },
+  "assets": {
+    "message": "ಸ್ವತ್ತುಗಳು"
+  },
+  "attemptingConnect": {
+    "message": "ಬ್ಲಾಕ್‌ಚೈನ್‌ಗೆ ಸಂಪರ್ಕಿಸಲು ಪ್ರಯತ್ನಿಸಲಾಗುತ್ತಿದೆ."
+  },
+  "attemptToCancel": {
+    "message": "ರದ್ದುಗೊಳಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವಿರಾ?"
+  },
+  "attemptToCancelDescription": {
+    "message": "ಈ ಪ್ರಯತ್ನವನ್ನು ಸಲ್ಲಿಸುವುದರಿಂದ ನಿಮ್ಮ ಮೂಲ ವಹಿವಾಟು ರದ್ದುಗೊಳ್ಳುತ್ತದೆ ಎಂಬುದಾಗಿ ಖಾತ್ರಿಪಡಿಸಲಾಗುವುದಿಲ್ಲ. ರದ್ದು ಮಾಡುವ ಪ್ರಯತ್ನವು ಯಶಸ್ವಿಯಾದರೆ, ಮೇಲಿನ ವಹಿವಾಟು ಶುಲ್ಕವನ್ನು ನಿಮಗೆ ವಿಧಿಸಲಾಗುತ್ತದೆ."
+  },
+  "attributions": {
+    "message": "ಗುಣಲಕ್ಷಣಗಳು"
+  },
+  "autoLockTimeLimit": {
+    "message": "ಸ್ವಯಂ-ಲಾಕ್ ಟೈಮರ್ (ನಿಮಿಷಗಳು)"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "Brave ಲಾಕ್ ಆಗುವ ಮೊದಲು ನಿಮಿಷಗಳಲ್ಲಿ ಕಾರ್ಯಸ್ಥಗಿತಗೊಳಿಸುವ ಸಮಯವನ್ನು ಹೊಂದಿಸಿ."
+  },
+  "average": {
+    "message": "ಸರಾಸರಿ"
+  },
+  "back": {
+    "message": "ಹಿಂದೆ"
+  },
+  "backToAll": {
+    "message": "ಎಲ್ಲವನ್ನು ಹಿಂತಿರುಗಿಸಿ"
+  },
+  "backupApprovalNotice": {
+    "message": "ನಿಮ್ಮ ವ್ಯಾಲೆಟ್‌ ಮತ್ತು ನಿಧಿಗಳನ್ನು ಭದ್ರವಾಗಿರಿಸಲು ನಿಮ್ಮ ರಹಸ್ಯ ಮರುಪಡೆದುಕೊಳ್ಳುವಿಕೆಯ ಕೋಡ್ ಅನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಿ."
+  },
+  "backupApprovalInfo": {
+    "message": "ನಿಮ್ಮ ಸಾಧನವನ್ನು ನೀವು ಕಳೆದುಕೊಂಡರೆ, ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಮರೆತುಹೋದರೆ, Brave ಅನ್ನು ಮರು-ಸ್ಥಾಪಿಸಬೇಕಾದರೆ ಅಥವಾ ನಿಮ್ಮ ಬೇರೊಂದು ಸಾಧನದಲ್ಲಿ ವಾಲೆಟ್ ಅನ್ನು ಪ್ರವೇಶಿಸಲು ಬಯಸಿದರೆ ಈ ರಹಸ್ಯ ಕೋಡ್ ಅಗತ್ಯವಿದೆ."
+  },
+  "backupNow": {
+    "message": "ಈಗ ಬ್ಯಾಕಪ್‌ ಮಾಡಿ"
+  },
+  "balance": {
+    "message": "ಮೊಬಲಗು"
+  },
+  "balanceOutdated": {
+    "message": "ಮೊಬಲಗು ಹಳೆಯದಾಗಿರಬಹುದು"
+  },
+  "basic": {
+    "message": "ಮೂಲ"
+  },
+  "blockExplorerUrl": {
+    "message": "ಅನ್ವೇಷಕವನ್ನು ನಿರ್ಬಂಧಿಸಿ"
+  },
+  "blockExplorerView": {
+    "message": " $1 ನಲ್ಲಿ ಖಾತೆಯನ್ನು ವೀಕ್ಷಿಸಿ",
+    "description": "$1 replaced by URL for custom block explorer"
+  },
+  "blockiesIdenticon": {
+    "message": "ಬ್ಲಾಕೀಸ್ ಐಡೆಂಟಿಕಾನ್ ಬಳಸಿ"
+  },
+  "nonceField": {
+    "message": "ವಹಿವಾಟನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ"
+  },
+  "nonceFieldHeading": {
+    "message": "ಕಸ್ಟಮ್ ನಾನ್ಸ್"
+  },
+  "nonceFieldDescription": {
+    "message": "ದೃಢೀಕರಣ ಪರದೆಗಳಲ್ಲಿ ನಾನ್ಸ್ (ವಹಿವಾಟು ಸಂಖ್ಯೆ) ಬದಲಾಯಿಸಲು ಇದನ್ನು ಆನ್ ಮಾಡಿ. ಇದು ಸುಧಾರಿತ ವೈಶಿಷ್ಟ್ಯವಾಗಿದೆ, ಎಚ್ಚರಿಕೆಯಿಂದ ಬಳಸಿ."
+  },
+  "browserNotSupported": {
+    "message": "ನಿಮ್ಮ ಬ್ರೌಸರ್ ಬೆಂಬಲಿಸುತ್ತಿಲ್ಲ..."
+  },
+  "builtInCalifornia": {
+    "message": "Brave ಅನ್ನು ಕ್ಯಾಲಿಫೋರ್ನಿಯಾದಲ್ಲಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ ಮತ್ತು ನಿರ್ಮಿಸಲಾಗಿದೆ."
+  },
+  "buyWithWyre": {
+    "message": "Wyre ನೊಂದಿಗೆ ETH ಖರೀದಿಸಿ"
+  },
+  "buyWithWyreDescription": {
+    "message": "ನಿಮ್ಮ Brave ಖಾತೆಗೆ ಸರಿಯಾದ ಇಟಿಎಚ್ ಅನ್ನು ಠೇವಣಿ ಮಾಡಲು ಡೆಬಿಟ್ ಕಾರ್ಡ್ ಬಳಸಲು Wyre ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ."
+  },
+  "buyCoinSwitch": {
+    "message": "ಕಾಯಿನ್‌ಸ್ವೀಚ್‌ನಲ್ಲಿ ಖರೀದಿಸಿ"
+  },
+  "buyCoinSwitchExplainer": {
+    "message": "300 ಕ್ಕೂ ಹೆಚ್ಚು ಕ್ರಿಪ್ಟೋಕರೆನ್ಸಿಗಳನ್ನು ಉತ್ತಮ ದರದಲ್ಲಿ ವಿನಿಮಯ ಮಾಡಿಕೊಳ್ಳುವ ಒಂದು ತಾಣವೆಂದರೆ ಕಾಯಿನ್‌ಸ್ವಿಚ್ ಆಗಿದೆ."
+  },
+  "bytes": {
+    "message": "ಬೈಟ್‌ಗಳು"
+  },
+  "off": {
+    "message": "ಆಫ್"
+  },
+  "ok": {
+    "message": "ಸರಿ"
+  },
+  "on": {
+    "message": "ಆನ್‌"
+  },
+  "optionalBlockExplorerUrl": {
+    "message": "ಅನ್ವೇಷಕ URL ಅನ್ನು ನಿರ್ಬಂಧಿಸಿ (ಐಚ್ಛಿಕ)"
+  },
+  "cancel": {
+    "message": "ರದ್ದುಮಾಡಿ"
+  },
+  "cancelAttempt": {
+    "message": "ಪ್ರಯತ್ನವನ್ನು ರದ್ದುಪಡಿಸಿ"
+  },
+  "cancellationGasFee": {
+    "message": "ರದ್ದುಗೊಳಿಸುವ ಗ್ಯಾಸ್ ಶುಲ್ಕ"
+  },
+  "cancelled": {
+    "message": "ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ"
+  },
+  "chainId": {
+    "message": "ಚೈನ್ ID"
+  },
+  "clickToRevealSeed": {
+    "message": "ರಹಸ್ಯ ಪದಗಳನ್ನು ಬಹಿರಂಗಪಡಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
+  },
+  "close": {
+    "message": "ಮುಚ್ಚಿ"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": "ನಿಮ್ಮ ಹಾರ್ಡ್‌ವೇರ್ ವಾಲೆಟ್‌ಗೆ ಸಂಪರ್ಕ ಸಾಧಿಸಲು ನೀವು Google Chrome ನಲ್ಲಿ Brave ಅನ್ನು ಬಳಸಬೇಕಾಗುತ್ತದೆ."
+  },
+  "confirm": {
+    "message": "ದೃಢೀಕರಿಸು"
+  },
+  "confirmed": {
+    "message": "ಖಚಿತಪಡಿಸಲಾಗಿದೆ"
+  },
+  "confirmPassword": {
+    "message": "ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ದೃಢೀಕರಿಸಿ"
+  },
+  "confirmSecretBackupPhrase": {
+    "message": "ನಿಮ್ಮ ರಹಸ್ಯ ಬ್ಯಾಕಪ್ ಫ್ರೇಸ್ ಅನ್ನು ಖಚಿತಪಡಿಸಿ"
+  },
+  "congratulations": {
+    "message": "ಅಭಿನಂದನೆಗಳು"
+  },
+  "connectAccountOrCreate": {
+    "message": "ಖಾತೆಯನ್ನು ಸಂಪರ್ಕಿಸಿ ಅಥವಾ ಹೊಸದನ್ನು ರಚಿಸಿ"
+  },
+  "connectHardwareWallet": {
+    "message": "ಹಾರ್ಡ್‌ವೆರ್ ವ್ಯಾಲೆಟ್‌‌ಗೆ ಸಂಪರ್ಕಪಡಿಸಿ"
+  },
+  "connect": {
+    "message": "ಸಂಪರ್ಕಿಸು"
+  },
+  "connectingTo": {
+    "message": "$1 ಗೆ ಸಂಪರ್ಕಪಡಿಸಲಾಗುತ್ತಿದೆ"
+  },
+  "connectingToKovan": {
+    "message": "Kovan ಪರೀಕ್ಷಾ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ "
+  },
+  "connectingToMainnet": {
+    "message": "ಮುಖ್ಯ ಎಥೆರಿಯಮ್ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ"
+  },
+  "connectingToRopsten": {
+    "message": "Ropsten ಪರೀಕ್ಷಾ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ"
+  },
+  "connectingToRinkeby": {
+    "message": "Rinkeby ಪರೀಕ್ಷಾ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ"
+  },
+  "connectingToLocalhost": {
+    "message": "ಲೋಕಲ್‌ಹೋಸ್ಟ್ 8545 ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ"
+  },
+  "connectingToGoerli": {
+    "message": "Goerli ಪರೀಕ್ಷಾ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ"
+  },
+  "contacts": {
+    "message": "ಸಂಪರ್ಕಗಳು"
+  },
+  "contactsSettingsDescription": {
+    "message": "ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ಸೇರಿಸಿ, ಸಂಪಾದಿಸಿ, ತೆಗೆದುಹಾಕಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ"
+  },
+  "contactUs": {
+    "message": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ!"
+  },
+  "continueToSwap": {
+    "message": "ಸ್ವಾಪ್‌ಗೆ ಮುಂದುವರಿಯಿರಿ"
+  },
+  "continueToWyre": {
+    "message": "Wyre ಗೆ ಮುಂದುವರಿಸಿ"
+  },
+  "continueToCoinSwitch": {
+    "message": "CoinSwitch ಗೆ ಮುಂದುವರಿಸಿ"
+  },
+  "contractDeployment": {
+    "message": "ಒಪ್ಪಂದದ ನಿಯೋಜನೆ"
+  },
+  "copiedExclamation": {
+    "message": "ನಕಲಿಸಲಾಗಿದೆ!"
+  },
+  "copyAddress": {
+    "message": "ವಿಳಾಸವನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಿ"
+  },
+  "copyTransactionId": {
+    "message": "ವ್ಯವಹಾರ ID ಅನ್ನು ನಕಲಿಸಿ"
+  },
+  "copiedTransactionId": {
+    "message": "ವ್ಯವಹಾರ ID ಅನ್ನು ನಕಲಿಸಲಾಗಿದೆ"
+  },
+  "copyToClipboard": {
+    "message": "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಿ"
+  },
+  "copyPrivateKey": {
+    "message": "ಇದು ನಿಮ್ಮ ಖಾಸಗಿ ಕೀ ಆಗಿದೆ (ನಕಲಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ)"
+  },
+  "create": {
+    "message": "ರಚಿಸಿ"
+  },
+  "createAccount": {
+    "message": "ಖಾತೆಯನ್ನು ರಚಿಸಿ"
+  },
+  "createAWallet": {
+    "message": "ವ್ಯಾಲೆಟ್‌ ಅನ್ನು ರಚಿಸಿ"
+  },
+  "createPassword": {
+    "message": "ಪಾಸ್‌ವರ್ಡ್ ರಚಿಸಿ"
+  },
+  "currencyConversion": {
+    "message": "ಕರೆನ್ಸಿ ಪರಿವರ್ತನೆ"
+  },
+  "currentExtension": {
+    "message": "ಪ್ರಸ್ತುತ ವಿಸ್ತರಣೆ ಪುಟ"
+  },
+  "currentLanguage": {
+    "message": "ಪ್ರಸ್ತುತ ಭಾಷೆ"
+  },
+  "customGas": {
+    "message": "ಗ್ಯಾಸ್ ಕಸ್ಟಮೈಸ್ ಮಾಡಿ"
+  },
+  "customGasSubTitle": {
+    "message": "ಹೆಚ್ಚುತ್ತಿರುವ ಶುಲ್ಕವು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವ ಸಮಯದಲ್ಲಿ ಕಡಿಮೆಯಾಗುತ್ತದೆ ಆದರೆ ಇದು ಖಚಿತವಾಗಿಲ್ಲ."
+  },
+  "customToken": {
+    "message": "ಕಸ್ಟಮ್ ಟೋಕನ್"
+  },
+  "customRPC": {
+    "message": "ಕಸ್ಟಮ್ RPC"
+  },
+  "customSpendLimit": {
+    "message": "ಕಸ್ಟಮ್ ಖರ್ಚು ಮಿತಿ"
+  },
+  "dataBackupFoundInfo": {
+    "message": "Brave ನ ಹಿಂದಿನ ಸ್ಥಾಪನೆಯ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಕೆಲವು ಖಾತೆ ಡೇಟಾವನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಲಾಗಿದೆ. ಇದು ನಿಮ್ಮ ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಸಂಪರ್ಕಗಳು ಮತ್ತು ಟೋಕನ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿರಬಹುದು. ಈ ಡೇಟಾವನ್ನು ಈಗ ಮರುಸ್ಥಾಪಿಸಲು ನೀವು ಬಯಸುವಿರಾ?"
+  },
+  "decimalsMustZerotoTen": {
+    "message": "ದಶಮಾಂಶಗಳು ಕನಿಷ್ಟ 0 ಆಗಿರಬೇಕು ಮತ್ತು 36 ಕ್ಕಿಂತ ಹೆಚ್ಚಿರಬಾರದು"
+  },
+  "decimal": {
+    "message": "ನಿಖರತೆಯ ದಶಮಾಂಶಗಳು"
+  },
+  "defaultNetwork": {
+    "message": "ಎಥರ್ ವಹಿವಾಟುಗಳಿಗಾಗಿ ಡೀಫಾಲ್ಟ್ ನೆಟ್‌ವರ್ಕ್ ಪ್ರಮುಖವಾಗಿರುವ ನೆಟ್ ಆಗಿದೆ."
+  },
+  "delete": {
+    "message": "ಅಳಿಸಿ"
+  },
+  "deleteAccount": {
+    "message": "ಖಾತೆಯನ್ನು ಅಳಿಸಿ"
+  },
+  "deposit": {
+    "message": "ಠೇವಣಿ"
+  },
+  "depositEther": {
+    "message": "ಎಥರ್ ಠೇವಣಿ ಮಾಡಿ"
+  },
+  "details": {
+    "message": "ವಿವರಗಳು"
+  },
+  "directDepositEther": {
+    "message": "ಎಥರ್ ನೇರವಾಗಿ ಠೇವಣಿ ಮಾಡಿ"
+  },
+  "directDepositEtherExplainer": {
+    "message": "ನೀವು ಈಗಾಗಲೇ ಕೆಲವು ಎಥರ್ ಹೊಂದಿದ್ದರೆ, ನೇರ ಠೇವಣಿ ಮೂಲಕ ನಿಮ್ಮ ಹೊಸ ವ್ಯಾಲೆಟ್‌ನಲ್ಲಿ ಎಥರ್ ಅನ್ನು ಪಡೆಯುವ ತ್ವರಿತ ಮಾರ್ಗ."
+  },
+  "done": {
+    "message": "ಮುಗಿದಿದೆ"
+  },
+  "dontShowThisAgain": {
+    "message": "ಇದನ್ನು ಮತ್ತೆ ತೋರಿಸಬೇಡಿ"
+  },
+  "downloadGoogleChrome": {
+    "message": "Google Chrome ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "downloadSecretBackup": {
+    "message": "ಈ ರಹಸ್ಯ ಬ್ಯಾಕಪ್ ಫ್ರೇಸ್‌ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ಬಾಹ್ಯ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಹಾರ್ಡ್ ಡ್ರೈವ್ ಅಥವಾ ಸಂಗ್ರಹಣೆ ಮಾಧ್ಯಮದಲ್ಲಿ ಅದನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿಸಿಡಿ."
+  },
+  "downloadStateLogs": {
+    "message": "ರಾಜ್ಯದ ಲಾಗ್‌ಗಳನ್ನು  ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "dontHaveAHardwareWallet": {
+    "message": "ಹಾರ್ಡ್‌ವೇರ್ ವ್ಯಾಲೆಟ್‌ ಅನ್ನು ಹೊಂದಿಲ್ಲವೇ?"
+  },
+  "dropped": {
+    "message": "ಕೈಬಿಡಲಾಗಿದೆ"
+  },
+  "edit": {
+    "message": "ಎಡಿಟ್"
+  },
+  "editContact": {
+    "message": "ಸಂಪರ್ಕವನ್ನು ಸಂಪಾದಿಸಿ"
+  },
+  "editPermission": {
+    "message": "ಅನುಮತಿಯನ್ನು ಸಂಪಾದಿಸಿ"
+  },
+  "endOfFlowMessage1": {
+    "message": "ನೀವು ಪರೀಕ್ಷೆಯನ್ನು ಪಾಸ್ ಮಾಡಿರುವಿರಿ - ನಿಮ್ಮ ಸೀಡ್‌ಫ್ರೇಸ್ ಸುರಕ್ಷಿತವಾಗಿರಿಸಿ, ಅದು ನಿಮ್ಮ ಜವಾಬ್ದಾರಿಯಾಗಿದೆ!"
+  },
+  "endOfFlowMessage2": {
+    "message": "ಅದನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿಸುವ ಸಲಹೆಗಳು"
+  },
+  "endOfFlowMessage3": {
+    "message": "ಬಹು ಸ್ಥಳಗಳಲ್ಲಿ ಬ್ಯಾಕಪ್‌ ಉಳಿಸಿ"
+  },
+  "endOfFlowMessage4": {
+    "message": "ಯಾರೊಂದಿಗೂ ಫ್ರೇಸ್ ಅನ್ನು ಎಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ."
+  },
+  "endOfFlowMessage5": {
+    "message": "ಫಿಶಿಂಗ್ ಕುರಿತು ಜಾಗರೂಕರಾಗಿರಿ! Brave ಎಂದಿಗೂ ನಿಮ್ಮ ಸೀಡ್ ಫ್ರೇಸ್ ಅನ್ನು ಕೇಳುವುದಿಲ್ಲ."
+  },
+  "endOfFlowMessage6": {
+    "message": "ನಿಮ್ಮ ಸೀಡ್ ಫ್ರೇಸ್‌ನಿಂದ ಮತ್ತೊಮ್ಮೆ ನೀವು ಮತ್ತೆ ಬ್ಯಾಕಪ್ ಮಾಡಬೇಕಾದರೆ, ನೀವು ಅದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳು -> ಭದ್ರತೆಯಲ್ಲಿ ಕಾಣಬಹುದು."
+  },
+  "endOfFlowMessage7": {
+    "message": "ನೀವು ಎಂದಾದರೂ ಪ್ರಶ್ನೆಗಳನ್ನು ಹೊಂದಿದ್ದರೆ ಅಥವಾ ಅನುಮಾನಾಸ್ಪದವಾಗಿರುವುದನ್ನು ನೋಡಿದರೆ, ನಮ್ಮ ವ್ಯಾಲೆಟ್‌ಗೆ ಭೇಟಿ ನೀಡಿ"
+  },
+  "endOfFlowMessage8": {
+    "message": "Brave ನಿಮ್ಮ ಸೀಡ್‌ಫ್ರೇಸ್ ಅನ್ನು ಮರುಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ."
+  },
+  "endOfFlowMessage9": {
+    "message": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ."
+  },
+  "endOfFlowMessage10": {
+    "message": "ಎಲ್ಲಾ ಮುಗಿದಿದೆ"
+  },
+  "endOfFlowMessage11": {
+    "message": "ಬೆಂಬಲ ಫೋರಂ."
+  },
+  "externalExtension": {
+    "message": "ಬಾಹ್ಯ ವಿಸ್ತರಣೆ"
+  },
+  "onboardingReturnNotice": {
+    "message": "\"$1\" ಈ ಟ್ಯಾಬ್ ಅನ್ನು ಮುಚ್ಚುತ್ತದೆ ಮತ್ತು \"$2\" ಗೆ ಹಿಂತಿರುಗಿಸುತ್ತದೆ",
+    "description": "Return the user to the site that initiated onboarding"
+  },
+  "ensRegistrationError": {
+    "message": "ENS ಹೆಸರಿನ ನೋಂದಣಿಯಲ್ಲಿ ದೋಷ"
+  },
+  "ensNotFoundOnCurrentNetwork": {
+    "message": "ಪ್ರಸ್ತುತ ನೆಟ್‌ವರ್ಕ್‌ನಲ್ಲಿ ENS ಹೆಸರು ಕಂಡುಬಂದಿಲ್ಲ. ಮುಖ್ಯವಾಗಿರುವ ಎಥೆರಿಯಮ್ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಬದಲಾಯಿಸಲು ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "enterAnAlias": {
+    "message": "ಆಲಿಯಾಸ್ ಅನ್ನು ನಮೂದಿಸಿ"
+  },
+  "enterMaxSpendLimit": {
+    "message": "ಗರಿಷ್ಠ ಖರ್ಚು ಮಿತಿಯನ್ನು ನಮೂದಿಸಿ"
+  },
+  "enterPassword": {
+    "message": "ಪಾಸ್‌ವರ್ಡ್‌ ಅನ್ನು ನಮೂದಿಸಿ"
+  },
+  "enterPasswordContinue": {
+    "message": "ಮುಂದುವರೆಯಲು ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ"
+  },
+  "errorCode": {
+    "message": "ಕೋಡ್: $1",
+    "description": "Displayed error code for debugging purposes. $1 is the error code"
+  },
+  "errorDetails": {
+    "message": "ದೋಷ ವಿವರಗಳು",
+    "description": "Title for collapsible section that displays error details for debugging purposes"
+  },
+  "errorMessage": {
+    "message": "ಸಂದೇಶ: $1",
+    "description": "Displayed error message for debugging purposes. $1 is the error message"
+  },
+  "errorName": {
+    "message": "ಕೋಡ್: $1",
+    "description": "Displayed error name for debugging purposes. $1 is the error name"
+  },
+  "errorPageTitle": {
+    "message": "Brave ದೋಷವನ್ನು ಎದುರಿಸಿದೆ",
+    "description": "Title of generic error page"
+  },
+  "errorPageMessage": {
+    "message": "ಪುಟವನ್ನು ಮರುಲೋಡ್ ಮಾಡುವ ಮೂಲಕ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ support@brave.com ನಲ್ಲಿ ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ",
+    "description": "Message displayed on generic error page in the fullscreen or notification UI"
+  },
+  "errorPagePopupMessage": {
+    "message": "ಪಾಪ್ಅಪ್ ಅನ್ನು ಮುಚ್ಚುವ ಮೂಲಕ ಹಾಗೂ ಮತ್ತೆ ತೆರೆಯುವ ಮೂಲಕ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ support@brave.com ನಲ್ಲಿ ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ",
+    "description": "Message displayed on generic error page in the popup UI"
+  },
+  "errorStack": {
+    "message": "ಸ್ಟ್ಯಾಕ್:",
+    "description": "Title for error stack, which is displayed for debugging purposes"
+  },
+  "ethereumPublicAddress": {
+    "message": "ಎಥೆರಿಯಮ್ ಸಾರ್ವಜನಿಕ ವಿಳಾಸ"
+  },
+  "etherscanView": {
+    "message": "ಎಥರ್‌ಸ್ಕ್ಯಾನ್‌ನಲ್ಲಿ ಖಾತೆಯನ್ನು ವೀಕ್ಷಿಸಿ"
+  },
+  "estimatedProcessingTimes": {
+    "message": "ಅಂದಾಜು ಪ್ರಕ್ರಿಯೆ ಸಮಯ"
+  },
+  "estimatedNetworkFee": {
+    "message": "ಅಂದಾಜು ನೆಟ್‌ವರ್ಕ್ ಶುಲ್ಕ"
+  },
+  "expandView": {
+    "message": "ವೀಕ್ಷಣೆಯನ್ನು ವಿಸ್ತರಿಸಿ"
+  },
+  "exportPrivateKey": {
+    "message": "ಖಾಸಗಿ ಕೀಲಿಯನ್ನು ರಫ್ತು ಮಾಡಿ"
+  },
+  "failed": {
+    "message": "ವಿಫಲವಾಗಿದೆ"
+  },
+  "failureMessage": {
+    "message": "ಏನೋ ತಪ್ಪಾಗಿದೆ ಮತ್ತು ನಮಗೆ ಕ್ರಿಯೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"
+  },
+  "fast": {
+    "message": "ವೇಗ"
+  },
+  "faster": {
+    "message": "ವೇಗವಾಗಿ"
+  },
+  "feeAssociatedRequest": {
+    "message": "ಈ ವಿನಂತಿಯೊಂದಿಗೆ ಶುಲ್ಕವನ್ನು ಸಂಯೋಜಿಸಲಾಗಿದೆ."
+  },
+  "fiat": {
+    "message": "ಫಿಯೆಟ್",
+    "description": "Exchange type"
+  },
+  "fileImportFail": {
+    "message": "ಫೈಲ್ ಆಮದು ಮಾಡುವಿಕೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿಲ್ಲವೇ? ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ!",
+    "description": "Helps user import their account from a JSON file"
+  },
+  "forgetDevice": {
+    "message": "ಈ ಸಾಧನವನ್ನು ಮರೆತುಬಿಡಿ"
+  },
+  "from": {
+    "message": "ನಿಂದ"
+  },
+  "fromAddress": {
+    "message": "ಇವರಿಂದ: $1",
+    "description": "$1 is the address to include in the From label. It is typically shortened first using shortenAddress"
+  },
+  "functionApprove": {
+    "message": "ಕಾರ್ಯ: ಅನುಮೋದಿಸಿ"
+  },
+  "functionType": {
+    "message": "ಕಾರ್ಯದ ಪ್ರಕಾರ"
+  },
+  "gasLimit": {
+    "message": "ಗ್ಯಾಸ್ ಮಿತಿ"
+  },
+  "gasLimitInfoModalContent": {
+    "message": "ಗ್ಯಾಸ್‌ ಮಿತಿ ಎಂದರೆ ನೀವು ಖರ್ಚು ಮಾಡಲು ಸಿದ್ಧವಿರುವ ಗ್ಯಾಸ್‌ನ ಗರಿಷ್ಠ ಪ್ರಮಾಣ."
+  },
+  "gasLimitTooLow": {
+    "message": "ಗ್ಯಾಸ್ ಮಿತಿಯು ಕನಿಷ್ಟ 21000 ಆಗಿರಬೇಕು"
+  },
+  "gasUsed": {
+    "message": "ಗ್ಯಾಸ್ ಬಳಸಲಾಗಿದೆ"
+  },
+  "gasPrice": {
+    "message": "ಗ್ಯಾಸ್ ದರ (GWEI)"
+  },
+  "gasPriceExtremelyLow": {
+    "message": "ಗ್ಯಾಸ್ ದರವು ಅತ್ಯಂತ ಕಡಿಮೆಯಿದೆ"
+  },
+  "gasPriceInfoModalContent": {
+    "message": "ಗ್ಯಾಸ್ ದರವು ಪ್ರತಿ ಯೂನಿಟ್ ಗ್ಯಾಸ್‌ಗೆ ನೀವು ಪಾವತಿಸಲು ಸಿದ್ಧವಿರುವ ಎಥರ್‌ನ ಪ್ರಮಾಣವನ್ನು ಸೂಚಿಸುತ್ತದೆ."
+  },
+  "gasPriceNoDenom": {
+    "message": "ಗ್ಯಾಸ್ ದರ"
+  },
+  "gdprMessage": {
+    "message": "ಈ ಡೇಟಾವನ್ನು ಒಟ್ಟುಗೂಡಿಸಲಾಗಿದೆ ಮತ್ತು ಆದ್ದರಿಂದ ಜನರಲ್ ಡಾಟಾ ಪ್ರೊಟೆಕ್ಷನ್ ರೆಗ್ಯುಲೇಷನ್ (ಇಯು) 2016/679 ರ ಉದ್ದೇಶಗಳಿಗಾಗಿ ಅನಾಮಧೇಯವಾಗಿದೆ. ನಮ್ಮ ಗೌಪ್ಯತೆ ಅಭ್ಯಾಸಗಳಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ, ದಯವಿಟ್ಟು ನಮ್ಮ $1 ನೋಡಿ.",
+    "description": "$1 refers to the gdprMessagePrivacyPolicy message, the translation of which is meant to be used exclusively in the context of gdprMessage"
+  },
+  "gdprMessagePrivacyPolicy": {
+    "message": "ಗೌಪ್ಯತೆ ನೀತಿ ಇಲ್ಲಿದೆ",
+    "description": "this translation is intended to be exclusively used as the replacement for the $1 in the gdprMessage translation"
+  },
+  "general": {
+    "message": "ಸಾಮಾನ್ಯ"
+  },
+  "generalSettingsDescription": {
+    "message": "ಕರೆನ್ಸಿ ಪರಿವರ್ತನೆ, ಪ್ರಾಥಮಿಕ ಕರೆನ್ಸಿ, ಭಾಷೆ, ನಿರ್ಬಂಧಗಳ ಗುರುತಿಸುವಿಕೆ"
+  },
+  "getEther": {
+    "message": "ಎಥರ್ ಪಡೆಯಿರಿ"
+  },
+  "getEtherFromFaucet": {
+    "message": "$1 ಗಾಗಿ ಫಾಸೆಟ್‌ನಿಂದ ಎಥರ್ ಅನ್ನು ಪಡೆಯಿರಿ",
+    "description": "Displays network name for Ether faucet"
+  },
+  "getHelp": {
+    "message": "ಸಹಾಯವನ್ನು ಪಡೆಯಿರಿ."
+  },
+  "getStarted": {
+    "message": "ಪ್ರಾರಂಭಗೊಂಡಿದೆ"
+  },
+  "happyToSeeYou": {
+    "message": "ನಿಮ್ಮನ್ನು ನೋಡಿ ನಮಗೆ ಸಂತೋಷವಾಗಿದೆ."
+  },
+  "hardware": {
+    "message": "ಹಾರ್ಡ್‌ವೇರ್"
+  },
+  "hardwareWalletConnected": {
+    "message": "ಹಾರ್ಡ್‌ವೇರ್ ವ್ಯಾಲೆಟ್ ಅನ್ನು ಸಂಪರ್ಕಪಡಿಸಲಾಗಿದೆ"
+  },
+  "hardwareWallets": {
+    "message": "ಹಾರ್ಡ್‌ವೇರ್ ವ್ಯಾಲೆಟ್‌ ಸಂಪರ್ಕಿಸಿ"
+  },
+  "hardwareWalletsMsg": {
+    "message": "ನೀವು Brave ‌ನೊಂದಿಗೆ ಬಳಸಲು ಬಯಸುವ ಹಾರ್ಡ್‌ವೇರ್ ವ್ಯಾಲೆಟ್ ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "havingTroubleConnecting": {
+    "message": "ಸಂಪರ್ಕಿಸುವಲ್ಲಿ ತೊಂದರೆ ಇದೆಯೇ?"
+  },
+  "here": {
+    "message": "ಇಲ್ಲಿ",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
+  },
+  "hexData": {
+    "message": "Hex ಡೇಟಾ"
+  },
+  "hide": {
+    "message": "ಮರೆಮಾಡಿ"
+  },
+  "hideTokenSymbol": {
+    "message": "$1 ಅನ್ನು ಮರೆಮಾಡಿ",
+    "description": "$1 is the symbol for a token (e.g. 'DAI')"
+  },
+  "hideTokenPrompt": {
+    "message": "ಟೋಕನ್ ಮರೆಮಾಡುವುದೇ?"
+  },
+  "history": {
+    "message": "ಇತಿಹಾಸ"
+  },
+  "home": {
+    "message": "ಹೋಮ್"
+  },
+  "import": {
+    "message": "ಆಮದು",
+    "description": "Button to import an account from a selected file"
+  },
+  "importAccount": {
+    "message": "ಖಾತೆಯನ್ನು ಆಮದು ಮಾಡಿ"
+  },
+  "importAccountMsg": {
+    "message": "ಆಮದು ಮಾಡಿದ ಖಾತೆಗಳು ನಿಮ್ಮ ಮೂಲತಃ ರಚಿಸಿದ Brave ಖಾತೆ ಸೀಡ್‌ಫ್ರೇಸ್‌ನೊಂದಿಗೆ ಸಂಬಂಧ ಹೊಂದಿಲ್ಲ. ಆಮದು ಮಾಡಿದ ಖಾತೆಗಳ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"
+  },
+  "importAccountSeedPhrase": {
+    "message": "ಸೀಡ್‌ ಫ್ರೇಸ್‌ನೊಂದಿಗೆ ಖಾತೆಯನ್ನು ಆಮದು ಮಾಡಿ"
+  },
+  "importWallet": {
+    "message": "ವಾಲೆಟ್ ಅನ್ನು ಆಮದು ಮಾಡಿ"
+  },
+  "importYourExisting": {
+    "message": "12 ಅಥವಾ 24 ಪದಗಳ ಸೀಡ್‌ ಫ್ರೇಸ್ ಅನ್ನು ಬಳಸಿಕೊಂಡು ನಿಮ್ಮ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ವ್ಯಾಲೆಟ್ ಅನ್ನು ಆಮದು ಮಾಡಿ"
+  },
+  "imported": {
+    "message": "ಆಮದುಮಾಡಲಾಗಿದೆ",
+    "description": "status showing that an account has been fully loaded into the keyring"
+  },
+  "importUsingSeed": {
+    "message": "ಸೀಡ್‌ ಫ್ರೇಸ್‌ ಖಾತೆಯನ್ನು ಬಳಸಿಕೊಂಡು ಆಮದು ಮಾಡಿ"
+  },
+  "infoHelp": {
+    "message": "ಮಾಹಿತಿ & ಸಹಾಯ"
+  },
+  "initialTransactionConfirmed": {
+    "message": "ನಿಮ್ಮ ಆರಂಭಿಕ ವಹಿವಾಟನ್ನು ನೆಟ್‌ವರ್ಕ್ ಮೂಲಕ ಖಚಿತಪಡಿಸಲಾಗಿದೆ. ಹಿಂತಿರುಗಲು ಸರಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
+  },
+  "insufficientBalance": {
+    "message": "ಸಾಕಷ್ಟು ಮೊಬಲಗು ಇಲ್ಲ."
+  },
+  "insufficientFunds": {
+    "message": "ಸಾಕಷ್ಟು ಫಂಡ್‌ಗಳಿಲ್ಲ."
+  },
+  "insufficientTokens": {
+    "message": "ಸಾಕಷ್ಟು ಟೋಕನ್‌ಗಳಿಲ್ಲ."
+  },
+  "insufficientFundsGas": {
+    "message": "ಗ್ಯಾಸ್‌ಗಾಗಿ ಸಾಕಷ್ಟು ಫಂಡ್‌ಗಳಿಲ್ಲ."
+  },
+  "balanceFetchError": {
+    "message": "ಬ್ಯಾಲೆನ್ಸ್ ಪಡೆದುಕೊಳ್ಳುವಿಕೆ ದೋಷ."
+  },
+  "invalidAddress": {
+    "message": "ಅಮಾನ್ಯವಾದ ವಿಳಾಸ"
+  },
+  "invalidAddressRecipient": {
+    "message": "ಸ್ವೀಕೃತಿದಾರರ ವಿಳಾಸವು ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "knownAddressRecipient": {
+    "message": "ತಿಳಿದಿರುವ ಒಪ್ಪಂದದ ವಿಳಾಸ."
+  },
+  "knownTokenWarning": {
+    "message": "ಈ ಕ್ರಿಯೆಯು ನಿಮ್ಮ ವಾಲೆಟ್‌ನಲ್ಲಿ ಈಗಾಗಲೇ ಪಟ್ಟಿ ಮಾಡಲಾದ ಟೋಕನ್‌ಗಳನ್ನು ಸಂಪಾದಿಸುತ್ತದೆ, ಅದನ್ನು ನಿಮಗೆ ಫಿಶ್ ಮಾಡಲು ಬಳಸಬಹುದು. ಈ ಟೋಕನ್‌ಗಳು ಪ್ರತಿನಿಧಿಸುವದನ್ನು ಬದಲಾಯಿಸುವುದು ನಿಮ್ಮ ಉದ್ದೇಶ ಎಂದು ನಿಮಗೆ ಖಚಿತವಾಗಿದ್ದರೆ ಮಾತ್ರ ಅನುಮೋದಿಸಿ."
+  },
+  "reusedTokenNameWarning": {
+    "message": "ಇಲ್ಲಿರುವ ಟೋಕನ್ ನೀವು ನೋಡುವ ಮತ್ತೊಂದು ಟೋಕನ್‌ನಿಂದ ಚಿಹ್ನೆಯನ್ನು ಮರುಬಳಕೆ ಮಾಡುತ್ತದೆ, ಇದು ಗೊಂದಲ ಅಥವಾ ಮೋಸಗೊಳಿಸುವಂತಹದ್ದಾಗಿದೆ."
+  },
+  "invalidAddressRecipientNotEthNetwork": {
+    "message": "ETH ನೆಟ್‌ವರ್ಕ್‌ಗಳಿಲ್ಲ, ಸಣ್ಣಕ್ಷರಕ್ಕೆ ಹೊಂದಿಸಲಾಗಿದೆ"
+  },
+  "invalidCustomNetworkAlertContent1": {
+    "message": "ಕಸ್ಟಮ್ ನೆಟ್‌ವರ್ಕ್ '$1' ನಲ್ಲಿ ಅದರ ಚೈನ್ ID ಕಾಣೆಯಾಗಿದೆ.",
+    "description": "$1 is the name/identifier of the network."
+  },
+  "invalidCustomNetworkAlertContent2": {
+    "message": "ದುರುದ್ದೇಶಿತ ಅಥವಾ ದೋಷಪೂರಿತ ನೆಟ್‌ವರ್ಕ್ ಪೂರೈಕೆದಾರರಿಂದ ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸುವುದಕ್ಕಾಗಿ, ಎಲ್ಲಾ ಕಸ್ಟಮ್ ನೆಟ್‌ವರ್ಕ್‌ಗಳಿಗೆ ಚೈನ್ ID ಗಳು ಇದೀಗ ಅಗತ್ಯವಿರುತ್ತವೆ."
+  },
+  "invalidCustomNetworkAlertContent3": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು > ನೆಟ್‌ವರ್ಕ್ ಎಂಬಲ್ಲಿಗೆ ಹೋಗಿ ಮತ್ತು ಚೈನ್ ID ನಮೂದಿಸಿ. ಹೆಚ್ಚಿನ ಜನಪ್ರಿಯ ನೆಟ್‌ವರ್ಕ್‌ಗಳ ಚೈನ್ ID ಗಳನ್ನು ನೀವು $1 ನಲ್ಲಿ ಕಾಣಬಹುದು.",
+    "description": "$1 is a link to https://chainid.network"
+  },
+  "invalidCustomNetworkAlertTitle": {
+    "message": "ಅಮಾನ್ಯ ಕಸ್ಟಮ್ ನೆಟ್‌ವರ್ಕ್"
+  },
+  "invalidHexNumber": {
+    "message": "ಅಮಾನ್ಯ ಹೆಕ್ಸಾಡೆಸಿಮಲ್ ಸಂಖ್ಯೆ."
+  },
+  "invalidHexNumberLeadingZeros": {
+    "message": "ಅಮಾನ್ಯ ಹೆಕ್ಸಾಡೆಸಿಮಲ್ ಸಂಖ್ಯೆ. ಸಂಖ್ಯೆಗಿಂತ ಮೊದಲಿನ ಯಾವುವದೇ ಶೂನ್ಯಗಳನ್ನು ತೆಗೆದುಹಾಕಿ."
+  },
+  "invalidRPC": {
+    "message": "ಅಮಾನ್ಯವಾದ RPC URL"
+  },
+  "invalidBlockExplorerURL": {
+    "message": "ಅಮಾನ್ಯ ಬ್ಲಾಕ್ ಎಕ್ಸ್‌ಪ್ಲೋರರ್ URL"
+  },
+  "invalidSeedPhrase": {
+    "message": "ಅಮಾನ್ಯವಾದ ಸೀಡ್ ಫ್ರೇಸ್"
+  },
+  "ipfsGateway": {
+    "message": "IPFS ಗೇಟ್‌ವೇ"
+  },
+  "ipfsGatewayDescription": {
+    "message": "ENS ವಿಷಯ ರೆಸಲ್ಯೂಶನ್‌ಗಾಗಿ ಬಳಸಲು IPFS CID ಗೇಟ್‌ವೇಯ URL ಅನ್ನು ನಮೂದಿಸಿ."
+  },
+  "invalidIpfsGateway": {
+    "message": "ಅಮಾನ್ಯವಾಗಿರುವ IPFS ಗೇಟ್‌ವೇ: ಮೌಲ್ಯವು ಮಾನ್ಯವಾದ URL ಆಗಿರಬೇಕು"
+  },
+  "invalidNumber": {
+    "message": "ಅಮಾನ್ಯ ಸಂಖ್ಯೆ. ಡೆಸಿಮಲ್ ಅಥವಾ ಹೆಕ್ಸಾಡೆಸಿಮಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ."
+  },
+  "invalidNumberLeadingZeros": {
+    "message": "ಅಮಾನ್ಯ ಸಂಖ್ಯೆ. ಸಂಖ್ಯೆಗಿಂತ ಮೊದಲಿನ ಯಾವುವದೇ ಶೂನ್ಯಗಳನ್ನು ತೆಗೆದುಹಾಕಿ."
+  },
+  "forbiddenIpfsGateway": {
+    "message": "ನಿಷೇಧಿಸಲಾದ IPFS ಗೇಟ್‌ವೇ: ದಯವಿಟ್ಟು CID ಗೇಟ್‌ವೇ ಅನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ"
+  },
+  "jsonFile": {
+    "message": "JSON ಫೈಲ್",
+    "description": "format for importing an account"
+  },
+  "kovan": {
+    "message": "Kovan ಪರೀಕ್ಷೆ ನೆಟ್‌ವರ್ಕ್"
+  },
+  "max": {
+    "message": "ಗರಿಷ್ಟ"
+  },
+  "lastConnected": {
+    "message": "ಕೊನೆಯದಾಗಿ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ"
+  },
+  "learnMore": {
+    "message": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"
+  },
+  "ledgerAccountRestriction": {
+    "message": "ನೀವು ಹೊಸದನ್ನು ಸೇರಿಸುವುದರ ಮೊದಲು ನಿಮ್ಮ ಹಿಂದಿನ ಖಾತೆಯನ್ನು ನೀವು ಬಳಸಬೇಕು."
+  },
+  "letsGoSetUp": {
+    "message": "ಹೌದು, ಹೊಂದಿಸೋಣ!"
+  },
+  "likeToAddTokens": {
+    "message": "ನೀವು ಈ ಟೋಕನ್‌ಗಳನ್ನು ಸೇರಿಸಲು ಬಯಸುತ್ತೀರಾ?"
+  },
+  "links": {
+    "message": "ಲಿಂಕ್‌ಗಳು"
+  },
+  "liveGasPricePredictions": {
+    "message": "ಲೈವ್ ಗ್ಯಾಸ್ ಬೆಲೆಯ ಭವಿಷ್ಯಗಳು"
+  },
+  "loading": {
+    "message": "ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+  },
+  "loadingTokens": {
+    "message": "ಟೋಕನ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ..."
+  },
+  "loadMore": {
+    "message": "ಇನ್ನಷ್ಟು ಲೋಡ್ ಮಾಡಿ"
+  },
+  "localhost": {
+    "message": "ಲೋಕಲ್‌ಹೋಸ್ಟ್ 8545"
+  },
+  "lock": {
+    "message": "ಲಾಕ್ ಮಾಡಿ"
+  },
+  "lockTimeTooGreat": {
+    "message": "ಲಾಕ್ ಸಮಯ ತುಂಬಾ ಅದ್ಭುತವಾಗಿದೆ"
+  },
+  "mainnet": {
+    "message": "ಪ್ರಮುಖ ಎಥೆರಿಯಮ್ ನೆಟ್‌ವರ್ಕ್"
+  },
+  "availableOnMainnetRopsten": {
+    "message": "ಮೈನ್‌ನೆಟ್ ಮತ್ತು ರೋಪ್‌ಸ್ಟನ್‌ನಲ್ಲಿ ಮಾತ್ರ ಲಭ್ಯವಿದೆ"
+  },
+  "memorizePhrase": {
+    "message": "ಈ ಫ್ರೇಸ್ ಅನ್ನು ನೆನಪಿಡಿ."
+  },
+  "memo": {
+    "message": "ಮೆಮೊ"
+  },
+  "message": {
+    "message": "ಸಂದೇಶ"
+  },
+  "metaMaskConnectStatusParagraphOne": {
+    "message": "Brave ನಲ್ಲಿ ನಿಮ್ಮ ಖಾತೆ ಸಂಪರ್ಕಗಳ ಮೇಲೆ ನೀವು ಈಗ ಹೆಚ್ಚಿನ ನಿಯಂತ್ರಣವನ್ನು ಹೊಂದಿದ್ದೀರಿ."
+  },
+  "metaMaskConnectStatusParagraphTwo": {
+    "message": "ನೀವು ಭೇಟಿ ನೀಡುವ ವೆಬ್‌ಸೈಟ್ ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಆಯ್ಕೆಮಾಡಿದ ಖಾತೆಗೆ ಸಂಪರ್ಕಗೊಂಡಿದ್ದರೆ ಸಂಪರ್ಕ ಸ್ಥಿತಿ ಬಟನ್ ತೋರಿಸುತ್ತದೆ."
+  },
+  "metaMaskConnectStatusParagraphThree": {
+    "message": "ನಿಮ್ಮ ಸಂಪರ್ಕಿತ ಖಾತೆಗಳನ್ನು ನಿರ್ವಹಿಸಲು ಅದನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."
+  },
+  "metamaskDescription": {
+    "message": "ನಿಮ್ಮನ್ನು ಎಥೆರಿಯಮ್ ಮತ್ತು ವಿಕೇಂದ್ರೀಕೃತ ವೆಬ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ."
+  },
+  "metamaskVersion": {
+    "message": "Brave ಆವೃತ್ತಿ"
+  },
+  "mobileSyncText": {
+    "message": "ಇದು ನೀವೇ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ನಮೂದಿಸಿ!"
+  },
+  "myAccounts": {
+    "message": "ನನ್ನ ಖಾತೆಗಳು"
+  },
+  "myWalletAccounts": {
+    "message": "ನನ್ನ ವ್ಯಾಲೆಟ್ ಖಾತೆಗಳು"
+  },
+  "myWalletAccountsDescription": {
+    "message": "ನಿಮ್ಮ ಎಲ್ಲಾ Brave ರಚಿಸಿದ ಖಾತೆಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಈ ವಿಭಾಗಕ್ಕೆ ಸೇರಿಸಲಾಗುತ್ತದೆ."
+  },
+  "mustSelectOne": {
+    "message": "ಕನಿಷ್ಟ 1 ಟೋಕನ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಬೇಕು."
+  },
+  "needEtherInWallet": {
+    "message": "Brave ಬಳಸಿಕೊಂಡು ವಿಕೇಂದ್ರೀಕೃತ ಅಪ್ಲಿಕೇಶನ್‌ಗಳೊಂದಿಗೆ ಸಂವಹನ ನಡೆಸಲು, ನಿಮ್ಮ ವಾಲೆಟ್‌ನಲ್ಲಿ ನಿಮಗೆ ಈಥರ್ ಅಗತ್ಯವಿದೆ."
+  },
+  "needImportFile": {
+    "message": "ಆಮದು ಮಾಡಲು ನೀವು ಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಬೇಕು.",
+    "description": "User is important an account and needs to add a file to continue"
+  },
+  "negativeETH": {
+    "message": "ನಕಾರಾತ್ಮಕ ಪ್ರಮಾಣದ ಇಟಿಹೆಚ್ ಅನ್ನು ಕಳುಹಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."
+  },
+  "networkName": {
+    "message": "ನೆಟ್‌ವರ್ಕ್ ಹೆಸರು"
+  },
+  "networks": {
+    "message": "ನೆಟ್‌ವರ್ಕ್‌ಗಳು"
+  },
+  "networkSettingsChainIdDescription": {
+    "message": "ವಹಿವಾಟುಗಳನ್ನು ಸಹಿ ಮಾಡುವುದಕ್ಕಾಗಿ ಚೈನ್ ID ಅನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. '0x' ರಿಂದ ಪ್ರಾರಂಭಗೊಳ್ಳುವ ಡೆಸಿಮಲ್ ಅಥವಾ ಹೆಕ್ಸಾಡೆಸಿಮಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ."
+  },
+  "networkSettingsDescription": {
+    "message": "ಕಸ್ಟಮ್ RPC ನೆಟ್‌ವರ್ಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ ಮತ್ತು ಸಂಪಾದಿಸಿ"
+  },
+  "nevermind": {
+    "message": "ಪರವಾಗಿಲ್ಲ"
+  },
+  "newAccount": {
+    "message": "ಹೊಸ ಖಾತೆ"
+  },
+  "newAccountDetectedDialogMessage": {
+    "message": "ಹೊಸ ವಿಳಾಸ ಪತ್ತೆಯಾಗಿದೆ! ನಿಮ್ಮ ವಿಳಾಸ ಪುಸ್ತಕಕ್ಕೆ ಸೇರಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
+  },
+  "newAccountNumberName": {
+    "message": "ಖಾತೆ $1",
+    "description": "Default name of next account to be created on create account screen"
+  },
+  "newContact": {
+    "message": "ಹೊಸ ಸಂಪರ್ಕ"
+  },
+  "newContract": {
+    "message": "ಹೊಸ ಒಪ್ಪಂದ"
+  },
+  "newPassword": {
+    "message": "ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ (ಕನಿಷ್ಟ 8 ಅಕ್ಷರಗಳು)"
+  },
+  "newNetwork": {
+    "message": "ಹೊಸ ನೆಟ್‌ವರ್ಕ್"
+  },
+  "newToMetaMask": {
+    "message": "Brave ಗೆ ಹೊಸತೇ?"
+  },
+  "noAlreadyHaveSeed": {
+    "message": "ಇಲ್ಲ, ನಾನು ಈಗಾಗಲೇ ಸೀಡ್ ಫ್ರೇಸ್ ಅನ್ನು ಹೊಂದಿದ್ದೇನೆ"
+  },
+  "protectYourKeys": {
+    "message": "ನಿಮ್ಮ ಕೀಗಳನ್ನು ರಕ್ಷಿಸಿ!"
+  },
+  "protectYourKeysMessage1": {
+    "message": "ನಿಮ್ಮ ಸೀಡ್ ಫ್ರೇಸ್‌ನೊಂದಿಗೆ ಜಾಗರೂಕರಾಗಿರಿ - Brave ಅನ್ನು ಅನುಕರಿಸಲು ಪ್ರಯತ್ನಿಸುವ ವೆಬ್‌ಸೈಟ್‌ಗಳ ವರದಿಗಳು ಬಂದಿವೆ. Brave ನಿಮ್ಮ ಸೀಡ್ ಫ್ರೇಸ್ ಅನ್ನು ಎಂದಿಗೂ ಕೇಳುವುದಿಲ್ಲ!"
+  },
+  "protectYourKeysMessage2": {
+    "message": "ನಿಮ್ಮ ಪ್ರೇಸ್ ಅನ್ನು ಸುರಕ್ಷಿತವಾಗಿರಿಸಿ. ನೀವು ಏನಾದರೂ ಅನುಮಾನಾಸ್ಪದವಾಗಿರುವುದನ್ನು ನೋಡಿದರೆ ಅಥವಾ ವೆಬ್‌ಸೈಟ್ ಕುರಿತು ನಿಮಗೆ ಅನಿಶ್ಚಿತತೆ ಇದ್ದರೆ, support@brave.com ಗೆ ಇಮೇಲ್ ಮಾಡಿ"
+  },
+  "rpcUrl": {
+    "message": "ಹೊಸ RPC URL"
+  },
+  "onlyConnectTrust": {
+    "message": "ನೀವು ನಂಬುವ ಸೈಟ್‌ಗಳೊಂದಿಗೆ ಮಾತ್ರ ಸಂಪರ್ಕ ಸಾಧಿಸಿ."
+  },
+  "onlyAddTrustedNetworks": {
+    "message": "ದುರುದ್ದೇಶಪೂರಿತ ಎಥೆರಿಯಮ್ ನೆಟ್‌ವರ್ಕ್ ಒದಗಿಸುವವರು ಬ್ಲಾಕ್‌ಚೈನ್‌ನ ಸ್ಥಿತಿಯ ಬಗ್ಗೆ ಸುಳ್ಳು ಹೇಳಬಹುದು ಮತ್ತು ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆಯನ್ನು ದಾಖಲಿಸಬಹುದು. ನೀವು ನಂಬುವ ಕಸ್ಟಮ್ ನೆಟ್‌ವರ್ಕ್‌ಗಳನ್ನು ಮಾತ್ರ ಸೇರಿಸಿ."
+  },
+  "optionalSymbol": {
+    "message": "ಚಿಹ್ನೆ (ಐಚ್ಛಿಕ)"
+  },
+  "newTotal": {
+    "message": "ಹೊಸ ಮೊತ್ತ"
+  },
+  "newTransactionFee": {
+    "message": "ಹೊಸ ವಹಿವಾಟು ಶುಲ್ಕ"
+  },
+  "next": {
+    "message": "ಮುಂದೆ"
+  },
+  "nextNonceWarning": {
+    "message": "$1 ರ ಸೂಚಿಸಲಾದ ನಾನ್ಸ್ ಗಿಂತ ನಾನ್ಸ್ ಹೆಚ್ಚಾಗಿದೆ",
+    "description": "The next nonce according to Brave's internal logic"
+  },
+  "noAddressForName": {
+    "message": "ಈ ಹೆಸರಿಗೆ ಯಾವುದೇ ವಿಳಾಸವನ್ನು ಹೊಂದಿಸಲಾಗಿಲ್ಲ."
+  },
+  "noConversionRateAvailable": {
+    "message": "ಯಾವುದೇ ಪರಿವರ್ತನೆ ದರ ಲಭ್ಯವಿಲ್ಲ"
+  },
+  "noTransactions": {
+    "message": "ನೀವು ಯಾವುದೇ ವಹಿವಾಟುಗಳನ್ನು ಹೊಂದಿಲ್ಲ"
+  },
+  "noThanks": {
+    "message": "ಇಲ್ಲ, ಧನ್ಯವಾದಗಳು"
+  },
+  "notCurrentAccount": {
+    "message": "ಇದು ಸರಿಯಾದ ಖಾತೆಯೇ? ಇದು ನಿಮ್ಮ ವ್ಯಾಲೆಟ್‌ನಲ್ಲಿ ಪ್ರಸ್ತುತ ಆಯ್ಕೆ ಮಾಡಿದ ಖಾತೆಗಿಂತ ಭಿನ್ನವಾಗಿದೆ"
+  },
+  "notEnoughGas": {
+    "message": "ಸಾಕಷ್ಟು ಗ್ಯಾಸ್ ಇಲ್ಲ"
+  },
+  "noWebcamFoundTitle": {
+    "message": "ವೆಬ್‌ಕ್ಯಾಮ್ ಕಂಡುಬಂದಿಲ್ಲ"
+  },
+  "noWebcamFound": {
+    "message": "ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನ ವೆಬ್‌ಕ್ಯಾಮ್ ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "ofTextNofM": {
+    "message": "ರಲ್ಲಿ"
+  },
+  "orderOneHere": {
+    "message": "ಟ್ರೆಜರ್ ಅಥವಾ ಲೆಡ್ಜರ್ ಅನ್ನು ಆರ್ಡರ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ನಿಧಿಗಳನ್ನು ಕೋಲ್ಡ್ ಸ್ಟೋರೇಜ್‌ನಲ್ಲಿರಿಸಿ"
+  },
+  "origin": {
+    "message": "ಮೂಲ"
+  },
+  "parameters": {
+    "message": "ಪ್ಯಾರಾಮೀಟರ್‌ಗಳು"
+  },
+  "participateInMetaMetrics": {
+    "message": "MetaMetrics ನಲ್ಲಿ ಭಾಗವಹಿಸಿ"
+  },
+  "participateInMetaMetricsDescription": {
+    "message": "Brave ಅನ್ನು ಸುಧಾರಿಸಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಲು MetaMetrics ನಲ್ಲಿ ಭಾಗವಹಿಸಿ"
+  },
+  "password": {
+    "message": "ಪಾಸ್‌ವರ್ಡ್"
+  },
+  "passwordsDontMatch": {
+    "message": "ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಿಲ್ಲ"
+  },
+  "passwordNotLongEnough": {
+    "message": "ಪಾಸ್‌ವರ್ಡ್ ಸಾಕಷ್ಟು ದೀರ್ಘವಾಗಿಲ್ಲ"
+  },
+  "pastePrivateKey": {
+    "message": "ನಿಮ್ಮ ಖಾಸಗಿ ಪ್ರಮುಖ ಸ್ಟ್ರಿಂಗ್ ಅನ್ನು ಇಲ್ಲಿ ನಕಲಿಸಿ:",
+    "description": "For importing an account from a private key"
+  },
+  "pending": {
+    "message": "ಬಾಕಿ ಉಳಿದಿರುವುದು"
+  },
+  "permissionCheckedIconDescription": {
+    "message": "ನೀವು ಈ ಅನುಮತಿಯನ್ನು ಅನುಮೋದಿಸಿದ್ದೀರಿ"
+  },
+  "permissionUncheckedIconDescription": {
+    "message": "ನೀವು ಈ ಅನುಮತಿಯನ್ನು ಅನುಮೋದಿಸಿಲ್ಲ"
+  },
+  "personalAddressDetected": {
+    "message": "ವೈಯಕ್ತಿಕ ವಿಳಾಸ ಪತ್ತೆಯಾಗಿದೆ. ಟೋಕನ್ ಒಪ್ಪಂದದ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ."
+  },
+  "plusXMore": {
+    "message": "+ $1 ಹೆಚ್ಚು",
+    "description": "$1 is a number of additional but unshown items in a list- this message will be shown in place of those items"
+  },
+  "prev": {
+    "message": "ಹಿಂದಿನ"
+  },
+  "primaryCurrencySetting": {
+    "message": "ಪ್ರಾಥಮಿಕ ಕರೆನ್ಸಿ"
+  },
+  "primaryCurrencySettingDescription": {
+    "message": "ಸರಪಳಿಯ ಸ್ಥಳೀಯ ಕರೆನ್ಸಿಯಲ್ಲಿ ಮೌಲ್ಯಗಳನ್ನು ಪ್ರದರ್ಶಿಸಲು ಆದ್ಯತೆ ನೀಡಲು ಸ್ಥಳೀಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಉದಾ. ETH). ನಿಮ್ಮ ಆಯ್ಕೆಮಾಡಿದ ಫಿಯೆಟ್ ಕರೆನ್ಸಿಯಲ್ಲಿ ಮೌಲ್ಯಗಳನ್ನು ಪ್ರದರ್ಶಿಸಲು ಆದ್ಯತೆ ನೀಡಲು ಫಿಯೆಟ್ ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "privacyMsg": {
+    "message": "ಗೌಪ್ಯತೆ ನೀತಿ"
+  },
+  "privateKey": {
+    "message": "ಖಾಸಗಿ ಕೀ",
+    "description": "select this type of file to use to import an account"
+  },
+  "privateKeyWarning": {
+    "message": "ಎಚ್ಚರಿಕೆ: ಈ ಕೀಯನ್ನು ಎಂದಿಗೂ ಬಹಿರಂಗಪಡಿಸಬೇಡಿ. ನಿಮ್ಮ ಖಾಸಗಿ ಕೀಗಳನ್ನು ಹೊಂದಿರುವ ಯಾರಾದರೂ ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿರುವ ಯಾವುದೇ ಸ್ವತ್ತುಗಳನ್ನು ಕದಿಯಬಹುದು."
+  },
+  "privateNetwork": {
+    "message": "ಖಾಸಗಿ ನೆಟ್‌ವರ್ಕ್"
+  },
+  "proposedApprovalLimit": {
+    "message": "ಪ್ರಸ್ತಾವಿತ ಅನುಮೋದನೆ ಮಿತಿ"
+  },
+  "queue": {
+    "message": "ಸರತಿ"
+  },
+  "queued": {
+    "message": "ಕ್ಯೂ"
+  },
+  "readdToken": {
+    "message": "ನಿಮ್ಮ ಖಾತೆಗಳ ಆಯ್ಕೆಗಳ ಮೆನುವಿನಲ್ಲಿ \"ಟೋಕನ್ ಸೇರಿಸು\" ಗೆ ಹೋಗುವ ಮೂಲಕ ನೀವು ಈ ಟೋಕನ್ ಅನ್ನು ಭವಿಷ್ಯದಲ್ಲಿ ಮರಳಿ ಸೇರಿಸಬಹುದು."
+  },
+  "recents": {
+    "message": "ಇತ್ತೀಚಿನವುಗಳು"
+  },
+  "receive": {
+    "message": "ಸ್ವೀಕರಿಸಿ"
+  },
+  "recipientAddress": {
+    "message": "ಸ್ವೀಕರಿಸುವವರ ವಿಳಾಸ"
+  },
+  "recipientAddressPlaceholder": {
+    "message": "ಸಾರ್ವಜನಿಕ ವಿಳಾಸ (0x) ಅಥವಾ ಡೊಮೇನ್ ಹುಡುಕಿ"
+  },
+  "rejectAll": {
+    "message": "ಎಲ್ಲವನ್ನೂ ತಿರಸ್ಕರಿಸಿ"
+  },
+  "rejectTxsN": {
+    "message": "$1 ವಹಿವಾಟುಗಳನ್ನು ತಿರಸ್ಕರಿಸಿ"
+  },
+  "rejectTxsDescription": {
+    "message": "ನೀವು $1 ವಹಿವಾಟುಗಳನ್ನು ಬ್ಯಾಚ್ ತಿರಸ್ಕರಿಸಲಿರುವಿರಿ."
+  },
+  "rejected": {
+    "message": "ತಿರಸ್ಕರಿಸಲಾಗಿದೆ"
+  },
+  "reset": {
+    "message": "ಮರುಹೊಂದಿಸು"
+  },
+  "resetAccount": {
+    "message": "ಖಾತೆಯನ್ನು ಮರುಹೊಂದಿಸಿ"
+  },
+  "resetAccountDescription": {
+    "message": "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಮರುಹೊಂದಿಸುವುದರಿಂದ ನಿಮ್ಮ ವ್ಯವಹಾರದ ಇತಿಹಾಸವು ತೆರವುಗೊಳ್ಳುತ್ತದೆ. ಇದು ನಿಮ್ಮ ಖಾತೆಗಳಲ್ಲಿನ ಬಾಕಿಗಳನ್ನು ಬದಲಾಯಿಸುವುದಿಲ್ಲ ಅಥವಾ ನಿಮ್ಮ ಸೀಡ್ ಫ್ರೇಸ್ ಮರು ನಮೂದಿಸುವ ಅಗತ್ಯವಿರುತ್ತದೆ."
+  },
+  "deleteNetwork": {
+    "message": "ನೆಟ್‌ವರ್ಕ್ ಅಳಿಸುವುದೇ?"
+  },
+  "deleteNetworkDescription": {
+    "message": "ನೀವು ಈ ನೆಟ್‌ವರ್ಕ್ ಅನ್ನು ಖಚಿತವಾಗಿ ಅಳಿಸಲು ಬಯಸುತ್ತೀರಾ?"
+  },
+  "remindMeLater": {
+    "message": "ನನಗೆ ನಂತರ ನೆನಪಿಸು"
+  },
+  "restoreFromSeed": {
+    "message": "ಖಾತೆಯನ್ನು ಮರುಸ್ಥಾಪಿಸುವುದೇ?"
+  },
+  "restoreAccountWithSeed": {
+    "message": "ಸೀಡ್ ಫ್ರೇಸ್‌ನೊಂದಿಗೆ ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "restoreWalletPreferences": {
+    "message": "$1 ರಿಂದ ನಿಮ್ಮ ಡೇಟಾದ ಬ್ಯಾಕಪ್ ಕಂಡುಬಂದಿದೆ. ನಿಮ್ಮ ವ್ಯಾಲೆಟ್ ಆದ್ಯತೆಗಳನ್ನು ಪುನಃಸ್ಥಾಪಿಸಲು ನೀವು ಬಯಸುವಿರಾ?",
+    "description": "$1 is the date at which the data was backed up"
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": "ಅಂಗೀಕರಿಸಲು ನಿರೀಕ್ಷಿಸುತ್ತಿರುವ ವಿನಂತಿಗಳು"
+  },
+  "required": {
+    "message": "ಅಗತ್ಯವಿದೆ"
+  },
+  "restore": {
+    "message": "ಮರುಸ್ಥಾಪನೆ"
+  },
+  "revealSeedWords": {
+    "message": "ಸೀಡ್ ಫ್ರೇಸ್ ಅನ್ನು ಬಹಿರಂಗಪಡಿಸಿ"
+  },
+  "revealSeedWordsTitle": {
+    "message": "ಸೀಡ್ ಫ್ರೇಸ್"
+  },
+  "revealSeedWordsDescription": {
+    "message": "ನೀವು ಬ್ರೌಸರ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿದರೆ ಅಥವಾ ಕಂಪ್ಯೂಟರ್‌ಗಳನ್ನು ಸರಿಸಿದರೆ, ನಿಮ್ಮ ಖಾತೆಗಳನ್ನು ಪ್ರವೇಶಿಸಲು ನಿಮಗೆ ಈ ಸೀಡ್ ಫ್ರೇಸ್‌ಗಳ ಅಗತ್ಯವಿರುತ್ತದೆ. ಅವುಗಳನ್ನು ಎಲ್ಲಿಯಾದರೂ ಸುರಕ್ಷಿತವಾಗಿ ಮತ್ತು ರಹಸ್ಯವಾಗಿ ಉಳಿಸಿ."
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "ಈ ಫ್ರೇಸ್ ಅನ್ನು ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ!"
+  },
+  "revealSeedWordsWarning": {
+    "message": "ಈ ಪದಗಳನ್ನು ನಿಮ್ಮ ಎಲ್ಲಾ ಖಾತೆಗಳನ್ನು ಕದಿಯಲು ಬಳಸಬಹುದು."
+  },
+  "remove": {
+    "message": "ತೆಗೆದುಹಾಕು"
+  },
+  "removeAccount": {
+    "message": "ಖಾತೆಯನ್ನು ತೆಗೆದುಹಾಕಿ"
+  },
+  "removeAccountDescription": {
+    "message": "ಈ ಖಾತೆಯನ್ನು ನಿಮ್ಮ ವ್ಯಾಲೆಟ್‌ನಿಂದ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ. ದಯವಿಟ್ಟು ಮುಂದುವರಿಯುವ ಮೊದಲು ಈ ಆಮದು ಖಾತೆಗಾಗಿ ನೀವು ಸೀಡ್ ಫ್ರೇಸ್ ಅಥವಾ ಖಾಸಗಿ ಕೀಯನ್ನು ಹೊಂದಿರುವಿರಾ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಖಾತೆಯ ಡ್ರಾಪ್-ಡೌನ್‌ನಿಂದ ನೀವು ಮತ್ತೆ ಖಾತೆಗಳನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಬಹುದು ಅಥವಾ ರಚಿಸಬಹುದು."
+  },
+  "readyToConnect": {
+    "message": "ಸಂಪರ್ಕಿಸಲು ಸಿದ್ಧವೇ?"
+  },
+  "reviewSwap": {
+    "message": "ಸ್ವ್ಯಾಪ್ ಪರಿಶೀಲಿಸಿ"
+  },
+  "rinkeby": {
+    "message": "Rinkeby ಪರೀಕ್ಷೆ ನೆಟ್‌ವರ್ಕ್"
+  },
+  "ropsten": {
+    "message": "Ropsten ಪರೀಕ್ಷೆ ನೆಟ್‌ವರ್ಕ್"
+  },
+  "goerli": {
+    "message": "Goerli ಪರೀಕ್ಷೆ ನೆಟ್‌ವರ್ಕ್"
+  },
+  "save": {
+    "message": "ಉಳಿಸು"
+  },
+  "slow": {
+    "message": "ನಿಧಾನ"
+  },
+  "slower": {
+    "message": "ನಿಧಾನ"
+  },
+  "saveAsCsvFile": {
+    "message": "CSV ಫೈಲ್ ರೂಪದಲ್ಲಿ ಉಳಿಸಿ"
+  },
+  "scanInstructions": {
+    "message": "ನಿಮ್ಮ ಕ್ಯಾಮರಾದ ಮುಂದೆ QR ಕೋಡ್ ಇರಿಸಿ"
+  },
+  "scanQrCode": {
+    "message": "QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ"
+  },
+  "search": {
+    "message": "ಹುಡುಕಾಟ"
+  },
+  "searchResults": {
+    "message": "ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳು"
+  },
+  "secretBackupPhrase": {
+    "message": "ರಹಸ್ಯ ಬ್ಯಾಕಪ್ ಫ್ರೇಸ್"
+  },
+  "secretBackupPhraseDescription": {
+    "message": "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಬ್ಯಾಕ್ ಅಪ್ ಮತ್ತು ಮರುಸ್ಥಾಪಿಸುವುದನ್ನು ನಿಮ್ಮ ರಹಸ್ಯ ಬ್ಯಾಕಪ್ ಫ್ರೇಸ್ ಸುಲಭವಾಗಿಸುತ್ತದೆ."
+  },
+  "secretBackupPhraseWarning": {
+    "message": "ಎಚ್ಚರಿಕೆ: ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಫ್ರೇಸ್ ಅನ್ನು ಎಂದಿಗೂ ಬಹಿರಗಪಡಿಸಬೇಡಿ. ಈ ಫ್ರೇಸ್ ಅನ್ನು ಹೊಂದಿರುವ ಯಾರಾದರೂ ನಿಮ್ಮ ಎಥರ್ ಅನ್ನು ಶಾಶ್ವತವಾಗಿ ತೆಗೆದುಕೊಳ್ಳಬಹುದು."
+  },
+  "secretPhrase": {
+    "message": "ನಿಮ್ಮ ವಾಲ್ಟ್ ಅನ್ನು ಪುನಃಸ್ಥಾಪಿಸಲು ನಿಮ್ಮ ರಹಸ್ಯ 12 ಅಥವಾ 24 ಪದದ ಫ್ರೇಸ್ ಅನ್ನು ನಮೂದಿಸಿ."
+  },
+  "securityAndPrivacy": {
+    "message": "ಭದ್ರತೆ ಮತ್ತು ಗೌಪ್ಯತೆ"
+  },
+  "securitySettingsDescription": {
+    "message": "ಗೌಪ್ಯತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮತ್ತು ವ್ಯಾಲೆಟ್ ಸೀಡ್ ಫ್ರೇಸ್"
+  },
+  "seedPhrasePlaceholder": {
+    "message": "ಒಂದು ಸ್ಪೇಸ್ ಮೂಲಕ ಪ್ರತಿ ಪದವನ್ನು ಬೇರ್ಪಡಿಸಿ"
+  },
+  "seedPhrasePlaceholderPaste": {
+    "message": "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ನಿಂದ ಸೀಡ್ ಫ್ರೇಸ್ ಅನ್ನು ಅಂಟಿಸಿ"
+  },
+  "showSeedPhrase": {
+    "message": "ಸೀಡ್ ಫ್ರೇಸ್ ತೋರಿಸಿ"
+  },
+  "seedPhraseReq": {
+    "message": "ಸೀಡ್ ಫ್ರೇಸ್‌ಗಳು 12, 15, 18, 21, ಅಥವಾ 24 ಪದಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ"
+  },
+  "selectingAllWillAllow": {
+    "message": "ಎಲ್ಲವನ್ನೂ ಆರಿಸುವುದರಿಂದ ನಿಮ್ಮ ಎಲ್ಲಾ ಪ್ರಸ್ತುತ ಖಾತೆಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಈ ಸೈಟ್‌ಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ. ನೀವು ಈ ಸೈಟ್ ಅನ್ನು ನಂಬಿದ್ದೀರಾ ಎಂಬುದಾಗಿ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
+  },
+  "selectAccounts": {
+    "message": "ಖಾತೆ(ಗಳನ್ನು) ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "selectAll": {
+    "message": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ"
+  },
+  "selectCurrency": {
+    "message": "ಕರೆನ್ಸಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "selectEachPhrase": {
+    "message": "ಅದು ಸರಿಯಾಗಿದೆಯೆ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ದಯವಿಟ್ಟು ಪ್ರತಿ ಫ್ರೇಸ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "selectLocale": {
+    "message": "ಪ್ರದೇಶವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "selectType": {
+    "message": "ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "setAllowance": {
+    "message": "ಭತ್ಯೆಯನ್ನು ಹೊಂದಿಸಿ"
+  },
+  "buy": {
+    "message": "ಖರೀದಿಸಿ"
+  },
+  "send": {
+    "message": "ಕಳುಹಿಸು"
+  },
+  "swap": {
+    "message": "ಸ್ವಾಪ್"
+  },
+  "swapApprovalSecurityMsg": {
+    "message": "ಭದ್ರತೆ ಕಾರಣಗಳಿಗಾಗಿ, ವಹಿವಾಟು ಮತ್ತೆ ಆರ್ಡರ್ ಮಾಡುವ ಧಾಳಿಯನ್ನು ತಡೆಯಲು, ಭತ್ಯೆಯನ್ನು ಅಗತ್ಯ ಮೌಲ್ಯಕ್ಕೆ ಹೊಂದಿಸುವ ಮೊದಲು ಅದನ್ನು 0 ಗೆ ಮರುಹೊಂದಿಸುವಂತೆ ಸೂಚಿಸಲಾಗಿದೆ."
+  },
+  "swapBraveFees": {
+    "message": "ಉಲ್ಲೇಖವು $1 Brave ಶುಲ್ಕವನ್ನು ಒಳಗೊಂಡಿದೆ."
+  },
+  "swapFooterPrivacyNotice": {
+    "message": "Brave $1 ಅನ್ನು DEX ಅಗ್ರಿಗೇಟರ್ ಆಗಿ ಬಳಸುತ್ತದೆ. ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ದಯವಿಟ್ಟು $2 ಅನ್ನು ವೀಕ್ಷಿಸಿ."
+  },
+  "swapNewQuoteCountdown": {
+    "message": "ಇದರಲ್ಲಿ ಹೊಸ ಉಲ್ಲೇಖ"
+  },
+  "swapSlippageDescription": {
+    "message": "ಗರಿಷ್ಟ ಸ್ವೀಕಾರಾರ್ಹ ಬೆಲೆಯು ಬದಲಾವಣೆಯು ಖರೀದಿ ಸ್ವತ್ತಿನ % ರಷ್ಟಾಗಿರುತ್ತದೆ. ಡೆಲ್ಟಾ ಸ್ಲಿಪ್ಪೇಜ್ ಅನ್ನು ಮೀರಿದರೆ, ಸ್ವಾಪ್ ಅನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ."
+  },
+  "swapQuoteRefresh": {
+    "message": "ಪ್ರಸ್ತುತ ಮಾರುಕಟ್ಟೆ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಪ್ರತಿಬಿಂಬಿಸಲು ಉಲ್ಲೇಖಗಳನ್ನು ಆಗಾಗ್ಗೆ ರಿಫ್ರೆಶ್ ಮಾಡಲಾಗುತ್ತದೆ."
+  },
+  "sendAmount": {
+    "message": "ಮೊತ್ತವನ್ನು ಕಳುಹಿಸಿ"
+  },
+  "sendETH": {
+    "message": "ETH ಕಳುಹಿಸಿ"
+  },
+  "sendTokens": {
+    "message": "ಟೋಕನ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ"
+  },
+  "sentEther": {
+    "message": "ಕಳುಹಿಸಲಾದ ಎಥರ್"
+  },
+  "sentTokens": {
+    "message": "ಕಳುಹಿಸಲಾದ ಟೋಕನ್‌ಗಳು"
+  },
+  "sendSpecifiedTokens": {
+    "message": "$1 ಕಳುಹಿಸಿ",
+    "description": "Symbol of the specified token"
+  },
+  "separateEachWord": {
+    "message": "ಒಂದು ಸ್ಪೇಸ್ ಮೂಲಕ ಪ್ರತಿ ಪದವನ್ನು ಬೇರ್ಪಡಿಸಿ"
+  },
+  "searchAssets": {
+    "message": "ಸ್ವತ್ತುಗಳನ್ನು ಶೋಧಿಸಿ"
+  },
+  "searchTokens": {
+    "message": "ಟೋಕನ್‌ಗಳನ್ನು ಹುಡುಕಿ"
+  },
+  "searchAccounts": {
+    "message": "ಖಾತೆಗಳನ್ನು ಹುಡುಕಿ"
+  },
+  "noAccountsFound": {
+    "message": "ನೀಡಲಾದ ಹುಡುಕಾಟ ಪ್ರಶ್ನೆಗೆ ಯಾವುದೇ ಖಾತೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+  },
+  "selectAsset": {
+    "message": "ಸ್ವತ್ತನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "selectAnAccount": {
+    "message": "ಖಾತೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "selectAnAccountHelp": {
+    "message": "Brave ನಲ್ಲಿ ವೀಕ್ಷಿಸಲು ಖಾತೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "selectAHigherGasFee": {
+    "message": "ನಿಮ್ಮ ವಹಿವಾಟಿನ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಸುಧಾರಿಸಲು ಅಧಿಕ ಗ್ಯಾಸ್ ಶುಲ್ಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ.*"
+  },
+  "selectHdPath": {
+    "message": "HD ಪಾತ್ ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "selectPathHelp": {
+    "message": "ನಿಮ್ಮ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಲೆಡ್ಜರ್ ಖಾತೆಗಳನ್ನು ನೀವು ಕೆಳಗೆ ನೋಡದಿದ್ದರೆ, ಪಾತ್‌ಗಳನ್ನು \"ಲೆಗಸಿ (MEW / MyCrypto)\" ಗೆ ಬದಲಾಯಿಸಲು ಪ್ರಯತ್ನಿಸಿ"
+  },
+  "settings": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "showAdvancedGasInline": {
+    "message": "ಸುಧಾರಿತ ಗ್ಯಾಸ್ ನಿಯಂತ್ರಣಗಳು"
+  },
+  "showAdvancedGasInlineDescription": {
+    "message": "ಕಳುಹಿಸುವ ಮತ್ತು ಖಚಿತಪಡಿಸುವ ಪರದೆಯ ಮೇಲೆ ನೇರವಾಗಿ ಗ್ಯಾಸ್ ಬೆಲೆ ಮತ್ತು ಮಿತಿಯ ನಿಯಂತ್ರಣಗಳನ್ನು ತೋರಿಸಲು ಇದನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "showFiatConversionInTestnets": {
+    "message": "Testnets ನಲ್ಲಿ ಪರಿವರ್ತನೆಯನ್ನು ತೋರಿಸಿ"
+  },
+  "showFiatConversionInTestnetsDescription": {
+    "message": "Testnets ನಲ್ಲಿ ಫಿಯೆಟ್ ಪರಿವರ್ತನೆಯನ್ನು ತೋರಿಸಲು ಇದನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "showPrivateKeys": {
+    "message": "ಖಾಸಗಿ ಕೀಗಳನ್ನು ತೋರಿಸಿ"
+  },
+  "showHexData": {
+    "message": "ಹೆಕ್ಸ್ ಡೇಟಾವನ್ನು ತೋರಿಸಿ"
+  },
+  "showHexDataDescription": {
+    "message": "ಕಳುಹಿಸುವ ಪರದೆಯಲ್ಲಿ ಹೆಕ್ಸ್ ಡೇಟಾ ಕ್ಷೇತ್ರವನ್ನು ತೋರಿಸಲು ಇದನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "sign": {
+    "message": "ಸಹಿ"
+  },
+  "signatureRequest": {
+    "message": "ಸಹಿಯ ವಿನಂತಿ"
+  },
+  "signatureRequest1": {
+    "message": "ಸಂದೇಶ"
+  },
+  "signed": {
+    "message": "ಸಹಿ ಮಾಡಲಾಗಿದೆ"
+  },
+  "signNotice": {
+    "message": "ಈ ಸಂದೇಶಕ್ಕೆ ಸಹಿ ಮಾಡುವಿಕೆಯು \nಅಪಾಯಕಾರಿ ಅಡ್ಡಪರಿಣಾಮಗಳನ್ನು ಹೊಂದಿರಬಹುದು. ನಿಮ್ಮ ಸಂಪೂರ್ಣ ಖಾತೆಯೊಂದಿಗೆ ನೀವು ಸಂಪೂರ್ಣವಾಗಿ ನಂಬುವ ಸೈಟ್‌ಗಳಿಂದ\nಮಾತ್ರ ಸಂದೇಶಗಳಿಗೆ ಸಹಿ ಮಾಡಿ.\nಭವಿಷ್ಯದ ಆವೃತ್ತಿಯಲ್ಲಿ ಈ ಅಪಾಯಕಾರಿ ವಿಧಾನವನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ."
+  },
+  "sigRequest": {
+    "message": "ಸಹಿಯ ವಿನಂತಿ"
+  },
+  "somethingWentWrong": {
+    "message": "ಓಹ್‌‍! ಏನೋ ತಪ್ಪಾಗಿದೆ."
+  },
+  "speedUp": {
+    "message": "ವೇಗ ಹೆಚ್ಚಿಸು"
+  },
+  "speedUpCancellation": {
+    "message": "ಈ ರದ್ದತಿಯ ವೇಗವನ್ನು ಹೆಚ್ಚಿಸಿ"
+  },
+  "speedUpTransaction": {
+    "message": "ಈ ವಹಿವಾಟಿನ ವೇಗವನ್ನು ಹೆಚ್ಚಿಸಿ"
+  },
+  "spendLimitPermission": {
+    "message": "ಅನುಮತಿಸಲಾದ ಮಿತಿಯಷ್ಟೇ ಖರ್ಚು ಮಾಡಿ"
+  },
+  "spendLimitRequestedBy": {
+    "message": "$1 ಮೂಲಕ ಮಿತಿಯನ್ನು ವಿನಂತಿಸಲಾಗಿದೆ",
+    "description": "Origin of the site requesting the spend limit"
+  },
+  "spendLimitTooLarge": {
+    "message": "ಮಿತಿ ತುಂಬಾ ದೊಡ್ಡದಾಗಿದೆ"
+  },
+  "spendLimitInvalid": {
+    "message": "ಖರ್ಚು ಮಿತಿ ಅಮಾನ್ಯವಾಗಿದೆ; ಧನಾತ್ಮಕ ಸಂಖ್ಯೆಯಾಗಿರಬೇಕು"
+  },
+  "switchNetworks": {
+    "message": "ನೆಟ್‌ವರ್ಕ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿ"
+  },
+  "stateLogFileName": {
+    "message": "Brave ರಾಜ್ಯ ಲಾಗ್‌ಗಳು"
+  },
+  "stateLogs": {
+    "message": "ರಾಜ್ಯದ ಲಾಗ್‌ಗಳು"
+  },
+  "stateLogsDescription": {
+    "message": "ರಾಜ್ಯದ ಲಾಗ್‌ಗಳು ನಿಮ್ಮ ಸಾರ್ವಜನಿಕ ಖಾತೆಯ ವಿಳಾಸಗಳು ಮತ್ತು ಕಳುಹಿಸಲಾದ ವಹಿವಾಟುಗಳನ್ನು ಹೊಂದಿರುತ್ತವೆ."
+  },
+  "stateLogError": {
+    "message": "ರಾಜ್ಯದ ಲಾಗ್‌ಗಳನ್ನು ಹಿಂಪಡೆಯುವಲ್ಲಿ ದೋಷ."
+  },
+  "statusConnected": {
+    "message": "ಸಂಪರ್ಕಿಸಲಾಗಿದೆ"
+  },
+  "statusNotConnected": {
+    "message": "ಸಂಪರ್ಕಗೊಳಿಸಿಲ್ಲ"
+  },
+  "step1HardwareWallet": {
+    "message": "1. ಹಾರ್ಡ್‌ವೆರ್ ವ್ಯಾಲೆಟ್ ಸಂಪರ್ಕಪಡಿಸಿ"
+  },
+  "step1HardwareWalletMsg": {
+    "message": "ನಿಮ್ಮ ಹಾರ್ಡ್‌ವೇರ್ ವ್ಯಾಲೆಟ್ ಅನ್ನು ನೇರವಾಗಿ ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ."
+  },
+  "step2HardwareWallet": {
+    "message": "2. ಖಾತೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "step2HardwareWalletMsg": {
+    "message": "ನೀವು ವೀಕ್ಷಿಸಲು ಬಯಸುವ ಖಾತೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ. ನೀವು ಒಮ್ಮೆಗೆ ಒಂದನ್ನು ಮಾತ್ರ ಆಯ್ಕೆಮಾಡಬಹುದು."
+  },
+  "step3HardwareWallet": {
+    "message": "3. ವೆಬ್ 3 ಸೈಟ್‌ಗಳನ್ನು ಬಳಸಲು ಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಇನ್ನಷ್ಟು!"
+  },
+  "step3HardwareWalletMsg": {
+    "message": "ಯಾವುದೇ ಈಥೇರಿಯಂ ಖಾತೆಯೊಂದಿಗೆ ನಿಮ್ಮ ಹಾರ್ಡ್‌ವೇರ್ ಖಾತೆಯನ್ನು ಬಳಸಿ. ವೆಬ್ 3 ಸೈಟ್‌ಗಳಿಗೆ ಸಂಪರ್ಕಪಡಿಸಿ, ETH ಕಳುಹಿಸಿ, ERC20 ಟೋಕನ್‌ಗಳು ಮತ್ತು ಕ್ರಿಪ್ಟೋಕಿಟ್ಟೀಸ್‌ನಂತಹ ಫಂಗಿಬಲ್ ಅಲ್ಲದ ಟೋಕನ್‌ಗಳನ್ನು ಖರೀದಿಸಿ ಮತ್ತು ಸಂಗ್ರಹಿಸಿ."
+  },
+  "storePhrase": {
+    "message": "ಈ ಫ್ರೇಸ್ ಅನ್ನು ಪಾಸ್‌ವರ್ಡ್ ನಿರ್ವಾಹಕದಲ್ಲಿ 1Password ರೂಪದಲ್ಲಿ ಸಂಗ್ರಹಿಸಿ."
+  },
+  "submit": {
+    "message": "ಸಲ್ಲಿಸು"
+  },
+  "submitted": {
+    "message": "ಸಲ್ಲಿಸಲಾಗಿದೆ"
+  },
+  "supportCenter": {
+    "message": "ನಮ್ಮ ಬೆಂಬಲ ಕೇಂದ್ರಕ್ಕೆ ಭೇಟಿ ಮಾಡಿ"
+  },
+  "swapPrivacyPolicy": {
+    "message": "ಸ್ವಾಪ್ ಗೌಪ್ಯತೆ ನೀತಿ"
+  },
+  "swapPrivacyPolicyDescription": {
+    "message": "$1 ಅನ್ನು DEX ಅಗ್ರಿಗೇಟರ್ ಆಗಿ Brave ಬಳಸುತ್ತದೆ. ವಹಿವಾಟನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು (ಉಲ್ಲೇಖಗಳನ್ನು ಪಡೆಯುವುದನ್ನು ಒಳಗೊಂಡಂತೆ) ಎಥೇರಿಯಮ್ ವಿಳಾಸ ಮತ್ತು IP ವಿಳಾಸವನ್ನು 0x ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುತ್ತದೆ. ವಹಿವಾಟುಗಳನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವ ಉದ್ದೇಶಗಳಿಗಾಗಿ ಈ ಡೇಟಾವನ್ನು ಮಾತ್ರ 0x ಬಳಸುತ್ತದೆ."
+  },
+  "symbol": {
+    "message": "ಚಿಹ್ನೆ"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "ಚಿಹ್ನೆಯು 11 ಅಕ್ಷರಗಳು ಅಥವಾ ಕಡಿಮೆ ಇರಬೇಕು."
+  },
+  "syncWithMobile": {
+    "message": "ಮೊಬೈಲ್‌ನೊಂದಿಗೆ ಸಿಂಕ್ ಮಾಡಿ"
+  },
+  "syncWithMobileTitle": {
+    "message": "ಮೊಬೈಲ್‌ನೊಂದಿಗೆ ಸಿಂಕ್ ಮಾಡಿ"
+  },
+  "syncWithMobileDesc": {
+    "message": "ನಿಮ್ಮ ಮೊಬೈಲ್ ಸಾಧನದೊಂದಿಗೆ ನಿಮ್ಮ ಖಾತೆಗಳು ಮತ್ತು ಮಾಹಿತಿಯನ್ನು ನೀವು ಸಿಂಕ್ ಮಾಡಬಹುದು. Brave ಮೊಬೈಲ್ ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯಿರಿ, \"ಸೆಟ್ಟಿಂಗ್‌ಗಳು\" ಗೆ ಹೋಗಿ ಮತ್ತು \"ಬ್ರೌಸರ್ ವಿಸ್ತರಣೆಯಿಂದ ಸಿಂಕ್ ಮಾಡಿ\" ಟ್ಯಾಪ್ ಮಾಡಿ."
+  },
+  "syncWithMobileDescNewUsers": {
+    "message": "ನೀವು ಮೊದಲ ಬಾರಿಗೆ Brave ಮೊಬೈಲ್ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ತೆರೆದರೆ, ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿನ ಹಂತಗಳನ್ನು ಅನುಸರಿಸಿ."
+  },
+  "syncWithMobileScanThisCode": {
+    "message": "ನಿಮ್ಮ Brave ಮೊಬೈಲ್ ಅಪ್ಲಿಕೇಶನ್‌ನೊಂದಿಗೆ ಈ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ"
+  },
+  "syncWithMobileBeCareful": {
+    "message": "ನೀವು ಈ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತಿರುವಾಗ ಯಾರೂ ನಿಮ್ಮ ಪರದೆಯ ಕಡೆಗೆ ನೋಡುತ್ತಿಲ್ಲವೇ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
+  },
+  "syncWithMobileComplete": {
+    "message": "ನಿಮ್ಮ ಡೇಟಾವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಿಂಕ್ ಮಾಡಲಾಗಿದೆ. Brave ಮೊಬೈಲ್ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಆನಂದಿಸಿ!"
+  },
+  "terms": {
+    "message": "ಬಳಕೆಯ ನಿಯಮಗಳು"
+  },
+  "testFaucet": {
+    "message": "ಫಾಸೆಟ್ ಪರೀಕ್ಷಿಸಿ"
+  },
+  "thisWillCreate": {
+    "message": "ಇದು ಹೊಸ ವ್ಯಾಲೆಟ್ ಮತ್ತು ಸೀಡ್ ಫ್ರೇಸ್ ಅನ್ನು ರಚಿಸುತ್ತದೆ"
+  },
+  "timeout": {
+    "message": "ಟೈಮ್ಔಟ್"
+  },
+  "tips": {
+    "message": "ಸಲಹೆಗಳು"
+  },
+  "to": {
+    "message": "ವರೆಗೆ"
+  },
+  "toAddress": {
+    "message": "ಇದಕ್ಕೆ: $1",
+    "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
+  },
+  "toWithColon": {
+    "message": "ಇದಕ್ಕೆ:"
+  },
+  "token": {
+    "message": "ಟೋಕನ್"
+  },
+  "tokenAlreadyAdded": {
+    "message": "ಟೋಕನ್ ಅನ್ನು ಈಗಾಗಲೇ ಸೇರಿಸಲಾಗಿದೆ."
+  },
+  "tokenContractAddress": {
+    "message": "ಟೋಕನ್ ಒಪ್ಪಂದದ ವಿಳಾಸ"
+  },
+  "tokenOptions": {
+    "message": "ಟೋಕನ್ ಆಯ್ಕೆಗಳು"
+  },
+  "tokenSymbol": {
+    "message": "ಟೋಕನ್ ಚಿಹ್ನೆ"
+  },
+  "total": {
+    "message": "ಒಟ್ಟು"
+  },
+  "transaction": {
+    "message": "ವಹಿವಾಟು"
+  },
+  "transactionConfirmed": {
+    "message": "$2 ಗೆ ವಹಿವಾಟನ್ನು ಖಚಿತಪಡಿಸಲಾಗಿದೆ."
+  },
+  "transactionCreated": {
+    "message": "ವಹಿವಾಟನ್ನು $2 ನಲ್ಲಿ $1 ಮೌಲ್ಯದೊಂದಿಗೆ ರಚಿಸಲಾಗಿದೆ."
+  },
+  "transactionDropped": {
+    "message": "$2 ನಲ್ಲಿ ವಹಿವಾಟು ಕುಸಿದಿದೆ."
+  },
+  "transactionSubmitted": {
+    "message": "ವಹಿವಾಟನ್ನು $2 ನಲ್ಲಿ $1 ಗ್ಯಾಸ್ ಶುಲ್ಕದೊಂದಿಗೆ ರಚಿಸಲಾಗಿದೆ."
+  },
+  "transactionResubmitted": {
+    "message": "$2 ನಲ್ಲಿ $1 ಗೆ ಏರಿದ ಗ್ಯಾಸ್ ಶುಲ್ಕದೊಂದಿಗೆ ವಹಿವಾಟನ್ನು ಮರುಸಲ್ಲಿಸಲಾಗಿದೆ"
+  },
+  "transactionUpdated": {
+    "message": "$2 ನಲ್ಲಿ ವಹಿವಾಟನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ."
+  },
+  "transactionErrored": {
+    "message": "ವಹಿವಾಟಿನಲ್ಲಿ ದೋಷ ಕಂಡುಬಂದಿದೆ."
+  },
+  "transactionCancelAttempted": {
+    "message": "$2 ನಲ್ಲಿ $1 ಗ್ಯಾಸ್ ಶುಲ್ಕದೊಂದಿಗೆ ವಹಿವಾಟಿನ ರದ್ದತಿಯನ್ನು ಪ್ರಯತ್ನಿಸಲಾಗಿದೆ"
+  },
+  "transactionCancelSuccess": {
+    "message": "ವಹಿವಾಟನ್ನು $2 ನಲ್ಲಿ ಯಶಸ್ವಿಯಾಗಿ ರದ್ದುಮಾಡಲಾಗಿದೆ"
+  },
+  "transactionError": {
+    "message": "ವಹಿವಾಟಿನ ದೋಷ. ಒಪ್ಪಂದದ ಕೋಡ್‌ನಲ್ಲಿ ವಿನಾಯಿತಿಯನ್ನು ನೀಡಲಾಗಿದೆ."
+  },
+  "transactionErrorNoContract": {
+    "message": "ಒಪ್ಪಂದವಲ್ಲದ ವಿಳಾಸದಲ್ಲಿ ಕಾರ್ಯಕ್ಕೆ ಕರೆ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಲಾಗುತ್ತಿದೆ."
+  },
+  "transactionFee": {
+    "message": "ವಹಿವಾಟು ಶುಲ್ಕ"
+  },
+  "transactionTime": {
+    "message": "ವಹಿವಾಟು ಸಮಯ"
+  },
+  "showTransactionTimeDescription": {
+    "message": "ಮುಖ್ಯ ಎಥೆರಿಯಮ್ ನೆಟ್‌ವರ್ಕ್‌ನಲ್ಲಿರುವಾಗ ಚಟುವಟಿಕೆ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಬಾಕಿ ಇರುವ ವಹಿವಾಟು ಸಮಯದ ಅಂದಾಜುಗಳನ್ನು ಪ್ರದರ್ಶಿಸಲು ಇದನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಗಮನಿಸಿ: ಅಂದಾಜುಗಳು ನೆಟ್‌ವರ್ಕ್ ಪರಿಸ್ಥಿತಿಗಳ ಆಧಾರದ ಮೇಲೆ ಅಂದಾಜುಗಳಾಗಿವೆ."
+  },
+  "transfer": {
+    "message": "ವರ್ಗಾಯಿಸಿ"
+  },
+  "transferBetweenAccounts": {
+    "message": "ನನ್ನ ಖಾತೆಗಳ ನಡುವೆ ವರ್ಗಾಯಿಸಿ"
+  },
+  "transferFrom": {
+    "message": "ಇದರಿಂದ ವರ್ಗಾಯಿಸಿ"
+  },
+  "troubleTokenBalances": {
+    "message": "ನಿಮ್ಮ ಟೋಕನ್ ಬ್ಯಾಲೆನ್ಸ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ನಮಗೆ ಸಮಸ್ಯೆಯಾಗಿದೆ. ನೀವು ಅವುಗಳನ್ನು ನೋಡಬಹುದು",
+    "description": "Followed by a link (here) to view token balances"
+  },
+  "trustSiteApprovePermission": {
+    "message": "ನೀವು ಈ ಸೈಟ್ ಅನ್ನು ನಂಬುತ್ತೀರಾ? ಈ ಅನುಮತಿಯನ್ನು ನೀಡುವ ಮೂಲಕ, ನಿಮ್ಮ $2 ಅನ್ನು ಹಿಂಪಡೆಯಲು ಮತ್ತು ನಿಮಗಾಗಿ ವಹಿವಾಟುಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತಗೊಳಿಸಲು $1 ಅನ್ನು ನೀವು ಅನುಮತಿಸುತ್ತೀರಿ.",
+    "description": "$1 is the url requesting permission and $2 is the symbol of the currency that the request is for"
+  },
+  "tryAgain": {
+    "message": "ಪುನಃ ಪ್ರಯತ್ನಿಸಿ"
+  },
+  "typePassword": {
+    "message": "ನಿಮ್ಮ Brave ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಟೈಪ್ ಮಾಡಿ"
+  },
+  "unapproved": {
+    "message": "ಅನುಮೋದಿಸದಿರುವುದು"
+  },
+  "alertDisableTooltip": {
+    "message": "ಇದನ್ನು \"ಸೆಟ್ಟಿಂಗ್‌ಗಳು > ಎಚ್ಚರಿಕೆಗಳು\" ನಲ್ಲಿ ಬದಲಾಯಿಸಬಹುದು"
+  },
+  "units": {
+    "message": "ಘಟಕಗಳು"
+  },
+  "unknown": {
+    "message": "ಅಪರಿಚಿತ"
+  },
+  "unknownNetwork": {
+    "message": "ಅಪರಿಚಿತ ಖಾಸಗಿ ನೆಟ್‌ವರ್ಕ್"
+  },
+  "unknownQrCode": {
+    "message": "ದೋಷ: ನಮಗೆ ಆ QR ಕೋಡ್ ಅನ್ನು ಗುರುತಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+  },
+  "unknownCameraErrorTitle": {
+    "message": "ಓಹ್! ಏನೋ ತಪ್ಪಾಗಿದೆ...."
+  },
+  "unknownCameraError": {
+    "message": "ನಿಮ್ಮ ಕ್ಯಾಮರಾವನ್ನು ಪ್ರವೇಶಿಸಲು ಪ್ರಯತ್ನಿಸುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ..."
+  },
+  "unlimited": {
+    "message": "ಅನಿಯಮಿತ"
+  },
+  "unlock": {
+    "message": "ಅನ್‌ಲಾಕ್"
+  },
+  "unlockMessage": {
+    "message": "ವಿಕೇಂದ್ರೀಕೃತ ವೆಬ್ ನಿರೀಕ್ಷಿಸುತ್ತಿದೆ"
+  },
+  "updatedWithDate": {
+    "message": "$1 ನವೀಕರಿಸಲಾಗಿದೆ"
+  },
+  "urlErrorMsg": {
+    "message": "URL ಗಳಿಗೆ ಸೂಕ್ತವಾದ HTTP / HTTPS ಪೂರ್ವಪ್ರತ್ಯಯದ ಅಗತ್ಯವಿದೆ."
+  },
+  "urlExistsErrorMsg": {
+    "message": "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ನೆಟ್‌ವರ್ಕ್‌ಗಳ ಪಟ್ಟಿಯಲ್ಲಿ URL ಈಗಾಗಲೇ ಇದೆ"
+  },
+  "usedByClients": {
+    "message": "ವಿಭಿನ್ನ ಕ್ಲೈಂಟ್‌ಗಳ ಮೂಲಕ ಬಳಸಲಾಗುತ್ತದೆ"
+  },
+  "usePhishingDetection": {
+    "message": "ಫಿಶಿಂಗ್ ಪತ್ತೆ ಬಳಸಿ"
+  },
+  "usePhishingDetectionDescription": {
+    "message": "ಎಥೆರಿಯಮ್ ಬಳಕೆದಾರರನ್ನು ಗುರಿಯಾಗಿಸಿಕೊಂಡು ಫಿಶಿಂಗ್ ಡೊಮೇನ್‌ಗಳಿಗಾಗಿ ಎಚ್ಚರಿಕೆಯನ್ನು ಪ್ರದರ್ಶಿಸಿ"
+  },
+  "userName": {
+    "message": "ಬಳಕೆದಾರಹೆಸರು"
+  },
+  "viewAccount": {
+    "message": "ಖಾತೆಯನ್ನು ವೀಕ್ಷಿಸಿ"
+  },
+  "viewinExplorer": {
+    "message": "ಎಕ್ಸ್‌ಪ್ಲೋರರ್‌ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ"
+  },
+  "viewContact": {
+    "message": "ಸಂಪರ್ಕವನ್ನು ವೀಕ್ಷಿಸಿ"
+  },
+  "viewOnCustomBlockExplorer": {
+    "message": "$1 ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ"
+  },
+  "viewOnEtherscan": {
+    "message": "ಎಥೆರ್‌ಸ್ಕ್ಯಾನ್‌ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ"
+  },
+  "retryTransaction": {
+    "message": "ವಹಿವಾಟನ್ನು ಮರುಪ್ರಯತ್ನಿಸಿ"
+  },
+  "visitWebSite": {
+    "message": "ನಮ್ಮ ವೆಬ್ ಸೈಟ್ ಅನ್ನು ಭೇಟಿ ಮಾಡಿ"
+  },
+  "walletSeed": {
+    "message": "ಸೀಡ್ ಫ್ರೇಸ್"
+  },
+  "welcomeBack": {
+    "message": "ಮರಳಿ ಸ್ವಾಗತ!"
+  },
+  "welcome": {
+    "message": "Brave ಗೆ ಸ್ವಾಗತ"
+  },
+  "whatsThis": {
+    "message": "ಇದು ಏನು?"
+  },
+  "writePhrase": {
+    "message": "ಕಾಗದದ ತುಂಡಿನ ಮೇಲೆ ಈ ಫ್ರೇಸ್ ಅನ್ನು ಬರೆಯಿರಿ ಮತ್ತು ಸುರಕ್ಷಿತ ಸ್ಥಳದಲ್ಲಿರಿಸಿ. ನೀವು ಇನ್ನೂ ಹೆಚ್ಚಿನ ಸುರಕ್ಷತೆಯನ್ನು ಬಯಸಿದರೆ, ಹಲವು ಕಾಗದದ ತುಂಡುಗಳ ಮೇಲೆ ಬರೆಯಿರಿ ಮತ್ತು ಪ್ರತಿಯೊಂದನ್ನು 2 - 3 ವಿವಿಧ ಸ್ಥಳಗಳಲ್ಲಿ ಇರಿಸಿ."
+  },
+  "xOfY": {
+    "message": "$2 ರಲ್ಲಿ $1",
+    "description": "$1 and $2 are intended to be two numbers, where $2 is a total, and $1 is a count towards that total"
+  },
+  "yesLetsTry": {
+    "message": "ಹೌದು, ಪ್ರಯತ್ನಿಸೋಣ"
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": "ಈ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಬಳಸಲು ನೀವು ಕ್ಯಾಮರಾ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಬೇಕಾಗುತ್ತದೆ."
+  },
+  "yourSigRequested": {
+    "message": "ನಿಮ್ಮ ಸಹಿಯನ್ನು ವಿನಂತಿಸಲಾಗಿದೆ"
+  },
+  "youSign": {
+    "message": "ನೀವು ಸಹಿ ಮಾಡುತ್ತಿರುವಿರಿ"
+  },
+  "yourPrivateSeedPhrase": {
+    "message": "ನಿಮ್ಮ ಖಾಸಗಿ ಸೀಡ್ ಫ್ರೇಸ್"
+  },
+  "zeroGasPriceOnSpeedUpError": {
+    "message": "ವೇಗ ಹೆಚ್ಚಿಸುವುದಕ್ಕೆ ಶೂನ್ಯ ಗ್ಯಾಸ್ ಬೆಲೆ"
+  },
+  "decryptRequest": {
+    "message": "ಡೀಕ್ರಿಪ್ಟ್ ವಿನಂತಿ"
+  },
+  "decrypt": {
+    "message": "ಡೀಕ್ರಿಪ್ಟ್ ಮಾಡಿ"
+  },
+  "decryptMessageNotice": {
+    "message": "ನಿಮ್ಮ ಕ್ರಿಯೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು $1 ಈ ಸಂದೇಶವನ್ನು ಓದಲು ಬಯಸುತ್ತದೆ",
+    "description": "$1 is the web3 site name"
+  },
+  "decryptMetamask": {
+    "message": "ಸಂದೇಶವನ್ನು ಡೀಕ್ರಿಪ್ಟ್ ಮಾಡಿ"
+  },
+  "decryptCopy": {
+    "message": "ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಸಂದೇಶವನ್ನು ನಕಲಿಸಿ"
+  },
+  "decryptInlineError": {
+    "message": "ದೋಷದಿಂದಾಗಿ ಈ ಸಂದೇಶವನ್ನು ಡೀಕ್ರಿಪ್ಟ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ: $1",
+    "description": "$1 is error message"
+  },
+  "provide": {
+    "message": "ಒದಗಿಸಿ"
+  },
+  "encryptionPublicKeyRequest": {
+    "message": "ಗೂಢಲಿಪೀಕರಣದ ಸಾರ್ವಜನಿಕ ಕೀಲಿಯನ್ನು ವಿನಂತಿಸಿ"
+  },
+  "encryptionPublicKeyNotice": {
+    "message": "$1 ನಿಮ್ಮ ಸಾರ್ವಜನಿಕ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಕೀಲಿಯನ್ನು ಬಯಸುತ್ತದೆ. ಸಮ್ಮತಿಸುವ ಮೂಲಕ, ಈ ಸೈಟ್ ನಿಮಗೆ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಸಂದೇಶಗಳನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.",
+    "description": "$1 is the web3 site name"
+  },
+  "backupPhraseFileName": {
+    "message": "ಕ್ರಿಪ್ಟೋ ವಾಲೆಟ್ಸ್ ರಹಸ್ಯ ಬ್ಯಾಕಪ್ ಫ್ರೇಸ್"
+  },
+  "braveRewards": {
+    "message": "Brave Rewards"
+  },
+  "braveSettings": {
+    "message": "Brave ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "contractErrorMessage": {
+    "message": "ಎಚ್ಚರಿಕೆ: ಈ ಅಸೆಟ್ ಅನ್ನು ಅದರ ಸ್ವಂತ ಸ್ಮಾರ್ಟ್ ಕನ್ವರ್ಟರ್‌ಗೆ ನೀವು ಇನ್ನೇನು ಕಳುಹಿಸುತ್ತಿರುವಿರಿ. ನೀವು ಇದನ್ನು ಮಾಡುವ ಉದ್ದೇಶವನ್ನು ಬಹುಶಃ ಹೊಂದಿಲ್ಲದಿರಬಹುದು, ಏಕೆಂದರೆ ಅದು ಅಸೆಟ್ ಅನ್ನು ಮರುಪಡೆಯದಂತೆ ಮಾಡುವ ಸಾಧ್ಯತೆ ಇರುತ್ತದೆ."
+  },
+  "cryptoWalletsDisclosureOne": {
+    "message": "ಕ್ರಿಪ್ಟೋ ವ್ಯಾಲೆಟ್‌ಗಳು Brave ನಲ್ಲಿ ಕ್ರಿಪ್ಟೋಕರೆನ್ಸಿ ಮತ್ತು ಸಂಬಂಧಿತ ಸ್ವತ್ತುಗಳೊಂದಿಗೆ ಕೆಲಸ ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ. ಕ್ರಿಪ್ಟೋ ವಾಲೆಟ್‌ಗಳು ETH ಮತ್ತು BAT ನಂತಹ ಎಥೆರಿಯಮ್ ಟೋಕನ್‌ಗಳನ್ನು ಮತ್ತು ಸಂಗ್ರಹಣೆಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ ಮತ್ತು Ðapps ಮತ್ತು ಇತರ ಸ್ಮಾರ್ಟ್ ಒಪ್ಪಂದಗಳೊಂದಿಗೆ ಕೆಲಸ ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ. ಇವೆಲ್ಲವೂ ಎಥೆರಿಯಮ್ ಮತ್ತು ಇತರ ಬ್ಲಾಕ್‌ಚೈನ್ ವ್ಯವಸ್ಥೆಗಳೊಂದಿಗೆ ಪರಿಚಿತವಾಗಿರುವ ಜನರಿಗೆ - ಅಥವಾ ಕಲಿಯಲು ಉತ್ಸುಕರಾಗಿದ್ದಾರೆ."
+  },
+  "cryptoWalletsDisclosureTwo": {
+    "message": "ಈ ಬಳಕೆಗೆ ಸಂಬಂಧಿಸಿದ ಎಲ್ಲಾ ಅಪಾಯಗಳಿಗೆ ನೀವು ಮಾತ್ರ ಜವಾಬ್ದಾರರು ಎಂದು ನೀವು ಒಪ್ಪಿಕೊಂಡರೆ ಮಾತ್ರ Crypto ವ್ಯಾಲೆಟ್‌ಗಳನ್ನು ಬಳಸಿ ಮತ್ತು ಈ ಬಳಕೆಯ ಪರಿಣಾಮವಾಗಿ ನೀವು ಅನುಭವಿಸಬಹುದಾದ ಪ್ರಾಸಂಗಿಕ ಅಥವಾ ಪರಿಣಾಮಕಾರಿ ನಷ್ಟಗಳು ಸೇರಿದಂತೆ ಯಾವುದೇ ನಷ್ಟಗಳಿಗೆ Brave Software ಯಾವುದೇ ಜವಾಬ್ದಾರಿ ಅಥವಾ ಹೊಣೆಗಾರಿಕೆಯನ್ನು ಹೊಂದಿರುವುದಿಲ್ಲ."
+  },
+  "cryptoWalletsDisclosureThree": {
+    "message": "ಇವೆಲ್ಲವೂ ಸಂಪೂರ್ಣವಾಗಿ ಪ್ರತ್ಯೇಕವಾಗಿದೆ"
+  },
+  "cryptoWalletsDisclosureFour": {
+    "message": "ಆದ್ದರಿಂದ ನಿಮ್ಮ ನೆಚ್ಚಿನ ಸೈಟ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸಲು ನೀವು ಬಯಸಿದರೆ, ಬದಲಿಗೆ ಅಲ್ಲಿಗೆ ಹೋಗಿ."
+  },
+  "cryptoWalletsTitle": {
+    "message": "Crypto ವ್ಯಾಲೆಟ್‌ಗಳು"
+  },
+  "disclosureConfirm": {
+    "message": "ನನಗೆ ಅರ್ಥವಾಯಿತು"
+  },
+  "ledgerCreateSubText": {
+    "message": "DApps ನೊಂದಿಗೆ ಸಂವಹನ ನಡೆಸಲು ನಿಮ್ಮ ಲೆಡ್ಜರ್ ಹಾರ್ಡ್‌ವೇರ್ ವ್ಯಾಲೆಟ್ ಅನ್ನು ಸಂಪರ್ಕಪಡಿಸಿ ಮತ್ತು ಇತರ ಸಂಪರ್ಕಿತ ವ್ಯಾಲೆಟ್‌ಗಳಿಗೆ ವರ್ಗಾವಣೆ ಮಾಡಿ."
+  },
+  "metamaskImportSubText": {
+    "message": "ಗಮನಿಸಿ: ಕ್ರಿಪ್ಟೋ ವ್ಯಾಲೆಟ್‌ನ 1.0.26 ಅಥವಾ ಮುಂಚಿತ ಆವೃತ್ತಿಯಿಂದ ಆಮದು ಮಾಡುತ್ತಿದ್ದರೆ, ನಿಮ್ಮ ರಹಸ್ಯ ಫ್ರೇಸ್ 12 ಪದಗಳ ಬದಲಿಗೆ 24 ಪದಗಳು ಆಗಿರುತ್ತದೆ."
+  },
+  "newLocalWallet": {
+    "message": "ಹೊಸದಾದ ಸ್ಥಳೀಯ ವ್ಯಾಲೆಟ್"
+  },
+  "newLocalWalletSubText": {
+    "message": "dApps ಪ್ರವೇಶಿಸಲು ಮತ್ತು ಕ್ರಿಪ್ಟೋ ಮತ್ತು ಸಂಗ್ರಹಿಸಬಹುದಾದ ಸಂಗತಿಗಳನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿಸಲು ಹೊಸ Brave ಸ್ಥಳೀಯ ವ್ಯಾಲೆಟ್ ರಚಿಸಿ. ಯಾವುದೇ ಟ್ರೇಡಿಂಗ್ ಶುಲ್ಕಗಳಿಲ್ಲದೇ ಅನಾಮಧೇಯವಾಗಿ ಟೋಕನ್‌ಗಳನ್ನು ಟ್ರೇಡ್ ಮಾಡಿ."
+  },
+  "passWarningOne": {
+    "message": "ನಿಮ್ಮ ಖಾಸಗಿ ಕೀಲಿಯನ್ನು ಈ ಪಾಸ್‌ವರ್ಡ್ ರಕ್ಷಿಸುತ್ತದೆ. ನೀವು ಅದನ್ನು ಮರೆತರೆ ಯಾರೂ ಅದನ್ನು ಮರುಹೊಂದಿಸಲು, Brave ನಿಂದಲೂ ಸಹ ಸಾಧ್ಯವಿಲ್ಲ!"
+  },
+  "providerErrorMessage": {
+    "message": "ಈ ವ್ಯಾಲೆಟ್ ನಿಮ್ಮ ಡೀಫಾಲ್ಟ್ ಎಥೆರಿಯಮ್ Dapp ಪ್ರೊವೈಡರ್ ಅಲ್ಲ."
+  },
+  "trezorCreateSubText": {
+    "message": "DApps ನೊಂದಿಗೆ ಸಂವಹನ ನಡೆಸಲು ನಿಮ್ಮ ಟ್ರೆಜರ್ ಹಾರ್ಡ್‌ವೇರ್ ವ್ಯಾಲೆಟ್ ಅನ್ನು ಸಂಪರ್ಕಪಡಿಸಿ ಮತ್ತು ಇತರ ಸಂಪರ್ಕಗೊಳಿಸಿದ ವ್ಯಾಲೆಟ್‌ಗಳಿಗೆ ವರ್ಗಾವಣೆ ಮಾಡಿ."
+  },
+  "welcomeCryptoWallets": {
+    "message": "Brave Crypto ವ್ಯಾಲೆಟ್‌ಗಳಿಗೆ ಸ್ವಾಗತ"
+  },
+  "waitingForConfirmation": {
+    "message": "ದೃಢೀಕರಣಕ್ಕಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ."
+  }
+}

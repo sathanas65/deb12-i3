@@ -1,0 +1,1911 @@
+{
+  "acceptTermsOfUse": {
+    "message": "Jeg har lest og samtykket til $1",
+    "description": "$1 is the `terms` message"
+  },
+  "eth_accounts": {
+    "message": "Se adressene til de tillatte kontoene dine (obligatorisk)",
+    "description": "The description for the `eth_accounts` permission"
+  },
+  "connectedSites": {
+    "message": "Tilkoblede nettsteder"
+  },
+  "connectedSitesDescription": {
+    "message": "$1 er tilkoblet disse nettstedene. De kan se kontoadressen din.",
+    "description": "$1 is the account name"
+  },
+  "connectedSitesEmptyDescription": {
+    "message": "$1 er ikke tilkoblet noen nettsteder.",
+    "description": "$1 is the account name"
+  },
+  "connectedAccountsDescriptionSingular": {
+    "message": "Du har 1 konto knyttet til dette nettstedet."
+  },
+  "connectedAccountsDescriptionPlural": {
+    "message": "Du har $1 kontoer koblet til dette nettstedet.",
+    "description": "$1 is the number of accounts"
+  },
+  "connectedAccountsEmptyDescription": {
+    "message": "Brave er ikke tilkoblet dette nettstedet. For å koble til et web3-nettsted, finn 'connect'-knappen på nettstedet deres."
+  },
+  "currentAccountNotConnected": {
+    "message": "Den nåværende kontoen din er ikke tilkoblet"
+  },
+  "switchToThisAccount": {
+    "message": "Bytt til denne kontoen"
+  },
+  "disconnectThisAccount": {
+    "message": "Koble fra denne kontoen"
+  },
+  "permissions": {
+    "message": "Tillatelser"
+  },
+  "showPermissions": {
+    "message": "Vis tillatelser"
+  },
+  "authorizedPermissions": {
+    "message": "Du har autorisert følgende tillatelser"
+  },
+  "connectManually": {
+    "message": "Koble manuelt til gjeldende nettsted"
+  },
+  "disconnect": {
+    "message": "Koble fra"
+  },
+  "disconnectAllAccounts": {
+    "message": "Koble fra alle kontoer"
+  },
+  "disconnectPrompt": {
+    "message": "Koble fra $1"
+  },
+  "disconnectAllAccountsConfirmationDescription": {
+    "message": "Er du sikker på at du ønsker å koble fra? Du kan miste nettstedsfunksjonalitet."
+  },
+  "dismiss": {
+    "message": "Lukk"
+  },
+  "showIncomingTransactions": {
+    "message": "Vis innkommende transaksjoner"
+  },
+  "showIncomingTransactionsDescription": {
+    "message": "Velg dette for å bruke Etherscan til å vise innkommende transaksjoner i transaksjonslisten"
+  },
+  "chartOnlyAvailableEth": {
+    "message": "Diagram kun tilgjengelig på Ethereum-nettverk."
+  },
+  "connecting": {
+    "message": "Kobler til …"
+  },
+  "connectWithMetaMask": {
+    "message": "Koble til med Brave"
+  },
+  "connectTo": {
+    "message": "Koble til $1",
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to Brave"
+  },
+  "connectToAll": {
+    "message": "Koble til alle dine $1",
+    "description": "$1 will be replaced by the translation of connectToAllAccounts"
+  },
+  "connectToAllAccounts": {
+    "message": "kontoer",
+    "description": "will replace $1 in connectToAll, completing the sentence 'connect to all of your accounts', will be text that shows list of accounts on hover"
+  },
+  "connectToMultiple": {
+    "message": "Koble til $1",
+    "description": "$1 will be replaced by the translation of connectToMultipleNumberOfAccounts"
+  },
+  "connectToMultipleNumberOfAccounts": {
+    "message": "$1-kontoer",
+    "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
+  },
+  "contractInteraction": {
+    "message": "Kontraktssamhandling"
+  },
+  "reject": {
+    "message": "Avslå"
+  },
+  "about": {
+    "message": "Info"
+  },
+  "aboutSettingsDescription": {
+    "message": "Versjon, kundesenter og kontaktinfo"
+  },
+  "acceleratingATransaction": {
+    "message": "* Akselerering av en transaksjon ved å bruke en høyere datakraftspris øker sjansene for å bli behandlet av nettverket raskere, men det er ikke alltid garantert."
+  },
+  "accessAndSpendNotice": {
+    "message": "$1 kan aksessere og bruke opptil dette maksbeløpet",
+    "description": "$1 is the url of the site requesting ability to spend"
+  },
+  "accessingYourCamera": {
+    "message": "Oppretter tilgang til kameraet ditt..."
+  },
+  "account": {
+    "message": "Konto"
+  },
+  "accountDetails": {
+    "message": "Kontodetaljer"
+  },
+  "accountName": {
+    "message": "Kontonavn"
+  },
+  "accountOptions": {
+    "message": "Kontovalg"
+  },
+  "accountSelectionRequired": {
+    "message": "Du må velge en konto!"
+  },
+  "active": {
+    "message": "Aktiv"
+  },
+  "activity": {
+    "message": "Aktivitet"
+  },
+  "activityLog": {
+    "message": "aktivitetshistorikk"
+  },
+  "addNetwork": {
+    "message": "Legg til nettverk"
+  },
+  "addRecipient": {
+    "message": "Legg til mottaker "
+  },
+  "advanced": {
+    "message": "Avansert"
+  },
+  "advancedSettingsDescription": {
+    "message": "Aksesser utviklerfunksjoner, last ned tilstandslogger, resett konto, sett opp testnett og tilpasset RPC"
+  },
+  "advancedOptions": {
+    "message": "Avanserte valg"
+  },
+  "customizeGas": {
+    "message": "Tilpass"
+  },
+  "addToAddressBook": {
+    "message": "Legg til adressebok "
+  },
+  "addToAddressBookModalPlaceholder": {
+    "message": "dvs. John D. "
+  },
+  "addAlias": {
+    "message": "Legg til alias "
+  },
+  "addToken": {
+    "message": "Legg til token "
+  },
+  "addTokens": {
+    "message": "Legg til sjetonger"
+  },
+  "addSuggestedTokens": {
+    "message": "Legg til foreslåtte tokener "
+  },
+  "addAcquiredTokens": {
+    "message": "Legg til de tokenene du har anskaffet med Brave"
+  },
+  "alerts": {
+    "message": "Varsler"
+  },
+  "alertsSettingsDescription": {
+    "message": "Aktiver eller deaktiver hvert varsel"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "Surfer på et nettsted med en valgt konto som ikke er tilkoblet"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "Dette varselet vises i popup-vinduet når du surfer på et tilkoblet Web3-nettsted, uten at den nåværende valgte kontoen er tilkoblet."
+  },
+  "allowOriginSpendToken": {
+    "message": "Tillat $1 å bruke din $2?",
+    "description": "$1 is the url of the site and $2 is the symbol of the token they are requesting to spend"
+  },
+  "allowThisSiteTo": {
+    "message": "Tillat dette nettstedet å:"
+  },
+  "allowExternalExtensionTo": {
+    "message": "Tillat denne eksterne utvidelsen å:"
+  },
+  "allowWithdrawAndSpend": {
+    "message": "Tillat $1 å ta ut og bruke opptil følgende beløp:",
+    "description": "The url of the site that requested permission to 'withdraw and spend'"
+  },
+  "amount": {
+    "message": "Sum"
+  },
+  "amountWithColon": {
+    "message": "Beløp:"
+  },
+  "appDescription": {
+    "message": "En Ethereum-lommebok i nettleseren din",
+    "description": "The description of the application"
+  },
+  "appName": {
+    "message": "Brave Software",
+    "description": "The name of the application"
+  },
+  "approve": {
+    "message": "Godkjenn bruksgrense"
+  },
+  "approveSpendLimit": {
+    "message": "Godkjenn $1 bruksgrense",
+    "description": "The token symbol that is being approved"
+  },
+  "approved": {
+    "message": "Godkjent"
+  },
+  "asset": {
+    "message": "Ressurs"
+  },
+  "maker": {
+    "message": "Maker"
+  },
+  "taker": {
+    "message": "Taker"
+  },
+  "slippage": {
+    "message": "Slippage Tolerance"
+  },
+  "assets": {
+    "message": "Eiendeler"
+  },
+  "attemptingConnect": {
+    "message": "Prøver å opprette forbindelse med blokkjede"
+  },
+  "attemptToCancel": {
+    "message": "Forsøk å avbryte"
+  },
+  "attemptToCancelDescription": {
+    "message": "Å sende inn dette forsøket garanterer ikke at den opprinnelige transaksjonen blir kansellert. Hvis kanselleringsforsøket lykkes, vil du bli belastet transaksjonsgebyret ovenfor."
+  },
+  "attributions": {
+    "message": "Henvisninger"
+  },
+  "autoLockTimeLimit": {
+    "message": "Auto-lås nedtellingsur (minutter)"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "Sett uvirksom tid i minutter før Brave blir låst."
+  },
+  "average": {
+    "message": "Gjennomsnitt"
+  },
+  "back": {
+    "message": "Tilbake"
+  },
+  "backToAll": {
+    "message": "Tilbake til alt"
+  },
+  "backupApprovalNotice": {
+    "message": "Sikkerhetskopier den hemmelige gjenopprettingskoden for å sikre lommeboken og midlene."
+  },
+  "backupApprovalInfo": {
+    "message": "Denne hemmelige koden kreves for å gjenopprette walleten din i tilfelle du mister enheten din, glemmer passordet ditt, må re-installere Brave eller ønsker å aksessere walleten din på en annen enhet."
+  },
+  "backupNow": {
+    "message": "Sikkerhetskopier nå"
+  },
+  "balance": {
+    "message": "Saldo "
+  },
+  "balanceOutdated": {
+    "message": "Saldoen kan utløpe"
+  },
+  "basic": {
+    "message": "Enkle"
+  },
+  "blockExplorerUrl": {
+    "message": "Blokkér Explorer"
+  },
+  "blockExplorerView": {
+    "message": "Se konto på $1",
+    "description": "$1 replaced by URL for custom block explorer"
+  },
+  "blockiesIdenticon": {
+    "message": "Bruk Blockies Identicon"
+  },
+  "nonceField": {
+    "message": "Tilpass transaksjons-nonce"
+  },
+  "nonceFieldHeading": {
+    "message": "Tilpasset nonce"
+  },
+  "nonceFieldDescription": {
+    "message": "Slå på denne for å endre nonce (transaksjonsnummer) på bekreftelsesskjermer. Dette er en avansert funksjon, bruk med varsomhet."
+  },
+  "browserNotSupported": {
+    "message": "Nettleseren din støttes ikke ..."
+  },
+  "builtInCalifornia": {
+    "message": "Brave er designet og utviklet i California."
+  },
+  "buyWithWyre": {
+    "message": "Kjøp ETH med Wyre"
+  },
+  "buyWithWyreDescription": {
+    "message": "Wyre lar deg bruke et debet-kort til å sette ETH rett inn på Brave-kontoen din."
+  },
+  "buyCoinSwitch": {
+    "message": "Kjøp på CoinSwitch "
+  },
+  "buyCoinSwitchExplainer": {
+    "message": "CoinSwitch er destinasjonen som utveksler mer enn 300 typer kryptovaluta med den beste kursen."
+  },
+  "bytes": {
+    "message": "Bytes"
+  },
+  "off": {
+    "message": "Av"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "on": {
+    "message": "På"
+  },
+  "optionalBlockExplorerUrl": {
+    "message": "Blokker Explorer URL (valgfritt)"
+  },
+  "cancel": {
+    "message": "Avbryt"
+  },
+  "cancelAttempt": {
+    "message": "Avbryt forsøk"
+  },
+  "cancellationGasFee": {
+    "message": "Kansellering gassavgift"
+  },
+  "cancelled": {
+    "message": "Avbrutt"
+  },
+  "chainId": {
+    "message": "Blokkjede "
+  },
+  "clickToRevealSeed": {
+    "message": "Klikk her for å vise hemmelige ord "
+  },
+  "close": {
+    "message": "Lukk"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": "Du må bruke Brave med Google Chrome for å kunne koble til hardware-walleten din."
+  },
+  "confirm": {
+    "message": "Bekreft"
+  },
+  "confirmed": {
+    "message": "Bekreftet"
+  },
+  "confirmPassword": {
+    "message": "Bekreft passordet"
+  },
+  "confirmSecretBackupPhrase": {
+    "message": "Bekreft din hemmelige gjennopprettingsfrase"
+  },
+  "congratulations": {
+    "message": "Gratulerer "
+  },
+  "connectAccountOrCreate": {
+    "message": "Koble til konto eller lag ny"
+  },
+  "connectHardwareWallet": {
+    "message": "Koble til maskinvarelommebok"
+  },
+  "connect": {
+    "message": "Koble til"
+  },
+  "connectingTo": {
+    "message": "Forbinder til $1 "
+  },
+  "connectingToKovan": {
+    "message": "Kobler til Kovan testnettverk"
+  },
+  "connectingToMainnet": {
+    "message": "Forbinder med hoved-Ethereumnettverk "
+  },
+  "connectingToRopsten": {
+    "message": "Kobler til Ropsten testnettverk"
+  },
+  "connectingToRinkeby": {
+    "message": "Kobler til Rinkeby Test Network "
+  },
+  "connectingToLocalhost": {
+    "message": "Kobler til lokalvert 8545"
+  },
+  "connectingToGoerli": {
+    "message": "Oppretter forbindelse med Goerli Test Network"
+  },
+  "contacts": {
+    "message": "Kontakter"
+  },
+  "contactsSettingsDescription": {
+    "message": "Legg til, rediger, fjern og administrer konaktene dine "
+  },
+  "contactUs": {
+    "message": "Kontakt oss!"
+  },
+  "continueToSwap": {
+    "message": "Continue to Swap"
+  },
+  "continueToWyre": {
+    "message": "Fortsett til Wyre "
+  },
+  "continueToCoinSwitch": {
+    "message": "Fortsett med CoinSwitch "
+  },
+  "contractDeployment": {
+    "message": "Distribusjon av kontrakten"
+  },
+  "copiedExclamation": {
+    "message": "Kopiert!"
+  },
+  "copyAddress": {
+    "message": "Kopier adresse til  utklippstavlen "
+  },
+  "copyTransactionId": {
+    "message": "Kopier transaksjons-ID "
+  },
+  "copiedTransactionId": {
+    "message": "Kopiert transaksjonsidentifikasjon"
+  },
+  "copyToClipboard": {
+    "message": "Kopiér til utklippstavlen"
+  },
+  "copyPrivateKey": {
+    "message": "Dette er din private nøkkel (klikk for å kopiere)"
+  },
+  "create": {
+    "message": "Opprett"
+  },
+  "createAccount": {
+    "message": "Opprett konto"
+  },
+  "createAWallet": {
+    "message": "Opprett en lommebok"
+  },
+  "createPassword": {
+    "message": "Opprett passord "
+  },
+  "currencyConversion": {
+    "message": "Valutakonvertering "
+  },
+  "currentExtension": {
+    "message": "Gjeldende utvidelsesside"
+  },
+  "currentLanguage": {
+    "message": "Nåværende språk "
+  },
+  "customGas": {
+    "message": "Tilpass Gass"
+  },
+  "customGasSubTitle": {
+    "message": "Økt gebyr kan redusere behandlingstiden, men det er ikke garantert."
+  },
+  "customToken": {
+    "message": "Egendefinert token "
+  },
+  "customRPC": {
+    "message": "Tilpasset RPC"
+  },
+  "customSpendLimit": {
+    "message": "Tilpasset bruksgrense"
+  },
+  "dataBackupFoundInfo": {
+    "message": "Noen av kontodataene dine ble sikkerhetskopiert under en tidligere installering av Brave. Dette kan inkludere innstillingene dine, kontakter og tokener. Ønsker du å gjenopprette disse dataene nå?"
+  },
+  "decimalsMustZerotoTen": {
+    "message": "Desimaler må være minst 0, og ikke flere enn 36."
+  },
+  "decimal": {
+    "message": "Presisjonsdesimaler"
+  },
+  "defaultNetwork": {
+    "message": "Standardnettverket for Ether-transaksjoner er Main Net."
+  },
+  "delete": {
+    "message": "Slett"
+  },
+  "deleteAccount": {
+    "message": "Slett konto "
+  },
+  "deposit": {
+    "message": "Innskudd"
+  },
+  "depositEther": {
+    "message": "Sett inn Ether "
+  },
+  "details": {
+    "message": "Detaljer"
+  },
+  "directDepositEther": {
+    "message": "Sett Ether direkte inn"
+  },
+  "directDepositEtherExplainer": {
+    "message": "Hvis du allerede har noe Ether, er den raskeste måten å få Ether i den nye lommeboken din på ved hjelp av direkte innskudd."
+  },
+  "done": {
+    "message": "Ferdig"
+  },
+  "dontShowThisAgain": {
+    "message": "Ikke vis dette igjen."
+  },
+  "downloadGoogleChrome": {
+    "message": "Last ned Google Chrome "
+  },
+  "downloadSecretBackup": {
+    "message": "Last ned denne hemmelige gjenopprettingsfrasen og lagre den trygt på ekstern, kryptert harddisk eller lagringsmedium."
+  },
+  "downloadStateLogs": {
+    "message": "Last ned tilstandslogg"
+  },
+  "dontHaveAHardwareWallet": {
+    "message": "Har du ikke en hardware-lommebok?"
+  },
+  "dropped": {
+    "message": "Droppet"
+  },
+  "edit": {
+    "message": "Endre"
+  },
+  "editContact": {
+    "message": "Rediger kontakt"
+  },
+  "editPermission": {
+    "message": "Rediger tillatelser"
+  },
+  "endOfFlowMessage1": {
+    "message": "Du besto prøven - oppbevar den mnemoniske gjenopprettingsfrasen din på et sikkert sted, det er ditt ansvar! "
+  },
+  "endOfFlowMessage2": {
+    "message": "Tips om sikker lagring "
+  },
+  "endOfFlowMessage3": {
+    "message": "Lagre en sikkerhetskopi på flere steder. "
+  },
+  "endOfFlowMessage4": {
+    "message": "Aldri del frasen med noen."
+  },
+  "endOfFlowMessage5": {
+    "message": "Vær obs på nettfiske! Brave vil aldri spontant be om seed-setningen din."
+  },
+  "endOfFlowMessage6": {
+    "message": "Hvis du trenger å sikkerhetskopiere seed-frasen din igjen kan du finne den i Innstillinger -> Sikkerhet."
+  },
+  "endOfFlowMessage7": {
+    "message": "If you ever have questions or see something fishy, visit our wallet"
+  },
+  "endOfFlowMessage8": {
+    "message": "Brave kunne ikke gjenopprette seed-setningen din."
+  },
+  "endOfFlowMessage9": {
+    "message": "Finn ut mer."
+  },
+  "endOfFlowMessage10": {
+    "message": "Ferdig"
+  },
+  "endOfFlowMessage11": {
+    "message": "support forum."
+  },
+  "externalExtension": {
+    "message": "Ekstern utvidelse"
+  },
+  "onboardingReturnNotice": {
+    "message": "\"$1\" lukker denne fanen og sende deg tilbake til $2",
+    "description": "Return the user to the site that initiated onboarding"
+  },
+  "ensRegistrationError": {
+    "message": "Feil i ENS-navneregistrering"
+  },
+  "ensNotFoundOnCurrentNetwork": {
+    "message": "ENS-navn ikke funnet i det gjeldende nettverket. Prøv å bytte til hovednettverket for Ethereum."
+  },
+  "enterAnAlias": {
+    "message": "Oppgi et alias"
+  },
+  "enterMaxSpendLimit": {
+    "message": "Legg inn maks bruksgrense"
+  },
+  "enterPassword": {
+    "message": "Skriv inn passord "
+  },
+  "enterPasswordContinue": {
+    "message": "Skriv inn passord for å fortsette"
+  },
+  "errorCode": {
+    "message": "Kode: $1",
+    "description": "Displayed error code for debugging purposes. $1 is the error code"
+  },
+  "errorDetails": {
+    "message": "Feildetaljer",
+    "description": "Title for collapsible section that displays error details for debugging purposes"
+  },
+  "errorMessage": {
+    "message": "Melding: $1",
+    "description": "Displayed error message for debugging purposes. $1 is the error message"
+  },
+  "errorName": {
+    "message": "Kode: $1",
+    "description": "Displayed error name for debugging purposes. $1 is the error name"
+  },
+  "errorPageTitle": {
+    "message": "Brave støtte på en feil",
+    "description": "Title of generic error page"
+  },
+  "errorPageMessage": {
+    "message": "Prøv igjen ved å laste inn siden på nytt, eller kontakt kundestøtte på support@brave.com",
+    "description": "Message displayed on generic error page in the fullscreen or notification UI"
+  },
+  "errorPagePopupMessage": {
+    "message": "Prøv igjen ved å lukke og gjenåpne popup-vinduet, eller kontakt kundestøtte på support@brave.com",
+    "description": "Message displayed on generic error page in the popup UI"
+  },
+  "errorStack": {
+    "message": "Stack:",
+    "description": "Title for error stack, which is displayed for debugging purposes"
+  },
+  "ethereumPublicAddress": {
+    "message": "Ethereum offentlig adresse"
+  },
+  "etherscanView": {
+    "message": "Vis konto på Etherscan "
+  },
+  "estimatedProcessingTimes": {
+    "message": "Anslått behandlingstid"
+  },
+  "estimatedNetworkFee": {
+    "message": "Estimated network fee"
+  },
+  "expandView": {
+    "message": "Utvid visning"
+  },
+  "exportPrivateKey": {
+    "message": "Eksporter privat nøkkel"
+  },
+  "failed": {
+    "message": "Mislyktes"
+  },
+  "failureMessage": {
+    "message": "Noe gikk galt, og vi kunne ikke fullføre handlingen"
+  },
+  "fast": {
+    "message": "Høy"
+  },
+  "faster": {
+    "message": "Raskere "
+  },
+  "feeAssociatedRequest": {
+    "message": "Denne forespørselen medfører et gebyr."
+  },
+  "fiat": {
+    "message": "Fiat",
+    "description": "Exchange type"
+  },
+  "fileImportFail": {
+    "message": "Virker ikke filimporteringen? Trykk her!",
+    "description": "Helps user import their account from a JSON file"
+  },
+  "forgetDevice": {
+    "message": "Glem denne enheten"
+  },
+  "from": {
+    "message": "Fra "
+  },
+  "fromAddress": {
+    "message": "Fra: $1",
+    "description": "$1 is the address to include in the From label. It is typically shortened first using shortenAddress"
+  },
+  "functionApprove": {
+    "message": "Funksjon: Godkjenn"
+  },
+  "functionType": {
+    "message": "Funksjonstype "
+  },
+  "gasLimit": {
+    "message": "Datakraftsgrense "
+  },
+  "gasLimitInfoModalContent": {
+    "message": "Datakraftgrense er det maksimale antall datakraft du er vilig til å benytte. "
+  },
+  "gasLimitTooLow": {
+    "message": "Datakraftsgrense må være minst 21000"
+  },
+  "gasUsed": {
+    "message": "Brukt datakraft "
+  },
+  "gasPrice": {
+    "message": "Bensinpris (GWEI)"
+  },
+  "gasPriceExtremelyLow": {
+    "message": "Datakraftspris ekstremt lav "
+  },
+  "gasPriceInfoModalContent": {
+    "message": "Datakraftpris angir mengden Ether du er villig til å betale for hver datakraftenhet."
+  },
+  "gasPriceNoDenom": {
+    "message": "Datakraft"
+  },
+  "gdprMessage": {
+    "message": "Disse datene er aggregerte og er derfor anonyme av hensyn til personvernforordningen (EU) 2016/679. For mer informasjon knyttet til vår personvernpraksis, vennligst se vår $1.",
+    "description": "$1 refers to the gdprMessagePrivacyPolicy message, the translation of which is meant to be used exclusively in the context of gdprMessage"
+  },
+  "gdprMessagePrivacyPolicy": {
+    "message": "Personvernpolicy her",
+    "description": "this translation is intended to be exclusively used as the replacement for the $1 in the gdprMessage translation"
+  },
+  "general": {
+    "message": "Generell"
+  },
+  "generalSettingsDescription": {
+    "message": "Valutakonvertering, primærvaluta, språk, identifikasjonsblokkering"
+  },
+  "getEther": {
+    "message": "Skaff Ether "
+  },
+  "getEtherFromFaucet": {
+    "message": "Få Ether fra en kran for $1",
+    "description": "Displays network name for Ether faucet"
+  },
+  "getHelp": {
+    "message": "Få hjelp."
+  },
+  "getStarted": {
+    "message": "Kom i gang"
+  },
+  "happyToSeeYou": {
+    "message": "Vi er glade for å se deg "
+  },
+  "hardware": {
+    "message": "Hardware"
+  },
+  "hardwareWalletConnected": {
+    "message": "Hardware-lommebok tilkoblet"
+  },
+  "hardwareWallets": {
+    "message": "Koble til en hardware-lommebok"
+  },
+  "hardwareWalletsMsg": {
+    "message": "Velg en hardware-wallet som du ønsker å bruke med Brave"
+  },
+  "havingTroubleConnecting": {
+    "message": "Har du problemer med å koble til?"
+  },
+  "here": {
+    "message": "her",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
+  },
+  "hexData": {
+    "message": "Hex Data"
+  },
+  "hide": {
+    "message": "Skjul"
+  },
+  "hideTokenSymbol": {
+    "message": "Skjul $1",
+    "description": "$1 is the symbol for a token (e.g. 'DAI')"
+  },
+  "hideTokenPrompt": {
+    "message": "Skjul sjetonger?"
+  },
+  "history": {
+    "message": "Logg"
+  },
+  "home": {
+    "message": "Gå til startsiden"
+  },
+  "import": {
+    "message": "Importer",
+    "description": "Button to import an account from a selected file"
+  },
+  "importAccount": {
+    "message": "Importér konto"
+  },
+  "importAccountMsg": {
+    "message": "Importerte kontoer blir ikke forbundet med den opprinnelig etablerte seed-setningen for Brave-kontoen din. Lær mer om importerte kontoer"
+  },
+  "importAccountSeedPhrase": {
+    "message": "Importer en konto med seed-setning"
+  },
+  "importWallet": {
+    "message": "Importer wallet"
+  },
+  "importYourExisting": {
+    "message": "Import your existing wallet using a 12 or 24 word seed phrase"
+  },
+  "imported": {
+    "message": "Importert",
+    "description": "status showing that an account has been fully loaded into the keyring"
+  },
+  "importUsingSeed": {
+    "message": "Importer ved hjelp av kontoens mnemoniske gjenopprettingsfrase"
+  },
+  "infoHelp": {
+    "message": "Informasjon og hjelp"
+  },
+  "initialTransactionConfirmed": {
+    "message": "Din opprinnelige transaksjon ble bekreftet av nettverket. Klikk OK for å gå tilbake."
+  },
+  "insufficientBalance": {
+    "message": "Utilstrekkelig saldo."
+  },
+  "insufficientFunds": {
+    "message": "Utilstrekkelig med midler."
+  },
+  "insufficientTokens": {
+    "message": "Utilstrekkelige tokener "
+  },
+  "insufficientFundsGas": {
+    "message": "Insufficient funds for gas."
+  },
+  "balanceFetchError": {
+    "message": "Balance fetch error."
+  },
+  "invalidAddress": {
+    "message": "Ugyldig adresse"
+  },
+  "invalidAddressRecipient": {
+    "message": "Mottaksadresse er ugyldig "
+  },
+  "knownAddressRecipient": {
+    "message": "Kjent kontaktadresse"
+  },
+  "knownTokenWarning": {
+    "message": "Denne handlingen redigerer tokener som allerede er listet i walleten din, og kan brukes til å utsette deg for nettfiske (phishing). Godkjenn kun hvis du er sikker på at du vil endre det disse tokenene representerer."
+  },
+  "reusedTokenNameWarning": {
+    "message": "En token her gjenbruker et symbol fra en annen token du følger; dette kan være forvirrende eller villedende."
+  },
+  "invalidAddressRecipientNotEthNetwork": {
+    "message": "Ikke ETH-nettverk, bruk små bokstaver"
+  },
+  "invalidCustomNetworkAlertContent1": {
+    "message": "The custom network '$1' is missing its chain ID.",
+    "description": "$1 is the name/identifier of the network."
+  },
+  "invalidCustomNetworkAlertContent2": {
+    "message": "To protect you from malicious or faulty network providers, chain IDs are now required for all custom networks."
+  },
+  "invalidCustomNetworkAlertContent3": {
+    "message": "Go to Settings > Network and enter the chain ID. You can find the chain IDs of most popular networks on $1.",
+    "description": "$1 is a link to https://chainid.network"
+  },
+  "invalidCustomNetworkAlertTitle": {
+    "message": "Invalid Custom Network"
+  },
+  "invalidHexNumber": {
+    "message": "Invalid hexadecimal number."
+  },
+  "invalidHexNumberLeadingZeros": {
+    "message": "Invalid hexadecimal number. Remove any leading zeros."
+  },
+  "invalidRPC": {
+    "message": "Ugyldig RPC URL"
+  },
+  "invalidBlockExplorerURL": {
+    "message": "Ugyldig nettstedsadresse for blokk-utforsker"
+  },
+  "invalidSeedPhrase": {
+    "message": "Ugyldig mnemonisk gjenopprettingsfrase"
+  },
+  "ipfsGateway": {
+    "message": "IPFS-gateway"
+  },
+  "ipfsGatewayDescription": {
+    "message": "Legg inn nettstedsadressen til IPFS CID-gatewayen for bruk til ENS-innholdsresolusjon."
+  },
+  "invalidIpfsGateway": {
+    "message": "Ugyldig IPFS-gateway: Verdien må være en gyldig nettstedsadresse"
+  },
+  "invalidNumber": {
+    "message": "Invalid number. Enter a decimal or hexadecimal number."
+  },
+  "invalidNumberLeadingZeros": {
+    "message": "Invalid number. Remove any leading zeros."
+  },
+  "forbiddenIpfsGateway": {
+    "message": "Forbudt IPFS-gateway: Vennligst spesifiser en CID-gateway"
+  },
+  "jsonFile": {
+    "message": "JSON-fil",
+    "description": "format for importing an account"
+  },
+  "kovan": {
+    "message": "Kovan testnettverk"
+  },
+  "max": {
+    "message": "Maks"
+  },
+  "lastConnected": {
+    "message": "Sist tilkoblet"
+  },
+  "learnMore": {
+    "message": "Lær mer"
+  },
+  "ledgerAccountRestriction": {
+    "message": "Du må bruke den siste kontoen din før du kan legge til en ny."
+  },
+  "letsGoSetUp": {
+    "message": "Ja, la oss komme i gang!"
+  },
+  "likeToAddTokens": {
+    "message": "Ønsker du å legge til disse tokenene"
+  },
+  "links": {
+    "message": "Lenker "
+  },
+  "liveGasPricePredictions": {
+    "message": "Prisforutsigelse av datakraft i sanntid"
+  },
+  "loading": {
+    "message": "Laster inn ..."
+  },
+  "loadingTokens": {
+    "message": "Laster tokener ..."
+  },
+  "loadMore": {
+    "message": "Last mer "
+  },
+  "localhost": {
+    "message": "Lokalvert 8545"
+  },
+  "lock": {
+    "message": "Lås"
+  },
+  "lockTimeTooGreat": {
+    "message": "Låsetiden er for lang"
+  },
+  "mainnet": {
+    "message": "Ethereum hovednettverk"
+  },
+  "availableOnMainnetRopsten": {
+    "message": "Only available on mainnet and ropsten"
+  },
+  "memorizePhrase": {
+    "message": "Memorer denne frasen. "
+  },
+  "memo": {
+    "message": "beskjed"
+  },
+  "message": {
+    "message": "Melding "
+  },
+  "metaMaskConnectStatusParagraphOne": {
+    "message": "Du har nå mer kontroll over kontoforbindelsene dine i Brave."
+  },
+  "metaMaskConnectStatusParagraphTwo": {
+    "message": "Koblingsstatus-knappen viser om nettstedet du besøker er tilkoblet den nåværende valgte kontoen din."
+  },
+  "metaMaskConnectStatusParagraphThree": {
+    "message": "Klikk på den for å administrere de tilkoblede kontoene dine."
+  },
+  "metamaskDescription": {
+    "message": "Kobler deg til Ethereum og det desentraliserte nettet."
+  },
+  "metamaskVersion": {
+    "message": "Brave-versjon"
+  },
+  "mobileSyncText": {
+    "message": "Vennligst skriv inn passordet ditt for å bekrefte at det er deg!"
+  },
+  "myAccounts": {
+    "message": "Mine kontoer "
+  },
+  "myWalletAccounts": {
+    "message": "mine lommebokkontoer"
+  },
+  "myWalletAccountsDescription": {
+    "message": "Alle de Brave-etablerte kontoene dine legges automatisk til denne seksjonen."
+  },
+  "mustSelectOne": {
+    "message": "Må velge minst 1 token. "
+  },
+  "needEtherInWallet": {
+    "message": "For å samhandle med desentraliserte applikasjoner med Brave, trenger du å ha Ether i walleten din."
+  },
+  "needImportFile": {
+    "message": "Du må velge en fil å importere.",
+    "description": "User is important an account and needs to add a file to continue"
+  },
+  "negativeETH": {
+    "message": "Kan ikke sende negative beløp av ETH. "
+  },
+  "networkName": {
+    "message": "Nettverksnavn "
+  },
+  "networks": {
+    "message": "Nettverk"
+  },
+  "networkSettingsChainIdDescription": {
+    "message": "The chain ID is used for signing transactions. Enter a decimal or hexadecimal number starting with '0x'."
+  },
+  "networkSettingsDescription": {
+    "message": "Legg til og rediger tilpassede RPC-nettverk"
+  },
+  "nevermind": {
+    "message": "Bare glem det"
+  },
+  "newAccount": {
+    "message": "Ny konto "
+  },
+  "newAccountDetectedDialogMessage": {
+    "message": "Ny adresse oppdaget! Klikk her for å legge til adresseboken din."
+  },
+  "newAccountNumberName": {
+    "message": "Konto $1 ",
+    "description": "Default name of next account to be created on create account screen"
+  },
+  "newContact": {
+    "message": "Ny kontaktperson"
+  },
+  "newContract": {
+    "message": "Ny kontaktperson"
+  },
+  "newPassword": {
+    "message": "Nytt passord (minimum 8 karakterer)"
+  },
+  "newNetwork": {
+    "message": "Nytt nettverk "
+  },
+  "newToMetaMask": {
+    "message": "Ny hos Brave?"
+  },
+  "noAlreadyHaveSeed": {
+    "message": "Nei, jeg har allerede en mnemonisk gjenopprettingsfrase"
+  },
+  "protectYourKeys": {
+    "message": "Beskytt nøklene dine! "
+  },
+  "protectYourKeysMessage1": {
+    "message": "Vær forsiktig med seed-setningen din – det har vært rapporter om nettsteder som forsøker å imitere Brave. Brave vil aldri be om seed-setningen din!"
+  },
+  "protectYourKeysMessage2": {
+    "message": "Hold setningen din sikker. Hvis du ser noe suspekt, eller du er usikker på et nettsted, kontakt support@brave.com"
+  },
+  "rpcUrl": {
+    "message": "NY RPC-URL "
+  },
+  "onlyConnectTrust": {
+    "message": "Koble kun til nettsteder som du stoler på."
+  },
+  "onlyAddTrustedNetworks": {
+    "message": "En skadelig Ethereum-nettverkstilbyder kan lyve om tilstanden på blokk-kjeden og registrere nettverksaktiviteten din. Legg bare til tilpassede nettverk som du stoler på."
+  },
+  "optionalSymbol": {
+    "message": "Symbol (valgfritt)"
+  },
+  "newTotal": {
+    "message": "Ny total"
+  },
+  "newTransactionFee": {
+    "message": "Ny transaksjonsavgift"
+  },
+  "next": {
+    "message": "Neste"
+  },
+  "nextNonceWarning": {
+    "message": "Nonce er høyere enn foreslåtte nonce på $1",
+    "description": "The next nonce according to Brave's internal logic"
+  },
+  "noAddressForName": {
+    "message": "Ingen adresse har blitt angitt for dette navnet. "
+  },
+  "noConversionRateAvailable": {
+    "message": "Ingen konverteringsrate tilgjengelig "
+  },
+  "noTransactions": {
+    "message": "Du har ingen transaksjoner"
+  },
+  "noThanks": {
+    "message": "Nei takk"
+  },
+  "notCurrentAccount": {
+    "message": "Er dette den korrekte kontoen? Den er forskjellig fra den kontoen som nå er valgt i walleten din"
+  },
+  "notEnoughGas": {
+    "message": "Ikke nok bensin"
+  },
+  "noWebcamFoundTitle": {
+    "message": "Webkamera ikke funnet"
+  },
+  "noWebcamFound": {
+    "message": "Datamaskinens webkamera ble ikke funnet. Vennligst prøv igjen."
+  },
+  "ofTextNofM": {
+    "message": "av"
+  },
+  "orderOneHere": {
+    "message": "Bestill en Trezor eller Ledger og oppbevar midlene dine i kjølerom"
+  },
+  "origin": {
+    "message": "Opprinnelse"
+  },
+  "parameters": {
+    "message": "Parametre"
+  },
+  "participateInMetaMetrics": {
+    "message": "Delta i MetaMetrics "
+  },
+  "participateInMetaMetricsDescription": {
+    "message": "Delta i MetaMetrics for å hjelpe oss å gjøre Brave bedre"
+  },
+  "password": {
+    "message": "Passord"
+  },
+  "passwordsDontMatch": {
+    "message": "Passordene er ikke like"
+  },
+  "passwordNotLongEnough": {
+    "message": "Passordet er ikke langt nok"
+  },
+  "pastePrivateKey": {
+    "message": "Lim inn din private nøkkelstreng her:",
+    "description": "For importing an account from a private key"
+  },
+  "pending": {
+    "message": "Påventende"
+  },
+  "permissionCheckedIconDescription": {
+    "message": "Du har godkjent denne tillatelsen"
+  },
+  "permissionUncheckedIconDescription": {
+    "message": "Du har ikke godkjent denne tillatelsen"
+  },
+  "personalAddressDetected": {
+    "message": "Personlig adresse oppdaget. Skriv inn token-kontraktadressen."
+  },
+  "plusXMore": {
+    "message": "+ $1 mer",
+    "description": "$1 is a number of additional but unshown items in a list- this message will be shown in place of those items"
+  },
+  "prev": {
+    "message": "Tidligere"
+  },
+  "primaryCurrencySetting": {
+    "message": "Hovedvaluta "
+  },
+  "primaryCurrencySettingDescription": {
+    "message": "Velg nasjonal for å prioritere å vise verdier i nasjonal valuta i kjeden (f.eks. ETH). Velg Fiat for å prioritere visning av verdier i den valgte fiat-valutaen."
+  },
+  "privacyMsg": {
+    "message": "Personvernerklæring"
+  },
+  "privateKey": {
+    "message": "Privat nøkkel",
+    "description": "select this type of file to use to import an account"
+  },
+  "privateKeyWarning": {
+    "message": "Advarsel: aldri gjør kjent denne nøkkelen. Alle som har tilgang til dine private nøkler kan stjele midlene dine som er på konto."
+  },
+  "privateNetwork": {
+    "message": "Privat nettverk "
+  },
+  "proposedApprovalLimit": {
+    "message": "Foreslått godkjenningsgrense"
+  },
+  "queue": {
+    "message": "Kø"
+  },
+  "queued": {
+    "message": "Satt i kø"
+  },
+  "readdToken": {
+    "message": "Du kan legge til dette tokenet igjen i fremtiden ved å gå til \"Legg til token\" i menyen for kontoalternativer."
+  },
+  "recents": {
+    "message": "Nylige"
+  },
+  "receive": {
+    "message": "Motta "
+  },
+  "recipientAddress": {
+    "message": "Mottakeradresse"
+  },
+  "recipientAddressPlaceholder": {
+    "message": "Search, public address (0x), or domain"
+  },
+  "rejectAll": {
+    "message": "Avvis alle"
+  },
+  "rejectTxsN": {
+    "message": "Avslå transaksjoner på $1."
+  },
+  "rejectTxsDescription": {
+    "message": "Du er i ferd med å gruppevis avslå transaksjoner på $1."
+  },
+  "rejected": {
+    "message": "Avvist"
+  },
+  "reset": {
+    "message": "Tilbakestill"
+  },
+  "resetAccount": {
+    "message": "Tilbakestill konto"
+  },
+  "resetAccountDescription": {
+    "message": "Resetting av kontoen din vil tømme transaksjonshistorikken din. Dette vil ikke endre saldoene på kontoene dine eller kreve at du legger inn seed-setningene dine på nytt."
+  },
+  "deleteNetwork": {
+    "message": "Slette nettverk? "
+  },
+  "deleteNetworkDescription": {
+    "message": "Er du sikker på at du vil slette dette nettverket?"
+  },
+  "remindMeLater": {
+    "message": "Minn meg på dette senere"
+  },
+  "restoreFromSeed": {
+    "message": "Gjennopprett konto? "
+  },
+  "restoreAccountWithSeed": {
+    "message": "Gjenopprett konto med frøfrase"
+  },
+  "restoreWalletPreferences": {
+    "message": "En backup av dataene dine fra $1 er funnet. Ønsker du å gjenopprette wallet-preferansene dine?",
+    "description": "$1 is the date at which the data was backed up"
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": "forespørsler venter på godkjenning"
+  },
+  "required": {
+    "message": "Påkrevd "
+  },
+  "restore": {
+    "message": "Gjenopprett"
+  },
+  "revealSeedWords": {
+    "message": "Avdekk seed-setning"
+  },
+  "revealSeedWordsTitle": {
+    "message": "Mnemonisk gjenopprettingsfrase"
+  },
+  "revealSeedWordsDescription": {
+    "message": "Hvis du noen gang bytter nettlesere eller flytter datamaskiner, trenger du denne mnemoniske gjenopprettingsfrasen for å få tilgang til kontoene dine. Lagre dem på et trygt og hemmelig sted."
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "IKKE del denne frasen med noen! "
+  },
+  "revealSeedWordsWarning": {
+    "message": "Disse ordene kan brukes for å stjele alle kontoene dine. "
+  },
+  "remove": {
+    "message": "Fjern"
+  },
+  "removeAccount": {
+    "message": "Fjern konto"
+  },
+  "removeAccountDescription": {
+    "message": "Denne kontoen blir fjernet fra lommeboken din. Forsikre deg om at du har den originale mnemoniske gjenopprettingsfrasen eller den private nøkkelen for denne importerte kontoen før du fortsetter. Du kan importere eller opprette kontoer igjen fra nedtrekksmenyen."
+  },
+  "readyToConnect": {
+    "message": "Klar til å koble til?"
+  },
+  "reviewSwap": {
+    "message": "Review Swap"
+  },
+  "rinkeby": {
+    "message": "Rinkeby testnettverk"
+  },
+  "ropsten": {
+    "message": "Ropsten Test Network"
+  },
+  "goerli": {
+    "message": "Goerli Test Network"
+  },
+  "save": {
+    "message": "Lagre"
+  },
+  "slow": {
+    "message": "Lav"
+  },
+  "slower": {
+    "message": "Saktere"
+  },
+  "saveAsCsvFile": {
+    "message": "Lagre som CSV-fil "
+  },
+  "scanInstructions": {
+    "message": "Plasser QR-koden foran kameraet ditt"
+  },
+  "scanQrCode": {
+    "message": "Skann QR-kode"
+  },
+  "search": {
+    "message": "Søk"
+  },
+  "searchResults": {
+    "message": "Søkeresultater"
+  },
+  "secretBackupPhrase": {
+    "message": "Hemmelig sikkerhetskopifrase "
+  },
+  "secretBackupPhraseDescription": {
+    "message": "Den hemmelige gjenopprettingsfrasen din gjør det enkelt å sikkerhetskopiere og gjenopprette kontoen din."
+  },
+  "secretBackupPhraseWarning": {
+    "message": "ADVARSEL: Du må aldri avsløre gjenopprettingsfrasen din. Alle som har denne frasen kan ta fra deg Etheren din for alltid."
+  },
+  "secretPhrase": {
+    "message": "Enter your secret 12 or 24 word phrase to restore your vault."
+  },
+  "securityAndPrivacy": {
+    "message": "Sikkerhet og personvern"
+  },
+  "securitySettingsDescription": {
+    "message": "Personverninnstillinger og lommebokens mnemoniske gjenopprettingsfrase"
+  },
+  "seedPhrasePlaceholder": {
+    "message": "Skill hvert ord med ett enkelt mellomrom"
+  },
+  "seedPhrasePlaceholderPaste": {
+    "message": "Lim inn seed-setning fra utklippstavlen"
+  },
+  "showSeedPhrase": {
+    "message": "Vis seed-setning"
+  },
+  "seedPhraseReq": {
+    "message": "Seed-setninger inneholder 12, 15, 18, 21, eller 24 ord"
+  },
+  "selectingAllWillAllow": {
+    "message": "Ved å velge alle tillates dette nettstedet å se alle de gjeldende kontoene dine. Vær sikker på at du stoler på dette nettstedet."
+  },
+  "selectAccounts": {
+    "message": "Velg konto(er)"
+  },
+  "selectAll": {
+    "message": "Velg alle"
+  },
+  "selectCurrency": {
+    "message": "Velg valuta"
+  },
+  "selectEachPhrase": {
+    "message": "Velg hver frase for å kontrollere at den er riktig."
+  },
+  "selectLocale": {
+    "message": "Velg plassering"
+  },
+  "selectType": {
+    "message": "Velg type "
+  },
+  "setAllowance": {
+    "message": "Set allowance"
+  },
+  "buy": {
+    "message": "Kjøp "
+  },
+  "send": {
+    "message": "Send"
+  },
+  "swap": {
+    "message": "Swap"
+  },
+  "swapApprovalSecurityMsg": {
+    "message": "For security reasons, it is advisable to reset the allowance to 0 first before setting it the desired value, to prevent transaction reordering attacks."
+  },
+  "swapBraveFees": {
+    "message": "Quote includes a $1 Brave fee."
+  },
+  "swapFooterPrivacyNotice": {
+    "message": "Brave uses $1 as a DEX aggregator. Please see $2 for more information."
+  },
+  "swapNewQuoteCountdown": {
+    "message": "New quote in"
+  },
+  "swapSlippageDescription": {
+    "message": "The maximum acceptable price change in % of the buy asset. If the delta exceeds the slippage, the swap will not be executed."
+  },
+  "swapQuoteRefresh": {
+    "message": "Quotes are refreshed often to reflect current market conditions."
+  },
+  "sendAmount": {
+    "message": "Send beløp"
+  },
+  "sendETH": {
+    "message": "Send ETH"
+  },
+  "sendTokens": {
+    "message": "Send tokener"
+  },
+  "sentEther": {
+    "message": "sendt ether"
+  },
+  "sentTokens": {
+    "message": "sendte tokener "
+  },
+  "sendSpecifiedTokens": {
+    "message": "Send $1",
+    "description": "Symbol of the specified token"
+  },
+  "separateEachWord": {
+    "message": "Del hvert ord med et enkelt mellomrom "
+  },
+  "searchAssets": {
+    "message": "Search Assets"
+  },
+  "searchTokens": {
+    "message": "Søk i sjetonger"
+  },
+  "searchAccounts": {
+    "message": "Søk i kontoer"
+  },
+  "noAccountsFound": {
+    "message": "Ingen kontoer funnet for det angitte søket"
+  },
+  "selectAsset": {
+    "message": "Select asset"
+  },
+  "selectAnAccount": {
+    "message": "Velg en konto"
+  },
+  "selectAnAccountHelp": {
+    "message": "Velg kontoen som skal vises i Brave"
+  },
+  "selectAHigherGasFee": {
+    "message": "Velg en høyere gassavgift for å fremskynde transaksjonsbehandlingen.*"
+  },
+  "selectHdPath": {
+    "message": "Velg HD-bane"
+  },
+  "selectPathHelp": {
+    "message": "Hvis du ikke ser de eksisterende Ledger-kontoene nedenfor, kan du prøve å bytte baner til «Legacy (MEW/MyCrypto)»"
+  },
+  "settings": {
+    "message": "Innstillinger"
+  },
+  "showAdvancedGasInline": {
+    "message": "Avanserte datakraftskontroller"
+  },
+  "showAdvancedGasInlineDescription": {
+    "message": "Velg dette for å vise bensinpris og begrensningskontroller direkte på send- og bekreftskjermbildene."
+  },
+  "showFiatConversionInTestnets": {
+    "message": "Vis konvertering på Testnets "
+  },
+  "showFiatConversionInTestnetsDescription": {
+    "message": "Velg dette for å vise fiat-konvertering på Testnets"
+  },
+  "showPrivateKeys": {
+    "message": "Vis private nøkler"
+  },
+  "showHexData": {
+    "message": "Vis hex data "
+  },
+  "showHexDataDescription": {
+    "message": "Velg dette for å vise hex-datafeltet på sendskjermen"
+  },
+  "sign": {
+    "message": "Undertegn"
+  },
+  "signatureRequest": {
+    "message": "Signaturforespørsel"
+  },
+  "signatureRequest1": {
+    "message": "Melding "
+  },
+  "signed": {
+    "message": "Signert"
+  },
+  "signNotice": {
+    "message": "Signering av denne meldingen kan ha\nfarlige konsekvenser. Signér kun meldinger fra\nnettsteder du stoler fullt og helt på med hele kontoen din. Denne farlige metoden vil bli fjernet i en fremtidig versjon."
+  },
+  "sigRequest": {
+    "message": "Signaturforespørsel "
+  },
+  "somethingWentWrong": {
+    "message": "Oisann! Noe gikk galt. "
+  },
+  "speedUp": {
+    "message": "Øk hastigheten "
+  },
+  "speedUpCancellation": {
+    "message": "Fremskynd denne kanselleringen"
+  },
+  "speedUpTransaction": {
+    "message": "Utfør denne transaksjonen hurtigere"
+  },
+  "spendLimitPermission": {
+    "message": "Bruksgrense-tillatelse"
+  },
+  "spendLimitRequestedBy": {
+    "message": "Bruksgrense forespurt av $1",
+    "description": "Origin of the site requesting the spend limit"
+  },
+  "spendLimitTooLarge": {
+    "message": "Bruksgrense er for høy"
+  },
+  "spendLimitInvalid": {
+    "message": "Ugyldig bruksgrense; må være et positivt tall"
+  },
+  "switchNetworks": {
+    "message": "Bytt nettverk "
+  },
+  "stateLogFileName": {
+    "message": "Brave-tilstandslogger"
+  },
+  "stateLogs": {
+    "message": "Tilstandslogg"
+  },
+  "stateLogsDescription": {
+    "message": "Tilstandslogger inneholder de offentlige kontoadressene og sendte transaksjoner."
+  },
+  "stateLogError": {
+    "message": "Feil ved henting av tilstandslogger."
+  },
+  "statusConnected": {
+    "message": "Tilkoblet"
+  },
+  "statusNotConnected": {
+    "message": "Ikke tilkoblet"
+  },
+  "step1HardwareWallet": {
+    "message": "1. Koble til maskinvarelommebok"
+  },
+  "step1HardwareWalletMsg": {
+    "message": "Koble hardware-lommebok din direkte til datamaskinen din."
+  },
+  "step2HardwareWallet": {
+    "message": "2. Velg en konto"
+  },
+  "step2HardwareWalletMsg": {
+    "message": "Velg den kontoen du ønsker å se. Du kan bare velge en av gangen."
+  },
+  "step3HardwareWallet": {
+    "message": "3. Start bruk av web3-nettsteder og mer!"
+  },
+  "step3HardwareWalletMsg": {
+    "message": "Bruk hardware-kontoen din som du ville gjort med enhver Ethereum-konto. Koble til web3-nettsteder, sende ETH, kjøpe og lagre ERC20-tokener og non-fungible-tokener som CryptoKitties."
+  },
+  "storePhrase": {
+    "message": "Lagre denne frasen i en passordbehandler slik som 1Password."
+  },
+  "submit": {
+    "message": "Send"
+  },
+  "submitted": {
+    "message": "Sendt inn"
+  },
+  "supportCenter": {
+    "message": "Besøk brukerstøtte"
+  },
+  "swapPrivacyPolicy": {
+    "message": "Swap Privacy Policy"
+  },
+  "swapPrivacyPolicyDescription": {
+    "message": "Brave uses $1 as a DEX aggregator. 0x will process the Ethereum address and IP address to fulfil a transaction (including getting quotes). 0x will ONLY use this data for the purposes of processing transactions."
+  },
+  "symbol": {
+    "message": "Symbol"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "Symbolet må være 11 karakterer eller færre."
+  },
+  "syncWithMobile": {
+    "message": "Synkroniser med mobil "
+  },
+  "syncWithMobileTitle": {
+    "message": "Synkronisér med mobil"
+  },
+  "syncWithMobileDesc": {
+    "message": "Du kan synkronisere kontoene og informasjonen din med mobilenheten. Åpne Brave-mobilappen, gå til \"Innstillinger\" og trykk på \"Synkroniser fra nettleserutvidelse\""
+  },
+  "syncWithMobileDescNewUsers": {
+    "message": "Hvis du nettopp åpnet Brave-mobilappen for første gang, bare følg stegene på mobilen din."
+  },
+  "syncWithMobileScanThisCode": {
+    "message": "Skann denne koden med Brave-mobilappen din"
+  },
+  "syncWithMobileBeCareful": {
+    "message": "Pass på at ingen andre ser på skjermen din mens du skanner denne koden "
+  },
+  "syncWithMobileComplete": {
+    "message": "Synkronisering av dataene dine var vellykket. Nyt Brave-mobilappen!"
+  },
+  "terms": {
+    "message": "Brukervilkår"
+  },
+  "testFaucet": {
+    "message": "Testkran"
+  },
+  "thisWillCreate": {
+    "message": "Dette vil opprette en ny lommebok og mnemonisk gjenopprettingsfrase"
+  },
+  "timeout": {
+    "message": "Timeout"
+  },
+  "tips": {
+    "message": "Tips"
+  },
+  "to": {
+    "message": "Til "
+  },
+  "toAddress": {
+    "message": "Til: $1",
+    "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
+  },
+  "toWithColon": {
+    "message": "Til:"
+  },
+  "token": {
+    "message": "Token "
+  },
+  "tokenAlreadyAdded": {
+    "message": "Tokenet har allerede blitt lagt til."
+  },
+  "tokenContractAddress": {
+    "message": "Token-kontraktadresse "
+  },
+  "tokenOptions": {
+    "message": "Token-alternativer"
+  },
+  "tokenSymbol": {
+    "message": "Token-symbol"
+  },
+  "total": {
+    "message": "Totalt"
+  },
+  "transaction": {
+    "message": "transaksjon"
+  },
+  "transactionConfirmed": {
+    "message": "Transaksjon bekreftet på $2."
+  },
+  "transactionCreated": {
+    "message": "Transaksjon opprettet med en verdi på $1 og $2. "
+  },
+  "transactionDropped": {
+    "message": "Transaksjonen falt på $2."
+  },
+  "transactionSubmitted": {
+    "message": "Transaksjon sendt med datakraftavgift på $1 til $2."
+  },
+  "transactionResubmitted": {
+    "message": "Transaksjonen som ble sendt inn igjen med bensinavgift økte til $1 på $2"
+  },
+  "transactionUpdated": {
+    "message": "Transaksjonen oppdatert på $2."
+  },
+  "transactionErrored": {
+    "message": "Det oppsto en feil under transaksjonen."
+  },
+  "transactionCancelAttempted": {
+    "message": "Kansellering av transaksjon forsøkt med en $1 gassavgift på $2."
+  },
+  "transactionCancelSuccess": {
+    "message": "Transaksjon vellykket avbrutt på $2 "
+  },
+  "transactionError": {
+    "message": "Transaksjonsfeil. Unntak kastet i kontraktskode."
+  },
+  "transactionErrorNoContract": {
+    "message": "Prøver å kontakte en funksjon på en adresse uten kontrakt."
+  },
+  "transactionFee": {
+    "message": "Transaksjonsavgift"
+  },
+  "transactionTime": {
+    "message": "Transaksjonstid"
+  },
+  "showTransactionTimeDescription": {
+    "message": "Velg dette for å vise utestående estimater for transaksjonstider under aktivitetsfanen, mens du er på det primære Ethereum-nettverket. Merk: estimater er tilnærminger basert på nettverksforhold."
+  },
+  "transfer": {
+    "message": "Overfør"
+  },
+  "transferBetweenAccounts": {
+    "message": "Overfør mellom kontoene mine"
+  },
+  "transferFrom": {
+    "message": "Overfør fra"
+  },
+  "troubleTokenBalances": {
+    "message": "Vi hadde problemer med å laste inn sjetongsaldoen din. Du kan se dem",
+    "description": "Followed by a link (here) to view token balances"
+  },
+  "trustSiteApprovePermission": {
+    "message": "Stoler du på dette nettstedet? Ved å gi denne tillatelsen lar du $1 ta ut dine $2 og automatisere transaksjoner for deg.",
+    "description": "$1 is the url requesting permission and $2 is the symbol of the currency that the request is for"
+  },
+  "tryAgain": {
+    "message": "Prøv igjen"
+  },
+  "typePassword": {
+    "message": "Skriv inn Brave-passordet ditt"
+  },
+  "unapproved": {
+    "message": "Ikke godkjent "
+  },
+  "alertDisableTooltip": {
+    "message": "Dette kan endres i \"Innstillinger > Varsler\""
+  },
+  "units": {
+    "message": "enheter "
+  },
+  "unknown": {
+    "message": "Ukjent"
+  },
+  "unknownNetwork": {
+    "message": "Ukjent privat nettverk"
+  },
+  "unknownQrCode": {
+    "message": "Feil: Vi kunne ikke gjenkjenne denne QR-koden"
+  },
+  "unknownCameraErrorTitle": {
+    "message": "Oisann! Noe gikk galt.... "
+  },
+  "unknownCameraError": {
+    "message": "Det oppsto en feil under forsøket på å få tilgang til kameraet ditt. Vær så snill og prøv på nytt..."
+  },
+  "unlimited": {
+    "message": "Ubegrenset"
+  },
+  "unlock": {
+    "message": "Lås opp"
+  },
+  "unlockMessage": {
+    "message": "Det desentraliserte internett venter deg"
+  },
+  "updatedWithDate": {
+    "message": "Oppdatert $1"
+  },
+  "urlErrorMsg": {
+    "message": "Nettstedsadresser krever det aktuelle HTTP/HTTPS-prefikset."
+  },
+  "urlExistsErrorMsg": {
+    "message": "Nettstedsadressen er allerede tilstede på eksisterende nettverksliste"
+  },
+  "usedByClients": {
+    "message": "Brukt av en rekke forskjellige klienter"
+  },
+  "usePhishingDetection": {
+    "message": "Bruk nettfiske-deteksjon"
+  },
+  "usePhishingDetectionDescription": {
+    "message": "Vis en advarsel for nettfiske-domener rettet mot Ethereum-brukere"
+  },
+  "userName": {
+    "message": "Brukernavn"
+  },
+  "viewAccount": {
+    "message": "Se konto"
+  },
+  "viewinExplorer": {
+    "message": "Se i Explorer"
+  },
+  "viewContact": {
+    "message": "Se kontrakt"
+  },
+  "viewOnCustomBlockExplorer": {
+    "message": "Vis ved $1 "
+  },
+  "viewOnEtherscan": {
+    "message": "Vis på Etherscan "
+  },
+  "retryTransaction": {
+    "message": "Prøv transaksjonen på nytt"
+  },
+  "visitWebSite": {
+    "message": "Besøk nettsiden vår "
+  },
+  "walletSeed": {
+    "message": "Seed-setning"
+  },
+  "welcomeBack": {
+    "message": "Velkommen tilbake!"
+  },
+  "welcome": {
+    "message": "Velkommen til Brave"
+  },
+  "whatsThis": {
+    "message": "Hva er dette?"
+  },
+  "writePhrase": {
+    "message": "Skriv denne frasen på et papir og oppbevar på et sikkert sted. Hvis du vil ha enda mer sikkerhet, kan du skrive det ned på flere papirbiter og oppbevare hver på 2 - 3 forskjellige steder."
+  },
+  "xOfY": {
+    "message": "$1 av $2",
+    "description": "$1 and $2 are intended to be two numbers, where $2 is a total, and $1 is a count towards that total"
+  },
+  "yesLetsTry": {
+    "message": "Ja, la oss prøve"
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": "Du må gi kameratilgang for å bruke denne funksjonen."
+  },
+  "yourSigRequested": {
+    "message": "Det bes om signaturen din "
+  },
+  "youSign": {
+    "message": "Du signerer"
+  },
+  "yourPrivateSeedPhrase": {
+    "message": "Din private frøfrase"
+  },
+  "zeroGasPriceOnSpeedUpError": {
+    "message": "Null bensinpris for fremskynding"
+  },
+  "decryptRequest": {
+    "message": "Dekrypter forespørsel"
+  },
+  "decrypt": {
+    "message": "Dekrypter"
+  },
+  "decryptMessageNotice": {
+    "message": "$1 ønsker å lese denne meldingen for å fullføre handlingen din",
+    "description": "$1 is the web3 site name"
+  },
+  "decryptMetamask": {
+    "message": "Dekrypter melding"
+  },
+  "decryptCopy": {
+    "message": "Kopier kryptert melding"
+  },
+  "decryptInlineError": {
+    "message": "Denne meldingen kan ikke dekrypteres på grunn av feil: $1",
+    "description": "$1 is error message"
+  },
+  "provide": {
+    "message": "Lever"
+  },
+  "encryptionPublicKeyRequest": {
+    "message": "Be om offentlig krypteringsnøkkel"
+  },
+  "encryptionPublicKeyNotice": {
+    "message": "$1 vil ha den offentlige krypteringsnøkkelen din. Ved å samtykke vil dette nettstedet kunne komponere krypterte meldinger til deg.",
+    "description": "$1 is the web3 site name"
+  },
+  "backupPhraseFileName": {
+    "message": "Kryptovaluta-walletens hemmelige backup-setning"
+  },
+  "braveRewards": {
+    "message": "Brave-belønninger"
+  },
+  "braveSettings": {
+    "message": "Brave-innstillinger"
+  },
+  "contractErrorMessage": {
+    "message": "Warning: You are about to send this asset to its own smart contract. You probably don't mean to do this, as it will likely render the asset unrecoverable."
+  },
+  "cryptoWalletsDisclosureOne": {
+    "message": "Crypto Wallets lar deg jobbe med kryptovaluta og relaterte midler i Brave. Crypto Wallets støtter Ethereum tokener som ETH og BAT, i tillegg til collectibles, og lar deg jobbe med Ðapps og andre smarte kontrakter. Alt dette er beregnet på personer som er kjente med Ethereum og andre blokk-kjede-systemer – eller er spente på å lære."
+  },
+  "cryptoWalletsDisclosureTwo": {
+    "message": "Bruk kryptolommebøker kun hvis du aksepterer at du ene og alene er ansvarlig for all risk assosiert med bruken av disse, og at Brave-programvaren bærer intet ansvar for tap, enten tilfeldig eller som følge av bruken av disse."
+  },
+  "cryptoWalletsDisclosureThree": {
+    "message": "Alt dette er fullstendig atskilt fra"
+  },
+  "cryptoWalletsDisclosureFour": {
+    "message": "Så hvis du er ute etter å støtte dine favorittnettsteder, kan du ta turen dit i stedet."
+  },
+  "cryptoWalletsTitle": {
+    "message": "Kryptolommebøker"
+  },
+  "disclosureConfirm": {
+    "message": "Jeg forstår"
+  },
+  "ledgerCreateSubText": {
+    "message": "Koble til ledger-maskinvarelommeboken for å samhandle med dApps og foreta overføringer til andre tilkoblede lommebøker."
+  },
+  "metamaskImportSubText": {
+    "message": "Note: If importing from Crypto Wallets Version 1.0.26 or earlier, your secret phrase is 24 words instead of 12."
+  },
+  "newLocalWallet": {
+    "message": "Ny lokal lommebok "
+  },
+  "newLocalWalletSubText": {
+    "message": "Lag en ny Modig lokal lommebok for å få tilgang til dApps og trygt lagre krypto og samleobjekter. Trade tokener anonymt, uten avgifter."
+  },
+  "passWarningOne": {
+    "message": "Dette passordet beskytter den private nøkkelen din. Ingen kan resette den hvis du glemmer den, ikke en gang Brave!"
+  },
+  "providerErrorMessage": {
+    "message": "Denne walleten er ikke din standard Ethereum Dapp-tjenesteleverandør."
+  },
+  "trezorCreateSubText": {
+    "message": "Koble Trezor-maskinvarelommeboken for å samhandle med dApps og foreta overføringer til andre tilkoblede lommebøker."
+  },
+  "welcomeCryptoWallets": {
+    "message": "Velkommen til Braves kryptolommebok"
+  },
+  "waitingForConfirmation": {
+    "message": "Waiting for confirmation."
+  }
+}

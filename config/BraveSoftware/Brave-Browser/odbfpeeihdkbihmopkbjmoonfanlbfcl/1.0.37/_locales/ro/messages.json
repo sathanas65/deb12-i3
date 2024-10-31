@@ -1,0 +1,1911 @@
+{
+  "acceptTermsOfUse": {
+    "message": "Am citit și sunt de acord cu $1",
+    "description": "$1 is the `terms` message"
+  },
+  "eth_accounts": {
+    "message": "Vedeți adresele conturilor permise (obligatoriu)",
+    "description": "The description for the `eth_accounts` permission"
+  },
+  "connectedSites": {
+    "message": "Site-uri conectate"
+  },
+  "connectedSitesDescription": {
+    "message": "$1 este conectat la aceste site-uri. Acestea vă pot vedea adresa contului.",
+    "description": "$1 is the account name"
+  },
+  "connectedSitesEmptyDescription": {
+    "message": "$1 nu este conectat la niciun site.",
+    "description": "$1 is the account name"
+  },
+  "connectedAccountsDescriptionSingular": {
+    "message": "Aveți 1 cont conectat la acest site."
+  },
+  "connectedAccountsDescriptionPlural": {
+    "message": "Aveți $1 conturi conectate la acest site.",
+    "description": "$1 is the number of accounts"
+  },
+  "connectedAccountsEmptyDescription": {
+    "message": "Brave nu este conectat la acest site. Pentru a vă conecta la un site web3, căutați butonul de conectare de pe acel site."
+  },
+  "currentAccountNotConnected": {
+    "message": "Contul dvs. curent nu este conectat"
+  },
+  "switchToThisAccount": {
+    "message": "Comutați la acest cont"
+  },
+  "disconnectThisAccount": {
+    "message": "Deconectați acest cont"
+  },
+  "permissions": {
+    "message": "Permisiuni"
+  },
+  "showPermissions": {
+    "message": "Afișați permisiunile"
+  },
+  "authorizedPermissions": {
+    "message": "Ați autorizat următoarele permisiuni"
+  },
+  "connectManually": {
+    "message": "Conectați-vă manual la site-ul curent"
+  },
+  "disconnect": {
+    "message": "Deconectează"
+  },
+  "disconnectAllAccounts": {
+    "message": "Deconectați toate conturile"
+  },
+  "disconnectPrompt": {
+    "message": "Deconectați $1"
+  },
+  "disconnectAllAccountsConfirmationDescription": {
+    "message": "Sigur doriți să vă deconectați? Este posibil să nu mai puteți folosi funcțiile site-ului."
+  },
+  "dismiss": {
+    "message": "Închide"
+  },
+  "showIncomingTransactions": {
+    "message": "Arată tranzacții primite"
+  },
+  "showIncomingTransactionsDescription": {
+    "message": "Selectați această opțiune pentru a folosi Etherscan pentru a se afișa tranzacțiile în lista de tranzacții"
+  },
+  "chartOnlyAvailableEth": {
+    "message": "Grafic disponibil numai pe rețelele Ethereum."
+  },
+  "connecting": {
+    "message": "Se stabilește conexiunea..."
+  },
+  "connectWithMetaMask": {
+    "message": "Conectați-vă cu Brave"
+  },
+  "connectTo": {
+    "message": "Conectați-vă la $1",
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to Brave"
+  },
+  "connectToAll": {
+    "message": "Conectați toate la $1",
+    "description": "$1 will be replaced by the translation of connectToAllAccounts"
+  },
+  "connectToAllAccounts": {
+    "message": "conturi",
+    "description": "will replace $1 in connectToAll, completing the sentence 'connect to all of your accounts', will be text that shows list of accounts on hover"
+  },
+  "connectToMultiple": {
+    "message": "Conectați-vă la $1",
+    "description": "$1 will be replaced by the translation of connectToMultipleNumberOfAccounts"
+  },
+  "connectToMultipleNumberOfAccounts": {
+    "message": "$1 conturi",
+    "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
+  },
+  "contractInteraction": {
+    "message": "Interacțiune contract"
+  },
+  "reject": {
+    "message": "Respingeți"
+  },
+  "about": {
+    "message": "Despre"
+  },
+  "aboutSettingsDescription": {
+    "message": "Versiune, centrul de asistență și informațiile de contact"
+  },
+  "acceleratingATransaction": {
+    "message": "* Accelerarea unei tranzacții folosind un preț în gas mai mare îi crește șansele de a fi procesată mai rapid de rețea, însă acest lucru nu este garantat întotdeauna."
+  },
+  "accessAndSpendNotice": {
+    "message": "$1 poate să acceseze și să cheltuiască această sumă maximă",
+    "description": "$1 is the url of the site requesting ability to spend"
+  },
+  "accessingYourCamera": {
+    "message": "Se accesează camera dvs..."
+  },
+  "account": {
+    "message": "Cont"
+  },
+  "accountDetails": {
+    "message": "Detaliile contului"
+  },
+  "accountName": {
+    "message": "Numele contului"
+  },
+  "accountOptions": {
+    "message": "Opțiuni cont"
+  },
+  "accountSelectionRequired": {
+    "message": "Trebuie să selectați un cont!"
+  },
+  "active": {
+    "message": "Activ"
+  },
+  "activity": {
+    "message": "Activitate"
+  },
+  "activityLog": {
+    "message": "jurnal activitate"
+  },
+  "addNetwork": {
+    "message": "Adăugați rețea"
+  },
+  "addRecipient": {
+    "message": "Adăugați destinatarul"
+  },
+  "advanced": {
+    "message": "Avansate"
+  },
+  "advancedSettingsDescription": {
+    "message": "Accesați funcții de dezvoltator, descărcați jurnale de stare, resetați contul, configurați rețele de test și RPC personalizat"
+  },
+  "advancedOptions": {
+    "message": "Opțiuni avansate"
+  },
+  "customizeGas": {
+    "message": "Particularizează"
+  },
+  "addToAddressBook": {
+    "message": "Adăugați în agendă"
+  },
+  "addToAddressBookModalPlaceholder": {
+    "message": "de ex. John D."
+  },
+  "addAlias": {
+    "message": "Adăugare alias"
+  },
+  "addToken": {
+    "message": "Adăugare simbol"
+  },
+  "addTokens": {
+    "message": "Adăugați token-uri"
+  },
+  "addSuggestedTokens": {
+    "message": "Adăugați indicativele sugerate"
+  },
+  "addAcquiredTokens": {
+    "message": "Și tokenurile obținute folosind Brave"
+  },
+  "alerts": {
+    "message": "Alerte"
+  },
+  "alertsSettingsDescription": {
+    "message": "Activați sau dezactivați fiecare alarmă"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "Navigați pe un website cu un cont neconectat selectat"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "Această alertă este afișată în fereastra popup când navigați pe un site Web3 conectat, dar contul selectat în prezent nu este conectat."
+  },
+  "allowOriginSpendToken": {
+    "message": "Permiteți $1 să cheltuie $2?",
+    "description": "$1 is the url of the site and $2 is the symbol of the token they are requesting to spend"
+  },
+  "allowThisSiteTo": {
+    "message": "Permiteți acestui site să:"
+  },
+  "allowExternalExtensionTo": {
+    "message": "Permiteți acestei extensii externe să:"
+  },
+  "allowWithdrawAndSpend": {
+    "message": "Permiteți $1 să retragă și să cheltuiască următoarea sumă maximă:",
+    "description": "The url of the site that requested permission to 'withdraw and spend'"
+  },
+  "amount": {
+    "message": "Sumă"
+  },
+  "amountWithColon": {
+    "message": "Suma:"
+  },
+  "appDescription": {
+    "message": "Un portofel Ethereum în browserul dvs.",
+    "description": "The description of the application"
+  },
+  "appName": {
+    "message": "Brave Software",
+    "description": "The name of the application"
+  },
+  "approve": {
+    "message": "Aprobați limita de cheltuire"
+  },
+  "approveSpendLimit": {
+    "message": "Aprobați limita de cheltuit de $1",
+    "description": "The token symbol that is being approved"
+  },
+  "approved": {
+    "message": "Aprobat"
+  },
+  "asset": {
+    "message": "Activ"
+  },
+  "maker": {
+    "message": "Realizator"
+  },
+  "taker": {
+    "message": "Primitor"
+  },
+  "slippage": {
+    "message": "Toleranță alunecare"
+  },
+  "assets": {
+    "message": "Active"
+  },
+  "attemptingConnect": {
+    "message": "Se încearcă conectarea la blockchain."
+  },
+  "attemptToCancel": {
+    "message": "Încercați să anulați?"
+  },
+  "attemptToCancelDescription": {
+    "message": "Trimiterea acestei încercări nu garantează că tranzacția dvs. originală va fi anulată. Dacă încercarea de anulare va reuși, vi se va percepe taxa tranzacției de mai sus."
+  },
+  "attributions": {
+    "message": "Atribuții"
+  },
+  "autoLockTimeLimit": {
+    "message": "Cronometru pentru blocare automată (minute)"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "Setați timpul de inactivitate în minute înainte ca Brave să se închidă."
+  },
+  "average": {
+    "message": "Mediu"
+  },
+  "back": {
+    "message": "Înapoi"
+  },
+  "backToAll": {
+    "message": "Înapoi la toate"
+  },
+  "backupApprovalNotice": {
+    "message": "Creați o copie de rezervă a codului de recuperare secret pentru a vă menține portofelul și fondurile în siguranță."
+  },
+  "backupApprovalInfo": {
+    "message": "Acest cod secret este necesar pentru a vă recupera portofelul în cazul în care vă pierdeți dispozitivul, vă uitați parola, trebuie să reinstalați Brave sau vreți să vă accesați portofelul pe alt dispozitiv."
+  },
+  "backupNow": {
+    "message": "Creați o copie de rezervă acum"
+  },
+  "balance": {
+    "message": "Sold"
+  },
+  "balanceOutdated": {
+    "message": "Se poate ca soldul să nu fie actualizat"
+  },
+  "basic": {
+    "message": "De bază"
+  },
+  "blockExplorerUrl": {
+    "message": "Explorator blocuri"
+  },
+  "blockExplorerView": {
+    "message": "Vizualizare cont la $1",
+    "description": "$1 replaced by URL for custom block explorer"
+  },
+  "blockiesIdenticon": {
+    "message": "Folosește Blockies Identicon"
+  },
+  "nonceField": {
+    "message": "Personalizați nonce-ul tranzacției"
+  },
+  "nonceFieldHeading": {
+    "message": "Nonce personalizat"
+  },
+  "nonceFieldDescription": {
+    "message": "Activați aceasta pentru a schimba nonce (numărul tranzacției) pe ecranele de confirmare. Aceasta este o funcție avansată, folosiți-o cu atenție."
+  },
+  "browserNotSupported": {
+    "message": "Browserul dvs. nu este compatibil..."
+  },
+  "builtInCalifornia": {
+    "message": "Brave este conceput și dezvoltat în California."
+  },
+  "buyWithWyre": {
+    "message": "Cumpărați ETH cu Wyre"
+  },
+  "buyWithWyreDescription": {
+    "message": "Wyre vă permite să folosiți cardul pentru a depune ETH direct în contul Brave."
+  },
+  "buyCoinSwitch": {
+    "message": "Cumpărați pe CoinSwitch"
+  },
+  "buyCoinSwitchExplainer": {
+    "message": "CoinSwitch este destinația unică pentru a schimba peste 300 de cripto monede la cele mai bune cursuri."
+  },
+  "bytes": {
+    "message": "Octeți"
+  },
+  "off": {
+    "message": "Oprit"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "on": {
+    "message": "Activat"
+  },
+  "optionalBlockExplorerUrl": {
+    "message": "URL explorator bloc (opțional)"
+  },
+  "cancel": {
+    "message": "Anulare"
+  },
+  "cancelAttempt": {
+    "message": "Anulare încercare"
+  },
+  "cancellationGasFee": {
+    "message": "Taxă de anulare în gaz"
+  },
+  "cancelled": {
+    "message": "Anulat"
+  },
+  "chainId": {
+    "message": "ID lanț"
+  },
+  "clickToRevealSeed": {
+    "message": "Faceți clic aici pentru a arăta cuvintele secrete"
+  },
+  "close": {
+    "message": "Închide"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": "Trebuie să folosiți Brave pe Google Chrome pentru a vă conecta la portofelul Hardware."
+  },
+  "confirm": {
+    "message": "Confirmați"
+  },
+  "confirmed": {
+    "message": "Confirmat"
+  },
+  "confirmPassword": {
+    "message": "Confirmați parola"
+  },
+  "confirmSecretBackupPhrase": {
+    "message": "Confirmați expresia dvs. secretă de rezervă"
+  },
+  "congratulations": {
+    "message": "Felicitări"
+  },
+  "connectAccountOrCreate": {
+    "message": "Conectați contul sau creați unul nou"
+  },
+  "connectHardwareWallet": {
+    "message": "Conectare portofel hardware"
+  },
+  "connect": {
+    "message": "Conectează-te"
+  },
+  "connectingTo": {
+    "message": "Se conectează la $1"
+  },
+  "connectingToKovan": {
+    "message": "Se conectează la rețeaua de test Kovan"
+  },
+  "connectingToMainnet": {
+    "message": "Se conectează la rețeaua Ethereum principală"
+  },
+  "connectingToRopsten": {
+    "message": "Se conectează la rețeaua de test Ropsten"
+  },
+  "connectingToRinkeby": {
+    "message": "Se conectează la Rețeaua de test Rinkeby"
+  },
+  "connectingToLocalhost": {
+    "message": "Se conectează la localhost 8545"
+  },
+  "connectingToGoerli": {
+    "message": "Se conectează la rețeaua de test Goerli"
+  },
+  "contacts": {
+    "message": "Agendă"
+  },
+  "contactsSettingsDescription": {
+    "message": "Adăugați, editați, ștergeți și administrați-vă contactele"
+  },
+  "contactUs": {
+    "message": "Contactați-ne!"
+  },
+  "continueToSwap": {
+    "message": "Continuați să schimbați"
+  },
+  "continueToWyre": {
+    "message": "Continuați la Wyre"
+  },
+  "continueToCoinSwitch": {
+    "message": "Continuare către CoinSwitch"
+  },
+  "contractDeployment": {
+    "message": "Implementarea contractului"
+  },
+  "copiedExclamation": {
+    "message": "Copiat!"
+  },
+  "copyAddress": {
+    "message": "Copiere adresă în clipboard"
+  },
+  "copyTransactionId": {
+    "message": "Copiați ID-ul tranzacției"
+  },
+  "copiedTransactionId": {
+    "message": "ID-ul tranzacției a fost copiat"
+  },
+  "copyToClipboard": {
+    "message": "Copiați în clipboard"
+  },
+  "copyPrivateKey": {
+    "message": "Aceasta este cheia dumneavoastră privată (clic pentru a copia)"
+  },
+  "create": {
+    "message": "Creați"
+  },
+  "createAccount": {
+    "message": "Creați cont"
+  },
+  "createAWallet": {
+    "message": "Creați un portofel"
+  },
+  "createPassword": {
+    "message": "Creare parolă"
+  },
+  "currencyConversion": {
+    "message": "Schimb valutar"
+  },
+  "currentExtension": {
+    "message": "Pagina de extensie curentă"
+  },
+  "currentLanguage": {
+    "message": "Limba actuală"
+  },
+  "customGas": {
+    "message": "Particularizați Gas"
+  },
+  "customGasSubTitle": {
+    "message": "Creșterea taxei poate reduce timpii de procesare, dar acest lucru nu este garantat."
+  },
+  "customToken": {
+    "message": "Token personalizat"
+  },
+  "customRPC": {
+    "message": "RPC particularizat"
+  },
+  "customSpendLimit": {
+    "message": "Limită de cheltuire personalizată"
+  },
+  "dataBackupFoundInfo": {
+    "message": "Unele date ale contului au fost păstrate la o instalare anterioară a Brave. Aceasta poate include setările, contactele și token-urile. Doriți să restaurați aceste date acum?"
+  },
+  "decimalsMustZerotoTen": {
+    "message": "Zecimalele trebuie să fie cel puțin 0, dar nu peste 36."
+  },
+  "decimal": {
+    "message": "Zecimale de precizie"
+  },
+  "defaultNetwork": {
+    "message": "Rețeaua implicită pentru tranzacțiile cu Ether este Main Net."
+  },
+  "delete": {
+    "message": "Șterge"
+  },
+  "deleteAccount": {
+    "message": "Ștergeți cont"
+  },
+  "deposit": {
+    "message": "Depunere"
+  },
+  "depositEther": {
+    "message": "Depuneți Ether"
+  },
+  "details": {
+    "message": "Detalii"
+  },
+  "directDepositEther": {
+    "message": "Depuneți direct Ether"
+  },
+  "directDepositEtherExplainer": {
+    "message": "Dacă deja aveți Ether, cel mai rapid mod de a avea Ether în portofelul nou prin depunere directă."
+  },
+  "done": {
+    "message": "Efectuat"
+  },
+  "dontShowThisAgain": {
+    "message": "Nu mai afișați acest mesaj din nou"
+  },
+  "downloadGoogleChrome": {
+    "message": "Descărcare Google Chrome"
+  },
+  "downloadSecretBackup": {
+    "message": "Descărcați această expresie secretă de rezervă și păstrați-o în siguranță pe o unitate de disc sau un mediu de stocare criptat."
+  },
+  "downloadStateLogs": {
+    "message": "Descărcați jurnalele de stare"
+  },
+  "dontHaveAHardwareWallet": {
+    "message": "Nu aveți portofel hardware?"
+  },
+  "dropped": {
+    "message": "Pierdut"
+  },
+  "edit": {
+    "message": "Editează"
+  },
+  "editContact": {
+    "message": "Editați contact"
+  },
+  "editPermission": {
+    "message": "Editare permisiuni"
+  },
+  "endOfFlowMessage1": {
+    "message": "Ați trecut testul – păstrați expresia sursă în siguranță, este răspunderea dvs.!"
+  },
+  "endOfFlowMessage2": {
+    "message": "Sfaturi despre stocarea în siguranță"
+  },
+  "endOfFlowMessage3": {
+    "message": "Salvează o copie de siguranță în mai multe locuri."
+  },
+  "endOfFlowMessage4": {
+    "message": "Nu comunicați niciodată fraza cuiva."
+  },
+  "endOfFlowMessage5": {
+    "message": "Aveți grijă la phishing! Brave nu va solicita niciodată în mod spontan expresia sursă."
+  },
+  "endOfFlowMessage6": {
+    "message": "Dacă trebuie să vă salvați din nou fraza seed, puteți să o găsiți în Setări -> Securitate."
+  },
+  "endOfFlowMessage7": {
+    "message": "Dacă aveți întrebări sau observați ceva în neregulă, vizitați portofelul nostru"
+  },
+  "endOfFlowMessage8": {
+    "message": "Brave nu poate recupera expresia sursă."
+  },
+  "endOfFlowMessage9": {
+    "message": "Aflați mai multe."
+  },
+  "endOfFlowMessage10": {
+    "message": "Gata"
+  },
+  "endOfFlowMessage11": {
+    "message": "forum suport."
+  },
+  "externalExtension": {
+    "message": "Extensie externă"
+  },
+  "onboardingReturnNotice": {
+    "message": "„$1” va închide această filă și vă va redirecționa către $2",
+    "description": "Return the user to the site that initiated onboarding"
+  },
+  "ensRegistrationError": {
+    "message": "Eroare la înregistrarea numelui ENS"
+  },
+  "ensNotFoundOnCurrentNetwork": {
+    "message": "Numele ENS nu s-a găsit pe rețeaua curentă. Încercați să comutați la Rețeaua Ethereum principală."
+  },
+  "enterAnAlias": {
+    "message": "Introduceți un alias"
+  },
+  "enterMaxSpendLimit": {
+    "message": "Introduceți limita maximă de cheltuit"
+  },
+  "enterPassword": {
+    "message": "Introduceți parola"
+  },
+  "enterPasswordContinue": {
+    "message": "Introduceți parola pentru a continua"
+  },
+  "errorCode": {
+    "message": "Cod: $1",
+    "description": "Displayed error code for debugging purposes. $1 is the error code"
+  },
+  "errorDetails": {
+    "message": "Detalii eroare",
+    "description": "Title for collapsible section that displays error details for debugging purposes"
+  },
+  "errorMessage": {
+    "message": "Mesaj: $1",
+    "description": "Displayed error message for debugging purposes. $1 is the error message"
+  },
+  "errorName": {
+    "message": "Cod: $1",
+    "description": "Displayed error name for debugging purposes. $1 is the error name"
+  },
+  "errorPageTitle": {
+    "message": "Brave a întâmpinat o eroare",
+    "description": "Title of generic error page"
+  },
+  "errorPageMessage": {
+    "message": "Încercați din nou reîncărcând pagina sau contactați serviciul de asistență la support@brave.com",
+    "description": "Message displayed on generic error page in the fullscreen or notification UI"
+  },
+  "errorPagePopupMessage": {
+    "message": "Încercați din nou închizând și redeschizând fereastra popup sau contactați asistența pentru clienți support@brave.com",
+    "description": "Message displayed on generic error page in the popup UI"
+  },
+  "errorStack": {
+    "message": "Stivă:",
+    "description": "Title for error stack, which is displayed for debugging purposes"
+  },
+  "ethereumPublicAddress": {
+    "message": "Adresa publică Ethereum"
+  },
+  "etherscanView": {
+    "message": "Vizualizare cont pe Etherscan"
+  },
+  "estimatedProcessingTimes": {
+    "message": "Timpi estimativi de procesare"
+  },
+  "estimatedNetworkFee": {
+    "message": "Taxă de rețea estimată"
+  },
+  "expandView": {
+    "message": "Extindeți vizualizarea"
+  },
+  "exportPrivateKey": {
+    "message": "Exportați cheia privată"
+  },
+  "failed": {
+    "message": "Eșuat"
+  },
+  "failureMessage": {
+    "message": "A survenit o eroare și nu am putut finaliza acțiunea"
+  },
+  "fast": {
+    "message": "Rapid"
+  },
+  "faster": {
+    "message": "Mai repede"
+  },
+  "feeAssociatedRequest": {
+    "message": "Acestei solicitări îi este asociată o taxă."
+  },
+  "fiat": {
+    "message": "Fiat",
+    "description": "Exchange type"
+  },
+  "fileImportFail": {
+    "message": "Importarea fișierului nu funcționează? Dați clic aici!",
+    "description": "Helps user import their account from a JSON file"
+  },
+  "forgetDevice": {
+    "message": "Uită dispozitivul"
+  },
+  "from": {
+    "message": "De la"
+  },
+  "fromAddress": {
+    "message": "De la: $1",
+    "description": "$1 is the address to include in the From label. It is typically shortened first using shortenAddress"
+  },
+  "functionApprove": {
+    "message": "Funcție: aprobați"
+  },
+  "functionType": {
+    "message": "Tip funcție"
+  },
+  "gasLimit": {
+    "message": "Limită gas"
+  },
+  "gasLimitInfoModalContent": {
+    "message": "Limita gaz este numărul maxim de unități de gaz pe care sunteți dispus(ă) să le cheltuiți."
+  },
+  "gasLimitTooLow": {
+    "message": "Limita de gaz trebuie să fie de cel puțin 21.000"
+  },
+  "gasUsed": {
+    "message": "Suma gaz folosită"
+  },
+  "gasPrice": {
+    "message": "Preț gas (GWEI)"
+  },
+  "gasPriceExtremelyLow": {
+    "message": "Prețul gaz este foarte scăzut"
+  },
+  "gasPriceInfoModalContent": {
+    "message": "Prețul în gas indică suma Ether pe care doriți să o plătiți pentru fiecare unitate gas."
+  },
+  "gasPriceNoDenom": {
+    "message": "Preț gas"
+  },
+  "gdprMessage": {
+    "message": "Aceste date sunt agregate și sunt, astfel, anonime,  conform Regulamentului General pentru Protecția Datelor (UE) 2016/679. Pentru mai multe informații cu privire la practicile noastre de confidențialitate, consultați $1.",
+    "description": "$1 refers to the gdprMessagePrivacyPolicy message, the translation of which is meant to be used exclusively in the context of gdprMessage"
+  },
+  "gdprMessagePrivacyPolicy": {
+    "message": "Politica de confidențialitate aici",
+    "description": "this translation is intended to be exclusively used as the replacement for the $1 in the gdprMessage translation"
+  },
+  "general": {
+    "message": "General"
+  },
+  "generalSettingsDescription": {
+    "message": "Schimb valutar, moneda principală, limba, blockies identicon"
+  },
+  "getEther": {
+    "message": "Obțineți Ether"
+  },
+  "getEtherFromFaucet": {
+    "message": "Obțineți Ether de la un robinet pentru $1",
+    "description": "Displays network name for Ether faucet"
+  },
+  "getHelp": {
+    "message": "Obțineți ajutor."
+  },
+  "getStarted": {
+    "message": "Începe"
+  },
+  "happyToSeeYou": {
+    "message": "Ne pare bine să vă vedem."
+  },
+  "hardware": {
+    "message": "Hardware"
+  },
+  "hardwareWalletConnected": {
+    "message": "Portofelul hardware a fost conectat"
+  },
+  "hardwareWallets": {
+    "message": "Conectați un portofel hardware"
+  },
+  "hardwareWalletsMsg": {
+    "message": "Selectați un portofel pe care să-l folosiți cu Brave"
+  },
+  "havingTroubleConnecting": {
+    "message": "Aveți probleme cu conectarea?"
+  },
+  "here": {
+    "message": "aici",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
+  },
+  "hexData": {
+    "message": "Date hexazecimale"
+  },
+  "hide": {
+    "message": "Ascunde"
+  },
+  "hideTokenSymbol": {
+    "message": "Ascundeți $1",
+    "description": "$1 is the symbol for a token (e.g. 'DAI')"
+  },
+  "hideTokenPrompt": {
+    "message": "Ascunde simbol?"
+  },
+  "history": {
+    "message": "Istoric"
+  },
+  "home": {
+    "message": "Pagina de pornire"
+  },
+  "import": {
+    "message": "Importă",
+    "description": "Button to import an account from a selected file"
+  },
+  "importAccount": {
+    "message": "Importare cont"
+  },
+  "importAccountMsg": {
+    "message": "Conturile importate nu vor fi asociate cu expresia sursă a contului Brave, creată inițial.\nAflați mai multe despre conturile importate"
+  },
+  "importAccountSeedPhrase": {
+    "message": "Importați un cont cu expresia sursă"
+  },
+  "importWallet": {
+    "message": "Importați portofelul"
+  },
+  "importYourExisting": {
+    "message": "Importați portofelul existent utilizând o frază de recuperare de 12 sau 24 de cuvinte"
+  },
+  "imported": {
+    "message": "Importate",
+    "description": "status showing that an account has been fully loaded into the keyring"
+  },
+  "importUsingSeed": {
+    "message": "Importare folosind fraza inițială a contului"
+  },
+  "infoHelp": {
+    "message": "Informații și ajutor"
+  },
+  "initialTransactionConfirmed": {
+    "message": "Tranzacția inițială a fost confirmată de rețea. Clic pe OK pentru a reveni."
+  },
+  "insufficientBalance": {
+    "message": "Sold insuficient."
+  },
+  "insufficientFunds": {
+    "message": "Fonduri insuficiente."
+  },
+  "insufficientTokens": {
+    "message": "Tokenuri insuficiente."
+  },
+  "insufficientFundsGas": {
+    "message": "Fonduri insuficiente pentru benzină."
+  },
+  "balanceFetchError": {
+    "message": "Eroare la afișarea balanței"
+  },
+  "invalidAddress": {
+    "message": "Adresă nevalidă"
+  },
+  "invalidAddressRecipient": {
+    "message": "Adresa destinatarului nu este validă"
+  },
+  "knownAddressRecipient": {
+    "message": "Adresa cunoscută din contract."
+  },
+  "knownTokenWarning": {
+    "message": "Această acțiune va edita tokenurile enumerate deja în portofelul dvs., care pot fi folosite pentru phishing. Aprobați numai dacă sunteți sigur(ă) că intenționați să modificați ce reprezintă aceste tokenuri."
+  },
+  "reusedTokenNameWarning": {
+    "message": "Un token de aici reutilizează un simbol de la un alt token pe care îl urmăriți; acest lucru poate crea confuzie sau poate fi înșelător."
+  },
+  "invalidAddressRecipientNotEthNetwork": {
+    "message": "Nu este rețea ETH, setați pe minuscule"
+  },
+  "invalidCustomNetworkAlertContent1": {
+    "message": "Rețelei personalizate '$1' îi lipsește ID lanț.",
+    "description": "$1 is the name/identifier of the network."
+  },
+  "invalidCustomNetworkAlertContent2": {
+    "message": "Pentru a vă proteja de furnizorii de rețea rău intenționați sau care dau erori, acum sunt necesare ID lanț pentru toate rețelele personalizate."
+  },
+  "invalidCustomNetworkAlertContent3": {
+    "message": "Mergeți la Setări > Rețea și introduceți ID lanț. La majoritatea rețelelor populare, găsiți ID lanț în $1.",
+    "description": "$1 is a link to https://chainid.network"
+  },
+  "invalidCustomNetworkAlertTitle": {
+    "message": "Rețea personalizată invalidă"
+  },
+  "invalidHexNumber": {
+    "message": "Număr hexazecimal invalid."
+  },
+  "invalidHexNumberLeadingZeros": {
+    "message": "Număr hexazecimal invalid. Ștergeți zerourile din față."
+  },
+  "invalidRPC": {
+    "message": "URL RPC nevalid"
+  },
+  "invalidBlockExplorerURL": {
+    "message": "Adresă URL Block Explorer nevalidă"
+  },
+  "invalidSeedPhrase": {
+    "message": "Expresie sursă nevalidă"
+  },
+  "ipfsGateway": {
+    "message": "Gateway IPFS"
+  },
+  "ipfsGatewayDescription": {
+    "message": "Introduceți adresa URL a gateway-ului IPFS CID care va fi folosită pentru rezoluția de conținut ENS."
+  },
+  "invalidIpfsGateway": {
+    "message": "Gateway IPFS nevalid; valoarea trebuie să fie o adresă URL validă"
+  },
+  "invalidNumber": {
+    "message": "Număr invalid. Introduceți un număr zecimal sau hexazecimal."
+  },
+  "invalidNumberLeadingZeros": {
+    "message": "Număr invalid. Ștergeți zerourile din față."
+  },
+  "forbiddenIpfsGateway": {
+    "message": "Portal IPFS interzis: vă rugăm să specificați un portal CID"
+  },
+  "jsonFile": {
+    "message": "Fișier JSON",
+    "description": "format for importing an account"
+  },
+  "kovan": {
+    "message": "Rețea de test Kovan"
+  },
+  "max": {
+    "message": "Maximum"
+  },
+  "lastConnected": {
+    "message": "Ultima conectare"
+  },
+  "learnMore": {
+    "message": "Aflați mai multe"
+  },
+  "ledgerAccountRestriction": {
+    "message": "Trebuie să folosiți ultimul cont înainte să adăugați altul."
+  },
+  "letsGoSetUp": {
+    "message": "Da, hai să configurăm!"
+  },
+  "likeToAddTokens": {
+    "message": "Adăugați aceste indicative?"
+  },
+  "links": {
+    "message": "Link-uri"
+  },
+  "liveGasPricePredictions": {
+    "message": "Predicții live de preț în gas"
+  },
+  "loading": {
+    "message": "Se încarcă…"
+  },
+  "loadingTokens": {
+    "message": "Se încarcă token-urile..."
+  },
+  "loadMore": {
+    "message": "Încărcați mai multe"
+  },
+  "localhost": {
+    "message": "Localhost 8545"
+  },
+  "lock": {
+    "message": "Blocați"
+  },
+  "lockTimeTooGreat": {
+    "message": "Timpul de blocare este prea mare"
+  },
+  "mainnet": {
+    "message": "Rețeaua Ethereum principală"
+  },
+  "availableOnMainnetRopsten": {
+    "message": "Disponibil doar pe mainnet și ropsten"
+  },
+  "memorizePhrase": {
+    "message": "Memorați această expresie."
+  },
+  "memo": {
+    "message": "notă"
+  },
+  "message": {
+    "message": "Mesaj"
+  },
+  "metaMaskConnectStatusParagraphOne": {
+    "message": "Aveți acum mai mult control asupra conexiunilor contului dvs. în Brave."
+  },
+  "metaMaskConnectStatusParagraphTwo": {
+    "message": "Butonul de stare a conexiunii arată dacă website-ul pe care îl accesați este conectat la contul selectat în prezent."
+  },
+  "metaMaskConnectStatusParagraphThree": {
+    "message": "Dați clic pentru a gestiona conturile conectate."
+  },
+  "metamaskDescription": {
+    "message": "Vă conectăm la Ethereum și la Internetul descentralizat."
+  },
+  "metamaskVersion": {
+    "message": "Versiune Brave"
+  },
+  "mobileSyncText": {
+    "message": "Vă rugăm introduceți parola pentru a vă confirma identitatea!"
+  },
+  "myAccounts": {
+    "message": "Conturile mele"
+  },
+  "myWalletAccounts": {
+    "message": "Conturi My Wallet"
+  },
+  "myWalletAccountsDescription": {
+    "message": "Toate conturile create în Brave vor fi adăugate automat la această secțiune."
+  },
+  "mustSelectOne": {
+    "message": "Trebuie să selectați cel puțin 1 simbol."
+  },
+  "needEtherInWallet": {
+    "message": "Pentru a interacționa cu aplicații descentralizate folosind Brave, aveți nevoie de Ether în portofel."
+  },
+  "needImportFile": {
+    "message": "Trebuie să selectați un fișier pentru importare.",
+    "description": "User is important an account and needs to add a file to continue"
+  },
+  "negativeETH": {
+    "message": "Nu se pot trimite sume negative de ETH."
+  },
+  "networkName": {
+    "message": "Numele rețelei"
+  },
+  "networks": {
+    "message": "Rețele"
+  },
+  "networkSettingsChainIdDescription": {
+    "message": "ID lanț este utilizat pentru semnarea tranzacțiilor. Introduceți un număr zecimal sau hexazecimal care începe cu '0x'."
+  },
+  "networkSettingsDescription": {
+    "message": "Adăugați și editați rețelele RPC particularizate"
+  },
+  "nevermind": {
+    "message": "Nu mai contează"
+  },
+  "newAccount": {
+    "message": "Cont nou"
+  },
+  "newAccountDetectedDialogMessage": {
+    "message": "A fost detectată o adresă nouă! Faceți clic aici pentru a o adăuga în agenda dvs."
+  },
+  "newAccountNumberName": {
+    "message": "Cont $1",
+    "description": "Default name of next account to be created on create account screen"
+  },
+  "newContact": {
+    "message": "Contact nou"
+  },
+  "newContract": {
+    "message": "Contract nou"
+  },
+  "newPassword": {
+    "message": "Parola nouă (minimum 8 caractere)"
+  },
+  "newNetwork": {
+    "message": "Rețea nouă"
+  },
+  "newToMetaMask": {
+    "message": "Nu ați mai utilizat Brave?"
+  },
+  "noAlreadyHaveSeed": {
+    "message": "Nu, am deja o expresie sursă"
+  },
+  "protectYourKeys": {
+    "message": "Protejați-vă cheile!"
+  },
+  "protectYourKeysMessage1": {
+    "message": "Aveți grijă la expresie sursă – au fost raportate website-uri care încearcă să imite Brave. Brave nu vă va cere niciodată expresia sursă!"
+  },
+  "protectYourKeysMessage2": {
+    "message": "Păstrați expresia în siguranță. Dacă observați ceva suspect sau nu sunteți sigur(ă) cu privire la un website, trimiteți un e-mail la support@brave.com"
+  },
+  "rpcUrl": {
+    "message": "URL RPC nou"
+  },
+  "onlyConnectTrust": {
+    "message": "Conectați-vă numai la site-uri de încredere."
+  },
+  "onlyAddTrustedNetworks": {
+    "message": "Un furnizor de rețea Ethereum rău intenționat poate să mintă despre starea blockchain-ului și să vă înregistreze activitatea în rețea. Adăugați numai rețele personalizate în care aveți încredere."
+  },
+  "optionalSymbol": {
+    "message": "Simbol (opțional)"
+  },
+  "newTotal": {
+    "message": "Total nou"
+  },
+  "newTransactionFee": {
+    "message": "Taxă nouă de tranzacție"
+  },
+  "next": {
+    "message": "Înainte"
+  },
+  "nextNonceWarning": {
+    "message": "Nonce este mai mare decât nonce sugerat de $1",
+    "description": "The next nonce according to Brave's internal logic"
+  },
+  "noAddressForName": {
+    "message": "Nu a fost configurată nicio adresă pentru acest nume."
+  },
+  "noConversionRateAvailable": {
+    "message": "Nici o rată de conversie disponibilă"
+  },
+  "noTransactions": {
+    "message": "Nu aveți tranzacții"
+  },
+  "noThanks": {
+    "message": "Nu, mulțumesc"
+  },
+  "notCurrentAccount": {
+    "message": "Este suma corectă? Este diferită de contul selectat curent în portofel"
+  },
+  "notEnoughGas": {
+    "message": "Gas insuficient"
+  },
+  "noWebcamFoundTitle": {
+    "message": "Camera web nu a fost găsită"
+  },
+  "noWebcamFound": {
+    "message": "Webcam-ul computerului dvs. nu a fost găsit. Vă rugăm să încercați din nou."
+  },
+  "ofTextNofM": {
+    "message": "din"
+  },
+  "orderOneHere": {
+    "message": "Comandați Trezor sau Ledger și țineți-vă fondurile la rece"
+  },
+  "origin": {
+    "message": "Origine"
+  },
+  "parameters": {
+    "message": "Parametri"
+  },
+  "participateInMetaMetrics": {
+    "message": "Participați la MetaMetrics"
+  },
+  "participateInMetaMetricsDescription": {
+    "message": "Participați la MetaMetrics pentru a ne ajuta să îmbunătățim Brave"
+  },
+  "password": {
+    "message": "Parolă"
+  },
+  "passwordsDontMatch": {
+    "message": "Parolele nu se potrivesc"
+  },
+  "passwordNotLongEnough": {
+    "message": "Parola nu este suficient de lungă"
+  },
+  "pastePrivateKey": {
+    "message": "Lipiți aici șirul de chei private:",
+    "description": "For importing an account from a private key"
+  },
+  "pending": {
+    "message": "În așteptare"
+  },
+  "permissionCheckedIconDescription": {
+    "message": "Ați acordat această permisiune"
+  },
+  "permissionUncheckedIconDescription": {
+    "message": "Nu ați aprobat această permisiune"
+  },
+  "personalAddressDetected": {
+    "message": "A fost detectată o adresă personală. Introduceți adresa de contract indicativ."
+  },
+  "plusXMore": {
+    "message": "Încă $1",
+    "description": "$1 is a number of additional but unshown items in a list- this message will be shown in place of those items"
+  },
+  "prev": {
+    "message": "Ant"
+  },
+  "primaryCurrencySetting": {
+    "message": "Moneda principală"
+  },
+  "primaryCurrencySettingDescription": {
+    "message": "Selectați nativ pentru a prioritiza valorile afișate în moneda nativă a lanțului (ex. ETH). Selectați Fiat pentru a prioritiza valorile afișate în moneda selectată fiat."
+  },
+  "privacyMsg": {
+    "message": "Politica de Confidențialitate"
+  },
+  "privateKey": {
+    "message": "Cheie privată",
+    "description": "select this type of file to use to import an account"
+  },
+  "privateKeyWarning": {
+    "message": "Avertisment: nu dezvăluiți niciodată această cheie. Oricine are cheile dvs. private poate fura orice activ din contul dvs."
+  },
+  "privateNetwork": {
+    "message": "Rețea privată"
+  },
+  "proposedApprovalLimit": {
+    "message": "Limita de aprobare propusă"
+  },
+  "queue": {
+    "message": "Coadă"
+  },
+  "queued": {
+    "message": "În coadă"
+  },
+  "readdToken": {
+    "message": "Puteți adăuga din nou acest indicativ în viitor accesând „Adăugați indicativ” din meniul de opțiuni al contului dvs."
+  },
+  "recents": {
+    "message": "Recente"
+  },
+  "receive": {
+    "message": "Primiți"
+  },
+  "recipientAddress": {
+    "message": "Adresă destinatar"
+  },
+  "recipientAddressPlaceholder": {
+    "message": "Căutare, adresă publică (0x) sau domeniu"
+  },
+  "rejectAll": {
+    "message": "Respingere toate"
+  },
+  "rejectTxsN": {
+    "message": "Respingeți $1 (de) tranzacții"
+  },
+  "rejectTxsDescription": {
+    "message": "Sunteți pe cale să respingeți în grup $1 (de) tranzacții."
+  },
+  "rejected": {
+    "message": "Respins"
+  },
+  "reset": {
+    "message": "Resetează"
+  },
+  "resetAccount": {
+    "message": "Resetare cont"
+  },
+  "resetAccountDescription": {
+    "message": "Dacă resetați acest cont, veți șterge istoricul tranzacțiilor. Acest lucru nu va schimba soldul conturilor dvs. și nu va fi nevoie să reintroduceți expresia sursă."
+  },
+  "deleteNetwork": {
+    "message": "Ștergeți rețeaua?"
+  },
+  "deleteNetworkDescription": {
+    "message": "Sigur vreți să ștergeți această rețea?"
+  },
+  "remindMeLater": {
+    "message": "Reamintește-mi mai târziu"
+  },
+  "restoreFromSeed": {
+    "message": "Restabiliți contul?"
+  },
+  "restoreAccountWithSeed": {
+    "message": "Restaurați-vă contul folosind fraza inițială"
+  },
+  "restoreWalletPreferences": {
+    "message": "S-a găsit o copie de rezervă a datelor din $1. Doriți să restabiliți preferințele portofelului?",
+    "description": "$1 is the date at which the data was backed up"
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": "solicitări care așteaptă să fie confirmate"
+  },
+  "required": {
+    "message": "Obligatoriu"
+  },
+  "restore": {
+    "message": "Restabilește"
+  },
+  "revealSeedWords": {
+    "message": "Dezvăluiți expresia sursă"
+  },
+  "revealSeedWordsTitle": {
+    "message": "Expresie sursă"
+  },
+  "revealSeedWordsDescription": {
+    "message": "Dacă schimbați vreodată browserele sau vă mutați la alt computer, veți avea nevoie de această expresie sursă pentru a vă accesa conturile. Salvați-o într-un loc sigur și secret."
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "NU împărtășiți această expresie nimănui!"
+  },
+  "revealSeedWordsWarning": {
+    "message": "Aceste cuvinte pot fi folosite pentru a vă fura toate conturile."
+  },
+  "remove": {
+    "message": "Elimină"
+  },
+  "removeAccount": {
+    "message": "Eliminați contul"
+  },
+  "removeAccountDescription": {
+    "message": "Acest cont va fi eliminat din portofelul dvs. Înainte de a continua, vă rugăm să vă asigurați că aveți expresia seed inițială sau cheia privată pentru acest cont importat. Puteți importa sau crea conturi din nou din meniul derulant al contului."
+  },
+  "readyToConnect": {
+    "message": "Gata de conectare?"
+  },
+  "reviewSwap": {
+    "message": "Revedeți schimbul"
+  },
+  "rinkeby": {
+    "message": "Rețea test Rinkeby"
+  },
+  "ropsten": {
+    "message": "Rețea de testare Ropsten"
+  },
+  "goerli": {
+    "message": "Rețea de test Goerli"
+  },
+  "save": {
+    "message": "Salvează"
+  },
+  "slow": {
+    "message": "Lent"
+  },
+  "slower": {
+    "message": "Mai încet"
+  },
+  "saveAsCsvFile": {
+    "message": "Salvați ca fișier CSV "
+  },
+  "scanInstructions": {
+    "message": "Așezați codul QR în fața camerei"
+  },
+  "scanQrCode": {
+    "message": "Scanați codul QR"
+  },
+  "search": {
+    "message": "Caută"
+  },
+  "searchResults": {
+    "message": "Rezultate căutare"
+  },
+  "secretBackupPhrase": {
+    "message": "Expresia secretă de rezervă"
+  },
+  "secretBackupPhraseDescription": {
+    "message": "Expresia dvs. secretă de rezervă înlesnește crearea unei copii de rezervă a contului dvs. și restabilirea acestuia."
+  },
+  "secretBackupPhraseWarning": {
+    "message": "ATENȚIE: Nu dezvăluiți niciodată expresia dvs. de rezervă. Oricine are această expresie vă poate lua Ether-ul pentru totdeauna."
+  },
+  "secretPhrase": {
+    "message": "Introduceți fraza secretă de 12 sau 24 de cuvinte pentru a recupera seiful."
+  },
+  "securityAndPrivacy": {
+    "message": "Securitate și confidențialitate"
+  },
+  "securitySettingsDescription": {
+    "message": "Setările de confidențialitate și fraza seed a portofelului"
+  },
+  "seedPhrasePlaceholder": {
+    "message": "Despărțiți fiecare cuvânt cu un spațiu"
+  },
+  "seedPhrasePlaceholderPaste": {
+    "message": "Inserați expresie sursă din clipboard"
+  },
+  "showSeedPhrase": {
+    "message": "Afișați expresia sursă"
+  },
+  "seedPhraseReq": {
+    "message": "Expresiile sursă conțin 12, 15, 18, 21 sau 24 de cuvinte"
+  },
+  "selectingAllWillAllow": {
+    "message": "Selectarea tuturor opțiunilor va permite acestui site să vadă toate conturile dvs. din prezent. Asigurați-vă că este un site de încredere."
+  },
+  "selectAccounts": {
+    "message": "Selectați contul(rile)"
+  },
+  "selectAll": {
+    "message": "Selectează-le pe toate"
+  },
+  "selectCurrency": {
+    "message": "Selectați moneda"
+  },
+  "selectEachPhrase": {
+    "message": "Vă rugăm să selectați fiecare expresie pentru a vă asigura că este corectă."
+  },
+  "selectLocale": {
+    "message": "Alegeți setările regionale"
+  },
+  "selectType": {
+    "message": "Selectați tipul"
+  },
+  "setAllowance": {
+    "message": "Stabiliți toleranța"
+  },
+  "buy": {
+    "message": "Cumpărați"
+  },
+  "send": {
+    "message": "Trimite"
+  },
+  "swap": {
+    "message": "Schimbați"
+  },
+  "swapApprovalSecurityMsg": {
+    "message": "Din motive de securitate, vă recomandăm să resetați toleranța la 0 înainte de a-i stabili valoarea dorită, pentru a împiedica atacurile de reordonare a tranzacțiilor."
+  },
+  "swapBraveFees": {
+    "message": "Oferta include o taxă Brave de $1."
+  },
+  "swapFooterPrivacyNotice": {
+    "message": "Brave utilizează $1 ca agregator de schimb descentralizat. Consultați $2 pentru mai multe informații."
+  },
+  "swapNewQuoteCountdown": {
+    "message": "Ofertă nouă în"
+  },
+  "swapSlippageDescription": {
+    "message": "Modificarea maximă de preț acceptată, în procent, din activul de cumpărat. Dacă delta depășește abaterea, schimbul nu va fi executat."
+  },
+  "swapQuoteRefresh": {
+    "message": "Ofertele sunt actualizate des, pentru a reflecta condițiile curente de piață."
+  },
+  "sendAmount": {
+    "message": "Suma trimisă"
+  },
+  "sendETH": {
+    "message": "Trimitere ETH"
+  },
+  "sendTokens": {
+    "message": "Trimiteți indicative"
+  },
+  "sentEther": {
+    "message": "trimiteți ether"
+  },
+  "sentTokens": {
+    "message": "tokenuri trimise"
+  },
+  "sendSpecifiedTokens": {
+    "message": "Trimiteți $1",
+    "description": "Symbol of the specified token"
+  },
+  "separateEachWord": {
+    "message": "Despărțiți fiecare cuvânt cu un spațiu"
+  },
+  "searchAssets": {
+    "message": "Căutați active"
+  },
+  "searchTokens": {
+    "message": "Căutați token-uri"
+  },
+  "searchAccounts": {
+    "message": "Căutați conturi"
+  },
+  "noAccountsFound": {
+    "message": "Nu s-au găsit conturi pentru interogarea de căutare dată"
+  },
+  "selectAsset": {
+    "message": "Selectați activul"
+  },
+  "selectAnAccount": {
+    "message": "Selectați un cont"
+  },
+  "selectAnAccountHelp": {
+    "message": "Selectați contul pe care doriți să îl vizualizați în Brave."
+  },
+  "selectAHigherGasFee": {
+    "message": "Selectați o taxă gas mai mare pentru a accelera procesarea tranzacției.*"
+  },
+  "selectHdPath": {
+    "message": "Selectare cale HD"
+  },
+  "selectPathHelp": {
+    "message": "Dacă nu vedeți mai jos conturile dvs. Ledger existente, încercați să comutați calea la „Legacy (MEW / MyCrypto)”"
+  },
+  "settings": {
+    "message": "Setări"
+  },
+  "showAdvancedGasInline": {
+    "message": "Controale avansate pentru gas"
+  },
+  "showAdvancedGasInlineDescription": {
+    "message": "Selectați aceasta pentru a arăta prețul gasului și comenzile de limitare direct pe ecranele de trimitere și confirmare."
+  },
+  "showFiatConversionInTestnets": {
+    "message": "Afișează conversiile pe rețelele de test (testnets)"
+  },
+  "showFiatConversionInTestnetsDescription": {
+    "message": "Selectați pentru a afișa conversia fiat pe Testnets"
+  },
+  "showPrivateKeys": {
+    "message": "Afișați cheile private"
+  },
+  "showHexData": {
+    "message": "Arată datele hex"
+  },
+  "showHexDataDescription": {
+    "message": "Selectați această opțiune pentru a arăta câmpul de date hexazecimale în ecranul de trimitere."
+  },
+  "sign": {
+    "message": "Semnați"
+  },
+  "signatureRequest": {
+    "message": "Cerere semnătură"
+  },
+  "signatureRequest1": {
+    "message": "Mesaj"
+  },
+  "signed": {
+    "message": "Semnat"
+  },
+  "signNotice": {
+    "message": "Semnarea acestui mesaj poate avea efecte secundare periculoase. Semnați mesajele numai de pe site-urile în care aveți încredere deplină să vă acceseze întregul cont. Această metodă periculoasă va fi eliminată într-o versiune viitoare."
+  },
+  "sigRequest": {
+    "message": "Solicitare de semnătură"
+  },
+  "somethingWentWrong": {
+    "message": "Hopa! A apărut o eroare."
+  },
+  "speedUp": {
+    "message": "Accelerați"
+  },
+  "speedUpCancellation": {
+    "message": "Accelerați această anulare"
+  },
+  "speedUpTransaction": {
+    "message": "Accelerați această tranzacție"
+  },
+  "spendLimitPermission": {
+    "message": "Permisiune privind limita de cheltuit"
+  },
+  "spendLimitRequestedBy": {
+    "message": "Limita de cheltuit solicitată de $1",
+    "description": "Origin of the site requesting the spend limit"
+  },
+  "spendLimitTooLarge": {
+    "message": "Limita de cheltuială este prea mare"
+  },
+  "spendLimitInvalid": {
+    "message": "Limita de cheltuială nu este validă; trebuie să fie un număr pozitiv"
+  },
+  "switchNetworks": {
+    "message": "Schimbați rețelele"
+  },
+  "stateLogFileName": {
+    "message": "Jurnale de stare Brave"
+  },
+  "stateLogs": {
+    "message": "Jurnale de stare"
+  },
+  "stateLogsDescription": {
+    "message": "Jurnalele de stare conțin adresele contului dvs. public și tranzacțiile trimise."
+  },
+  "stateLogError": {
+    "message": "Eroare la recuperarea înregistrărilor de stare."
+  },
+  "statusConnected": {
+    "message": "Conectată"
+  },
+  "statusNotConnected": {
+    "message": "Neconectat"
+  },
+  "step1HardwareWallet": {
+    "message": "1. Conectați portofel hardware"
+  },
+  "step1HardwareWalletMsg": {
+    "message": "Conectați portofelul hardware direct la computer."
+  },
+  "step2HardwareWallet": {
+    "message": "2. Selectați un cont"
+  },
+  "step2HardwareWalletMsg": {
+    "message": "Selectați contul pe care vreți să îl vizualizați. Puteți alege doar câte unul odată."
+  },
+  "step3HardwareWallet": {
+    "message": "3. Începeți să folosiți site-uri web3 și multe altele!"
+  },
+  "step3HardwareWalletMsg": {
+    "message": "Utilizați contul hardware ca pe un cont Ethereum normal. Conectați-vă la site-uri Web3, trimiteți ETH, cumpărați și stocați tokenuri ERC20 și tokenuri nefungibile, precum CryptoKitties."
+  },
+  "storePhrase": {
+    "message": "Păstrați această expresie într-un program de gestionare a parolelor cum ar fi 1Password."
+  },
+  "submit": {
+    "message": "Trimite"
+  },
+  "submitted": {
+    "message": "Trimis"
+  },
+  "supportCenter": {
+    "message": "Accesați centrul de asistență"
+  },
+  "swapPrivacyPolicy": {
+    "message": "Politica de confidențialitate pentru schimb"
+  },
+  "swapPrivacyPolicyDescription": {
+    "message": "Brave utilizează $1 ca agregator DEX. 0x va procesa adresa Ethereum și adresa IP pentru finalizarea tranzacției (inclusiv obținerea citatelor). 0x va utiliza aceste date DOAR în scopul procesării tranzacțiilor."
+  },
+  "symbol": {
+    "message": "Simbol"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "Simbolul trebuie să aibă 11 caractere sau mai puține."
+  },
+  "syncWithMobile": {
+    "message": "Sincronizați cu dispozitivul mobil"
+  },
+  "syncWithMobileTitle": {
+    "message": "Sincronizați cu mobilul"
+  },
+  "syncWithMobileDesc": {
+    "message": "Puteți să sincronizați conturile și informațiile cu dispozitivul mobil. Deschideți aplicația pentru dispozitive mobile Brave, accesați „Setările” și atingeți „Sincronizați din extensia de browser”"
+  },
+  "syncWithMobileDescNewUsers": {
+    "message": "Dacă deschideți aplicația Brave pentru dispozitive mobile pentru prima dată, urmați pașii de pe telefon."
+  },
+  "syncWithMobileScanThisCode": {
+    "message": "Scanați acest cod cu aplicația Brave pentru dispozitive mobile"
+  },
+  "syncWithMobileBeCareful": {
+    "message": "Asigurați-vă că nimeni altcineva nu poate vedea ecranul dvs. când scanați acest cod"
+  },
+  "syncWithMobileComplete": {
+    "message": "Datele dvs. au fost sincronizate. Bucurați-vă de aplicația Brave pentru dispozitive mobile!"
+  },
+  "terms": {
+    "message": "Termeni și condiții"
+  },
+  "testFaucet": {
+    "message": "Robinet de testare"
+  },
+  "thisWillCreate": {
+    "message": "Această acțiune va crea un nou portofel și o nouă fraza inițială."
+  },
+  "timeout": {
+    "message": "Pauză"
+  },
+  "tips": {
+    "message": "Cadouri bănești"
+  },
+  "to": {
+    "message": "Către"
+  },
+  "toAddress": {
+    "message": "Către: $1",
+    "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
+  },
+  "toWithColon": {
+    "message": "Către:"
+  },
+  "token": {
+    "message": "Indicativ"
+  },
+  "tokenAlreadyAdded": {
+    "message": "Token-ul a fost adăugat deja."
+  },
+  "tokenContractAddress": {
+    "message": "Adresa din contractul de token"
+  },
+  "tokenOptions": {
+    "message": "Opțiuni token"
+  },
+  "tokenSymbol": {
+    "message": "Simbol token"
+  },
+  "total": {
+    "message": "Total"
+  },
+  "transaction": {
+    "message": "tranzacție"
+  },
+  "transactionConfirmed": {
+    "message": "Tranzacție confirmată la $2."
+  },
+  "transactionCreated": {
+    "message": "Tranzacție creată cu o valoare de $1 la $2."
+  },
+  "transactionDropped": {
+    "message": "Tranzacție abandonată la $2."
+  },
+  "transactionSubmitted": {
+    "message": "Tranzacția a fost trimisă, cu o taxă gas de $1 la $2."
+  },
+  "transactionResubmitted": {
+    "message": "Tranzacția a fost redepusă cu taxa gaz majorată de la $1 la $2"
+  },
+  "transactionUpdated": {
+    "message": "Tranzacție actualizată la $2."
+  },
+  "transactionErrored": {
+    "message": "Tranzacția a întâlnit o eroare."
+  },
+  "transactionCancelAttempted": {
+    "message": "Tentativă de anulare a tranzacției cu o taxă gas de $1 la $2"
+  },
+  "transactionCancelSuccess": {
+    "message": "Tranzacția a fost anulată cu succes la $2"
+  },
+  "transactionError": {
+    "message": "Eroare de tranzacție. Excepție lansată în codul contractului."
+  },
+  "transactionErrorNoContract": {
+    "message": "Se încearcă apelarea unei funcții pe o adresă non-contract."
+  },
+  "transactionFee": {
+    "message": "Taxa tranzacției"
+  },
+  "transactionTime": {
+    "message": "Ora tranzacției"
+  },
+  "showTransactionTimeDescription": {
+    "message": "Selectați această opțiune pentru a afișa timpul estimat al tranzacțiilor în așteptare în fila de activități în timp ce vă aflați în rețeaua Ethereum principală. Observație: estimările sunt aproximări bazate pe condițiile din rețea."
+  },
+  "transfer": {
+    "message": "Transfer"
+  },
+  "transferBetweenAccounts": {
+    "message": "Transferă între conturile mele"
+  },
+  "transferFrom": {
+    "message": "Transferați de la"
+  },
+  "troubleTokenBalances": {
+    "message": "Am avut dificultăți cu încărcarea soldurilor dvs. de tokenuri. Le puteți vizualiza",
+    "description": "Followed by a link (here) to view token balances"
+  },
+  "trustSiteApprovePermission": {
+    "message": "Aveți încredere în acest site? Acordând această permisiune, permiteți $1 să retragă $2 și să automatizeze tranzacții pentru dvs.",
+    "description": "$1 is the url requesting permission and $2 is the symbol of the currency that the request is for"
+  },
+  "tryAgain": {
+    "message": "Încearcă din nou"
+  },
+  "typePassword": {
+    "message": "Introduceți parola Brave"
+  },
+  "unapproved": {
+    "message": "Neaprobat"
+  },
+  "alertDisableTooltip": {
+    "message": "Acest lucru poate fi schimbat în „Setări > Alerte”"
+  },
+  "units": {
+    "message": "unități"
+  },
+  "unknown": {
+    "message": "Necunoscută"
+  },
+  "unknownNetwork": {
+    "message": "Rețea privată necunoscută"
+  },
+  "unknownQrCode": {
+    "message": "Eroare: Acel cod QR nu a putut fi identificat"
+  },
+  "unknownCameraErrorTitle": {
+    "message": "Hopa! A apărut o eroare..."
+  },
+  "unknownCameraError": {
+    "message": "A survenit o eroare la accesarea camerei. Încercați din nou..."
+  },
+  "unlimited": {
+    "message": "Nelimitat"
+  },
+  "unlock": {
+    "message": "Deblochează"
+  },
+  "unlockMessage": {
+    "message": "Web-ul descentralizat așteaptă"
+  },
+  "updatedWithDate": {
+    "message": "Actualizat $1"
+  },
+  "urlErrorMsg": {
+    "message": "URL necesită prefixul corect HTTP/HTTPS."
+  },
+  "urlExistsErrorMsg": {
+    "message": "Adresa URL este prezentă deja în lista existentă de rețele"
+  },
+  "usedByClients": {
+    "message": "Folosit de diverși clienți"
+  },
+  "usePhishingDetection": {
+    "message": "Utilizați detecția phishingului"
+  },
+  "usePhishingDetectionDescription": {
+    "message": "Afișați un avertisment pentru domeniile phishing care țintesc utilizatorii Ethereum"
+  },
+  "userName": {
+    "message": "Nume utilizator"
+  },
+  "viewAccount": {
+    "message": "Afișați contul"
+  },
+  "viewinExplorer": {
+    "message": "Vizualizare în Explorator"
+  },
+  "viewContact": {
+    "message": "Vizualizare contact"
+  },
+  "viewOnCustomBlockExplorer": {
+    "message": "Vizualizați la $1"
+  },
+  "viewOnEtherscan": {
+    "message": "Vizualizați pe Etherscan"
+  },
+  "retryTransaction": {
+    "message": "Reîncercați tranzacția"
+  },
+  "visitWebSite": {
+    "message": "Accesați site-ul nostru"
+  },
+  "walletSeed": {
+    "message": "Expresie sursă"
+  },
+  "welcomeBack": {
+    "message": "Bine ai revenit!"
+  },
+  "welcome": {
+    "message": "Bun venit la Brave"
+  },
+  "whatsThis": {
+    "message": "Ce este aceasta?"
+  },
+  "writePhrase": {
+    "message": "Scrieți această expresie pe o bucată de hârtie și păstrați-o într-un loc sigur. Dacă vreți și mai multă securitate, notați-o pe mai multe bucăți de hârtie și păstrați-le în 2 - 3 locuri diferite."
+  },
+  "xOfY": {
+    "message": "$1 din $2",
+    "description": "$1 and $2 are intended to be two numbers, where $2 is a total, and $1 is a count towards that total"
+  },
+  "yesLetsTry": {
+    "message": "Da, să încercăm"
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": "Trebuie să permiteți accesul la cameră pentru a folosi această funcție."
+  },
+  "yourSigRequested": {
+    "message": "Semnătura dvs. este solicitată"
+  },
+  "youSign": {
+    "message": "Semnați"
+  },
+  "yourPrivateSeedPhrase": {
+    "message": "Expresia dvs. seed privată"
+  },
+  "zeroGasPriceOnSpeedUpError": {
+    "message": "Preț gas zero la accelerare"
+  },
+  "decryptRequest": {
+    "message": "Decriptați solicitarea"
+  },
+  "decrypt": {
+    "message": "Decriptați"
+  },
+  "decryptMessageNotice": {
+    "message": "$1 vrea să citiți acest mesaj pentru a finaliza acțiunea",
+    "description": "$1 is the web3 site name"
+  },
+  "decryptMetamask": {
+    "message": "Decriptați mesajul"
+  },
+  "decryptCopy": {
+    "message": "Copiați mesajul criptat"
+  },
+  "decryptInlineError": {
+    "message": "Acest mesaj nu poate fi decriptat din cauza erorii: $1",
+    "description": "$1 is error message"
+  },
+  "provide": {
+    "message": "Indicați"
+  },
+  "encryptionPublicKeyRequest": {
+    "message": "Solicitați o cheie publică de criptare"
+  },
+  "encryptionPublicKeyNotice": {
+    "message": "$1 vă solicită cheia publică de criptare. Dacă sunteți de acord, acest site va putea să compună mesaje criptate pentru dvs.",
+    "description": "$1 is the web3 site name"
+  },
+  "backupPhraseFileName": {
+    "message": "Expresia de backup secretă pentru Crypto Wallets"
+  },
+  "braveRewards": {
+    "message": "Recompense Brave"
+  },
+  "braveSettings": {
+    "message": "Setări Brave"
+  },
+  "contractErrorMessage": {
+    "message": "Atenție: Sunteți pe cale să trimiteți acest bun propriului contract inteligent. Probabil nu intenționați să faceți acest lucru, având în vedere că va face bunul irecuperabil."
+  },
+  "cryptoWalletsDisclosureOne": {
+    "message": "Crypto Wallets vă permite să lucrați cu criptomonede și cu active conexe în Brave. Crypto Wallets acceptă tokenuri Ethereum, precum ETH și BAT, precum și colecții, și vă permite să lucrați cu Dapps și alte contracte inteligente. Toate acestea sunt destinate persoanelor familiarizate cu Ethereum și cu alte sisteme blockchain sau care doresc să învețe."
+  },
+  "cryptoWalletsDisclosureTwo": {
+    "message": "Utilizați Crypto Wallets doar dacă acceptați că doar dvs. sunteți responsabil pentru toate riscurile asociate cu folosirea acestei aplicații și că Brave Software nu își asumă nicio responsabilitate sau răspundere pentru orice pierderi, inclusiv pierderi accidentale sau pe cale de consecință, pe care ați putea să le suferiți în urma utilizării aplicației."
+  },
+  "cryptoWalletsDisclosureThree": {
+    "message": "Toate acestea sunt complet separate de"
+  },
+  "cryptoWalletsDisclosureFour": {
+    "message": "Astfel, dacă intenționați să susțineți site-urile dvs. preferate, mai bine mergeți acolo."
+  },
+  "cryptoWalletsTitle": {
+    "message": "Portofele cripto"
+  },
+  "disclosureConfirm": {
+    "message": "Înțeleg"
+  },
+  "ledgerCreateSubText": {
+    "message": "Conectați portofelul hardware al registrului pentru a interacționa cu dApps și a efectua transferuri către alte portofele conectate."
+  },
+  "metamaskImportSubText": {
+    "message": "Notă: Dacă importați din versiunea de portofele pentru criptomonede 1.0.26 sau mai recentă, fraza secretă va avea 24 de cuvinte în loc de 12."
+  },
+  "newLocalWallet": {
+    "message": "Portofel local nou"
+  },
+  "newLocalWalletSubText": {
+    "message": "Creați un portofel local nou Brave ca să accesați dApps și să stocați criptomonede și obiecte de colecție în siguranță. Tranzacționați tokenuri anonim, fără comisioane de tranzacționare."
+  },
+  "passWarningOne": {
+    "message": "Această parolă vă protejează cheia privată. Nimeni nu o poate reseta dacă o uitați, nici măcar Brave!"
+  },
+  "providerErrorMessage": {
+    "message": "Acest portofel nu este furnizorul prestabilit de Ethereum Dapp."
+  },
+  "trezorCreateSubText": {
+    "message": "Conectați-vă portofelul hardware Trezor pentru a interacționa cu dApps și a efectua transferuri către alte portofele conectate."
+  },
+  "welcomeCryptoWallets": {
+    "message": "Bine ați venit la Brave Crypto Wallets"
+  },
+  "waitingForConfirmation": {
+    "message": "Se așteaptă confirmarea."
+  }
+}

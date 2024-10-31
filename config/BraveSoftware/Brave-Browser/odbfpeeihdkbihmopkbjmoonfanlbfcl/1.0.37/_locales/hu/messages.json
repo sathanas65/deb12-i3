@@ -1,0 +1,1911 @@
+{
+  "acceptTermsOfUse": {
+    "message": "Elolvastam és elfogadom $1",
+    "description": "$1 is the `terms` message"
+  },
+  "eth_accounts": {
+    "message": "Az engedélyezett fiókok címeinek megtekintése (kötelező)",
+    "description": "The description for the `eth_accounts` permission"
+  },
+  "connectedSites": {
+    "message": "Csatlakoztatott webhelyek"
+  },
+  "connectedSitesDescription": {
+    "message": "$1 kapcsolódik ezekhez a webhelyekhez. Megtekinthetik a fiókja címét.",
+    "description": "$1 is the account name"
+  },
+  "connectedSitesEmptyDescription": {
+    "message": "$1 nem kapcsolódik egyetlen webhelyhez sem.",
+    "description": "$1 is the account name"
+  },
+  "connectedAccountsDescriptionSingular": {
+    "message": "1 fiókja van csatlakoztatva ehhez a webhelyhez."
+  },
+  "connectedAccountsDescriptionPlural": {
+    "message": "$1 fiókja van csatlakoztatva ehhez a webhelyhez.",
+    "description": "$1 is the number of accounts"
+  },
+  "connectedAccountsEmptyDescription": {
+    "message": "A Brave nincs csatlakoztatva ehhez a webhelyhez. Egy web3 oldalhoz való csatlakozáshoz keresse meg a webhelyen található csatlakozás gombot."
+  },
+  "currentAccountNotConnected": {
+    "message": "Jelenlegi fiókja nincs csatlakoztatva"
+  },
+  "switchToThisAccount": {
+    "message": "Váltson erre a fiókra"
+  },
+  "disconnectThisAccount": {
+    "message": "Válassza le ezt a fiókot"
+  },
+  "permissions": {
+    "message": "Engedélyek"
+  },
+  "showPermissions": {
+    "message": "Engedélyek megjelenítése"
+  },
+  "authorizedPermissions": {
+    "message": "Ön jóváhagyta a következő engedélyeket"
+  },
+  "connectManually": {
+    "message": "Csatlakozás manuálisan az aktuális webhelyhez"
+  },
+  "disconnect": {
+    "message": "Kapcsolat bontása"
+  },
+  "disconnectAllAccounts": {
+    "message": "Az összes fiók szétkapcsolása"
+  },
+  "disconnectPrompt": {
+    "message": "$1 leválasztása"
+  },
+  "disconnectAllAccountsConfirmationDescription": {
+    "message": "Biztosan meg akarja bontani a kapcsolatot? Elvesztheti a webhely funkcionalitását."
+  },
+  "dismiss": {
+    "message": "Elvetés"
+  },
+  "showIncomingTransactions": {
+    "message": "Bejövő tranzakciók megjelenítése"
+  },
+  "showIncomingTransactionsDescription": {
+    "message": "Válassza ezt, ha az Etherscan használatával szeretné megjeleníteni a bejövő tranzakciókat a tranzakciók listájában"
+  },
+  "chartOnlyAvailableEth": {
+    "message": "A diagram csak Ethereum hálózatokon érhető el"
+  },
+  "connecting": {
+    "message": "Kapcsolódás folyamatban…"
+  },
+  "connectWithMetaMask": {
+    "message": "Lépjen kapcsolatba a Brave-el"
+  },
+  "connectTo": {
+    "message": "Csatlakozás ehhez: $1",
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to Brave"
+  },
+  "connectToAll": {
+    "message": "Csatlakozzon az összes $1-hez",
+    "description": "$1 will be replaced by the translation of connectToAllAccounts"
+  },
+  "connectToAllAccounts": {
+    "message": "fiókok",
+    "description": "will replace $1 in connectToAll, completing the sentence 'connect to all of your accounts', will be text that shows list of accounts on hover"
+  },
+  "connectToMultiple": {
+    "message": "Csatlakozás ehhez: $1",
+    "description": "$1 will be replaced by the translation of connectToMultipleNumberOfAccounts"
+  },
+  "connectToMultipleNumberOfAccounts": {
+    "message": "$1 fiókok",
+    "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
+  },
+  "contractInteraction": {
+    "message": "Szerződéses interakció"
+  },
+  "reject": {
+    "message": "Elutasítás"
+  },
+  "about": {
+    "message": "Névjegy"
+  },
+  "aboutSettingsDescription": {
+    "message": "Verzió, támogatási központ és elérhetőség"
+  },
+  "acceleratingATransaction": {
+    "message": "* Ha szeretné felgyorsítani a tranzakciót azzal, hogy magasabb gázárat használ, az növeli a gyorsabb feldolgozás esélyét, de ez nem mindig garantált."
+  },
+  "accessAndSpendNotice": {
+    "message": "$1 hozzáférhet és elköltheti ezt a maximális összeget",
+    "description": "$1 is the url of the site requesting ability to spend"
+  },
+  "accessingYourCamera": {
+    "message": "Kamerához való hozzáférés..."
+  },
+  "account": {
+    "message": "Fiók"
+  },
+  "accountDetails": {
+    "message": "Fiók adatai"
+  },
+  "accountName": {
+    "message": "Fióknév"
+  },
+  "accountOptions": {
+    "message": "Fiókbeállítások"
+  },
+  "accountSelectionRequired": {
+    "message": "Ki kell választania egy fiókot!"
+  },
+  "active": {
+    "message": "Aktív"
+  },
+  "activity": {
+    "message": "Tevékenység"
+  },
+  "activityLog": {
+    "message": "tevékenységi napló"
+  },
+  "addNetwork": {
+    "message": "Hálózat hozzáadása"
+  },
+  "addRecipient": {
+    "message": "Címzett hozzáadása"
+  },
+  "advanced": {
+    "message": "Speciális"
+  },
+  "advancedSettingsDescription": {
+    "message": "Hozzáférhet a fejlesztői szolgáltatásokhoz, letöltheti az állapotnaplókat, visszaállíthatja a fiókot, telepíthet tesztneteket és egyéni RPC-t"
+  },
+  "advancedOptions": {
+    "message": "Haladó beállítások"
+  },
+  "customizeGas": {
+    "message": "Testreszabás"
+  },
+  "addToAddressBook": {
+    "message": "Hozzáadás a címjegyzékhez"
+  },
+  "addToAddressBookModalPlaceholder": {
+    "message": "pl. John D."
+  },
+  "addAlias": {
+    "message": "Álnév hozzáadása"
+  },
+  "addToken": {
+    "message": "Token hozzáadása"
+  },
+  "addTokens": {
+    "message": "Érmék hozzáadása"
+  },
+  "addSuggestedTokens": {
+    "message": "Javasolt tokenek hozzáadása"
+  },
+  "addAcquiredTokens": {
+    "message": "Adja hozzá a Brave használatával megszerzett tokeneket"
+  },
+  "alerts": {
+    "message": "Figyelmeztetések"
+  },
+  "alertsSettingsDescription": {
+    "message": "Minden figyelmeztetés engedélyezése vagy letiltása"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "Olyan webhely böngészése, amelyen nincs összekapcsolt fiók kiválasztva"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "Ez a figyelmeztetés akkor jelenik meg a felugró ablakban, amikor csatlakoztatott Web3 webhelyet böngész, de a jelenlegi kiválasztott fiók nincs csatlakoztatva."
+  },
+  "allowOriginSpendToken": {
+    "message": "Engedélyezi $1-nek $2 elköltését?",
+    "description": "$1 is the url of the site and $2 is the symbol of the token they are requesting to spend"
+  },
+  "allowThisSiteTo": {
+    "message": "Engedélyezze, hogy a webhely:"
+  },
+  "allowExternalExtensionTo": {
+    "message": "Engedélyezze ennek a külső bővítménynek, hogy:"
+  },
+  "allowWithdrawAndSpend": {
+    "message": "Engedélyezze $1-nek a kivonást és költést a következő összegig:",
+    "description": "The url of the site that requested permission to 'withdraw and spend'"
+  },
+  "amount": {
+    "message": "Összeg"
+  },
+  "amountWithColon": {
+    "message": "Összeg:"
+  },
+  "appDescription": {
+    "message": "Ethereum tárca a böngészőjében",
+    "description": "The description of the application"
+  },
+  "appName": {
+    "message": "Brave Software",
+    "description": "The name of the application"
+  },
+  "approve": {
+    "message": "Hagyja jóvá a költséghatárt"
+  },
+  "approveSpendLimit": {
+    "message": "Hagyja jóvá a(z) $1 költési korlátot",
+    "description": "The token symbol that is being approved"
+  },
+  "approved": {
+    "message": "Jóváhagyva"
+  },
+  "asset": {
+    "message": "Eszköz"
+  },
+  "maker": {
+    "message": "Maker"
+  },
+  "taker": {
+    "message": "Taker"
+  },
+  "slippage": {
+    "message": "Csúszási tolerancia"
+  },
+  "assets": {
+    "message": "Eszközök"
+  },
+  "attemptingConnect": {
+    "message": "Próbálunk csatlakozni a blokklánchoz."
+  },
+  "attemptToCancel": {
+    "message": "Megpróbálja törölni?"
+  },
+  "attemptToCancelDescription": {
+    "message": "A próbálkozás elküldése nem garantálja, hogy az eredeti tranzakció törlésre kerül. Ha a törlési kísérlet sikeres, akkor a fenti tranzakciós díjat számítjuk fel önnek."
+  },
+  "attributions": {
+    "message": "Attribúciók"
+  },
+  "autoLockTimeLimit": {
+    "message": "Automatikus zárolás időzítő (perc)"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "Állítsa be az üresjárati időt percben, mielőtt a Brave zárolva lesz."
+  },
+  "average": {
+    "message": "Átlag"
+  },
+  "back": {
+    "message": "Vissza"
+  },
+  "backToAll": {
+    "message": "Vissza az összeshez"
+  },
+  "backupApprovalNotice": {
+    "message": "Készíts biztonsági másolatot titkos helyreállítási kódodról, hogy pénztárcád és pénzalapod biztosítva legyen."
+  },
+  "backupApprovalInfo": {
+    "message": "Erre a titkos kódra van szükség a pénztárca helyreállításához arra az esetre, ha elveszítené készülékét, elfelejtené jelszavát, újra kell telepítenie a Brave programot, vagy ha egy másik eszközön szeretne a pénztárcájához hozzáférni."
+  },
+  "backupNow": {
+    "message": "Készíts biztonsági mentést most"
+  },
+  "balance": {
+    "message": "Egyenleg"
+  },
+  "balanceOutdated": {
+    "message": "Az egyenleg elavult lehet"
+  },
+  "basic": {
+    "message": "Alapvető"
+  },
+  "blockExplorerUrl": {
+    "message": "Explorer blokkolása"
+  },
+  "blockExplorerView": {
+    "message": "Tekintse meg a fiókot a(z) $1-en",
+    "description": "$1 replaced by URL for custom block explorer"
+  },
+  "blockiesIdenticon": {
+    "message": "Blockies identikon használata"
+  },
+  "nonceField": {
+    "message": "Tranzakciós nonce testreszabása"
+  },
+  "nonceFieldHeading": {
+    "message": "Egyedi Nonce"
+  },
+  "nonceFieldDescription": {
+    "message": "Kapcsolja be ezt a beállítást, hogy megváltoztassa a  nonce (tranzakció számát) a megerősítő képernyőkön. Ez egy speciális funkció, használja óvatosan."
+  },
+  "browserNotSupported": {
+    "message": "Az ön böngészője nem támogatott..."
+  },
+  "builtInCalifornia": {
+    "message": "A Brave-et Kaliforniában tervezték és készítették."
+  },
+  "buyWithWyre": {
+    "message": "Vásároljon ETH-t a Wyre-rel"
+  },
+  "buyWithWyreDescription": {
+    "message": "A Wyre segítségével betéti kártyát használhat az ETH befizetéséhez közvetlenül a Brave számlájára."
+  },
+  "buyCoinSwitch": {
+    "message": "Vegye meg a CoinSwitchen"
+  },
+  "buyCoinSwitchExplainer": {
+    "message": "A CoinSwitch a legjobb hely több mint 300 cryptovaluta legjobb árfolyamon történő átváltására."
+  },
+  "bytes": {
+    "message": "Bájtok"
+  },
+  "off": {
+    "message": "Kikapcsolva"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "on": {
+    "message": "Be"
+  },
+  "optionalBlockExplorerUrl": {
+    "message": "Explorer URL letiltása (nem kötelező)"
+  },
+  "cancel": {
+    "message": "Mégse"
+  },
+  "cancelAttempt": {
+    "message": "Kísérlet megszakítása"
+  },
+  "cancellationGasFee": {
+    "message": "A törlés gázára"
+  },
+  "cancelled": {
+    "message": "Megszakítva"
+  },
+  "chainId": {
+    "message": "Lánc azonosítója"
+  },
+  "clickToRevealSeed": {
+    "message": "Kattintson ide a titkos szavak megjelenítéséhez"
+  },
+  "close": {
+    "message": "Bezárás"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": "A hardver pénztárcájához való csatlakozáshoz a Brave-et kell használnia a Google Chrome-ban."
+  },
+  "confirm": {
+    "message": "Megerősítés"
+  },
+  "confirmed": {
+    "message": "Megerősítve"
+  },
+  "confirmPassword": {
+    "message": "Jelszó megerősítése"
+  },
+  "confirmSecretBackupPhrase": {
+    "message": "Erősítsd meg titkos biztonsági szókapcsolatodat"
+  },
+  "congratulations": {
+    "message": "Gratulálunk"
+  },
+  "connectAccountOrCreate": {
+    "message": "Csatlakoztassa a fiókot, vagy hozzon létre újat"
+  },
+  "connectHardwareWallet": {
+    "message": "Hardverpénztárca csatlakoztatása"
+  },
+  "connect": {
+    "message": "Csatlakozás"
+  },
+  "connectingTo": {
+    "message": "Kapcsolódás: $1"
+  },
+  "connectingToKovan": {
+    "message": "Csatlakozás a Kovan teszthálózathoz"
+  },
+  "connectingToMainnet": {
+    "message": "Csatlakozás a fő Ethereum hálózathoz"
+  },
+  "connectingToRopsten": {
+    "message": "Csatlakozás a Ropsten teszthálózathoz"
+  },
+  "connectingToRinkeby": {
+    "message": "Kapcsolódás a Rinkeby Teszthálózathoz"
+  },
+  "connectingToLocalhost": {
+    "message": "Csatlakozás a Localhost 8645-höz"
+  },
+  "connectingToGoerli": {
+    "message": "Csatlakozás a Goerli teszthálózathoz"
+  },
+  "contacts": {
+    "message": "Névjegyek"
+  },
+  "contactsSettingsDescription": {
+    "message": "Adjon hozzá, szerkesszen, távolítson el, vagy kezeljen új kapcsolatokat"
+  },
+  "contactUs": {
+    "message": "Lépjen kapcsolatba velünk!"
+  },
+  "continueToSwap": {
+    "message": "Tovább a Swapra"
+  },
+  "continueToWyre": {
+    "message": "Tovább a Wyre-re"
+  },
+  "continueToCoinSwitch": {
+    "message": "Tovább a CoinSwitch-re"
+  },
+  "contractDeployment": {
+    "message": "Szerződés alkalmazása"
+  },
+  "copiedExclamation": {
+    "message": "Kimásolva!"
+  },
+  "copyAddress": {
+    "message": "Másolja a címet a vágólapra"
+  },
+  "copyTransactionId": {
+    "message": "Tranzakció azonosítójának másolása"
+  },
+  "copiedTransactionId": {
+    "message": "Másolt tranzakció-azonosító"
+  },
+  "copyToClipboard": {
+    "message": "Másolás a vágólapra"
+  },
+  "copyPrivateKey": {
+    "message": "Ez a saját titkos kulcsod (kattints rá a másoláshoz)"
+  },
+  "create": {
+    "message": "Létrehozás"
+  },
+  "createAccount": {
+    "message": "Fiók létrehozása"
+  },
+  "createAWallet": {
+    "message": "Hozz létre egy pénztárcát"
+  },
+  "createPassword": {
+    "message": "Jelszó létrehozása"
+  },
+  "currencyConversion": {
+    "message": "Valutaváltás"
+  },
+  "currentExtension": {
+    "message": "Jelenlegi bővítménylap"
+  },
+  "currentLanguage": {
+    "message": "Aktuális nyelv"
+  },
+  "customGas": {
+    "message": "Gáz testreszabása"
+  },
+  "customGasSubTitle": {
+    "message": "A díj növelése csökkentheti a feldolgozási időt, de ez nem garantált."
+  },
+  "customToken": {
+    "message": "Egyéni token"
+  },
+  "customRPC": {
+    "message": "Egyedi RPC"
+  },
+  "customSpendLimit": {
+    "message": "Egyéni költségkorlát"
+  },
+  "dataBackupFoundInfo": {
+    "message": "A Brave egy korábbi telepítése során biztonsági másolat készült a fiókjának adatairól. Ez magában foglalhatja a beállításokat, névjegyeket és tokeneket. Szeretné most visszaállítani ezeket az adatokat?"
+  },
+  "decimalsMustZerotoTen": {
+    "message": "A tizedesjegyek száma 0 és 36 között legyen . "
+  },
+  "decimal": {
+    "message": "A pontosság tizedesjegyei"
+  },
+  "defaultNetwork": {
+    "message": "Az Ether tranzakciók alapértelmezett hálózata a Main Net."
+  },
+  "delete": {
+    "message": "Törlés"
+  },
+  "deleteAccount": {
+    "message": "Fiók törlése"
+  },
+  "deposit": {
+    "message": "Befizetés"
+  },
+  "depositEther": {
+    "message": "Ether befizetése"
+  },
+  "details": {
+    "message": "Részletek"
+  },
+  "directDepositEther": {
+    "message": "Fizess be ethert közvetlenül"
+  },
+  "directDepositEtherExplainer": {
+    "message": "Amennyiben már rendelkezik némi Ether-rel, a közvetlen letéttel gyorsan elhelyezheti azt új pénztárcájában."
+  },
+  "done": {
+    "message": "Kész"
+  },
+  "dontShowThisAgain": {
+    "message": "Ne jelenjen meg újra"
+  },
+  "downloadGoogleChrome": {
+    "message": "Google Chrome letöltése"
+  },
+  "downloadSecretBackup": {
+    "message": "Töltse le a Secret Backup Phrase-t és tárolja biztonságosan egy titkosított külső merevlemezen vagy tárolón."
+  },
+  "downloadStateLogs": {
+    "message": "Állapotnapló letöltése"
+  },
+  "dontHaveAHardwareWallet": {
+    "message": "Nincs hardveres tárcája? "
+  },
+  "dropped": {
+    "message": "Ejtve"
+  },
+  "edit": {
+    "message": "Szerkesztés"
+  },
+  "editContact": {
+    "message": "Kapcsolatok szerkesztése"
+  },
+  "editPermission": {
+    "message": "Engedély szerkesztése"
+  },
+  "endOfFlowMessage1": {
+    "message": "Átment a teszten - tartsa biztonságban a seed mondatot, ez az ön felelőssége!"
+  },
+  "endOfFlowMessage2": {
+    "message": "Tanácsok a biztonságos tárolásához"
+  },
+  "endOfFlowMessage3": {
+    "message": "Készíts biztonsági mentést több helyen."
+  },
+  "endOfFlowMessage4": {
+    "message": "Soha ne ossza meg senkivel a mondatot."
+  },
+  "endOfFlowMessage5": {
+    "message": "Vigyázzon az adathalászattal! A Brave soha nem fogja spontánul kérni a seed kifejezést."
+  },
+  "endOfFlowMessage6": {
+    "message": "Ha ismét biztonsági másolatot kell készítenie a seed mondatról, megtalálja azt a Beállítások -> Biztonság menüben."
+  },
+  "endOfFlowMessage7": {
+    "message": "Ha bármikor kérdésed van, vagy valami gyanúsat látsz, keresd fel tárcánkat."
+  },
+  "endOfFlowMessage8": {
+    "message": "A Brave nem tudja visszaállítani a seed kifejezést."
+  },
+  "endOfFlowMessage9": {
+    "message": "Bővebb információk."
+  },
+  "endOfFlowMessage10": {
+    "message": "Minden kész"
+  },
+  "endOfFlowMessage11": {
+    "message": "támogatási fórum."
+  },
+  "externalExtension": {
+    "message": "Külső bővítmény"
+  },
+  "onboardingReturnNotice": {
+    "message": "\"$1\" bezárja ezt a lapot, és visszatér ide: $2 ",
+    "description": "Return the user to the site that initiated onboarding"
+  },
+  "ensRegistrationError": {
+    "message": "Hiba történt az ENS név regisztrációjakor"
+  },
+  "ensNotFoundOnCurrentNetwork": {
+    "message": "ENS név nem található a jelenlegi hálózaton. Próbálj váltani Ethereum főhálózatra."
+  },
+  "enterAnAlias": {
+    "message": "Adjon meg álnevet"
+  },
+  "enterMaxSpendLimit": {
+    "message": "Adja meg a maximális költséghatárt"
+  },
+  "enterPassword": {
+    "message": "Adja meg a jelszót"
+  },
+  "enterPasswordContinue": {
+    "message": "A folytatáshoz adja meg a jelszót"
+  },
+  "errorCode": {
+    "message": "Kód: $1",
+    "description": "Displayed error code for debugging purposes. $1 is the error code"
+  },
+  "errorDetails": {
+    "message": "Hibaadatok",
+    "description": "Title for collapsible section that displays error details for debugging purposes"
+  },
+  "errorMessage": {
+    "message": "Üzenet: $1",
+    "description": "Displayed error message for debugging purposes. $1 is the error message"
+  },
+  "errorName": {
+    "message": "Kód: $1",
+    "description": "Displayed error name for debugging purposes. $1 is the error name"
+  },
+  "errorPageTitle": {
+    "message": "A Brave hibába ütközött",
+    "description": "Title of generic error page"
+  },
+  "errorPageMessage": {
+    "message": "Próbálkozzon újra az oldal újratöltésével, vagy lépjen kapcsolatba az ügyfélszolgálattal a support@brave.com címen",
+    "description": "Message displayed on generic error page in the fullscreen or notification UI"
+  },
+  "errorPagePopupMessage": {
+    "message": "Próbálja meg újra a felugró ablak bezárásával és újbóli megnyitásával, vagy lépjen kapcsolatba az ügyfélszolgálattal a support@brave.com címen",
+    "description": "Message displayed on generic error page in the popup UI"
+  },
+  "errorStack": {
+    "message": "Halom:",
+    "description": "Title for error stack, which is displayed for debugging purposes"
+  },
+  "ethereumPublicAddress": {
+    "message": "Ethereum nyilvános címe"
+  },
+  "etherscanView": {
+    "message": "Fiók megtekintése Etherscanen"
+  },
+  "estimatedProcessingTimes": {
+    "message": "Becsült feldolgozási idők"
+  },
+  "estimatedNetworkFee": {
+    "message": "Becsült hálózati díj"
+  },
+  "expandView": {
+    "message": "Nézet kibontása"
+  },
+  "exportPrivateKey": {
+    "message": "Privát kulcs exportálása"
+  },
+  "failed": {
+    "message": "Sikertelen"
+  },
+  "failureMessage": {
+    "message": "Hiba történt, és nem tudtuk befejezni a műveletet"
+  },
+  "fast": {
+    "message": "Gyors"
+  },
+  "faster": {
+    "message": "Gyorsabban"
+  },
+  "feeAssociatedRequest": {
+    "message": "A kérelemhez egy díj társul."
+  },
+  "fiat": {
+    "message": "Fiat",
+    "description": "Exchange type"
+  },
+  "fileImportFail": {
+    "message": "Nem működik a fájl importálása? Kattintson ide!",
+    "description": "Helps user import their account from a JSON file"
+  },
+  "forgetDevice": {
+    "message": "Felejtse el ezt az eszközt"
+  },
+  "from": {
+    "message": "Feladó"
+  },
+  "fromAddress": {
+    "message": "Innen: $1",
+    "description": "$1 is the address to include in the From label. It is typically shortened first using shortenAddress"
+  },
+  "functionApprove": {
+    "message": "Funkció: Jóváhagyás"
+  },
+  "functionType": {
+    "message": "Függvénytípus"
+  },
+  "gasLimit": {
+    "message": "Gáz határértéke"
+  },
+  "gasLimitInfoModalContent": {
+    "message": "A gázkorlátozás az elkölthető gázegységek maximális mennyisége."
+  },
+  "gasLimitTooLow": {
+    "message": "A gáz határértéke legyen legalább 21000"
+  },
+  "gasUsed": {
+    "message": "Használt gáz"
+  },
+  "gasPrice": {
+    "message": "Gázár (GWEI)"
+  },
+  "gasPriceExtremelyLow": {
+    "message": "Üzemanyag ár Különösen alacsony"
+  },
+  "gasPriceInfoModalContent": {
+    "message": "A gáz ára meghatározza, hogy ön mennyi Ethert hajlandó fizetni minden egyes gázegységért."
+  },
+  "gasPriceNoDenom": {
+    "message": "Gázár"
+  },
+  "gdprMessage": {
+    "message": "Ezek az adatok összesítve vannak, ezért névtelenek az (EU) 2016/679 általános adatvédelmi rendelet alkalmazásából. Az adatvédelmi gyakorlatainkkal kapcsolatos további információkért kérjük, olvassa el a következőt: $1.",
+    "description": "$1 refers to the gdprMessagePrivacyPolicy message, the translation of which is meant to be used exclusively in the context of gdprMessage"
+  },
+  "gdprMessagePrivacyPolicy": {
+    "message": "Adatvédelmi irányelvek itt",
+    "description": "this translation is intended to be exclusively used as the replacement for the $1 in the gdprMessage translation"
+  },
+  "general": {
+    "message": "Általános"
+  },
+  "generalSettingsDescription": {
+    "message": "Pénznem átváltása, elsődleges pénznem, nyelv, blockies identikonok"
+  },
+  "getEther": {
+    "message": "Ether beszerzése"
+  },
+  "getEtherFromFaucet": {
+    "message": "Szerezzen Ethert pénzcsapból a(z) $1-ért",
+    "description": "Displays network name for Ether faucet"
+  },
+  "getHelp": {
+    "message": "Segítség kérése"
+  },
+  "getStarted": {
+    "message": "Első lépések"
+  },
+  "happyToSeeYou": {
+    "message": "Örülünk, hogy itt van. "
+  },
+  "hardware": {
+    "message": "Hardver"
+  },
+  "hardwareWalletConnected": {
+    "message": "Hardverpénztárca csatlakoztatva"
+  },
+  "hardwareWallets": {
+    "message": "Hardveres tárca csatlakoztatása"
+  },
+  "hardwareWalletsMsg": {
+    "message": "Válasszon egy hardver pénztárcát, amelyet használni szeretne a Brave alkalmazással"
+  },
+  "havingTroubleConnecting": {
+    "message": "Gond van a csatlakozással?"
+  },
+  "here": {
+    "message": "itt",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
+  },
+  "hexData": {
+    "message": "Hex adat"
+  },
+  "hide": {
+    "message": "Elrejtés"
+  },
+  "hideTokenSymbol": {
+    "message": "$1 elrejtése",
+    "description": "$1 is the symbol for a token (e.g. 'DAI')"
+  },
+  "hideTokenPrompt": {
+    "message": "Elrejted a tokent?"
+  },
+  "history": {
+    "message": "Előzmények"
+  },
+  "home": {
+    "message": "Főoldal"
+  },
+  "import": {
+    "message": "Importálás",
+    "description": "Button to import an account from a selected file"
+  },
+  "importAccount": {
+    "message": "Fiók importálása"
+  },
+  "importAccountMsg": {
+    "message": "Az importált fiókok nem lesznek társítva az eredetileg létrehozott Brave fiók seed kifejezéshez. Tudjon meg többet az importált fiókokról"
+  },
+  "importAccountSeedPhrase": {
+    "message": "Seed kifejezéssel rendelkező fiók importálása"
+  },
+  "importWallet": {
+    "message": "Pénztárca importálása"
+  },
+  "importYourExisting": {
+    "message": "Importáld meglévő tárcádat egy 12 vagy 24 szavas kulccsal"
+  },
+  "imported": {
+    "message": "Importált",
+    "description": "status showing that an account has been fully loaded into the keyring"
+  },
+  "importUsingSeed": {
+    "message": "Importálás a fiók seed mondatának használatával"
+  },
+  "infoHelp": {
+    "message": "Információk és súgó"
+  },
+  "initialTransactionConfirmed": {
+    "message": "Eredeti tranzakciódat jóváhagyta a hálózat. A visszatéréshez kattints az OK-ra."
+  },
+  "insufficientBalance": {
+    "message": "Fedezethiány."
+  },
+  "insufficientFunds": {
+    "message": "Nincs elegendő összeg."
+  },
+  "insufficientTokens": {
+    "message": "Nincs elegendő tokene."
+  },
+  "insufficientFundsGas": {
+    "message": "Nincs elegendő fedezet a gázra."
+  },
+  "balanceFetchError": {
+    "message": "Hiba az egyenleg beolvasásával."
+  },
+  "invalidAddress": {
+    "message": "Helytelen cím"
+  },
+  "invalidAddressRecipient": {
+    "message": "A címzett címe érvénytelen "
+  },
+  "knownAddressRecipient": {
+    "message": "Ismert szerződéses cím."
+  },
+  "knownTokenWarning": {
+    "message": "Ez a művelet szerkeszti a pénztárcájában már felsorolt tokeneket, amelyek felhasználhatók adathalászathoz. Csak akkor hagyja jóvá, ha biztos benne, hogy meg akarja változtatni, amit ezek a tokenek képviselnek."
+  },
+  "reusedTokenNameWarning": {
+    "message": "A token itt újrafelhasznál egy szimbólumot egy másik megnézett tokenből, ez zavaró vagy megtévesztő lehet."
+  },
+  "invalidAddressRecipientNotEthNetwork": {
+    "message": "Nem ETH hálózat, állítsa kisbetűre"
+  },
+  "invalidCustomNetworkAlertContent1": {
+    "message": "'$1' egyéni hálózatból hiányzik a láncazonosító.",
+    "description": "$1 is the name/identifier of the network."
+  },
+  "invalidCustomNetworkAlertContent2": {
+    "message": "A kártékony vagy hibás hálózati szolgáltatóktól való védelem érdekében most minden egyéni hálózathoz láncazonosító szükséges."
+  },
+  "invalidCustomNetworkAlertContent3": {
+    "message": "Lépj be a Beállítások > Hálózat menübe, és írd be a láncazonosítót. A legnépszerűbb hálózatok láncazonosítója itt található: $1.",
+    "description": "$1 is a link to https://chainid.network"
+  },
+  "invalidCustomNetworkAlertTitle": {
+    "message": "Érvénytelen egyéni hálózat"
+  },
+  "invalidHexNumber": {
+    "message": "Érvénytelen hexadecimális szám."
+  },
+  "invalidHexNumberLeadingZeros": {
+    "message": "Érvénytelen hexadecimális szám. Távolíts el minden nullát a szám elejéről."
+  },
+  "invalidRPC": {
+    "message": "Helytelen RPC URL"
+  },
+  "invalidBlockExplorerURL": {
+    "message": "Érvénytelen Block Explorer URL"
+  },
+  "invalidSeedPhrase": {
+    "message": "Érvénytelen seed mondat"
+  },
+  "ipfsGateway": {
+    "message": "IPFS-átjáró"
+  },
+  "ipfsGatewayDescription": {
+    "message": "Írja be az IPFS CID átjáró URL-jét, amelyet az ENS-tartalom felbontásához használ."
+  },
+  "invalidIpfsGateway": {
+    "message": "Érvénytelen IPFS-átjáró: Az értéknek érvényes URL-nek kell lennie"
+  },
+  "invalidNumber": {
+    "message": "Érvénytelen szám. Írj be egy decimális vagy hexadecimális számot."
+  },
+  "invalidNumberLeadingZeros": {
+    "message": "Érvénytelen szám. Távolíts el minden nullát a szám elejéről."
+  },
+  "forbiddenIpfsGateway": {
+    "message": "Tiltott IPFS-átjáró: Adjon meg egy CID-átjárót"
+  },
+  "jsonFile": {
+    "message": "JSON-fájl",
+    "description": "format for importing an account"
+  },
+  "kovan": {
+    "message": "Kovan teszthálózat"
+  },
+  "max": {
+    "message": "Maximum"
+  },
+  "lastConnected": {
+    "message": "Legutóbb csatlakoztatva"
+  },
+  "learnMore": {
+    "message": "Tudjon meg többet"
+  },
+  "ledgerAccountRestriction": {
+    "message": "Használnia kell a korábbi fiókját, mielőtt újat adhat hozzá. "
+  },
+  "letsGoSetUp": {
+    "message": "Igen, hozzuk létre!"
+  },
+  "likeToAddTokens": {
+    "message": "Hozzá szeretné adni ezeket az érméket?"
+  },
+  "links": {
+    "message": "Linkek"
+  },
+  "liveGasPricePredictions": {
+    "message": "Élő előrejelzések gázárak alakulására"
+  },
+  "loading": {
+    "message": "Betöltés..."
+  },
+  "loadingTokens": {
+    "message": "Tokenek betöltése..."
+  },
+  "loadMore": {
+    "message": "Továbbiak betöltése"
+  },
+  "localhost": {
+    "message": "Localhost 8545"
+  },
+  "lock": {
+    "message": "Zárolás"
+  },
+  "lockTimeTooGreat": {
+    "message": "A zárolási idő túl nagy"
+  },
+  "mainnet": {
+    "message": "Fő Ethereum hálózat"
+  },
+  "availableOnMainnetRopsten": {
+    "message": "Csak mainneten és ropstenen érhető el"
+  },
+  "memorizePhrase": {
+    "message": "Jegyezze meg ezt a szakaszt."
+  },
+  "memo": {
+    "message": "emlékeztető"
+  },
+  "message": {
+    "message": "Üzenet"
+  },
+  "metaMaskConnectStatusParagraphOne": {
+    "message": "Mostantól jobban kontrollálhatja a Brave fiókja csatlakozásait."
+  },
+  "metaMaskConnectStatusParagraphTwo": {
+    "message": "A kapcsolat állapota gomb megmutatja, hogy az ön által felkeresett webhely csatlakozva van az ön jelenleg kiválasztott fiókjához."
+  },
+  "metaMaskConnectStatusParagraphThree": {
+    "message": "Kattintson rá a csatlakoztatott fiókjai kezeléséhez."
+  },
+  "metamaskDescription": {
+    "message": "Csatlakozás az Ethereumhoz és a decentralizált hálózathoz."
+  },
+  "metamaskVersion": {
+    "message": "Brave verzió"
+  },
+  "mobileSyncText": {
+    "message": "Kérünk írd be jelszavad, hogy igazold kiléted!"
+  },
+  "myAccounts": {
+    "message": "Fiókjaim"
+  },
+  "myWalletAccounts": {
+    "message": "Saját tárca fiókjai"
+  },
+  "myWalletAccountsDescription": {
+    "message": "Az összes létrehozott Brave fiókja automatikusan hozzá lesz adva ehhez a szakaszhoz."
+  },
+  "mustSelectOne": {
+    "message": "Legalább 1 tokent ki kell választania."
+  },
+  "needEtherInWallet": {
+    "message": "A Brave általi decentralizált alkalmazásokkal való interakcióhoz, Ether kell legyen a pénztárcájában."
+  },
+  "needImportFile": {
+    "message": "Ki kell választania az importálni kívánt fájlt.",
+    "description": "User is important an account and needs to add a file to continue"
+  },
+  "negativeETH": {
+    "message": "Nem lehet negatív mennyiségű ETH-t küldeni."
+  },
+  "networkName": {
+    "message": "Hálózat neve"
+  },
+  "networks": {
+    "message": "Hálózatok"
+  },
+  "networkSettingsChainIdDescription": {
+    "message": "A láncazonosítót a tranzakciók aláírására használjuk. Írj be egy '0x' kezdetű decimális vagy hexadecimális számot."
+  },
+  "networkSettingsDescription": {
+    "message": "Egyedi RPC-hálózatok hozzáadása és szerkesztése"
+  },
+  "nevermind": {
+    "message": "Nem fontos"
+  },
+  "newAccount": {
+    "message": "Új fiók"
+  },
+  "newAccountDetectedDialogMessage": {
+    "message": "Új címet észleltünk! Kattints ide, ha szeretnéd feljegyezni címtáradba."
+  },
+  "newAccountNumberName": {
+    "message": "$1 fiók",
+    "description": "Default name of next account to be created on create account screen"
+  },
+  "newContact": {
+    "message": "Új kapcsolat"
+  },
+  "newContract": {
+    "message": "Új szerződés"
+  },
+  "newPassword": {
+    "message": "Új jelszó (min. 8 karakter)"
+  },
+  "newNetwork": {
+    "message": "Új hálózat"
+  },
+  "newToMetaMask": {
+    "message": "Új a Brave-ben?"
+  },
+  "noAlreadyHaveSeed": {
+    "message": "Nem, már rendelkezem gyarapítási fázissal"
+  },
+  "protectYourKeys": {
+    "message": "Védje kulcsait!"
+  },
+  "protectYourKeysMessage1": {
+    "message": "Legyen körültekintő a seed kifejezéssel - jelentettek olyan weboldalakat, amelyek megpróbálják utánozni a Brave-et. A Brave soha nem fogja kérni a seed kifejezést!"
+  },
+  "protectYourKeysMessage2": {
+    "message": "Tartsa biztonságban a kifejezést. Ha valami gyanúsat észlel, vagy bizonytalan egy webhellyel kapcsolatban, küldjön e-mailt a support@brave.com e-mail címre"
+  },
+  "rpcUrl": {
+    "message": "Új RPC URL"
+  },
+  "onlyConnectTrust": {
+    "message": "Csak olyan webhelyekhez csatlakozzon, amelyekben megbízik."
+  },
+  "onlyAddTrustedNetworks": {
+    "message": "Egy rosszindulatú Ethereum hálózati szolgáltató hazudhat a blokklánc állapotáról, és rögzítheti a hálózati tevékenységét. Csak olyan egyéni hálózatokat adjon hozzá, amelyekben megbízik."
+  },
+  "optionalSymbol": {
+    "message": "Szimbólum (opcionális)"
+  },
+  "newTotal": {
+    "message": "Új végösszeg"
+  },
+  "newTransactionFee": {
+    "message": "Új tranzakciós költség"
+  },
+  "next": {
+    "message": "Következő"
+  },
+  "nextNonceWarning": {
+    "message": "A nonce nagyobb, mint a javasolt $1 nonce",
+    "description": "The next nonce according to Brave's internal logic"
+  },
+  "noAddressForName": {
+    "message": "Nem lett cím beállítva ehhez a névhez."
+  },
+  "noConversionRateAvailable": {
+    "message": "Nincs elérhető átváltási díj"
+  },
+  "noTransactions": {
+    "message": "Nincsenek tranzakciói"
+  },
+  "noThanks": {
+    "message": "Nem, köszönöm"
+  },
+  "notCurrentAccount": {
+    "message": "Ez a helyes fiók? Ez eltér a pénztárcájában jelenleg kiválasztott fióktól"
+  },
+  "notEnoughGas": {
+    "message": "Nincs elég gáz"
+  },
+  "noWebcamFoundTitle": {
+    "message": "Nem találtunk  webkamerát"
+  },
+  "noWebcamFound": {
+    "message": "Nem található számítógéped webkamerája. Kérünk, próbáld újra."
+  },
+  "ofTextNofM": {
+    "message": "ból"
+  },
+  "orderOneHere": {
+    "message": "Rendeljen trezort vagy főkönyvet, és tárolja pénzeszközeit hideg tárcában"
+  },
+  "origin": {
+    "message": "Eredet"
+  },
+  "parameters": {
+    "message": "Paraméterek"
+  },
+  "participateInMetaMetrics": {
+    "message": "Vegyen részt a MetaMetrics-ben"
+  },
+  "participateInMetaMetricsDescription": {
+    "message": "Vegyen részt a MetaMetrics-ben, hogy segítsen nekünk jobbá tenni a Brave-et "
+  },
+  "password": {
+    "message": "Jelszó"
+  },
+  "passwordsDontMatch": {
+    "message": "A jelszavak nem egyeznek"
+  },
+  "passwordNotLongEnough": {
+    "message": "A jelszó nem.elég hosszú"
+  },
+  "pastePrivateKey": {
+    "message": "Illessze be ide a privát kulcs karakterláncát:",
+    "description": "For importing an account from a private key"
+  },
+  "pending": {
+    "message": "Várakozó"
+  },
+  "permissionCheckedIconDescription": {
+    "message": "Ön jóváhagyta ezt az engedélyt"
+  },
+  "permissionUncheckedIconDescription": {
+    "message": "Nem hagyta jóvá ezt az engedélyt"
+  },
+  "personalAddressDetected": {
+    "message": "Személyes címet észleltünk. Adja meg a token szerződés címét."
+  },
+  "plusXMore": {
+    "message": "+ $1 további ",
+    "description": "$1 is a number of additional but unshown items in a list- this message will be shown in place of those items"
+  },
+  "prev": {
+    "message": "Előző"
+  },
+  "primaryCurrencySetting": {
+    "message": "Elsődleges pénznem"
+  },
+  "primaryCurrencySettingDescription": {
+    "message": "Válaszd a helyit, hogy az értékek elsősorban a helyi pénznemben jelenjenek meg (pl. ETH). Válaszd a Fiatot, hogy az értékek elsősorban a választott fiat pénznemben jelenjenek meg."
+  },
+  "privacyMsg": {
+    "message": "Adatvédelmi szabályzat"
+  },
+  "privateKey": {
+    "message": "Privát kulcs",
+    "description": "select this type of file to use to import an account"
+  },
+  "privateKeyWarning": {
+    "message": "Figyelem! Soha ne adja át másnak ezt a kulcsot. A privát kulcs birtokában ellophatják a számláján lévő pénzeszközöket."
+  },
+  "privateNetwork": {
+    "message": "Magánhálózat"
+  },
+  "proposedApprovalLimit": {
+    "message": "Javasolt jóváhagyási határ"
+  },
+  "queue": {
+    "message": "Nyomtatólista"
+  },
+  "queued": {
+    "message": "Várólistán"
+  },
+  "readdToken": {
+    "message": "Ezt a tokent a jövőben is hozzáadhatja, ha a fiókbeállítások menü „Token hozzáadása” elemére lép."
+  },
+  "recents": {
+    "message": "Legutóbbiak"
+  },
+  "receive": {
+    "message": "Kap"
+  },
+  "recipientAddress": {
+    "message": "Címzett címe"
+  },
+  "recipientAddressPlaceholder": {
+    "message": "Keresés, nyilvános cím (0x), vagy tartomány"
+  },
+  "rejectAll": {
+    "message": "Mindet elutasít"
+  },
+  "rejectTxsN": {
+    "message": "$1 tranzakciók elutasítása"
+  },
+  "rejectTxsDescription": {
+    "message": "Ezáltal kötegben utasítja el a(z) $1 tranzakciókat."
+  },
+  "rejected": {
+    "message": "Elutasítva"
+  },
+  "reset": {
+    "message": "Visszaállítás"
+  },
+  "resetAccount": {
+    "message": "Fiók visszaállítása"
+  },
+  "resetAccountDescription": {
+    "message": "A fiók visszaállítása törli a tranzakciók előzményeit. Ez nem fogja megváltoztatni a számlák egyenlegét, és nem fogja megkövetelni, hogy adja meg újra a seed kifejezést."
+  },
+  "deleteNetwork": {
+    "message": "Törli a hálózatot?"
+  },
+  "deleteNetworkDescription": {
+    "message": "Biztosan törli ezt a hálózatot?"
+  },
+  "remindMeLater": {
+    "message": "Emlékeztessen később"
+  },
+  "restoreFromSeed": {
+    "message": "Visszaállítja a fiókot? "
+  },
+  "restoreAccountWithSeed": {
+    "message": "Fiók helyreállítása a seed mondat segítségével"
+  },
+  "restoreWalletPreferences": {
+    "message": "Megtaláltuk a(z) $1-től származó adatok biztonsági másolatát. Szeretné visszaállítani a pénztárca beállításait?",
+    "description": "$1 is the date at which the data was backed up"
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": "jóváhagyásra váró kérelmek"
+  },
+  "required": {
+    "message": "Kötelező"
+  },
+  "restore": {
+    "message": "Visszaállítás"
+  },
+  "revealSeedWords": {
+    "message": "Seed kifejezés felfedése"
+  },
+  "revealSeedWordsTitle": {
+    "message": "Kulcsszólánc"
+  },
+  "revealSeedWordsDescription": {
+    "message": "Ha valamikor böngészőt váltasz, vagy számítógépet cserélsz, a fiókjaid használatához szükséged lesz erre a kulcsszóláncra. Őrizd őket egy biztonságos és titkos helyen."
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "NE ossza meg ezt a mondatot senkivel!"
+  },
+  "revealSeedWordsWarning": {
+    "message": "Ezekkel a szavakkal ellophatóak a fiókjai."
+  },
+  "remove": {
+    "message": "Eltávolítás"
+  },
+  "removeAccount": {
+    "message": "Fiók eltávolítása"
+  },
+  "removeAccountDescription": {
+    "message": "Ez a fiók el lesz távolítva pénztárcádból. A folytatás előtt győződj meg róla, hogy rendelkezésedre áll az eredeti kulcsszólánc vagy titkos kulcs. A fiók legördülő menüjéből újból importálhatsz vagy létrehozhatsz fiókokat. "
+  },
+  "readyToConnect": {
+    "message": "Készen áll a csatlakozásra?"
+  },
+  "reviewSwap": {
+    "message": "Csere áttekintése"
+  },
+  "rinkeby": {
+    "message": "Rinkeby teszthálózat"
+  },
+  "ropsten": {
+    "message": "Ropsten teszthálózat"
+  },
+  "goerli": {
+    "message": "Goerli teszthálózat"
+  },
+  "save": {
+    "message": "Mentés"
+  },
+  "slow": {
+    "message": "Lassú"
+  },
+  "slower": {
+    "message": "Lassabban"
+  },
+  "saveAsCsvFile": {
+    "message": "Mentés CSV-fájlként"
+  },
+  "scanInstructions": {
+    "message": "Helyezze a QR-kódot a fényképezőgép elé"
+  },
+  "scanQrCode": {
+    "message": "QR-kód beolvasása"
+  },
+  "search": {
+    "message": "Keresés"
+  },
+  "searchResults": {
+    "message": "Keresési eredmények"
+  },
+  "secretBackupPhrase": {
+    "message": "Titkos biztonsági kifejezés "
+  },
+  "secretBackupPhraseDescription": {
+    "message": "Titkos biztonsági szókapcsolatoddal könnyedén készíthetsz biztonsági mentést és helyreállíthatod fiókodat."
+  },
+  "secretBackupPhraseWarning": {
+    "message": "FIGYELEM: Senkise se adja meg a biztonsági szakaszát. Ennek tulajdonosa örökre elviheti Ether-jeit."
+  },
+  "secretPhrase": {
+    "message": "A perselyed helyreállításához írd be a titkos 12 vagy 24 szavas kifejezést."
+  },
+  "securityAndPrivacy": {
+    "message": "Biztonság és adatvédelem"
+  },
+  "securitySettingsDescription": {
+    "message": "Biztonsági beállítások és pénztárca kulcsszólánca"
+  },
+  "seedPhrasePlaceholder": {
+    "message": "A szavakat egy-egy szóközzel válassza el"
+  },
+  "seedPhrasePlaceholderPaste": {
+    "message": "Illessze be a seed kifejezést a vágólapról"
+  },
+  "showSeedPhrase": {
+    "message": "Seed kifejezés megjelenítése"
+  },
+  "seedPhraseReq": {
+    "message": "A seed kifejezések 12, 15, 18, 21 vagy 24 szót tartalmaznak"
+  },
+  "selectingAllWillAllow": {
+    "message": "Az összes kiválasztása lehetővé teszi, hogy ez a webhely megtekintse az összes jelenlegi fiókját. Győződjön meg róla, hogy megbízik ebben a webhelyben."
+  },
+  "selectAccounts": {
+    "message": "Fiók(ok) kiválasztása"
+  },
+  "selectAll": {
+    "message": "Összes kiválasztása"
+  },
+  "selectCurrency": {
+    "message": "Válasszon valutát"
+  },
+  "selectEachPhrase": {
+    "message": "Kérjük, válassza ki az egyes mondatokat, hogy meggyőződjön azok helyességéről. "
+  },
+  "selectLocale": {
+    "message": "Válaszd ki a területi beállítást"
+  },
+  "selectType": {
+    "message": "Válasszon típust"
+  },
+  "setAllowance": {
+    "message": "Keret beállítása"
+  },
+  "buy": {
+    "message": "Vétel"
+  },
+  "send": {
+    "message": "Küldés"
+  },
+  "swap": {
+    "message": "Swap"
+  },
+  "swapApprovalSecurityMsg": {
+    "message": "Biztonsági okokból a kívánt érték beállítása előtt ajánlott a keretet 0-ra állítani, hogy megelőzd a tranzakció-átrendezési támadásokat."
+  },
+  "swapBraveFees": {
+    "message": "Az ajánlat tartalmazza a Brave $1 díját."
+  },
+  "swapFooterPrivacyNotice": {
+    "message": "A Brave DEX aggregátora a $1. Erről bővebben itt olvashatsz: $2"
+  },
+  "swapNewQuoteCountdown": {
+    "message": "Új ajánlat"
+  },
+  "swapSlippageDescription": {
+    "message": "Az elfogadható maximális árváltozás a vásárlási aktíva %-ában. Ha a delta meghaladja a csúszást, a csere nem lesz végrehajtva."
+  },
+  "swapQuoteRefresh": {
+    "message": "Az ajánlatok gyakran frissülnek, hogy az aktuális piaci viszonyokat tükrözzék."
+  },
+  "sendAmount": {
+    "message": "Összeg küldése"
+  },
+  "sendETH": {
+    "message": "ETH küldése"
+  },
+  "sendTokens": {
+    "message": "Token küldése"
+  },
+  "sentEther": {
+    "message": "elküldött ether"
+  },
+  "sentTokens": {
+    "message": "elküldött érmék"
+  },
+  "sendSpecifiedTokens": {
+    "message": "$1 küldése",
+    "description": "Symbol of the specified token"
+  },
+  "separateEachWord": {
+    "message": "Minden egyes szavat szóközzel válasszon el"
+  },
+  "searchAssets": {
+    "message": "Aktívák keresése"
+  },
+  "searchTokens": {
+    "message": "Keresés a tokenek között"
+  },
+  "searchAccounts": {
+    "message": "Keresés a fiókok között"
+  },
+  "noAccountsFound": {
+    "message": "Nem található fiók a megadott keresési lekérdezéshez"
+  },
+  "selectAsset": {
+    "message": "Válassz aktívát"
+  },
+  "selectAnAccount": {
+    "message": "Válasszon fiókot"
+  },
+  "selectAnAccountHelp": {
+    "message": "Válassza ki a Brave-ben megtekinteni kívánt fiókot"
+  },
+  "selectAHigherGasFee": {
+    "message": "Válasszon magasabb gázdíjat az ügylet feldolgozásának gyorsításához.*"
+  },
+  "selectHdPath": {
+    "message": "Válassz HD elérési útvonalat"
+  },
+  "selectPathHelp": {
+    "message": "Ha nem láthatók alább Ledger számláid, próbáld kicserélni az elérési útvonalat: „Legacy (MEW / MyCypto)”"
+  },
+  "settings": {
+    "message": "Beállítások"
+  },
+  "showAdvancedGasInline": {
+    "message": "Speciális gázszabályzók"
+  },
+  "showAdvancedGasInlineDescription": {
+    "message": "Jelöld meg ezt a gázárak és korlátozásellenőrzés mutatásához közvetlenül a küldési és megerősítési képernyőkön."
+  },
+  "showFiatConversionInTestnets": {
+    "message": "Konverzió mutatása Testnetsen"
+  },
+  "showFiatConversionInTestnetsDescription": {
+    "message": "Válassza ezt, ha a Testnetsen szeretné megnézni a törvényes fizetőeszközre való átváltást"
+  },
+  "showPrivateKeys": {
+    "message": "Mutassa a privát kulcsokat"
+  },
+  "showHexData": {
+    "message": "Hex adatok mutatása"
+  },
+  "showHexDataDescription": {
+    "message": "Válassza ezt, ha a hex adatmezőt a küldő képernyőn szeretné megnézni"
+  },
+  "sign": {
+    "message": "Aláír"
+  },
+  "signatureRequest": {
+    "message": "Aláírási kérelem"
+  },
+  "signatureRequest1": {
+    "message": "Üzenet"
+  },
+  "signed": {
+    "message": "Aláírva"
+  },
+  "signNotice": {
+    "message": "Az üzenet aláírása veszélyes következményekkel járhat. Csak olyan webhely üzenetét írja alá, amelyben teljes mértékben és a teljes fiókjával megbízik. Ezt a veszélyes módszert egy későbbi verzióból eltávolítjuk."
+  },
+  "sigRequest": {
+    "message": "Aláírás kérése"
+  },
+  "somethingWentWrong": {
+    "message": "Hoppá! Valami hiba történt..."
+  },
+  "speedUp": {
+    "message": "Gyorsítás"
+  },
+  "speedUpCancellation": {
+    "message": "Törlés felgyorsítása"
+  },
+  "speedUpTransaction": {
+    "message": "Gyorsítsd fel ezt a tranzakciót"
+  },
+  "spendLimitPermission": {
+    "message": "Költségkorlát engedély"
+  },
+  "spendLimitRequestedBy": {
+    "message": "$1 költségkorlátot kért ",
+    "description": "Origin of the site requesting the spend limit"
+  },
+  "spendLimitTooLarge": {
+    "message": "Túl nagy a költségkorlát"
+  },
+  "spendLimitInvalid": {
+    "message": "Érvénytelen a költségkorlát; pozitív számnak kell lennie"
+  },
+  "switchNetworks": {
+    "message": "Hálózátváltás"
+  },
+  "stateLogFileName": {
+    "message": "Brave állapotnaplók"
+  },
+  "stateLogs": {
+    "message": "Állapotnapló"
+  },
+  "stateLogsDescription": {
+    "message": "Az állapotnaplóban megtalálhatók nyilvános fiókcímeid és elküldött tranzakcióid."
+  },
+  "stateLogError": {
+    "message": "Hiba történt az állapotnaplók lekérésekor."
+  },
+  "statusConnected": {
+    "message": "Kapcsolódva"
+  },
+  "statusNotConnected": {
+    "message": "Nincs csatlakozva"
+  },
+  "step1HardwareWallet": {
+    "message": "1. Csatlakoztassa a hardveres pénztárcát"
+  },
+  "step1HardwareWalletMsg": {
+    "message": "Csatlakoztassa hardveres tárcáját közvetlenül a számítógéphez."
+  },
+  "step2HardwareWallet": {
+    "message": "2. Válassz egy fiókot"
+  },
+  "step2HardwareWalletMsg": {
+    "message": "Válassza ki a megtekinteni kívánt fiókot. Egyszerre csak egyet választhat."
+  },
+  "step3HardwareWallet": {
+    "message": "3. Kezdje el használni a web3 oldalakat és egyebeket!"
+  },
+  "step3HardwareWalletMsg": {
+    "message": "Használja a hardverfiókját, mint, ahogy azt bármely Ethereum fiókkal tenné. Csatlakozzon web3 oldalakhoz, küldjön ETH-t, vásároljon és tároljon ERC20 tokeneket és nem helyettesíthető tokeneket, például a CryptoKitties."
+  },
+  "storePhrase": {
+    "message": "Tárolja a mondatot jelszókezelőben, például az 1Passwordben."
+  },
+  "submit": {
+    "message": "Elküldés"
+  },
+  "submitted": {
+    "message": "Elküldve"
+  },
+  "supportCenter": {
+    "message": "Vegye fel a kapcsolatot Támogató Központunkkal"
+  },
+  "swapPrivacyPolicy": {
+    "message": "Swap adatvédelmi szabályzat"
+  },
+  "swapPrivacyPolicyDescription": {
+    "message": "A Brave $1 DEX aggregátort használ. A tranzakció teljesítéséhez (beleértve az ajánlatok kérését) a 0x feldolgozza az Ethereum címet és IP-címet. A 0x CSAKIS a tranzakciók lebonyolításához használja ezeket az adatokat."
+  },
+  "symbol": {
+    "message": "Szimbólum"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "A szimbólum 11 karakter vagy kevesebb lehet."
+  },
+  "syncWithMobile": {
+    "message": "Szinkronizálás telefonnal"
+  },
+  "syncWithMobileTitle": {
+    "message": "Szinkronizálás mobillal"
+  },
+  "syncWithMobileDesc": {
+    "message": "Szinkronizálhatja fiókjait és adatait a mobileszközével. Nyissa meg a Brave mobilalkalmazást, lépjen a \"Beállítások\" lehetőségre, és érintse meg a \"Szinkronizálás a böngészőbővítményből\" lehetőséget"
+  },
+  "syncWithMobileDescNewUsers": {
+    "message": "Ha most nyitja meg először a Brave Mobile alkalmazást, kövesse a telefonján található lépéseket."
+  },
+  "syncWithMobileScanThisCode": {
+    "message": "Vizsgálja meg ezt a kódot a Brave mobilalkalmazással"
+  },
+  "syncWithMobileBeCareful": {
+    "message": "Győződjön meg arról, hogy senki nem látja a képernyőt, amikor beolvassa ezt a kódot"
+  },
+  "syncWithMobileComplete": {
+    "message": "Adatait sikeresen szinkronizáltuk. Élvezze a Brave mobilalkalmazást!"
+  },
+  "terms": {
+    "message": "Használati feltételek"
+  },
+  "testFaucet": {
+    "message": "Teszt csap"
+  },
+  "thisWillCreate": {
+    "message": "Eh új pénztárcát és termelési időszakot hoz létre"
+  },
+  "timeout": {
+    "message": "Időtúllépés"
+  },
+  "tips": {
+    "message": "Adományok"
+  },
+  "to": {
+    "message": "Erre:"
+  },
+  "toAddress": {
+    "message": "Ide: $1",
+    "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
+  },
+  "toWithColon": {
+    "message": "Ide:"
+  },
+  "token": {
+    "message": "Token"
+  },
+  "tokenAlreadyAdded": {
+    "message": "A tokent már hozzáadtuk. "
+  },
+  "tokenContractAddress": {
+    "message": "Token szerződéscím"
+  },
+  "tokenOptions": {
+    "message": "Token opciók"
+  },
+  "tokenSymbol": {
+    "message": "Tokenszimbólum"
+  },
+  "total": {
+    "message": "Összesen"
+  },
+  "transaction": {
+    "message": "tranzakció"
+  },
+  "transactionConfirmed": {
+    "message": "Tranzakció megerősítve $2-on."
+  },
+  "transactionCreated": {
+    "message": "Egy $1 értékű tranzakció létrehozva $2-kor."
+  },
+  "transactionDropped": {
+    "message": "Tranzakció elvetve: $2."
+  },
+  "transactionSubmitted": {
+    "message": "Tranzakció jóváhagyva $1 üzemanyag költséggel $2-kor."
+  },
+  "transactionResubmitted": {
+    "message": "A tranzakció újra beküldve $1 / $2 emelt gázdíjjal."
+  },
+  "transactionUpdated": {
+    "message": "Tranzakció frissítve $2-nál"
+  },
+  "transactionErrored": {
+    "message": "Hiba történt a tranzakció során."
+  },
+  "transactionCancelAttempted": {
+    "message": "Tranzakció visszavonást próbáltak végrehajtani $1 üzemanyagköltséggel $2-kor"
+  },
+  "transactionCancelSuccess": {
+    "message": "Tranzakció sikeresen törölve $2-nál"
+  },
+  "transactionError": {
+    "message": "Tranzakciós hiba.  Kivétel van a szerződés kódjában."
+  },
+  "transactionErrorNoContract": {
+    "message": "Nem-szerződéses címen próbál egy funkciót meghívni."
+  },
+  "transactionFee": {
+    "message": "Tranzakciós költség"
+  },
+  "transactionTime": {
+    "message": "Tranzakció ideje"
+  },
+  "showTransactionTimeDescription": {
+    "message": "Válassza ezt a függőben lévő tranzakció időpont becslést a tevékenység lapon, amíg a Fő Ethereum Hálózaton van. Megjegyzés: a becslések a hálózati viszonyokon alapuló megközelítések."
+  },
+  "transfer": {
+    "message": "Átutalás"
+  },
+  "transferBetweenAccounts": {
+    "message": "Fiókok közötti küldés"
+  },
+  "transferFrom": {
+    "message": "Átvezetés innen: "
+  },
+  "troubleTokenBalances": {
+    "message": "Gondjaink voltak tokenegyenlegeid betöltésével. Megtekintheted őket",
+    "description": "Followed by a link (here) to view token balances"
+  },
+  "trustSiteApprovePermission": {
+    "message": "Bízik ebben a webhelyben? Ennek az engedélynek a megadásával megengedi, hogy $1 visszavonja $2, és automatizálja a tranzakciókat az ön számára.",
+    "description": "$1 is the url requesting permission and $2 is the symbol of the currency that the request is for"
+  },
+  "tryAgain": {
+    "message": "Újra"
+  },
+  "typePassword": {
+    "message": "Írja be a Brave jelszavát"
+  },
+  "unapproved": {
+    "message": "Jóvá nem hagyott"
+  },
+  "alertDisableTooltip": {
+    "message": "Ez a \"Beállítások> Figyelmeztetések\" részben módosítható"
+  },
+  "units": {
+    "message": "egységek"
+  },
+  "unknown": {
+    "message": "Ismeretlen"
+  },
+  "unknownNetwork": {
+    "message": "Ismeretlen magánhálózat"
+  },
+  "unknownQrCode": {
+    "message": "Hiba: nem tudtuk azonosítani a QR-kódot"
+  },
+  "unknownCameraErrorTitle": {
+    "message": "Hoppá! Valami hiba történt..."
+  },
+  "unknownCameraError": {
+    "message": "Hiba történt a kamerához való hozzáférés közben. Kérjük, próbálja újra..."
+  },
+  "unlimited": {
+    "message": "Korlátlan"
+  },
+  "unlock": {
+    "message": "Feloldás"
+  },
+  "unlockMessage": {
+    "message": "A decentralizált hálózat csak önre vár"
+  },
+  "updatedWithDate": {
+    "message": "$1 frissítve"
+  },
+  "urlErrorMsg": {
+    "message": "Az URL-ekhez a megfelelő HTTP/HTTPS előtag szükséges."
+  },
+  "urlExistsErrorMsg": {
+    "message": "Az URL már szerepel a meglévő hálózatok listájában"
+  },
+  "usedByClients": {
+    "message": "Számos különböző ügyfél használja"
+  },
+  "usePhishingDetection": {
+    "message": "Használja az adathalász-észlelést"
+  },
+  "usePhishingDetectionDescription": {
+    "message": "Figyelmeztetés megjelenítése az Ethereum felhasználókat megcélzó adathalász tartományokról"
+  },
+  "userName": {
+    "message": "Felhasználónév"
+  },
+  "viewAccount": {
+    "message": "Fiók megtekintése"
+  },
+  "viewinExplorer": {
+    "message": "Megtekintés Explorerben"
+  },
+  "viewContact": {
+    "message": "Névjegy megtekintése"
+  },
+  "viewOnCustomBlockExplorer": {
+    "message": "Megtekintés $1-kor"
+  },
+  "viewOnEtherscan": {
+    "message": "Nézze meg Etherscanen"
+  },
+  "retryTransaction": {
+    "message": "Próbálja újra a tranzakciót"
+  },
+  "visitWebSite": {
+    "message": "Látogass el weboldalunkra"
+  },
+  "walletSeed": {
+    "message": "Seed kifejezés"
+  },
+  "welcomeBack": {
+    "message": "Üdvözöljük újra!"
+  },
+  "welcome": {
+    "message": "A Brave üdvözli Önt!"
+  },
+  "whatsThis": {
+    "message": "Mi ez?"
+  },
+  "writePhrase": {
+    "message": "Írd le ezt a szókapcsolatot egy darab papírra és őrizd meg egy biztonságos helyen. Ha még nagyobb biztonságra törekszel, írd le több darab papírra, és tartsd őket 2-3 különböző helyen."
+  },
+  "xOfY": {
+    "message": "$1 ebből: $2",
+    "description": "$1 and $2 are intended to be two numbers, where $2 is a total, and $1 is a count towards that total"
+  },
+  "yesLetsTry": {
+    "message": "Igen, próbáljuk ki!"
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": "Ennek a funkciónak a használatához engedélyeznie kell a kamerához való hozzáférést."
+  },
+  "yourSigRequested": {
+    "message": "Szükség van az aláírására"
+  },
+  "youSign": {
+    "message": "Aláírja"
+  },
+  "yourPrivateSeedPhrase": {
+    "message": "Az ön privát seed mondata"
+  },
+  "zeroGasPriceOnSpeedUpError": {
+    "message": "Nulla gázár a gyorsuláshoz"
+  },
+  "decryptRequest": {
+    "message": "Kérelem visszafejtése"
+  },
+  "decrypt": {
+    "message": "Visszafejtés"
+  },
+  "decryptMessageNotice": {
+    "message": "$1 szeretné elolvasni ezt az üzenetet a művelet befejezéséhez",
+    "description": "$1 is the web3 site name"
+  },
+  "decryptMetamask": {
+    "message": "Üzenet visszafejtése"
+  },
+  "decryptCopy": {
+    "message": "Titkosított üzenet másolása"
+  },
+  "decryptInlineError": {
+    "message": "Ezt az üzenetet nem lehet visszafejteni hiba miatt: $1",
+    "description": "$1 is error message"
+  },
+  "provide": {
+    "message": "Megadás"
+  },
+  "encryptionPublicKeyRequest": {
+    "message": "Kérjen titkosítási nyilvános kulcsot"
+  },
+  "encryptionPublicKeyNotice": {
+    "message": "$1 szeretné az ön nyilvános titkosítási kulcsát. A beleegyezéssel ez a webhely képes titkosított üzeneteket összeállítani önnek.",
+    "description": "$1 is the web3 site name"
+  },
+  "backupPhraseFileName": {
+    "message": "Crypto pénztárca titkos biztonsági mentés kifejezés"
+  },
+  "braveRewards": {
+    "message": "Brave jutalmak"
+  },
+  "braveSettings": {
+    "message": "Brave beállítások"
+  },
+  "contractErrorMessage": {
+    "message": "Figyelem: a saját okosszerződésére készülsz elküldeni ezt az eszközt. Valószínűleg nem ezt akarod tenni, mert az eszköz helyreállíthatatlanná válik."
+  },
+  "cryptoWalletsDisclosureOne": {
+    "message": "A Crypto Wallets lehetővé teszi, hogy a Brave-ben kriptovalutával és kapcsolódó eszközökkel dolgozzon. A Crypto Wallets támogatja az Ethereum tokeneket, mint az ETH és a BAT, valamint a gyűjthető tárgyakat, és lehetővé teszi a Ðapps és más intelligens szerződésekkel való munkát. Mindez olyan embereknek szól, akik ismerik az Ethereumot és más blokklánc-rendszereket - vagy lelkesedéssel tanulnak."
+  },
+  "cryptoWalletsDisclosureTwo": {
+    "message": "Csak akkor használd a Crypto Wallets-et, ha elfogadod, hogy egyedül te felelsz a használattal járó kockázatokért, és a Brave Software nem tartozik felelősséggel vagy kötelezettséggel használat következtében keletkező semmilyen veszteségért, beleértve a véletlen vagy következményes veszteségeket."
+  },
+  "cryptoWalletsDisclosureThree": {
+    "message": "Mindez teljesen külön van"
+  },
+  "cryptoWalletsDisclosureFour": {
+    "message": "Ha kedvenc oldalaidat szeretnéd támogatni, inkább oda menj."
+  },
+  "cryptoWalletsTitle": {
+    "message": "Kriptopénztárcák"
+  },
+  "disclosureConfirm": {
+    "message": "Megértettem"
+  },
+  "ledgerCreateSubText": {
+    "message": "Csatlakoztasd Ledger hardverpéntárcádat hogy kommunikálhass dAppekkel és átutalásokat végezhess más csatlakoztatott pénztárcákra."
+  },
+  "metamaskImportSubText": {
+    "message": "Megjegyzés: Crypto Wallets 1.0.26 vagy korábbi verzió importálásakor, a titkos kifejezésed 24 szavas lesz a 12 helyett."
+  },
+  "newLocalWallet": {
+    "message": "Új helyi pénztárca"
+  },
+  "newLocalWalletSubText": {
+    "message": "Készíts egy új Brave helyi tárcát a dApps használatához valamint a kriptó és a kollekciók biztonságos tárolásához. Kereskedj tokenekkel névtelenül és kereskedési díjak nélkül."
+  },
+  "passWarningOne": {
+    "message": "Ez a jelszó védi a személyes kulcsát. Senki sem állíthatja vissza, ha elfelejti azt, még a Brave sem!"
+  },
+  "providerErrorMessage": {
+    "message": "Ez a pénztárca nem az ön alapértelmezett Ethereum Dapp szolgáltatója."
+  },
+  "trezorCreateSubText": {
+    "message": "Csatlakoztasd Trezor hardverpénztárcádat, hogy kommunikálhass dAppekkel, és átutalásokat végezhess más csatlakoztatott pénztárcákra."
+  },
+  "welcomeCryptoWallets": {
+    "message": "Üdvözöl a Brave Crypto Wallets"
+  },
+  "waitingForConfirmation": {
+    "message": "Várakozás a megerősítésre."
+  }
+}

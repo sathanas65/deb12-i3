@@ -1,0 +1,1911 @@
+{
+  "acceptTermsOfUse": {
+    "message": "Esmu izlasījis un piekrītu $1",
+    "description": "$1 is the `terms` message"
+  },
+  "eth_accounts": {
+    "message": "Skatiet atļauto kontu adreses (obligāti)",
+    "description": "The description for the `eth_accounts` permission"
+  },
+  "connectedSites": {
+    "message": "Saistītās vietnes"
+  },
+  "connectedSitesDescription": {
+    "message": "$1 ir savienots ar šīm vietnēm un var apskatīt jūsu konta adresi.",
+    "description": "$1 is the account name"
+  },
+  "connectedSitesEmptyDescription": {
+    "message": "$1 nav savienots ar nevienu vietni.",
+    "description": "$1 is the account name"
+  },
+  "connectedAccountsDescriptionSingular": {
+    "message": "Ar šo vietni ir savienots 1 konts."
+  },
+  "connectedAccountsDescriptionPlural": {
+    "message": "Ar šo vietni ir savienoti $1 konti.",
+    "description": "$1 is the number of accounts"
+  },
+  "connectedAccountsEmptyDescription": {
+    "message": "Brave nav pieslēdzies šai vietnei. Lai pieslēgtos web3 vietnei, atrodiet pieslēgšanās pogu attiecīgajā vietnē."
+  },
+  "currentAccountNotConnected": {
+    "message": "Jūsu pašreizējais konts nav savienots"
+  },
+  "switchToThisAccount": {
+    "message": "Pārslēgties uz šo kontu"
+  },
+  "disconnectThisAccount": {
+    "message": "Atvienot šo kontu"
+  },
+  "permissions": {
+    "message": "Atļaujas"
+  },
+  "showPermissions": {
+    "message": "Rādīt atļaujas"
+  },
+  "authorizedPermissions": {
+    "message": "Jūs esat pilnvarojis šādas atļaujas"
+  },
+  "connectManually": {
+    "message": "Manuāli izveidot savienojumu ar šo vietni"
+  },
+  "disconnect": {
+    "message": "Atvienot"
+  },
+  "disconnectAllAccounts": {
+    "message": "Atvienot visus kontus"
+  },
+  "disconnectPrompt": {
+    "message": "Atvienot $1"
+  },
+  "disconnectAllAccountsConfirmationDescription": {
+    "message": "Vai tiešām vēlaties atvienot? Jūs varat zaudēt vietnes funkcionalitāti."
+  },
+  "dismiss": {
+    "message": "Noraidīt"
+  },
+  "showIncomingTransactions": {
+    "message": "Rādīt ienākošos darījumus"
+  },
+  "showIncomingTransactionsDescription": {
+    "message": "Atlasiet šo, lai izmantotu Etherscan ienākošo darījumu parādīšanai darījumu sarakstā"
+  },
+  "chartOnlyAvailableEth": {
+    "message": "Grafiks pieejams vienīgi Ethereum tīklos."
+  },
+  "connecting": {
+    "message": "Notiek pievienošana..."
+  },
+  "connectWithMetaMask": {
+    "message": "Pieslēgties Brave"
+  },
+  "connectTo": {
+    "message": "Pieslēgties $1",
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to Brave"
+  },
+  "connectToAll": {
+    "message": "Pieslēgties visiem saviem $1",
+    "description": "$1 will be replaced by the translation of connectToAllAccounts"
+  },
+  "connectToAllAccounts": {
+    "message": "kontiem",
+    "description": "will replace $1 in connectToAll, completing the sentence 'connect to all of your accounts', will be text that shows list of accounts on hover"
+  },
+  "connectToMultiple": {
+    "message": "Pieslēgties $1",
+    "description": "$1 will be replaced by the translation of connectToMultipleNumberOfAccounts"
+  },
+  "connectToMultipleNumberOfAccounts": {
+    "message": "$1 konti",
+    "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
+  },
+  "contractInteraction": {
+    "message": "Līguma mijiedarbības"
+  },
+  "reject": {
+    "message": "Noraidīt"
+  },
+  "about": {
+    "message": "Par"
+  },
+  "aboutSettingsDescription": {
+    "message": "Versija, atbalsta centrs un kontaktinformācija"
+  },
+  "acceleratingATransaction": {
+    "message": "* Darījuma paātrināšana, izmantojot augstāku Gas cenu, palielina iespēju, ka tīkls to apstrādās ātrāk, taču tas nav garantēts."
+  },
+  "accessAndSpendNotice": {
+    "message": "$1 var piekļūt un iztērēt līdz šai maksimālajai summai",
+    "description": "$1 is the url of the site requesting ability to spend"
+  },
+  "accessingYourCamera": {
+    "message": "Piekļūst kamerai..."
+  },
+  "account": {
+    "message": "Konts"
+  },
+  "accountDetails": {
+    "message": "Konta informācija"
+  },
+  "accountName": {
+    "message": "Konta nosaukums"
+  },
+  "accountOptions": {
+    "message": "Konta opcijas"
+  },
+  "accountSelectionRequired": {
+    "message": "Jums jāatlasa konts!"
+  },
+  "active": {
+    "message": "Aktīvs"
+  },
+  "activity": {
+    "message": "Aktivitāte"
+  },
+  "activityLog": {
+    "message": "darbību žurnāls"
+  },
+  "addNetwork": {
+    "message": "Pievienot tīklu"
+  },
+  "addRecipient": {
+    "message": "Pievienot saņēmēju"
+  },
+  "advanced": {
+    "message": "Papildu"
+  },
+  "advancedSettingsDescription": {
+    "message": "Piekļūstiet izstrādātāju funkcijām, lejupielādējiet stāvokļu žurnālus, atiestatiet kontu, iestatiet testa tīklus un pielāgotos RPC izsaukumus"
+  },
+  "advancedOptions": {
+    "message": "Papildu opcijas"
+  },
+  "customizeGas": {
+    "message": "Pielāgot"
+  },
+  "addToAddressBook": {
+    "message": "Pievienot adrešu grāmatai"
+  },
+  "addToAddressBookModalPlaceholder": {
+    "message": "piemēram, Džons D."
+  },
+  "addAlias": {
+    "message": "Pievienot segvārdu"
+  },
+  "addToken": {
+    "message": "Pievienot žetonu"
+  },
+  "addTokens": {
+    "message": "Pievienot marķierus"
+  },
+  "addSuggestedTokens": {
+    "message": "Pievienot ieteiktos marķierus"
+  },
+  "addAcquiredTokens": {
+    "message": "Pievienojiet žetonus, kurus esat ieguvis, lietojot Brave"
+  },
+  "alerts": {
+    "message": "Brīdinājumi"
+  },
+  "alertsSettingsDescription": {
+    "message": "Iespējojiet vai atspējojiet katru brīdinājumu"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "Pārlūkošana vietnē, kurā ir atlasīts nesaistīts konts"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "Šis brīdinājums tiek parādīts uznirstošajā logā, pārlūkojot saistīto Web3 vietni, taču pašlaik atlasītais konts nav savienots."
+  },
+  "allowOriginSpendToken": {
+    "message": "Vai atļaut $1 tērēt jūsu $2?",
+    "description": "$1 is the url of the site and $2 is the symbol of the token they are requesting to spend"
+  },
+  "allowThisSiteTo": {
+    "message": "Atļaut šai vietnei:"
+  },
+  "allowExternalExtensionTo": {
+    "message": "Atļaut šim ārējam paplašinājumam:"
+  },
+  "allowWithdrawAndSpend": {
+    "message": "Atļaut $1 izņemt un iztērēt līdz šādai summai:",
+    "description": "The url of the site that requested permission to 'withdraw and spend'"
+  },
+  "amount": {
+    "message": "Apjoms"
+  },
+  "amountWithColon": {
+    "message": "Summa:"
+  },
+  "appDescription": {
+    "message": "Ethereum maks pārlūkā",
+    "description": "The description of the application"
+  },
+  "appName": {
+    "message": "Brave Software",
+    "description": "The name of the application"
+  },
+  "approve": {
+    "message": "Apstipriniet tēriņu ierobežojumu"
+  },
+  "approveSpendLimit": {
+    "message": "Apstipriniet $1 tēriņu ierobežojumu",
+    "description": "The token symbol that is being approved"
+  },
+  "approved": {
+    "message": "Apstiprināts"
+  },
+  "asset": {
+    "message": "Aktīvs"
+  },
+  "maker": {
+    "message": "Veidotājs"
+  },
+  "taker": {
+    "message": "Ņēmējs"
+  },
+  "slippage": {
+    "message": "Novirzes pielaide"
+  },
+  "assets": {
+    "message": "Aktīvi"
+  },
+  "attemptingConnect": {
+    "message": "Mēģina izveidot savienojumu ar bloku ķēdi."
+  },
+  "attemptToCancel": {
+    "message": "Vai mēģināt atcelt?"
+  },
+  "attemptToCancelDescription": {
+    "message": "Šī mēģinājuma iesniegšana negarantē sākotnējā darījuma atcelšanu. Ja atcelšanas mēģinājums izdosies, no jums tiks pieprasīta iepriekš norādītā darījuma nodeva."
+  },
+  "attributions": {
+    "message": "Atribūti"
+  },
+  "autoLockTimeLimit": {
+    "message": "Automātiskās bloķēšanas taimeris (minūtēs)"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "Iestatiet dīkstāves laiku minūtēs, pēc kura Brave tiks bloķēts."
+  },
+  "average": {
+    "message": "Vidēji"
+  },
+  "back": {
+    "message": "Atpakaļ"
+  },
+  "backToAll": {
+    "message": "Atgriezties pie visiem"
+  },
+  "backupApprovalNotice": {
+    "message": "Dublējiet savu slepeno atgūšanas kodu, lai maks un līdzekļi atrastos drošībā."
+  },
+  "backupApprovalInfo": {
+    "message": "Šis slepenais kods ir nepieciešams, lai atgūtu maku, ja pazaudēsiet ierīci, aizmirsīsiet paroli, pārinstalēsiet Brave vai vēlēsieties piekļūt savam makam citā ierīcē."
+  },
+  "backupNow": {
+    "message": "Dublēt tagad"
+  },
+  "balance": {
+    "message": "Bilance"
+  },
+  "balanceOutdated": {
+    "message": "Bilance var nebūt aktuāla"
+  },
+  "basic": {
+    "message": "Pamata"
+  },
+  "blockExplorerUrl": {
+    "message": "Bloķēt Explorer"
+  },
+  "blockExplorerView": {
+    "message": "Skatīt kontu $1",
+    "description": "$1 replaced by URL for custom block explorer"
+  },
+  "blockiesIdenticon": {
+    "message": "Izmantot blok indentifikatoru"
+  },
+  "nonceField": {
+    "message": "Pielāgojiet darījuma nonce"
+  },
+  "nonceFieldHeading": {
+    "message": "Pielāgots nonce"
+  },
+  "nonceFieldDescription": {
+    "message": "Ieslēdziet to, lai apstiprinājumu ekrānos mainītu nonce (darījuma numuru). Šī ir sarežģīta funkcija, izmantojiet to piesardzīgi."
+  },
+  "browserNotSupported": {
+    "message": "Jūsu pārlūkprogramma netiek atbalstīta..."
+  },
+  "builtInCalifornia": {
+    "message": "Brave ir izstrādāts un izveidots Kalifornijā."
+  },
+  "buyWithWyre": {
+    "message": "Pirkt ETH ar Wyre"
+  },
+  "buyWithWyreDescription": {
+    "message": "Wyre ļauj izmantot debetkarti, lai noguldītu ETH tieši savā Brave kontā."
+  },
+  "buyCoinSwitch": {
+    "message": "Pirkt CoinSwitch"
+  },
+  "buyCoinSwitchExplainer": {
+    "message": "CoinSwitch ir vienots galamērķis vairāk nekā 300 kriptovalūtu maiņai, izmantojot labāko kursu."
+  },
+  "bytes": {
+    "message": "Baiti"
+  },
+  "off": {
+    "message": "Izsl."
+  },
+  "ok": {
+    "message": "Labi"
+  },
+  "on": {
+    "message": "Iesl."
+  },
+  "optionalBlockExplorerUrl": {
+    "message": "Bloķēt Explorer URL (pēc izvēles)"
+  },
+  "cancel": {
+    "message": "Atcelt"
+  },
+  "cancelAttempt": {
+    "message": "Atcelt mēģinājumu"
+  },
+  "cancellationGasFee": {
+    "message": "Atcelšanas maksājums par Gas"
+  },
+  "cancelled": {
+    "message": "Atcelts"
+  },
+  "chainId": {
+    "message": "Ķēdes ID"
+  },
+  "clickToRevealSeed": {
+    "message": "Klikšķiniet šeit, lai skatītu slepenos vārdus"
+  },
+  "close": {
+    "message": "Aizvērt"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": "Lai izveidotu savienojumu ar aparatūras maku, pārlūkā Google Chrome ir jāizmanto Brave."
+  },
+  "confirm": {
+    "message": "Apstiprināt"
+  },
+  "confirmed": {
+    "message": "Apstiprināts"
+  },
+  "confirmPassword": {
+    "message": "Apstiprināt paroli"
+  },
+  "confirmSecretBackupPhrase": {
+    "message": "Apstipriniet savu slepeno rezerves frāzi"
+  },
+  "congratulations": {
+    "message": "Apsveicam"
+  },
+  "connectAccountOrCreate": {
+    "message": "Pievienot kontu vai izveidot jaunu"
+  },
+  "connectHardwareWallet": {
+    "message": "Pieslēgt aparatūras maku"
+  },
+  "connect": {
+    "message": "Pievienošana"
+  },
+  "connectingTo": {
+    "message": "Pieslēdzas $1"
+  },
+  "connectingToKovan": {
+    "message": "Savienojas ar Kovan testa tīklu"
+  },
+  "connectingToMainnet": {
+    "message": "Savienojas ar galveno Ethereum tīklu"
+  },
+  "connectingToRopsten": {
+    "message": "Pieslēdzas Ropsten testa tīklam"
+  },
+  "connectingToRinkeby": {
+    "message": "Pieslēdzas Rinkeby testa tīklam"
+  },
+  "connectingToLocalhost": {
+    "message": "Savienojas ar vietējo resursdatoru 8545"
+  },
+  "connectingToGoerli": {
+    "message": "Pieslēdzas Goerli testa tīklam"
+  },
+  "contacts": {
+    "message": "Kontakti"
+  },
+  "contactsSettingsDescription": {
+    "message": "Pievienojiet, rediģējiet, dzēsiet un pārvaldiet kontaktpersonas"
+  },
+  "contactUs": {
+    "message": "Sazinies ar mums!"
+  },
+  "continueToSwap": {
+    "message": "Pāriet uz mijmaiņu"
+  },
+  "continueToWyre": {
+    "message": "Pāriet uz Wyre"
+  },
+  "continueToCoinSwitch": {
+    "message": "Iet uz CoinSwitch"
+  },
+  "contractDeployment": {
+    "message": "Līgumu pielietošana"
+  },
+  "copiedExclamation": {
+    "message": "Nokopēts!"
+  },
+  "copyAddress": {
+    "message": "Iekopēt adresi starpliktuvē"
+  },
+  "copyTransactionId": {
+    "message": "Kopēt darījuma ID"
+  },
+  "copiedTransactionId": {
+    "message": "Nokopētais darījuma ID"
+  },
+  "copyToClipboard": {
+    "message": "Kopēt starpliktuvē"
+  },
+  "copyPrivateKey": {
+    "message": "Šī ir jūsu privātā atslēga (noklikšķiniet, lai nokopētu)"
+  },
+  "create": {
+    "message": "Izveidot"
+  },
+  "createAccount": {
+    "message": "Izveidot kontu"
+  },
+  "createAWallet": {
+    "message": "Izveidot maku"
+  },
+  "createPassword": {
+    "message": "Izveidot paroli"
+  },
+  "currencyConversion": {
+    "message": "Valūtas konvertācija"
+  },
+  "currentExtension": {
+    "message": "Pašreizējā paplašinājuma lapa"
+  },
+  "currentLanguage": {
+    "message": "Pašreizējā valodā"
+  },
+  "customGas": {
+    "message": "Pielāgot Gas"
+  },
+  "customGasSubTitle": {
+    "message": "Nodevas palielināšana var saīsināt apstrādes laiku, bet ne garantēti."
+  },
+  "customToken": {
+    "message": "Pielāgots marķieris"
+  },
+  "customRPC": {
+    "message": "Pielāgots RPC izsaukums"
+  },
+  "customSpendLimit": {
+    "message": "Pielāgots tēriņu ierobežojums"
+  },
+  "dataBackupFoundInfo": {
+    "message": "Daļa jūsu konta datu ir dublēta iepriekšējās Brave instalēšanas laikā. Tas varētu ietvert jūsu iestatījumus, kontaktpersonas un žetonus. Vai vēlaties atjaunot šos datus?"
+  },
+  "decimalsMustZerotoTen": {
+    "message": "Daļskaitļiem jābūt diapazonā no 0 līdz 36."
+  },
+  "decimal": {
+    "message": "Decimāldaļu precizitāte"
+  },
+  "defaultNetwork": {
+    "message": "Galvenais Ether darījumu tīkls ir Main Net."
+  },
+  "delete": {
+    "message": "Dzēst"
+  },
+  "deleteAccount": {
+    "message": "Dzēst kontu"
+  },
+  "deposit": {
+    "message": "Iemaksa"
+  },
+  "depositEther": {
+    "message": "Noguldīt Ether"
+  },
+  "details": {
+    "message": "Informācija"
+  },
+  "directDepositEther": {
+    "message": "Tiešā Ether iemaksa"
+  },
+  "directDepositEtherExplainer": {
+    "message": "Ja jums jau ir Ether, tad visātrāk Ether savā makā varat saņemt ar tiešo iemaksu."
+  },
+  "done": {
+    "message": "Pabeigts"
+  },
+  "dontShowThisAgain": {
+    "message": "Vairs nerādīt"
+  },
+  "downloadGoogleChrome": {
+    "message": "Lejupielādēt ar Google Chrome"
+  },
+  "downloadSecretBackup": {
+    "message": "Lejupielādējiet šo slepeno atgūšanas frāzi un glabājiet to drošībā, šifrētā ārējā cietajā diskā vai datu nesējā."
+  },
+  "downloadStateLogs": {
+    "message": "Lejupielādēt stāvokļa žurnālus"
+  },
+  "dontHaveAHardwareWallet": {
+    "message": "Nav aparatūras maka?"
+  },
+  "dropped": {
+    "message": "Atmests"
+  },
+  "edit": {
+    "message": "Labot"
+  },
+  "editContact": {
+    "message": "Rediģēt līgumu"
+  },
+  "editPermission": {
+    "message": "Rediģēt atļauju"
+  },
+  "endOfFlowMessage1": {
+    "message": "Jūs izgājāt pārbaudi — glabājiet atkopšanas frāzi drošībā, tā ir jūsu atbildība!"
+  },
+  "endOfFlowMessage2": {
+    "message": "Drošas glabāšanas ieteikumi"
+  },
+  "endOfFlowMessage3": {
+    "message": "Saglabājiet rezerves kopiju vairākās vietās."
+  },
+  "endOfFlowMessage4": {
+    "message": "Nekad neizpaudiet šo frāzi citiem cilvēkiem."
+  },
+  "endOfFlowMessage5": {
+    "message": "Uzmanieties no pikšķerēšanas! Brave nekad pats no sevis nepieprasīs jūsu sēklas frāzi."
+  },
+  "endOfFlowMessage6": {
+    "message": "Ja nepieciešams atkārtoti dublēt atkopšanas frāzi, varat to atrast, dodoties uz Iestatījumi -> Drošība."
+  },
+  "endOfFlowMessage7": {
+    "message": "Ja jums rodas jautājumi vai pamanāt kaut ko aizdomīgu, apmeklējiet mūsu maku"
+  },
+  "endOfFlowMessage8": {
+    "message": "Brave nevar atgūt jūsu atkopšanas frāzi."
+  },
+  "endOfFlowMessage9": {
+    "message": "Uzzināt vairāk."
+  },
+  "endOfFlowMessage10": {
+    "message": "Pabeigts"
+  },
+  "endOfFlowMessage11": {
+    "message": "atbalsta forums."
+  },
+  "externalExtension": {
+    "message": "Ārējais paplašinājums"
+  },
+  "onboardingReturnNotice": {
+    "message": "\"$1\" aizvērs šo cilni un atgriezīsies pie $2",
+    "description": "Return the user to the site that initiated onboarding"
+  },
+  "ensRegistrationError": {
+    "message": "Kļūda ENS vārda reģistrācijā"
+  },
+  "ensNotFoundOnCurrentNetwork": {
+    "message": "Šajā tīklā ENS nosaukums nav atrasts. Pamēģiniet pārslēgties uz galveno Ethereum tīklu."
+  },
+  "enterAnAlias": {
+    "message": "Ievadiet segvārdu"
+  },
+  "enterMaxSpendLimit": {
+    "message": "Ievadiet maksimālo tēriņu limitu"
+  },
+  "enterPassword": {
+    "message": "Ievadiet paroli"
+  },
+  "enterPasswordContinue": {
+    "message": "Ievadiet paroli, lai turpinātu"
+  },
+  "errorCode": {
+    "message": "Kods: $1",
+    "description": "Displayed error code for debugging purposes. $1 is the error code"
+  },
+  "errorDetails": {
+    "message": "Informācija par kļūdu",
+    "description": "Title for collapsible section that displays error details for debugging purposes"
+  },
+  "errorMessage": {
+    "message": "Ziņojums: $1",
+    "description": "Displayed error message for debugging purposes. $1 is the error message"
+  },
+  "errorName": {
+    "message": "Kods: $1",
+    "description": "Displayed error name for debugging purposes. $1 is the error name"
+  },
+  "errorPageTitle": {
+    "message": "Brave radās kļūda",
+    "description": "Title of generic error page"
+  },
+  "errorPageMessage": {
+    "message": "Mēģiniet vēlreiz, atkārtoti ielādējot lapu, vai sazinieties ar atbalsta dienestu pa e-pastu support@brave.com",
+    "description": "Message displayed on generic error page in the fullscreen or notification UI"
+  },
+  "errorPagePopupMessage": {
+    "message": "Mēģiniet vēlreiz, aizverot un atkārtoti atverot uznirstošo logu, vai sazinieties ar atbalsta dienestu pa e-pastu support@brave.com",
+    "description": "Message displayed on generic error page in the popup UI"
+  },
+  "errorStack": {
+    "message": "Saraksts:",
+    "description": "Title for error stack, which is displayed for debugging purposes"
+  },
+  "ethereumPublicAddress": {
+    "message": "Ethereum publiskā adrese"
+  },
+  "etherscanView": {
+    "message": "Skatīt kontu ar Etherscan"
+  },
+  "estimatedProcessingTimes": {
+    "message": "Aprēķinātais apstrādes laiks"
+  },
+  "estimatedNetworkFee": {
+    "message": "Aprēķinātā tīkla maksa"
+  },
+  "expandView": {
+    "message": "Izvērst skatu"
+  },
+  "exportPrivateKey": {
+    "message": "Eksportēt privāto atslēgu"
+  },
+  "failed": {
+    "message": "Neizdevās"
+  },
+  "failureMessage": {
+    "message": "Kaut kas nogāja greizi, mums neizdevās pabeigt darbību"
+  },
+  "fast": {
+    "message": "Ātrs"
+  },
+  "faster": {
+    "message": "Ātrāk"
+  },
+  "feeAssociatedRequest": {
+    "message": "Šim pieprasījumam piemērojama maksa."
+  },
+  "fiat": {
+    "message": "Fiat",
+    "description": "Exchange type"
+  },
+  "fileImportFail": {
+    "message": "Vai faila importēšanas iespēja nedarbojas? Klikšķiniet šeit!",
+    "description": "Helps user import their account from a JSON file"
+  },
+  "forgetDevice": {
+    "message": "Aizmirst šo ierīci"
+  },
+  "from": {
+    "message": "No"
+  },
+  "fromAddress": {
+    "message": "No: $1",
+    "description": "$1 is the address to include in the From label. It is typically shortened first using shortenAddress"
+  },
+  "functionApprove": {
+    "message": "Funkcija: Apstiprināt"
+  },
+  "functionType": {
+    "message": "Funkcijas veids"
+  },
+  "gasLimit": {
+    "message": "Gas robežvērtība"
+  },
+  "gasLimitInfoModalContent": {
+    "message": "Gas robežvērtība ir maksimālais Gas vienību skaits, ko vēlaties tērēt."
+  },
+  "gasLimitTooLow": {
+    "message": "Minimālajai Gas robežvērtībai jābūt vismaz 21000"
+  },
+  "gasUsed": {
+    "message": "Izlietotie Gas"
+  },
+  "gasPrice": {
+    "message": "Gas cena (GWEI)"
+  },
+  "gasPriceExtremelyLow": {
+    "message": "Ārkārtīgi zema Gas cena"
+  },
+  "gasPriceInfoModalContent": {
+    "message": "Gas cena norāda Ether summu, ko vēlaties maksāt par katru Gas vienību."
+  },
+  "gasPriceNoDenom": {
+    "message": "Gas cena"
+  },
+  "gdprMessage": {
+    "message": "Šie dati ir apkopoti, un tāpēc tie ir anonīmi Vispārīgās datu aizsardzības regulas (ES) 2016/679 vajadzībām. Lai iegūtu papildinformāciju par mūsu privātuma praksi, lūdzu, skatiet mūsu $1.",
+    "description": "$1 refers to the gdprMessagePrivacyPolicy message, the translation of which is meant to be used exclusively in the context of gdprMessage"
+  },
+  "gdprMessagePrivacyPolicy": {
+    "message": "Privātuma politika šeit",
+    "description": "this translation is intended to be exclusively used as the replacement for the $1 in the gdprMessage translation"
+  },
+  "general": {
+    "message": "Vispārīgi"
+  },
+  "generalSettingsDescription": {
+    "message": "Valūtas konvertēšana, galvenā valūta, valoda, bloku identifikators"
+  },
+  "getEther": {
+    "message": "Saņemt Ether"
+  },
+  "getEtherFromFaucet": {
+    "message": "Vai vēlaties $1 iegūt Ether no krāna?",
+    "description": "Displays network name for Ether faucet"
+  },
+  "getHelp": {
+    "message": "Saņemt palīdzību."
+  },
+  "getStarted": {
+    "message": "Sākt darbu"
+  },
+  "happyToSeeYou": {
+    "message": "Priecājamies jūs redzēt!"
+  },
+  "hardware": {
+    "message": "Aparatūra"
+  },
+  "hardwareWalletConnected": {
+    "message": "Aparatūras maks pieslēgts"
+  },
+  "hardwareWallets": {
+    "message": "Pieslēdziet aparatūras maku"
+  },
+  "hardwareWalletsMsg": {
+    "message": "Atlasiet aparatūras maku, kuru vēlaties izmantot ar Brave"
+  },
+  "havingTroubleConnecting": {
+    "message": "Neizdodas pieslēgties?"
+  },
+  "here": {
+    "message": "šeit",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
+  },
+  "hexData": {
+    "message": "Hex dati"
+  },
+  "hide": {
+    "message": "Slēpt"
+  },
+  "hideTokenSymbol": {
+    "message": "Paslēpt $1",
+    "description": "$1 is the symbol for a token (e.g. 'DAI')"
+  },
+  "hideTokenPrompt": {
+    "message": "Paslēpt žetonu?"
+  },
+  "history": {
+    "message": "Vēsture"
+  },
+  "home": {
+    "message": "Sākums"
+  },
+  "import": {
+    "message": "Importēt",
+    "description": "Button to import an account from a selected file"
+  },
+  "importAccount": {
+    "message": "Importēt kontu"
+  },
+  "importAccountMsg": {
+    "message": "Importētie konti netiks saistīti ar sākotnēji izveidoto Brave konta atkopšanas frāzi. Uzziniet vairāk par importētajiem kontiem"
+  },
+  "importAccountSeedPhrase": {
+    "message": "Importēt kontu ar atkopšanas frāzi"
+  },
+  "importWallet": {
+    "message": "Importēt maku"
+  },
+  "importYourExisting": {
+    "message": "Importējiet esošo maku, izmantojot 12 vai 24 vārdu atkopšanas frāzi"
+  },
+  "imported": {
+    "message": "Importēts",
+    "description": "status showing that an account has been fully loaded into the keyring"
+  },
+  "importUsingSeed": {
+    "message": "Importēt, izmantojot konta atkopšanas frāzi"
+  },
+  "infoHelp": {
+    "message": "Informācija un palīdzība"
+  },
+  "initialTransactionConfirmed": {
+    "message": "Jūsu sākotnējais darījums apstiprināts tīklā. Spiediet OK, lai atgrieztos."
+  },
+  "insufficientBalance": {
+    "message": "Nepietiekama bilance."
+  },
+  "insufficientFunds": {
+    "message": "Nepietiek līdzekļu."
+  },
+  "insufficientTokens": {
+    "message": "Nepietiek marķieru."
+  },
+  "insufficientFundsGas": {
+    "message": "Nepietiek līdzekļu Gas."
+  },
+  "balanceFetchError": {
+    "message": "Bilances izgūšanas kļūda."
+  },
+  "invalidAddress": {
+    "message": "Nederīga adrese"
+  },
+  "invalidAddressRecipient": {
+    "message": "Nederīga saņēmēja adrese"
+  },
+  "knownAddressRecipient": {
+    "message": "Zināmā līguma adrese."
+  },
+  "knownTokenWarning": {
+    "message": "Šī darbība rediģēs jūsu makā jau uzskaitītos žetonus, kurus var izmantot jūsu pikšķerēšanai. Apstipriniet tikai tad, ja esat pārliecināts, ka vēlaties mainīt to, ko šie žetoni apzīmē."
+  },
+  "reusedTokenNameWarning": {
+    "message": "Žetons šeit atkārtoti izmanto cita novērotā žetona simbolu, tas var mulsināt vai maldināt."
+  },
+  "invalidAddressRecipientNotEthNetwork": {
+    "message": "Nav ETH tīkls, iestatīti mazie burti"
+  },
+  "invalidCustomNetworkAlertContent1": {
+    "message": "Pielāgotajam tīklam '$1' trūkst ķēdes ID.",
+    "description": "$1 is the name/identifier of the network."
+  },
+  "invalidCustomNetworkAlertContent2": {
+    "message": "Lai pasargātu jūs no ļaunprātīgiem vai kļūdainiem tīkla nodrošinātājiem, ķēdes ID tagad ir nepieciešami visiem pielāgotajiem tīkliem."
+  },
+  "invalidCustomNetworkAlertContent3": {
+    "message": "Pārejiet uz sadaļu Iestatījumi > Tīkls un ievadiet ķēdes ID. Populārāko tīklu ķēdes ID var atrast $1.",
+    "description": "$1 is a link to https://chainid.network"
+  },
+  "invalidCustomNetworkAlertTitle": {
+    "message": "Nederīgs pielāgotais tīkls"
+  },
+  "invalidHexNumber": {
+    "message": "Nederīgs heksadecimālais skaitlis."
+  },
+  "invalidHexNumberLeadingZeros": {
+    "message": "Nederīgs heksadecimālais skaitlis. Noņemiet visas nulles pirms skaitļa."
+  },
+  "invalidRPC": {
+    "message": "Nederīgs RPC URL"
+  },
+  "invalidBlockExplorerURL": {
+    "message": "Nederīgs bloku pārlūka URL"
+  },
+  "invalidSeedPhrase": {
+    "message": "Nederīga atkopšanas frāze"
+  },
+  "ipfsGateway": {
+    "message": "IPFS vārteja"
+  },
+  "ipfsGatewayDescription": {
+    "message": "Ievadiet IPFS CID vārtejas URL, ko izmantot ENS satura atrašanai."
+  },
+  "invalidIpfsGateway": {
+    "message": "Nederīga IPFS vārteja: Vērtībai ir jābūt derīgam URL"
+  },
+  "invalidNumber": {
+    "message": "Nederīgs skaitlis. Ievadiet decimālskaitli vai heksadecimālu skaitli."
+  },
+  "invalidNumberLeadingZeros": {
+    "message": "Nederīgs skaitlis. Noņemiet visas nulles pirms skaitļa."
+  },
+  "forbiddenIpfsGateway": {
+    "message": "Aizliegta IPFS vārteja: Lūdzu, norādiet CID vārteju"
+  },
+  "jsonFile": {
+    "message": "JSON datne",
+    "description": "format for importing an account"
+  },
+  "kovan": {
+    "message": "Kovan testa tīkls"
+  },
+  "max": {
+    "message": "Maks."
+  },
+  "lastConnected": {
+    "message": "Pēdējais savienojums"
+  },
+  "learnMore": {
+    "message": "Uzzināt vairāk"
+  },
+  "ledgerAccountRestriction": {
+    "message": "Jums jāizmanto pēdējais konts pirms varat pievienot jaunu."
+  },
+  "letsGoSetUp": {
+    "message": "Jā, sāksim iestatīšanu!"
+  },
+  "likeToAddTokens": {
+    "message": "Vai vēlaties pievienot šos marķierus?"
+  },
+  "links": {
+    "message": "Saites"
+  },
+  "liveGasPricePredictions": {
+    "message": "Reāllaika Gas cenu prognozes"
+  },
+  "loading": {
+    "message": "Notiek ielāde..."
+  },
+  "loadingTokens": {
+    "message": "Ielādē marķierus..."
+  },
+  "loadMore": {
+    "message": "Ielādēt vairāk"
+  },
+  "localhost": {
+    "message": "Resursdators 8545"
+  },
+  "lock": {
+    "message": "Bloķēt"
+  },
+  "lockTimeTooGreat": {
+    "message": "Bloķēšanas laiks ir pārāk liels"
+  },
+  "mainnet": {
+    "message": "Galvenais Ethereum tīkls"
+  },
+  "availableOnMainnetRopsten": {
+    "message": "Pieejams tikai Mainnet un Ropsten"
+  },
+  "memorizePhrase": {
+    "message": "Iegaumējiet šo frāzi."
+  },
+  "memo": {
+    "message": "atgādinājums"
+  },
+  "message": {
+    "message": "Ziņojums"
+  },
+  "metaMaskConnectStatusParagraphOne": {
+    "message": "Tagad jums ir lielāka kontrole pār kontu savienojumiem ar Brave."
+  },
+  "metaMaskConnectStatusParagraphTwo": {
+    "message": "Savienojuma statusa poga parāda, vai apmeklētā vietne ir savienota ar jūsu pašlaik atlasīto kontu."
+  },
+  "metaMaskConnectStatusParagraphThree": {
+    "message": "Nospiediet to, lai pārvaldītu saistītos kontus."
+  },
+  "metamaskDescription": {
+    "message": "Veido savienojumu ar Ethereum un decentralizēto tīmekli."
+  },
+  "metamaskVersion": {
+    "message": "Brave versija"
+  },
+  "mobileSyncText": {
+    "message": "Lūdzu, ievadiet paroli, lai apstiprinātu, ka tas esat jūs."
+  },
+  "myAccounts": {
+    "message": "Mani konti"
+  },
+  "myWalletAccounts": {
+    "message": "Mana maka konti"
+  },
+  "myWalletAccountsDescription": {
+    "message": "Visi jūsu ar Brave izveidotie konti tiks automātiski pievienoti šai sadaļai."
+  },
+  "mustSelectOne": {
+    "message": "Jāatlasa vismaz 1 marķieris."
+  },
+  "needEtherInWallet": {
+    "message": "Lai darbotos ar decentralizētām lietojumprogrammām, izmantojot Brave, jūsu makā nepieciešami Ether."
+  },
+  "needImportFile": {
+    "message": "Jums jāatlasa fails, ko importēt",
+    "description": "User is important an account and needs to add a file to continue"
+  },
+  "negativeETH": {
+    "message": "Nav iespējams nosūtīt negatīvu ETH summu."
+  },
+  "networkName": {
+    "message": "Tīkla nosaukums"
+  },
+  "networks": {
+    "message": "Tīkli"
+  },
+  "networkSettingsChainIdDescription": {
+    "message": "Ķēdes ID izmanto darījumu parakstīšanai. Ievadiet decimālskaitli vai heksadecimālo skaitli, kas sākas ar “0x”."
+  },
+  "networkSettingsDescription": {
+    "message": "Pievienot un rediģēt pielāgotos RPC tīklus"
+  },
+  "nevermind": {
+    "message": "Nav svarīgi"
+  },
+  "newAccount": {
+    "message": "Jauns konts"
+  },
+  "newAccountDetectedDialogMessage": {
+    "message": "Konstatēta jauna adrese. Klikšķiniet šeit, lai pievienotu to adrešu grāmatai."
+  },
+  "newAccountNumberName": {
+    "message": "Konts $1",
+    "description": "Default name of next account to be created on create account screen"
+  },
+  "newContact": {
+    "message": "Jauna kontaktpersona"
+  },
+  "newContract": {
+    "message": "Jauns līgums"
+  },
+  "newPassword": {
+    "message": "Jauna parole (vism. 8 rakstzīmes)"
+  },
+  "newNetwork": {
+    "message": "Jauns tīkls"
+  },
+  "newToMetaMask": {
+    "message": "Vēl nepazīstat Brave?"
+  },
+  "noAlreadyHaveSeed": {
+    "message": "Nē, man jau ir atkopšanas frāze"
+  },
+  "protectYourKeys": {
+    "message": "Sargājiet savas atslēgas!"
+  },
+  "protectYourKeysMessage1": {
+    "message": "Sargājiet savu sēklas frāzi – ir ziņots par vietnēm, kuras mēģina atdarināt Brave. Brave nekad neprasīs jūsu atkopšanas frāzi!"
+  },
+  "protectYourKeysMessage2": {
+    "message": "Glabājiet frāzi drošībā. Ja redzat kaut ko aizdomīgu vai neesat pārliecināts par kādu vietni, rakstiet uz support@brave.com"
+  },
+  "rpcUrl": {
+    "message": "Jauns RPC URL"
+  },
+  "onlyConnectTrust": {
+    "message": "Pieslēdzieties tikai vietnēm, kurām uzticaties."
+  },
+  "onlyAddTrustedNetworks": {
+    "message": "Ļaunprātīgs Ethereum tīkla nodrošinātājs var melot par blokķēdes stāvokli un reģistrēt jūsu tīkla darbību. Pievienojiet tikai uzticamus tīklus."
+  },
+  "optionalSymbol": {
+    "message": "Simbols (neobligāti)"
+  },
+  "newTotal": {
+    "message": "Jaunā kopsumma"
+  },
+  "newTransactionFee": {
+    "message": "Jauna darījuma nodeva"
+  },
+  "next": {
+    "message": "Nākamais"
+  },
+  "nextNonceWarning": {
+    "message": "Nonce ir lielāks par ieteikto $1",
+    "description": "The next nonce according to Brave's internal logic"
+  },
+  "noAddressForName": {
+    "message": "Šim vārdam nav iestatīta adrese."
+  },
+  "noConversionRateAvailable": {
+    "message": "Konversijas kurss nav pieejams"
+  },
+  "noTransactions": {
+    "message": "Jums nav neviena darījuma."
+  },
+  "noThanks": {
+    "message": "Nē, paldies!"
+  },
+  "notCurrentAccount": {
+    "message": "Vai tas ir īstais konts? Tas atšķiras no pašlaik makā iestatītā konta"
+  },
+  "notEnoughGas": {
+    "message": "Nepietiek Gas"
+  },
+  "noWebcamFoundTitle": {
+    "message": "Tīmekļa kamera nav atrasta"
+  },
+  "noWebcamFound": {
+    "message": "Jūsu datora tīmekļa kamera netika atrasta. Lūdzu, mēģiniet vēlreiz."
+  },
+  "ofTextNofM": {
+    "message": "no"
+  },
+  "orderOneHere": {
+    "message": "Pasūtiet Trezor vai Ledger un glabājiet savus līdzekļus aukstajā krātuvē"
+  },
+  "origin": {
+    "message": "Avots"
+  },
+  "parameters": {
+    "message": "Parametri"
+  },
+  "participateInMetaMetrics": {
+    "message": "Piedalieties MetaMetrics"
+  },
+  "participateInMetaMetricsDescription": {
+    "message": "Piedalieties MetaMetrics, lai palīdzētu mums uzlabot Brave"
+  },
+  "password": {
+    "message": "Parole"
+  },
+  "passwordsDontMatch": {
+    "message": "Paroles nesakrīt"
+  },
+  "passwordNotLongEnough": {
+    "message": "Parole nav pietiekami gara"
+  },
+  "pastePrivateKey": {
+    "message": "Ielīmējiet privātās atslēgas rindu šeit:",
+    "description": "For importing an account from a private key"
+  },
+  "pending": {
+    "message": "Gaida"
+  },
+  "permissionCheckedIconDescription": {
+    "message": "Jūs esat apstiprinājis šo atļauju"
+  },
+  "permissionUncheckedIconDescription": {
+    "message": "Jūs neesat apstiprinājis šo atļauju"
+  },
+  "personalAddressDetected": {
+    "message": "Konstatēta personīgā adrese. Ievadiet marķiera līguma adresi."
+  },
+  "plusXMore": {
+    "message": "vēl $1",
+    "description": "$1 is a number of additional but unshown items in a list- this message will be shown in place of those items"
+  },
+  "prev": {
+    "message": "Iepr."
+  },
+  "primaryCurrencySetting": {
+    "message": "Primārā valūta"
+  },
+  "primaryCurrencySettingDescription": {
+    "message": "Atlasīt vietējo, lai piešķirtu attēlotajām vērtībām prioritātes ķēdes vietējā vērtībā (piemēram, ETH). Atlasiet Fiat, lai piešķirtu augstāku prioritāti vērtībām jūsu atlasītajā fiat valūtā."
+  },
+  "privacyMsg": {
+    "message": "Privātuma politika"
+  },
+  "privateKey": {
+    "message": "Privātā atslēga",
+    "description": "select this type of file to use to import an account"
+  },
+  "privateKeyWarning": {
+    "message": "Brīdinājums! Nekad neizpaudiet šo atslēgu. Ikviens, kuram ir Jūsu privātās atslēgas, var nozagt jebkuru jūsu kontā esošo aktīvu."
+  },
+  "privateNetwork": {
+    "message": "Privātais tīkls"
+  },
+  "proposedApprovalLimit": {
+    "message": "Ieteiktais apstiprinājumu limits"
+  },
+  "queue": {
+    "message": "Rinda"
+  },
+  "queued": {
+    "message": "Rindā"
+  },
+  "readdToken": {
+    "message": "Jūs varat šo marķieri iestatīt atpakaļ nākotnē, konta opciju izvēlnē atverot \"Pievienot marķieri\"."
+  },
+  "recents": {
+    "message": "Nesenie"
+  },
+  "receive": {
+    "message": "Saņemt"
+  },
+  "recipientAddress": {
+    "message": "Saņēmēja adrese"
+  },
+  "recipientAddressPlaceholder": {
+    "message": "Meklēšana, publiskā adrese (0x) vai domēns"
+  },
+  "rejectAll": {
+    "message": "Noraidīt visus"
+  },
+  "rejectTxsN": {
+    "message": "Noraidīt $1 darījumus"
+  },
+  "rejectTxsDescription": {
+    "message": "Jūs gatavojaties noraidīt $1 darījumus."
+  },
+  "rejected": {
+    "message": "Noraidīts"
+  },
+  "reset": {
+    "message": "Atiestatīt"
+  },
+  "resetAccount": {
+    "message": "Atiestatīt kontu"
+  },
+  "resetAccountDescription": {
+    "message": "Atiestatot kontu, tiks notīrīta darījumu vēsture. Tas nemainīs atlikumu jūsu kontos vai neliks atkārtoti ievadīt atkopšanas frāzi."
+  },
+  "deleteNetwork": {
+    "message": "Dzēst tīklu?"
+  },
+  "deleteNetworkDescription": {
+    "message": "Vai tiešām vēlaties dzēst šo tīklu?"
+  },
+  "remindMeLater": {
+    "message": "Atgādināt vēlāk"
+  },
+  "restoreFromSeed": {
+    "message": "Atjaunot kontu?"
+  },
+  "restoreAccountWithSeed": {
+    "message": "Atjaunojiet savu kontu ar atkopšanas frāzi"
+  },
+  "restoreWalletPreferences": {
+    "message": "Ir atrasts jūsu datu dublējums no $1. Vai vēlaties atjaunot maka preferences?",
+    "description": "$1 is the date at which the data was backed up"
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": "pieprasījumi, kas gaida apstiprinājumu"
+  },
+  "required": {
+    "message": "Nepieciešams"
+  },
+  "restore": {
+    "message": "Atjaunot"
+  },
+  "revealSeedWords": {
+    "message": "Parādīt atkopšanas frāzi"
+  },
+  "revealSeedWordsTitle": {
+    "message": "Atkopšanas frāze"
+  },
+  "revealSeedWordsDescription": {
+    "message": "Ja mainīsiet pārlūku vai datoru, jūsu kontu piekļuvei būs nepieciešama šī atkopšanas frāze. Saglabājiet to drošā un slepenā vietā!"
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "NEDALIETIES ar šo frāzi!"
+  },
+  "revealSeedWordsWarning": {
+    "message": "Šos vārdus var izmantot visu jūsu kontu nolaupīšanai."
+  },
+  "remove": {
+    "message": "Noņemt"
+  },
+  "removeAccount": {
+    "message": "Konta noņemšana"
+  },
+  "removeAccountDescription": {
+    "message": "Šis darījums tiks dzēsts no jūsu maka. Pirms turpiniet, lūdzu, pārliecinieties, ka jums ir šī importētā konta oriģinālā sēklas frāze vai privātā atslēga. Jūs varat importēt vai izveidot kontus vēlreiz, izmantojot konta nolaižamo izvēlni."
+  },
+  "readyToConnect": {
+    "message": "Vai esat gatavi izveidot savienojumu?"
+  },
+  "reviewSwap": {
+    "message": "Pārskatīt mijmaiņu"
+  },
+  "rinkeby": {
+    "message": "Rinkeby testa tīkls"
+  },
+  "ropsten": {
+    "message": "Ropsten testa tīkls"
+  },
+  "goerli": {
+    "message": "Goerli testa tīkls"
+  },
+  "save": {
+    "message": "Saglabāt"
+  },
+  "slow": {
+    "message": "Lēns"
+  },
+  "slower": {
+    "message": "Lēnāk"
+  },
+  "saveAsCsvFile": {
+    "message": "Saglabāt kā CSV failu"
+  },
+  "scanInstructions": {
+    "message": "Novietojiet QR kodu kameras priekšā"
+  },
+  "scanQrCode": {
+    "message": "Ieskenēt QR kodu"
+  },
+  "search": {
+    "message": "Meklēt"
+  },
+  "searchResults": {
+    "message": "Meklēšanas rezultāti"
+  },
+  "secretBackupPhrase": {
+    "message": "Slepenā rezerves frāze"
+  },
+  "secretBackupPhraseDescription": {
+    "message": "Ar slepeno atgūšanas frāzi ir vieglāk dublēt un atjaunot kontu."
+  },
+  "secretBackupPhraseWarning": {
+    "message": "BRĪDINĀJUMS! Nekādā gadījumā neizpaudiet savu rezerves frāzi. Ikviens, kam pieejama šī frāze, var uz visiem laikiem pārņemt jūsu Ether."
+  },
+  "secretPhrase": {
+    "message": "Ievadiet savu slepeno 12 vai 24 vārdu frāzi, lai atjaunotu savu seifu."
+  },
+  "securityAndPrivacy": {
+    "message": "Drošība un konfidencialitāte"
+  },
+  "securitySettingsDescription": {
+    "message": "Konfidencialitātes iestatījumi un maka atkopšanas frāze"
+  },
+  "seedPhrasePlaceholder": {
+    "message": "Atdaliet katru vārdu ar vienu atstarpi"
+  },
+  "seedPhrasePlaceholderPaste": {
+    "message": "Ielīmēt atkopšanas frāzi no starpliktuves"
+  },
+  "showSeedPhrase": {
+    "message": "Rādīt atkopšanas frāzi"
+  },
+  "seedPhraseReq": {
+    "message": "Atkopšanas frāzēs ir 12, 15, 18, 21 vai 24 vārdi"
+  },
+  "selectingAllWillAllow": {
+    "message": "Atlasot visu, šī vietne ļaus skatīt visus jūsu pašreizējos kontus. Pārliecinieties, ka uzticaties šai vietnei."
+  },
+  "selectAccounts": {
+    "message": "Atlasīt kontu(-us)"
+  },
+  "selectAll": {
+    "message": "Atlasīt visu"
+  },
+  "selectCurrency": {
+    "message": "Atlasiet valūtu"
+  },
+  "selectEachPhrase": {
+    "message": "Lūdzu, atlasiet katru frāzi, lai pārliecinātos par tās pareizību."
+  },
+  "selectLocale": {
+    "message": "Izvēlieties lokalizāciju"
+  },
+  "selectType": {
+    "message": "Atlasiet veidu"
+  },
+  "setAllowance": {
+    "message": "Noteikt naudas summu"
+  },
+  "buy": {
+    "message": "Pirkt"
+  },
+  "send": {
+    "message": "Sūtīt"
+  },
+  "swap": {
+    "message": "Mijmaiņa"
+  },
+  "swapApprovalSecurityMsg": {
+    "message": "Drošības apsvērumu dēļ pirms vēlamās vērtības iestatīšanas naudas summu ir ieteicams atiestatīt uz 0, lai novērstu darījumu pārkārtošanas uzbrukumus."
+  },
+  "swapBraveFees": {
+    "message": "Noteiktajā cenā ir iekļauta Brave maksa $1 apmērā."
+  },
+  "swapFooterPrivacyNotice": {
+    "message": "Brave izmanto $1 kā DEX apkopotāju. Lai iegūtu plašāku informāciju, lūdzu, skatiet $2."
+  },
+  "swapNewQuoteCountdown": {
+    "message": "Jauna cena"
+  },
+  "swapSlippageDescription": {
+    "message": "Maksimāli pieļaujamā cenas izmaiņa % no pērkamā aktīva. Ja delta pārsniedz novirzi, mijmaiņas darījums netiks veikts."
+  },
+  "swapQuoteRefresh": {
+    "message": "Cenas tiek bieži atsvaidzinātas, atspoguļojot pašreizējos tirgus apstākļus."
+  },
+  "sendAmount": {
+    "message": "Nosūtītā summa"
+  },
+  "sendETH": {
+    "message": "Sūtīt ETH"
+  },
+  "sendTokens": {
+    "message": "Nosūtīt marķierus"
+  },
+  "sentEther": {
+    "message": "nosūtītie ether"
+  },
+  "sentTokens": {
+    "message": "nosūtītie marķieri"
+  },
+  "sendSpecifiedTokens": {
+    "message": "Nosūtīt $1",
+    "description": "Symbol of the specified token"
+  },
+  "separateEachWord": {
+    "message": "Atdaliet katru vārdu ar vienu atstarpi"
+  },
+  "searchAssets": {
+    "message": "Meklēt aktīvos"
+  },
+  "searchTokens": {
+    "message": "Meklēt marķierus"
+  },
+  "searchAccounts": {
+    "message": "Meklēt kontus"
+  },
+  "noAccountsFound": {
+    "message": "Nav atrasts meklēšanas vaicājumam atbilstošs konts"
+  },
+  "selectAsset": {
+    "message": "Atlasīt aktīvu"
+  },
+  "selectAnAccount": {
+    "message": "Atlasiet kontu"
+  },
+  "selectAnAccountHelp": {
+    "message": "Atlasiet kontu, kuru skatīt ar Brave"
+  },
+  "selectAHigherGasFee": {
+    "message": "Atlasiet lielāku maksu par Gas, lai paātrinātu darījuma apstrādi.*"
+  },
+  "selectHdPath": {
+    "message": "Atlasīt HD ceļu"
+  },
+  "selectPathHelp": {
+    "message": "Ja zemāk neredzat savus esošos žurnāla kontus, mēģiniet pārslēgt ceļus uz \"Legacy (MEW / MyCrypto)\""
+  },
+  "settings": {
+    "message": "Iestatījumi"
+  },
+  "showAdvancedGasInline": {
+    "message": "Papildu Gas vadīklas"
+  },
+  "showAdvancedGasInlineDescription": {
+    "message": "Atlasiet šo, lai parādītu Gas cenu un ierobežotu kontroles iespējas tieši sūtīšanas un apstiprināšanas ekrānos."
+  },
+  "showFiatConversionInTestnets": {
+    "message": "Rādīt konversiju testa tīklos"
+  },
+  "showFiatConversionInTestnetsDescription": {
+    "message": "Atlasiet šo, lai testa tīklos uzrādītu fiat konversiju"
+  },
+  "showPrivateKeys": {
+    "message": "Rādīt privātās atslēgas"
+  },
+  "showHexData": {
+    "message": "Rādīt hex datus"
+  },
+  "showHexDataDescription": {
+    "message": "Atlasiet šo, lai atvērtu hex datus sūtīšanas ekrānā"
+  },
+  "sign": {
+    "message": "Parakstīt"
+  },
+  "signatureRequest": {
+    "message": "Paraksta pieprasījums"
+  },
+  "signatureRequest1": {
+    "message": "Ziņojums"
+  },
+  "signed": {
+    "message": "Parakstīts"
+  },
+  "signNotice": {
+    "message": "Šī ziņojuma parakstīšana var radīt \nbīstamas blaknes. Parakstiet tikai tādus ziņojumus,\nkuriem pilnībā uzticaties ar savu konta informāciju.\n Turpmākajās versijās šī bīstamā metode tiks noņemta. "
+  },
+  "sigRequest": {
+    "message": "Paraksta pieprasījums"
+  },
+  "somethingWentWrong": {
+    "message": "Ak vai! Radās problēma."
+  },
+  "speedUp": {
+    "message": "Paātrināt"
+  },
+  "speedUpCancellation": {
+    "message": "Paātrināt šo atcelšanu"
+  },
+  "speedUpTransaction": {
+    "message": "Paātrināt šo darījumu"
+  },
+  "spendLimitPermission": {
+    "message": "Tēriņu ierobežojuma atļauja"
+  },
+  "spendLimitRequestedBy": {
+    "message": "$1 pieprasījis tēriņu ierobežojumu",
+    "description": "Origin of the site requesting the spend limit"
+  },
+  "spendLimitTooLarge": {
+    "message": "Pārāk liels tēriņu ierobežojums"
+  },
+  "spendLimitInvalid": {
+    "message": "Tēriņu ierobežojums nav derīgs; jābūt pozitīvam skaitlim"
+  },
+  "switchNetworks": {
+    "message": "Mainīt tīklus"
+  },
+  "stateLogFileName": {
+    "message": "Brave stāvokļa žurnāli"
+  },
+  "stateLogs": {
+    "message": "Statusu žurnāli"
+  },
+  "stateLogsDescription": {
+    "message": "Statusa žurnāli ietver publisko kontu adreses un nosūtītos darījumus."
+  },
+  "stateLogError": {
+    "message": "Iegūstot statusa žurnālus, radās kļūda."
+  },
+  "statusConnected": {
+    "message": "pievienots"
+  },
+  "statusNotConnected": {
+    "message": "Savienojums nav izveidots"
+  },
+  "step1HardwareWallet": {
+    "message": "1. Pieslēgt aparatūras maku"
+  },
+  "step1HardwareWalletMsg": {
+    "message": "Savienojiet aparatūras maku tieši ar datoru."
+  },
+  "step2HardwareWallet": {
+    "message": "2. Atlasiet kontu"
+  },
+  "step2HardwareWalletMsg": {
+    "message": "Atlasiet kontu, kuru vēlaties skatīt. Vienlaicīgi varat izvēlēties tikai vienu kontu."
+  },
+  "step3HardwareWallet": {
+    "message": "3. Sāciet izmantot web3 vietnes un daudz ko citu!"
+  },
+  "step3HardwareWalletMsg": {
+    "message": "Izmantojiet savu aparatūras kontu tāpat kā ar jebkuru Ethereum kontu. Izveidojiet savienojumu ar web3 vietnēm, sūtiet ETH, iegādājieties un uzglabājiet ERC20 žetonus un tādus nedalāmos žetonus kā CryptoKitties."
+  },
+  "storePhrase": {
+    "message": "Saglabājiet šo frāzi paroļu pārvaldniekā, piemēram, 1Password."
+  },
+  "submit": {
+    "message": "Iesniegt"
+  },
+  "submitted": {
+    "message": "Iesniegts"
+  },
+  "supportCenter": {
+    "message": "Apmeklējiet mūsu Atbalsta centru"
+  },
+  "swapPrivacyPolicy": {
+    "message": "Mijmaiņas privātuma politika"
+  },
+  "swapPrivacyPolicyDescription": {
+    "message": "Brave izmanto $1 kā DEX apkopotāju. 0x apstrādā Ethereum adresi un IP adresi, lai veiktu darījumu (tai skaitā cenu saņemšanu). 0x šos datus izmanto VIENĪGI darījumu apstrādei."
+  },
+  "symbol": {
+    "message": "Simbols"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "Simbolam jāsatur ne vairāk par 11 rakstzīmēm."
+  },
+  "syncWithMobile": {
+    "message": "Sinhronizēt ar tālruni"
+  },
+  "syncWithMobileTitle": {
+    "message": "Sinhronizēt ar tālruni"
+  },
+  "syncWithMobileDesc": {
+    "message": "Jūs varat sinhronizēt savus kontus un informāciju ar savu mobilo ierīci. Atveriet mobilo lietotni Brave, dodieties uz sadaļu \"Iestatījumi\" un pieskarieties vienumam \"Sinhronizēt no pārlūka paplašinājuma\""
+  },
+  "syncWithMobileDescNewUsers": {
+    "message": "Ja pirmo reizi atverat Brave mobilo lietotni, vienkārši izpildiet tālrunī norādītās darbības."
+  },
+  "syncWithMobileScanThisCode": {
+    "message": "Skenējiet šo kodu ar Brave mobilo lietotni"
+  },
+  "syncWithMobileBeCareful": {
+    "message": "Pārliecinieties, ka neviens cits neskatās jūsu ekrānā, kad skenējat šo kodu."
+  },
+  "syncWithMobileComplete": {
+    "message": "Jūsu dati ir veiksmīgi sinhronizēti. Izbaudiet Brave mobilo lietotni!"
+  },
+  "terms": {
+    "message": "Lietošanas noteikumi"
+  },
+  "testFaucet": {
+    "message": "Testa krāns"
+  },
+  "thisWillCreate": {
+    "message": "Šādi tiks izveidots jauna maks un atkopšanas frāze"
+  },
+  "timeout": {
+    "message": "Noildze"
+  },
+  "tips": {
+    "message": "Dzeramnauda"
+  },
+  "to": {
+    "message": "Adresāts"
+  },
+  "toAddress": {
+    "message": "Kam: $1",
+    "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
+  },
+  "toWithColon": {
+    "message": "Kam:"
+  },
+  "token": {
+    "message": "Marķieris"
+  },
+  "tokenAlreadyAdded": {
+    "message": "Žetons jau pievienots."
+  },
+  "tokenContractAddress": {
+    "message": "Marķiera līguma adrese"
+  },
+  "tokenOptions": {
+    "message": "Žetonu iespējas"
+  },
+  "tokenSymbol": {
+    "message": "Žetona simbols"
+  },
+  "total": {
+    "message": "Kopā"
+  },
+  "transaction": {
+    "message": "darījums"
+  },
+  "transactionConfirmed": {
+    "message": "Darījums apstiprināts $2."
+  },
+  "transactionCreated": {
+    "message": "Darījums $1 vērtībā izveidots $2."
+  },
+  "transactionDropped": {
+    "message": "Darījums atmests $2."
+  },
+  "transactionSubmitted": {
+    "message": "Darījums iesniegts ar maksu par Gas $1 pie $2."
+  },
+  "transactionResubmitted": {
+    "message": "Darījums atkārtoti iesniegts ar maksu par Gas, palielinātu līdz $1 pie $2"
+  },
+  "transactionUpdated": {
+    "message": "Darījums atjaunināts $2."
+  },
+  "transactionErrored": {
+    "message": "Darījumā radusies kļūda."
+  },
+  "transactionCancelAttempted": {
+    "message": "Darījums tika mēģināts atcelt ar maksājumu par Gas $1 pie $2"
+  },
+  "transactionCancelSuccess": {
+    "message": "Darījums veiksmīgi atcelts $2"
+  },
+  "transactionError": {
+    "message": "Darījuma kļūda. Līguma kodā uzrādās izņēmums."
+  },
+  "transactionErrorNoContract": {
+    "message": "Mēģināt izsaukt funkciju, izmantojot adresi, kas nav norādīta līgumā."
+  },
+  "transactionFee": {
+    "message": "Darījuma nodeva"
+  },
+  "transactionTime": {
+    "message": "Darījuma ilgums"
+  },
+  "showTransactionTimeDescription": {
+    "message": "Atlasiet šo, lai, atrodoties Ethernum galvenajā tīklā, aktivitāšu cilnē parādītu gaidāmo darījumu laika aprēķinus. Piezīme: aprēķini ir aptuveni un atkarīgi no tīkla apstākļiem."
+  },
+  "transfer": {
+    "message": "Pārsūtīt"
+  },
+  "transferBetweenAccounts": {
+    "message": "Pārsūtīt starp saviem kontiem"
+  },
+  "transferFrom": {
+    "message": "Nosūtīt no"
+  },
+  "troubleTokenBalances": {
+    "message": "Mums neizdevās ielādēt marķieru bilanci. Varat tos skatīt",
+    "description": "Followed by a link (here) to view token balances"
+  },
+  "trustSiteApprovePermission": {
+    "message": "Vai jūs uzticaties šai vietnei? Piešķirot šo atļauju, jūs atļaujat $1 izņemt $2 un automatizēt darījumus jūsu vietā.",
+    "description": "$1 is the url requesting permission and $2 is the symbol of the currency that the request is for"
+  },
+  "tryAgain": {
+    "message": "Mēģināt vēlreiz"
+  },
+  "typePassword": {
+    "message": "Ievadiet savu Brave paroli"
+  },
+  "unapproved": {
+    "message": "Nav apstiprināts"
+  },
+  "alertDisableTooltip": {
+    "message": "To var mainīt sadaļā \"Iestatījumi\" > \"Brīdinājumi\""
+  },
+  "units": {
+    "message": "vienības"
+  },
+  "unknown": {
+    "message": "Nezināma"
+  },
+  "unknownNetwork": {
+    "message": "Nezināms privātais tīkls"
+  },
+  "unknownQrCode": {
+    "message": "Kļūda: šo QR kodu neizdevās identificēt"
+  },
+  "unknownCameraErrorTitle": {
+    "message": "Ak vai! Radās problēma..."
+  },
+  "unknownCameraError": {
+    "message": "Mēģinot piekļūt kamerai, radās kļūda. Lūdzu, mēģiniet vēlreiz..."
+  },
+  "unlimited": {
+    "message": "Neierobežots"
+  },
+  "unlock": {
+    "message": "Atbloķēt"
+  },
+  "unlockMessage": {
+    "message": "Decentralizētais tīkls jau gaida"
+  },
+  "updatedWithDate": {
+    "message": "Atjaunināts $1"
+  },
+  "urlErrorMsg": {
+    "message": "URL vietrāžiem ir nepieciešams atbilstošs HTTP / HTTPS prefikss."
+  },
+  "urlExistsErrorMsg": {
+    "message": "URL jau atrodas esošajā tīklu sarakstā"
+  },
+  "usedByClients": {
+    "message": "Izmanto dažādi klienti"
+  },
+  "usePhishingDetection": {
+    "message": "Izmantot pikšķerēšanas noteikšanu"
+  },
+  "usePhishingDetectionDescription": {
+    "message": "Parādīt brīdinājumu par pikšķerēšanas domēniem, kuru mērķauditorija ir Ethereum lietotāji"
+  },
+  "userName": {
+    "message": "Lietotājvārds"
+  },
+  "viewAccount": {
+    "message": "Skatīt kontu"
+  },
+  "viewinExplorer": {
+    "message": "Skatīt Explorer"
+  },
+  "viewContact": {
+    "message": "Skatīt līgumu"
+  },
+  "viewOnCustomBlockExplorer": {
+    "message": "Skatīt $1"
+  },
+  "viewOnEtherscan": {
+    "message": "Skatīt Etherscan"
+  },
+  "retryTransaction": {
+    "message": "Mēģināt darījumu vēlreiz"
+  },
+  "visitWebSite": {
+    "message": "Apmeklējiet mūsu tīmekļa vietni"
+  },
+  "walletSeed": {
+    "message": "Atkopšanas frāze"
+  },
+  "welcomeBack": {
+    "message": "Ar atgriešanos!"
+  },
+  "welcome": {
+    "message": "Laipni lūdzam pārlūkā Brave"
+  },
+  "whatsThis": {
+    "message": "Kas tas ir?"
+  },
+  "writePhrase": {
+    "message": "Pierakstiet šo frāzi uz lapiņas, un noglabājiet to drošā vietā! Ja vēlaties stiprināt drošību, pierakstiet to uz vairākām lapiņām un glabājiet tās 2–3 dažādās vietās."
+  },
+  "xOfY": {
+    "message": "$1 no $2 ",
+    "description": "$1 and $2 are intended to be two numbers, where $2 is a total, and $1 is a count towards that total"
+  },
+  "yesLetsTry": {
+    "message": "Jā, pamēģināsim"
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": "Lai lietotu šo funkciju, jādod piekļuve kamerai."
+  },
+  "yourSigRequested": {
+    "message": "Nepieciešams jūsu paraksts"
+  },
+  "youSign": {
+    "message": "Jūs parakstāt"
+  },
+  "yourPrivateSeedPhrase": {
+    "message": "Jūsu privātā atkopšanas frāze"
+  },
+  "zeroGasPriceOnSpeedUpError": {
+    "message": "Gas nulles cena pie paātrinājuma"
+  },
+  "decryptRequest": {
+    "message": "Atšifrēt pieprasījumu"
+  },
+  "decrypt": {
+    "message": "Atšifrēt"
+  },
+  "decryptMessageNotice": {
+    "message": "$1 vēlas izlasīt šo ziņojumu, lai pabeigtu jūsu darbību",
+    "description": "$1 is the web3 site name"
+  },
+  "decryptMetamask": {
+    "message": "Atšifrēt ziņojumu"
+  },
+  "decryptCopy": {
+    "message": "Kopēt šifrēto ziņojumu"
+  },
+  "decryptInlineError": {
+    "message": "Šo ziņojumu nevar atšifrēt kļūdas dēļ: $1",
+    "description": "$1 is error message"
+  },
+  "provide": {
+    "message": "Iesniegt"
+  },
+  "encryptionPublicKeyRequest": {
+    "message": "Pieprasīt šifrēšanas publisko atslēgu"
+  },
+  "encryptionPublicKeyNotice": {
+    "message": "$1 vēlas jūsu publisko šifrēšanas atslēgu. Pēc piekrišanas šī vietne varēs sastādīt šifrētus ziņojumus jums.",
+    "description": "$1 is the web3 site name"
+  },
+  "backupPhraseFileName": {
+    "message": "Kripto maku slepenā dublējuma frāze"
+  },
+  "braveRewards": {
+    "message": "Brave balvas"
+  },
+  "braveSettings": {
+    "message": "Brave iestatījumi"
+  },
+  "contractErrorMessage": {
+    "message": "Brīdinājums: jūs gatavojaties nosūtīt šo aktīvu uz tā viedo līgumu. Jūs, visticamāk, nedomājat to darīt, jo iespējams, ka tādējādi aktīvs kļūs neatgūstams."
+  },
+  "cryptoWalletsDisclosureOne": {
+    "message": "Crypto Wallets ļauj jums darboties ar kriptovalūtu un saistītiem aktīviem, izmantojot Brave. Crypto Wallets atbalsta tādus Ethereum žetonus kā ETH un BAT, kā arī kolekcijas žetonus, un ļauj darboties ar Ðapps un citiem viedajiem līgumiem. Tas ir paredzēts cilvēkiem, kuri pārzina Ethereum un citas blokķēdes sistēmas – vai vēlas to apgūt."
+  },
+  "cryptoWalletsDisclosureTwo": {
+    "message": "Izmantojiet kripto makus tikai tad, ja piekrītat, ka pilnībā atbildat par visiem ar šī pakalpojuma izmantošanu saistītajiem riskiem un Brave Software nekādā veidā neatbild par jebkādiem zaudējumiem, tai skaitā nejaušiem vai secīgiem zaudējumiem, kas jums var rasties šī pakalpojuma lietošanas rezultātā, un tam nav nekādu saistību attiecībā uz šādiem zaudējumiem."
+  },
+  "cryptoWalletsDisclosureThree": {
+    "message": "Tie visi ir pilnībā nošķirti no"
+  },
+  "cryptoWalletsDisclosureFour": {
+    "message": "Ja vēlējāties atbalstīt savas iecienītākās vietnes, dodieties uz tām."
+  },
+  "cryptoWalletsTitle": {
+    "message": "Kripto maki"
+  },
+  "disclosureConfirm": {
+    "message": "Es saprotu"
+  },
+  "ledgerCreateSubText": {
+    "message": "Pievienojiet savu Ledger aparatūras maku, lai veiktu darbības ar dApps un pārskaitījumus uz citiem pievienotajiem makiem."
+  },
+  "metamaskImportSubText": {
+    "message": "Piezīme: importējot no Crypto Wallets 1.0.26 vai vecākas versijas, jūsu slepenā frāze ir 24 vārdi, nevis 12."
+  },
+  "newLocalWallet": {
+    "message": "Jauns vietējais maks"
+  },
+  "newLocalWalletSubText": {
+    "message": "Izveidojiet jaunu Brave vietējo maku, lai piekļūtu dApps un droši uzglabātu Kripto un kolekciju vienumus. Anonīmi tirgojieties ar marķieriem bez darījumu nodevām."
+  },
+  "passWarningOne": {
+    "message": "Šī parole sargā jūsu privāto atslēgu. Ja to aizmirsīsiet, to nevarēs atiestatīt neviens – pat ne Brave!"
+  },
+  "providerErrorMessage": {
+    "message": "Šis maks nav jūsu noklusējuma Ethereum Dapp nodrošinātājs."
+  },
+  "trezorCreateSubText": {
+    "message": "Pievienojiet savu Trezor aparatūras maku, lai veiktu darbības ar dApps un pārskaitījumus uz citiem pievienotajiem makiem."
+  },
+  "welcomeCryptoWallets": {
+    "message": "Laipni lūdzam Brave kripto makos!"
+  },
+  "waitingForConfirmation": {
+    "message": "Gaida apstiprinājumu."
+  }
+}

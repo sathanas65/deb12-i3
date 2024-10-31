@@ -1,0 +1,1911 @@
+{
+  "acceptTermsOfUse": {
+    "message": "لقد قرأت ووافقت على $1",
+    "description": "$1 is the `terms` message"
+  },
+  "eth_accounts": {
+    "message": "عرض عناوين حساباتك المسموح بها (مطلوب)",
+    "description": "The description for the `eth_accounts` permission"
+  },
+  "connectedSites": {
+    "message": "المواقع المتصلة"
+  },
+  "connectedSitesDescription": {
+    "message": "إنّ $1 متصل بهذه المواقع. يمكنهم عرض عنوان حسابك.",
+    "description": "$1 is the account name"
+  },
+  "connectedSitesEmptyDescription": {
+    "message": "إنّ $1 غير متصل بأي مواقع.",
+    "description": "$1 is the account name"
+  },
+  "connectedAccountsDescriptionSingular": {
+    "message": "لديك 1 حساب متصل بهذا الموقع."
+  },
+  "connectedAccountsDescriptionPlural": {
+    "message": "لديك عدد $1 حساب متصل بهذا الموقع.",
+    "description": "$1 is the number of accounts"
+  },
+  "connectedAccountsEmptyDescription": {
+    "message": "إنّ Brave غير متصل بهذا الموقع. للاتصال بموقع web3، ابحث عن زر الاتصال على موقعهم."
+  },
+  "currentAccountNotConnected": {
+    "message": "حسابك الحالي غير متصل"
+  },
+  "switchToThisAccount": {
+    "message": "قم بالتبديل إلى هذا الحساب"
+  },
+  "disconnectThisAccount": {
+    "message": "اقطع الاتصال مع هذا الحساب"
+  },
+  "permissions": {
+    "message": "الأذونات"
+  },
+  "showPermissions": {
+    "message": "عرض الأذونات"
+  },
+  "authorizedPermissions": {
+    "message": "لقد سمحت بمنح الأذونات التالية"
+  },
+  "connectManually": {
+    "message": "الاتصال يدوياً بالموقع الحالي"
+  },
+  "disconnect": {
+    "message": "قطع الاتصال"
+  },
+  "disconnectAllAccounts": {
+    "message": "قطع الاتصال مع جميع الحسابات"
+  },
+  "disconnectPrompt": {
+    "message": "اقطع الاتصال عن $1"
+  },
+  "disconnectAllAccountsConfirmationDescription": {
+    "message": "هل أنت متأكد أنك تريد قطع الاتصال؟ قد تفقد الأداء الوظيفي للموقع."
+  },
+  "dismiss": {
+    "message": "رفض"
+  },
+  "showIncomingTransactions": {
+    "message": "إظهار المعاملات الواردة"
+  },
+  "showIncomingTransactionsDescription": {
+    "message": "حدد هذا لاستخدام Etherscan لإظهار المعاملات الواردة في قائمة المعاملات"
+  },
+  "chartOnlyAvailableEth": {
+    "message": "الرسم البياني متاح فقط على شبكات إيثيريوم."
+  },
+  "connecting": {
+    "message": "جارٍ الاتصال..."
+  },
+  "connectWithMetaMask": {
+    "message": "اتصل بواسطة Brave"
+  },
+  "connectTo": {
+    "message": "اتصل بـ $1",
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to Brave"
+  },
+  "connectToAll": {
+    "message": "الاتصال بكل $1 الخاصة بك",
+    "description": "$1 will be replaced by the translation of connectToAllAccounts"
+  },
+  "connectToAllAccounts": {
+    "message": "الحسابات",
+    "description": "will replace $1 in connectToAll, completing the sentence 'connect to all of your accounts', will be text that shows list of accounts on hover"
+  },
+  "connectToMultiple": {
+    "message": "اتصل بـ $1",
+    "description": "$1 will be replaced by the translation of connectToMultipleNumberOfAccounts"
+  },
+  "connectToMultipleNumberOfAccounts": {
+    "message": "عدد $1 حسابات",
+    "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
+  },
+  "contractInteraction": {
+    "message": "التفاعل على العقد"
+  },
+  "reject": {
+    "message": "رفض"
+  },
+  "about": {
+    "message": "حول"
+  },
+  "aboutSettingsDescription": {
+    "message": "الإصدار ومركز الدعم ومعلومات الاتصال"
+  },
+  "acceleratingATransaction": {
+    "message": "* تسريع المعاملات باستخدام سعر عملة جاس أعلى يزيد من فرص معالجتها بواسطة الشبكة بشكلٍ أسرع، لكن ذلك غير مضمون دائماً."
+  },
+  "accessAndSpendNotice": {
+    "message": "قد يتمكن $1 من الوصول إلى هذا المبلغ الأقصى وإنفاقه",
+    "description": "$1 is the url of the site requesting ability to spend"
+  },
+  "accessingYourCamera": {
+    "message": "جاري استخدام كاميرتك..."
+  },
+  "account": {
+    "message": "الحساب"
+  },
+  "accountDetails": {
+    "message": "تفاصيل الحساب"
+  },
+  "accountName": {
+    "message": "اسم الحساب"
+  },
+  "accountOptions": {
+    "message": "خيارات الحساب"
+  },
+  "accountSelectionRequired": {
+    "message": "يجب عليك تحديد حساب!"
+  },
+  "active": {
+    "message": "نشط"
+  },
+  "activity": {
+    "message": "النشاط"
+  },
+  "activityLog": {
+    "message": "سجل النشاط"
+  },
+  "addNetwork": {
+    "message": "أضف شبكة"
+  },
+  "addRecipient": {
+    "message": "إضافة مستلم"
+  },
+  "advanced": {
+    "message": "إعدادات متقدمة"
+  },
+  "advancedSettingsDescription": {
+    "message": "قم بالوصول إلى ميزات المطور وتنزيل سجلات الحالة وإعادة تعيين الحساب وشبكات اختبار الإعداد واستدعاء الإجراء المخصص عن بعد"
+  },
+  "advancedOptions": {
+    "message": "خيارات متقدمة"
+  },
+  "customizeGas": {
+    "message": "تخصيص"
+  },
+  "addToAddressBook": {
+    "message": "إضافة إلى دفتر العناوين"
+  },
+  "addToAddressBookModalPlaceholder": {
+    "message": "مثلا جون دي"
+  },
+  "addAlias": {
+    "message": "إضافة اسم مستعار"
+  },
+  "addToken": {
+    "message": "إضافة عملة رمزية"
+  },
+  "addTokens": {
+    "message": "إضافة عملات رمزية"
+  },
+  "addSuggestedTokens": {
+    "message": "أضف العملات الرمزية المقترحة"
+  },
+  "addAcquiredTokens": {
+    "message": "أضف العملات الرمزية التي حصلت عليها باستخدام Brave"
+  },
+  "alerts": {
+    "message": "التنبيهات"
+  },
+  "alertsSettingsDescription": {
+    "message": "تمكين أو تعطيل كل تنبيه"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "تصفح موقع ويب مع تحديد حساب غير متصل"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "يظهر هذا التنبيه في النافذة المنبثقة عندما تتصفح موقع Web3 متصل، ولكن الحساب المحدد حالياً غير متصل."
+  },
+  "allowOriginSpendToken": {
+    "message": "هل تسمح لـ $1 بإنفاق $2؟",
+    "description": "$1 is the url of the site and $2 is the symbol of the token they are requesting to spend"
+  },
+  "allowThisSiteTo": {
+    "message": "السماح لهذا الموقع بـ:"
+  },
+  "allowExternalExtensionTo": {
+    "message": "السماح لهذا الامتداد الخارجي بـ:"
+  },
+  "allowWithdrawAndSpend": {
+    "message": "اسمح لـ $1 بسحب وإنفاق ما يصل إلى المبلغ التالي:",
+    "description": "The url of the site that requested permission to 'withdraw and spend'"
+  },
+  "amount": {
+    "message": "المبلغ"
+  },
+  "amountWithColon": {
+    "message": "المقدار:"
+  },
+  "appDescription": {
+    "message": "محفظة إيثيريوم في متصفحك",
+    "description": "The description of the application"
+  },
+  "appName": {
+    "message": "Brave Software",
+    "description": "The name of the application"
+  },
+  "approve": {
+    "message": "الموافقة على حد الإنفاق"
+  },
+  "approveSpendLimit": {
+    "message": "الموافقة على حد إنفاق $1",
+    "description": "The token symbol that is being approved"
+  },
+  "approved": {
+    "message": "تمت الموافقة"
+  },
+  "asset": {
+    "message": "الأصل"
+  },
+  "maker": {
+    "message": "المُنتِج"
+  },
+  "taker": {
+    "message": "المشتري"
+  },
+  "slippage": {
+    "message": "احتمال الهبوط"
+  },
+  "assets": {
+    "message": "الأصول"
+  },
+  "attemptingConnect": {
+    "message": "محاولة الاتصال بسلسلة الكتل."
+  },
+  "attemptToCancel": {
+    "message": "هل تحاول الإلغاء؟"
+  },
+  "attemptToCancelDescription": {
+    "message": "تقديم هذه المحاولة لا يضمن أنه سيتم إلغاء معاملتك الأصلية. إذا نجحت محاولة الإلغاء ، فسيتم فرض رسوم المعاملة المذكورة أعلاه."
+  },
+  "attributions": {
+    "message": "الصفات"
+  },
+  "autoLockTimeLimit": {
+    "message": "مؤقت القفل التلقائي (بالدقائق)"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "اضبط وقت الخمول بالدقائق قبل أن يصبح Brave مقفلاً."
+  },
+  "average": {
+    "message": "المتوسط"
+  },
+  "back": {
+    "message": "الرجوع إلى الوراء"
+  },
+  "backToAll": {
+    "message": "العودة إلى الجميع"
+  },
+  "backupApprovalNotice": {
+    "message": "قم بالنسخ الاحتياطي لرمز الاسترداد السري للحفاظ على محفظتك وأموالك بأمان."
+  },
+  "backupApprovalInfo": {
+    "message": "هذا الرمز السري مطلوب لاستعادة محفظتك في حالة فقدانك جهازك أو نسيانك كلمة المرور الخاصة بك أو الاضطرار إلى إعادة تثبيت Brave أو رغبتك في الوصول إلى محفظتك على جهاز آخر."
+  },
+  "backupNow": {
+    "message": "قم بالنسخ الاحتياطي الآن"
+  },
+  "balance": {
+    "message": "الرصيد"
+  },
+  "balanceOutdated": {
+    "message": "قد يكون الرصيد لاغياً"
+  },
+  "basic": {
+    "message": "الأساسية"
+  },
+  "blockExplorerUrl": {
+    "message": "متصفح Block Explorer"
+  },
+  "blockExplorerView": {
+    "message": "عرض الحساب في $1",
+    "description": "$1 replaced by URL for custom block explorer"
+  },
+  "blockiesIdenticon": {
+    "message": "استخدم خدمة تكتلات Blockies Identicon"
+  },
+  "nonceField": {
+    "message": "تخصيص الرقم الخاص للمعاملات"
+  },
+  "nonceFieldHeading": {
+    "message": "الرقم الخاص المخصص"
+  },
+  "nonceFieldDescription": {
+    "message": "قم بتشغيل هذا لتغيير الرقم nonce (رقم المعاملة) على شاشات التأكيد. هذه ميزة متقدمة، استخدمها بحذر."
+  },
+  "browserNotSupported": {
+    "message": "متصفحك غير مدعوم..."
+  },
+  "builtInCalifornia": {
+    "message": "تم تصميم Brave وبناؤه في كاليفورنيا."
+  },
+  "buyWithWyre": {
+    "message": "قم بشراء عملة إيثير بواسطة Wyre"
+  },
+  "buyWithWyreDescription": {
+    "message": "يتيح لك Wyre استخدام بطاقة الخصم لإيداع ETH مباشرة في حساب Brave الخاص بك."
+  },
+  "buyCoinSwitch": {
+    "message": "قم بالشراء على CoinSwitch"
+  },
+  "buyCoinSwitchExplainer": {
+    "message": "CoinSwitch هي الوجهة الوحيدة لتبادل أكثر من 300 عملة مشفرة بأفضل سعر."
+  },
+  "bytes": {
+    "message": "بايتات"
+  },
+  "off": {
+    "message": "مقفل"
+  },
+  "ok": {
+    "message": "أوافق"
+  },
+  "on": {
+    "message": "تشغيل"
+  },
+  "optionalBlockExplorerUrl": {
+    "message": "العنوان الإلكتروني لمستكشف البلوكات (اختياري)"
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "cancelAttempt": {
+    "message": "إلغاء المحاولة"
+  },
+  "cancellationGasFee": {
+    "message": "رسوم الإلغاء بعملة جاس"
+  },
+  "cancelled": {
+    "message": "تم الإلغاء"
+  },
+  "chainId": {
+    "message": "معرّف السلسلة"
+  },
+  "clickToRevealSeed": {
+    "message": "انقر هنا للكشف عن الكلمات السرية"
+  },
+  "close": {
+    "message": "إغلاق"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": "تحتاج إلى استخدام Brave على Google Chrome من أجل الاتصال بمحفظة الأجهزة الخاصة بك."
+  },
+  "confirm": {
+    "message": "التأكيد"
+  },
+  "confirmed": {
+    "message": "تم التأكيد"
+  },
+  "confirmPassword": {
+    "message": "تأكيد كلمة المرور"
+  },
+  "confirmSecretBackupPhrase": {
+    "message": "تأكيد عبارة الدعم السرية الخاصة بك"
+  },
+  "congratulations": {
+    "message": "تهانينا"
+  },
+  "connectAccountOrCreate": {
+    "message": "ربط الحساب أو إنشاء جديد"
+  },
+  "connectHardwareWallet": {
+    "message": "ربط محفظة الأجهزة"
+  },
+  "connect": {
+    "message": "اتصال"
+  },
+  "connectingTo": {
+    "message": "جارِ الاتصال بـ $1"
+  },
+  "connectingToKovan": {
+    "message": "الاتصال بشبكة اختبار Kovan"
+  },
+  "connectingToMainnet": {
+    "message": "جارِ الاتصال بشبكة إيثيريوم الرئيسية"
+  },
+  "connectingToRopsten": {
+    "message": "جارِ الاتصال بشبكة اختبار Ropsten "
+  },
+  "connectingToRinkeby": {
+    "message": "جارِ الاتصال بشبكة اختبار Rinkeby "
+  },
+  "connectingToLocalhost": {
+    "message": "جاري الاتصال بالمضيف المحلي 8545"
+  },
+  "connectingToGoerli": {
+    "message": "الاتصال بشبكة اختبار Goerli"
+  },
+  "contacts": {
+    "message": "جهات الاتصال"
+  },
+  "contactsSettingsDescription": {
+    "message": "قم بإضافة وتعديل وإزالة وإدارة جهات الاتصال الخاصة بك"
+  },
+  "contactUs": {
+    "message": "اتصل بنا!"
+  },
+  "continueToSwap": {
+    "message": "تابع إلى التبديل"
+  },
+  "continueToWyre": {
+    "message": "الاستمرار إلى Wyre"
+  },
+  "continueToCoinSwitch": {
+    "message": "المتابعة إلى CoinSwitch"
+  },
+  "contractDeployment": {
+    "message": "نشر العقد"
+  },
+  "copiedExclamation": {
+    "message": "تم النسخ."
+  },
+  "copyAddress": {
+    "message": "نسخ العنوان إلى الحافظة"
+  },
+  "copyTransactionId": {
+    "message": "نسخ هوية المعاملة"
+  },
+  "copiedTransactionId": {
+    "message": "تم نسخ معرف المعاملة"
+  },
+  "copyToClipboard": {
+    "message": "نسخ إلى الحافظة"
+  },
+  "copyPrivateKey": {
+    "message": "هذا هو مفتاحك الخاص (انقر للنسخ)"
+  },
+  "create": {
+    "message": "إنشاء"
+  },
+  "createAccount": {
+    "message": "إنشاء حساب"
+  },
+  "createAWallet": {
+    "message": "إنشاء محفظة"
+  },
+  "createPassword": {
+    "message": "إنشاء كلمة مرور"
+  },
+  "currencyConversion": {
+    "message": "تحويل العملات"
+  },
+  "currentExtension": {
+    "message": "صفحة الامتداد الحالية"
+  },
+  "currentLanguage": {
+    "message": "اللغة الحالية"
+  },
+  "customGas": {
+    "message": "تخصيص الغاز"
+  },
+  "customGasSubTitle": {
+    "message": "قد تؤدي زيادة الرسوم إلى تقليل أزمنة المعالجة، ولكن ذلك غير مضمون."
+  },
+  "customToken": {
+    "message": "عملة رمزية مخصصة"
+  },
+  "customRPC": {
+    "message": "آر بي سي مخصص"
+  },
+  "customSpendLimit": {
+    "message": "حد الإنفاق المخصص"
+  },
+  "dataBackupFoundInfo": {
+    "message": "تم نسخ بعض بيانات حسابك احتياطياً أثناء التثبيت السابق لـ Brave. قد يتضمن ذلك إعداداتك وجهات اتصالك وعملاتك الرمزية. هل ترغب في استعادة هذه البيانات الآن؟"
+  },
+  "decimalsMustZerotoTen": {
+    "message": "يجب أن تكون الكسور العشرية صفراً على الأقل، وألا تزيد عن 36 كسراً."
+  },
+  "decimal": {
+    "message": "دقة بالكسور العشرية"
+  },
+  "defaultNetwork": {
+    "message": "الشبكة الافتراضية لمعاملات الأثير هي الشبكة الرئيسية."
+  },
+  "delete": {
+    "message": "حذف"
+  },
+  "deleteAccount": {
+    "message": "حذف الحساب"
+  },
+  "deposit": {
+    "message": "إيداع"
+  },
+  "depositEther": {
+    "message": "إيداع عملة إيثير"
+  },
+  "details": {
+    "message": "التفاصيل"
+  },
+  "directDepositEther": {
+    "message": "إيداع مباشرة لعملة الأثير"
+  },
+  "directDepositEtherExplainer": {
+    "message": "إذا كان لديك بالفعل بعض الأثير، فإن أسرع طريقة للحصول على الأثير في محفظتك الجديدة عن طريق الإيداع المباشر."
+  },
+  "done": {
+    "message": "تم"
+  },
+  "dontShowThisAgain": {
+    "message": "لا تظهر هذا مرة أخرى"
+  },
+  "downloadGoogleChrome": {
+    "message": "تنزيل جوجل كروم"
+  },
+  "downloadSecretBackup": {
+    "message": "قم بتنزيل هذه الجملة الاحتياطية السرية واحتفظ بها بتخزينها بأمان في محرك أقراص ثابت أو وسيط تخزين خارجيين مشفّرين."
+  },
+  "downloadStateLogs": {
+    "message": "تنزيل سجلات الحالة"
+  },
+  "dontHaveAHardwareWallet": {
+    "message": "أليس لديك محفظة أجهزة؟"
+  },
+  "dropped": {
+    "message": "تم الإلقاء"
+  },
+  "edit": {
+    "message": "تحرير"
+  },
+  "editContact": {
+    "message": "تعديل جهة الاتصال"
+  },
+  "editPermission": {
+    "message": "تحرير الإذن"
+  },
+  "endOfFlowMessage1": {
+    "message": "لقد نجحت في الاختبار - احتفظ بعبارة الأمان الخاصة بك في مكان آمن، إنها مسؤوليتك!"
+  },
+  "endOfFlowMessage2": {
+    "message": "نصائح بشأن تخزينها بأمان"
+  },
+  "endOfFlowMessage3": {
+    "message": "احفظ نسخة احتياطية في أماكن متعددة."
+  },
+  "endOfFlowMessage4": {
+    "message": "لا تشارك هذه الجملة مطلقًا مع أي شخص."
+  },
+  "endOfFlowMessage5": {
+    "message": "احذر من الخداع! لن يطلب Brave أبداً بشكل عفوي عبارة الاسترجاع السرية الخاصة بك."
+  },
+  "endOfFlowMessage6": {
+    "message": "إذا كنت بحاجة إلى عمل نسخة احتياطية من عبارة الأمان الخاصة بك مرة أخرى، يمكنك العثور عليها في الإعدادات -> الأمان."
+  },
+  "endOfFlowMessage7": {
+    "message": "إذا كانت لديك أسئلة أو رأيت شيئاً مريباً، فتفضل بزيارة محفظتنا"
+  },
+  "endOfFlowMessage8": {
+    "message": "لا يستطيع Brave استعادة عبارة السر الخاصة بك."
+  },
+  "endOfFlowMessage9": {
+    "message": "اعرف المزيد."
+  },
+  "endOfFlowMessage10": {
+    "message": "كل شيء تم بنجاح"
+  },
+  "endOfFlowMessage11": {
+    "message": "منتدى الدعم."
+  },
+  "externalExtension": {
+    "message": "ملحق خارجي"
+  },
+  "onboardingReturnNotice": {
+    "message": "سيتم إغلاق علامة التبويب \"$1\" والعودة إلى $2",
+    "description": "Return the user to the site that initiated onboarding"
+  },
+  "ensRegistrationError": {
+    "message": "خطأ في تسجيل اسم ENS"
+  },
+  "ensNotFoundOnCurrentNetwork": {
+    "message": "لم يتم العثور على اسم ENS على الشبكة الحالية. حاول التبديل إلى شبكة الإيثيريوم الرئيسية."
+  },
+  "enterAnAlias": {
+    "message": "أدخل اسمًا مستعارًا"
+  },
+  "enterMaxSpendLimit": {
+    "message": "أدخل حد الإنفاق الأقصى"
+  },
+  "enterPassword": {
+    "message": "أدخل كلمة مرور"
+  },
+  "enterPasswordContinue": {
+    "message": "أدخل كلمة المرور للمتابعة"
+  },
+  "errorCode": {
+    "message": "الكود: $1",
+    "description": "Displayed error code for debugging purposes. $1 is the error code"
+  },
+  "errorDetails": {
+    "message": "تفاصيل الخطأ",
+    "description": "Title for collapsible section that displays error details for debugging purposes"
+  },
+  "errorMessage": {
+    "message": "الرسالة: $1",
+    "description": "Displayed error message for debugging purposes. $1 is the error message"
+  },
+  "errorName": {
+    "message": "الكود: $1",
+    "description": "Displayed error name for debugging purposes. $1 is the error name"
+  },
+  "errorPageTitle": {
+    "message": "واجه Brave خطأ",
+    "description": "Title of generic error page"
+  },
+  "errorPageMessage": {
+    "message": "حاول مرة أخرى عن طريق إعادة تحميل الصفحة، أو اتصل بالدعم على support@brave.com",
+    "description": "Message displayed on generic error page in the fullscreen or notification UI"
+  },
+  "errorPagePopupMessage": {
+    "message": "حاول مرة أخرى عن طريق إغلاق النافذة المنبثقة وإعادة فتحها أو اتصل بالدعم على support@brave.com",
+    "description": "Message displayed on generic error page in the popup UI"
+  },
+  "errorStack": {
+    "message": "بيانات مكدسة:",
+    "description": "Title for error stack, which is displayed for debugging purposes"
+  },
+  "ethereumPublicAddress": {
+    "message": "عنوان الإيثيريوم العمومي"
+  },
+  "etherscanView": {
+    "message": "عرض الحساب على Etherscan"
+  },
+  "estimatedProcessingTimes": {
+    "message": "أوقات المعالجة المقدرة"
+  },
+  "estimatedNetworkFee": {
+    "message": "الرسوم المقدرة للشبكة"
+  },
+  "expandView": {
+    "message": "توسيع العرض"
+  },
+  "exportPrivateKey": {
+    "message": "تصدير المفتاح الخاص"
+  },
+  "failed": {
+    "message": "فشل"
+  },
+  "failureMessage": {
+    "message": "حدث خطأ، ولم نتمكن من إكمال الإجراء"
+  },
+  "fast": {
+    "message": "سريع"
+  },
+  "faster": {
+    "message": "أسرع"
+  },
+  "feeAssociatedRequest": {
+    "message": "الرسوم المرتبطة بهذا الطلب."
+  },
+  "fiat": {
+    "message": "Fiat",
+    "description": "Exchange type"
+  },
+  "fileImportFail": {
+    "message": "استيراد الملف لا ينجح؟ انقر هنا!",
+    "description": "Helps user import their account from a JSON file"
+  },
+  "forgetDevice": {
+    "message": "عدم تذكُّر هذا الجهاز"
+  },
+  "from": {
+    "message": "من"
+  },
+  "fromAddress": {
+    "message": "المُرسل: $1",
+    "description": "$1 is the address to include in the From label. It is typically shortened first using shortenAddress"
+  },
+  "functionApprove": {
+    "message": "الوظيفة: الموافقة"
+  },
+  "functionType": {
+    "message": "نوع الوظيفة"
+  },
+  "gasLimit": {
+    "message": "الحد الأقصى لوحدات جاس"
+  },
+  "gasLimitInfoModalContent": {
+    "message": "حد عملة جاس هو الحد الأقصى لمقدار وحدات جاس التي ترغب في إنفاقها."
+  },
+  "gasLimitTooLow": {
+    "message": "يجب أن يكون حد وحدات الجاس على الأقل 21000"
+  },
+  "gasUsed": {
+    "message": "وحدات جاس المستخدمة"
+  },
+  "gasPrice": {
+    "message": "سعر عملة جاس (GWEI)"
+  },
+  "gasPriceExtremelyLow": {
+    "message": "سعر الجاس منخفض للغاية"
+  },
+  "gasPriceInfoModalContent": {
+    "message": "يحدد سعر الغاز مقدار الإيثر الذي تكون على استعداد لدفعه لكل وحدة غاز."
+  },
+  "gasPriceNoDenom": {
+    "message": "سعر عملة جاس"
+  },
+  "gdprMessage": {
+    "message": "يتم تجميع هذه البيانات وبالتالي فهي مجهولة المصدر لأغراض اللائحة العامة لحماية البيانات  (EU) 2016/679. لمزيد من المعلومات فيما يتعلق بممارسات الخصوصية لدينا، يُرجى الاطلاع على $1.",
+    "description": "$1 refers to the gdprMessagePrivacyPolicy message, the translation of which is meant to be used exclusively in the context of gdprMessage"
+  },
+  "gdprMessagePrivacyPolicy": {
+    "message": "سياسة الخصوصية هنا",
+    "description": "this translation is intended to be exclusively used as the replacement for the $1 in the gdprMessage translation"
+  },
+  "general": {
+    "message": "عام"
+  },
+  "generalSettingsDescription": {
+    "message": "تحويل العملات، العملة الأساسية، اللغة ، تكتلات blockies identicon"
+  },
+  "getEther": {
+    "message": "احصل على إيثر"
+  },
+  "getEtherFromFaucet": {
+    "message": "احصل على الأثير من صنبور مقابل $1",
+    "description": "Displays network name for Ether faucet"
+  },
+  "getHelp": {
+    "message": "احصل على الدعم."
+  },
+  "getStarted": {
+    "message": "البدء"
+  },
+  "happyToSeeYou": {
+    "message": "نحن سعداء برؤيتك."
+  },
+  "hardware": {
+    "message": "الأجهزة"
+  },
+  "hardwareWalletConnected": {
+    "message": "تم الاتصال بمحفظة الأجهزة"
+  },
+  "hardwareWallets": {
+    "message": "الاتصال بمحفظة hardware wallet"
+  },
+  "hardwareWalletsMsg": {
+    "message": "حدد محفظة الأجهزة التي ترغب في استخدامها مع Brave"
+  },
+  "havingTroubleConnecting": {
+    "message": "هل تواجه مشكلة في الاتصال؟"
+  },
+  "here": {
+    "message": "هنا",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
+  },
+  "hexData": {
+    "message": "بيانات سداسية"
+  },
+  "hide": {
+    "message": "إخفاء"
+  },
+  "hideTokenSymbol": {
+    "message": "إخفاء $1",
+    "description": "$1 is the symbol for a token (e.g. 'DAI')"
+  },
+  "hideTokenPrompt": {
+    "message": "أتريد إخفاء العملة الرمزية؟"
+  },
+  "history": {
+    "message": "السجل"
+  },
+  "home": {
+    "message": "الصفحة الرئيسية"
+  },
+  "import": {
+    "message": "الاستيراد",
+    "description": "Button to import an account from a selected file"
+  },
+  "importAccount": {
+    "message": "استيراد الحساب"
+  },
+  "importAccountMsg": {
+    "message": "لن يتم ربط الحسابات المستوردة بعبارة استرجاع \"حساب Brave\" التي تم إنشاؤها في الأصل. تعرف على المزيد حول الحسابات المستوردة"
+  },
+  "importAccountSeedPhrase": {
+    "message": "استيراد حساب بواسطة عبارة الاسترجاع السرية"
+  },
+  "importWallet": {
+    "message": "استيراد المحفظة"
+  },
+  "importYourExisting": {
+    "message": "قم باستيراد محفظتك الحالية باستخدام عبارة أولية مكونة من 12 أو 24 كلمة"
+  },
+  "imported": {
+    "message": "المستوردة",
+    "description": "status showing that an account has been fully loaded into the keyring"
+  },
+  "importUsingSeed": {
+    "message": "استيراد باستخدام عبارة أمان الحساب"
+  },
+  "infoHelp": {
+    "message": "المعلومات والمساعدة"
+  },
+  "initialTransactionConfirmed": {
+    "message": "تم تأكيد المعاملة الأولية الخاصة بك بواسطة الشبكة. انقر فوق موافق للعودة."
+  },
+  "insufficientBalance": {
+    "message": "الرصيد غير كافٍ"
+  },
+  "insufficientFunds": {
+    "message": "رصيد غير كاف."
+  },
+  "insufficientTokens": {
+    "message": "العملات الرمزية غير كافية."
+  },
+  "insufficientFundsGas": {
+    "message": "أموال غير كافية للغاز."
+  },
+  "balanceFetchError": {
+    "message": "خطأ في جلب الرصيد."
+  },
+  "invalidAddress": {
+    "message": "عنوان غير صالح"
+  },
+  "invalidAddressRecipient": {
+    "message": "عنوان المستلم غير صحيح"
+  },
+  "knownAddressRecipient": {
+    "message": "عنوان العقد المعروف."
+  },
+  "knownTokenWarning": {
+    "message": "سيؤدي هذا الإجراء إلى تحرير العملات الرمزية المميزة المدرجة بالفعل في محفظتك، والتي يمكن استخدامها لخداعك. وافق فقط إذا كنت متأكداً من أنك تقصد تغيير ما تمثله هذه العملات الرمزية."
+  },
+  "reusedTokenNameWarning": {
+    "message": "تعيد عملة رمزية هنا استخدام رمز من عملة رمزية أخرى تشاهدها، وقد يكون هذا أمراً مربكاً أو خادعاً."
+  },
+  "invalidAddressRecipientNotEthNetwork": {
+    "message": "لا تجعلها شبكة ETH، قم بتعيين الأحرف صغيرة"
+  },
+  "invalidCustomNetworkAlertContent1": {
+    "message": "تفتقد الشبكة المخصصة '$1' إلى معرف السلسلة الخاص بها.",
+    "description": "$1 is the name/identifier of the network."
+  },
+  "invalidCustomNetworkAlertContent2": {
+    "message": "لحمايتك من مزودي الشبكة الخبثاء أو الزائفين، فإن معرفات السلسلة أصبحت مطلوبة الآن لجميع الشبكات المخصصة."
+  },
+  "invalidCustomNetworkAlertContent3": {
+    "message": "انتقل إلى الإعدادات> الشبكة وادخل معرف السلسلة. يمكنك العثور على معرّفات السلسلة لأكثر الشبكات شيوعاً على $1.",
+    "description": "$1 is a link to https://chainid.network"
+  },
+  "invalidCustomNetworkAlertTitle": {
+    "message": "شبكة مخصصة غير صالحة"
+  },
+  "invalidHexNumber": {
+    "message": "رقم ستعشري غير صالح."
+  },
+  "invalidHexNumberLeadingZeros": {
+    "message": "رقم ستعشري غير صالح. قم بإزالة أي أصفار بادئة."
+  },
+  "invalidRPC": {
+    "message": "رابط آر بي سي غير صحيح"
+  },
+  "invalidBlockExplorerURL": {
+    "message": "عنوان URL لـ Block Explorer غير صالح"
+  },
+  "invalidSeedPhrase": {
+    "message": "عبارة أمان غير صحيحة"
+  },
+  "ipfsGateway": {
+    "message": "بوابة IPFS"
+  },
+  "ipfsGatewayDescription": {
+    "message": "أدخل عنوان URL لبوابة IPFS CID لاستخدامها في دقة محتوى ENS."
+  },
+  "invalidIpfsGateway": {
+    "message": "بوابة IPFS غير صالحة: يجب أن تكون القيمة عنوان URL صالحاً"
+  },
+  "invalidNumber": {
+    "message": "رقم غير صالح. أدخل رقماً عشرياً أو رقماً ستعشرياً."
+  },
+  "invalidNumberLeadingZeros": {
+    "message": "رقم غير صالح. قم بإزالة أي أصفار بادئة."
+  },
+  "forbiddenIpfsGateway": {
+    "message": "بوابة IPFS المحظورة: يُرجى تحديد بوابة CID"
+  },
+  "jsonFile": {
+    "message": "ملف JSON ",
+    "description": "format for importing an account"
+  },
+  "kovan": {
+    "message": "شبكة اختبار Kovan "
+  },
+  "max": {
+    "message": "Max"
+  },
+  "lastConnected": {
+    "message": "آخر اتصال"
+  },
+  "learnMore": {
+    "message": "اكتشف المزيد"
+  },
+  "ledgerAccountRestriction": {
+    "message": "أنت بحاجة إلى استخدام حسابك الأخير قبل أن تتمكن من إضافة حساب جديد."
+  },
+  "letsGoSetUp": {
+    "message": "نعم، دعنا نبدأ التثبيت!"
+  },
+  "likeToAddTokens": {
+    "message": "هل ترغب في إضافة هذه الرموز؟"
+  },
+  "links": {
+    "message": "الروابط"
+  },
+  "liveGasPricePredictions": {
+    "message": "توقعات أسعار الجاس الحية"
+  },
+  "loading": {
+    "message": "جارٍ التحميل..."
+  },
+  "loadingTokens": {
+    "message": "جارِ تحميل العملات الرمزية ..."
+  },
+  "loadMore": {
+    "message": "تحميل المزيد"
+  },
+  "localhost": {
+    "message": "المضيف المحلي 8545"
+  },
+  "lock": {
+    "message": "القفل بإحكام"
+  },
+  "lockTimeTooGreat": {
+    "message": "وقت القفل كبير جداً"
+  },
+  "mainnet": {
+    "message": "شبكة الإيثيريوم الرئيسية"
+  },
+  "availableOnMainnetRopsten": {
+    "message": "متوفر فقط على mainnet و ropsten"
+  },
+  "memorizePhrase": {
+    "message": "احفظ هذه العبارة."
+  },
+  "memo": {
+    "message": "مذكرة"
+  },
+  "message": {
+    "message": "رسالة"
+  },
+  "metaMaskConnectStatusParagraphOne": {
+    "message": "لديك الآن المزيد من التحكم في اتصالات حسابك في Brave."
+  },
+  "metaMaskConnectStatusParagraphTwo": {
+    "message": "يوضح زر حالة الاتصال ما إذا كان موقع الويب الذي تزوره مرتبطاً بحسابك المحدد حالياً."
+  },
+  "metaMaskConnectStatusParagraphThree": {
+    "message": "انقر فوقه لإدارة حساباتك المتصلة."
+  },
+  "metamaskDescription": {
+    "message": "إيصالك بالإيثيريوم وبالشبكة اللامركزية."
+  },
+  "metamaskVersion": {
+    "message": "إصدار Brave"
+  },
+  "mobileSyncText": {
+    "message": "يرجى إدخال كلمة مرورك لتأكيد هويتك!"
+  },
+  "myAccounts": {
+    "message": "حساباتي"
+  },
+  "myWalletAccounts": {
+    "message": "حسابات محفظتي"
+  },
+  "myWalletAccountsDescription": {
+    "message": "ستتم إضافة جميع حسابات Brave التي تم إنشاؤها تلقائياً إلى هذا القسم."
+  },
+  "mustSelectOne": {
+    "message": "يجب تحديد عملة رمزية واحدة على الأقل."
+  },
+  "needEtherInWallet": {
+    "message": "للتفاعل مع التطبيقات اللامركزية باستخدام Brave، ستحتاج إلى رصيد Ether في محفظتك."
+  },
+  "needImportFile": {
+    "message": "يلزم تحديد ملف للاستيراد.",
+    "description": "User is important an account and needs to add a file to continue"
+  },
+  "negativeETH": {
+    "message": "لا يمكن إرسال مبالغ سلبية من ETH."
+  },
+  "networkName": {
+    "message": "اسم الشبكة"
+  },
+  "networks": {
+    "message": "الشبكات"
+  },
+  "networkSettingsChainIdDescription": {
+    "message": "يتم استخدام معرف السلسلة لتوقيع المعاملات. ادخل رقماً عشرياً أو ستعشرياً يبدأ بـ \"0x\"."
+  },
+  "networkSettingsDescription": {
+    "message": "إضافة وتعديل شبكات RPC المخصصة"
+  },
+  "nevermind": {
+    "message": "لا يهم"
+  },
+  "newAccount": {
+    "message": "حساب جديد"
+  },
+  "newAccountDetectedDialogMessage": {
+    "message": "تم اكتشاف عنوان جديد! انقر هنا لإضافته إلى دفتر عناوينك."
+  },
+  "newAccountNumberName": {
+    "message": "حساب $1",
+    "description": "Default name of next account to be created on create account screen"
+  },
+  "newContact": {
+    "message": "جهة اتصال جديدة"
+  },
+  "newContract": {
+    "message": "عقد جديد"
+  },
+  "newPassword": {
+    "message": "كلمة مرور جديدة (بحد أدنى 8 رموز)"
+  },
+  "newNetwork": {
+    "message": "شبكة جديدة"
+  },
+  "newToMetaMask": {
+    "message": "هل استخدام Brave جديد بالنسبة إليك؟"
+  },
+  "noAlreadyHaveSeed": {
+    "message": "لا، لدي جملة بذرية مسبقًا"
+  },
+  "protectYourKeys": {
+    "message": "احمِ مفاتيحك!"
+  },
+  "protectYourKeysMessage1": {
+    "message": "كن حذراً مع عبارة الاسترجاع السرية الخاصة بك - كانت هناك تقارير عن مواقع الويب التي تحاول تقليد Brave. لن يطلب Brave أبداً عبارة الاسترجاع الخاصة بك!"
+  },
+  "protectYourKeysMessage2": {
+    "message": "حافظ على عبارتك آمنة. إذا رأيت شيئاً مريباً، أو كنت غير متأكد من موقع ويب ما، قم بإرسال بريد إلكتروني إلى support@brave.com"
+  },
+  "rpcUrl": {
+    "message": "عنوان جديد لاستدعاء الإجراء عن بعد"
+  },
+  "onlyConnectTrust": {
+    "message": "تواصل فقط مع المواقع التي تثق بها."
+  },
+  "onlyAddTrustedNetworks": {
+    "message": "يمكن لمزود شبكة إيثريوم خبيث أن يكذب بشأن حالة سلسلة الكتل ويسجل نشاط الشبكة الخاص بك. أضف فقط الشبكات المخصصة التي تثق بها."
+  },
+  "optionalSymbol": {
+    "message": "الرمز (اختياري)"
+  },
+  "newTotal": {
+    "message": "إجمالي جديد"
+  },
+  "newTransactionFee": {
+    "message": "رسوم المعاملات الجديدة"
+  },
+  "next": {
+    "message": "التالي"
+  },
+  "nextNonceWarning": {
+    "message": "إنّ الرقم الخاص أعلى من الرقم الخاص المقترح بمقدار $1",
+    "description": "The next nonce according to Brave's internal logic"
+  },
+  "noAddressForName": {
+    "message": "لم يتم تعيين عنوان لهذا الاسم."
+  },
+  "noConversionRateAvailable": {
+    "message": "لا يوجد معدل تحويل متاح"
+  },
+  "noTransactions": {
+    "message": "لا توجد لديك معاملات"
+  },
+  "noThanks": {
+    "message": "لا، شكرًا"
+  },
+  "notCurrentAccount": {
+    "message": "هل هذا هو الحساب الصحيح؟ حيث أنه يختلف عن الحساب المحدد حالياً في محفظتك"
+  },
+  "notEnoughGas": {
+    "message": "لا توجد عملات جاس كافية"
+  },
+  "noWebcamFoundTitle": {
+    "message": "لم يتم العثور على كاميرا متصلة بالإنترنت"
+  },
+  "noWebcamFound": {
+    "message": "لم يتم العثور على كاميرا ويب للكمبيوتر الخاص بك. حاول مرة اخرى."
+  },
+  "ofTextNofM": {
+    "message": "من"
+  },
+  "orderOneHere": {
+    "message": "اطلب Trezor أو Ledger وحافظ على أموالك في مخزن حصين"
+  },
+  "origin": {
+    "message": "الأصل"
+  },
+  "parameters": {
+    "message": "معلّمات"
+  },
+  "participateInMetaMetrics": {
+    "message": "المشاركة في MetaMetrics"
+  },
+  "participateInMetaMetricsDescription": {
+    "message": "شارك في MetaMetrics لمساعدتنا على جعل Brave أفضل"
+  },
+  "password": {
+    "message": "كلمة المرور"
+  },
+  "passwordsDontMatch": {
+    "message": "كلمات المرور غير متطابقة"
+  },
+  "passwordNotLongEnough": {
+    "message": "كلمة المرور أقصر مما يلزم"
+  },
+  "pastePrivateKey": {
+    "message": "الصق مقطع مفتاحك الخاص هنا:",
+    "description": "For importing an account from a private key"
+  },
+  "pending": {
+    "message": "معلَّق"
+  },
+  "permissionCheckedIconDescription": {
+    "message": "لقد وافقت على منح هذا الإذن"
+  },
+  "permissionUncheckedIconDescription": {
+    "message": "أنت لم توافق على هذا الإذن"
+  },
+  "personalAddressDetected": {
+    "message": "تم اكتشاف عنوان شخصي. يرجى إدخال عنوان عقد الرمز."
+  },
+  "plusXMore": {
+    "message": "+ $1 أكثر",
+    "description": "$1 is a number of additional but unshown items in a list- this message will be shown in place of those items"
+  },
+  "prev": {
+    "message": "السابق"
+  },
+  "primaryCurrencySetting": {
+    "message": "العملة الأساسية"
+  },
+  "primaryCurrencySettingDescription": {
+    "message": "حدد خيار \"المحلية\" لتحديد أولويات عرض القيم بالعملة المحلية للسلسلة (مثلاً ETH). حدد Fiat لتحديد أولويات عرض القيم بعملات fiat المحددة الخاصة بك."
+  },
+  "privacyMsg": {
+    "message": "سياسة الخصوصية"
+  },
+  "privateKey": {
+    "message": "المفتاح الخاص",
+    "description": "select this type of file to use to import an account"
+  },
+  "privateKeyWarning": {
+    "message": "تنبيه: لا تكشف عن هذا المفتاح مطلقًا. يمكن لأي شخص لديه مفاتيحك الخاصة سرقة أي أصول تحتفظ بها في حسابك."
+  },
+  "privateNetwork": {
+    "message": "شبكة خاصة"
+  },
+  "proposedApprovalLimit": {
+    "message": "حد الموافقة المقترح"
+  },
+  "queue": {
+    "message": "اللائحة"
+  },
+  "queued": {
+    "message": "تم إدراجه في قائمة الانتظار"
+  },
+  "readdToken": {
+    "message": "يمكنك إضافة هذه العملة الرمزية مرة أخرى في المستقبل من خلال الانتقال إلى \"إضافة عملة رمزية\" في قائمة خيارات الحسابات الخاصة بك."
+  },
+  "recents": {
+    "message": "الحديث"
+  },
+  "receive": {
+    "message": "التحصيل"
+  },
+  "recipientAddress": {
+    "message": "عنوان المستلم"
+  },
+  "recipientAddressPlaceholder": {
+    "message": "البحث عن العنوان العام (0x)، أو المجال"
+  },
+  "rejectAll": {
+    "message": "رفض الكل"
+  },
+  "rejectTxsN": {
+    "message": "رفض معاملات $1"
+  },
+  "rejectTxsDescription": {
+    "message": "أنت بصدد رفض المعاملات بقيمة $1 بدفعة واحدة."
+  },
+  "rejected": {
+    "message": "مرفوض"
+  },
+  "reset": {
+    "message": "إعادة"
+  },
+  "resetAccount": {
+    "message": "إعادة تعيين الحساب"
+  },
+  "resetAccountDescription": {
+    "message": "ستؤدي إعادة تعيين حسابك إلى مسح سجل معاملاتك. لن يؤدي هذا إلى تغيير الأرصدة في حساباتك أو أن يتطلب منك إعادة إدخال عبارة السر الخاصة بك."
+  },
+  "deleteNetwork": {
+    "message": "هل تريد حذف الشبكة؟"
+  },
+  "deleteNetworkDescription": {
+    "message": "هل أنت متأكد أنك تريد حذف هذه الشبكة؟"
+  },
+  "remindMeLater": {
+    "message": "ذكرني لاحقاً"
+  },
+  "restoreFromSeed": {
+    "message": "هل تريد استعادة الحساب؟"
+  },
+  "restoreAccountWithSeed": {
+    "message": "قم باستعادة حسابك بواسطة عبارة الأمان"
+  },
+  "restoreWalletPreferences": {
+    "message": "تم العثور على نسخة احتياطية من بياناتك من $1. هل ترغب في استعادة تفضيلات محفظتك؟",
+    "description": "$1 is the date at which the data was backed up"
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": "طلبات في انتظار الاعتراف بها"
+  },
+  "required": {
+    "message": "مطلوب"
+  },
+  "restore": {
+    "message": "استعادة"
+  },
+  "revealSeedWords": {
+    "message": "كشف عبارة الاسترجاع"
+  },
+  "revealSeedWordsTitle": {
+    "message": "عبارة الأمان"
+  },
+  "revealSeedWordsDescription": {
+    "message": "إذا كنت تنوي تغيير المتصفحات أو نقل أجهزة الكمبيوتر في أي وقت، فسوف تحتاج إلى عبارة الأمان هذه للوصول إلى حساباتك. احفظها في مكان آمن وسري."
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "لا تشارك هذه الجملة مع أي شخص آخر!"
+  },
+  "revealSeedWordsWarning": {
+    "message": "يمكن استخدام هذه الكلمات لسرقة جميع حساباتك."
+  },
+  "remove": {
+    "message": "إزالة"
+  },
+  "removeAccount": {
+    "message": "إزالة الحساب"
+  },
+  "removeAccountDescription": {
+    "message": "ستتم إزالة هذا الحساب من محفظتك. يرجى التأكد من وجود عبارة الأمان الأصلية أو المفتاح الخاص لهذا الحساب الذي تم استيراده قبل المتابعة. يمكنك استيراد أو إنشاء حسابات مرة أخرى من القائمة المنسدلة للحساب."
+  },
+  "readyToConnect": {
+    "message": "هل أنت جاهز للاتصال؟"
+  },
+  "reviewSwap": {
+    "message": "مراجعة المبادلة"
+  },
+  "rinkeby": {
+    "message": "شبكة اختبارات Rinkeby"
+  },
+  "ropsten": {
+    "message": "شبكة اختبار Ropsten"
+  },
+  "goerli": {
+    "message": "شبكة اختبار Goerli "
+  },
+  "save": {
+    "message": "حفظ"
+  },
+  "slow": {
+    "message": "بطيء"
+  },
+  "slower": {
+    "message": "أبطأ"
+  },
+  "saveAsCsvFile": {
+    "message": "حفظ كملف CSV"
+  },
+  "scanInstructions": {
+    "message": "ضع رمز الاستجابة السريعة أمام الكاميرا"
+  },
+  "scanQrCode": {
+    "message": "مسح كود الاستجابة السريعة QR"
+  },
+  "search": {
+    "message": "البحث"
+  },
+  "searchResults": {
+    "message": "نتائج البحث"
+  },
+  "secretBackupPhrase": {
+    "message": "الجملة الاحتياطية السرية"
+  },
+  "secretBackupPhraseDescription": {
+    "message": "تجعل عبارة النسخ الاحتياطي السرية الخاصة بك من السهل إجراء نسخ احتياطي واستعادة حسابك."
+  },
+  "secretBackupPhraseWarning": {
+    "message": "تحذير: لا تكشف مطلقاً عن عبارة الدعم الخاصة بك. يمكن لأي شخص بهذه العبارة أن يستحوذ على الأثير الخاص بك إلى الأبد."
+  },
+  "secretPhrase": {
+    "message": "ادخل عبارة سرية مكونة من 12 أو 24 كلمة لاستعادة خزينة الحماية الخاصة بك."
+  },
+  "securityAndPrivacy": {
+    "message": "الأمن والخصوصية"
+  },
+  "securitySettingsDescription": {
+    "message": "إعدادات الخصوصية وعبارة أمان المحفظة"
+  },
+  "seedPhrasePlaceholder": {
+    "message": "يرجى فصل كل كلمة بمسافة واحدة"
+  },
+  "seedPhrasePlaceholderPaste": {
+    "message": "الصق عبارة الاسترجاع السرية من الحافظة"
+  },
+  "showSeedPhrase": {
+    "message": "عرض عبارة السر"
+  },
+  "seedPhraseReq": {
+    "message": "تحتوي عبارات الاسترجاع على 12 أو 15 أو 18 أو 21 أو 24 كلمة"
+  },
+  "selectingAllWillAllow": {
+    "message": "تحديد الكل سيسمح لهذا الموقع بعرض جميع حساباتك الحالية. تأكد من أنك تثق في هذا الموقع."
+  },
+  "selectAccounts": {
+    "message": "حدد الحساب (الحسابات)"
+  },
+  "selectAll": {
+    "message": "تحديد الكل"
+  },
+  "selectCurrency": {
+    "message": "تحديد العملة"
+  },
+  "selectEachPhrase": {
+    "message": "يُرجى تحديد كل عبارة للتأكد من صحتها."
+  },
+  "selectLocale": {
+    "message": "تحديد الموقع المحلي"
+  },
+  "selectType": {
+    "message": "تحديد النوع"
+  },
+  "setAllowance": {
+    "message": "تعيين البدل"
+  },
+  "buy": {
+    "message": "شراء"
+  },
+  "send": {
+    "message": "إرسال"
+  },
+  "swap": {
+    "message": "تبديل"
+  },
+  "swapApprovalSecurityMsg": {
+    "message": "لأسباب أمنية، يُنصح بإعادة تعيين البدل إلى 0 أولاً قبل تعيينه على القيمة المطلوبة، لمنع الهجمات الاحتيالية التي تسبب إعادة ترتيب المعاملات."
+  },
+  "swapBraveFees": {
+    "message": "يشمل عرض الأسعار $1 من رسوم Brave."
+  },
+  "swapFooterPrivacyNotice": {
+    "message": "يقوم Brave باستخدام $1 كمجمع DEX. يُرجى مراجعة $2 لمزيد من المعلومات."
+  },
+  "swapNewQuoteCountdown": {
+    "message": "عرض أسعار جديد في"
+  },
+  "swapSlippageDescription": {
+    "message": "الحد الأقصى لتغير السعر المقبول في % من أصل الشراء. إذا تجاوزت دلتا الانزلاق السعري، فلن يتم تنفيذ المبادلة."
+  },
+  "swapQuoteRefresh": {
+    "message": "يتم تحديث الأسعار في كثير من الأحيان لتعكس ظروف السوق الحالية."
+  },
+  "sendAmount": {
+    "message": "إرسال المبلغ"
+  },
+  "sendETH": {
+    "message": "إرسال عملة إيثيريوم"
+  },
+  "sendTokens": {
+    "message": "إرسال عملات رمزية"
+  },
+  "sentEther": {
+    "message": "أرسل عملة إيثير"
+  },
+  "sentTokens": {
+    "message": "العملات الرمزية المرسلة"
+  },
+  "sendSpecifiedTokens": {
+    "message": "إرسال $1",
+    "description": "Symbol of the specified token"
+  },
+  "separateEachWord": {
+    "message": "افصل كل كلمة بمسافة واحدة"
+  },
+  "searchAssets": {
+    "message": "البحث في الأصول"
+  },
+  "searchTokens": {
+    "message": "البحث عن العملات الرمزية"
+  },
+  "searchAccounts": {
+    "message": "البحث في الحسابات"
+  },
+  "noAccountsFound": {
+    "message": "لم يتم العثور على حسابات لاستعلام البحث المحدد"
+  },
+  "selectAsset": {
+    "message": "تحديد الأصل"
+  },
+  "selectAnAccount": {
+    "message": "قم بتحديد حساب"
+  },
+  "selectAnAccountHelp": {
+    "message": "حدد الحساب الذي تريد عرضه في Brave"
+  },
+  "selectAHigherGasFee": {
+    "message": "حدد رسوم جاس أعلى لتسريع معالجة معاملتك. *"
+  },
+  "selectHdPath": {
+    "message": "حدد مسار HD "
+  },
+  "selectPathHelp": {
+    "message": "إذا لم تشاهد حسابات Ledger الحالية الخاصة بك أدناه، فحاول تبديل المسارات \"Legacy (MEW / MyCrypto)\""
+  },
+  "settings": {
+    "message": "الإعدادات"
+  },
+  "showAdvancedGasInline": {
+    "message": "أدوات التحكم المتقدمة للغاز"
+  },
+  "showAdvancedGasInlineDescription": {
+    "message": "حدد هذا لإظهار سعر عملة جاس والحد من الضوابط مباشرة على شاشات الإرسال والتأكيد."
+  },
+  "showFiatConversionInTestnets": {
+    "message": "عرض التحويل على Testnets"
+  },
+  "showFiatConversionInTestnetsDescription": {
+    "message": "حدد هذا لإظهار تحويل fiat على Testnets"
+  },
+  "showPrivateKeys": {
+    "message": "عرض المفاتيح الخاصة"
+  },
+  "showHexData": {
+    "message": "إظهار بيانات Hex"
+  },
+  "showHexDataDescription": {
+    "message": "حدد هذا لإظهار حقل بيانات سداسي عشرية على شاشة الإرسال"
+  },
+  "sign": {
+    "message": "توقيع"
+  },
+  "signatureRequest": {
+    "message": "طلب التوقيع"
+  },
+  "signatureRequest1": {
+    "message": "رسالة"
+  },
+  "signed": {
+    "message": "مسجل الدخول"
+  },
+  "signNotice": {
+    "message": "توقيع هذه الرسالة يمكن أن يكون له\nآثار جانبية خطيرة. قم فقط بتوقيع الرسائل من\nالمواقع التي تثق بها تماماً في التعامل مع حسابك بالكامل.\n  ستتم إزالة هذه الطريقة الخطيرة في إصدار مستقبلي."
+  },
+  "sigRequest": {
+    "message": "طلب التوقيع"
+  },
+  "somethingWentWrong": {
+    "message": "عذراً! حدث خطأ ما."
+  },
+  "speedUp": {
+    "message": "تعجيل"
+  },
+  "speedUpCancellation": {
+    "message": "تسريع هذا الإلغاء"
+  },
+  "speedUpTransaction": {
+    "message": "تعجيل هذه المعاملة"
+  },
+  "spendLimitPermission": {
+    "message": "إذن حد الإنفاق"
+  },
+  "spendLimitRequestedBy": {
+    "message": "حد الإنفاق مطلوب بواسطة $1",
+    "description": "Origin of the site requesting the spend limit"
+  },
+  "spendLimitTooLarge": {
+    "message": "حد الإنفاق كبير جداً"
+  },
+  "spendLimitInvalid": {
+    "message": "حد الإنفاق غير صالح؛ يجب أن يكون رقماً موجباً"
+  },
+  "switchNetworks": {
+    "message": "تبديل الشبكات"
+  },
+  "stateLogFileName": {
+    "message": "سجلات حالة Brave"
+  },
+  "stateLogs": {
+    "message": "سجلات الحالة"
+  },
+  "stateLogsDescription": {
+    "message": "تحتوي سجلات الحالة على عناوين حسابك العامة والمعاملات المرسلة."
+  },
+  "stateLogError": {
+    "message": "خطأ في استرداد سجلات الحالة."
+  },
+  "statusConnected": {
+    "message": "متصل"
+  },
+  "statusNotConnected": {
+    "message": "غير متصل"
+  },
+  "step1HardwareWallet": {
+    "message": "1. قم بتوصيل محفظة Hardware Wallet"
+  },
+  "step1HardwareWalletMsg": {
+    "message": "قم بتوصيل محفظة الأجهزة الخاصة بك مباشرة إلى جهاز الكمبيوتر الخاص بك."
+  },
+  "step2HardwareWallet": {
+    "message": "2. حدد حساباً"
+  },
+  "step2HardwareWalletMsg": {
+    "message": "حدد الحساب الذي تريد عرضه. يمكنك اختيار حساب واحد فقط في المرة الواحدة."
+  },
+  "step3HardwareWallet": {
+    "message": "3. ابدأ في استخدام مواقع web3 والمزيد!"
+  },
+  "step3HardwareWalletMsg": {
+    "message": "استخدم حساب أجهزتك كما تفعل مع أي حساب إيثريوم. اتصل بمواقع web3، وارسل ETH، واشترِ وخزِّن رموز ERC20 والرموز المميزة غير القابلة للاستبدال مثل CryptoKitties."
+  },
+  "storePhrase": {
+    "message": "احتفظ بهذه الجملة في مدير كلمات مرور مثل 1Password."
+  },
+  "submit": {
+    "message": "إرسال"
+  },
+  "submitted": {
+    "message": "المقدمة"
+  },
+  "supportCenter": {
+    "message": "تفضل بزيارة مركز الدعم الخاص بنا"
+  },
+  "swapPrivacyPolicy": {
+    "message": "سياسة خصوصية التبديل"
+  },
+  "swapPrivacyPolicyDescription": {
+    "message": "يقوم Brave باستخدام $1 كمجمع DEX. سوف يقوم 0x بمعالجة عنوان الإيثيريوم وعنوان الـ IP لتنفيذ المعاملة (بما في ذلك الحصول على عروض الأسعار). سوف يقوم 0x باستخدام هذه البيانات فقط لأغراض معالجة المعاملات."
+  },
+  "symbol": {
+    "message": "رمز"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "يجب أن يتكون الرمز من 11 حرفاً أو أقل."
+  },
+  "syncWithMobile": {
+    "message": "مزامنة مع الهاتف المحمول"
+  },
+  "syncWithMobileTitle": {
+    "message": "المزامنة مع الجهاز المحمول"
+  },
+  "syncWithMobileDesc": {
+    "message": "يمكنك مزامنة حساباتك ومعلوماتك مع جهازك المحمول. افتح تطبيق Brave للجوال، وانتقل إلى \"الإعدادات\" وانقر على \"المزامنة من امتداد المتصفح\""
+  },
+  "syncWithMobileDescNewUsers": {
+    "message": "إذا فتحت للتو تطبيق Brave للجوال لأول مرة، فما عليك سوى اتباع الخطوات الموجودة في هاتفك."
+  },
+  "syncWithMobileScanThisCode": {
+    "message": "امسح هذا الرمز باستخدام تطبيق Brave للجوال"
+  },
+  "syncWithMobileBeCareful": {
+    "message": "تأكد من عدم قيام أي شخص آخر بالنظر إلى شاشتك عند مسح هذا الرمز"
+  },
+  "syncWithMobileComplete": {
+    "message": "لقد تمت مزامنة بياناتك بنجاح. استمتع بتطبيق Brave للجوال!"
+  },
+  "terms": {
+    "message": "شروط الاستخدام"
+  },
+  "testFaucet": {
+    "message": "اختبار Faucet"
+  },
+  "thisWillCreate": {
+    "message": "هذا سينشئ محفظة جديدة وعبارة أمان"
+  },
+  "timeout": {
+    "message": "انقضت المهلة"
+  },
+  "tips": {
+    "message": "المكافآت"
+  },
+  "to": {
+    "message": "إلى"
+  },
+  "toAddress": {
+    "message": "المرسل إليه: $1",
+    "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
+  },
+  "toWithColon": {
+    "message": "المُرسل إليه:"
+  },
+  "token": {
+    "message": "عملة رمزية"
+  },
+  "tokenAlreadyAdded": {
+    "message": "تمت إضافة العملة الرمزية بالفعل."
+  },
+  "tokenContractAddress": {
+    "message": "عنوان عقد العملة الرمزية"
+  },
+  "tokenOptions": {
+    "message": "خيارات العملات الرمزية"
+  },
+  "tokenSymbol": {
+    "message": "رمز العملة الرمزية"
+  },
+  "total": {
+    "message": "الإجمالي"
+  },
+  "transaction": {
+    "message": "المعاملة"
+  },
+  "transactionConfirmed": {
+    "message": "تم تأكيد المعاملة بقيمة $2."
+  },
+  "transactionCreated": {
+    "message": "تم إنشاء المعاملة بقيمة $1 عند $2."
+  },
+  "transactionDropped": {
+    "message": "انخفضت المعاملة عند $2."
+  },
+  "transactionSubmitted": {
+    "message": "تم تقديم المعاملة برسوم $1 من عملة جاس في $2."
+  },
+  "transactionResubmitted": {
+    "message": "زادت رسوم جاس على المعاملة التي أعيد تقديمها إلى $1 عند $2"
+  },
+  "transactionUpdated": {
+    "message": "تم تحديث المعاملة في $2."
+  },
+  "transactionErrored": {
+    "message": "لقد حدث خطأ ما أثناء معالجة المعاملة."
+  },
+  "transactionCancelAttempted": {
+    "message": "تمت محاولة إلغاء المعاملة برسوم $1 من عملة جاس في $2"
+  },
+  "transactionCancelSuccess": {
+    "message": "تم إلغاء المعاملة بنجاح عند $2"
+  },
+  "transactionError": {
+    "message": "خطأ في المعاملة. استثناء تم طرحه في التعليمات البرمجية للعقد."
+  },
+  "transactionErrorNoContract": {
+    "message": "جاري محاولة استدعاء وظيفة على عنوان غير ملتزم بعقد."
+  },
+  "transactionFee": {
+    "message": "رسوم التحويل"
+  },
+  "transactionTime": {
+    "message": "وقت المعاملة"
+  },
+  "showTransactionTimeDescription": {
+    "message": "حدد هذا لعرض تقديرات وقت المعاملة المعلقة في علامة تبويب النشاط أثناء وجودك على شبكة إيثريوم الرئيسية. ملاحظة: التقديرات تقريبية بناءً على ظروف الشبكة."
+  },
+  "transfer": {
+    "message": "تحويل"
+  },
+  "transferBetweenAccounts": {
+    "message": "التحويل بين حساباتي"
+  },
+  "transferFrom": {
+    "message": "التحويل من"
+  },
+  "troubleTokenBalances": {
+    "message": "واجهتنا مشكلة في تحميل أرصدتك من العملات الرمزية. يمكنك الاطلاع عليها",
+    "description": "Followed by a link (here) to view token balances"
+  },
+  "trustSiteApprovePermission": {
+    "message": "هل تثق بهذا الموقع؟ بمنح هذا الإذن، فإنك تسمح لـ $1 بسحب $2 الخاص بك وتشغيل معاملاتك تلقائياً.",
+    "description": "$1 is the url requesting permission and $2 is the symbol of the currency that the request is for"
+  },
+  "tryAgain": {
+    "message": "إعادة المحاولة"
+  },
+  "typePassword": {
+    "message": "اكتب كلمة مرور Brave الخاصة بك"
+  },
+  "unapproved": {
+    "message": "تم الرفض"
+  },
+  "alertDisableTooltip": {
+    "message": "يمكن تغيير هذا في \"الإعدادات> التنبيهات\""
+  },
+  "units": {
+    "message": "وحدات"
+  },
+  "unknown": {
+    "message": "غير معروف"
+  },
+  "unknownNetwork": {
+    "message": "شبكة خاصة مجهولة"
+  },
+  "unknownQrCode": {
+    "message": "خطأ: لم نتمكن من تحديد رمز الاستجابة السريعة هذا"
+  },
+  "unknownCameraErrorTitle": {
+    "message": "عذرًا! وقع خطأٌ ما..."
+  },
+  "unknownCameraError": {
+    "message": "حدث خطأ أثناء محاولة الوصول إلى الكاميرا. يُرجى إعادة المحاولة..."
+  },
+  "unlimited": {
+    "message": "بلا حدود"
+  },
+  "unlock": {
+    "message": "فتح القفل"
+  },
+  "unlockMessage": {
+    "message": "شبكة الويب اللامركزية بانتظارك"
+  },
+  "updatedWithDate": {
+    "message": "تم تحديث $1"
+  },
+  "urlErrorMsg": {
+    "message": "تتطلب عناوين URL بادئة HTTP / HTTPS المناسبة."
+  },
+  "urlExistsErrorMsg": {
+    "message": "عنوان URL موجود بالفعل في قائمة الشبكات الموجودة"
+  },
+  "usedByClients": {
+    "message": "مستخدمة من قبل مجموعة متنوعة من العملاء المختلفة"
+  },
+  "usePhishingDetection": {
+    "message": "استخدام كشف الخداع"
+  },
+  "usePhishingDetectionDescription": {
+    "message": "عرض تحذير بشأن نطاقات الخداع التي تستهدف مستخدمي إيثريوم"
+  },
+  "userName": {
+    "message": "اسم المستخدم"
+  },
+  "viewAccount": {
+    "message": "عرض حساب"
+  },
+  "viewinExplorer": {
+    "message": "عرض في متصفح Explorer"
+  },
+  "viewContact": {
+    "message": "عرض جهة الاتصال"
+  },
+  "viewOnCustomBlockExplorer": {
+    "message": "عرض في $1"
+  },
+  "viewOnEtherscan": {
+    "message": "عرضه على Etherscan"
+  },
+  "retryTransaction": {
+    "message": "أعد المعاملة"
+  },
+  "visitWebSite": {
+    "message": "قم بزيارة موقعنا على الإنترنت"
+  },
+  "walletSeed": {
+    "message": "عبارة الاسترجاع"
+  },
+  "welcomeBack": {
+    "message": "نرحب بعودتك!"
+  },
+  "welcome": {
+    "message": "‏مرحبًا بك في Brave‏"
+  },
+  "whatsThis": {
+    "message": "ما هذا؟"
+  },
+  "writePhrase": {
+    "message": "اكتب هذه العبارة على قطعة من الورق واحفظها في مكان آمن. إذا كنت ترغب في مزيد من الأمان، فاكتبها على عدة أجزاء من الورق واحفظها في مكانين أو 3 أماكن مختلفة."
+  },
+  "xOfY": {
+    "message": "عدد $1 من أصل $2",
+    "description": "$1 and $2 are intended to be two numbers, where $2 is a total, and $1 is a count towards that total"
+  },
+  "yesLetsTry": {
+    "message": "نعم، دعنا نجرب"
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": "أنت بحاجة إلى السماح بالوصول إلى الكاميرا لاستخدام هذه الميزة."
+  },
+  "yourSigRequested": {
+    "message": "جاري طلب توقيعك"
+  },
+  "youSign": {
+    "message": "أنت بصدد التوقيع"
+  },
+  "yourPrivateSeedPhrase": {
+    "message": "عبارة الأمان الشخصية الخاصة بك"
+  },
+  "zeroGasPriceOnSpeedUpError": {
+    "message": "سعر الغاز صفر عند التعجيل"
+  },
+  "decryptRequest": {
+    "message": "طلب فك التشفير"
+  },
+  "decrypt": {
+    "message": "فك تشفير"
+  },
+  "decryptMessageNotice": {
+    "message": "يرغب $1 في قراءة هذه الرسالة لإكمال الإجراء الخاص بك",
+    "description": "$1 is the web3 site name"
+  },
+  "decryptMetamask": {
+    "message": "فك تشفير الرسالة"
+  },
+  "decryptCopy": {
+    "message": "نسخ الرسالة المشفرة"
+  },
+  "decryptInlineError": {
+    "message": "لا يمكن فك تشفير هذه الرسالة بسبب الخطأ: $1",
+    "description": "$1 is error message"
+  },
+  "provide": {
+    "message": "تزويد"
+  },
+  "encryptionPublicKeyRequest": {
+    "message": "طلب تشفير المفتاح العمومي"
+  },
+  "encryptionPublicKeyNotice": {
+    "message": "يرغب $1 في الحصول على مفتاح التشفير العام الخاص بك. بالموافقة، سيتمكن هذا الموقع من إنشاء رسائل مشفرة لك.",
+    "description": "$1 is the web3 site name"
+  },
+  "backupPhraseFileName": {
+    "message": "عبارة النسخ الاحتياطي السرية لمحافظ العملات المشفرة "
+  },
+  "braveRewards": {
+    "message": "مكافآت Brave"
+  },
+  "braveSettings": {
+    "message": "إعدادات Brave"
+  },
+  "contractErrorMessage": {
+    "message": "تحذير: أنت على وشك إرسال هذا الأصل إلى العقد الذكي الخاص به. ربما أنك لا تقصد القيام بذلك، لأنه من المحتمل أن يتسبب ذلك في جعل الأصل غير قابل للاسترداد."
+  },
+  "cryptoWalletsDisclosureOne": {
+    "message": "تتيح لك Crypto Wallets التعامل مع العملات المشفرة والأصول ذات الصلة في Brave. تدعم Crypto Wallets الرموز المميزة لإيثيريوم مثل ETH وBAT، بالإضافة إلى المقتنيات، وتتيح لك التعامل مع Ðapps/التطبيقات اللامركزية والعقود الذكية الأخرى. كل هذا مخصص للأشخاص الذين هم على دراية بالإيثيريوم وأنظمة سلسلة الكتل الأخرى - أو أولئك المتحمسون للتعلم."
+  },
+  "cryptoWalletsDisclosureTwo": {
+    "message": "استخدم Crypto Wallets فقط إذا كنت تقر بأنك وحدك مسؤول عن جميع المخاطر المرتبطة بهذا الاستخدام، وأن Brave Software لا تتحمل أي مسؤولية أو تبعة عن أي خسائر بما في ذلك الخسائر العرضية أو التبعية التي قد تتعرض لها نتيجةً لهذا الاستخدام."
+  },
+  "cryptoWalletsDisclosureThree": {
+    "message": "كل هذا منفصل تماماً عن"
+  },
+  "cryptoWalletsDisclosureFour": {
+    "message": "لذا فإذا كنت تنوي دعم مواقعك المفضلة فانتقل إلى هناك فضلاً عن ذلك."
+  },
+  "cryptoWalletsTitle": {
+    "message": "محافظ Crypto Wallets"
+  },
+  "disclosureConfirm": {
+    "message": "أفهم"
+  },
+  "ledgerCreateSubText": {
+    "message": "قم بربط محفظة Ledger الصلبة الخاصة بك للتفاعل مع dApps وإجراء عمليات التحويل إلى محافظ مرتبطة أخرى."
+  },
+  "metamaskImportSubText": {
+    "message": "ملاحظة: في حالة الاستيراد من Crypto Wallets الإصدار 1.0.26 أو إصدار أقدم، فإن العبارة السرية الخاصة بك هي 24 كلمة بدلاً من 12."
+  },
+  "newLocalWallet": {
+    "message": "محفظة محلية جديدة"
+  },
+  "newLocalWalletSubText": {
+    "message": "قم بإنشاء محفظة محلية جديدة من Brave للوصول إلى dApps وتخزين المشفرات والمقتنيات بشكل آمن. تداول الرموز المميَزة بشكل مُجهَّل وبدون رسوم تداول."
+  },
+  "passWarningOne": {
+    "message": "تحمي كلمة المرور هذه مفتاحك الخاص. لا أحد يستطيع إعادة تعيينها إذا نسيتها، ولا حتى Brave!"
+  },
+  "providerErrorMessage": {
+    "message": "هذه المحفظة ليست مزوّد لتطبيق إيثريوم اللامركزي الافتراضي الخاص بك."
+  },
+  "trezorCreateSubText": {
+    "message": "قم بتوصيل محفظة أجهزة Trezor الخاصة بك للتفاعل مع dApps وإجراء عمليات نقل إلى المحافظ المتصلة الأخرى."
+  },
+  "welcomeCryptoWallets": {
+    "message": "أهلاً بك في Brave Crypto Wallets"
+  },
+  "waitingForConfirmation": {
+    "message": "في انتظار التأكيد."
+  }
+}

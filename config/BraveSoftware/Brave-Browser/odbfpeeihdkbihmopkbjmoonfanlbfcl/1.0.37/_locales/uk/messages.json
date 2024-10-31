@@ -1,0 +1,1911 @@
+{
+  "acceptTermsOfUse": {
+    "message": "Я прочитав(-ла) та погодився(-лась) із $1",
+    "description": "$1 is the `terms` message"
+  },
+  "eth_accounts": {
+    "message": "Переглянути адреси ваших дозволених акаунтів (обов'язково)",
+    "description": "The description for the `eth_accounts` permission"
+  },
+  "connectedSites": {
+    "message": "Пов'язані сайти"
+  },
+  "connectedSitesDescription": {
+    "message": "$1 під'єднаний до цих сайтів. Вони можуть переглядати адресу вашого акаунту.",
+    "description": "$1 is the account name"
+  },
+  "connectedSitesEmptyDescription": {
+    "message": "$1 не під'єднано до жодного сайту.",
+    "description": "$1 is the account name"
+  },
+  "connectedAccountsDescriptionSingular": {
+    "message": "Ви маєте 1 обліковий запис, прив'язаний до цього сайту."
+  },
+  "connectedAccountsDescriptionPlural": {
+    "message": "Ви маєте $1 акаунтів, під'єднаних до цього сайту.",
+    "description": "$1 is the number of accounts"
+  },
+  "connectedAccountsEmptyDescription": {
+    "message": "Brave не під'єднано до цього сайту. Щоб під'єднатися до сайту web3, знайдіть кнопку \"під'єднатися\" на цьому сайті."
+  },
+  "currentAccountNotConnected": {
+    "message": "Ваш поточний акаунт не під'єднано"
+  },
+  "switchToThisAccount": {
+    "message": "Перемкнутися на цей акаунт "
+  },
+  "disconnectThisAccount": {
+    "message": "Від'єднати цей акаунт"
+  },
+  "permissions": {
+    "message": "Дозволи"
+  },
+  "showPermissions": {
+    "message": "Показати дозволи"
+  },
+  "authorizedPermissions": {
+    "message": "Ви авторизували наступні дозволи"
+  },
+  "connectManually": {
+    "message": "Вручну підключитися до поточного сайту"
+  },
+  "disconnect": {
+    "message": "Від'єднатись"
+  },
+  "disconnectAllAccounts": {
+    "message": "Від'єднати усі акаунти"
+  },
+  "disconnectPrompt": {
+    "message": "Від'єднати $1"
+  },
+  "disconnectAllAccountsConfirmationDescription": {
+    "message": "Точно бажаєте від'єднатись? Ви можете втратити функціональність сайту."
+  },
+  "dismiss": {
+    "message": "Відхилити"
+  },
+  "showIncomingTransactions": {
+    "message": "Показати вхідні транзакції"
+  },
+  "showIncomingTransactionsDescription": {
+    "message": "Виберіть це, щоб використовувати Etherscan для відображення вхідних транзакцій у списку транзакцій"
+  },
+  "chartOnlyAvailableEth": {
+    "message": "Таблиця доступна тільки в мережах Ethereum."
+  },
+  "connecting": {
+    "message": "Підключення…"
+  },
+  "connectWithMetaMask": {
+    "message": "З'єднатись за допомогою Brave"
+  },
+  "connectTo": {
+    "message": "Під'єднати до $1",
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to Brave"
+  },
+  "connectToAll": {
+    "message": "Під'єднати до усіх ваших $1",
+    "description": "$1 will be replaced by the translation of connectToAllAccounts"
+  },
+  "connectToAllAccounts": {
+    "message": "акаунти",
+    "description": "will replace $1 in connectToAll, completing the sentence 'connect to all of your accounts', will be text that shows list of accounts on hover"
+  },
+  "connectToMultiple": {
+    "message": "Під'єднати до $1",
+    "description": "$1 will be replaced by the translation of connectToMultipleNumberOfAccounts"
+  },
+  "connectToMultipleNumberOfAccounts": {
+    "message": "$1 акаунтів",
+    "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
+  },
+  "contractInteraction": {
+    "message": "Контрактна взаємодія"
+  },
+  "reject": {
+    "message": "Відхилити"
+  },
+  "about": {
+    "message": "Про Brave Software Brave"
+  },
+  "aboutSettingsDescription": {
+    "message": "Версія, центр підтримки та контакти"
+  },
+  "acceleratingATransaction": {
+    "message": "* Прискорення транзакції за допомогою вищих цін на газ підвищує її шанси бути обробленою мережею швидше, але це не завжди гарантовано."
+  },
+  "accessAndSpendNotice": {
+    "message": "$1 може отримувати доступ та витрачати цю максимальну суму",
+    "description": "$1 is the url of the site requesting ability to spend"
+  },
+  "accessingYourCamera": {
+    "message": "Отримуємо доступ до вашої камери..."
+  },
+  "account": {
+    "message": "Обліковий запис"
+  },
+  "accountDetails": {
+    "message": "Дані облікового запису"
+  },
+  "accountName": {
+    "message": "Назва облікового запису"
+  },
+  "accountOptions": {
+    "message": "Опції облікового запису"
+  },
+  "accountSelectionRequired": {
+    "message": "Вам потрібно обрати обліковий запис!"
+  },
+  "active": {
+    "message": "Активний клієнт"
+  },
+  "activity": {
+    "message": "Активність"
+  },
+  "activityLog": {
+    "message": "журнал активності"
+  },
+  "addNetwork": {
+    "message": "Додати мережу"
+  },
+  "addRecipient": {
+    "message": "Додати отримувача"
+  },
+  "advanced": {
+    "message": "Розширені"
+  },
+  "advancedSettingsDescription": {
+    "message": "Доступ до функцій розробника, завантаження журналів стану, скидання облікового запису, налаштування тестових мереж та користувацьких RPC"
+  },
+  "advancedOptions": {
+    "message": "Додаткові параметри"
+  },
+  "customizeGas": {
+    "message": "Персоналізувати"
+  },
+  "addToAddressBook": {
+    "message": "Додати до адресної книги"
+  },
+  "addToAddressBookModalPlaceholder": {
+    "message": "Напр.: Джон Д."
+  },
+  "addAlias": {
+    "message": "Додати псевдо"
+  },
+  "addToken": {
+    "message": "Додати токен"
+  },
+  "addTokens": {
+    "message": "Додати токени"
+  },
+  "addSuggestedTokens": {
+    "message": "Додати рекомендовані токени"
+  },
+  "addAcquiredTokens": {
+    "message": "Додати токени, отримані вами у ході користування Brave"
+  },
+  "alerts": {
+    "message": "Сповіщення"
+  },
+  "alertsSettingsDescription": {
+    "message": "Увімкнути або вимкнути кожне сповіщення"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "Перегляд веб-сайту з вибраним не зв’язаним обліковим записом"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "Це сповіщення відображається у спливаючому вікні, коли ви переглядаєте підключений веб-сайт Web3, але вибраний наразі обліковий запис не під'єднано."
+  },
+  "allowOriginSpendToken": {
+    "message": "Дозволити $1 витратити ваші $2?",
+    "description": "$1 is the url of the site and $2 is the symbol of the token they are requesting to spend"
+  },
+  "allowThisSiteTo": {
+    "message": "Дозволити цьому сайту:"
+  },
+  "allowExternalExtensionTo": {
+    "message": "Дозволити цому зовнішньому розширенню:"
+  },
+  "allowWithdrawAndSpend": {
+    "message": "Дозволити $1 виводити та витрачати не більше за цю суму:",
+    "description": "The url of the site that requested permission to 'withdraw and spend'"
+  },
+  "amount": {
+    "message": "Кількість"
+  },
+  "amountWithColon": {
+    "message": "Сума:"
+  },
+  "appDescription": {
+    "message": "Гаманець Ethereum у вашому браузері",
+    "description": "The description of the application"
+  },
+  "appName": {
+    "message": "Brave Software",
+    "description": "The name of the application"
+  },
+  "approve": {
+    "message": "Затвердити ліміт витрат"
+  },
+  "approveSpendLimit": {
+    "message": "Затвердити $1 ліміт витрат",
+    "description": "The token symbol that is being approved"
+  },
+  "approved": {
+    "message": "Затверджено"
+  },
+  "asset": {
+    "message": "Актив"
+  },
+  "maker": {
+    "message": "Мейкер"
+  },
+  "taker": {
+    "message": "Тейкер"
+  },
+  "slippage": {
+    "message": "Толерантність до прослизання"
+  },
+  "assets": {
+    "message": "Файли"
+  },
+  "attemptingConnect": {
+    "message": "Спроба підключення до розподіленої бази даних."
+  },
+  "attemptToCancel": {
+    "message": "Спробувати скасувати?"
+  },
+  "attemptToCancelDescription": {
+    "message": "Виконання цієї спроби не гарантує скасування початкової транзакції. Якщо спроба скасування вдасться, з вас буде стягнуто зазначену вище комісію."
+  },
+  "attributions": {
+    "message": "Авторство"
+  },
+  "autoLockTimeLimit": {
+    "message": "Таймер автоблокування (хвилини)"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "Встановіть час простою в хвилинах, перш ніж Brave заблокується."
+  },
+  "average": {
+    "message": "У середньому"
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "backToAll": {
+    "message": "Повернутися до всіх"
+  },
+  "backupApprovalNotice": {
+    "message": "Створіть резервну копію вашого Секретного кода відновлення, щоб ваш гаманець та ваші кошти залишались у безпеці."
+  },
+  "backupApprovalInfo": {
+    "message": "Цей секретний код необхідний для відновлення гаманця на випадок втрати пристрою, забуття пароля, перевстановлення Brave або для отримання доступу до гаманця на іншому пристрої."
+  },
+  "backupNow": {
+    "message": "Створити резервну копію зараз"
+  },
+  "balance": {
+    "message": "Баланс"
+  },
+  "balanceOutdated": {
+    "message": "Залишок можливо вже змінився"
+  },
+  "basic": {
+    "message": "Основні параметри"
+  },
+  "blockExplorerUrl": {
+    "message": "Блокувати Explorer"
+  },
+  "blockExplorerView": {
+    "message": "Переглянути обліковий запис на $1",
+    "description": "$1 replaced by URL for custom block explorer"
+  },
+  "blockiesIdenticon": {
+    "message": "Викоритовувати Blockies Identicon"
+  },
+  "nonceField": {
+    "message": "Змінити номер транзакції"
+  },
+  "nonceFieldHeading": {
+    "message": "Спеціальний нонс"
+  },
+  "nonceFieldDescription": {
+    "message": "Увімкніть це, щоб змінити нонс (номер транзакції) на екранах підтвердження. Це вдосконалена функція, використовуйте обережно."
+  },
+  "browserNotSupported": {
+    "message": "Ваш браузер не підтримується..."
+  },
+  "builtInCalifornia": {
+    "message": "Brave розроблено та створено у Каліфорнії."
+  },
+  "buyWithWyre": {
+    "message": "Купити ETH через Wyre"
+  },
+  "buyWithWyreDescription": {
+    "message": "Wyre дозволяє вам використовувати дебетову картку, щоб поповнювати ваш обілковий запис Brave напряму."
+  },
+  "buyCoinSwitch": {
+    "message": "Купувати на CoinSwitch"
+  },
+  "buyCoinSwitchExplainer": {
+    "message": "CoinSwitch це точка призначення з однією зупинкою для обміну більш ніж 300 криптовалют за найкращими курсами. "
+  },
+  "bytes": {
+    "message": "Байти"
+  },
+  "off": {
+    "message": "Вимкнено"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "on": {
+    "message": "Увімкнути"
+  },
+  "optionalBlockExplorerUrl": {
+    "message": "Блокувати Explorer URL (не обов'язково)"
+  },
+  "cancel": {
+    "message": "Скасувати"
+  },
+  "cancelAttempt": {
+    "message": "Відмінити спробу"
+  },
+  "cancellationGasFee": {
+    "message": "Вартість пального за скасування"
+  },
+  "cancelled": {
+    "message": "Скасовано"
+  },
+  "chainId": {
+    "message": "ID мережі"
+  },
+  "clickToRevealSeed": {
+    "message": "Клацніть тут, щоб відкрити секретні слова"
+  },
+  "close": {
+    "message": "Закрити"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": "Вам потрібно скористатися Brave на Google Chrome, щоб підключитися до вашого апаратного гаманця."
+  },
+  "confirm": {
+    "message": "Підтвердити"
+  },
+  "confirmed": {
+    "message": "Підтверджено"
+  },
+  "confirmPassword": {
+    "message": "Підтвердити пароль"
+  },
+  "confirmSecretBackupPhrase": {
+    "message": "Підтвердьте вашу секретну резервну фразу"
+  },
+  "congratulations": {
+    "message": "Вітаємо!"
+  },
+  "connectAccountOrCreate": {
+    "message": "Прив'язати обліковий запис чи створити новий"
+  },
+  "connectHardwareWallet": {
+    "message": "Приєднайте апаратний гаманець"
+  },
+  "connect": {
+    "message": "Під’єднатися"
+  },
+  "connectingTo": {
+    "message": "Під'єднуємось до $1"
+  },
+  "connectingToKovan": {
+    "message": "Підключення до тестової мережі Kovan"
+  },
+  "connectingToMainnet": {
+    "message": "З'єднуємось з Головною мережею Ethereum"
+  },
+  "connectingToRopsten": {
+    "message": "Під'єднуємось до Тестової мережі Ropsten"
+  },
+  "connectingToRinkeby": {
+    "message": "Під'єднуємось до тестової мережі Rinkeby"
+  },
+  "connectingToLocalhost": {
+    "message": "Під'єднуємось до локального хосту 8545"
+  },
+  "connectingToGoerli": {
+    "message": "Підключення до тестової мережі Goerli"
+  },
+  "contacts": {
+    "message": "Контакти"
+  },
+  "contactsSettingsDescription": {
+    "message": "Додавайте, редагуйте, видаляйте й контролюйте свої контакти"
+  },
+  "contactUs": {
+    "message": "Зв'яжіться з нами!"
+  },
+  "continueToSwap": {
+    "message": "Перейти до свопу"
+  },
+  "continueToWyre": {
+    "message": "Продовжити у Wyre"
+  },
+  "continueToCoinSwitch": {
+    "message": "Продовжити в CoinSwitch"
+  },
+  "contractDeployment": {
+    "message": "Розгортання контракту"
+  },
+  "copiedExclamation": {
+    "message": "Скопійовано!"
+  },
+  "copyAddress": {
+    "message": "Копіювати адресу в буфер обміну"
+  },
+  "copyTransactionId": {
+    "message": "Копіювати ID транзакції"
+  },
+  "copiedTransactionId": {
+    "message": "ID Скопійованої транзакції"
+  },
+  "copyToClipboard": {
+    "message": "Копіювати в буфер"
+  },
+  "copyPrivateKey": {
+    "message": "Це ваш закритий ключ (натисніть, щоб скопіювати)"
+  },
+  "create": {
+    "message": "Створити"
+  },
+  "createAccount": {
+    "message": "Створити обліковий запис"
+  },
+  "createAWallet": {
+    "message": "Створити гаманець"
+  },
+  "createPassword": {
+    "message": "Створити пароль"
+  },
+  "currencyConversion": {
+    "message": "Обмін валют"
+  },
+  "currentExtension": {
+    "message": "Сторінка поточного розширення"
+  },
+  "currentLanguage": {
+    "message": "Поточна мова"
+  },
+  "customGas": {
+    "message": "Налаштувати пальне"
+  },
+  "customGasSubTitle": {
+    "message": "Збільшення комісії може призвести до зменшення часу обробки, але це не гарантується."
+  },
+  "customToken": {
+    "message": "Користувацький токен"
+  },
+  "customRPC": {
+    "message": "Налаштувати RPC"
+  },
+  "customSpendLimit": {
+    "message": "Налаштовуваний ліміт витрат"
+  },
+  "dataBackupFoundInfo": {
+    "message": "Під час попереднього встановлення Brave була створена резервна копія деяких даних вашої обліковки. Серед них можуть бути ваші налаштування, контакти та токени. Бажаєте відновити ці дані зараз?"
+  },
+  "decimalsMustZerotoTen": {
+    "message": "Кількість розрядів після коми: від 0 до 36."
+  },
+  "decimal": {
+    "message": "Знаків після коми"
+  },
+  "defaultNetwork": {
+    "message": "Мережа для транзакцій з Ether за замовчуванням - Main Net."
+  },
+  "delete": {
+    "message": "Видалити"
+  },
+  "deleteAccount": {
+    "message": "Видалити обліковий запис"
+  },
+  "deposit": {
+    "message": "Депозит"
+  },
+  "depositEther": {
+    "message": "Депонувати Ether"
+  },
+  "details": {
+    "message": "Деталі"
+  },
+  "directDepositEther": {
+    "message": "Внести безпосередньо Ефір"
+  },
+  "directDepositEtherExplainer": {
+    "message": "Якщо ви вже маєте ефір, пряме переведення – найшвидший спосіб передати ефір у свій гаманець."
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "dontShowThisAgain": {
+    "message": "Не показувати це знову"
+  },
+  "downloadGoogleChrome": {
+    "message": "Завантажити Гугл Хром"
+  },
+  "downloadSecretBackup": {
+    "message": "Завантажте цю Секретну резервну фразу та зберігайте її у безпеці на зовнішньому зашифрованому жорсткому диску або носії інформації."
+  },
+  "downloadStateLogs": {
+    "message": "Завантажити журнали стану"
+  },
+  "dontHaveAHardwareWallet": {
+    "message": "Не маєте апаратного гаманця?"
+  },
+  "dropped": {
+    "message": "Скинуто"
+  },
+  "edit": {
+    "message": "Редагувати"
+  },
+  "editContact": {
+    "message": "Редагувати контракт"
+  },
+  "editPermission": {
+    "message": "Редагувати дозвіл"
+  },
+  "endOfFlowMessage1": {
+    "message": "Ви пройшли тест, зберігайте вашу початкову фразу в безпеці - це ваша відповідальність!"
+  },
+  "endOfFlowMessage2": {
+    "message": "Поради для безпечного зберігання"
+  },
+  "endOfFlowMessage3": {
+    "message": "Збережіть резервну копію в декількох місцях."
+  },
+  "endOfFlowMessage4": {
+    "message": "Ніколи не передавайте цю фразу нікому."
+  },
+  "endOfFlowMessage5": {
+    "message": "Стережіться фішингу! Brave ніколи спонтанно не попросить вашої початкової фрази."
+  },
+  "endOfFlowMessage6": {
+    "message": "Якщо вам потрібно знову зробити резервну копію вашої початкової фрази, ви можете знайти її у Налаштування -> Безпека."
+  },
+  "endOfFlowMessage7": {
+    "message": "Якщо виникнуть запитання, або помітите щось підозріле, відвідайте форум підтримки"
+  },
+  "endOfFlowMessage8": {
+    "message": "Brave не вдалося віднайти вашу початкову фразу."
+  },
+  "endOfFlowMessage9": {
+    "message": "Дізнатись більше."
+  },
+  "endOfFlowMessage10": {
+    "message": "Усе готово"
+  },
+  "endOfFlowMessage11": {
+    "message": "нашого гаманця."
+  },
+  "externalExtension": {
+    "message": "Стороннє розширення"
+  },
+  "onboardingReturnNotice": {
+    "message": "\"$1\" закриє цю вкладку та перенаправить назад до $2",
+    "description": "Return the user to the site that initiated onboarding"
+  },
+  "ensRegistrationError": {
+    "message": "Помилка у реєстрації ENS ім'я"
+  },
+  "ensNotFoundOnCurrentNetwork": {
+    "message": "Ім'я ENS не знайдено у даній мережі. Спробуйте перейти у Main Ethereum Network."
+  },
+  "enterAnAlias": {
+    "message": "Введіть псевдонім"
+  },
+  "enterMaxSpendLimit": {
+    "message": "Уведіть максимальну суму витрат"
+  },
+  "enterPassword": {
+    "message": "Введіть пароль"
+  },
+  "enterPasswordContinue": {
+    "message": "Введіть пароль, щоб продовжити"
+  },
+  "errorCode": {
+    "message": "Код: $1",
+    "description": "Displayed error code for debugging purposes. $1 is the error code"
+  },
+  "errorDetails": {
+    "message": "Подробиці помилки",
+    "description": "Title for collapsible section that displays error details for debugging purposes"
+  },
+  "errorMessage": {
+    "message": "Повідомлення: $1",
+    "description": "Displayed error message for debugging purposes. $1 is the error message"
+  },
+  "errorName": {
+    "message": "Код: $1",
+    "description": "Displayed error name for debugging purposes. $1 is the error name"
+  },
+  "errorPageTitle": {
+    "message": "Brave зіткнувся з помилкою",
+    "description": "Title of generic error page"
+  },
+  "errorPageMessage": {
+    "message": "Спробуйте ще раз, перезавантаживши сторінку, або зверніться до підтримки за адресою support@brave.com",
+    "description": "Message displayed on generic error page in the fullscreen or notification UI"
+  },
+  "errorPagePopupMessage": {
+    "message": "Спробуйте ще раз, закривши та відкривши спливаюче вікно знову, або зв'яжіться із підтримкою за адресою support@brave.com",
+    "description": "Message displayed on generic error page in the popup UI"
+  },
+  "errorStack": {
+    "message": "Стек:",
+    "description": "Title for error stack, which is displayed for debugging purposes"
+  },
+  "ethereumPublicAddress": {
+    "message": "Публічна адреса Ethereum"
+  },
+  "etherscanView": {
+    "message": "Переглянути обліковий запис на Etherscan"
+  },
+  "estimatedProcessingTimes": {
+    "message": "Приблизні часи обробки"
+  },
+  "estimatedNetworkFee": {
+    "message": "Орієнтовний мережевий збір"
+  },
+  "expandView": {
+    "message": "Розширити перегляд"
+  },
+  "exportPrivateKey": {
+    "message": "Експортувати приватний ключ"
+  },
+  "failed": {
+    "message": "Помилка"
+  },
+  "failureMessage": {
+    "message": "Щось пішло не так, і нам не вдалося завершити дію"
+  },
+  "fast": {
+    "message": "Швидка"
+  },
+  "faster": {
+    "message": "Швидше"
+  },
+  "feeAssociatedRequest": {
+    "message": "Комісія пов'язана із цим запитом."
+  },
+  "fiat": {
+    "message": "Вказівка",
+    "description": "Exchange type"
+  },
+  "fileImportFail": {
+    "message": "Не працює імпорт файлу? Натисніть тут!",
+    "description": "Helps user import their account from a JSON file"
+  },
+  "forgetDevice": {
+    "message": "Забути цей пристрій"
+  },
+  "from": {
+    "message": "Від"
+  },
+  "fromAddress": {
+    "message": "Від: $1",
+    "description": "$1 is the address to include in the From label. It is typically shortened first using shortenAddress"
+  },
+  "functionApprove": {
+    "message": "Функція: Затвердити"
+  },
+  "functionType": {
+    "message": "Тип функції"
+  },
+  "gasLimit": {
+    "message": "Ліміт газу"
+  },
+  "gasLimitInfoModalContent": {
+    "message": "Ліміт газу – максимальна кількість одиниць газу, яку ви бажаєте витратити."
+  },
+  "gasLimitTooLow": {
+    "message": "Ліміт газу має бути не менше 21000"
+  },
+  "gasUsed": {
+    "message": "Пального використано"
+  },
+  "gasPrice": {
+    "message": "Ціна на пальне (GWEI)"
+  },
+  "gasPriceExtremelyLow": {
+    "message": "Ціна газу дуже низька"
+  },
+  "gasPriceInfoModalContent": {
+    "message": "Ціна на пальне визначає кількість Ether, яку ви готові заплатити за кожну одиницю пального."
+  },
+  "gasPriceNoDenom": {
+    "message": "Ціна Газу"
+  },
+  "gdprMessage": {
+    "message": "Ці дані узагальнені і тому є анонімними для цілей Загального регламенту захисту даних (ЄС) 2016/679. Для отримання додаткової інформації стосовно нашої практики конфіденційності, будь ласка, перегляньте наші $1.",
+    "description": "$1 refers to the gdprMessagePrivacyPolicy message, the translation of which is meant to be used exclusively in the context of gdprMessage"
+  },
+  "gdprMessagePrivacyPolicy": {
+    "message": "Політика конфіденційності тут",
+    "description": "this translation is intended to be exclusively used as the replacement for the $1 in the gdprMessage translation"
+  },
+  "general": {
+    "message": "Загальні"
+  },
+  "generalSettingsDescription": {
+    "message": "Конверсія валют, первісна валюта, мова, ідентикон блокіз"
+  },
+  "getEther": {
+    "message": "Отримати Ефір"
+  },
+  "getEtherFromFaucet": {
+    "message": "Отримайте Ether з крану за $1",
+    "description": "Displays network name for Ether faucet"
+  },
+  "getHelp": {
+    "message": "Отримати допомогу."
+  },
+  "getStarted": {
+    "message": "Почати"
+  },
+  "happyToSeeYou": {
+    "message": "Раді вас бачити."
+  },
+  "hardware": {
+    "message": "Апаратний"
+  },
+  "hardwareWalletConnected": {
+    "message": "Апаратний гаманець під'єднано"
+  },
+  "hardwareWallets": {
+    "message": "Під'єднати апаратний гаманець"
+  },
+  "hardwareWalletsMsg": {
+    "message": "Оберіть апаратний гаманець, який хотіли б використовувати із Brave"
+  },
+  "havingTroubleConnecting": {
+    "message": "Проблеми при підключенні?"
+  },
+  "here": {
+    "message": "тут",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
+  },
+  "hexData": {
+    "message": "Шістнадцятирикові дані"
+  },
+  "hide": {
+    "message": "Сховати"
+  },
+  "hideTokenSymbol": {
+    "message": "Приховати $1",
+    "description": "$1 is the symbol for a token (e.g. 'DAI')"
+  },
+  "hideTokenPrompt": {
+    "message": "Приховати токен?"
+  },
+  "history": {
+    "message": "Історія"
+  },
+  "home": {
+    "message": "Домашня сторінка"
+  },
+  "import": {
+    "message": "Імпортувати",
+    "description": "Button to import an account from a selected file"
+  },
+  "importAccount": {
+    "message": "Імпортувати обліковий запис"
+  },
+  "importAccountMsg": {
+    "message": "Імпортовані облікові записи не будуть пов’язані із початково створеною початковою фразою акаунту Brave. Дізнайтеся більше про імпортовані облікові записи"
+  },
+  "importAccountSeedPhrase": {
+    "message": "Імпортувати акаунт із початковою фразою"
+  },
+  "importWallet": {
+    "message": "Імпортувати гаманець"
+  },
+  "importYourExisting": {
+    "message": "Імпортуйте свій існуючий гаманець за допомогою сід-фрази із 12 або 24 слів"
+  },
+  "imported": {
+    "message": "Імпортовано",
+    "description": "status showing that an account has been fully loaded into the keyring"
+  },
+  "importUsingSeed": {
+    "message": "Імпортувати, використовуючи початкову фразу облікового запису"
+  },
+  "infoHelp": {
+    "message": "Інформація та допомога"
+  },
+  "initialTransactionConfirmed": {
+    "message": "Ваша початкова транзакція підтверджена мережею. Натисніть ОК для повернення."
+  },
+  "insufficientBalance": {
+    "message": "Недостатньо коштів"
+  },
+  "insufficientFunds": {
+    "message": "Недостатньо коштів."
+  },
+  "insufficientTokens": {
+    "message": "Недостатньо токенів"
+  },
+  "insufficientFundsGas": {
+    "message": "Недостатньо коштів на пальне."
+  },
+  "balanceFetchError": {
+    "message": "Помилка отримання балансу."
+  },
+  "invalidAddress": {
+    "message": "Недійсна адреса"
+  },
+  "invalidAddressRecipient": {
+    "message": "Недійсна адреса отримувача"
+  },
+  "knownAddressRecipient": {
+    "message": "Відома контрактна адреса."
+  },
+  "knownTokenWarning": {
+    "message": "Ця дія відредагує токени, які вже перелічені у вашому гаманці, і які можна використовувати для фішингу. Схвалюйте лише у тому випадку, якщо ви впевнені, що хочете змінити те, що представляють ці токени."
+  },
+  "reusedTokenNameWarning": {
+    "message": "Цей токен повторно використовує символ із іншого токена, за котрим ви спостерігаєте. Це може здатися заплутаним або оманливим."
+  },
+  "invalidAddressRecipientNotEthNetwork": {
+    "message": "Не є мережею ETH, налаштуйте нижній регістр"
+  },
+  "invalidCustomNetworkAlertContent1": {
+    "message": "У власній мережі '$1' не вистачає ідентифікатора ланцюга.",
+    "description": "$1 is the name/identifier of the network."
+  },
+  "invalidCustomNetworkAlertContent2": {
+    "message": "Відтепер ідентифікатори ланцюгів вимагаються для усіх власних мереж, щоб захистити вас від зловмисних або незадовільних постачальників мереж."
+  },
+  "invalidCustomNetworkAlertContent3": {
+    "message": "Зайдіть у \"Налаштування\" > \"Мережа\" та введіть ідентифікатор ланцюга. Ідентифікатори ланцюгів найпопулярніших мереж можна знайти на $1.",
+    "description": "$1 is a link to https://chainid.network"
+  },
+  "invalidCustomNetworkAlertTitle": {
+    "message": "Невірна власна мережа"
+  },
+  "invalidHexNumber": {
+    "message": "Невірне шістнадцяткове число."
+  },
+  "invalidHexNumberLeadingZeros": {
+    "message": "Невірне шістнадцяткове число. Заберіть провідні нулі, якщо вони є."
+  },
+  "invalidRPC": {
+    "message": "Недійсний RPC URL"
+  },
+  "invalidBlockExplorerURL": {
+    "message": "Недійсна URL-адреса провідника блоків"
+  },
+  "invalidSeedPhrase": {
+    "message": "Недійсна seed-фраза"
+  },
+  "ipfsGateway": {
+    "message": "Шлюз IPFS"
+  },
+  "ipfsGatewayDescription": {
+    "message": "Введіть URL-адресу шлюзу IPFS CID, який використовуватиметься для роздільної здатності ENS."
+  },
+  "invalidIpfsGateway": {
+    "message": "Недійсний шлюз IPFS: значення має бути дійсною URL-адресою"
+  },
+  "invalidNumber": {
+    "message": "Невірне число. Введіть десяткове або шістнадцяткове число."
+  },
+  "invalidNumberLeadingZeros": {
+    "message": "Невірне число. Заберіть провідні нулі, якщо вони є."
+  },
+  "forbiddenIpfsGateway": {
+    "message": "Заборонений шлюз IPFS: будь ласка, вкажіть шлюз CID"
+  },
+  "jsonFile": {
+    "message": "Файл JSON",
+    "description": "format for importing an account"
+  },
+  "kovan": {
+    "message": "Тестова мережа Kovan"
+  },
+  "max": {
+    "message": "Максимум"
+  },
+  "lastConnected": {
+    "message": "Останні під'єднання"
+  },
+  "learnMore": {
+    "message": "Дізнатись більше"
+  },
+  "ledgerAccountRestriction": {
+    "message": "Потрібно скористатися своїм останнім обліковим записом, перш ніж додавати новий."
+  },
+  "letsGoSetUp": {
+    "message": "Так, давайте налаштуємо!"
+  },
+  "likeToAddTokens": {
+    "message": "Ви б хотіли додати ці токени?"
+  },
+  "links": {
+    "message": "Посилання"
+  },
+  "liveGasPricePredictions": {
+    "message": "Прогнози ціни на пальне наживо"
+  },
+  "loading": {
+    "message": "Завантаження..."
+  },
+  "loadingTokens": {
+    "message": "Завантаження токенів…"
+  },
+  "loadMore": {
+    "message": "Завантажити більше"
+  },
+  "localhost": {
+    "message": "Локальний хост 8545"
+  },
+  "lock": {
+    "message": "Заблокувати"
+  },
+  "lockTimeTooGreat": {
+    "message": "Час блокування надто довгий"
+  },
+  "mainnet": {
+    "message": "Головна Мережа Ethereum"
+  },
+  "availableOnMainnetRopsten": {
+    "message": "Доступно лише на mainnet та ropsten"
+  },
+  "memorizePhrase": {
+    "message": "Запам'ятайте цю фразу."
+  },
+  "memo": {
+    "message": "нотатка"
+  },
+  "message": {
+    "message": "Повідомлення"
+  },
+  "metaMaskConnectStatusParagraphOne": {
+    "message": "Тепер ви більше контролюєте зв’язки з вашим акаунтом у Brave."
+  },
+  "metaMaskConnectStatusParagraphTwo": {
+    "message": "Кнопка стану під'єднання показує, чи веб-сайт, який ви відвідуєте, під'єднаний до вибраного вами облікового запису."
+  },
+  "metaMaskConnectStatusParagraphThree": {
+    "message": "Клацніть, щоб управляти вашими під'єднаними акаунтами."
+  },
+  "metamaskDescription": {
+    "message": "Під'єднуємо вас до Ethereum та децентралізованої мережі."
+  },
+  "metamaskVersion": {
+    "message": "Версія Brave"
+  },
+  "mobileSyncText": {
+    "message": "Введіть пароль, щоб підтвердити свою особу!"
+  },
+  "myAccounts": {
+    "message": "Мої облікові записи"
+  },
+  "myWalletAccounts": {
+    "message": "Облікові записи мого гаманця"
+  },
+  "myWalletAccountsDescription": {
+    "message": "Всі ваші облікові записи Brave автоматично будуть додані до цього розділу."
+  },
+  "mustSelectOne": {
+    "message": "Слід вибрати хоча б 1 токен."
+  },
+  "needEtherInWallet": {
+    "message": "Для взаємодії з децентралізованими програмами за допомогою Brave вам знадобиться Ether у вашому гаманці."
+  },
+  "needImportFile": {
+    "message": "Потрібно вибрати файл для імпорту.",
+    "description": "User is important an account and needs to add a file to continue"
+  },
+  "negativeETH": {
+    "message": "Не можливо наділсати від'ємну кількість ETH."
+  },
+  "networkName": {
+    "message": "Ім’я мережі"
+  },
+  "networks": {
+    "message": "Мережі"
+  },
+  "networkSettingsChainIdDescription": {
+    "message": "Ідентифікатор ланцюга використовується для підписування транзакцій. Введіть десяткове або шістнадцяткове число, яке починається із '0x'."
+  },
+  "networkSettingsDescription": {
+    "message": "Додавайте та редагуйте мережі RPC, що можна налаштовувати"
+  },
+  "nevermind": {
+    "message": "Не зважати"
+  },
+  "newAccount": {
+    "message": "Новий обліковий запис"
+  },
+  "newAccountDetectedDialogMessage": {
+    "message": "Виявлено нову адресу! Клацніть тут, щоб додати її до вашої адресної книги."
+  },
+  "newAccountNumberName": {
+    "message": "Обліковий запис $1",
+    "description": "Default name of next account to be created on create account screen"
+  },
+  "newContact": {
+    "message": "Новий контакт"
+  },
+  "newContract": {
+    "message": "Новий контракт"
+  },
+  "newPassword": {
+    "message": "Новий пароль (мін. 8 символів)"
+  },
+  "newNetwork": {
+    "message": "Нова мережа"
+  },
+  "newToMetaMask": {
+    "message": "Новенькі у Brave?"
+  },
+  "noAlreadyHaveSeed": {
+    "message": "Ні, я вже маю початкову фразу"
+  },
+  "protectYourKeys": {
+    "message": "Захистіть свої ключі!"
+  },
+  "protectYourKeysMessage1": {
+    "message": "Будьте обережні з початковою фразою - надходять повідомлення про веб-сайти, які намагаються наслідувати Brave. Brave ніколи не попросить вашої початкової фрази!"
+  },
+  "protectYourKeysMessage2": {
+    "message": "Бережіть свою фразу. Якщо побачите щось підозріле або будете не впевнені щодо веб-сайту, пишіть на адресу support@brave.com"
+  },
+  "rpcUrl": {
+    "message": "Новий RPC URL"
+  },
+  "onlyConnectTrust": {
+    "message": "Прив'язувати лише до довірених сайтів."
+  },
+  "onlyAddTrustedNetworks": {
+    "message": "Зловмисний провайдер мережі Ethereum може брехати про стан блокчейну та фіксувати вашу мережеву активність. Додавайте лише власні мережі, яким ви довіряєте."
+  },
+  "optionalSymbol": {
+    "message": "Символ (не обов'язково)"
+  },
+  "newTotal": {
+    "message": "Новий підсумок"
+  },
+  "newTransactionFee": {
+    "message": "Нова комісія за транзакцію"
+  },
+  "next": {
+    "message": "Далі"
+  },
+  "nextNonceWarning": {
+    "message": "Нонс вище, ніж запропонований нонс $1",
+    "description": "The next nonce according to Brave's internal logic"
+  },
+  "noAddressForName": {
+    "message": "На це ім'я не встановлено адреси."
+  },
+  "noConversionRateAvailable": {
+    "message": "Немає доступного обмінного курсу"
+  },
+  "noTransactions": {
+    "message": "У вас немає транзакцій"
+  },
+  "noThanks": {
+    "message": "Ні, дякую"
+  },
+  "notCurrentAccount": {
+    "message": "Це вірний акаунт? Він відрізняється від акаунту, що наразі вибраний у вашому гаманці"
+  },
+  "notEnoughGas": {
+    "message": "Недостатньо газу"
+  },
+  "noWebcamFoundTitle": {
+    "message": "Вебкамеру не знайдено"
+  },
+  "noWebcamFound": {
+    "message": "Веб-камеру комп’ютера не знайдено. Повторіть спробу."
+  },
+  "ofTextNofM": {
+    "message": "з"
+  },
+  "orderOneHere": {
+    "message": "Замовте Trezor або Ledger та зберігайте ваші кошти у холодному сховищі"
+  },
+  "origin": {
+    "message": "Походження"
+  },
+  "parameters": {
+    "message": "Параметри"
+  },
+  "participateInMetaMetrics": {
+    "message": "Взяти участь у MetaMetrics"
+  },
+  "participateInMetaMetricsDescription": {
+    "message": "Брати участь у MetaMetrics, щоб допомогти нам покращити Brave"
+  },
+  "password": {
+    "message": "Пароль"
+  },
+  "passwordsDontMatch": {
+    "message": "Паролі не збігаються"
+  },
+  "passwordNotLongEnough": {
+    "message": "Пароль закороткий"
+  },
+  "pastePrivateKey": {
+    "message": "Вставте ваш рядок з особистим ключем сюди:",
+    "description": "For importing an account from a private key"
+  },
+  "pending": {
+    "message": "В очікуванні"
+  },
+  "permissionCheckedIconDescription": {
+    "message": "Ви затвердили цей дозвіл"
+  },
+  "permissionUncheckedIconDescription": {
+    "message": "Ви не надали цього дозволу"
+  },
+  "personalAddressDetected": {
+    "message": "Виявлено особисту адресу. Введіть контрактну адресу токена."
+  },
+  "plusXMore": {
+    "message": "+ $1 іще",
+    "description": "$1 is a number of additional but unshown items in a list- this message will be shown in place of those items"
+  },
+  "prev": {
+    "message": "Попередній"
+  },
+  "primaryCurrencySetting": {
+    "message": "Первісна валюта"
+  },
+  "primaryCurrencySettingDescription": {
+    "message": "Оберіть \"рідна\", щоб пріоритезувати показ сум у рідних валютах мережі (напр.ETH). \nОберіть \"фіатна\", щоб пріоритезувати показ сум у ваших обраних фіатних валютах."
+  },
+  "privacyMsg": {
+    "message": "Політика конфіденційності"
+  },
+  "privateKey": {
+    "message": "Закритий ключ",
+    "description": "select this type of file to use to import an account"
+  },
+  "privateKeyWarning": {
+    "message": "Увага: Ніколи не розкривайте цей ключ. Будь-хто з вашим секретним ключем може викрасти всі статки з вашого облікового запису."
+  },
+  "privateNetwork": {
+    "message": "Приватна мережа"
+  },
+  "proposedApprovalLimit": {
+    "message": "Запропонований ліміт підтверждення"
+  },
+  "queue": {
+    "message": "Черга"
+  },
+  "queued": {
+    "message": "У черзі"
+  },
+  "readdToken": {
+    "message": "Ви можете знову додати цей токен у меню облікового запису у розділі “Додати токен”. "
+  },
+  "recents": {
+    "message": "Останні"
+  },
+  "receive": {
+    "message": "Отримати"
+  },
+  "recipientAddress": {
+    "message": "Адреса отримувача"
+  },
+  "recipientAddressPlaceholder": {
+    "message": "Пошукова чи публічна адреса (0x) або домен"
+  },
+  "rejectAll": {
+    "message": "Відхилити все"
+  },
+  "rejectTxsN": {
+    "message": "Відхилити транзакції ($1)"
+  },
+  "rejectTxsDescription": {
+    "message": "Ви збираєтеся пакетно відхилити транзакції ($1)."
+  },
+  "rejected": {
+    "message": "Відмовлено"
+  },
+  "reset": {
+    "message": "Скинути"
+  },
+  "resetAccount": {
+    "message": "Перезапустити обліковий запис"
+  },
+  "resetAccountDescription": {
+    "message": "Скидання акаунту очистить історію транзакцій. Це не змінить залишки на ваших рахунках та не вимагатиме повторного введення початкової фрази."
+  },
+  "deleteNetwork": {
+    "message": "Видалити мережу?"
+  },
+  "deleteNetworkDescription": {
+    "message": "Ви впевнені, що хочете видалити цю мережу?"
+  },
+  "remindMeLater": {
+    "message": "Нагадайте мені пізніше"
+  },
+  "restoreFromSeed": {
+    "message": "Відновити обліковий запис?"
+  },
+  "restoreAccountWithSeed": {
+    "message": "Відновіть ваш обліковий запис за допомогою seed-фрази"
+  },
+  "restoreWalletPreferences": {
+    "message": "Знайдено резервну копію ваших даних із $1. Хочете відновити налаштування гаманця?",
+    "description": "$1 is the date at which the data was backed up"
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": "запити, що очікують на визнання"
+  },
+  "required": {
+    "message": "Обов'язкове"
+  },
+  "restore": {
+    "message": "Відновити"
+  },
+  "revealSeedWords": {
+    "message": "Показати початкову фразу"
+  },
+  "revealSeedWordsTitle": {
+    "message": "Мнемонічна фраза"
+  },
+  "revealSeedWordsDescription": {
+    "message": "При зміні браузера або комп'ютера, вам знадобиться seed-фраза для отримання доступу до ваших облікових записів. Збережіть її у надійному місці."
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "НЕ передавайте цю фразу нікому!"
+  },
+  "revealSeedWordsWarning": {
+    "message": "Ці слова можуть бути використані, щоб вкрасти всі ваші облікові записи."
+  },
+  "remove": {
+    "message": "Видалити"
+  },
+  "removeAccount": {
+    "message": "Видалення облікового запису"
+  },
+  "removeAccountDescription": {
+    "message": "Цей обліковий запис буде видалено з вашого гаманця. Будь ласка, переконайтесь, що у вас є оригінальна seed-фраза чи секретний ключ для цього облікового запису. Ви можете імпортувати або створювати облікові записи у випадаючому меню вашого облікового запису."
+  },
+  "readyToConnect": {
+    "message": "Готові підключитися?"
+  },
+  "reviewSwap": {
+    "message": "Переглянути своп"
+  },
+  "rinkeby": {
+    "message": "Тестова мережа Rinkeby"
+  },
+  "ropsten": {
+    "message": "Тестова мережа Ropsten"
+  },
+  "goerli": {
+    "message": "Тестова мережа Goerli "
+  },
+  "save": {
+    "message": "Зберегти"
+  },
+  "slow": {
+    "message": "Повільна"
+  },
+  "slower": {
+    "message": "Повільніше"
+  },
+  "saveAsCsvFile": {
+    "message": "Зберегти як файл CSV"
+  },
+  "scanInstructions": {
+    "message": "Розташуйте QR-код перед вашою камерою"
+  },
+  "scanQrCode": {
+    "message": "Сканувати QR-код"
+  },
+  "search": {
+    "message": "Пошук"
+  },
+  "searchResults": {
+    "message": "Результати пошуку"
+  },
+  "secretBackupPhrase": {
+    "message": "Секретна резервна фраза"
+  },
+  "secretBackupPhraseDescription": {
+    "message": "Ваша секретна резервна фраза дозволяє легко створити резервну копію та відновити обліковий запис."
+  },
+  "secretBackupPhraseWarning": {
+    "message": "ЗАСТЕРЕЖЕННЯ: Ніколи не розголошуйте вашу резервну фразу. Будь-хто з цією фразою зможе забрати ваш Ether назавжди."
+  },
+  "secretPhrase": {
+    "message": "Введіть власну таємну фразу із 12 чи 24 слів, щоб відновити своє сховище."
+  },
+  "securityAndPrivacy": {
+    "message": "Безпека й конфіденційність"
+  },
+  "securitySettingsDescription": {
+    "message": "Налаштування приватності та початкова фраза гаманця"
+  },
+  "seedPhrasePlaceholder": {
+    "message": "Відділіть кожне слово одним пробілом"
+  },
+  "seedPhrasePlaceholderPaste": {
+    "message": "Вставити початкову фразу із буфера обміну"
+  },
+  "showSeedPhrase": {
+    "message": "Показати початкову фразу"
+  },
+  "seedPhraseReq": {
+    "message": "Початкові фрази містять 12, 15, 18, 21 або 24 слова."
+  },
+  "selectingAllWillAllow": {
+    "message": "Вибравши все, ви дозволите цьому веб-сайту переглядати всі ваші поточні акаунти. Переконайтеся, що ви довіряєте цьому веб-сайту."
+  },
+  "selectAccounts": {
+    "message": "Вибрати обліковку(-и)"
+  },
+  "selectAll": {
+    "message": "Вибрати все"
+  },
+  "selectCurrency": {
+    "message": "Виберіть валюту"
+  },
+  "selectEachPhrase": {
+    "message": "Виберіть кожну фразу, щоб переконатися, що вона правильна."
+  },
+  "selectLocale": {
+    "message": "Оберіть локаль"
+  },
+  "selectType": {
+    "message": "Обрати тип"
+  },
+  "setAllowance": {
+    "message": "Задати допустиму межу"
+  },
+  "buy": {
+    "message": "Купити"
+  },
+  "send": {
+    "message": "Надіслати"
+  },
+  "swap": {
+    "message": "Своп"
+  },
+  "swapApprovalSecurityMsg": {
+    "message": "З міркувань безпеки та задля захисту від атак із зміни порядку транзакцій радимо скинути допустиму межу до 0, перш ніж задавати потрібне значення."
+  },
+  "swapBraveFees": {
+    "message": "Розцінка включає збір Brave у $1."
+  },
+  "swapFooterPrivacyNotice": {
+    "message": "Brave використовує $1 у якості агрегатора DEX. Детальніше читайте у $2."
+  },
+  "swapNewQuoteCountdown": {
+    "message": "Нова розцінка у"
+  },
+  "swapSlippageDescription": {
+    "message": "Максимальна прийнятна зміна ціни активу, який купується, у відсотках. Якщо дельта перевищує прослизання, своп проведений не буде."
+  },
+  "swapQuoteRefresh": {
+    "message": "Розцінки часто оновлюються для відображення поточного стану ринку."
+  },
+  "sendAmount": {
+    "message": "Надіслати суму"
+  },
+  "sendETH": {
+    "message": "Надіслати ETH"
+  },
+  "sendTokens": {
+    "message": "Надіслати токени"
+  },
+  "sentEther": {
+    "message": "надісланий ефір"
+  },
+  "sentTokens": {
+    "message": "надіслані токени"
+  },
+  "sendSpecifiedTokens": {
+    "message": "Надіслати $1",
+    "description": "Symbol of the specified token"
+  },
+  "separateEachWord": {
+    "message": "Відділіть кожне слово одним пробілом"
+  },
+  "searchAssets": {
+    "message": "Шукати активи"
+  },
+  "searchTokens": {
+    "message": "Шукати токени"
+  },
+  "searchAccounts": {
+    "message": "Шукати обліковки"
+  },
+  "noAccountsFound": {
+    "message": "За даним пошуковим запитом не знайдено акаунтів"
+  },
+  "selectAsset": {
+    "message": "Вибрати актив"
+  },
+  "selectAnAccount": {
+    "message": "Виберіть обліковий запис"
+  },
+  "selectAnAccountHelp": {
+    "message": "Оберіть акаунт для перегляду в Brave"
+  },
+  "selectAHigherGasFee": {
+    "message": "Оберіть вищу вартість пального, щоб пришвидшити обробку вашої транзакції.*"
+  },
+  "selectHdPath": {
+    "message": "Виберіть шлях до HD-гаманця"
+  },
+  "selectPathHelp": {
+    "message": "Якщо ви не бачите ваш обліковий запис Ledger, який існує, спробуйте переключити шляхи на \"Legacy (MEW / MyCrypto)\""
+  },
+  "settings": {
+    "message": "Налаштування"
+  },
+  "showAdvancedGasInline": {
+    "message": "Розширене керування газом"
+  },
+  "showAdvancedGasInlineDescription": {
+    "message": "Виберіть цей параметр, щоб відображати регулятори ціни й ліміту газу на екранах надсилання й підтвердження."
+  },
+  "showFiatConversionInTestnets": {
+    "message": "Показати бесіду у Testnet"
+  },
+  "showFiatConversionInTestnetsDescription": {
+    "message": "Оберіть це, щоб показати конверсію фіатних валют на Testnets"
+  },
+  "showPrivateKeys": {
+    "message": "Показати приватні ключі"
+  },
+  "showHexData": {
+    "message": "Показати шістнадцятирикові дані"
+  },
+  "showHexDataDescription": {
+    "message": "Оберіть це, щоб показати поле для шістнадцятирикових даних на екрані надсилання"
+  },
+  "sign": {
+    "message": "Підписати"
+  },
+  "signatureRequest": {
+    "message": "Запит підпису"
+  },
+  "signatureRequest1": {
+    "message": "Повідомлення"
+  },
+  "signed": {
+    "message": "Підписано"
+  },
+  "signNotice": {
+    "message": "Підписування цього повідомлення може мати небезпечний побічний ефект. Підписуйте тільки повідомлення від сайтів, яким ви повністю довіряєте весь ваш обліковий запис. Цей небезпечний метод буде усунуто у майбутній версії."
+  },
+  "sigRequest": {
+    "message": "Запит підпису"
+  },
+  "somethingWentWrong": {
+    "message": "Ой! Щось пішло не так."
+  },
+  "speedUp": {
+    "message": "Пришвидшити"
+  },
+  "speedUpCancellation": {
+    "message": "Пришвидшити це скасування"
+  },
+  "speedUpTransaction": {
+    "message": "Прискорити цю транзакцію"
+  },
+  "spendLimitPermission": {
+    "message": "Дозвіл ліміту витрат"
+  },
+  "spendLimitRequestedBy": {
+    "message": "Ліміт витрат, запитаний $1",
+    "description": "Origin of the site requesting the spend limit"
+  },
+  "spendLimitTooLarge": {
+    "message": "Ліміт витрат надто високий"
+  },
+  "spendLimitInvalid": {
+    "message": "Ліміт витрат недійсний; має бути додатне число"
+  },
+  "switchNetworks": {
+    "message": "Переключити мережі"
+  },
+  "stateLogFileName": {
+    "message": "Журнали стану Brave"
+  },
+  "stateLogs": {
+    "message": "Логи стану"
+  },
+  "stateLogsDescription": {
+    "message": "Логи стану містять ваші публічні адреси облікового запису та надіслані транзакції."
+  },
+  "stateLogError": {
+    "message": "При отриманні логів стану сталася помилка."
+  },
+  "statusConnected": {
+    "message": "Підключено"
+  },
+  "statusNotConnected": {
+    "message": "Не під’єднано"
+  },
+  "step1HardwareWallet": {
+    "message": "1. Приєднайте апаратний гаманець"
+  },
+  "step1HardwareWalletMsg": {
+    "message": "Під'єднайте ваш апаратний гаманець безпосередньо до вашого комп'ютера."
+  },
+  "step2HardwareWallet": {
+    "message": "2. Оберіть обліковий запис"
+  },
+  "step2HardwareWalletMsg": {
+    "message": "Оберіть обліковий запис, який бажаєте переглянути. Ви можете вибрати лише один."
+  },
+  "step3HardwareWallet": {
+    "message": "3. Починайте користуватись web3 та багатьма іншими можливостями!"
+  },
+  "step3HardwareWalletMsg": {
+    "message": "Використовуйте свій апаратний рахунок, як з будь-яким обліковим записом Ethereum. Під’єднуйтесь до сайтів web3, надсилайте ETH, купуйте та зберігайте токени ERC20 та незамінні токени, такі як CryptoKitties."
+  },
+  "storePhrase": {
+    "message": "Зберігайте цю фразу у менеджері паролів, як 1Password."
+  },
+  "submit": {
+    "message": "Надіслати"
+  },
+  "submitted": {
+    "message": "Надіслано"
+  },
+  "supportCenter": {
+    "message": "Відвідайте наш центр підтримки"
+  },
+  "swapPrivacyPolicy": {
+    "message": "Політика конфіденційності свопу"
+  },
+  "swapPrivacyPolicyDescription": {
+    "message": "Brave використовує $1 у якості агрегатора DEX. 0x обробить адресу Ethereum та IP-адресу для проведення транзакції (включно з отриманням розцінок). 0x використовуватиме ці дані ВИКЛЮЧНО для обробки транзакцій."
+  },
+  "symbol": {
+    "message": "Символ"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "Символ повинен складатись із не більш ніж 11 знаків"
+  },
+  "syncWithMobile": {
+    "message": "Синхронізувати з мобільним пристроєм"
+  },
+  "syncWithMobileTitle": {
+    "message": "Синхронізувати з мобільним"
+  },
+  "syncWithMobileDesc": {
+    "message": "Ви можете синхронізувати свої облікові записи та інформацію з мобільним пристроєм. Відкрийте мобільний додаток Brave, перейдіть у \"Налаштування\" та натисніть \"Синхронізація з розширення браузера\""
+  },
+  "syncWithMobileDescNewUsers": {
+    "message": "Якщо ви відкрили мобільний додаток Brave уперше, просто виконайте вказівки у телефоні."
+  },
+  "syncWithMobileScanThisCode": {
+    "message": "Відскануйте цей код з допомогою мобільного додатку Brave"
+  },
+  "syncWithMobileBeCareful": {
+    "message": "Переконайтесь, що ніхто не дивиться на ваш екран, коли скануєте цей код"
+  },
+  "syncWithMobileComplete": {
+    "message": "Ваші дані успішно синхронізовано. Насолоджуйтесь мобільним додатком Brave!"
+  },
+  "terms": {
+    "message": "Умови використання"
+  },
+  "testFaucet": {
+    "message": "Тестовий кран"
+  },
+  "thisWillCreate": {
+    "message": "У результаті цієї дії буде створено новий гаманець і мнемонічна фраза"
+  },
+  "timeout": {
+    "message": "Час очікування"
+  },
+  "tips": {
+    "message": "Чайові"
+  },
+  "to": {
+    "message": "Кому"
+  },
+  "toAddress": {
+    "message": "Кому: $1",
+    "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
+  },
+  "toWithColon": {
+    "message": "До:"
+  },
+  "token": {
+    "message": "Токен"
+  },
+  "tokenAlreadyAdded": {
+    "message": "Токен вже був доданий."
+  },
+  "tokenContractAddress": {
+    "message": "Контрактна адреса токену"
+  },
+  "tokenOptions": {
+    "message": "Варіанти токенів"
+  },
+  "tokenSymbol": {
+    "message": "Символ токена"
+  },
+  "total": {
+    "message": "Усього"
+  },
+  "transaction": {
+    "message": "транзакція"
+  },
+  "transactionConfirmed": {
+    "message": "Транзакцію підтверджено о $2."
+  },
+  "transactionCreated": {
+    "message": "Транзакція створена з вартістю $1 о $2."
+  },
+  "transactionDropped": {
+    "message": "Транзакція впала о $2."
+  },
+  "transactionSubmitted": {
+    "message": "Транзакція надіслана з оплатою за газ $1 о $2."
+  },
+  "transactionResubmitted": {
+    "message": "Транзакція повторно подана з підвищеною платою за газ до $1 о $2"
+  },
+  "transactionUpdated": {
+    "message": "Час оновлення транзакції: $2."
+  },
+  "transactionErrored": {
+    "message": "Під час виконання транзакції сталася помилка."
+  },
+  "transactionCancelAttempted": {
+    "message": "Сталась спроба скасувати транзакцію з ціною пального $1 за $2"
+  },
+  "transactionCancelSuccess": {
+    "message": "Транзакцію успішно скасовано на $2"
+  },
+  "transactionError": {
+    "message": "Помилка транзакції. В контрактному коді виданий виняток"
+  },
+  "transactionErrorNoContract": {
+    "message": "Ви намагаєтесь викликати функцію за неконтрактною адресою."
+  },
+  "transactionFee": {
+    "message": "Комісія за транзакцію"
+  },
+  "transactionTime": {
+    "message": "Час транзакції"
+  },
+  "showTransactionTimeDescription": {
+    "message": "Виберіть цей параметр, щоб відобразити очікувані оцінки часу транзакцій на вкладці активності, перебуваючи в головній мережі Ethereum. Примітка: оцінки - це наближення на основі мережевих умов."
+  },
+  "transfer": {
+    "message": "Передати"
+  },
+  "transferBetweenAccounts": {
+    "message": "Передати між моїми обліковими записами"
+  },
+  "transferFrom": {
+    "message": "Передати від"
+  },
+  "troubleTokenBalances": {
+    "message": "В нас виникли складнощі при завантаженні ваших залишків токенів. Ви можете переглянути їх",
+    "description": "Followed by a link (here) to view token balances"
+  },
+  "trustSiteApprovePermission": {
+    "message": "Ви довіряєте цьому сайту? Надавши цей дозвіл, ви дозволите $1 вивесті ваші $2 та проводити автоматичні транзакції.",
+    "description": "$1 is the url requesting permission and $2 is the symbol of the currency that the request is for"
+  },
+  "tryAgain": {
+    "message": "Повторити"
+  },
+  "typePassword": {
+    "message": "Уведіть ваш пароль Brave"
+  },
+  "unapproved": {
+    "message": "Не затверджено"
+  },
+  "alertDisableTooltip": {
+    "message": "Це можна змінити у \"Налаштуваннях > Сповіщеннях\""
+  },
+  "units": {
+    "message": "одиниці"
+  },
+  "unknown": {
+    "message": "невідомо"
+  },
+  "unknownNetwork": {
+    "message": "Незнайома приватна мережа"
+  },
+  "unknownQrCode": {
+    "message": "Помилка: ми не змогли ідентифікувати цей QR-код "
+  },
+  "unknownCameraErrorTitle": {
+    "message": "Отакої! Щось пішло не так..."
+  },
+  "unknownCameraError": {
+    "message": "Виникла помилка при спробі отримати доступ до вашої камери. Будь ласка, спробуйте знову..."
+  },
+  "unlimited": {
+    "message": "Необмежений"
+  },
+  "unlock": {
+    "message": "Розблокувати"
+  },
+  "unlockMessage": {
+    "message": "Децентралізована мережа очікує"
+  },
+  "updatedWithDate": {
+    "message": "Оновлено $1"
+  },
+  "urlErrorMsg": {
+    "message": "Посилання потребують відповідного префікса HTTP/HTTPS."
+  },
+  "urlExistsErrorMsg": {
+    "message": "Посилання вже присутнє в існуючому списку мереж"
+  },
+  "usedByClients": {
+    "message": "Використовується низкою різних клієнтів"
+  },
+  "usePhishingDetection": {
+    "message": "Використати виявлення фішингу"
+  },
+  "usePhishingDetectionDescription": {
+    "message": "Вивести попередження для фішингових доменів, націлених на користувачів Ethereum"
+  },
+  "userName": {
+    "message": "Ім’я користувача"
+  },
+  "viewAccount": {
+    "message": "Переглянути обліковий запис"
+  },
+  "viewinExplorer": {
+    "message": "Дивитись в Explorer"
+  },
+  "viewContact": {
+    "message": "Переглянути контакт"
+  },
+  "viewOnCustomBlockExplorer": {
+    "message": "Дивитись на $1"
+  },
+  "viewOnEtherscan": {
+    "message": "Дивитись на Etherscan"
+  },
+  "retryTransaction": {
+    "message": "Повторити транзакцію"
+  },
+  "visitWebSite": {
+    "message": "Відвідайте наш веб-сайт"
+  },
+  "walletSeed": {
+    "message": "Мнемонічна фраза"
+  },
+  "welcomeBack": {
+    "message": "З поверненням!"
+  },
+  "welcome": {
+    "message": "Вітаємо у Brave!"
+  },
+  "whatsThis": {
+    "message": "Що це?"
+  },
+  "writePhrase": {
+    "message": "Запишіть цю фразу на аркуші паперу й покладіть у надійне місце. Для більшої надійності запишіть її на кількох аркушах паперу й зберігайте кожен в 2–3 різних місцях."
+  },
+  "xOfY": {
+    "message": "$1 із $2",
+    "description": "$1 and $2 are intended to be two numbers, where $2 is a total, and $1 is a count towards that total"
+  },
+  "yesLetsTry": {
+    "message": "Так, давайте спробуємо"
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": "Вам потрібно дозволити доступ до камери, щоб користуватись цією функцією."
+  },
+  "yourSigRequested": {
+    "message": "Надійшов запит вашого підпису"
+  },
+  "youSign": {
+    "message": "Ви підписуєте"
+  },
+  "yourPrivateSeedPhrase": {
+    "message": "Ваша секретна seed-фраза"
+  },
+  "zeroGasPriceOnSpeedUpError": {
+    "message": "Ціна пального на прискорення - нуль"
+  },
+  "decryptRequest": {
+    "message": "Запит на розшифрування"
+  },
+  "decrypt": {
+    "message": "Розшифрувати"
+  },
+  "decryptMessageNotice": {
+    "message": "$1 бажає прочитати це повідомлення, щоб завершити вашу дію",
+    "description": "$1 is the web3 site name"
+  },
+  "decryptMetamask": {
+    "message": "Розшифрувати повідомлення "
+  },
+  "decryptCopy": {
+    "message": "Скопіювати зашифроване повідомлення"
+  },
+  "decryptInlineError": {
+    "message": "Це повідомлення не вдалося розшифрувати через наступну помилку: $1",
+    "description": "$1 is error message"
+  },
+  "provide": {
+    "message": "Надати"
+  },
+  "encryptionPublicKeyRequest": {
+    "message": "Запит на відкритий ключ шифрування"
+  },
+  "encryptionPublicKeyNotice": {
+    "message": "$1 хоче отримати ваш відкритий ключ шифрування. За згодою цей веб-сайт зможе складати вам зашифровані повідомлення.",
+    "description": "$1 is the web3 site name"
+  },
+  "backupPhraseFileName": {
+    "message": "Секретна фраза для відновлення крипто-гаманців"
+  },
+  "braveRewards": {
+    "message": "Винагороди Brave "
+  },
+  "braveSettings": {
+    "message": "Налаштування Brave"
+  },
+  "contractErrorMessage": {
+    "message": "Попередження: ви ось-ось надішлете цей актив його власному смарт-контракту. Навряд чи ви хотіли зробити саме це, адже актив, вірогідно, стане неможливо відновити."
+  },
+  "cryptoWalletsDisclosureOne": {
+    "message": "Крипто-гаманці дозволяють вам працювати з криптовалютою та відповідними активами в Brave. Крипто-гаманці підтримують токени Ethereum, такі як ETH та BAT, а також колекційні, й дозволяють працювати з Ðapps та іншими смарт-контрактами. Все це призначено для людей, які знайомі з Ethereum та іншими системами блокчейнів - або раді дізнатися про них."
+  },
+  "cryptoWalletsDisclosureTwo": {
+    "message": "Користуйтеся криптовалютами лише в разі, коли ви повністю приймаєте відповідальність за всі ризики, пов'язані з таким використанням, і погоджуєтеся, що Brave Software не несе відповідальності за будь-які збитки, включаючи випадкові або наслідкові втрати, які ви можете зазнати в результаті цього використання."
+  },
+  "cryptoWalletsDisclosureThree": {
+    "message": "Все це абсолютно окремо від"
+  },
+  "cryptoWalletsDisclosureFour": {
+    "message": "Тож якщо ви хотіли підтримати свої улюблені сайти – просто зайдіть на них."
+  },
+  "cryptoWalletsTitle": {
+    "message": "Криптогаманці"
+  },
+  "disclosureConfirm": {
+    "message": "Я розумію"
+  },
+  "ledgerCreateSubText": {
+    "message": "Під'єднайте ваш апаратний гаманець Ledger, щоб взаємодіяти з dApps та робити перекази на інші пов'язані гаманці."
+  },
+  "metamaskImportSubText": {
+    "message": "Зауважте: при імпортуванні з криптогаманців версії 1.0.26 або раніших ваша таємна фраза складатиметься із 24, а не 12 слів."
+  },
+  "newLocalWallet": {
+    "message": "Новий локальний гаманець"
+  },
+  "newLocalWalletSubText": {
+    "message": "Створіть новий локальний гаманець Brave, щоб отримати доступ до dApps та безпечно зберігати крипто та предмети колекціонування. Торгуйте токенами анонімно без плати за торгівлю."
+  },
+  "passWarningOne": {
+    "message": "Цей пароль захищає ваш приватний ключ. Ніхто не може скинути його, якщо ви його забудете, навіть Brave!"
+  },
+  "providerErrorMessage": {
+    "message": "Цей гаманець - не ваш провайдер Ethereum Dapp за замовчуванням."
+  },
+  "trezorCreateSubText": {
+    "message": "Під'єднайте ваш апаратний гаманець Trezor, щоб взаємодіяти з dApps та робити перекази до інших пов'язаних гаманців."
+  },
+  "welcomeCryptoWallets": {
+    "message": "Ласкаво просимо до Криптогаманців Brave"
+  },
+  "waitingForConfirmation": {
+    "message": "В очікуванні підтвердження"
+  }
+}

@@ -1,0 +1,1911 @@
+{
+  "acceptTermsOfUse": {
+    "message": "Perskaičiau ir sutinku su $1",
+    "description": "$1 is the `terms` message"
+  },
+  "eth_accounts": {
+    "message": "Peržiūrėkite leistinų paskyrų adresus (būtina)",
+    "description": "The description for the `eth_accounts` permission"
+  },
+  "connectedSites": {
+    "message": "Prijungtos svetainės"
+  },
+  "connectedSitesDescription": {
+    "message": "$1 yra prijungta prie šių svetainių. Jos gali matyti jūsų paskyros adresą.",
+    "description": "$1 is the account name"
+  },
+  "connectedSitesEmptyDescription": {
+    "message": "$1 nėra prijungta prie jokių svetainių.",
+    "description": "$1 is the account name"
+  },
+  "connectedAccountsDescriptionSingular": {
+    "message": "Turite 1 paskyrą, prijungtą prie šios svetainės."
+  },
+  "connectedAccountsDescriptionPlural": {
+    "message": "Turite $1 paskyras, prijungtas prie šios svetainės.",
+    "description": "$1 is the number of accounts"
+  },
+  "connectedAccountsEmptyDescription": {
+    "message": "„Brave“ nėra prijungta prie šios svetainės. Norėdami prisijungti prie „Web3“ svetainės, ieškokite prisijungimo mygtuko toje svetainėje."
+  },
+  "currentAccountNotConnected": {
+    "message": "Jūsų dabartinė paskyra neprijungta"
+  },
+  "switchToThisAccount": {
+    "message": "Perjunkite į šią paskyrą"
+  },
+  "disconnectThisAccount": {
+    "message": "Atjunkite šią paskyrą"
+  },
+  "permissions": {
+    "message": "Leidimai"
+  },
+  "showPermissions": {
+    "message": "Rodyti leidimus"
+  },
+  "authorizedPermissions": {
+    "message": "Jūs suteikėte šiuos leidimus"
+  },
+  "connectManually": {
+    "message": "Neautomatiškai prisijunkite prie dabartinės svetainės"
+  },
+  "disconnect": {
+    "message": "Atsijungti"
+  },
+  "disconnectAllAccounts": {
+    "message": "Atjunkite visas paskyras"
+  },
+  "disconnectPrompt": {
+    "message": "Atjunkite $1"
+  },
+  "disconnectAllAccountsConfirmationDescription": {
+    "message": "Ar tikrai norite atsijungti? Svetainės funkcijos gali neveikti."
+  },
+  "dismiss": {
+    "message": "Atsisakyti"
+  },
+  "showIncomingTransactions": {
+    "message": "Rodyti gaunamas operacijas"
+  },
+  "showIncomingTransactionsDescription": {
+    "message": "Pažymėkite čia, jei norite, kad „Etherscan“ operacijų sąraše rodytų gaunamas operacijas"
+  },
+  "chartOnlyAvailableEth": {
+    "message": "Diagramos yra tik „Ethereum“ tinkluose."
+  },
+  "connecting": {
+    "message": "Jungiamasi..."
+  },
+  "connectWithMetaMask": {
+    "message": "Prisijunkite naudodami „Brave“"
+  },
+  "connectTo": {
+    "message": "Prisijunkite prie $1",
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to Brave"
+  },
+  "connectToAll": {
+    "message": "Prisijunkite prie visų savo $1",
+    "description": "$1 will be replaced by the translation of connectToAllAccounts"
+  },
+  "connectToAllAccounts": {
+    "message": "paskyrų",
+    "description": "will replace $1 in connectToAll, completing the sentence 'connect to all of your accounts', will be text that shows list of accounts on hover"
+  },
+  "connectToMultiple": {
+    "message": "Prisijunkite prie $1",
+    "description": "$1 will be replaced by the translation of connectToMultipleNumberOfAccounts"
+  },
+  "connectToMultipleNumberOfAccounts": {
+    "message": "$1 paskyrų",
+    "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
+  },
+  "contractInteraction": {
+    "message": "Sutartinė sąveika"
+  },
+  "reject": {
+    "message": "Atmesti"
+  },
+  "about": {
+    "message": "Apie"
+  },
+  "aboutSettingsDescription": {
+    "message": "Versija, palaikymo centras ir kontaktinė informacija"
+  },
+  "acceleratingATransaction": {
+    "message": "Operacijos paspartinimas naudojantis didesne dujų kaina padidina galimybes, kad ji bus greičiau apdorota tinkle, tačiau tai ne visada garantuojama. "
+  },
+  "accessAndSpendNotice": {
+    "message": "$1 gali pasiekti ir išleisti neviršydamas šios maksimalios sumos",
+    "description": "$1 is the url of the site requesting ability to spend"
+  },
+  "accessingYourCamera": {
+    "message": "Kreipiamasi į kamerą..."
+  },
+  "account": {
+    "message": "Paskyra"
+  },
+  "accountDetails": {
+    "message": "Išsami paskyros informacija"
+  },
+  "accountName": {
+    "message": "Paskyros pavadinimas"
+  },
+  "accountOptions": {
+    "message": "Paskyros parinktys"
+  },
+  "accountSelectionRequired": {
+    "message": "Jums reikia pasirinkti paskyrą!"
+  },
+  "active": {
+    "message": "Aktyvus"
+  },
+  "activity": {
+    "message": "Veikla"
+  },
+  "activityLog": {
+    "message": "veiklos žurnalas"
+  },
+  "addNetwork": {
+    "message": "Pridėti tinklą"
+  },
+  "addRecipient": {
+    "message": "Pridėti gavėją"
+  },
+  "advanced": {
+    "message": "Išplėstiniai"
+  },
+  "advancedSettingsDescription": {
+    "message": "Pasiekite kūrėjo funkcijas, atsisiųskite būsenos žurnalus, iš naujo nustatykite paskyrą, nustatykite bandomuosius tinklus ir pasirinktinį RPC"
+  },
+  "advancedOptions": {
+    "message": "Išplėstinės parinktys"
+  },
+  "customizeGas": {
+    "message": "Tinkinti"
+  },
+  "addToAddressBook": {
+    "message": "Pridėti į adresų knygelę"
+  },
+  "addToAddressBookModalPlaceholder": {
+    "message": "pvz., John D."
+  },
+  "addAlias": {
+    "message": "Pridėti alternatyvųjį vardą"
+  },
+  "addToken": {
+    "message": "Pridėti žetoną"
+  },
+  "addTokens": {
+    "message": "Pridėti žetonų"
+  },
+  "addSuggestedTokens": {
+    "message": "Pridėti siūlomų žetonų"
+  },
+  "addAcquiredTokens": {
+    "message": "Pridėkite žetonus, kuriuos įsigijote naudodami „Brave“"
+  },
+  "alerts": {
+    "message": "Įspėjimai"
+  },
+  "alertsSettingsDescription": {
+    "message": "Įjunkite arba išjunkite kiekvieną įspėjimą"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "Svetainėje naršoma pasirinkus neprijungtą paskyrą"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "Šis įspėjimas rodomas iškylančiajame lange, kai naršote prijungtoje „Web3“ svetainėje, o šiuo metu pasirinkta paskyra neprijungta."
+  },
+  "allowOriginSpendToken": {
+    "message": "Duoti leidimą $1 išleisti $2?",
+    "description": "$1 is the url of the site and $2 is the symbol of the token they are requesting to spend"
+  },
+  "allowThisSiteTo": {
+    "message": "Leisti šiai svetainei:"
+  },
+  "allowExternalExtensionTo": {
+    "message": "Leisti šiam išoriniam plėtiniui:"
+  },
+  "allowWithdrawAndSpend": {
+    "message": "Duoti leidimą $1 paimti ir išleisti neviršijant šios sumos:",
+    "description": "The url of the site that requested permission to 'withdraw and spend'"
+  },
+  "amount": {
+    "message": "Suma"
+  },
+  "amountWithColon": {
+    "message": "Suma:"
+  },
+  "appDescription": {
+    "message": "„Ethereum“ piniginė jūsų naršyklėje",
+    "description": "The description of the application"
+  },
+  "appName": {
+    "message": "Brave Software",
+    "description": "The name of the application"
+  },
+  "approve": {
+    "message": "Patvirtinkite išlaidų limitą"
+  },
+  "approveSpendLimit": {
+    "message": "Patvirtinkite $1 išlaidų limitą",
+    "description": "The token symbol that is being approved"
+  },
+  "approved": {
+    "message": "Patvirtinta"
+  },
+  "asset": {
+    "message": "Turtas"
+  },
+  "maker": {
+    "message": "Gaminantis"
+  },
+  "taker": {
+    "message": "Imantis"
+  },
+  "slippage": {
+    "message": "Nesutapimo paklaida"
+  },
+  "assets": {
+    "message": "Turtas"
+  },
+  "attemptingConnect": {
+    "message": "Mėginama prisijungti prie „blockchain“."
+  },
+  "attemptToCancel": {
+    "message": "Mėginti atšaukti?"
+  },
+  "attemptToCancelDescription": {
+    "message": "Šis mėginimas negarantuoja, kad jūsų pradinė operacija bus atšaukta. Jeigu mėginimas atšaukti yra sėkmingas, jums bus taikomas pirmiau minėtas operacijos mokestis."
+  },
+  "attributions": {
+    "message": "Požymiai"
+  },
+  "autoLockTimeLimit": {
+    "message": "Automatinio užrakinimo laikmatis (minutėmis)"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "Nustatykite prastovos laiką minutėmis, kuriam praėjus „Brave“ bus užrakinta."
+  },
+  "average": {
+    "message": "Vidurkis"
+  },
+  "back": {
+    "message": "Grįžti"
+  },
+  "backToAll": {
+    "message": "Atgal prie visų"
+  },
+  "backupApprovalNotice": {
+    "message": "Pasidarykite atsarginę savo slapto atkūrimo kodo kopiją, kad jūsų slaptažodinė ir fondai būtų saugūs."
+  },
+  "backupApprovalInfo": {
+    "message": "Šis slaptas kodas reikalingas norint atkurti piniginę tuo atveju, jei pametėte įrenginį, pamiršote slaptažodį, turite iš naujo įdiegti „Brave“ ar norite pasiekti savo piniginę kitame įrenginyje."
+  },
+  "backupNow": {
+    "message": "Daryti atsarginę kopiją dabar"
+  },
+  "balance": {
+    "message": "Likutis"
+  },
+  "balanceOutdated": {
+    "message": "Likutis gali būti pasenęs"
+  },
+  "basic": {
+    "message": "Bendrieji"
+  },
+  "blockExplorerUrl": {
+    "message": "Blokuoti naršyklę"
+  },
+  "blockExplorerView": {
+    "message": "Peržiūrėti paskyrą $1",
+    "description": "$1 replaced by URL for custom block explorer"
+  },
+  "blockiesIdenticon": {
+    "message": "„Blockies Identicon“ naudojimas"
+  },
+  "nonceField": {
+    "message": "Tinkinti operacijos numerį"
+  },
+  "nonceFieldHeading": {
+    "message": "Tinkintas operacijos numeris"
+  },
+  "nonceFieldDescription": {
+    "message": "Įjunkite šią nuostatą, kad patvirtinimo ekranuose galėtumėte keisti „nonce“ (operacijos numerį). Tai yra išplėstinė funkcija, naudokite atsargiai."
+  },
+  "browserNotSupported": {
+    "message": "Jūsų naršyklė neatpažįstama..."
+  },
+  "builtInCalifornia": {
+    "message": "„Brave“ sukurta ir išplėtota Kalifornijoje."
+  },
+  "buyWithWyre": {
+    "message": "Pirkti ETH su „Wyre“"
+  },
+  "buyWithWyreDescription": {
+    "message": "„Wyre“ leidžia naudoti debeto kortelę, kad galėtumėte pervesti ETH tiesiai į savo „Brave“ sąskaitą."
+  },
+  "buyCoinSwitch": {
+    "message": "Pirkti „CoinSwitch“"
+  },
+  "buyCoinSwitchExplainer": {
+    "message": "„CoinSwitch“ – tai lengvai pasiekiama vieta keisti per 300 kriptovaliutų geriausiu santykiu."
+  },
+  "bytes": {
+    "message": "Baitai"
+  },
+  "off": {
+    "message": "Išjungta"
+  },
+  "ok": {
+    "message": "Gerai"
+  },
+  "on": {
+    "message": "Įjungta"
+  },
+  "optionalBlockExplorerUrl": {
+    "message": "Blokuoti naršyklės URL (pasirinktinai)"
+  },
+  "cancel": {
+    "message": "Atšaukti"
+  },
+  "cancelAttempt": {
+    "message": "Atšaukti mėginimą"
+  },
+  "cancellationGasFee": {
+    "message": "Dujų mokesčio atšaukimas"
+  },
+  "cancelled": {
+    "message": "Atšaukta"
+  },
+  "chainId": {
+    "message": "Grandinės ID"
+  },
+  "clickToRevealSeed": {
+    "message": "Spustelėkite čia, kad atidengtumėte slaptus žodžius"
+  },
+  "close": {
+    "message": "Uždaryti"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": "Norėdami prisijungti prie aparatinės įrangos piniginės, „Brave“ turite naudoti naršyklėje „Google Chrome“."
+  },
+  "confirm": {
+    "message": "Patvirtinti"
+  },
+  "confirmed": {
+    "message": "Patvirtinta"
+  },
+  "confirmPassword": {
+    "message": "Patvirtinti slaptažodį"
+  },
+  "confirmSecretBackupPhrase": {
+    "message": "Patvirtinkite savo slaptą atsarginę frazę"
+  },
+  "congratulations": {
+    "message": "Sveikiname"
+  },
+  "connectAccountOrCreate": {
+    "message": "Prijunkite paskyrą arba sukurkite naują"
+  },
+  "connectHardwareWallet": {
+    "message": "Susieti aparatinės įrangos slaptažodinę"
+  },
+  "connect": {
+    "message": "Prisijungti"
+  },
+  "connectingTo": {
+    "message": "Jungiamasi prie $1"
+  },
+  "connectingToKovan": {
+    "message": "Jungiamasi prie „Kovan“ bandomojo tinklo"
+  },
+  "connectingToMainnet": {
+    "message": "Jungiamasi prie pagrindinio „Ethereum“ tinklo"
+  },
+  "connectingToRopsten": {
+    "message": "Jungiamasi prie „Ropsten“ bandomojo tinklo"
+  },
+  "connectingToRinkeby": {
+    "message": "Jungiamasi prie „Rinkeby“ bandomojo tinklo"
+  },
+  "connectingToLocalhost": {
+    "message": "Jungiamasi prie vietinio serverio 8545"
+  },
+  "connectingToGoerli": {
+    "message": "Jungiamasi prie „Goerli“ bandomojo tinklo"
+  },
+  "contacts": {
+    "message": "Kontaktai"
+  },
+  "contactsSettingsDescription": {
+    "message": "Pridėkite, taisykite ir valdykite savo kontaktus"
+  },
+  "contactUs": {
+    "message": "Susisiekite su mumis!"
+  },
+  "continueToSwap": {
+    "message": "Pereiti prie „Swap“"
+  },
+  "continueToWyre": {
+    "message": "Tęsti su „Wyre“"
+  },
+  "continueToCoinSwitch": {
+    "message": "Tęsti su „CoinSwitch“"
+  },
+  "contractDeployment": {
+    "message": "Sutarties išdėstymas"
+  },
+  "copiedExclamation": {
+    "message": "Nukopijuota!"
+  },
+  "copyAddress": {
+    "message": "Kopijuoti adresą į iškarpinę"
+  },
+  "copyTransactionId": {
+    "message": "Kopijuoti operacijos ID"
+  },
+  "copiedTransactionId": {
+    "message": "Nukopijuotas operacijos ID"
+  },
+  "copyToClipboard": {
+    "message": "Kopijuoti į iškarpinę"
+  },
+  "copyPrivateKey": {
+    "message": "Tai yra jūsų asmeninis raktas (spustelėkite, kad nukopijuotumėte)"
+  },
+  "create": {
+    "message": "Sukurti"
+  },
+  "createAccount": {
+    "message": "Sukurti paskyrą"
+  },
+  "createAWallet": {
+    "message": "Sukurti slaptažodinę"
+  },
+  "createPassword": {
+    "message": "Sukurti slaptažodį"
+  },
+  "currencyConversion": {
+    "message": "Valiutos keitimas"
+  },
+  "currentExtension": {
+    "message": "Dabartinis plėtinio puslapis"
+  },
+  "currentLanguage": {
+    "message": "Dabartinė kalba"
+  },
+  "customGas": {
+    "message": "Pritaikyti dujas"
+  },
+  "customGasSubTitle": {
+    "message": "Didinant mokestį gali mažėti apdorojimo trukmė, bet tai negarantuojama."
+  },
+  "customToken": {
+    "message": "Pritaikytas žetonas"
+  },
+  "customRPC": {
+    "message": "Pritaikytas RPC"
+  },
+  "customSpendLimit": {
+    "message": "Pasirinktinis išlaidų limitas"
+  },
+  "dataBackupFoundInfo": {
+    "message": "Anksčiau įdiegiant „Brave“, buvo sukurta kai kurių jūsų paskyros duomenų atsarginė kopija. Tai gali apimti jūsų nustatymus, kontaktus ir žetonus. Ar norėtumėte atkurti šiuos duomenis dabar?"
+  },
+  "decimalsMustZerotoTen": {
+    "message": "Turi būti bent 0 skaitmenų po kablelio, bet ne daugiau kaip 36."
+  },
+  "decimal": {
+    "message": "Skaičiai po kablelio"
+  },
+  "defaultNetwork": {
+    "message": "Numatytasis „Ether“ operacijų tinklas yra pagrindinis tinklas."
+  },
+  "delete": {
+    "message": "Ištrinti"
+  },
+  "deleteAccount": {
+    "message": "Šalinti paskyrą"
+  },
+  "deposit": {
+    "message": "Indėlis"
+  },
+  "depositEther": {
+    "message": "Įnešti eterių"
+  },
+  "details": {
+    "message": "Išsami informacija"
+  },
+  "directDepositEther": {
+    "message": "Tiesiogiai įnešti eteriai"
+  },
+  "directDepositEtherExplainer": {
+    "message": "Jeigu jau turite šiek tiek eterių, sparčiausias būdas gauti eterių į naują piniginę yra tiesioginis įnašas."
+  },
+  "done": {
+    "message": "Atlikta"
+  },
+  "dontShowThisAgain": {
+    "message": "Neberodyti"
+  },
+  "downloadGoogleChrome": {
+    "message": "Atsiunčiama „Google Chrome“"
+  },
+  "downloadSecretBackup": {
+    "message": "Atsisiųskite šią saugos atsarginę frazę ir ją saugiai laikykite šifruotame standžiajame diske arba laikmenoje."
+  },
+  "downloadStateLogs": {
+    "message": "Atsisiųsti būsenos žurnalus"
+  },
+  "dontHaveAHardwareWallet": {
+    "message": "Nėra aparatinės įrangos slaptažodinės?"
+  },
+  "dropped": {
+    "message": "Numesta"
+  },
+  "edit": {
+    "message": "Redaguoti"
+  },
+  "editContact": {
+    "message": "Taisyti kontaktą"
+  },
+  "editPermission": {
+    "message": "Redaguoti leidimą"
+  },
+  "endOfFlowMessage1": {
+    "message": "Jūs perėjote testą – laikykite saugiai savo atkūrimo frazę, tai jūsų atsakomybė!"
+  },
+  "endOfFlowMessage2": {
+    "message": "Patarimai, kaip saugiai laikyti"
+  },
+  "endOfFlowMessage3": {
+    "message": "Įrašykite atsarginę kopiją keliose vietose."
+  },
+  "endOfFlowMessage4": {
+    "message": "Niekam niekada nepasakykite šios frazės."
+  },
+  "endOfFlowMessage5": {
+    "message": "Saugokitės sukčiavimo! „Brave“ niekada spontaniškai neklaus jūsų atkūrimo frazės."
+  },
+  "endOfFlowMessage6": {
+    "message": "Jeigu reikia dar kartą padaryti jūsų atkūrimo frazės kopiją, ją galite rasti pasirinkę Nuostatos -> Sauga."
+  },
+  "endOfFlowMessage7": {
+    "message": "Jeigu turite klausimų arba pastebite ką nors įtartino, apsilankykite mūsų piniginės"
+  },
+  "endOfFlowMessage8": {
+    "message": "„Brave“ negali atkurti jūsų atkūrimo frazės."
+  },
+  "endOfFlowMessage9": {
+    "message": "Sužinokite daugiau."
+  },
+  "endOfFlowMessage10": {
+    "message": "Viskas atlikta"
+  },
+  "endOfFlowMessage11": {
+    "message": "palaikymo forume."
+  },
+  "externalExtension": {
+    "message": "Išorinis plėtinys"
+  },
+  "onboardingReturnNotice": {
+    "message": "„$1“ uždarys šį skirtuką ir nukreips atgal į $2",
+    "description": "Return the user to the site that initiated onboarding"
+  },
+  "ensRegistrationError": {
+    "message": "ENS pavadinimo registracijos klaida"
+  },
+  "ensNotFoundOnCurrentNetwork": {
+    "message": "ENS pavadinimas dabartiniame tinkle nerastas. Mėginkite perjungti į pagrindinį „Ethereum“ tinklą."
+  },
+  "enterAnAlias": {
+    "message": "Įveskite alternatyvųjį vardą"
+  },
+  "enterMaxSpendLimit": {
+    "message": "Įveskite maksimalų išlaidų limitą"
+  },
+  "enterPassword": {
+    "message": "Įveskite slaptažodį"
+  },
+  "enterPasswordContinue": {
+    "message": "Norėdami tęsti, įveskite slaptažodį"
+  },
+  "errorCode": {
+    "message": "Kodas: $1",
+    "description": "Displayed error code for debugging purposes. $1 is the error code"
+  },
+  "errorDetails": {
+    "message": "Išsami klaidos informacija",
+    "description": "Title for collapsible section that displays error details for debugging purposes"
+  },
+  "errorMessage": {
+    "message": "Pranešimas: $1",
+    "description": "Displayed error message for debugging purposes. $1 is the error message"
+  },
+  "errorName": {
+    "message": "Kodas: $1",
+    "description": "Displayed error name for debugging purposes. $1 is the error name"
+  },
+  "errorPageTitle": {
+    "message": "„Brave“ įvyko klaida",
+    "description": "Title of generic error page"
+  },
+  "errorPageMessage": {
+    "message": "Bandykite dar kartą įkeldami puslapį iš naujo arba susisiekite su palaikymo tarnyba šiuo adresu: support@brave.com",
+    "description": "Message displayed on generic error page in the fullscreen or notification UI"
+  },
+  "errorPagePopupMessage": {
+    "message": "Bandykite dar kartą uždarydami ir vėl atidarydami iškylantįjį langą arba susisiekite su palaikymo tarnyba šiuo adresu: support@brave.com",
+    "description": "Message displayed on generic error page in the popup UI"
+  },
+  "errorStack": {
+    "message": "Dėklas",
+    "description": "Title for error stack, which is displayed for debugging purposes"
+  },
+  "ethereumPublicAddress": {
+    "message": "„Ethereum“ viešasis adresas"
+  },
+  "etherscanView": {
+    "message": "Peržiūrėti paskyrą „Etherscan“ programoje"
+  },
+  "estimatedProcessingTimes": {
+    "message": "Numatomos apdorojimo trukmės"
+  },
+  "estimatedNetworkFee": {
+    "message": "Estimated network fee"
+  },
+  "expandView": {
+    "message": "Išskleisti rodinį"
+  },
+  "exportPrivateKey": {
+    "message": "Eksportuoti asmeninį raktą"
+  },
+  "failed": {
+    "message": "Nepavyko"
+  },
+  "failureMessage": {
+    "message": "Kažkas nepavyko, todėl negalėjome užbaigti veiksmo"
+  },
+  "fast": {
+    "message": "Greitas"
+  },
+  "faster": {
+    "message": "Greičiau"
+  },
+  "feeAssociatedRequest": {
+    "message": "Su šia užklausa yra susijęs mokestis."
+  },
+  "fiat": {
+    "message": "Standartinė valiuta",
+    "description": "Exchange type"
+  },
+  "fileImportFail": {
+    "message": "Failo importavimas neveikia? Spustelėkite čia!",
+    "description": "Helps user import their account from a JSON file"
+  },
+  "forgetDevice": {
+    "message": "Pamiršti šį įrenginį"
+  },
+  "from": {
+    "message": "Nuo"
+  },
+  "fromAddress": {
+    "message": "Nuo: $1",
+    "description": "$1 is the address to include in the From label. It is typically shortened first using shortenAddress"
+  },
+  "functionApprove": {
+    "message": "Funkcija: patvirtinti"
+  },
+  "functionType": {
+    "message": "Funkcijos tipas"
+  },
+  "gasLimit": {
+    "message": "Dujų apribojimas"
+  },
+  "gasLimitInfoModalContent": {
+    "message": "Dujų apribojimas yra maksimalus dujų vienetų, kuriuos pageidaujate išleisti, skaičius."
+  },
+  "gasLimitTooLow": {
+    "message": "Dujų apribojimas turi būti bent 21000"
+  },
+  "gasUsed": {
+    "message": "Sunaudotos dujos"
+  },
+  "gasPrice": {
+    "message": "Dujų kaina (GWEI)"
+  },
+  "gasPriceExtremelyLow": {
+    "message": "Dujų kaina ypatingai maža"
+  },
+  "gasPriceInfoModalContent": {
+    "message": "Dujų kaina nurodo eterių sumą, kurią pageidaujate sumokėti už kiekvieną dujų vienetą."
+  },
+  "gasPriceNoDenom": {
+    "message": "Dujų kaina"
+  },
+  "gdprMessage": {
+    "message": "Šie duomenys yra apibendrinti, todėl pagal Bendrojo duomenų apsaugos reglamento (ES) 2016/679 reikalavimus yra anoniminiai. Norėdami gauti daugiau informacijos apie mūsų privatumo praktiką, žr. mūsų $1.",
+    "description": "$1 refers to the gdprMessagePrivacyPolicy message, the translation of which is meant to be used exclusively in the context of gdprMessage"
+  },
+  "gdprMessagePrivacyPolicy": {
+    "message": "Privatumo politika čia",
+    "description": "this translation is intended to be exclusively used as the replacement for the $1 in the gdprMessage translation"
+  },
+  "general": {
+    "message": "Bendra"
+  },
+  "generalSettingsDescription": {
+    "message": "Valiutos keitimas, pagrindinė valiuta, kalba, „blockies identicon“"
+  },
+  "getEther": {
+    "message": "Gauti eterių"
+  },
+  "getEtherFromFaucet": {
+    "message": "Gaukite eterių iš čiaupo $1",
+    "description": "Displays network name for Ether faucet"
+  },
+  "getHelp": {
+    "message": "Gaukite pagalbos."
+  },
+  "getStarted": {
+    "message": "Darbo pradžia"
+  },
+  "happyToSeeYou": {
+    "message": "Džiaugiamės jus matydami."
+  },
+  "hardware": {
+    "message": "Aparatinė įranga"
+  },
+  "hardwareWalletConnected": {
+    "message": "Aparatinės įrangos slaptažodinė susieta"
+  },
+  "hardwareWallets": {
+    "message": "Susieti aparatinės įrangos slaptažodinę"
+  },
+  "hardwareWalletsMsg": {
+    "message": "Pasirinkite aparatinės įrangos piniginę, kurią norite naudoti su „Brave“"
+  },
+  "havingTroubleConnecting": {
+    "message": "Kyla problemų susiejant?"
+  },
+  "here": {
+    "message": "čia",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
+  },
+  "hexData": {
+    "message": "Šešioliktainiai duomenys"
+  },
+  "hide": {
+    "message": "Slėpti"
+  },
+  "hideTokenSymbol": {
+    "message": "Slėpti $1",
+    "description": "$1 is the symbol for a token (e.g. 'DAI')"
+  },
+  "hideTokenPrompt": {
+    "message": "Slėpti prieigos raktą?"
+  },
+  "history": {
+    "message": "Istorija"
+  },
+  "home": {
+    "message": "Kontaktinė namų informacija"
+  },
+  "import": {
+    "message": "Importuoti",
+    "description": "Button to import an account from a selected file"
+  },
+  "importAccount": {
+    "message": "Importuoti paskyrą"
+  },
+  "importAccountMsg": {
+    "message": "Importuotos paskyros nebus susietos su jūsų iš pradžių sukurta „Brave“ paskyros atkūrimo fraze. Sužinokite daugiau apie importuotas paskyras"
+  },
+  "importAccountSeedPhrase": {
+    "message": "Importuoti paskyrą su atkūrimo fraze"
+  },
+  "importWallet": {
+    "message": "Importuoti piniginę"
+  },
+  "importYourExisting": {
+    "message": "Importuokite esamą piniginę, naudodami 12 arba 24 žodžių atkūrimo frazę"
+  },
+  "imported": {
+    "message": "Importuota",
+    "description": "status showing that an account has been fully loaded into the keyring"
+  },
+  "importUsingSeed": {
+    "message": "Importuoti naudojant paskyros atkūrimo frazę"
+  },
+  "infoHelp": {
+    "message": "Informacija ir žinynas"
+  },
+  "initialTransactionConfirmed": {
+    "message": "Jūsų pradinė operacija patvirtinta tinkle. Norėdami grįžti, spustelėkite „Gerai“."
+  },
+  "insufficientBalance": {
+    "message": "Nepakankamas likutis."
+  },
+  "insufficientFunds": {
+    "message": "Nepakanka lėšų."
+  },
+  "insufficientTokens": {
+    "message": "Nepakanka žetonų."
+  },
+  "insufficientFundsGas": {
+    "message": "Dujoms nepakanka lėšų."
+  },
+  "balanceFetchError": {
+    "message": "Likučio gavimo klaida."
+  },
+  "invalidAddress": {
+    "message": "Netinkamas adresas"
+  },
+  "invalidAddressRecipient": {
+    "message": "Gavėjo adresas netinkamas"
+  },
+  "knownAddressRecipient": {
+    "message": "Žinomas sutarties adresas."
+  },
+  "knownTokenWarning": {
+    "message": "Atliekant šį veiksmą bus redaguojami jūsų piniginėje jau įtraukti žetonai, kurie gali būti panaudoti siekiant jus apgauti. Patvirtinkite tik tuo atveju, jei esate tikri, kad norite pakeisti šių žetonų reikšmę."
+  },
+  "reusedTokenNameWarning": {
+    "message": "Žetonas čia pakartotinai naudoja kito žetono, kurį žiūrite, simbolį. Tai gali būti painu arba apgaulinga."
+  },
+  "invalidAddressRecipientNotEthNetwork": {
+    "message": "Ne ETH tinklas, nustatykite į mažąsias raides"
+  },
+  "invalidCustomNetworkAlertContent1": {
+    "message": "Tinkintam tinklui „$1“ trūksta grandinės ID.",
+    "description": "$1 is the name/identifier of the network."
+  },
+  "invalidCustomNetworkAlertContent2": {
+    "message": "Norint jus apsaugoti nuo kenkėjiškų ar netinkamai veikiančių tinklo paslaugų teikėjų, dabar visiems tinkintiems tinklams reikia grandinės ID."
+  },
+  "invalidCustomNetworkAlertContent3": {
+    "message": "Eikite į Nustatymai > Tinklas ir įveskite grandinės ID. Populiariausių tinklų grandinės ID galite rasti $1.",
+    "description": "$1 is a link to https://chainid.network"
+  },
+  "invalidCustomNetworkAlertTitle": {
+    "message": "Negaliojantis tinkintas tinklas"
+  },
+  "invalidHexNumber": {
+    "message": "Netinkamas šešioliktainis skaičius."
+  },
+  "invalidHexNumberLeadingZeros": {
+    "message": "Netinkamas šešioliktainis skaičius. Pašalinkite pradžioje esančius nulius."
+  },
+  "invalidRPC": {
+    "message": "Netinkamas RPC URL"
+  },
+  "invalidBlockExplorerURL": {
+    "message": "Netinkamas naršyklės blokavimo URL adresas"
+  },
+  "invalidSeedPhrase": {
+    "message": "Netinkama atkūrimo frazė"
+  },
+  "ipfsGateway": {
+    "message": "IPFS tinklų sietuvas"
+  },
+  "ipfsGatewayDescription": {
+    "message": "Įveskite IPFS CID tinklų sietuvo, kurį norite naudoti ENS turinio raiškai, URL adresą."
+  },
+  "invalidIpfsGateway": {
+    "message": "Netinkamas IPFS tinklų sietuvas: reikšmė turi būti galiojantis URL adresas"
+  },
+  "invalidNumber": {
+    "message": "Netinkamas skaičius. Įveskite dešimtainį ar šešioliktainį skaičių."
+  },
+  "invalidNumberLeadingZeros": {
+    "message": "Netinkamas skaičius. Pašalinkite pradžioje esančius nulius."
+  },
+  "forbiddenIpfsGateway": {
+    "message": "Uždraustas IPFS tinklų sietuvas: nurodykite CID tinklų sietuvą"
+  },
+  "jsonFile": {
+    "message": "JSON failas",
+    "description": "format for importing an account"
+  },
+  "kovan": {
+    "message": "„Kovan“ bandomasis tinklas"
+  },
+  "max": {
+    "message": "Maks."
+  },
+  "lastConnected": {
+    "message": "Paskutinį kartą prisijungta"
+  },
+  "learnMore": {
+    "message": "Sužinokite daugiau"
+  },
+  "ledgerAccountRestriction": {
+    "message": "Prieš įtraukdami naują, turite pasinaudoti paskutine paskyra."
+  },
+  "letsGoSetUp": {
+    "message": "Taip, pradėkime!"
+  },
+  "likeToAddTokens": {
+    "message": "Ar norėtumėte pridėti šiuos žetonus?"
+  },
+  "links": {
+    "message": "Nuorodos"
+  },
+  "liveGasPricePredictions": {
+    "message": "Tiesioginiai dujų kainos spėjimai"
+  },
+  "loading": {
+    "message": "Įkeliama..."
+  },
+  "loadingTokens": {
+    "message": "Įkeliami žetonai..."
+  },
+  "loadMore": {
+    "message": "Įkelti daugiau"
+  },
+  "localhost": {
+    "message": "Vietinis serveris 8545"
+  },
+  "lock": {
+    "message": "Užrakinti"
+  },
+  "lockTimeTooGreat": {
+    "message": "Užrakinimo laikas per ilgas"
+  },
+  "mainnet": {
+    "message": "Pagrindinis „Ethereum“ tinklas"
+  },
+  "availableOnMainnetRopsten": {
+    "message": "Prieinama tik „Mainnet“ ir „Ropsten“"
+  },
+  "memorizePhrase": {
+    "message": "Įsiminti šią frazę."
+  },
+  "memo": {
+    "message": "pastaba"
+  },
+  "message": {
+    "message": "Pranešimas"
+  },
+  "metaMaskConnectStatusParagraphOne": {
+    "message": "Dabar galite labiau kontroliuoti savo paskyros ryšius „Brave“."
+  },
+  "metaMaskConnectStatusParagraphTwo": {
+    "message": "Prisijungimo būsenos mygtukas rodo, ar lankoma svetainė yra prijungta prie jūsų dabar pasirinktos paskyros."
+  },
+  "metaMaskConnectStatusParagraphThree": {
+    "message": "Spustelėkite jį, jei norite tvarkyti prijungtas paskyras."
+  },
+  "metamaskDescription": {
+    "message": "Prijungiame jus prie „Ethereum“ ir decentralizuotojo žiniatinklio."
+  },
+  "metamaskVersion": {
+    "message": "„Brave“ versija"
+  },
+  "mobileSyncText": {
+    "message": "Įveskite savo slaptažodį, kad patvirtintumėte, jog tai tikrai jūs!"
+  },
+  "myAccounts": {
+    "message": "Mano paskyros"
+  },
+  "myWalletAccounts": {
+    "message": "Mano piniginės paskyros"
+  },
+  "myWalletAccountsDescription": {
+    "message": "Visos jūsų „Brave“ sukurtos paskyros bus automatiškai įtrauktos į šį skyrių."
+  },
+  "mustSelectOne": {
+    "message": "Turite pasirinkti bent 1 žetoną."
+  },
+  "needEtherInWallet": {
+    "message": "Norėdami dirbti su decentralizuotomis programomis naudodami „Brave“, savo piniginėje turite turėti eterių."
+  },
+  "needImportFile": {
+    "message": "Turite pasirinkti failą, kurį pageidaujate importuoti.",
+    "description": "User is important an account and needs to add a file to continue"
+  },
+  "negativeETH": {
+    "message": "Neigiamų ETH sumų siųsti negalima."
+  },
+  "networkName": {
+    "message": "Tinklo pavadinimas"
+  },
+  "networks": {
+    "message": "Tinklai"
+  },
+  "networkSettingsChainIdDescription": {
+    "message": "Grandinės ID naudojamas operacijoms pasirašyti. Įveskite dešimtainį ar šešioliktainį skaičių, prasidedantį „0x“."
+  },
+  "networkSettingsDescription": {
+    "message": "Įtraukti ir redaguoti tinkintus RPC tinklus"
+  },
+  "nevermind": {
+    "message": "Nekreipti dėmesio"
+  },
+  "newAccount": {
+    "message": "Nauja paskyra"
+  },
+  "newAccountDetectedDialogMessage": {
+    "message": "Aptiktas naujas adresas! Spustelėkite čia, kad įtrauktumėte į savo adresų knygelę."
+  },
+  "newAccountNumberName": {
+    "message": "Paskyra $1",
+    "description": "Default name of next account to be created on create account screen"
+  },
+  "newContact": {
+    "message": "Naujas kontaktas"
+  },
+  "newContract": {
+    "message": "Nauja sutartis"
+  },
+  "newPassword": {
+    "message": "Naujas slaptažodis (mažiausiai 8 ženklai)"
+  },
+  "newNetwork": {
+    "message": "Naujas tinklas"
+  },
+  "newToMetaMask": {
+    "message": "Ką tik pradėjote naudotis „Brave“?"
+  },
+  "noAlreadyHaveSeed": {
+    "message": "Ne, jau turiu atkūrimo frazę."
+  },
+  "protectYourKeys": {
+    "message": "Apsaugokite savo raktus!"
+  },
+  "protectYourKeysMessage1": {
+    "message": "Saugokite savo atkūrimo frazę – gavome pranešimų apie interneto svetaines, kuriomis bandoma imituoti „Brave“. „Brave“ niekada neprašys, kad pateiktumėte savo atkūrimo frazę!"
+  },
+  "protectYourKeysMessage2": {
+    "message": "Saugokite savo frazę. Jei pastebėjote ką nors įtartino arba nesate tikri dėl svetainės, parašykite mums el. paštu support@brave.com"
+  },
+  "rpcUrl": {
+    "message": "Naujas RPC URL"
+  },
+  "onlyConnectTrust": {
+    "message": "Prisijunkite tik prie patikimų svetainių."
+  },
+  "onlyAddTrustedNetworks": {
+    "message": "Kenkėjiškas „Ethereum“ tinklo paslaugų teikėjas gali meluoti apie blokų grandinės būseną ir įrašyti jūsų tinklo veiklą. Įtraukite tik tinkintus tinklus, kuriais pasitikite."
+  },
+  "optionalSymbol": {
+    "message": "Simbolis (nebūtinas)"
+  },
+  "newTotal": {
+    "message": "Nauja bendra suma"
+  },
+  "newTransactionFee": {
+    "message": "Naujas operacijos mokestis"
+  },
+  "next": {
+    "message": "Toliau"
+  },
+  "nextNonceWarning": {
+    "message": "Operacijos numeris yra didesnis nei siūlomas $1 operacijos numeris",
+    "description": "The next nonce according to Brave's internal logic"
+  },
+  "noAddressForName": {
+    "message": "Šiam pavadinimui nenurodytas adresas."
+  },
+  "noConversionRateAvailable": {
+    "message": "Nėra keitimo kurso"
+  },
+  "noTransactions": {
+    "message": "Neturite jokių operacijų"
+  },
+  "noThanks": {
+    "message": "Ne, ačiū"
+  },
+  "notCurrentAccount": {
+    "message": "Ar tai reikiama paskyra? Ji skiriasi nuo šiuo metu pasirinktos paskyros jūsų piniginėje"
+  },
+  "notEnoughGas": {
+    "message": "Nepakanka dujų"
+  },
+  "noWebcamFoundTitle": {
+    "message": "Internetinė vaizdo kamera nerasta"
+  },
+  "noWebcamFound": {
+    "message": "Jūsų kompiuterio vaizdo kamera nerasta. Bandykite dar kartą."
+  },
+  "ofTextNofM": {
+    "message": "nuo"
+  },
+  "orderOneHere": {
+    "message": "Užsisakykite „Trezor“ arba „Ledger“ ir laikykite savo lėšas šaltojoje saugykloje"
+  },
+  "origin": {
+    "message": "Kilmė"
+  },
+  "parameters": {
+    "message": "Parametrai"
+  },
+  "participateInMetaMetrics": {
+    "message": "Dalyvaukite „MetaMetrics“"
+  },
+  "participateInMetaMetricsDescription": {
+    "message": "Dalyvaukite „MetaMetrics“ ir padėkite mums tobulinti „Brave“"
+  },
+  "password": {
+    "message": "Slaptažodis"
+  },
+  "passwordsDontMatch": {
+    "message": "Slaptažodžiai nesutampa"
+  },
+  "passwordNotLongEnough": {
+    "message": "Slaptažodis per trumpas"
+  },
+  "pastePrivateKey": {
+    "message": "Čia įklijuokite asmeninio rakto eilutę:",
+    "description": "For importing an account from a private key"
+  },
+  "pending": {
+    "message": "Laukiama"
+  },
+  "permissionCheckedIconDescription": {
+    "message": "Patvirtinote šį leidimą"
+  },
+  "permissionUncheckedIconDescription": {
+    "message": "Nepatvirtinote šio leidimo"
+  },
+  "personalAddressDetected": {
+    "message": "Aptiktas asmeninis adresas. Įveskite žetono sutarties adresą."
+  },
+  "plusXMore": {
+    "message": "Dar + $1",
+    "description": "$1 is a number of additional but unshown items in a list- this message will be shown in place of those items"
+  },
+  "prev": {
+    "message": "Peržiūra"
+  },
+  "primaryCurrencySetting": {
+    "message": "Pagrindinė valiuta"
+  },
+  "primaryCurrencySettingDescription": {
+    "message": "Rinkitės vietinę, kad vertės pirmiausia būtų rodomos vietine grandinės valiuta (pvz., ETH). Rinkitės standartinę, kad vertės pirmiausia būtų rodomos jūsų pasirinkta standartine valiuta."
+  },
+  "privacyMsg": {
+    "message": "Privatumo politika"
+  },
+  "privateKey": {
+    "message": "Asmeninis raktas",
+    "description": "select this type of file to use to import an account"
+  },
+  "privateKeyWarning": {
+    "message": "Dėmesio. Niekada neatskleiskite šio rakto kitiems. Bet kuris jūsų asmeninius raktus turintis asmuo gali pavogti bet kokį jūsų paskyroje laikomą turtą."
+  },
+  "privateNetwork": {
+    "message": "Privatus tinklas"
+  },
+  "proposedApprovalLimit": {
+    "message": "Siūloma patvirtinimo riba"
+  },
+  "queue": {
+    "message": "Eilė"
+  },
+  "queued": {
+    "message": "Eilėje"
+  },
+  "readdToken": {
+    "message": "Šį žetoną galite bet kada galite įtraukti ir vėl, tiesiog savo paskyros parinkčių meniu nueikite  į „Įtraukti žetoną“."
+  },
+  "recents": {
+    "message": "Naujausi"
+  },
+  "receive": {
+    "message": "Gauti"
+  },
+  "recipientAddress": {
+    "message": "Gavėjo adresas"
+  },
+  "recipientAddressPlaceholder": {
+    "message": "Ieškoti, viešojo adreso (0x) arba domeno"
+  },
+  "rejectAll": {
+    "message": "Atmesti viską"
+  },
+  "rejectTxsN": {
+    "message": "Atmesti $1 operac."
+  },
+  "rejectTxsDescription": {
+    "message": "Vienu metu atmesite $1 operac."
+  },
+  "rejected": {
+    "message": "Atmesta"
+  },
+  "reset": {
+    "message": "Nustatyti iš naujo"
+  },
+  "resetAccount": {
+    "message": "Atkurti paskyrą"
+  },
+  "resetAccountDescription": {
+    "message": "Atkūrę sąskaitą, išvalysite operacijų istoriją. Tai nepakeis jūsų sąskaitų likučių ir dėl to nereikės iš naujo įvesti atkūrimo frazės."
+  },
+  "deleteNetwork": {
+    "message": "Panaikinti tinklą?"
+  },
+  "deleteNetworkDescription": {
+    "message": "Ar tikrai norite panaikinti šį tinklą?"
+  },
+  "remindMeLater": {
+    "message": "Priminti vėliau"
+  },
+  "restoreFromSeed": {
+    "message": "Atkurti paskyrą?"
+  },
+  "restoreAccountWithSeed": {
+    "message": "Atkurti paskyrą naudojant atkūrimo frazę"
+  },
+  "restoreWalletPreferences": {
+    "message": "Rasta jūsų duomenų iš $1 atsarginė kopija. Ar norėtumėte atkurti savo piniginės nuostatas?",
+    "description": "$1 is the date at which the data was backed up"
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": "patvirtinimo laukiančios užklausos"
+  },
+  "required": {
+    "message": "Reikalaujama"
+  },
+  "restore": {
+    "message": "Atkurti"
+  },
+  "revealSeedWords": {
+    "message": "Atskleisti atkūrimo frazę"
+  },
+  "revealSeedWordsTitle": {
+    "message": "Atkūrimo frazė"
+  },
+  "revealSeedWordsDescription": {
+    "message": "Jei imsite naudotis kita naršykle arba kitu kompiuteriu, šios atkūrimo frazės jums reikės paskyroms pasiekti. Saugokite ją saugioje ir slaptoje vietoje."
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "Šia fraze su niekuo NESIDALINKITE!"
+  },
+  "revealSeedWordsWarning": {
+    "message": "Šiuos žodžius galima panaudoti visoms jūsų paskyroms pavogti."
+  },
+  "remove": {
+    "message": "Pašalinti"
+  },
+  "removeAccount": {
+    "message": "Pašalinti paskyrą"
+  },
+  "removeAccountDescription": {
+    "message": "Ši paskyra bus pašalinta iš jūsų piniginės. Prieš tęsdami įsitikinkite, kad turite šios importuotos paskyros pradinę atkūrimo frazę arba asmeninį raktą. Paskyras importuoti ir vėl susikurti galite paskyros išskleidžiamajame meniu."
+  },
+  "readyToConnect": {
+    "message": "Pasirengę prisijungti?"
+  },
+  "reviewSwap": {
+    "message": "Review Swap"
+  },
+  "rinkeby": {
+    "message": "„Rinkeby“ bandomasis tinklas"
+  },
+  "ropsten": {
+    "message": "„Ropsten“ bandomasis tinklas"
+  },
+  "goerli": {
+    "message": "„Goerli“ bandomasis tinklas"
+  },
+  "save": {
+    "message": "Išsaugoti"
+  },
+  "slow": {
+    "message": "Lėtas"
+  },
+  "slower": {
+    "message": "Lėčiau"
+  },
+  "saveAsCsvFile": {
+    "message": "Įrašyti kaip CSV failą"
+  },
+  "scanInstructions": {
+    "message": "Laikykite QR kodą priešais kamerą"
+  },
+  "scanQrCode": {
+    "message": "Nuskaityti QR kodą"
+  },
+  "search": {
+    "message": "Ieškoti"
+  },
+  "searchResults": {
+    "message": "Paieškos rezultatai"
+  },
+  "secretBackupPhrase": {
+    "message": "Slapta atsarginė frazė"
+  },
+  "secretBackupPhraseDescription": {
+    "message": "Jūsų slapta atsarginė frazė leidžia paprastai padaryti paskyros atsarginę kopiją ir ją atkurti,"
+  },
+  "secretBackupPhraseWarning": {
+    "message": "ĮSPĖJIMAS. Niekada neatskleiskite savo atsarginės frazės. Bet kas, žinantis šią frazę, gali visiems laikams pasiimti jūsų eterius."
+  },
+  "secretPhrase": {
+    "message": "Įveskite savo slaptąją 12 ar 24 žodžių frazę, kad atkurtumėte savo saugyklą."
+  },
+  "securityAndPrivacy": {
+    "message": "Sauga ir privatumas"
+  },
+  "securitySettingsDescription": {
+    "message": "Privatumo nuostatos ir slaptažodinės atkūrimo frazė"
+  },
+  "seedPhrasePlaceholder": {
+    "message": "Kiekvieną žodį atskirkite viengubu tarpu"
+  },
+  "seedPhrasePlaceholderPaste": {
+    "message": "Įdėkite atkūrimo frazę iš mainų srities"
+  },
+  "showSeedPhrase": {
+    "message": "Rodyti atkūrimo frazę"
+  },
+  "seedPhraseReq": {
+    "message": "Atkūrimo frazės sudarytos iš 12, 15, 18, 21 arba 24 žodžių"
+  },
+  "selectingAllWillAllow": {
+    "message": "Pažymėjus viską, ši svetainė galės peržiūrėti visas jūsų dabartines paskyras. Įsitikinkite, kad pasitikite šia svetaine."
+  },
+  "selectAccounts": {
+    "message": "Pasirinkite paskyrą (-as)"
+  },
+  "selectAll": {
+    "message": "Pasirinkti viską"
+  },
+  "selectCurrency": {
+    "message": "Pasirinkite valiutą"
+  },
+  "selectEachPhrase": {
+    "message": "Pasirinkite kiekvieną frazę, kad patikrintumėte, ar ji tinkama"
+  },
+  "selectLocale": {
+    "message": "Pasirinkite lokalę"
+  },
+  "selectType": {
+    "message": "Pasirinkti tipą"
+  },
+  "setAllowance": {
+    "message": "Set allowance"
+  },
+  "buy": {
+    "message": "Pirkti"
+  },
+  "send": {
+    "message": "Siųsti"
+  },
+  "swap": {
+    "message": "„Swap“"
+  },
+  "swapApprovalSecurityMsg": {
+    "message": "For security reasons, it is advisable to reset the allowance to 0 first before setting it the desired value, to prevent transaction reordering attacks."
+  },
+  "swapBraveFees": {
+    "message": "Quote includes a $1 Brave fee."
+  },
+  "swapFooterPrivacyNotice": {
+    "message": "Brave uses $1 as a DEX aggregator. Please see $2 for more information."
+  },
+  "swapNewQuoteCountdown": {
+    "message": "New quote in"
+  },
+  "swapSlippageDescription": {
+    "message": "The maximum acceptable price change in % of the buy asset. If the delta exceeds the slippage, the swap will not be executed."
+  },
+  "swapQuoteRefresh": {
+    "message": "Quotes are refreshed often to reflect current market conditions."
+  },
+  "sendAmount": {
+    "message": "Siųsti sumą"
+  },
+  "sendETH": {
+    "message": "Siųsti ETH"
+  },
+  "sendTokens": {
+    "message": "Siųsti žetonus"
+  },
+  "sentEther": {
+    "message": "siųsti eterių"
+  },
+  "sentTokens": {
+    "message": "išsiųsti žetonai"
+  },
+  "sendSpecifiedTokens": {
+    "message": "Siųsti $1",
+    "description": "Symbol of the specified token"
+  },
+  "separateEachWord": {
+    "message": "Kiekvieną žodį atskirkite viengubu tarpu"
+  },
+  "searchAssets": {
+    "message": "Search Assets"
+  },
+  "searchTokens": {
+    "message": "Ieškoti žetonų"
+  },
+  "searchAccounts": {
+    "message": "Ieškoti paskyrų"
+  },
+  "noAccountsFound": {
+    "message": "Pagal pateiktą paieškos užklausą paskyrų nerasta "
+  },
+  "selectAsset": {
+    "message": "Select asset"
+  },
+  "selectAnAccount": {
+    "message": "Pasirinkite paskyrą"
+  },
+  "selectAnAccountHelp": {
+    "message": "Pasirinkite paskyrą, kurią norite peržiūrėti „Brave“"
+  },
+  "selectAHigherGasFee": {
+    "message": "Pasirinkite didesnį dujų mokestį, kad paspartintumėte savo operacijos apdorojimą.*"
+  },
+  "selectHdPath": {
+    "message": "Pasirinkite HD kelią"
+  },
+  "selectPathHelp": {
+    "message": "Jeigu toliau nematote savo esamų operacijų sąskaitų, mėginkite pakeisti kelius į „Legacy (MEW / MyCrypto)“"
+  },
+  "settings": {
+    "message": "Nustatymai"
+  },
+  "showAdvancedGasInline": {
+    "message": "Išplėstiniai dujų valdikliai"
+  },
+  "showAdvancedGasInlineDescription": {
+    "message": "Pasirinkite tai, kad būtų rodoma dujų kaina, ir ribokite valdymo elementus tiesiogiai siuntimo ir patvirtinimo ekranuose."
+  },
+  "showFiatConversionInTestnets": {
+    "message": "Rodyti keitimą „Testnet“"
+  },
+  "showFiatConversionInTestnetsDescription": {
+    "message": "Pasirinkite tai, kad būtų rodomas standartinės valiutos keitimas „Testnet“ programoje"
+  },
+  "showPrivateKeys": {
+    "message": "Rodyti asmeninius raktus"
+  },
+  "showHexData": {
+    "message": "Rodyti šešioliktainius duomenis"
+  },
+  "showHexDataDescription": {
+    "message": "Pasirinkite tai, kad siuntimo ekrane būtų rodomas šešioliktainių duomenų laukas"
+  },
+  "sign": {
+    "message": "Prisijunkite"
+  },
+  "signatureRequest": {
+    "message": "Parašo užklausa"
+  },
+  "signatureRequest1": {
+    "message": "Pranešimas"
+  },
+  "signed": {
+    "message": "Pasirašyta"
+  },
+  "signNotice": {
+    "message": "Pasirašant šį pranešimą gali būti \npavojingų šalutinių efektų. Pasirašykite tik pranešimus iš vietų,\nkuriomis visiškai pasitikite su visomis savo paskyromis.\nŠis pavojingas būdas bus pašalintas ateities versijoje. "
+  },
+  "sigRequest": {
+    "message": "Parašo užklausa"
+  },
+  "somethingWentWrong": {
+    "message": "Vaje! Kažkas negerai."
+  },
+  "speedUp": {
+    "message": "Paspartinti"
+  },
+  "speedUpCancellation": {
+    "message": "Pagreitinti šį atšaukimą"
+  },
+  "speedUpTransaction": {
+    "message": "Paspartinti šią operaciją"
+  },
+  "spendLimitPermission": {
+    "message": "Išlaidų limito leidimas"
+  },
+  "spendLimitRequestedBy": {
+    "message": "Išlaidų limitas, kurio prašo $1",
+    "description": "Origin of the site requesting the spend limit"
+  },
+  "spendLimitTooLarge": {
+    "message": "Išlaidų limitas per didelis"
+  },
+  "spendLimitInvalid": {
+    "message": "Netinkama išlaidų riba; turi būti teigiamas skaičius"
+  },
+  "switchNetworks": {
+    "message": "Perjungti tinklus"
+  },
+  "stateLogFileName": {
+    "message": "„Brave“ būsenos žurnalai"
+  },
+  "stateLogs": {
+    "message": "Būsenos žurnalai"
+  },
+  "stateLogsDescription": {
+    "message": "Būsenos žurnaluose yra jūsų viešos paskyros adresų ir išsiųstų operacijų."
+  },
+  "stateLogError": {
+    "message": "Klaida gaunant būsenos žurnalus."
+  },
+  "statusConnected": {
+    "message": "Prijungta"
+  },
+  "statusNotConnected": {
+    "message": "Neprisijungta"
+  },
+  "step1HardwareWallet": {
+    "message": "1. Prijunkite aparatinės įrangos slaptažodinę"
+  },
+  "step1HardwareWalletMsg": {
+    "message": "Prijunkite savo aparatinės įrangos slaptažodinę tiesiogiai prie savo kompiuterio."
+  },
+  "step2HardwareWallet": {
+    "message": "2. Pasirinkite paskyrą"
+  },
+  "step2HardwareWalletMsg": {
+    "message": "Pasirinkite norimą peržiūrėti sąskaitą. Vienu metu galima rinktis tik vieną."
+  },
+  "step3HardwareWallet": {
+    "message": "3. Pradėkite naudoti „Web3“ svetaines ir dar daugiau!"
+  },
+  "step3HardwareWalletMsg": {
+    "message": "Naudokite savo aparatinės įrangos paskyrą taip, kaip tai darytumėte su bet kuria „Ethereum“ paskyra. Prisijunkite prie „Web3“ svetainių, siųskite ETH, pirkite ir saugokite ERC20 žetonus ir nepakeičiamus žetonus, pvz., „CryptoKitties“."
+  },
+  "storePhrase": {
+    "message": "Laikykite šią frazę slaptažodžių tvarkyklėje kaip 1 slaptažodį."
+  },
+  "submit": {
+    "message": "Pateikti"
+  },
+  "submitted": {
+    "message": "Pateikta"
+  },
+  "supportCenter": {
+    "message": "Apsilankykite mūsų pagalbos centre"
+  },
+  "swapPrivacyPolicy": {
+    "message": "„Swap“ privatumo politika"
+  },
+  "swapPrivacyPolicyDescription": {
+    "message": "„Brave“ naudoja $1 kaip DEX rinktuvą. 0x apdoros eterio adresą ir IP adresą, kad įvykdytų operaciją (įskaitant pasiūlymų gavimą). 0x šiuos duomenis naudos TIK operacijoms apdoroti."
+  },
+  "symbol": {
+    "message": "Simbolis"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "Simbolis negali būti ilgesnis nei 11 ženklų."
+  },
+  "syncWithMobile": {
+    "message": "Sinchronizuoti su mobiliuoju"
+  },
+  "syncWithMobileTitle": {
+    "message": "Sinchronizuoti su mobiliuoju"
+  },
+  "syncWithMobileDesc": {
+    "message": "Galite sinchronizuoti paskyrą ir informaciją su savo mobiliuoju įrenginiu. Atverkite „Brave“ mobiliąją programą, eikite į dalį „Nuostatos“ ir palieskite „Sinchronizuoti iš naršyklės plėtinio“"
+  },
+  "syncWithMobileDescNewUsers": {
+    "message": "Jeigu „Brave“ mobiliąją programą atveriate pirmą kartą, tiesiog sekite veiksmus telefone."
+  },
+  "syncWithMobileScanThisCode": {
+    "message": "Nuskaitykite šį kodą naudodami „Brave“ mobiliąją programą"
+  },
+  "syncWithMobileBeCareful": {
+    "message": "Pasirūpinkite, kad jums nuskaitant šį kodą niekas nežiūrėtų į jūsų ekraną."
+  },
+  "syncWithMobileComplete": {
+    "message": "Jūsų duomenys sėkmingai sinchronizuoti. Mėgaukitės „Brave“ mobiliąja programa! "
+  },
+  "terms": {
+    "message": "Naudojimo sąlygos"
+  },
+  "testFaucet": {
+    "message": "Testuoti čiaupą"
+  },
+  "thisWillCreate": {
+    "message": "Bus sukurta nauja slaptažodinė ir atkūrimo frazė"
+  },
+  "timeout": {
+    "message": "Skirtasis laikas baigėsi"
+  },
+  "tips": {
+    "message": "Arbatpinigiai"
+  },
+  "to": {
+    "message": "Iki"
+  },
+  "toAddress": {
+    "message": "Kam: $1",
+    "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
+  },
+  "toWithColon": {
+    "message": "Kam:"
+  },
+  "token": {
+    "message": "Žetonas"
+  },
+  "tokenAlreadyAdded": {
+    "message": "Žetonas jau pridėtas."
+  },
+  "tokenContractAddress": {
+    "message": "Žetono kontaktinis adresas"
+  },
+  "tokenOptions": {
+    "message": "Žetonų parinktys"
+  },
+  "tokenSymbol": {
+    "message": "Žetono ženklas"
+  },
+  "total": {
+    "message": "Iš viso"
+  },
+  "transaction": {
+    "message": "operacija"
+  },
+  "transactionConfirmed": {
+    "message": "Operacijos patvirtinimas $2."
+  },
+  "transactionCreated": {
+    "message": "Operacija sukurta $2 su $1 verte."
+  },
+  "transactionDropped": {
+    "message": "Operacija numesta prie$2."
+  },
+  "transactionSubmitted": {
+    "message": "Operacija pateikta $2 su $1 dujų mokesčiu."
+  },
+  "transactionResubmitted": {
+    "message": "Operacija pakartotinai pateikta$2 su iki $1 padidintu dujų mokesčiu"
+  },
+  "transactionUpdated": {
+    "message": "Operacija atnaujinta$2."
+  },
+  "transactionErrored": {
+    "message": "Įvyko operacijos klaida"
+  },
+  "transactionCancelAttempted": {
+    "message": "Operaciją mėginta atšaukti $2 su $1 dujų mokesčiu"
+  },
+  "transactionCancelSuccess": {
+    "message": "Operacija sėkmingai atšaukta $2"
+  },
+  "transactionError": {
+    "message": "Operacijos klaida. Sutarties kodo numetimo išimtis."
+  },
+  "transactionErrorNoContract": {
+    "message": "Mėginama iškviesti funkciją nekontaktiniu adresu."
+  },
+  "transactionFee": {
+    "message": "Operacijos mokestis"
+  },
+  "transactionTime": {
+    "message": "Operacijos laikas"
+  },
+  "showTransactionTimeDescription": {
+    "message": "Pažymėkite, jei būdami pagrindiniame „Ethereum“ tinkle norite pamatyti numanomą laukiančių operacijų laiko trukmę skirtuke „Veikla“. Pastaba: įvertinimai yra apytiksliai, pagrįsti tinklo sąlygomis."
+  },
+  "transfer": {
+    "message": "Pervesti"
+  },
+  "transferBetweenAccounts": {
+    "message": "Perkėlimas tarp savo paskyrų"
+  },
+  "transferFrom": {
+    "message": "Pervedimas iš"
+  },
+  "troubleTokenBalances": {
+    "message": "Susidurta su sunkumais įkeliant jūsų žetonų likučius. Galite juos peržiūrėti ",
+    "description": "Followed by a link (here) to view token balances"
+  },
+  "trustSiteApprovePermission": {
+    "message": "Ar pasitikite šia svetaine? Suteikdami šį leidimą, leidžiate $1 iš jūsų paimti $2 ir automatizuoti operacijas už jus.",
+    "description": "$1 is the url requesting permission and $2 is the symbol of the currency that the request is for"
+  },
+  "tryAgain": {
+    "message": "Bandyti dar kartą"
+  },
+  "typePassword": {
+    "message": "Įveskite savo „Brave“ slaptažodį"
+  },
+  "unapproved": {
+    "message": "Nepatvirtinta"
+  },
+  "alertDisableTooltip": {
+    "message": "Tai galima pakeisti dalyje „Nustatymai > Įspėjimai“"
+  },
+  "units": {
+    "message": "vienetai"
+  },
+  "unknown": {
+    "message": "Nežinoma"
+  },
+  "unknownNetwork": {
+    "message": "Nežinomas privatusis tinklas"
+  },
+  "unknownQrCode": {
+    "message": "Klaida: negalime identifikuoti šio QR kodo"
+  },
+  "unknownCameraErrorTitle": {
+    "message": "Vaje! Kažkas negerai..."
+  },
+  "unknownCameraError": {
+    "message": "Kreipiantis į jūsų kamerą iškilo problema. Bandykite dar kartą..."
+  },
+  "unlimited": {
+    "message": "Neribota"
+  },
+  "unlock": {
+    "message": "Atrakinti"
+  },
+  "unlockMessage": {
+    "message": "Laukiančios decentralizuotos svetainės"
+  },
+  "updatedWithDate": {
+    "message": "Atnaujinta $1"
+  },
+  "urlErrorMsg": {
+    "message": "URL adresas turi būti su tinkamu HTTP / HTTPS priešdėliu."
+  },
+  "urlExistsErrorMsg": {
+    "message": "URL adresas jau yra esamame tinklų sąraše"
+  },
+  "usedByClients": {
+    "message": "Naudojama daugelio skirtingų klientų"
+  },
+  "usePhishingDetection": {
+    "message": "Naudokite sukčiavimo aptikimo funkciją"
+  },
+  "usePhishingDetectionDescription": {
+    "message": "Rodyti įspėjimą dėl sukčiavimo domenų, nukreiptų į „Ethereum“ naudotojus"
+  },
+  "userName": {
+    "message": "Vartotojo vardas"
+  },
+  "viewAccount": {
+    "message": "Žiūrėti paskyrą"
+  },
+  "viewinExplorer": {
+    "message": "Peržiūrėti naršyklėje"
+  },
+  "viewContact": {
+    "message": "Peržiūrėti kontaktą"
+  },
+  "viewOnCustomBlockExplorer": {
+    "message": "Peržiūrėti $1"
+  },
+  "viewOnEtherscan": {
+    "message": "Peržiūrėti „Etherscan“"
+  },
+  "retryTransaction": {
+    "message": "Bandyti operaciją atlikti dar kartą"
+  },
+  "visitWebSite": {
+    "message": "Apsilankykite mūsų svetainėje"
+  },
+  "walletSeed": {
+    "message": "Atkūrimo frazė"
+  },
+  "welcomeBack": {
+    "message": "Sveiki sugrįžę!"
+  },
+  "welcome": {
+    "message": "Sveiki, tai „Brave“"
+  },
+  "whatsThis": {
+    "message": "Kas tai?"
+  },
+  "writePhrase": {
+    "message": "Užrašykite šią frazę ant lapelio ir laikykite ją saugioje vietoje. Jeigu pageidaujate dar daugiau saugos, užrašykite ją ant kelių lapelių ir 2 ar 3 skirtingose vietose."
+  },
+  "xOfY": {
+    "message": "$1 iš $2",
+    "description": "$1 and $2 are intended to be two numbers, where $2 is a total, and $1 is a count towards that total"
+  },
+  "yesLetsTry": {
+    "message": "Taip, mėginkime"
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": "Norint naudotis šia funkcija, reikia leisti prieigą prie kameros.."
+  },
+  "yourSigRequested": {
+    "message": "Prašoma jūsų parašo"
+  },
+  "youSign": {
+    "message": "Pasirašote"
+  },
+  "yourPrivateSeedPhrase": {
+    "message": "Jūsų asmeninė atkūrimo frazė"
+  },
+  "zeroGasPriceOnSpeedUpError": {
+    "message": "Nustatykite nulinę dujų kainą greitėjant"
+  },
+  "decryptRequest": {
+    "message": "Iššifruoti užklausą"
+  },
+  "decrypt": {
+    "message": "Iššifruoti"
+  },
+  "decryptMessageNotice": {
+    "message": "$1 norėtų perskaityti šį pranešimą, kad užbaigtų jūsų veiksmą",
+    "description": "$1 is the web3 site name"
+  },
+  "decryptMetamask": {
+    "message": "Iššifruoti pranešimą"
+  },
+  "decryptCopy": {
+    "message": "Kopijuoti užšifruotą pranešimą"
+  },
+  "decryptInlineError": {
+    "message": "Šio pranešimo negalima iššifruoti dėl klaidos: $1",
+    "description": "$1 is error message"
+  },
+  "provide": {
+    "message": "Pateikti"
+  },
+  "encryptionPublicKeyRequest": {
+    "message": "Prašyti viešojo šifravimo rakto"
+  },
+  "encryptionPublicKeyNotice": {
+    "message": "$1 norėtų jūsų viešojo šifravimo rakto. Davus sutikimą ši svetainė galės jums kurti šifruotus pranešimus.",
+    "description": "$1 is the web3 site name"
+  },
+  "backupPhraseFileName": {
+    "message": "Kriptovaliutų piniginių slapta atsarginė frazė"
+  },
+  "braveRewards": {
+    "message": "„Brave Rewards“"
+  },
+  "braveSettings": {
+    "message": "„Brave“ nustatymai"
+  },
+  "contractErrorMessage": {
+    "message": "Įspėjimas. Ruošiatės nusiųsti šį išteklių į jo paties išmaniąją sutartį. Greičiausiai nenorite to padaryti, nes gali būti taip, kad ištekliaus nebebus galima atkurti."
+  },
+  "cryptoWalletsDisclosureOne": {
+    "message": "Kriptovaliutų piniginės leidžia tvarkyti kriptovaliutas ir susijusį turtą „Brave“ naršyklėje. Kriptovaliutų piniginės palaiko eterio (angl. „Ethereum“) žetonus, kaip antai ETH ir BAT, bei kolekcines priemones, taip pat leidžia dirbti su „Ðapps“ ir kitomis išmaniosiomis sutartimis. Visa tai skirta žmonėms, susipažinusiems arba norintiems susipažinti su eteriu ir kitomis blokų grandinės sistemomis."
+  },
+  "cryptoWalletsDisclosureTwo": {
+    "message": "Kriptovaliutų pinigines naudokite tik tada, jei sutinkate visą su jų naudojimu susijusią riziką prisiimti patys ir sutinkate, kad „Brave Software“ neprisiims jokios atsakomybės už jokius nuostolius, tarp jų ir netyčinius bei pasekminius nuostolius, kuriuos galite patirti dėl tokio naudojimo."
+  },
+  "cryptoWalletsDisclosureThree": {
+    "message": "Visa tai yra visiškai atskirta nuo"
+  },
+  "cryptoWalletsDisclosureFour": {
+    "message": "Jei ketinote paremti savo mėgstamiausias svetaines, keliaukite ten."
+  },
+  "cryptoWalletsTitle": {
+    "message": "Kriptovaliutų piniginės"
+  },
+  "disclosureConfirm": {
+    "message": "Suprantu"
+  },
+  "ledgerCreateSubText": {
+    "message": "Prijunkite savo sąskaitų knygos techninės įrangos piniginę, kad ji palaikytų ryšį su „dApps“, ir atlikite pervedimus į kitas prijungtas pinigines."
+  },
+  "metamaskImportSubText": {
+    "message": "Pastaba. Importuojant iš kriptovaliutų piniginės 1.0.26 ar senesnės versijos, jūsų slaptoji frazė sudaryta iš 24, o ne 12 žodžių."
+  },
+  "newLocalWallet": {
+    "message": "Nauja vietinė slaptažodinė"
+  },
+  "newLocalWalletSubText": {
+    "message": "Susikurkite naują „Brave“ vietinę piniginę, kad galėtumėte pasiekti „dApps“ ir saugiai laikyti kriptovaliutą bei savo kolekciją. Anonimiškai keiskite žetonus, nemokėdami mokesčių už sandorius."
+  },
+  "passWarningOne": {
+    "message": "Šis slaptažodis apsaugo jūsų asmeninį raktą. Niekas negalės jo atstatyti, jei pamiršite, net „Brave“!"
+  },
+  "providerErrorMessage": {
+    "message": "Ši piniginė nėra jūsų numatytasis „Ethereum Dapp“ teikėjas."
+  },
+  "trezorCreateSubText": {
+    "message": "Prijunkite savo „Trezor“ techninės įrangos slaptažodinę, kad ji palaikytų ryšį su decentralizuotomis programomis, ir atlikite pervedimus į kitas prijungtas slaptažodines."
+  },
+  "welcomeCryptoWallets": {
+    "message": "Sveikiname atradus „Brave“ kriptovaliutų pinigines"
+  },
+  "waitingForConfirmation": {
+    "message": "Laukiama patvirtinimo."
+  }
+}

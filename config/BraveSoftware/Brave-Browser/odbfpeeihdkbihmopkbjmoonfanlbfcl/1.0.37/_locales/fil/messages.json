@@ -1,0 +1,1911 @@
+{
+  "acceptTermsOfUse": {
+    "message": "Nabasa ko at sumasang-ayon ako sa $1",
+    "description": "$1 is the `terms` message"
+  },
+  "eth_accounts": {
+    "message": "Tingnan ang mga address ng iyong mga pinahihintulutang account (kinakailangan)",
+    "description": "The description for the `eth_accounts` permission"
+  },
+  "connectedSites": {
+    "message": "Mga nakakonektang site"
+  },
+  "connectedSitesDescription": {
+    "message": "Nakakonekta si $1 sa mga site na ito. Matitingnan niya ang address ng iyong account.",
+    "description": "$1 is the account name"
+  },
+  "connectedSitesEmptyDescription": {
+    "message": "Hindi konektado si $1 sa anumang site.",
+    "description": "$1 is the account name"
+  },
+  "connectedAccountsDescriptionSingular": {
+    "message": "May 1 account kang nakakonekta sa site na ito."
+  },
+  "connectedAccountsDescriptionPlural": {
+    "message": "May $1 (na) account kang nakakonekta sa site na ito.",
+    "description": "$1 is the number of accounts"
+  },
+  "connectedAccountsEmptyDescription": {
+    "message": "Hindi nakakonekta ang Brave sa site na ito. Para kumonekta sa isang web3 site, hanapin ang button sa pagkonekta sa kanilang site."
+  },
+  "currentAccountNotConnected": {
+    "message": "Hindi nakakonekta ang iyong kasalukuyang account"
+  },
+  "switchToThisAccount": {
+    "message": "Lumipat sa account na ito"
+  },
+  "disconnectThisAccount": {
+    "message": "Idiskonekta ang account na ito"
+  },
+  "permissions": {
+    "message": "Mga Pahintulot"
+  },
+  "showPermissions": {
+    "message": "Ipakita ang mga pahintulot"
+  },
+  "authorizedPermissions": {
+    "message": "Binigyan mo ng awtorisasyon ang mga sumusunod na pahintulot"
+  },
+  "connectManually": {
+    "message": "Manual na kumonekta sa kasalukuyang site"
+  },
+  "disconnect": {
+    "message": "I-disconnect"
+  },
+  "disconnectAllAccounts": {
+    "message": "Idiskonekta ang lahat ng account"
+  },
+  "disconnectPrompt": {
+    "message": "Idiskonekta ang $1"
+  },
+  "disconnectAllAccountsConfirmationDescription": {
+    "message": "Sigurado ka bang gusto mong magdiskonekta? Maaaring mawalan ka ng functionality ng site."
+  },
+  "dismiss": {
+    "message": "Balewalain"
+  },
+  "showIncomingTransactions": {
+    "message": "Ipakita ang Mga Papasok na Transaksyon"
+  },
+  "showIncomingTransactionsDescription": {
+    "message": "Piliin ito para gamitin ang Etherscan para ipakita ang mga papasok na transaksyon sa listahan ng mga transaksyon"
+  },
+  "chartOnlyAvailableEth": {
+    "message": "Available lang ang chart sa mga Ethereum network."
+  },
+  "connecting": {
+    "message": "Kumokonekta..."
+  },
+  "connectWithMetaMask": {
+    "message": "Kumonekta Sa Brave"
+  },
+  "connectTo": {
+    "message": "Kumonekta sa $1",
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to Brave"
+  },
+  "connectToAll": {
+    "message": "Kumonekta sa lahat ng iyong $1",
+    "description": "$1 will be replaced by the translation of connectToAllAccounts"
+  },
+  "connectToAllAccounts": {
+    "message": "mga account",
+    "description": "will replace $1 in connectToAll, completing the sentence 'connect to all of your accounts', will be text that shows list of accounts on hover"
+  },
+  "connectToMultiple": {
+    "message": "Kumonekta sa $1",
+    "description": "$1 will be replaced by the translation of connectToMultipleNumberOfAccounts"
+  },
+  "connectToMultipleNumberOfAccounts": {
+    "message": "$1 (na) account",
+    "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
+  },
+  "contractInteraction": {
+    "message": "Paggamit sa Contract"
+  },
+  "reject": {
+    "message": "Tanggihan"
+  },
+  "about": {
+    "message": "Tungkol sa"
+  },
+  "aboutSettingsDescription": {
+    "message": "Bersyon, support center, at impormasyon sa pakikipag-ugnayan"
+  },
+  "acceleratingATransaction": {
+    "message": "* Ang pagpapabilis sa isang transaksyon sa pamamagitan ng paggamit ng mas mataas na presyo ng gas ay makakadagdag sa tsansa nitong maproseso ng network nang mas mabilis, pero hindi ito palaging garantisado."
+  },
+  "accessAndSpendNotice": {
+    "message": "Maaaring mag-access si $1 at gumastos nang hanggang sa max na halagang ito",
+    "description": "$1 is the url of the site requesting ability to spend"
+  },
+  "accessingYourCamera": {
+    "message": "Ina-access ang iyong camera..."
+  },
+  "account": {
+    "message": "Account"
+  },
+  "accountDetails": {
+    "message": "Mga detalye ng account"
+  },
+  "accountName": {
+    "message": "Pangalan ng Account"
+  },
+  "accountOptions": {
+    "message": "Mga Opsyon sa Account"
+  },
+  "accountSelectionRequired": {
+    "message": "Kailangan mong pumili ng account!"
+  },
+  "active": {
+    "message": "Aktibo"
+  },
+  "activity": {
+    "message": "Aktibidad"
+  },
+  "activityLog": {
+    "message": "log ng aktibidad"
+  },
+  "addNetwork": {
+    "message": "Magdagdag ng Network"
+  },
+  "addRecipient": {
+    "message": "Magdagdag ng Recipient"
+  },
+  "advanced": {
+    "message": "Advanced"
+  },
+  "advancedSettingsDescription": {
+    "message": "I-access ang mga feature ng developer, i-download ang Mga State Log, I-reset ang Account, i-set up ang mga testnet at custom na RPC\n"
+  },
+  "advancedOptions": {
+    "message": "Mga Advanced na Opsyon"
+  },
+  "customizeGas": {
+    "message": "I-customize"
+  },
+  "addToAddressBook": {
+    "message": "Idagdag sa address book"
+  },
+  "addToAddressBookModalPlaceholder": {
+    "message": "hal. Juan D."
+  },
+  "addAlias": {
+    "message": "Magdagdag ng alias"
+  },
+  "addToken": {
+    "message": "Magdagdag ng Token"
+  },
+  "addTokens": {
+    "message": "Magdagdag ng Mga Token"
+  },
+  "addSuggestedTokens": {
+    "message": "Magdagdag ng Mga Iminungkahing Token"
+  },
+  "addAcquiredTokens": {
+    "message": "Idagdag ang mga token na nakuha mo gamit ang Brave"
+  },
+  "alerts": {
+    "message": "Mga Alerto"
+  },
+  "alertsSettingsDescription": {
+    "message": "I-enable o i-disable ang bawat alerto"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "Nagba-browse ng website gamit ang napiling account na hindi nakakonekta"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "Ipinapakita ang alertong ito sa popup kapag nagba-browse ka ng nakakonektang Web3 site, pero hindi nakakonekta ang kasalukuyang napiling account."
+  },
+  "allowOriginSpendToken": {
+    "message": "Payagan ang $1 na gastusin ang iyong $2?",
+    "description": "$1 is the url of the site and $2 is the symbol of the token they are requesting to spend"
+  },
+  "allowThisSiteTo": {
+    "message": "Payagan ang site na ito na:"
+  },
+  "allowExternalExtensionTo": {
+    "message": "Payagan ang external na extension na ito na:"
+  },
+  "allowWithdrawAndSpend": {
+    "message": "Payagan ang $1 na mag-withdraw at gumastos nang hanggang sa sumusunod na halaga:",
+    "description": "The url of the site that requested permission to 'withdraw and spend'"
+  },
+  "amount": {
+    "message": "Halaga"
+  },
+  "amountWithColon": {
+    "message": "Halaga:"
+  },
+  "appDescription": {
+    "message": "Isang Ethereum Wallet sa iyong Browser",
+    "description": "The description of the application"
+  },
+  "appName": {
+    "message": "Brave Software",
+    "description": "The name of the application"
+  },
+  "approve": {
+    "message": "Aprubahan ang limitasyon sa paggastos"
+  },
+  "approveSpendLimit": {
+    "message": "Aprubahan ang $1 na limitasyon sa paggastos",
+    "description": "The token symbol that is being approved"
+  },
+  "approved": {
+    "message": "Inaprubahan"
+  },
+  "asset": {
+    "message": "Asset"
+  },
+  "maker": {
+    "message": "Maker"
+  },
+  "taker": {
+    "message": "Taker"
+  },
+  "slippage": {
+    "message": "Tolerance sa Pagdulas"
+  },
+  "assets": {
+    "message": "Mga Asset"
+  },
+  "attemptingConnect": {
+    "message": "Sinusubukang kumonekta sa blockchain."
+  },
+  "attemptToCancel": {
+    "message": "Subukang Kanselahin?"
+  },
+  "attemptToCancelDescription": {
+    "message": "Ang pagsusumite sa pagtangkang ito ay hindi makakagarantiya na nakansela ang iyong orihinal na transaksyon. Kung matagumpay ang pagtangkang magkansela, sisingilin sa iyo ang bayarin sa transaksyon sa itaas."
+  },
+  "attributions": {
+    "message": "Mga Attribution"
+  },
+  "autoLockTimeLimit": {
+    "message": "Auto-Lock Timer (mga minuto)"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "Itakda ang idle na oras sa mga minuto bago ma-lock ang Brave."
+  },
+  "average": {
+    "message": "Average"
+  },
+  "back": {
+    "message": "Bumalik"
+  },
+  "backToAll": {
+    "message": "Bumalik sa Lahat"
+  },
+  "backupApprovalNotice": {
+    "message": "I-back up ang iyong Secret Recovery code para panatilihing secure ang iyong wallet at pondo."
+  },
+  "backupApprovalInfo": {
+    "message": "Kinakailangan ang lihim na code na ito para ma-recover ang iyong wallet kung sakaling mawala ang device mo, makalimutan mo ang iyong password, kailanganin mong i-install ulit ang Brave, o gusto mong i-access ang iyong wallet sa ibang device."
+  },
+  "backupNow": {
+    "message": "I-back up ngayon"
+  },
+  "balance": {
+    "message": "Balanse"
+  },
+  "balanceOutdated": {
+    "message": "Maaaring outdated na ang balanse"
+  },
+  "basic": {
+    "message": "Pangunahin"
+  },
+  "blockExplorerUrl": {
+    "message": "Block Explorer"
+  },
+  "blockExplorerView": {
+    "message": "Tingnan ang account sa $1",
+    "description": "$1 replaced by URL for custom block explorer"
+  },
+  "blockiesIdenticon": {
+    "message": "Gumamit ng Blockies Identicon"
+  },
+  "nonceField": {
+    "message": "Mag-customize ng nonce sa transaksyon"
+  },
+  "nonceFieldHeading": {
+    "message": "Custom na Nonce"
+  },
+  "nonceFieldDescription": {
+    "message": "I-on ito para palitan ang nonce (numero ng transaksyon) sa mga screen sa pagkumpirma. Isa itong advanced na feature, maingat na gamitin."
+  },
+  "browserNotSupported": {
+    "message": "Hindi sinusuportahan ang iyong Browser..."
+  },
+  "builtInCalifornia": {
+    "message": "Ang Brave ay idinisenyo at binuo sa California."
+  },
+  "buyWithWyre": {
+    "message": "Bumili ng ETH gamit ang Wyre"
+  },
+  "buyWithWyreDescription": {
+    "message": "Nagbibigay-daan sa iyo ang Wyre na gumamit ng debit card para makapagdeposito ng ETH nang direkta sa Brave account mo."
+  },
+  "buyCoinSwitch": {
+    "message": "Bilhin sa CoinSwitch"
+  },
+  "buyCoinSwitchExplainer": {
+    "message": "Ang CoinSwitch ay ang one-stop na destinasyon para magpapalit ng mahigit sa 300 cryptocurrency sa pinakamababang halaga."
+  },
+  "bytes": {
+    "message": "Bytes"
+  },
+  "off": {
+    "message": "Naka-off"
+  },
+  "ok": {
+    "message": "Ok"
+  },
+  "on": {
+    "message": "Naka-on"
+  },
+  "optionalBlockExplorerUrl": {
+    "message": "Block Explorer URL (opsyonal)"
+  },
+  "cancel": {
+    "message": "Kanselahin"
+  },
+  "cancelAttempt": {
+    "message": "Kanselahin ang Pagtangka"
+  },
+  "cancellationGasFee": {
+    "message": "Gas Fee sa Pagkansela"
+  },
+  "cancelled": {
+    "message": "Nakansela"
+  },
+  "chainId": {
+    "message": "Chain ID"
+  },
+  "clickToRevealSeed": {
+    "message": "Mag-click dito para ipakita ang iyong secret words"
+  },
+  "close": {
+    "message": "Isara"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": "Kailangan mong gamitin ang Brave sa Google Chrome para makakonekta sa iyong Hardware Wallet."
+  },
+  "confirm": {
+    "message": "Kumpirmahin"
+  },
+  "confirmed": {
+    "message": "Nakumpirma"
+  },
+  "confirmPassword": {
+    "message": "Kumpirmahin ang password"
+  },
+  "confirmSecretBackupPhrase": {
+    "message": "Kumpirmahin ang iyong Secret Backup Phrase"
+  },
+  "congratulations": {
+    "message": "Binabati kita"
+  },
+  "connectAccountOrCreate": {
+    "message": "Ikonekta ang account o gumawa ng bago"
+  },
+  "connectHardwareWallet": {
+    "message": "Magkonekta ng Hardware Wallet"
+  },
+  "connect": {
+    "message": "Kumonekta"
+  },
+  "connectingTo": {
+    "message": "Kumokonekta sa $1"
+  },
+  "connectingToKovan": {
+    "message": "Kumokonekta sa Kovan Test Network"
+  },
+  "connectingToMainnet": {
+    "message": "Kumokonekta sa Main Ethereum Network"
+  },
+  "connectingToRopsten": {
+    "message": "Kumokonekta sa Ropsten Test Network"
+  },
+  "connectingToRinkeby": {
+    "message": "Kumokonekta sa Rinkeby Test Network"
+  },
+  "connectingToLocalhost": {
+    "message": "Kumokonekta sa Localhost 8545"
+  },
+  "connectingToGoerli": {
+    "message": "Kumokonekta sa Goerli Test Network"
+  },
+  "contacts": {
+    "message": "Mga Contact"
+  },
+  "contactsSettingsDescription": {
+    "message": "Dagdagan, i-edit, tanggalin, at pamahalaan ang iyong mga contact"
+  },
+  "contactUs": {
+    "message": "Makipag-ugnayan sa amin!"
+  },
+  "continueToSwap": {
+    "message": "Magpatuloy para Pagpalitin"
+  },
+  "continueToWyre": {
+    "message": "Magpatuloy sa Wyre"
+  },
+  "continueToCoinSwitch": {
+    "message": "Magpatuloy sa CoinSwitch"
+  },
+  "contractDeployment": {
+    "message": "Deployment ng Contract"
+  },
+  "copiedExclamation": {
+    "message": "Nakopya!"
+  },
+  "copyAddress": {
+    "message": "Kopyahin ang address sa clipboard"
+  },
+  "copyTransactionId": {
+    "message": "Kopyahin ang Transaction ID"
+  },
+  "copiedTransactionId": {
+    "message": "Nakopya ang Transaction ID"
+  },
+  "copyToClipboard": {
+    "message": "Kopyahin sa clipboard"
+  },
+  "copyPrivateKey": {
+    "message": "Ito ang iyong pribadong private key (i-click para kopyahin)"
+  },
+  "create": {
+    "message": "Gumawa"
+  },
+  "createAccount": {
+    "message": "Gumawa ng Account"
+  },
+  "createAWallet": {
+    "message": "Gumawa ng Wallet"
+  },
+  "createPassword": {
+    "message": "Gumawa ng Password"
+  },
+  "currencyConversion": {
+    "message": "Pagpapapalit ng Currency "
+  },
+  "currentExtension": {
+    "message": "Kasalukuyang page ng extension"
+  },
+  "currentLanguage": {
+    "message": "Kasalukuyang Wika"
+  },
+  "customGas": {
+    "message": "I-customize ang Gas"
+  },
+  "customGasSubTitle": {
+    "message": "Maaaring mas bumilis ang pagpoproseso kapag dinagdagan ang fee, pero hindi ito garantisado."
+  },
+  "customToken": {
+    "message": "Custom na Token"
+  },
+  "customRPC": {
+    "message": "Custom RPC"
+  },
+  "customSpendLimit": {
+    "message": "Custom na Limitasyon sa Paggastos"
+  },
+  "dataBackupFoundInfo": {
+    "message": "Na-back up ang ilan sa iyong data ng account sa nakaraang pag-install ng Brave. Maaaring kasama rito ang iyong mga setting, contact, at token. Gusto mo bang i-restore ang data na ito ngayon?"
+  },
+  "decimalsMustZerotoTen": {
+    "message": "Ang mga decimal ay hindi dapat bumaba sa 0, at hindi lumampas sa 36."
+  },
+  "decimal": {
+    "message": "Bilang ng Decimal"
+  },
+  "defaultNetwork": {
+    "message": "Ang default na network para sa mga transaksyon ng Ether ay Main Net."
+  },
+  "delete": {
+    "message": "I-delete"
+  },
+  "deleteAccount": {
+    "message": "I-delete ang Account"
+  },
+  "deposit": {
+    "message": "Deposito"
+  },
+  "depositEther": {
+    "message": "Magdeposito ng Ether"
+  },
+  "details": {
+    "message": "Mga Detalye"
+  },
+  "directDepositEther": {
+    "message": "Direktang Magdeposito ng Ether"
+  },
+  "directDepositEtherExplainer": {
+    "message": "Kung mayroon ka nang Ether, ang pinakamabilis na paraan para magkaroon ng Ether sa iyong bagong wallet ay sa pamamagitan ng direkang deposito."
+  },
+  "done": {
+    "message": "Tapos na"
+  },
+  "dontShowThisAgain": {
+    "message": "Huwag na itong ipakita ulit"
+  },
+  "downloadGoogleChrome": {
+    "message": "I-download ang Google Chrome"
+  },
+  "downloadSecretBackup": {
+    "message": "I-download ang Secret Backup Phrase na ito at panatilhing itong nakatago nang ligtas sa isang external na encrypted hard drive o storage medium."
+  },
+  "downloadStateLogs": {
+    "message": "I-download ang mga State Log"
+  },
+  "dontHaveAHardwareWallet": {
+    "message": "Wala ka bang hardware wallet?"
+  },
+  "dropped": {
+    "message": "Na-drop"
+  },
+  "edit": {
+    "message": "I-edit"
+  },
+  "editContact": {
+    "message": "I-edit ang Contact"
+  },
+  "editPermission": {
+    "message": "I-edit ang Pahintulot"
+  },
+  "endOfFlowMessage1": {
+    "message": "Pumasa ka sa test - panatilihing ligtas ang iyong seedphrase, responsibilidad mo ito!"
+  },
+  "endOfFlowMessage2": {
+    "message": "Mga tip sa pag-store dito ng ligtas"
+  },
+  "endOfFlowMessage3": {
+    "message": "Mag-save ng backup sa maraming lugar."
+  },
+  "endOfFlowMessage4": {
+    "message": "Huwag ibahagi ang parirala sa kahit sino."
+  },
+  "endOfFlowMessage5": {
+    "message": "Mag-ingat sa phishing! Hindi kailanman bigla-biglang hihingiin ng Brave ang iyong seed phrase."
+  },
+  "endOfFlowMessage6": {
+    "message": "Kung kailangan mong i-back up ulit ang iyong seed phrase, makikita mo ito sa Mga Setting -> Seguridad."
+  },
+  "endOfFlowMessage7": {
+    "message": "Kung may mga tanong ka man o may nakita kang kahina-hinala, bisitahin ang aming forum ng suporta"
+  },
+  "endOfFlowMessage8": {
+    "message": "Hindi mare-recover ng Brave ang iyong seedphrase."
+  },
+  "endOfFlowMessage9": {
+    "message": "Matuto pa."
+  },
+  "endOfFlowMessage10": {
+    "message": "Tapos na Lahat"
+  },
+  "endOfFlowMessage11": {
+    "message": "sa wallet."
+  },
+  "externalExtension": {
+    "message": "External na Extension"
+  },
+  "onboardingReturnNotice": {
+    "message": "Isasara ng \"$1\" ang tab na ito at didirekta pabalik sa $2",
+    "description": "Return the user to the site that initiated onboarding"
+  },
+  "ensRegistrationError": {
+    "message": "May error sa pagrerehistro ng ENS name"
+  },
+  "ensNotFoundOnCurrentNetwork": {
+    "message": "Hindi nakita ang ENS name sa kasalukuyang network. Subukang lumipat sa Main Ethereum Network."
+  },
+  "enterAnAlias": {
+    "message": "Maglagay ng alias"
+  },
+  "enterMaxSpendLimit": {
+    "message": "Ilagay ang Max na Limitasyon sa Paggastos"
+  },
+  "enterPassword": {
+    "message": "Ilagay ang password"
+  },
+  "enterPasswordContinue": {
+    "message": "Ilagay ang password para magpatuloy"
+  },
+  "errorCode": {
+    "message": "Code: $1",
+    "description": "Displayed error code for debugging purposes. $1 is the error code"
+  },
+  "errorDetails": {
+    "message": "Mga Detalye ng Error",
+    "description": "Title for collapsible section that displays error details for debugging purposes"
+  },
+  "errorMessage": {
+    "message": "Mensahe: $1",
+    "description": "Displayed error message for debugging purposes. $1 is the error message"
+  },
+  "errorName": {
+    "message": "Code: $1",
+    "description": "Displayed error name for debugging purposes. $1 is the error name"
+  },
+  "errorPageTitle": {
+    "message": "Nagka-error sa Brave",
+    "description": "Title of generic error page"
+  },
+  "errorPageMessage": {
+    "message": "Subukan ulit sa pamamagitan ng pag-reload sa page, o makipag-ugnayan sa suporta sa support@brave.com",
+    "description": "Message displayed on generic error page in the fullscreen or notification UI"
+  },
+  "errorPagePopupMessage": {
+    "message": "Subukan ulit sa pamamagitan ng pagsasara at pagbubukas muli sa popup, o makipag-ugnayan sa suporta sa support@brave.com",
+    "description": "Message displayed on generic error page in the popup UI"
+  },
+  "errorStack": {
+    "message": "Stack:",
+    "description": "Title for error stack, which is displayed for debugging purposes"
+  },
+  "ethereumPublicAddress": {
+    "message": "Ethereum Public Address"
+  },
+  "etherscanView": {
+    "message": "Tingnan ang account sa Etherscan"
+  },
+  "estimatedProcessingTimes": {
+    "message": "Tinatantiyang Tagal ng Pagproseso"
+  },
+  "estimatedNetworkFee": {
+    "message": "Estimated network fee"
+  },
+  "expandView": {
+    "message": "Palawakin ang view"
+  },
+  "exportPrivateKey": {
+    "message": "I-export ang Private Key"
+  },
+  "failed": {
+    "message": "Nabigo"
+  },
+  "failureMessage": {
+    "message": "Nagkaproblema, at hindi namin nakumpleto ang pagkilos"
+  },
+  "fast": {
+    "message": "Mabilis"
+  },
+  "faster": {
+    "message": "Mas Mabilis"
+  },
+  "feeAssociatedRequest": {
+    "message": "May nauugnay na bayarin sa kahilingang ito."
+  },
+  "fiat": {
+    "message": "Fiat",
+    "description": "Exchange type"
+  },
+  "fileImportFail": {
+    "message": "Hindi gumagana ang pag-import ng file? Mag-click dito!",
+    "description": "Helps user import their account from a JSON file"
+  },
+  "forgetDevice": {
+    "message": "Kalimutan ang device na ito"
+  },
+  "from": {
+    "message": "Mula sa"
+  },
+  "fromAddress": {
+    "message": "Mula sa: $1",
+    "description": "$1 is the address to include in the From label. It is typically shortened first using shortenAddress"
+  },
+  "functionApprove": {
+    "message": "Function: Aprubahan"
+  },
+  "functionType": {
+    "message": "Uri ng Function"
+  },
+  "gasLimit": {
+    "message": "Limitasyon sa Gas"
+  },
+  "gasLimitInfoModalContent": {
+    "message": "Ang limitasyon sa gas ay ang maximum na dami ng mga unit ng gas na handa kang gastusin."
+  },
+  "gasLimitTooLow": {
+    "message": "Ang limitasyon sa gas ay dapat na hindi bababa sa 21000"
+  },
+  "gasUsed": {
+    "message": "Gas na Ginamit"
+  },
+  "gasPrice": {
+    "message": "Presyo ng Gas (GWEI)"
+  },
+  "gasPriceExtremelyLow": {
+    "message": "Napakababa ng Presyo ng Gas"
+  },
+  "gasPriceInfoModalContent": {
+    "message": "Tinutukoy ng presyo ng gas ang halaga ng Ether na handa kang ibayad para sa bawat unit ng gas."
+  },
+  "gasPriceNoDenom": {
+    "message": "Presyo ng Gas"
+  },
+  "gdprMessage": {
+    "message": "Pinagsasama-sama ang data na ito at samakatuwid ay anonymous para sa mga layunin ng Pangkalahatang Regulasyon para sa Proteksyon ng Data (General Data Protection Regulation o GDPR) (EU) 2016/679. Para sa higit pang impormasyon kaugnay ng aming mga kagawian sa privacy, pakibasa ang aming $1.",
+    "description": "$1 refers to the gdprMessagePrivacyPolicy message, the translation of which is meant to be used exclusively in the context of gdprMessage"
+  },
+  "gdprMessagePrivacyPolicy": {
+    "message": "Patakaran sa Privacy dito",
+    "description": "this translation is intended to be exclusively used as the replacement for the $1 in the gdprMessage translation"
+  },
+  "general": {
+    "message": "Pangkalahatan"
+  },
+  "generalSettingsDescription": {
+    "message": "Pagpapapalit ng currency, pangunahing currency, wika, blockies identicon"
+  },
+  "getEther": {
+    "message": "Kumuha ng Ether"
+  },
+  "getEtherFromFaucet": {
+    "message": "Kumuha ng Ether mula sa isang faucet para sa $1",
+    "description": "Displays network name for Ether faucet"
+  },
+  "getHelp": {
+    "message": "Humingi ng Tulong."
+  },
+  "getStarted": {
+    "message": "Magsimula"
+  },
+  "happyToSeeYou": {
+    "message": "Masaya kaming makita ka."
+  },
+  "hardware": {
+    "message": "Hardware"
+  },
+  "hardwareWalletConnected": {
+    "message": "Nakakonekta ang hardware wallet"
+  },
+  "hardwareWallets": {
+    "message": "Magkonekta ng hardware wallet"
+  },
+  "hardwareWalletsMsg": {
+    "message": "Pumili ng hardware wallet na gusto mong gamitin sa Brave"
+  },
+  "havingTroubleConnecting": {
+    "message": "May problema ka ba sa pagkonekta?"
+  },
+  "here": {
+    "message": "dito",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
+  },
+  "hexData": {
+    "message": "Hex Data"
+  },
+  "hide": {
+    "message": "Itago"
+  },
+  "hideTokenSymbol": {
+    "message": "Itago ang $1",
+    "description": "$1 is the symbol for a token (e.g. 'DAI')"
+  },
+  "hideTokenPrompt": {
+    "message": "Itago ang Token?"
+  },
+  "history": {
+    "message": "History"
+  },
+  "home": {
+    "message": "Home"
+  },
+  "import": {
+    "message": "I-import",
+    "description": "Button to import an account from a selected file"
+  },
+  "importAccount": {
+    "message": "Mag-import ng Account"
+  },
+  "importAccountMsg": {
+    "message": " Hindi iuugnay ang mga na-import na account sa iyong orihinal na ginawang seedphrase ng Brave account. Matuto pa tungkol sa mga na-import na account "
+  },
+  "importAccountSeedPhrase": {
+    "message": "Mag-import ng account na gamit ang seed phrase"
+  },
+  "importWallet": {
+    "message": "Mag-import ng wallet"
+  },
+  "importYourExisting": {
+    "message": "I-import ang iyong kasalukuyang wallet gamit ang isang 12 o 24 na salitang seed na parirala"
+  },
+  "imported": {
+    "message": "Na-import",
+    "description": "status showing that an account has been fully loaded into the keyring"
+  },
+  "importUsingSeed": {
+    "message": "Mag-import gamit ang seed phrase ng account"
+  },
+  "infoHelp": {
+    "message": "Impormasyon at Tulong"
+  },
+  "initialTransactionConfirmed": {
+    "message": "Nakumpirma ng network ang iyong unang transaksyon. I-click ang OK para bumalik."
+  },
+  "insufficientBalance": {
+    "message": "Hindi sapat ang balanse."
+  },
+  "insufficientFunds": {
+    "message": "Hindi sapat ang pondo."
+  },
+  "insufficientTokens": {
+    "message": "Hindi sapat ang mga token."
+  },
+  "insufficientFundsGas": {
+    "message": "Walang sapat na pondo para sa gasolina."
+  },
+  "balanceFetchError": {
+    "message": "Error sa pag-fetch ng balanse."
+  },
+  "invalidAddress": {
+    "message": "Hindi valid ang address"
+  },
+  "invalidAddressRecipient": {
+    "message": "Hindi valid ang address ng recipient"
+  },
+  "knownAddressRecipient": {
+    "message": "Kilalang address ng contract."
+  },
+  "knownTokenWarning": {
+    "message": "Ie-edit ng pagkilos na ito ang mga token na nakalista na sa iyong wallet, na maaaring gamitin para mag-phish sa iyo. Aprubahan lang kung sigurado kang gusto mong baguhin ang mga kinakatawan ng mga token na ito."
+  },
+  "reusedTokenNameWarning": {
+    "message": "Gumagamit ang token dito ng simbolo mula sa isa pang token na pinapanood mo, maaari itong makalito o makapanlinlang."
+  },
+  "invalidAddressRecipientNotEthNetwork": {
+    "message": "Hindi ito isang ETH network, i-set sa lowercase"
+  },
+  "invalidCustomNetworkAlertContent1": {
+    "message": "Walang chain ID ang custom na network na '$1'.",
+    "description": "$1 is the name/identifier of the network."
+  },
+  "invalidCustomNetworkAlertContent2": {
+    "message": "Para protektahan ka mula sa mga nakakapinsala o hindi maayos na network provider, kinakailangan na ngayon ng mga chain ID para sa lahat ng custom na network."
+  },
+  "invalidCustomNetworkAlertContent3": {
+    "message": "Pumunta sa Mga Setting > Network at ilagay ang chain ID. Mahahanap mo ang karamihan ng mga chain ID ng mga pinakasikat na network sa $1.",
+    "description": "$1 is a link to https://chainid.network"
+  },
+  "invalidCustomNetworkAlertTitle": {
+    "message": "Invalid na Custom na Network"
+  },
+  "invalidHexNumber": {
+    "message": "Invalid na hexadecimal na numero."
+  },
+  "invalidHexNumberLeadingZeros": {
+    "message": "Invalid na hexadecimal na numero. Alisin ang anumang zero sa unahan."
+  },
+  "invalidRPC": {
+    "message": "Hindi valid ang RPC URL"
+  },
+  "invalidBlockExplorerURL": {
+    "message": "Invalid na Block Explorer URL"
+  },
+  "invalidSeedPhrase": {
+    "message": "Hindi valid ang seed phrase"
+  },
+  "ipfsGateway": {
+    "message": "IPFS Gateway"
+  },
+  "ipfsGatewayDescription": {
+    "message": "Ilagay ang URL ng IPFS CID gateway para magamit para sa resolution ng content ng ENS."
+  },
+  "invalidIpfsGateway": {
+    "message": "Invalid na IPFS Gateway: Dapat ay valid na URL ang value"
+  },
+  "invalidNumber": {
+    "message": "Invalid na numero. Maglagay ng decimal o hexadecimal na numero."
+  },
+  "invalidNumberLeadingZeros": {
+    "message": "Invalid na numero. Alisin ang anumang zero sa unahan."
+  },
+  "forbiddenIpfsGateway": {
+    "message": "Ipinagbabawal na IPFS Gateway: Mangyaring  tumukoy ng CID gateway"
+  },
+  "jsonFile": {
+    "message": "JSON File",
+    "description": "format for importing an account"
+  },
+  "kovan": {
+    "message": "Kovan Test Network"
+  },
+  "max": {
+    "message": "Max"
+  },
+  "lastConnected": {
+    "message": "Huling Kumonekta"
+  },
+  "learnMore": {
+    "message": "Matuto pa"
+  },
+  "ledgerAccountRestriction": {
+    "message": "Kailangan mong gamitin ang iyong dating account bago ka makapagdagdag ng bago."
+  },
+  "letsGoSetUp": {
+    "message": "Oo, i-set up natin ito!"
+  },
+  "likeToAddTokens": {
+    "message": "Gusto mo bang idagdag ang mga token na ito?"
+  },
+  "links": {
+    "message": "Mga Link"
+  },
+  "liveGasPricePredictions": {
+    "message": "Mga Live na Prediksyon sa Presyo ng Gas"
+  },
+  "loading": {
+    "message": "Naglo-load..."
+  },
+  "loadingTokens": {
+    "message": "Naglo-load ng Mga Token..."
+  },
+  "loadMore": {
+    "message": "Mag-load Pa"
+  },
+  "localhost": {
+    "message": "Localhost 8545"
+  },
+  "lock": {
+    "message": "Lock"
+  },
+  "lockTimeTooGreat": {
+    "message": "Masyadong malaki ang oras ng pag-lock"
+  },
+  "mainnet": {
+    "message": "Main Ethereum Network"
+  },
+  "availableOnMainnetRopsten": {
+    "message": "Available lang sa mainnet at ropsten"
+  },
+  "memorizePhrase": {
+    "message": "Tandaan ang pariralang ito."
+  },
+  "memo": {
+    "message": "memo"
+  },
+  "message": {
+    "message": "Mensahe"
+  },
+  "metaMaskConnectStatusParagraphOne": {
+    "message": "May higit ka na ngayong kontrol sa mga pagkonekta ng iyong account sa Brave."
+  },
+  "metaMaskConnectStatusParagraphTwo": {
+    "message": "Ipinapakita ng button na status ng koneksyon kung nakakonekta sa iyong kasalukuyang napiling account ang website na binibisita mo."
+  },
+  "metaMaskConnectStatusParagraphThree": {
+    "message": "I-click ito para pamahalaan ang iyong mga nakakonektang account."
+  },
+  "metamaskDescription": {
+    "message": "Kinokonekta ka sa Ethereum at sa Decentralized Web."
+  },
+  "metamaskVersion": {
+    "message": "Bersyon ng Brave"
+  },
+  "mobileSyncText": {
+    "message": "Pakilagay ang iyong password para kumpirmahing ikaw ito!"
+  },
+  "myAccounts": {
+    "message": "Mga Account Ko"
+  },
+  "myWalletAccounts": {
+    "message": "Mga Wallet Account Ko"
+  },
+  "myWalletAccountsDescription": {
+    "message": "Awtomatikong idaragdag sa seksyong ito ang lahat ng iyong account na ginawa sa Brave."
+  },
+  "mustSelectOne": {
+    "message": "Dapat pumili ng kahit 1 token."
+  },
+  "needEtherInWallet": {
+    "message": "Para makipag-ugnayan sa mga naka-decentralize na application gamit ang Brave, kakailanganin mo ng Ether sa iyong wallet."
+  },
+  "needImportFile": {
+    "message": "Dapat kang pumili ng file na ii-import.",
+    "description": "User is important an account and needs to add a file to continue"
+  },
+  "negativeETH": {
+    "message": "Hindi makakapagpadala ng mga negative na halaga ng ETH."
+  },
+  "networkName": {
+    "message": "Pangalan ng Network"
+  },
+  "networks": {
+    "message": "Mga Network"
+  },
+  "networkSettingsChainIdDescription": {
+    "message": "Ginagamit ang chain ID para sa paglagda ng mga transaksyon. Maglagay ng decimal o hexadecimal na numerong nagsisimula sa '0x'."
+  },
+  "networkSettingsDescription": {
+    "message": "Magdagdag at mag-edit ng mga custom na RPC network"
+  },
+  "nevermind": {
+    "message": "Huwag na lang"
+  },
+  "newAccount": {
+    "message": "Bagong Account"
+  },
+  "newAccountDetectedDialogMessage": {
+    "message": "Naka-detect ng bagong address! Mag-click dito para idagdag ang iyong address book."
+  },
+  "newAccountNumberName": {
+    "message": "Account $1",
+    "description": "Default name of next account to be created on create account screen"
+  },
+  "newContact": {
+    "message": "Bagong Contact"
+  },
+  "newContract": {
+    "message": "Bagong Contract"
+  },
+  "newPassword": {
+    "message": "Bagong password (hindi bababa sa 8 char)"
+  },
+  "newNetwork": {
+    "message": "Bagong Network"
+  },
+  "newToMetaMask": {
+    "message": "Bago sa Brave?"
+  },
+  "noAlreadyHaveSeed": {
+    "message": "Hindi, may seed phrase na ako"
+  },
+  "protectYourKeys": {
+    "message": "Protektahan Ang Iyong Mga Key!"
+  },
+  "protectYourKeysMessage1": {
+    "message": "Ingatan ang iyong seed phrase — may mga ulat tungkol sa mga website na nagtatangkang gayahin ang Brave. Hindi kailanman hihingiin ng Brave ang iyong seed phrase!"
+  },
+  "protectYourKeysMessage2": {
+    "message": "Ingatan ang iyong safe. Kung may makikita kang bagay na kahina-hinala, o hindi ka sigurado tungkol sa isang website, mag-email sa support@brave.com"
+  },
+  "rpcUrl": {
+    "message": "Bagong RPC URL"
+  },
+  "onlyConnectTrust": {
+    "message": "Kumonekta lang sa mga site na pinagkakatiwalaan mo."
+  },
+  "onlyAddTrustedNetworks": {
+    "message": "Maaaring magsinungaling ang isang nakakapinsalang provider ng Ethereum network tungkol sa status ng blockchain at itala ang aktibidad ng iyong network. Idagdag lang ang mga custom na network na pinagkakatiwalaan mo."
+  },
+  "optionalSymbol": {
+    "message": "Simbolo (opsyonal)"
+  },
+  "newTotal": {
+    "message": "Bagong Total"
+  },
+  "newTransactionFee": {
+    "message": "Bagong Transaction Fee"
+  },
+  "next": {
+    "message": "Susunod"
+  },
+  "nextNonceWarning": {
+    "message": "Mas mataas ang nonce sa iminumungkahing nonce na $1",
+    "description": "The next nonce according to Brave's internal logic"
+  },
+  "noAddressForName": {
+    "message": "Walang address na na-set para sa pangalang ito."
+  },
+  "noConversionRateAvailable": {
+    "message": "Walang Presyo ng Palitan na Available"
+  },
+  "noTransactions": {
+    "message": "Wala kang mga transaksyon"
+  },
+  "noThanks": {
+    "message": "Hindi, Salamat"
+  },
+  "notCurrentAccount": {
+    "message": "Tama ba ang account na ito? Naiiba ito sa kasalukuyang napiling account sa iyong wallet"
+  },
+  "notEnoughGas": {
+    "message": "Hindi Sapat Ang Gas"
+  },
+  "noWebcamFoundTitle": {
+    "message": "Hindi nakita ang webcam"
+  },
+  "noWebcamFound": {
+    "message": "Hindi nakita ang webcam ng iyong computer. Pakisubukang muli."
+  },
+  "ofTextNofM": {
+    "message": "sa"
+  },
+  "orderOneHere": {
+    "message": "Mag-order ng Trezor o Ledger para itago sa cold storage ang iyong pondo"
+  },
+  "origin": {
+    "message": "Pinanggalingan"
+  },
+  "parameters": {
+    "message": "Mga Parameter"
+  },
+  "participateInMetaMetrics": {
+    "message": "Makilahok sa MetaMetrics"
+  },
+  "participateInMetaMetricsDescription": {
+    "message": "Lumahok sa MetaMetrics para tulungan kaming mapahusay pa ang Brave"
+  },
+  "password": {
+    "message": "Password"
+  },
+  "passwordsDontMatch": {
+    "message": "Hindi Nagtutugma Ang Mga Password"
+  },
+  "passwordNotLongEnough": {
+    "message": "Hindi sapat ang haba ng password"
+  },
+  "pastePrivateKey": {
+    "message": "I-paste ang iyong private key string dito:",
+    "description": "For importing an account from a private key"
+  },
+  "pending": {
+    "message": "Nakabinbin"
+  },
+  "permissionCheckedIconDescription": {
+    "message": "Naaprubahan mo na ang pahintulot na ito"
+  },
+  "permissionUncheckedIconDescription": {
+    "message": "Hindi mo pa naaprubahan ang pahintulot na ito"
+  },
+  "personalAddressDetected": {
+    "message": "Naka-detect ng personal na address. I-input ang token contract address."
+  },
+  "plusXMore": {
+    "message": "+ $1 (na) iba pa",
+    "description": "$1 is a number of additional but unshown items in a list- this message will be shown in place of those items"
+  },
+  "prev": {
+    "message": "Nakaraan"
+  },
+  "primaryCurrencySetting": {
+    "message": "Pangunahing Currency"
+  },
+  "primaryCurrencySettingDescription": {
+    "message": "Piliin ang native para bigyang priyoridad ang pagpapakita ng mga halaga sa native currency ng chain (hal. ETH). Piliin ang Fiat para bigyang priyoridad ang pagpapakita ng mga halaga sa napili mong fiat currency."
+  },
+  "privacyMsg": {
+    "message": "Patakaran sa Privacy"
+  },
+  "privateKey": {
+    "message": "Private Key",
+    "description": "select this type of file to use to import an account"
+  },
+  "privateKeyWarning": {
+    "message": "Babala: Huwag ibunyag ang key na ito. Ang kahit sinong may mga private key mo ay maaaring magnakaw ng anumang asset na nasa iyong account."
+  },
+  "privateNetwork": {
+    "message": "Pribadong Network"
+  },
+  "proposedApprovalLimit": {
+    "message": "Iminumungkahing Limitasyon sa Pag-apruba"
+  },
+  "queue": {
+    "message": "I-queue"
+  },
+  "queued": {
+    "message": "Naka-queue"
+  },
+  "readdToken": {
+    "message": "Puwede mong idagdag ulit ang token na ito sa hinaharap sa pamamagitan ng pagpunta sa “Magdagdag ng token” sa menu ng mga opsyon ng iyong mga accounts."
+  },
+  "recents": {
+    "message": "Kamakailan"
+  },
+  "receive": {
+    "message": "Tanggapin"
+  },
+  "recipientAddress": {
+    "message": "Address ng Recipient"
+  },
+  "recipientAddressPlaceholder": {
+    "message": "Maghanap, pampublikong address (0x), o domain"
+  },
+  "rejectAll": {
+    "message": "Tanggihan Lahat"
+  },
+  "rejectTxsN": {
+    "message": "Tanggihan ang $1 (na) transaksyon"
+  },
+  "rejectTxsDescription": {
+    "message": "Sabay-sabay mong tatanggihan ang $1 (na) transaksyon."
+  },
+  "rejected": {
+    "message": "Tinanggihan"
+  },
+  "reset": {
+    "message": "I-reset"
+  },
+  "resetAccount": {
+    "message": "I-reset ang Account"
+  },
+  "resetAccountDescription": {
+    "message": "Kapag na-reset ang iyong account, maki-clear ang history mo ng transaksyon. Hindi nito mababago ang mga balanse sa iyong mga account o hindi mo kakailanganin dito na ilagay ulit ang iyong seed phrase."
+  },
+  "deleteNetwork": {
+    "message": "I-delete ang Network?"
+  },
+  "deleteNetworkDescription": {
+    "message": "Sigurado ka bang gusto mong i-delete ang network na ito?"
+  },
+  "remindMeLater": {
+    "message": "Paalalahanan ako sa ibang pagkakataon"
+  },
+  "restoreFromSeed": {
+    "message": "I-restore ang account?"
+  },
+  "restoreAccountWithSeed": {
+    "message": "I-restore ang iyong Account gamit ang Seed Phrase"
+  },
+  "restoreWalletPreferences": {
+    "message": "May nakitang backup ng iyong data mula sa $1. Gusto mo bang i-restore ang iyong mga kagustuhan sa wallet?",
+    "description": "$1 is the date at which the data was backed up"
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": "naghihintay na matugunan ang mga request"
+  },
+  "required": {
+    "message": "Kailangan"
+  },
+  "restore": {
+    "message": "Ipanumbalik"
+  },
+  "revealSeedWords": {
+    "message": "Ihayag ang Seed Phrase"
+  },
+  "revealSeedWordsTitle": {
+    "message": "Seed Phrase"
+  },
+  "revealSeedWordsDescription": {
+    "message": "Kung lilipat ka ng browser o magpapalit ka ng computer, kakailanganin mo ang seed phrase na ito para ma-access ang iyong mga account. I-save ang mga iyon sa isang lugar na ligtas at lihim."
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "HUWAG ibahagi ang pariralang ito sa kahit sino!"
+  },
+  "revealSeedWordsWarning": {
+    "message": "Maaaring gamitin ang mga salitang ito para nakawin ang lahat ng iyong account."
+  },
+  "remove": {
+    "message": "Alisin"
+  },
+  "removeAccount": {
+    "message": "Alisin ang account"
+  },
+  "removeAccountDescription": {
+    "message": "Tatanggalin ang account na ito sa iyong wallet. Pakitiyak na nasa iyo ang orihinal na seed phrase o private key para sa naka-import na account na ito bago magpatuloy. Maaari kang mag-import o gumawa ulit ng mga account mual sa drop-down ng account. "
+  },
+  "readyToConnect": {
+    "message": "Handa ka nang Kumonekta?"
+  },
+  "reviewSwap": {
+    "message": "I-review ang Swap"
+  },
+  "rinkeby": {
+    "message": "Rinkeby Test Network"
+  },
+  "ropsten": {
+    "message": "Ropsten Test Network"
+  },
+  "goerli": {
+    "message": "Goerli Test Network"
+  },
+  "save": {
+    "message": "I-save"
+  },
+  "slow": {
+    "message": "Mabagal"
+  },
+  "slower": {
+    "message": "Mas Mabagal"
+  },
+  "saveAsCsvFile": {
+    "message": "I-save bilang CSV File"
+  },
+  "scanInstructions": {
+    "message": "Ilagay ang QR code sa harap ng iyong camera"
+  },
+  "scanQrCode": {
+    "message": "I-scan ang QR Code"
+  },
+  "search": {
+    "message": "Hanapin"
+  },
+  "searchResults": {
+    "message": "Mga Resulta ng Paghahanap"
+  },
+  "secretBackupPhrase": {
+    "message": "Secret Backup Phrase"
+  },
+  "secretBackupPhraseDescription": {
+    "message": "Pinapadali ng iyong secret backup phrase na i-back up at i-restore ang iyong account."
+  },
+  "secretBackupPhraseWarning": {
+    "message": "BABALA: Huwag ibunyag ang iyong backup phrase. Mananakaw ng kahit sinong may ganitong parirala ang iyong Ether at hindi na ito maibabalik."
+  },
+  "secretPhrase": {
+    "message": "Ilagay ang iyong lihim na 12 o 24 na salitang parirala para ma-restore ang vault mo."
+  },
+  "securityAndPrivacy": {
+    "message": "Seguridad at Privacy"
+  },
+  "securitySettingsDescription": {
+    "message": "Mga setting ng privacy at seed phrase ng wallet"
+  },
+  "seedPhrasePlaceholder": {
+    "message": "Paghiwa-hiwalayin ang bawat salita gamit ang isang space"
+  },
+  "seedPhrasePlaceholderPaste": {
+    "message": "I-paste ang seed phrase mula sa clipboard"
+  },
+  "showSeedPhrase": {
+    "message": "Ipakita ang seed phrase"
+  },
+  "seedPhraseReq": {
+    "message": "Naglalaman ang mga seed phrase ng 12, 15, 18, 21, o 24 na salita"
+  },
+  "selectingAllWillAllow": {
+    "message": "Kapag pinili lahat, papayagan ang site na ito na matingnan ang lahat ng iyong kasalukuyang account. Tiyaking pinagkakatiwalaan mo ang site na ito."
+  },
+  "selectAccounts": {
+    "message": "Pumili ng (mga) account"
+  },
+  "selectAll": {
+    "message": "Piliin ang lahat"
+  },
+  "selectCurrency": {
+    "message": "Pumili ng Currency"
+  },
+  "selectEachPhrase": {
+    "message": "Pakipili ang bawat parirala para tiyaking tama ito."
+  },
+  "selectLocale": {
+    "message": "Pumili ng Locale"
+  },
+  "selectType": {
+    "message": "Piliin ang Uri"
+  },
+  "setAllowance": {
+    "message": "I-set ang allowance"
+  },
+  "buy": {
+    "message": "Bilhin"
+  },
+  "send": {
+    "message": "Ipadala"
+  },
+  "swap": {
+    "message": "Pagpalitin"
+  },
+  "swapApprovalSecurityMsg": {
+    "message": "Para sa seguridad, pinapahuyan kang i-reset muna sa 0 ang allowance bago ito i-set sa ninanais na value, para mahadlangan ang mga transaction reordering attack."
+  },
+  "swapBraveFees": {
+    "message": "Ang quote ay may kasamang Brave fee na $1."
+  },
+  "swapFooterPrivacyNotice": {
+    "message": "Ginagamit ng Brave ang $1 bilang isang DEX aggregator. Pakitingnan ang $2 para sa higit pang impormasyon."
+  },
+  "swapNewQuoteCountdown": {
+    "message": "Bagong quote sa"
+  },
+  "swapSlippageDescription": {
+    "message": "Ang maximum na katanggap-tanggap na % ng pagbabago ng presyo sa buy asset. Kung lalampas sa slippage ang delta, hindi ie-execute ang swap."
+  },
+  "swapQuoteRefresh": {
+    "message": "Madalas na nire-refresh ang mga quote para ipakita ang kasalukuyang mga kundisyon ng market."
+  },
+  "sendAmount": {
+    "message": "Magpadala ng Halaga"
+  },
+  "sendETH": {
+    "message": "Magpadala ng ETH"
+  },
+  "sendTokens": {
+    "message": "Magpadala ng Mga Token"
+  },
+  "sentEther": {
+    "message": "nagpadala ng ether"
+  },
+  "sentTokens": {
+    "message": "mga ipinadalang token"
+  },
+  "sendSpecifiedTokens": {
+    "message": "Magpadala ng $1",
+    "description": "Symbol of the specified token"
+  },
+  "separateEachWord": {
+    "message": "Paghiwa-hiwalayin ang bawat salita gamit ang isang space"
+  },
+  "searchAssets": {
+    "message": "Maghanap ng mga Asset"
+  },
+  "searchTokens": {
+    "message": "Maghanap ng Mga Token"
+  },
+  "searchAccounts": {
+    "message": "Maghanap ng Mga Account"
+  },
+  "noAccountsFound": {
+    "message": "Walang nakitang account para sa partikular na query sa paghahanap"
+  },
+  "selectAsset": {
+    "message": "Pumili ng asset"
+  },
+  "selectAnAccount": {
+    "message": "Pumili ng Account"
+  },
+  "selectAnAccountHelp": {
+    "message": "Piliin ang account na titingnan sa Brave"
+  },
+  "selectAHigherGasFee": {
+    "message": "Pumili ng mas mataas na gas fee para pabilisin ang pagproseso ng iyong transaksyon.*"
+  },
+  "selectHdPath": {
+    "message": "Piliin ang HD Path"
+  },
+  "selectPathHelp": {
+    "message": "Kung hindi mo makita ang kasalukuyan mong mga Ledger account sa ibaba, subukang ilipat ang mga path sa \"Legacy (MEW / MyCrypto)\""
+  },
+  "settings": {
+    "message": "Mga Setting"
+  },
+  "showAdvancedGasInline": {
+    "message": "Mga advanced na kontrol sa gas"
+  },
+  "showAdvancedGasInlineDescription": {
+    "message": "Piliin ito para ipakita ang presyo ng gas at limitahan ang mga kontrol nang direkta sa screen ng pagpapadala at pagkumpirma."
+  },
+  "showFiatConversionInTestnets": {
+    "message": "Ipakita ang Conversion sa mga Testnet"
+  },
+  "showFiatConversionInTestnetsDescription": {
+    "message": "Piliin ito para magpakita ng fiat conversion sa mga Testnet"
+  },
+  "showPrivateKeys": {
+    "message": "Ipakita ang mga Private Key"
+  },
+  "showHexData": {
+    "message": "Ipakita ang Hex Data"
+  },
+  "showHexDataDescription": {
+    "message": "Piliin ito para ipakita ang hex data field sa screen ng pagpapadala"
+  },
+  "sign": {
+    "message": "I-sign"
+  },
+  "signatureRequest": {
+    "message": "Signature Request"
+  },
+  "signatureRequest1": {
+    "message": "Mensahe"
+  },
+  "signed": {
+    "message": "Na-sign"
+  },
+  "signNotice": {
+    "message": "Kapag na-sign ang mensaheng ito, maaaring magkaroon \nng mapapanganib na side effect. Mag-sign lang ng mga mensaheng mula \nsa mga site na ganap mong pinagkakatiwalaang gumamit sa iyong account.\n Isa itong mapanganib na method na aalisin sa isang bersyon sa hinaharap. "
+  },
+  "sigRequest": {
+    "message": "Signature Request"
+  },
+  "somethingWentWrong": {
+    "message": "Oops! Nagkaroon ng problema."
+  },
+  "speedUp": {
+    "message": "Pabilisin"
+  },
+  "speedUpCancellation": {
+    "message": "Pabilisin ang pagkanselang ito"
+  },
+  "speedUpTransaction": {
+    "message": "Pabilisin ang transaksyong ito"
+  },
+  "spendLimitPermission": {
+    "message": "Pahintulot sa limitasyon sa paggastos"
+  },
+  "spendLimitRequestedBy": {
+    "message": "Limitasyon sa paggastos na hiniling ng $1",
+    "description": "Origin of the site requesting the spend limit"
+  },
+  "spendLimitTooLarge": {
+    "message": "Masyadong malaki ang limitasyon sa paggastos"
+  },
+  "spendLimitInvalid": {
+    "message": "Invalid ang limitasyon sa paggastos; dapat ay positibong numero"
+  },
+  "switchNetworks": {
+    "message": "Lumipat ng Network"
+  },
+  "stateLogFileName": {
+    "message": "Mga State Log ng Brave"
+  },
+  "stateLogs": {
+    "message": "Mga State Log"
+  },
+  "stateLogsDescription": {
+    "message": "Ang mga state log ay naglalaman ng iyong mga pampublikong account address at mga ipinadalang transaksyon."
+  },
+  "stateLogError": {
+    "message": "May error sa pagkuha sa mga state log."
+  },
+  "statusConnected": {
+    "message": "Nakakonekta"
+  },
+  "statusNotConnected": {
+    "message": "Hindi nakakonekta"
+  },
+  "step1HardwareWallet": {
+    "message": "1. Magkonekta ng Hardware Wallet"
+  },
+  "step1HardwareWalletMsg": {
+    "message": "Ikonekta ang iyong hardware wallet nang direkta sa computer."
+  },
+  "step2HardwareWallet": {
+    "message": "2. Pumili ng Account"
+  },
+  "step2HardwareWalletMsg": {
+    "message": "Piliin ang halagang gusto mong tingnan. Maaari ka lang pumili nang paisa-isa."
+  },
+  "step3HardwareWallet": {
+    "message": "3. Simulan ang paggamit ng mga web3 site at higit pa!"
+  },
+  "step3HardwareWalletMsg": {
+    "message": "Gamitin ang iyong hardware account katulad ng ginagawa mo sa anumang Ethereum account. Kumonekta sa mga web3 site, magpadala ng ETH, bumili at mag-store ng mga ERC20 token at non-fungible na token na katulad ng CryptoKitties."
+  },
+  "storePhrase": {
+    "message": "I-store ang pariralang ito sa isang password manager tulad ng 1Password."
+  },
+  "submit": {
+    "message": "Isumite"
+  },
+  "submitted": {
+    "message": "Isinumite"
+  },
+  "supportCenter": {
+    "message": "Bisitahin ang aming Support Center"
+  },
+  "swapPrivacyPolicy": {
+    "message": "Pagpalitin ang Patakaran sa Privacy"
+  },
+  "swapPrivacyPolicyDescription": {
+    "message": "Ginagamit ng Brave ang $1 bilang DEX aggregator. Ipoproseso ng 0x ang Ethereum address at IP address para magawa ang isang transaksyon (kasama na ang pagkuha ng mga quote). Gagamitin LANG ng 0x ang data na ito para sa mga layunin ng pagpoproseso ng mga transaksyon."
+  },
+  "symbol": {
+    "message": "Simbolo"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "Dapat ay mayroong 11 character o mas kaunti ang simbolo."
+  },
+  "syncWithMobile": {
+    "message": "I-sync sa mobile"
+  },
+  "syncWithMobileTitle": {
+    "message": "I-sync sa mobile"
+  },
+  "syncWithMobileDesc": {
+    "message": "Maaari mong i-sync ang iyong mga account at impormasyon sa iyong mobile device. Buksan ang Brave mobile app, pumunta sa \"Mga Setting\" at i-tap ang \"Mag-sync mula sa Extension ng Browser\""
+  },
+  "syncWithMobileDescNewUsers": {
+    "message": "Kung binuksan mo ang Brave Mobile app sa unang pagkakataon, sundin lang ang mga hakbang sa iyong telepono."
+  },
+  "syncWithMobileScanThisCode": {
+    "message": "I-scan ang code na ito gamit ang iyong Brave mobile app"
+  },
+  "syncWithMobileBeCareful": {
+    "message": "Tiyaking walang ibang taong tumitingin sa iyong screen kapag sina-scan mo ang code na ito"
+  },
+  "syncWithMobileComplete": {
+    "message": "Matagumpay na na-sync ang iyong data. I-enjoy ang Brave mobile app!"
+  },
+  "terms": {
+    "message": "Mga Tuntunin ng Paggamit"
+  },
+  "testFaucet": {
+    "message": "Test Faucet"
+  },
+  "thisWillCreate": {
+    "message": "Gagawa ito ng bagong wallet at seed phrase"
+  },
+  "timeout": {
+    "message": "Pag-timeout"
+  },
+  "tips": {
+    "message": "Mga Tip"
+  },
+  "to": {
+    "message": "Para sa"
+  },
+  "toAddress": {
+    "message": "Para sa: $1",
+    "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
+  },
+  "toWithColon": {
+    "message": "Para sa:"
+  },
+  "token": {
+    "message": "Token"
+  },
+  "tokenAlreadyAdded": {
+    "message": "Naidagdag na ang token."
+  },
+  "tokenContractAddress": {
+    "message": "Token Contract Address"
+  },
+  "tokenOptions": {
+    "message": "Mga opsyon sa token"
+  },
+  "tokenSymbol": {
+    "message": "Simbolo ng Token"
+  },
+  "total": {
+    "message": "Kabuuan"
+  },
+  "transaction": {
+    "message": "transaksyon"
+  },
+  "transactionConfirmed": {
+    "message": "Nakumpirma ang transaksyon sa ganap na $2."
+  },
+  "transactionCreated": {
+    "message": "Nagawa ang transaksyon nang may halagang $1 sa ganap na $2."
+  },
+  "transactionDropped": {
+    "message": "Na-drop ang transaksyon sa $2."
+  },
+  "transactionSubmitted": {
+    "message": "Nasumite ang transaksyon nang may gas fee na $1 sa $2."
+  },
+  "transactionResubmitted": {
+    "message": "Nasumite ulit ang transaksyon nang may gas fee na ginawang $1 sa ganap na $2"
+  },
+  "transactionUpdated": {
+    "message": "Na-update ang transaksyon sa $2."
+  },
+  "transactionErrored": {
+    "message": "Nagkaroon ng error ang transaksyon."
+  },
+  "transactionCancelAttempted": {
+    "message": "Sinubukan ang pagkansela sa transaksyon nang may gas fee na $1 sa ganap na $2"
+  },
+  "transactionCancelSuccess": {
+    "message": "Nakansela ang transaksyon sa ganap na $2"
+  },
+  "transactionError": {
+    "message": "May Error sa Transaksyon. May exception sa contract code."
+  },
+  "transactionErrorNoContract": {
+    "message": "Subukang mag-call ng function sa isang non-contract na address."
+  },
+  "transactionFee": {
+    "message": "Fee sa Transaksyon"
+  },
+  "transactionTime": {
+    "message": "Oras ng Transaksyon"
+  },
+  "showTransactionTimeDescription": {
+    "message": "Piliin ito para ipakita ang mga tinatayang oras ng nakabinbing transaksyon sa tab ng aktibidad habang nasa Pangunahing Ethereum Network. Tandaan: ang mga pagtataya ay mga pantatantya batay sa mga kundisyon network."
+  },
+  "transfer": {
+    "message": "Mag-transfer"
+  },
+  "transferBetweenAccounts": {
+    "message": "Mag-transfer sa pagitan ng aking mga account"
+  },
+  "transferFrom": {
+    "message": "I-transfer Mula Sa"
+  },
+  "troubleTokenBalances": {
+    "message": "Nagkaroon kami ng problema sa pag-loading sa iyong mga token balance. Makikita mo ang mga iyon ",
+    "description": "Followed by a link (here) to view token balances"
+  },
+  "trustSiteApprovePermission": {
+    "message": "Pinagkakatiwalaan mo ba ang site na ito? Sa pamamagitan ng pagbibigay ng pahintulot na ito, pinapayagan mo ang $1 na i-withdraw ang iyong $2 at mag-automate ng mga transaksyon para sa iyo.",
+    "description": "$1 is the url requesting permission and $2 is the symbol of the currency that the request is for"
+  },
+  "tryAgain": {
+    "message": "Subukang muli"
+  },
+  "typePassword": {
+    "message": "I-type ang iyong password sa Brave"
+  },
+  "unapproved": {
+    "message": "Hindi inaprubahan"
+  },
+  "alertDisableTooltip": {
+    "message": "Maaari itong baguhin sa \"Mga Setting > Mga Alerto\""
+  },
+  "units": {
+    "message": "(na) unit"
+  },
+  "unknown": {
+    "message": "Hindi Alam"
+  },
+  "unknownNetwork": {
+    "message": "Hindi Kilalang Pribadong Network"
+  },
+  "unknownQrCode": {
+    "message": "Error: Hindi namin nakilala ang QR code na iyan"
+  },
+  "unknownCameraErrorTitle": {
+    "message": "Ooops! Nagkaroon ng problema...."
+  },
+  "unknownCameraError": {
+    "message": "Nagkaroon ng error habang sinusubukang i-access ang iyong camera. Pakisubukang muli..."
+  },
+  "unlimited": {
+    "message": "Walang limitasyon"
+  },
+  "unlock": {
+    "message": "I-unlock"
+  },
+  "unlockMessage": {
+    "message": "Naghihintay ang decentralized web"
+  },
+  "updatedWithDate": {
+    "message": "Na-update ang $1"
+  },
+  "urlErrorMsg": {
+    "message": "Kinakailangan sa mga URL ang naaangkop na HTTP/HTTPS na prefix."
+  },
+  "urlExistsErrorMsg": {
+    "message": "Nasa kasalukuyang listahan ng mga network na ang URL"
+  },
+  "usedByClients": {
+    "message": "Ginagamit ng iba't ibang client"
+  },
+  "usePhishingDetection": {
+    "message": "Gumamit ng Pag-detect ng Phishing"
+  },
+  "usePhishingDetectionDescription": {
+    "message": "Magpakita ng babala para sa mga phishing domain na tuma-target ng mga user ng Ethereum"
+  },
+  "userName": {
+    "message": "Username"
+  },
+  "viewAccount": {
+    "message": "Tingnan ang Account"
+  },
+  "viewinExplorer": {
+    "message": "Tingnan sa Explorer"
+  },
+  "viewContact": {
+    "message": "Tingnan ang Contact"
+  },
+  "viewOnCustomBlockExplorer": {
+    "message": "Tingnan sa $1"
+  },
+  "viewOnEtherscan": {
+    "message": "Tingnan sa Etherscan"
+  },
+  "retryTransaction": {
+    "message": "Subukan Ulit ang Transaksyon"
+  },
+  "visitWebSite": {
+    "message": "Bisitahin ang aming web site"
+  },
+  "walletSeed": {
+    "message": "Seed phrase"
+  },
+  "welcomeBack": {
+    "message": "Welcome Ulit!"
+  },
+  "welcome": {
+    "message": "Welcome sa Brave"
+  },
+  "whatsThis": {
+    "message": "Ano ito?"
+  },
+  "writePhrase": {
+    "message": "Isulat ang pariralang ito sa isang piraso ng papel at itago ito sa isang secure na lokasyon. Kung gusto mo ng higit pang seguridad, isulat ito sa maraming piraso ng papel at itago ang bawat isa sa 2 - 3 iba't ibang lokasyon."
+  },
+  "xOfY": {
+    "message": "$1 sa $2",
+    "description": "$1 and $2 are intended to be two numbers, where $2 is a total, and $1 is a count towards that total"
+  },
+  "yesLetsTry": {
+    "message": "Oo, subukan natin"
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": "Kailangan mong payagan ang access sa camera para magamit ang feature na ito."
+  },
+  "yourSigRequested": {
+    "message": "Hinihiling ang iyong signature"
+  },
+  "youSign": {
+    "message": "Sina-sign mo ang"
+  },
+  "yourPrivateSeedPhrase": {
+    "message": "Ang iyong pribadong seed phrase"
+  },
+  "zeroGasPriceOnSpeedUpError": {
+    "message": "Zero ang presyo ng gas sa speed up"
+  },
+  "decryptRequest": {
+    "message": "I-decrypt ang kahilingan"
+  },
+  "decrypt": {
+    "message": "I-decrypt"
+  },
+  "decryptMessageNotice": {
+    "message": "Gustong mabasa ng $1 ang mensaheng ito para makumpleto ang iyong pagkilos",
+    "description": "$1 is the web3 site name"
+  },
+  "decryptMetamask": {
+    "message": "I-decrypt ang mensahe"
+  },
+  "decryptCopy": {
+    "message": "Kopyahin ang naka-encrypt na mensahe"
+  },
+  "decryptInlineError": {
+    "message": "Hindi ma-decrypt ang mensaheng ito dahil sa error: $1",
+    "description": "$1 is error message"
+  },
+  "provide": {
+    "message": "Magbigay ng"
+  },
+  "encryptionPublicKeyRequest": {
+    "message": "Humiling ng pampublikong key sa pag-encrypt"
+  },
+  "encryptionPublicKeyNotice": {
+    "message": "Hinihingi ng $1 ang iyong pampublikong key sa pag-encrypt. Sa pamamagitan ng pagpapahintulot, makakagawa ang site na ito ng mga naka-encrypt na mensahe sa iyo.",
+    "description": "$1 is the web3 site name"
+  },
+  "backupPhraseFileName": {
+    "message": "Lihim na Backup Phrase ng Mga Crypto Wallet"
+  },
+  "braveRewards": {
+    "message": "Mga Reward ng Brave"
+  },
+  "braveSettings": {
+    "message": "Mga Setting ng Brave"
+  },
+  "contractErrorMessage": {
+    "message": "Babala: Ipapadala mo na ang asset na ito sa sarili nitong smart na kontrata. Posibleng hindi mo ito sinasadyang gawin, dahil may posibilidad na ma-render nito ang asset bilang hindi mare-recover."
+  },
+  "cryptoWalletsDisclosureOne": {
+    "message": "Nagbibigay-daan sa iyo ang mga Crypto Wallet na mapangasiwaan ang cryptocurrency at mga kaugnay na asset sa Brave. Sinusuportahan ng mga Crypto Wallet ang mga Ethereum token na tulad ng ETH at BAT, gayundin ang mga koleksyon, at nagbibigay-daan ito sa iyong mapangasiwaan ang mga Dapp at iba pang smart na kontrata. Nilalayon ang lahat ng ito para sa mga taong pamilyar sa Ethereum at iba pang system ng blockchain — o gustong matuto."
+  },
+  "cryptoWalletsDisclosureTwo": {
+    "message": "Gamitin lang ang Crypto Wallets kung tinatanggap mo na ikaw lang ang responsable para sa lahat ng panganib na nauugnay sa paggamit na ito, at walang responsibilidad o pananagutan ang Brave Software para sa anumang mga pagkalugi kabilang ang kaugnay o kinahinatnang pagkalugi na posible mong maranasan bilang resulta ng paggamit na ito."
+  },
+  "cryptoWalletsDisclosureThree": {
+    "message": "Ang lahat ng ito ay ganap na hiwalay sa"
+  },
+  "cryptoWalletsDisclosureFour": {
+    "message": "Kaya kung gusto mong suportahan ang mga paborito mong site, magpunta roon sa halip."
+  },
+  "cryptoWalletsTitle": {
+    "message": "Mga Crypto Wallet"
+  },
+  "disclosureConfirm": {
+    "message": "Nauunawaan ko"
+  },
+  "ledgerCreateSubText": {
+    "message": "Ikonekta ang iyong Ledger hardware wallet para makagamit ng dApps at magsagawa ng mga transfer sa iba pang mga nakakonektang wallet."
+  },
+  "metamaskImportSubText": {
+    "message": "Tandaan: Kung mag-i-import mula sa Crypto Wallets na Bersyon 1.0.26 o mas luma, 24 na salita ang iyong lihim na parirala sa halip na 12."
+  },
+  "newLocalWallet": {
+    "message": "Bagong Lokal na Wallet"
+  },
+  "newLocalWalletSubText": {
+    "message": "Gumawa ng bagong lokal na wallet sa Brave para mag-access ng dApps at secure na mag-store ng crypto at collectibles. Anonymous na makipagpalitan ng tokens nang walang mga trading fee."
+  },
+  "passWarningOne": {
+    "message": "Pinoprotektahan ng password na ito ang iyong pribadong key. Walang sinumang makakapag-reset nito kung makalimutan ito, kahit ang Brave!"
+  },
+  "providerErrorMessage": {
+    "message": "Ang wallet na ito ay hindi mo default na Ethereum Dapp provider."
+  },
+  "trezorCreateSubText": {
+    "message": "Ikonekta ang iyong Trezor hardware wallet para makagamit ng dApps at magsagawa ng mga transfer sa iba pang mga nakakonektang wallet."
+  },
+  "welcomeCryptoWallets": {
+    "message": "Maligayang pagdating sa Brave Crypto Wallets"
+  },
+  "waitingForConfirmation": {
+    "message": "Hinihintay ang kumpirmasyon."
+  }
+}
