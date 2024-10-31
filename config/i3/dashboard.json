@@ -13,7 +13,7 @@
                     "swallows": [
                         {
                             "class": "^Terminator$",
-                            "title": "^neofetch$"
+                            "title": "^dashboard-neofetch$"
                         }
                     ]
                 },
@@ -24,7 +24,7 @@
                     "swallows": [
                         {
                             "class": "^Terminator$",
-                            "title": "^cmatrix$"
+                            "title": "^dashboard-cmatrix$"
                         }
                     ]
                 }
@@ -37,7 +37,7 @@
             "swallows": [
                 {
                     "class": "^Terminator$",
-                    "title": "^bpytop$"
+                    "title": "^dashboard-bpytop$"
                 }
             ]
         }
