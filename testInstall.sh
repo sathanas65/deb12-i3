@@ -112,34 +112,34 @@ sudo apt-get install -y galculator
 # privacy browsers
 # brave browser ($mod + b) NOT FOSS
 # Note that there is a bug where brave fails to in initialize on the 1st launch. After a reboot it will work fine thereafter.
-wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo apt-get update
-sudo apt-get install -y brave-browser
+#wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/brave-browser-archive-keyring.gpg > /dev/null
+#echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+#sudo apt-get update
+#sudo apt-get install -y brave-browser
 
 # librewolf browser
-#distro=$(if echo "bookworm" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
-#wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
-#sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
-#Types: deb
-#URIs: https://deb.librewolf.net
-#Suites: $distro
-#Components: main
-#Architectures: amd64
-#Signed-By: /usr/share/keyrings/librewolf.gpg
-#EOF
+distro=$(if echo "bookworm" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
+wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
+sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
+Types: deb
+URIs: https://deb.librewolf.net
+Suites: $distro
+Components: main
+Architectures: amd64
+Signed-By: /usr/share/keyrings/librewolf.gpg
+EOF
 
-#sudo apt-get update
-#sudo apt-get install -y librewolf
+sudo apt-get update
+sudo apt-get install -y librewolf
 
 # tor browser
 #sudo apt-get install -y torbrowser-launcher 
 
 # mullvad browser
-#wget --content-disposition https://mullvad.net/en/download/browser/linux-x86_64/latest -P ~
-# if you get an error that file doesn't exist, change below to match mullvad flename you can see by using ls command
-#tar -xvf mullvad-browser-linux-x86_64-13.0.7.tar.xz
-#cp ~/mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
+wget --content-disposition https://mullvad.net/en/download/browser/linux-x86_64/latest -P ~
+ if you get an error that file doesn't exist, change below to match mullvad flename you can see by using ls command
+tar -xvf mullvad-browser-linux-x86_64-13.0.7.tar.xz
+cp ~/mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
 
 # non-privacy browsers
 # Chromium is required for keybind Super + F1 to open nordvpn login page. 
@@ -274,7 +274,7 @@ sudo apt-get install -y tar gzip
 #sudo apt-get install -y mc
 
 # gpg encryption manager
-sudo apt-get install -y kleopatra
+#sudo apt-get install -y kleopatra
 
 # password manager
 # keepass2 - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
