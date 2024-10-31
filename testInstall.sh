@@ -118,33 +118,22 @@ sudo apt-get update
 sudo apt-get install -y brave-browser
 
 # librewolf browser
-#distro=$(if echo "bookworm" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
-#wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
-#sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
-#Types: deb
-#URIs: https://deb.librewolf.net
-#Suites: $distro
-#Components: main
-#Architectures: amd64
-#Signed-By: /usr/share/keyrings/librewolf.gpg
-#EOF
-
-#sudo apt-get update
-#sudo apt-get install -y librewolf
+sudo apt-get update && sudo apt-get install extrepo -y
+sudo extrepo enable librewolf
+sudo apt-get update && sudo apt-get install librewolf -y
 
 # tor browser
 #sudo apt-get install -y torbrowser-launcher 
 
 # mullvad browser
-#wget --content-disposition https://mullvad.net/en/download/browser/linux-x86_64/latest -P ~
-# if you get an error that file doesn't exist, change below to match mullvad flename you can see by using ls command
-#tar -xvf mullvad-browser-linux-x86_64-13.0.7.tar.xz
-#cp ~/mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
+sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
+echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
+sudo apt-get update && sudo apt-get install mullvad-browser
 
 # non-privacy browsers
 # Chromium is required for keybind Super + F1 to open nordvpn login page. 
 # Or you can edit ~/scripts/nordlogin.sh to use another browser but nord login script fails in Brave and Librewolf, even with shields down.
-#sudo apt-get install -y firefox-esr chromium
+sudo apt-get install -y firefox-esr chromium
 
 # background / image manager
 sudo apt-get install -y feh
@@ -206,7 +195,7 @@ sudo apt-get install -y vlc
 sudo apt-get install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly
 
 # disk utilities
-sudo apt-get install -y gnome-disk-utility gsmartcontrol gparted
+#sudo apt-get install -y gnome-disk-utility gsmartcontrol gparted
 
 # clipboard manager
 sudo apt-get install -y copyq
@@ -274,7 +263,7 @@ sudo apt-get install -y tar gzip
 #sudo apt-get install -y mc
 
 # gpg encryption manager
-sudo apt-get install -y kleopatra
+#sudo apt-get install -y kleopatra
 
 # password manager
 # keepass2 - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
@@ -295,11 +284,11 @@ sudo apt-get install -y kleopatra
 #sudo apt-get install -y transmission
 
 # signal encrypted messaging
-#wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
-#cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
-#echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
-  #sudo tee /etc/apt/sources.list.d/signal-xenial.list
-#sudo apt-get update && sudo apt-get install -y signal-desktop
+wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
+cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
+  sudo tee /etc/apt/sources.list.d/signal-xenial.list
+sudo apt-get update && sudo apt-get install -y signal-desktop
 
 # screen recorder
 #sudo apt-get install -y simplescreenrecorder
@@ -349,16 +338,17 @@ xdg-user-dirs-update
 
 # nordvpn (NOT FOSS)
 # (i3 keybinds, autostart and scripts are included so no setup required. Will likely switch to mullvad soon)
-#curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
-#sh nordvpn_install.sh
-#sudo usermod -aG nordvpn $USER
+curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
+sh nordvpn_install.sh
+sudo usermod -aG nordvpn $USER
 
 # mullvad vpn (NOT FOSS)
 # (i3 keybinds, autostart and scripts are not included so requires manual setup)
-#sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
-#echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
-#sudo apt-get update
-#sudo apt-get install -y mullvad-vpn
+sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
+echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
+sudo apt-get update
+sudo apt-get install mullvad-browser
+
 
 # personal finance
 #sudo mkdir /var/lib/snapd/snap
@@ -409,10 +399,10 @@ sudo apt-get install -y spice-vdagent
 
 ### graphical user interface
 
-# window manager
+# window manager DO NOT REMOVE
 sudo apt-get install -y i3 i3blocks acpi-support
 
-# display manager
+# display manager DO NOT Remove
 sudo apt-get install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 
 
