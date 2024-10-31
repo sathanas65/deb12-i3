@@ -25,7 +25,7 @@ cp -r config/rofi/ ~/.config
 # import browser configs (optional - ensures dark theme and dark reader extension work out of the box)
 cp -r config/chromium/ ~/.config
 cp -r .mozilla ~
-cp -r config/Brave-Browser/ ~/.config
+cp config/Brave-Preferences ~/.config/BraveSoftware/Brave-Browser/Preferences
 
 # import terminal configs (optional - ensures dark theme and transparancy work out of the box)
 cp -r config/terminator/ ~/.config
