@@ -126,9 +126,10 @@ sudo apt-get update && sudo apt-get install librewolf -y
 #sudo apt-get install -y torbrowser-launcher 
 
 # mullvad browser
-wget --content-disposition https://mullvad.net/en/download/browser/linux-x86_64/latest -P ~
- #if you get an error that file doesn't exist, change below to match mullvad flename you can see by using ls command
-tar -xvf mullvad-browser-linux-x86_64-13.0.7.tar.xz
+sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
+echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
+sudo apt-get update
+sudo apt-get install mullvad-browser
 cp ~/mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
 
 # non-privacy browsers
