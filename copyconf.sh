@@ -22,11 +22,6 @@ cp -r config/dunst/ ~/.config
 # import app launcher config (optional - ensures dark theme works out of the box)
 cp -r config/rofi/ ~/.config
 
-# import browser configs (optional - ensures dark theme and dark reader extension work out of the box)
-cp -r config/chromium/ ~/.config
-cp -r .mozilla ~
-cp config/Brave-Preferences ~/.config/BraveSoftware/Brave-Browser/Preferences
-
 # import terminal configs (optional - ensures dark theme and transparancy work out of the box)
 cp -r config/terminator/ ~/.config
 cp -r config/konsole/ ~/.local/share
@@ -49,9 +44,15 @@ cp -r config/galculator ~/.config
 cp config/kcalcrc ~/.config
 #cp config/krusaderrc ~/.config
 
-#import editor configs - optional
-#cp -r config/sublime-text ~/.config 
-#cp -r config/Brackets ~/.config
+# import browser configs (optional - ensures dark theme and dark reader extension work out of the box)
+cp -r config/chromium/ ~/.config
+cp -r .mozilla ~
+brave-browser
+sleep 3
+sudo pkill brave
+sleep 1
+cp config/Brave-Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
+cp config/Brave-Background ~/.config/BraveSoftware/Brave-Browser/Default/sanitized_background_images/background.png
 
 # make scripts executable
 chmod +x ~/.config/i3/autostart.sh
