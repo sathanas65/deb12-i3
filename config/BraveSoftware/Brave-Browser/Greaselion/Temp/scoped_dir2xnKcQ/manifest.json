@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "js": [ "vimeoBase.bundle.js" ],
+      "matches": [ "https://vimeo.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "",
+   "incognito": "not_allowed",
+   "key": "609+eUOT2I9aRtouChA8+obxfermLY9Px1wRWVJUwqc=",
+   "manifest_version": 2,
+   "name": "greaselion-8",
+   "version": "1.0"
+}

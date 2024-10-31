@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "js": [ "twitterBase.bundle.js" ],
+      "matches": [ "https://twitter.com/*", "https://*.twitter.com/*", "https://x.com/*", "https://*.x.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "",
+   "incognito": "not_allowed",
+   "key": "h5VclodCSfK+7oXCxZppnjBR4t/oX+i0dUGYj48p3d4=",
+   "manifest_version": 2,
+   "name": "greaselion-6",
+   "version": "1.0"
+}
