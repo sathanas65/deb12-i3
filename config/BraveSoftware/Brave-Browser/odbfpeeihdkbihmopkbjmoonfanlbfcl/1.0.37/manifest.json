@@ -1,0 +1,97 @@
+{
+   "author": "https://brave.com",
+   "background": {
+      "persistent": true,
+      "scripts": [ "bg-libs.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/icon-128.png",
+         "16": "images/icon-16.png",
+         "19": "images/icon-19.png",
+         "32": "images/icon-32.png",
+         "38": "images/icon-38.png",
+         "512": "images/icon-512.png",
+         "64": "images/icon-64.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Crypto Wallets"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Alt+Shift+M",
+            "linux": "Alt+Shift+M",
+            "mac": "Alt+Shift+M",
+            "windows": "Alt+Shift+M"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "contentscript.js" ],
+      "matches": [ "file://*/*", "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "vendor/trezor/content-script.js" ],
+      "matches": [ "*://connect.trezor.io/*/popup.html" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'wasm-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "",
+   "externally_connectable": {
+      "ids": [ "*" ],
+      "matches": [ "https://metamask.io/*" ]
+   },
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "19": "images/icon-19.png",
+      "32": "images/icon-32.png",
+      "38": "images/icon-38.png",
+      "512": "images/icon-512.png",
+      "64": "images/icon-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl7ZLkqbq8pHRcYANANXmhGKZKHsruBqS0ssf8aI5R5E5FBaWui73FPWMj0g4eggrJeSfF/x/nIIq3Z24Joq1ULuWtheQjbOwqj0yL2ZaxMA6rc5cW2OmGZ0aNXMFclusXftJmwpb/pztHzw55yv8BfJr873HOxtlW2MP1VvSFQjigsbJedlkoS4SKC0U3j8/mjAYR0+lpmBtPitObnYnM5qmtrlg2hgm+sqAon9WKj9nDIjPpXJaCs7kpVl7oQOoYpv47ZT1tnu0o03AL3RZbxPU1N04X3JN6nC+g4gaCgiLkZ+dD79yIt7Il0+vSKuJ+EGySVmv6czOI5eJYezWXwIDAQAB",
+   "manifest_version": 2,
+   "name": "Crypto Wallets",
+   "permissions": [ "storage", "unlimitedStorage", "clipboardWrite", "http://localhost:8545/", "https://*.infura.io/", "activeTab", "webRequest", "*://*.eth/", "notifications", "hid", "usb", {
+      "usbDevices": [ {
+         "productId": 0,
+         "vendorId": 11415
+      }, {
+         "productId": 16,
+         "vendorId": 11415
+      }, {
+         "productId": 64,
+         "vendorId": 11415
+      }, {
+         "productId": 1,
+         "vendorId": 11415
+      }, {
+         "productId": 4,
+         "vendorId": 11415
+      }, {
+         "productId": 4113,
+         "vendorId": 11415
+      }, {
+         "productId": 4101,
+         "vendorId": 11415
+      }, {
+         "productId": 4117,
+         "vendorId": 11415
+      }, {
+         "productId": 16405,
+         "vendorId": 11415
+      }, {
+         "productId": 16389,
+         "vendorId": 11415
+      }, {
+         "productId": 21441,
+         "vendorId": 11415
+      } ]
+   } ],
+   "short_name": "__MSG_appName__",
+   "version": "1.0.37",
+   "web_accessible_resources": [ "inpage.js", "phishing.html" ]
+}
