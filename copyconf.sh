@@ -48,6 +48,7 @@ cp config/kcalcrc ~/.config
 cp -r config/chromium/ ~/.config
 cp -r .mozilla ~
 cp -r config/BraveSoftware/ ~/.config
+rm -r .local/share/kwalletd/
 
 # make scripts executable
 chmod +x ~/.config/i3/autostart.sh
