@@ -230,7 +230,7 @@ sudo snap install pinta
 sudo cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
 
 # zip utilities
-sudo apt-get install -y tar gzip
+sudo apt-get install -y tar gzip p7zip-full
 
 # backup manager
 # timeshit gui front end for rsync
