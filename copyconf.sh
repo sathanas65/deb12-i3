@@ -2,6 +2,8 @@
 ####
 # This script is used to copy my config files over for use on reboot of installation.
 
+cp mullvad-browser.7z ~/
+
 sudo cp -r candy-icons /usr/share/icons
 cd
 cd deb12-i3
