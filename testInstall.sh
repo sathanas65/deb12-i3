@@ -27,15 +27,15 @@ sudo apt-get install -y lxappearance picom
 
 # file managers
 sudo apt-get install -y nemo
-#sudo apt-get install -y thunar
-#sudo apt-get install -y krusader
-#sudo apt-get install -y nautilus
+sudo apt-get install -y thunar
+sudo apt-get install -y krusader
+sudo apt-get install -y nautilus
 
 # terminal file search
-#sudo apt-get install -y fzf
+sudo apt-get install -y fzf
 
 # terminal list directory (on steroids)
-#sudo apt-get install -y exa
+sudo apt-get install -y exa
 
 # settings interface
 sudo apt-get install -y xfce4-settings xfce4-power-manager
@@ -49,12 +49,12 @@ sudo systemctl enable acpid
 # terminator (dot files included)
 sudo apt-get install -y terminator
 # kitty (no dot files yet)
-#sudo apt-get install -y kitty 
+sudo apt-get install -y kitty 
 # konsole (required for out of box use of:
 # Super + Shift + h for keymap and 
 # Super + Shift + i for backup and edit i3 config and
 # Super + n then s for nordvpn status)
-sudo apt-get install -y konsole
+#sudo apt-get install -y konsole
 
 # tmux - terminal multiplexer - runs in terminal and shell sessions run in tmux - excellent features
 sudo apt-get install -y tmux
@@ -66,7 +66,7 @@ sudo apt-get install -y procinfo hwinfo hdparm lm-sensors psensor
 sudo apt-get install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulseeffects
 
 # audio editor
-#sudo apt-get install -y audacity
+sudo apt-get install -y audacity
 
 # terminal apps  
 # leave these or the dashboard won't work, can disable dashboard in i3 workspace config
@@ -78,7 +78,7 @@ sudo apt-get install -y htop glances figlet calc
 sudo apt-get install -y gnome-system-monitor
 
 # apt-get package manager front end
-#sudo apt-get install -y synaptic
+sudo apt-get install -y synaptic
 
 # enable non-free repos
 sudo apt-get install -y software-properties-common apt-transport-https curl ca-certificates -y
@@ -89,29 +89,29 @@ sudo apt-get update && sudo apt-get upgrade -y
 mkdir ~/.local/share/applications/
 
 # printer support
-#sudo apt-get install -y cups
-#sudo systemctl enable cups
+sudo apt-get install -y cups
+sudo systemctl enable cups
 
 # bluetooth support
-#sudo apt-get install -y bluez blueman
-#sudo systemctl enable bluetooth
+sudo apt-get install -y bluez blueman
+sudo systemctl enable bluetooth
 
 # document viewer
-#sudo apt-get install -y evince
-#sudo apt-get install -y okular
+sudo apt-get install -y evince
+sudo apt-get install -y okular
 
 # ebook reader
-#sudo apt-get install -y foliate
+sudo apt-get install -y foliate
 
 # comic reader
-#sudo apt-get install -y mcomix
+sudo apt-get install -y mcomix
 
 # calculator
-#sudo apt-get install -y gnome-calculator
+sudo apt-get install -y gnome-calculator
 sudo apt-get install -y galculator
 
-#sudo apt-get install -y mate-calc
-#sudo apt-get install -y kcalc
+sudo apt-get install -y mate-calc
+sudo apt-get install -y kcalc
 
 # privacy browsers
 # brave browser ($mod + b) NOT FOSS
@@ -127,7 +127,7 @@ sudo extrepo enable librewolf
 sudo apt-get update && sudo apt-get install librewolf -y
 
 # tor browser
-#sudo apt-get install -y torbrowser-launcher 
+sudo apt-get install -y torbrowser-launcher 
 
 # mullvad browser
 sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
@@ -165,32 +165,29 @@ sudo snap set core refresh.schedule=02:00-04:00
 
 # gui text editor
 # doom emacs - the geek is real but takes forever to install and is more than most people need
-#sudo apt-get install -y emacs-gtk ripgrep
-#rm -rf /home/$USER/.emacs.d/
-#git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
-#yes | .emacs.d/bin/doom install
+sudo apt-get install -y emacs-gtk ripgrep
+rm -rf /home/$USER/.emacs.d/
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+yes | .emacs.d/bin/doom install
 
 # geany
 sudo apt-get install -y geany
 
 # sublime text (NOT FOSS)
-#wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
-#echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-#sudo apt-get update
-#sudo apt-get install -y sublime-text
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install -y sublime-text
 
 # system management
 # cockpit (admin web console)
-#sudo apt-get install -y cockpit
-
-# stacer (useful but abandoned by devs)
-#sudo apt-get install -y stacer
+sudo apt-get install -y cockpit
 
 # office apps
-#sudo apt-get install -y libreoffice
+sudo apt-get install -y libreoffice
 
 # display settings
-#sudo apt-get install -y arandr
+sudo apt-get install -y arandr
 
 # media player
 sudo apt-get install -y vlc 
@@ -199,64 +196,64 @@ sudo apt-get install -y vlc
 sudo apt-get install -y ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly
 
 # disk utilities
-#sudo apt-get install -y gnome-disk-utility gsmartcontrol gparted
+sudo apt-get install -y gnome-disk-utility gsmartcontrol gparted
 
 # clipboard manager
 sudo apt-get install -y copyq
 
 # notes manager
 # zim (easy checkbox lists and much more)
-#sudo apt-get install -y zim
+sudo apt-get install -y zim
 
 # qownnotes (markdown stored as plain text, great features)
-#SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
-#sudo mkdir -p "$(dirname "${SIGNED_BY}")"
-#curl --silent --show-error --location http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/Release.key | gpg --dearmor | sudo tee "${SIGNED_BY}" > /dev/null
-#sudo chmod u=rw,go=r "${SIGNED_BY}"
-#SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
-#ARCHITECTURE="$(dpkg --print-architecture)"
-#echo "deb [arch=${ARCHITECTURE} signed-by=${SIGNED_BY}] http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/ /" | sudo tee /etc/apt/sources.list.d/qownnotes.list > /dev/null
-#sudo apt-get update
-#sudo apt-get install -y qownnotes
+SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
+sudo mkdir -p "$(dirname "${SIGNED_BY}")"
+curl --silent --show-error --location http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/Release.key | gpg --dearmor | sudo tee "${SIGNED_BY}" > /dev/null
+sudo chmod u=rw,go=r "${SIGNED_BY}"
+SIGNED_BY='/etc/apt/keyrings/qownnotes.gpg'
+ARCHITECTURE="$(dpkg --print-architecture)"
+echo "deb [arch=${ARCHITECTURE} signed-by=${SIGNED_BY}] http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_12/ /" | sudo tee /etc/apt/sources.list.d/qownnotes.list > /dev/null
+sudo apt-get update
+sudo apt-get install -y qownnotes
 
 # email client
-#sudo apt-get install -y geary
-#sudo apt-get install -y evolution
-#sudo apt-get install -y thunderbird
+sudo apt-get install -y geary
+sudo apt-get install -y evolution
+sudo apt-get install -y thunderbird
 
 # screenshots
 sudo apt-get install -y maim xclip xdotool jq
 
 # image editors (gimp is like Adobe Photoshop and pinta is like MS Paint)
-#sudo apt-get install -y gimp
+sudo apt-get install -y gimp
 
-#sudo snap install pinta
-#sudo cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
+sudo snap install pinta
+sudo cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
 
 # zip utilities
 sudo apt-get install -y tar gzip p7zip-full
 
 # backup manager
 # timeshit gui front end for rsync
-#sudo apt-get install -y timeshift
+sudo apt-get install -y timeshift
 # duplicity - great CLI for cloud backup - supported by backblaze B2
-#sudo apt-get install -y duplicity
+sudo apt-get install -y duplicity
 
 # remote desktop client 
 #anydesk (NOT FOSS)
-#sudo apt-get install software-properties-common apt-transport-https dirmngr ca-certificates curl -y
-#curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo gpg --dearmor | sudo tee /usr/share/keyrings/anydesk.gpg > /dev/null
-#echo 'deb [signed-by=/usr/share/keyrings/anydesk.gpg] http://deb.anydesk.com/ all main' | sudo tee /etc/apt/sources.list.d/anydesk.list
-#wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
-#echo "deb http://deb.anydesk.com/ all main" sudo tee /etc/apt/sources.list.d/anydesk-stable.list
-#sudo apt-get update
-#sudo apt-get install -y anydesk
+sudo apt-get install software-properties-common apt-transport-https dirmngr ca-certificates curl -y
+curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo gpg --dearmor | sudo tee /usr/share/keyrings/anydesk.gpg > /dev/null
+echo 'deb [signed-by=/usr/share/keyrings/anydesk.gpg] http://deb.anydesk.com/ all main' | sudo tee /etc/apt/sources.list.d/anydesk.list
+wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
+echo "deb http://deb.anydesk.com/ all main" sudo tee /etc/apt/sources.list.d/anydesk-stable.list
+sudo apt-get update
+sudo apt-get install -y anydesk
 
 #teamviewer (NOT FOSS)
-#sudo apt-get install -y policykit-1
-#wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-#sudo dpkg -i teamviewer_amd64.deb || sudo apt --fix-broken install -y
-#rm teamviewer_amd64.deb
+sudo apt-get install -y policykit-1
+wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+sudo dpkg -i teamviewer_amd64.deb || sudo apt --fix-broken install -y
+rm teamviewer_amd64.deb
 
 # ftp server utility (best installed on server)
 #sudo apt-get install -y vsftpd
@@ -264,28 +261,28 @@ sudo apt-get install -y tar gzip p7zip-full
 #sudo ufw allow 20:21/tcp
 #sudo ufw allow 20000:25000/tcp
 # ftp client (midnight commander)
-#sudo apt-get install -y mc
+sudo apt-get install -y mc
 
 # gpg encryption manager
-#sudo apt-get install -y kleopatra
+sudo apt-get install -y kleopatra
 
 # password manager
 # keepass2 - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
-#sudo apt-get install -y keepass2
+sudo apt-get install -y keepass2
 
 # bitwarden - (NOT FOSS) - great feautures - syncs across devices - passwords stored in cloud
-#sudo snap install bitwarden
-#sudo cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
+sudo snap install bitwarden
+sudo cp /var/lib/snapd/desktop/applications/bitwarden_bitwarden.desktop ~/.local/share/applications/
 
 # 2fa app
 # Google Authenticator (NOT FOSS)
-#sudo apt-get install -y libpam-google-authenticator 
+sudo apt-get install -y libpam-google-authenticator 
 # Authpass
-#sudo snap install authpass
-#sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
+sudo snap install authpass
+sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
 
 # torrent client
-#sudo apt-get install -y transmission
+sudo apt-get install -y transmission
 
 # signal encrypted messaging
 wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
@@ -295,47 +292,43 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] 
 sudo apt-get update && sudo apt-get install -y signal-desktop
 
 # screen recorder
-#sudo apt-get install -y simplescreenrecorder
-#sudo apt-get install -y kazam
+sudo apt-get install -y simplescreenrecorder
+sudo apt-get install -y kazam
 
 # video editor
-#sudo apt-get install -y kdenlive
-#sudo apt-get install -y shotcut
-#sudo snap install openshot-community --candidate
-#sudo cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
+sudo apt-get install -y kdenlive
+sudo apt-get install -y shotcut
+sudo snap install openshot-community --candidate
+sudo cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
 
 # video converter
-#sudo apt-get install -y ffmpeg
-#sudo apt-get install -y handbrake
-
-# youtube downloader
-#sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
-#sudo chmod a+rx /usr/local/bin/youtube-dl
+sudo apt-get install -y ffmpeg
+sudo apt-get install -y handbrake
 
 # simplified man pages
-#sudo apt-get install -y tldr
+sudo apt-get install -y tldr
 
 # dev tools
 # vscode ide (NOT FOSS)
-#wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-#sudo install -D -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/packages.microsoft.gpg
-#sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-#sudo apt-get update
-#sudo apt-get install -y code
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/packages.microsoft.gpg
+sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+sudo apt-get update
+sudo apt-get install -y code
 
 # vscodium (Free/Libre Open Source Software Binaries of VS Code ide)
-#wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
-#    | gpg --dearmor \
-#    | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg 
-#echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
-#    | sudo tee /etc/apt/sources.list.d/vscodium.list
-#sudo apt-get update && sudo apt-get install -y codium
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
+    | gpg --dearmor \
+    | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg 
+echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
+    | sudo tee /etc/apt/sources.list.d/vscodium.list
+sudo apt-get update && sudo apt-get install -y codium
 
 # pycharm ide
-#curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | gpg --dearmor | sudo tee /usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg > /dev/null
-#echo "deb [signed-by=/usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg] http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com any main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
-#sudo apt-get update
-#sudo apt-get install -y pycharm-community
+curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | gpg --dearmor | sudo tee /usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg > /dev/null
+echo "deb [signed-by=/usr/share/keyrings/jetbrains-ppa-archive-keyring.gpg] http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com any main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
+sudo apt-get update
+sudo apt-get install -y pycharm-community
 
 # user directories (disable this if you want many things to not work. There will be weeping and gnashing of teeth)
 xdg-user-dirs-update
@@ -353,25 +346,24 @@ echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --prin
 sudo apt-get update
 sudo apt-get install mullvad-vpn
 
-
 # personal finance
-#sudo mkdir /var/lib/snapd/snap
-#sudo mkdir /var/lib/snapd/snap/bin
-#sudo snap install denaro
-#sudo cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/applications/
+sudo mkdir /var/lib/snapd/snap
+sudo mkdir /var/lib/snapd/snap/bin
+sudo snap install denaro
+sudo cp /var/lib/snapd/desktop/applications/denaro_denaro.desktop ~/.local/share/applications/
 
 # postman API platform (NOT FOSS)
-#sudo snap install postman
-#sudo cp /var/lib/snapd/desktop/applications/postman_postman.desktop ~/.local/share/applications/
+sudo snap install postman
+sudo cp /var/lib/snapd/desktop/applications/postman_postman.desktop ~/.local/share/applications/
 # postman CLI
-#curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
+curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
 
 # bleachbit file shredder
-#sudo apt-get -y install bleachbit
+sudo apt-get -y install bleachbit
 
 # Flatpak containerized apps platform
-#sudo apt-get install -y flatpak
-#sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+sudo apt-get install -y flatpak
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # These are required for the theme and icons to work and i3bar to display correctly
 sudo apt-get install -y libgtk-4-dev
