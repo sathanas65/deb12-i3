@@ -8,9 +8,9 @@ cp mullvad-browser.7z ~/
 #sleep 5
 rm ~/mullvad-browser.7z
 #sleep 5
-cp mullvad.7z ~/mullvad-browser
+cp mullvad.7z ~/mullvad-browser 
 #sleep 5
-7z x ~/mullvad-browser/mullvad.7z
+7z x ~/mullvad-browser/mullvad.7z -o"$HOME/mullvad-browser"
 #rm ~/mullvad.7z
 #sleep 5
 cp -r ~/mullvad-browser/ ~/.mullvad-browser
