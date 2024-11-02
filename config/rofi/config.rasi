@@ -1,33 +1,38 @@
 * {
-    selected-normal-foreground:  rgba(230, 230, 250, 100%); /* Lighter lavender for selected text */
-    foreground:                  rgba(200, 200, 220, 100%); /* Soft purple-gray for text */
+    selected-normal-foreground:  rgba(220, 220, 240, 70%);
+    foreground:                  rgba(190, 190, 210, 70%);
     normal-foreground:           @foreground;
-    alternate-normal-background: rgba(0, 0, 0, 0%); /* Fully transparent alternate background */
-    red:                         rgba(220, 50, 47, 100%);
-    selected-urgent-foreground:  rgba(230, 230, 250, 100%);
-    blue:                        rgba(138, 92, 210, 100%); /* Adjusted to a more purple-blue tone */
-    urgent-foreground:           rgba(255, 129, 255, 100%);
-    alternate-urgent-background: rgba(0, 0, 0, 0%);
-    active-foreground:           rgba(180, 160, 240, 100%); /* Softer lavender */
-    lightbg:                     rgba(238, 232, 213, 100%);
-    selected-active-foreground:  rgba(230, 230, 250, 100%);
-    alternate-active-background: rgba(0, 0, 0, 0%);
-    background:                  rgba(50, 0, 80, 60%); /* Dark purple background with transparency */
-    bordercolor:                 rgba(200, 200, 220, 60%);
+
+    alternate-normal-background: rgba(30, 0, 50, 40%); /* Increased transparency */
+    alternate-urgent-background: rgba(30, 0, 50, 40%);
+    alternate-active-background: rgba(30, 0, 50, 40%);
     alternate-normal-foreground: @foreground;
-    normal-background:           rgba(60, 0, 100, 50%); /* Slightly lighter purple with transparency */
-    lightfg:                     rgba(88, 104, 117, 100%);
-    selected-normal-background:  rgba(110, 0, 150, 70%); /* Deep purple for selection with transparency */
+    alternate-urgent-foreground: @urgent-foreground;
+    alternate-active-foreground: @active-foreground;
+    
+    red:                         rgba(220, 50, 47, 70%);
+    selected-urgent-foreground:  rgba(220, 220, 240, 70%);
+    blue:                        rgba(120, 70, 180, 70%);
+    urgent-foreground:           rgba(255, 129, 255, 70%);
+    active-foreground:           rgba(170, 140, 230, 70%);
+    lightbg:                     rgba(238, 232, 213, 70%);
+    selected-active-foreground:  rgba(220, 220, 240, 70%);
+    
+    background:                  rgba(30, 0, 50, 40%); /* Increased transparency for main background */
+    bordercolor:                 rgba(180, 180, 210, 40%);
+    normal-background:           rgba(30, 0, 50, 40%); /* Match main background with higher transparency */
+    selected-normal-background:  rgba(80, 0, 110, 50%); /* Selection background with more transparency */
+    lightfg:                     rgba(88, 104, 117, 70%);
+    
     border-color:                @foreground;
     spacing:                     2;
-    separatorcolor:              rgba(200, 200, 220, 60%); /* Light separator with transparency */
-    urgent-background:           rgba(100, 0, 150, 50%); /* Transparent purple for urgency */
-    selected-urgent-background:  rgba(255, 129, 127, 100%);
-    alternate-urgent-foreground: @urgent-foreground;
-    background-color:            rgba(50, 0, 80, 60%); /* Matching main background transparency */
-    alternate-active-foreground: @active-foreground;
-    active-background:           rgba(80, 0, 130, 60%); /* Dark purple active background with transparency */
-    selected-active-background:  rgba(160, 80, 220, 70%); /* Light purple for selected active background */
+    separatorcolor:              rgba(180, 180, 210, 40%); /* Increased transparency */
+    urgent-background:           rgba(30, 0, 50, 40%); /* Match main background */
+    selected-urgent-background:  rgba(255, 129, 127, 50%);
+    
+    background-color:            rgba(30, 0, 50, 40%); /* Match main background transparency */
+    active-background:           rgba(30, 0, 50, 40%); /* Match background for active state */
+    selected-active-background:  rgba(130, 60, 170, 50%);
 }
 window {
     background-color: @background;
