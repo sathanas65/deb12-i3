@@ -4,7 +4,7 @@
 
 cp mullvad-browser.7z ~/
 sleep 5
-7z x ~/mullvad-browser.7z -o"$HOME/extracted_mullvad"
+7z x ~/mullvad-browser.7z -o"$HOME/mullvad-browser"
 sleep 5
 rm ~/mullvad-browser.7z
 sleep 5
