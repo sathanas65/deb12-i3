@@ -27,6 +27,10 @@ sudo apt-get install -y nemo
 #sudo apt-get install -y krusader
 #sudo apt-get install -y nautilus
 
+# terminal text editor
+# VIM is required for keymap to work out of the box
+sudo apt-get install -y vim
+
 # terminal file search
 sudo apt-get install -y fzf
 
