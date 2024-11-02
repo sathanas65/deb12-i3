@@ -3,13 +3,18 @@
 # This script is used to copy my config files over for use on reboot of installation.
 
 cp mullvad-browser.7z ~/
+sleep 5
 7z x ~/mullvad-browser.7z -o"$HOME/extracted_mullvad"
+sleep 5
 rm ~/mullvad-browser.7z
+sleep 5
 cp mullvad.7z ~/mullvad-browser
+sleep 5
 7z x ~/mullvad-browser/mullvad.7z
 #rm ~/mullvad.7z
+sleep 5
 cp -r ~/mullvad-browser/ ~/.mullvad-browser
-rm -r ~/mullvad-browser/
+#rm -r ~/mullvad-browser/
 
 sudo cp -r candy-icons /usr/share/icons
 cd
