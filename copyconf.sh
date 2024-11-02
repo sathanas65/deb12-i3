@@ -6,10 +6,10 @@ cp mullvad-browser.7z ~/
 7z x ~/mullvad-browser.7z
 rm ~/mullvad-browser.7z
 cp mullvad.7z ~/mullvad-browser
-7z x ~/mullvad-browser/mullvad.7z
-rm ~/mullvad.7z
-cp -r ~/mullvad-browser/ ~/.mullvad-browser
-rm -r ~/mullvad-browser/
+#7z x ~/mullvad-browser/mullvad.7z
+#rm ~/mullvad.7z
+#cp -r ~/mullvad-browser/ ~/.mullvad-browser
+#rm -r ~/mullvad-browser/
 
 sudo cp -r candy-icons /usr/share/icons
 cd
