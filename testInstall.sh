@@ -15,6 +15,10 @@ sudo ufw enable
 
 sudo apt-get update && sudo apt-get upgrade -y
 
+# terminal text editor
+# VIM is required for keymap to work out of the box
+sudo apt-get install -y vim
+
 # network manager
 sudo apt-get install -y network-manager-gnome
 
