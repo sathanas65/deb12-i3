@@ -164,15 +164,8 @@ sudo snap install core
 sudo snap set core refresh.schedule=02:00-04:00
 
 # gui text editor
-# doom emacs - the geek is real but takes forever to install and is more than most people need
-sudo apt-get install -y emacs-gtk ripgrep
-rm -rf /home/$USER/.emacs.d/
-git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
-yes | .emacs.d/bin/doom install
-
 # geany
 sudo apt-get install -y geany
-
 # sublime text (NOT FOSS)
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
@@ -217,7 +210,6 @@ sudo apt-get update
 sudo apt-get install -y qownnotes
 
 # email client
-sudo apt-get install -y geary
 sudo apt-get install -y evolution
 sudo apt-get install -y thunderbird
 
