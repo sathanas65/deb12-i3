@@ -7,7 +7,7 @@ cp mullvad-browser.7z ~/
 rm ~/mullvad-browser.7z
 cp mullvad.7z ~/mullvad-browser 
 7z x ~/mullvad-browser/mullvad.7z -o"$HOME/mullvad-browser"
-rm ~/mullvad.7z
+rm ~/mullvad-browser/mullvad.7z
 cp -r ~/mullvad-browser/ ~/.mullvad-browser
 rm -r ~/mullvad-browser/
 
