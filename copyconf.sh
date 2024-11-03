@@ -10,7 +10,7 @@ cp mullvad.7z ~/mullvad-browser
 rm ~/mullvad-browser/mullvad.7z
 cp -r ~/mullvad-browser/ ~/.mullvad-browser
 rm -r ~/mullvad-browser/
-cp -r libreoffice/ ~/.config/
+cp -r config/libreoffice/ ~/.config/
 
 sudo cp -r candy-icons /usr/share/icons
 cd
