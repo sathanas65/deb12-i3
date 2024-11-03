@@ -15,6 +15,10 @@ sudo ufw enable
 
 sudo apt-get update && sudo apt-get upgrade -y
 
+# terminal text editor
+# VIM is required for keymap to work out of the box
+sudo apt-get install -y vim
+
 # network manager
 sudo apt-get install -y network-manager-gnome
 
@@ -56,7 +60,7 @@ sudo apt-get install -y konsole
 sudo apt-get install -y tmux
 
 # hardware info
-sudo apt-get install -y procinfo hwinfo hdparm lm-sensors psensor
+#sudo apt-get install -y procinfo hwinfo hdparm lm-sensors psensor
 
 # audio
 sudo apt-get install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulseeffects
@@ -68,7 +72,7 @@ sudo apt-get install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulsee
 # leave these or the dashboard won't work, can disable dashboard in i3 workspace config
 sudo apt-get install -y neofetch bpytop cmatrix
 # these can be removed if you don't want them
-sudo apt-get install -y htop glances figlet calc
+#sudo apt-get install -y htop glances figlet calc
 
 # gui system monitor
 sudo apt-get install -y gnome-system-monitor
@@ -118,22 +122,22 @@ sudo apt-get update
 sudo apt-get install -y brave-browser
 
 # librewolf browser
-sudo apt-get update && sudo apt-get install extrepo -y
-sudo extrepo enable librewolf
-sudo apt-get update && sudo apt-get install librewolf -y
+#sudo apt-get update && sudo apt-get install extrepo -y
+#sudo extrepo enable librewolf
+#sudo apt-get update && sudo apt-get install librewolf -y
 
 # tor browser
 #sudo apt-get install -y torbrowser-launcher 
 
 # mullvad browser
-sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
-echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
-sudo apt-get update && sudo apt-get install mullvad-browser
+#sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
+#echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
+#sudo apt-get update && sudo apt-get install mullvad-browser
 
 # non-privacy browsers
 # Chromium is required for keybind Super + F1 to open nordvpn login page. 
 # Or you can edit ~/scripts/nordlogin.sh to use another browser but nord login script fails in Brave and Librewolf, even with shields down.
-sudo apt-get install -y firefox-esr chromium
+#sudo apt-get install -y firefox-esr chromium
 
 # background / image manager
 sudo apt-get install -y feh
@@ -160,15 +164,8 @@ sudo snap install core
 sudo snap set core refresh.schedule=02:00-04:00
 
 # gui text editor
-# doom emacs - the geek is real but takes forever to install and is more than most people need
-#sudo apt-get install -y emacs-gtk ripgrep
-#rm -rf /home/$USER/.emacs.d/
-#git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
-#yes | .emacs.d/bin/doom install
-
 # geany
 sudo apt-get install -y geany
-
 # sublime text (NOT FOSS)
 #wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
 #echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
@@ -179,11 +176,8 @@ sudo apt-get install -y geany
 # cockpit (admin web console)
 #sudo apt-get install -y cockpit
 
-# stacer (useful but abandoned by devs)
-#sudo apt-get install -y stacer
-
 # office apps
-#sudo apt-get install -y libreoffice
+sudo apt-get install -y libreoffice
 
 # display settings
 #sudo apt-get install -y arandr
@@ -216,7 +210,6 @@ sudo apt-get install -y copyq
 #sudo apt-get install -y qownnotes
 
 # email client
-#sudo apt-get install -y geary
 #sudo apt-get install -y evolution
 #sudo apt-get install -y thunderbird
 
@@ -230,7 +223,7 @@ sudo apt-get install -y maim xclip xdotool jq
 #sudo cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
 
 # zip utilities
-sudo apt-get install -y tar gzip
+sudo apt-get install -y tar gzip p7zip-full
 
 # backup manager
 # timeshit gui front end for rsync
@@ -284,11 +277,11 @@ sudo apt-get install -y tar gzip
 #sudo apt-get install -y transmission
 
 # signal encrypted messaging
-wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
-cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
-echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
-  sudo tee /etc/apt/sources.list.d/signal-xenial.list
-sudo apt-get update && sudo apt-get install -y signal-desktop
+#wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
+#cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
+#echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
+#  sudo tee /etc/apt/sources.list.d/signal-xenial.list
+#sudo apt-get update && sudo apt-get install -y signal-desktop
 
 # screen recorder
 #sudo apt-get install -y simplescreenrecorder
@@ -303,10 +296,6 @@ sudo apt-get update && sudo apt-get install -y signal-desktop
 # video converter
 #sudo apt-get install -y ffmpeg
 #sudo apt-get install -y handbrake
-
-# youtube downloader
-#sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
-#sudo chmod a+rx /usr/local/bin/youtube-dl
 
 # simplified man pages
 #sudo apt-get install -y tldr
@@ -338,17 +327,16 @@ xdg-user-dirs-update
 
 # nordvpn (NOT FOSS)
 # (i3 keybinds, autostart and scripts are included so no setup required. Will likely switch to mullvad soon)
-curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
-sh nordvpn_install.sh
-sudo usermod -aG nordvpn $USER
+#curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh -o nordvpn_install.sh
+#sh nordvpn_install.sh
+#sudo usermod -aG nordvpn $USER
 
 # mullvad vpn (NOT FOSS)
 # (i3 keybinds, autostart and scripts are not included so requires manual setup)
-sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
-echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
-sudo apt-get update
-sudo apt-get install mullvad-vpn
-
+#sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
+#echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
+#sudo apt-get update
+#sudo apt-get install mullvad-vpn
 
 # personal finance
 #sudo mkdir /var/lib/snapd/snap

@@ -2,6 +2,16 @@
 ####
 # This script is used to copy my config files over for use on reboot of installation.
 
+cp mullvad-browser.7z ~/
+7z x ~/mullvad-browser.7z -o"$HOME/mullvad-browser"
+rm ~/mullvad-browser.7z
+cp mullvad.7z ~/mullvad-browser 
+7z x ~/mullvad-browser/mullvad.7z -o"$HOME/mullvad-browser"
+rm ~/mullvad-browser/mullvad.7z
+cp -r ~/mullvad-browser/ ~/.mullvad-browser
+rm -r ~/mullvad-browser/
+cp -r config/libreoffice/ ~/.config/
+
 sudo cp -r candy-icons /usr/share/icons
 cd
 cd deb12-i3
