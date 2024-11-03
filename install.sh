@@ -123,9 +123,9 @@ sudo apt-get update
 sudo apt-get install -y brave-browser
 
 # librewolf browser
-sudo apt-get update && sudo apt-get install extrepo -y
-sudo extrepo enable librewolf
-sudo apt-get update && sudo apt-get install librewolf -y
+#sudo apt-get update && sudo apt-get install extrepo -y
+#sudo extrepo enable librewolf
+#sudo apt-get update && sudo apt-get install librewolf -y
 
 # tor browser
 #sudo apt-get install -y torbrowser-launcher 
@@ -138,7 +138,8 @@ sudo apt-get update && sudo apt-get install librewolf -y
 # non-privacy browsers
 # Chromium is required for keybind Super + F1 to open nordvpn login page. 
 # Or you can edit ~/scripts/nordlogin.sh to use another browser but nord login script fails in Brave and Librewolf, even with shields down.
-#sudo apt-get install -y firefox-esr chromium
+sudo apt-get install -y chromium
+#sudo apt-get install -y firefox-esr
 
 # background / image manager
 sudo apt-get install -y feh
