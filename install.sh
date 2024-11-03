@@ -15,6 +15,10 @@ sudo ufw enable
 
 sudo apt-get update && sudo apt-get upgrade -y
 
+# terminal text editor
+# VIM is required for keymap to work out of the box
+sudo apt-get install -y vim
+
 # network manager
 sudo apt-get install -y network-manager-gnome
 
@@ -26,10 +30,6 @@ sudo apt-get install -y nemo
 #sudo apt-get install -y thunar
 #sudo apt-get install -y krusader
 #sudo apt-get install -y nautilus
-
-# terminal text editor
-# VIM is required for keymap to work out of the box
-sudo apt-get install -y vim
 
 # terminal file search
 sudo apt-get install -y fzf
@@ -89,15 +89,15 @@ sudo apt-get update && sudo apt-get upgrade -y
 mkdir ~/.local/share/applications/
 
 # printer support
-#sudo apt-get install -y cups
-#sudo systemctl enable cups
+sudo apt-get install -y cups
+sudo systemctl enable cups
 
 # bluetooth support
 sudo apt-get install -y bluez blueman
 sudo systemctl enable bluetooth
 
 # document viewer
-#sudo apt-get install -y evince
+sudo apt-get install -y evince
 #sudo apt-get install -y okular
 
 # ebook reader
@@ -108,6 +108,7 @@ sudo systemctl enable bluetooth
 
 # calculator
 #sudo apt-get install -y gnome-calculator
+#galculator is customized
 sudo apt-get install -y galculator
 
 #sudo apt-get install -y mate-calc
@@ -130,14 +131,14 @@ sudo apt-get update && sudo apt-get install librewolf -y
 #sudo apt-get install -y torbrowser-launcher 
 
 # mullvad browser
-sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
-echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
-sudo apt-get update && sudo apt-get install mullvad-browser
+#sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
+#echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
+#sudo apt-get update && sudo apt-get install mullvad-browser
 
 # non-privacy browsers
 # Chromium is required for keybind Super + F1 to open nordvpn login page. 
 # Or you can edit ~/scripts/nordlogin.sh to use another browser but nord login script fails in Brave and Librewolf, even with shields down.
-sudo apt-get install -y firefox-esr chromium
+#sudo apt-get install -y firefox-esr chromium
 
 # background / image manager
 sudo apt-get install -y feh
@@ -164,15 +165,8 @@ sudo snap install core
 sudo snap set core refresh.schedule=02:00-04:00
 
 # gui text editor
-# doom emacs - the geek is real but takes forever to install and is more than most people need
-#sudo apt-get install -y emacs-gtk ripgrep
-#rm -rf /home/$USER/.emacs.d/
-#git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
-#yes | .emacs.d/bin/doom install
-
 # geany
 sudo apt-get install -y geany
-
 # sublime text (NOT FOSS)
 #wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
 #echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
@@ -181,13 +175,10 @@ sudo apt-get install -y geany
 
 # system management
 # cockpit (admin web console)
-sudo apt-get install -y cockpit
-
-# stacer (useful but abandoned by devs)
-#sudo apt-get install -y stacer
+#sudo apt-get install -y cockpit
 
 # office apps
-#sudo apt-get install -y libreoffice
+sudo apt-get install -y libreoffice
 
 # display settings
 sudo apt-get install -y arandr
@@ -205,7 +196,7 @@ sudo apt-get install -y gnome-disk-utility gsmartcontrol gparted
 sudo apt-get install -y copyq
 
 # notes manager
-# zim (easy checkbox lists and much more)
+zim (easy checkbox lists and much more)
 sudo apt-get install -y zim
 
 # qownnotes (markdown stored as plain text, great features)
@@ -220,9 +211,8 @@ sudo apt-get install -y zim
 #sudo apt-get install -y qownnotes
 
 # email client
-#sudo apt-get install -y geary
 #sudo apt-get install -y evolution
-sudo apt-get install -y thunderbird
+#sudo apt-get install -y thunderbird
 
 # screenshots
 sudo apt-get install -y maim xclip xdotool jq
@@ -230,27 +220,27 @@ sudo apt-get install -y maim xclip xdotool jq
 # image editors (gimp is like Adobe Photoshop and pinta is like MS Paint)
 #sudo apt-get install -y gimp
 
-sudo snap install pinta
-sudo cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
+#sudo snap install pinta
+#sudo cp /var/lib/snapd/desktop/applications/pinta_pinta.desktop ~/.local/share/applications/
 
 # zip utilities
 sudo apt-get install -y tar gzip p7zip-full
 
 # backup manager
 # timeshit gui front end for rsync
-sudo apt-get install -y timeshift
+#sudo apt-get install -y timeshift
 # duplicity - great CLI for cloud backup - supported by backblaze B2
 #sudo apt-get install -y duplicity
 
 # remote desktop client 
 #anydesk (NOT FOSS)
-sudo apt-get install software-properties-common apt-transport-https dirmngr ca-certificates curl -y
-curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo gpg --dearmor | sudo tee /usr/share/keyrings/anydesk.gpg > /dev/null
-echo 'deb [signed-by=/usr/share/keyrings/anydesk.gpg] http://deb.anydesk.com/ all main' | sudo tee /etc/apt/sources.list.d/anydesk.list
-wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
-echo "deb http://deb.anydesk.com/ all main" sudo tee /etc/apt/sources.list.d/anydesk-stable.list
-sudo apt-get update
-sudo apt-get install -y anydesk
+#sudo apt-get install software-properties-common apt-transport-https dirmngr ca-certificates curl -y
+#curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo gpg --dearmor | sudo tee /usr/share/keyrings/anydesk.gpg > /dev/null
+#echo 'deb [signed-by=/usr/share/keyrings/anydesk.gpg] http://deb.anydesk.com/ all main' | sudo tee /etc/apt/sources.list.d/anydesk.list
+#wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
+#echo "deb http://deb.anydesk.com/ all main" sudo tee /etc/apt/sources.list.d/anydesk-stable.list
+#sudo apt-get update
+#sudo apt-get install -y anydesk
 
 #teamviewer (NOT FOSS)
 #sudo apt-get install -y policykit-1
@@ -264,14 +254,14 @@ sudo apt-get install -y anydesk
 #sudo ufw allow 20:21/tcp
 #sudo ufw allow 20000:25000/tcp
 # ftp client (midnight commander)
-sudo apt-get install -y mc
+#sudo apt-get install -y mc
 
 # gpg encryption manager
-sudo apt-get install -y kleopatra
+#sudo apt-get install -y kleopatra
 
 # password manager
 # keepass2 - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
-sudo apt-get install -y keepass2
+#sudo apt-get install -y keepass2
 
 # bitwarden - (NOT FOSS) - great feautures - syncs across devices - passwords stored in cloud
 #sudo snap install bitwarden
@@ -279,23 +269,23 @@ sudo apt-get install -y keepass2
 
 # 2fa app
 # Google Authenticator (NOT FOSS)
-sudo apt-get install -y libpam-google-authenticator 
+#sudo apt-get install -y libpam-google-authenticator 
 # Authpass
-sudo snap install authpass
-sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
+#sudo snap install authpass
+#sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
 
 # torrent client
-sudo apt-get install -y transmission
+#sudo apt-get install -y transmission
 
 # signal encrypted messaging
-wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
-cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
-echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
-  sudo tee /etc/apt/sources.list.d/signal-xenial.list
-sudo apt-get update && sudo apt-get install -y signal-desktop
+#wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
+#cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
+#echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
+#  sudo tee /etc/apt/sources.list.d/signal-xenial.list
+#sudo apt-get update && sudo apt-get install -y signal-desktop
 
 # screen recorder
-sudo apt-get install -y simplescreenrecorder
+#sudo apt-get install -y simplescreenrecorder
 #sudo apt-get install -y kazam
 
 # video editor
@@ -305,12 +295,8 @@ sudo apt-get install -y simplescreenrecorder
 #sudo cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
 
 # video converter
-sudo apt-get install -y ffmpeg
+#sudo apt-get install -y ffmpeg
 #sudo apt-get install -y handbrake
-
-# youtube downloader
-#sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
-#sudo chmod a+rx /usr/local/bin/youtube-dl
 
 # simplified man pages
 sudo apt-get install -y tldr
@@ -352,7 +338,6 @@ sudo usermod -aG nordvpn $USER
 #echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list
 #sudo apt-get update
 #sudo apt-get install mullvad-vpn
-
 
 # personal finance
 #sudo mkdir /var/lib/snapd/snap
@@ -403,10 +388,10 @@ git clone https://github.com/EliverLara/candy-icons
 
 ### graphical user interface
 
-# window manager
+# window manager DO NOT REMOVE
 sudo apt-get install -y i3 i3blocks acpi-support
 
-# display manager
+# display manager DO NOT Remove
 sudo apt-get install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 
 
