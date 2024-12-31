@@ -177,6 +177,10 @@ sudo apt-get install -y geany
 # system management
 # cockpit (admin web console)
 #sudo apt-get install -y cockpit
+# stacer (open source system optimizer and application monitor)
+#sudo add-apt-repository ppa:oguzhaninan/stacer
+#sudo apt-get update
+#sudo apt-get install stacer
 
 # office apps
 sudo apt-get install -y libreoffice
