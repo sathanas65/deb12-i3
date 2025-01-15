@@ -177,6 +177,10 @@ sudo apt-get install -y geany
 # system management
 # cockpit (admin web console)
 #sudo apt-get install -y cockpit
+# stacer (open source system optimizer and application monitor)
+#sudo add-apt-repository ppa:oguzhaninan/stacer
+#sudo apt-get update
+#sudo apt-get install stacer
 
 # office apps
 sudo apt-get install -y libreoffice
@@ -277,6 +281,7 @@ sudo apt-get install -y tar gzip p7zip-full
 
 # smartphone manager
 #sudo apt-get install -y kdeconnect
+
 
 # wireguard based software defined network
 curl -fsSL https://pkgs.tailscale.com/stable/debian/bookworm.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
