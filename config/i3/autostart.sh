@@ -11,6 +11,7 @@ volumeicon &
 copyq &
 xset s off &
 xset -dpms &
+#kdeconnect-indicator &
 #psensor &
 
 #configure backgroung
