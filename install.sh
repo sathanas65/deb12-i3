@@ -279,6 +279,9 @@ sudo apt-get install -y tar gzip p7zip-full
 #sudo snap install authpass
 #sudo cp /var/lib/snapd/desktop/applications/authpass_authpass.desktop ~/.local/share/applications/
 
+# smartphone manager
+#sudo apt-get install -y kdeconnect
+
 # torrent client
 #sudo apt-get install -y transmission
 
