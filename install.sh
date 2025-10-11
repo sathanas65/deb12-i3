@@ -9,6 +9,24 @@ while true; do
     sleep 60
 done &
 
+# shim to allow systemd commands to work with runit (because I am installing antix with runit on an ancient laptop for giggles 10/2025)
+# DO NOT ENABLE THIS FOR USE WITH DEBIAN
+cat >/usr/local/bin/systemctl <<'EOF'
+cmd="$1"; svc="$2"
+case "$cmd" in
+  start)    if [ -d /etc/service/$svc ]; then sv up /etc/service/$svc; else service "$svc" start; fi ;;
+  stop)     if [ -d /etc/service/$svc ]; then sv down /etc/service/$svc; else service "$svc" stop; fi ;;
+  restart)  if [ -d /etc/service/$svc ]; then sv restart /etc/service/$svc; else service "$svc" restart; fi ;;
+  status)   if [ -d /etc/service/$svc ]; then sv status /etc/service/$svc; else service "$svc" status; fi ;;
+  enable)   if [ -d /etc/sv/$svc ]; then ln -sf /etc/sv/$svc /etc/service/; else update-rc.d "$svc" defaults; fi ;;
+  disable)  if [ -L /etc/service/$svc ]; then rm /etc/service/$svc; else update-rc.d -f "$svc" remove; fi ;;
+  *)        echo "systemctl shim: unsupported subcommand '$cmd'"; exit 1 ;;
+esac
+EOF
+chmod +x /usr/local/bin/systemctl
+# --- end shim ---
+
+
 # firewall
 sudo apt-get install -y ufw
 sudo ufw enable
