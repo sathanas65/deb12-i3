@@ -20,8 +20,46 @@ ask_for_password() {
     fi
 }
 
+#!/bin/bash
+
+export DISPLAY=:0
+export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u)/bus"
+
+# Log debugging info
+LOG_FILE="/tmp/smb_debug.log"
+exec >> "$LOG_FILE" 2>&1
+echo "Script started at $(date)"
+
+# Extract the tmux session name to decide which command to run
+session_name=$(tmux display-message -p '#S')
+
+# Function to ask for password and run sudo -v
+ask_for_password() {
+    yad --entry --title="Authentication Required" --text="Enter password for $session_name:" \
+        --button=gtk-ok:0 --width=300 --height=100 --center \
+        --undecorated --on-top --skip-taskbar --skip-pager --hide-text | sudo -S -v
+
+    # Check if the sudo credential update was successful
+    if [ $? -ne 0 ]; then
+        notify-send "Session: $session_name" "Authentication failed. Exiting." -u critical
+        echo "Authentication failed for $session_name."
+        tmux kill-session -t "$session_name"
+        exit 1
+    fi
+}
+
 case "$session_name" in
-	shutdown)
+    unmount_smb)
+        ask_for_password
+        if sudo umount /mnt/smb_share; then
+            notify-send "SMB Unmount" "Successfully unmounted /mnt/smb_share." -u normal
+            echo "Successfully unmounted /mnt/smb_share."
+        else
+            notify-send "SMB Unmount" "Failed to unmount /mnt/smb_share." -u critical
+            echo "Failed to unmount /mnt/smb_share."
+        fi
+        ;;
+    shutdown)
         ask_for_password
         sudo shutdown now
         ;;
@@ -83,7 +121,8 @@ case "$session_name" in
         konsole --profile "Profile 1" --noclose -e sh -c 'sudo cp /etc/NetworkManager/NetworkManager.conf /etc/NetworkManager/NetworkManager.conf.bkp && sudo nano /etc/NetworkManager/NetworkManager.conf'
         ;;
     *)
-        echo "Invalid session. Please use a valid tmux session name."
+        notify-send "Session: $session_name" "Unknown session action: $session_name" -u critical
+        echo "Unknown session action: $session_name."
         exit 1
         ;;
 esac
