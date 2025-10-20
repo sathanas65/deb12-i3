@@ -27,9 +27,9 @@ font pango:monospace 12
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 
 #for bare metal install, uncomment below and set to your outputs
-set $display_output_left DP-0
+set $display_output_left DisplayPort-1
 set $display_output_right DVI-D-0
-set $display_output_top HDMI-0
+set $display_output_top HDMI-A-0
 include ~/.config/i3/config.d/baremetal.conf
 
 #for kvm-qemu guest install, uncomment below
