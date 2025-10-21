@@ -279,6 +279,17 @@ sudo apt-get install -y tar gzip p7zip-full
 # ftp client (midnight commander)
 #sudo apt-get install -y mc
 
+# file encryption
+cd /tmp
+wget https://launchpad.net/veracrypt/trunk/1.26.24/+download/veracrypt-console-1.26.24-Debian-12-amd64.deb
+wget https://launchpad.net/veracrypt/trunk/1.26.24/+download/veracrypt-console-1.26.24-Debian-12-amd64.deb.sig
+wget https://www.idrix.fr/VeraCrypt/VeraCrypt_PGP_public_key.asc
+gpg --show-keys VeraCrypt_PGP_public_key.asc
+gpg --import VeraCrypt_PGP_public_key.asc
+gpg --verify veracrypt-console-1.26.24-Debian-12-amd64.deb.sig \
+             veracrypt-console-1.26.24-Debian-12-amd64.deb
+sudo apt install ./veracrypt-console-1.26.24-Debian-12-amd64.deb
+
 # gpg encryption manager
 #sudo apt-get install -y kleopatra
 
