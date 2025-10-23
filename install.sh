@@ -306,8 +306,6 @@ sudo apt-get install -y kazam
 # video editor
 sudo apt-get install -y kdenlive
 sudo apt-get install -y shotcut
-sudo snap install openshot-community --candidate
-sudo cp /var/lib/snapd/desktop/applications/openshot-community_openshot-community.desktop ~/.local/share/applications/
 
 # video converter
 sudo apt-get install -y ffmpeg
