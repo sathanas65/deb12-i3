@@ -156,7 +156,7 @@ echo "deb [signed-by=/etc/apt/keyrings/fpf-apt-tools-archive-keyring.gpg] \
     https://packages.freedom.press/apt-tools-prod ${VERSION_CODENAME?} main" \
     | sudo tee /etc/apt/sources.list.d/fpf-apt-tools.list
 sudo apt update
-sudo apt install -y dangerzone    
+sudo apt-get install -y dangerzone    
 
 # background / image manager
 sudo apt-get install -y feh
@@ -283,7 +283,7 @@ sudo apt-get install -y tar gzip p7zip-full
 #gpg --import VeraCrypt_PGP_public_key.asc
 #gpg --verify veracrypt-console-1.26.24-Debian-12-amd64.deb.sig \
 #             veracrypt-console-1.26.24-Debian-12-amd64.deb
-#sudo apt install ./veracrypt-console-1.26.24-Debian-12-amd64.deb
+#sudo apt-get install -y ./veracrypt-console-1.26.24-Debian-12-amd64.deb
 
 # gpg encryption manager
 #sudo apt-get install -y kleopatra
