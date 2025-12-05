@@ -13,6 +13,10 @@ done &
 sudo apt-get install -y ufw
 sudo ufw enable
 
+#TODO
+#Dangerzone
+#Freemind
+
 sudo apt-get update && sudo apt-get upgrade -y
 
 # terminal text editor
