@@ -298,8 +298,8 @@ sudo apt-get install -y tar gzip p7zip-full
 #sudo apt-get install -y kleopatra
 
 # password manager
-# keepass2 - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
-sudo apt-get install -y keepass2
+# keepassxc - mobile version but no syncing - passwords only stored locally - supports local database file syncing so you can manually sync devices by export/import of database
+sudo apt-get install -y keepassxc
 
 # bitwarden - (NOT FOSS) - great feautures - syncs across devices - passwords stored in cloud
 #sudo snap install bitwarden
