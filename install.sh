@@ -16,6 +16,11 @@ sudo ufw enable
 #TODO
 #Dangerzone
 #Freemind
+#Kiwix
+#Waydroid
+#Winboat
+#Wazuh
+#GNU PGP (-Kleopatra)
 
 sudo apt-get update && sudo apt-get upgrade -y
 
